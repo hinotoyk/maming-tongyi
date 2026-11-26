@@ -17,7 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # 28,589 页 SSG，本地 4m22s，runner 更慢，留足余量
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - name: Build with Astro
