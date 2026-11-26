@@ -1,0 +1,29 @@
+---
+/**
+ * 简称行：紧跟在名称栏下面，只在有简称时出现。
+ * 简称是多对一的人工简写，不占名称栏的位置，也不参与分级。
+ */
+import type { Names } from '../lib/data';
+
+interface Props {
+  names: Names;
+}
+
+const { names } = Astro.props;
+const list = names.alias ?? [];
+---
+
+{
+  list.length > 0 && (
+    <div class="aliasline">
+      <span class="aliasline-k">简称</span>
+      <div class="chips">
+        {list.map((a) => (
+          <span class="chip" title={a.note || undefined}>
+            {a.text}
+          </span>
+        ))}
+      </div>
+    </div>
+  )
+}

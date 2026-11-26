@@ -1,0 +1,28 @@
+---
+interface Col {
+  lbl: string;
+  v: string;
+  big?: boolean;
+  empty?: boolean;
+}
+
+interface Props {
+  cols: Col[];
+}
+
+const { cols } = Astro.props;
+---
+
+<div class="names">
+  {
+    cols.map((c, i) => (
+      <>
+        {i > 0 && <span class="nsep">/</span>}
+        <div class:list={['ncol', c.big && 'ncol-big', c.empty && 'ncol-empty']}>
+          <span class="ncol-lbl">{c.lbl}</span>
+          <span class="ncol-v">{c.v}</span>
+        </div>
+      </>
+    ))
+  }
+</div>

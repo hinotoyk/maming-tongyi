@@ -1,0 +1,303 @@
+---
+/**
+ * 血统图：JBIS 5 代血統表 → 一张 6 列网格（本体 + 1–5 代），版式照 yunji-web 的血统页。
+ *
+ * 几何：总行数 32（2 的幂）——父系占上半（1–16 行）、母系占下半（17–32 行），
+ * 每代向下二分，所以 1 代各占 16 行、2 代 8 行……5 代 1 行，正好复现传统血统表。
+ * 本体（这匹马自己）在第 1 列，跨满 32 行，纵向居中。
+ *
+ * 配色（取自 yunji 血统页）：牡浅蓝 #ccf0fd / 牝浅粉 #fddbd5，名字随之取深蓝 / 深红；
+ * 格子之间 1px 灰线，空位画斜纹。
+ *
+ * 数据来自 s5_export 的 pedigree.tree，深代只有名字 + 生年（体积取舍见那边的注释）。
+ */
+import type { Pedigree, PedigreeNode } from '../lib/data';
+
+interface Props {
+  ped: Pedigree;
+  /** 本体名字（原文优先）与档案，用于左侧第一格 */
+  name: string;
+  /** M / F / G，决定本体格子的蓝 / 粉 */
+  sex: string | null;
+  birthYear: number | null;
+  color: string | null;
+}
+
+const { ped, name, sex, birthYear, color } = Astro.props;
+
+/** 总行数取 32：每代跨度 32 / 2^g 都是整数，写成 16.5 浏览器会整条丢掉 */
+const ROWS = 32;
+const selfF = sex === 'F';
+
+type Cell = { col: number; row: string; node: PedigreeNode | null; g: number };
+
+function cells(side: '父' | '母'): Cell[] {
+  const offset = side === '母' ? ROWS / 2 : 0;
+  const out: Cell[] = [];
+  const rows = ped.tree?.[side] ?? [];
+  for (let g = 1; g <= 5; g++) {
+    const span = ROWS / 2 ** g;
+    const row = rows[g - 1] ?? [];
+    for (let i = 0; i < 2 ** (g - 1); i++) {
+      const start = 1 + offset + i * span;
+      out.push({ col: 1 + g, row: `${start} / ${start + span}`, node: row[i] ?? null, g });
+    }
+  }
+  return out;
+}
+
+/** JBIS 的名字自带产地后缀（`Bois Roussel(FR)`），拆出来单独用浅一档的颜色画 */
+function split(name: string): [string, string] {
+  const m = /^(.*?)(\((?:JPN|USA|GB|IRE|FR|GER|ARG|CAN|AUS|NZ|BRZ|CHI|ITY|SAF|IND|KOR|UAE|TUR|SWE|DEN|NOR|POL|CZE|HUN|RUS|URU|PER|VEN|MEX|PUR|JAM|SIN|MAL|HK)$)/.exec(name);
+  return m ? [m[1], m[2]] : [name, ''];
+}
+
+const sides: ('父' | '母')[] = ['父', '母'];
+
+/** 拍平：父系在上半、母系在下半，名字先拆成「本体 + 产地」，模板里不再做分支 */
+const all = sides.flatMap((side) =>
+  cells(side).map((c) => {
+    if (!c.node) return { ...c, nm: '', ctry: '' };
+    const [nm, ctry] = split(c.node.n);
+    return { ...c, nm, ctry };
+  }),
+);
+---
+
+<div class="ped">
+  <div class="ped-hd">
+    {ped.fno && (
+      <span>
+        <b>FNo</b> {ped.fno}
+      </span>
+    )}
+    {ped.cross && (
+      <span>
+        <b>クロス</b> {ped.cross}
+      </span>
+    )}
+    <span class="ped-key">
+      <i class="km" />牡<i class="kf" />牝
+    </span>
+  </div>
+
+  <div class="pgrid">
+    <div class:list={['pcell', 'self', selfF ? 'f' : 'm']} style={`grid-column:1;grid-row:1 / span ${ROWS}`}>
+      <div class="pin">
+        <span class="pname self-name">{name}</span>
+        <span class="pmeta">
+          {[birthYear ? `${birthYear} 年` : '', color ?? ''].filter(Boolean).join(' · ')}
+        </span>
+      </div>
+    </div>
+
+    {
+      all.map(({ col, row, node, g, nm, ctry }) =>
+        node ? (
+          <div
+            class:list={['pcell', node.s === '牝' ? 'f' : 'm', `g${g}`]}
+            style={`grid-column:${col};grid-row:${row}`}
+            title={[node.n, node.y ? `${node.y} 年生` : '', node.c].filter(Boolean).join(' · ')}
+          >
+            <div class="pin">
+              <div class="pr1">
+                {node.id ? (
+                  <a class="pname" href={`https://www.jbis.or.jp/horse/${node.id}/`} target="_blank" rel="noopener">
+                    {nm}
+                  </a>
+                ) : (
+                  <span class="pname">{nm}</span>
+                )}
+                {ctry && <span class="pctry">{ctry}</span>}
+                {!node.c && node.y && <span class="pyr">{node.y}</span>}
+              </div>
+              {node.c && <div class="pmeta">{[node.y ?? '', node.c].filter(Boolean).join(' · ')}</div>}
+            </div>
+          </div>
+        ) : (
+          <div class="pcell x" style={`grid-column:${col};grid-row:${row}`} />
+        ),
+      )
+    }
+  </div>
+</div>
+
+<style>
+  .ped {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    background: var(--color-card);
+    padding: 10px 12px 12px;
+    overflow-x: auto;
+    /* 窄屏靠这层横滚；必须给 min-width:0，否则 grid 父级按 min-content 撑宽整页 */
+    min-width: 0;
+    max-width: 100%;
+  }
+  .ped-hd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    padding: 0 2px 8px;
+    font-size: 11.5px;
+    color: #52525b;
+  }
+  .ped-hd b {
+    color: #0b6b64;
+    font-weight: 600;
+    margin-right: 3px;
+    letter-spacing: 0.3px;
+  }
+  .ped-key {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: var(--color-muted-foreground);
+  }
+  .ped-key i {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  .ped-key .km {
+    background: #ccf0fd;
+    border: 1px solid #a9ddf2;
+  }
+  .ped-key .kf {
+    background: #fddbd5;
+    border: 1px solid #f2c0b8;
+  }
+
+  /* 6 列 × 32 行；1px gap 用底色画成网格线 */
+  .pgrid {
+    display: grid;
+    grid-template-columns: 1.06fr repeat(5, 1fr);
+    grid-template-rows: repeat(32, 25px);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    overflow: hidden;
+    min-width: 980px;
+  }
+
+  .pcell {
+    min-width: 0;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 2px 7px;
+  }
+  .pcell .pin {
+    min-width: 0;
+    width: 100%;
+  }
+  .pcell.m {
+    background: #ccf0fd;
+  }
+  .pcell.f {
+    background: #fddbd5;
+  }
+  .pcell.m .pname {
+    color: #1a5c8a;
+  }
+  .pcell.f .pname {
+    color: #ab3832;
+  }
+  .pcell.m .pctry,
+  .pcell.m .pyr,
+  .pcell.m .pmeta {
+    color: #5f8fae;
+  }
+  .pcell.f .pctry,
+  .pcell.f .pyr,
+  .pcell.f .pmeta {
+    color: #b57d76;
+  }
+  .pcell.x {
+    background: repeating-linear-gradient(45deg, #fbfbfb, #fbfbfb 6px, #f1f1f1 6px, #f1f1f1 12px);
+  }
+  .pcell:hover {
+    box-shadow: inset 0 0 0 1.5px rgba(11, 107, 100, 0.35);
+  }
+
+  .pr1 {
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+    min-width: 0;
+  }
+  .pname {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+  .pname:hover {
+    text-decoration: underline;
+  }
+  .pctry {
+    flex: none;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  .pyr {
+    flex: none;
+    margin-left: auto;
+    padding-left: 3px;
+    font-size: 9.5px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  .pmeta {
+    font-size: 9.5px;
+    line-height: 1.3;
+    margin-top: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .pcell.g3 .pname {
+    font-size: 11px;
+  }
+  .pcell.g4 .pname,
+  .pcell.g5 .pname {
+    font-size: 10.5px;
+    font-weight: 600;
+  }
+  .pcell.g4 .pctry,
+  .pcell.g5 .pctry {
+    font-size: 8.5px;
+  }
+  .pcell.g4 .pyr,
+  .pcell.g5 .pyr {
+    font-size: 9px;
+  }
+  /* 5 代一格只有 1 行高：名字让位给年份，长名用省略号收 */
+  .pcell.g5 .pname {
+    flex: 0 1 auto;
+  }
+
+  .pcell.self .pin {
+    text-align: left;
+  }
+  .self-name {
+    display: block;
+    font-size: 13px;
+  }
+  .pcell.self .pmeta {
+    margin-top: 2px;
+  }
+</style>

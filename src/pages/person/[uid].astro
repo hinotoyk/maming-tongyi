@@ -1,0 +1,108 @@
+---
+import Base from '../../layouts/Base.astro';
+import Names from '../../components/Names.astro';
+import Info from '../../components/Info.astro';
+import Aliases from '../../components/Aliases.astro';
+import { persons, href, fmtDate, primaryName, nameCols, personRaces } from '../../lib/data';
+
+export function getStaticPaths() {
+  return persons.map((p) => ({ params: { uid: p.uid }, props: { p } }));
+}
+
+const { p } = Astro.props;
+const races = personRaces(p);
+const mounts = races.reduce((n, x) => n + x.horses.length, 0);
+
+const cols = nameCols(p.names);
+
+const facts = [
+  { k: '身份', v: p.role_cn, r: p.role === 'jockey' ? 'Jockey' : 'Trainer' },
+  { k: '国籍', v: p.nationality_cn || '—', r: p.nationality },
+  { k: '本场', v: `${mounts} 匹`, r: p.role === 'jockey' ? '坐骑' : '管理马' },
+  { k: '出场', v: `${races.length} 场公告`, r: '抓到的比赛页' },
+];
+---
+
+<Base title={primaryName(p.names)} nav="archive">
+  <div class="crumb">
+    <a href={href()}>名称档案</a><span>/</span><a href={href()}>{p.role_cn}</a><span>/</span>{primaryName(
+      p.names,
+    )}
+  </div>
+
+  <div class="sec">
+    名称 · <span class="en">NAMES</span>
+    <span class="sec-right"><span class="lv lv-l2">公告直取</span></span>
+  </div>
+
+  <Names cols={cols} />
+  <Aliases names={p.names} />
+
+  <div class="sec">档案 · <span class="en">PROFILE</span></div>
+  <Info rows={facts} />
+
+  <div class="sec">
+    本场关联 · <span class="en">IN THIS RACE</span>
+    <span class="sec-right">{races.length} 场</span>
+  </div>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:112px">赛期</th>
+          <th>赛事</th>
+          <th style="width:56px">马号</th>
+          <th>马名</th>
+          <th style="width:80px" class="num">负磅</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          races.flatMap(({ race, horses }) =>
+            horses.map((h, i) => {
+              const e = race.entries.find((x) => x.horse_uid === h.uid);
+              return (
+                <tr>
+                  <td class="kind">{i === 0 ? fmtDate(race.race_date) : ''}</td>
+                  <td>{i === 0 && <a href={href(`race/${race.uid}/`)}>{primaryName(race.names)}</a>}</td>
+                  <td class="num" style="font-weight:600">{e?.no ?? '—'}</td>
+                  <td>
+                    <div class="tname">
+                      <a class="tzh" href={href(`horse/${h.uid}/`)}>
+                        {h.names.hk || h.names.en || '—'}
+                      </a>
+                      <span class="ten">{h.names.en}</span>
+                    </div>
+                  </td>
+                  <td class="num">{e?.lb ?? '—'}</td>
+                </tr>
+              );
+            }),
+          )
+        }
+        {races.length === 0 && (
+          <tr>
+            <td colspan="5" class="nores">暂无抓到的比赛页记录。</td>
+          </tr>
+        )}
+      </tbody>
+    </table>
+  </div>
+  <div class="srcnote">
+    人物页只记「这些公告里他出现在哪」，不累计胜场、不排名次。出生年、所属、骑乘履历需要 JBIS / netkeiba 人物页，属后续阶段。
+  </div>
+
+  <div class="sec">来源 · <span class="en">SOURCES</span></div>
+  <Info
+    rows={[
+      {
+        k: '公告页',
+        v: races.length
+          ? `<a href="${href(`race/${races[0].race.uid}/`)}">${primaryName(races[0].race.names)}</a>`
+          : '—',
+        r: `${races.length} 份`,
+      },
+      { k: '抓取', v: 'HKJC 公告附件 / 内联表', r: '原件不入库' },
+    ]}
+  />
+</Base>

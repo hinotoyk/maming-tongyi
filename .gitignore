@@ -1,0 +1,40 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.astro/
+*.tsbuildinfo
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 抓取原件：体积大 + 版权 + 可重跑，不入库
+cache/
+raw/
+*.doc
+*.docx
+*.xlsx
+
+# 但样本附件要保留：用于验证解析器
+!data-src/samples/*.docx
+
+# 工作库：二进制易冲突，靠 schema.sql + 管线重建
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.db
+
+# 派生中间产物（public/data 是正式产物，要入库）
+data-src/_derived/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

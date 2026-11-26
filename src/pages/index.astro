@@ -1,0 +1,518 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  aliasText,
+  archive,
+  countBy,
+  curated,
+  href,
+  indexTotal,
+  manifest,
+  nationOptions,
+  PAGE_SIZE,
+  pendingCount,
+  searchKey,
+} from '../lib/data';
+
+const total = archive.length;
+const counts = {
+  horse: countBy('horse'),
+  race: countBy('race'),
+  jockey: countBy('jockey'),
+  trainer: countBy('trainer'),
+};
+
+// 首屏 = 第 1 页：默认落在「马匹」栏，所以 SSR 输出的是马匹集合的前 PAGE_SIZE 条。
+// 客户端 view 用同一条规则（rows.json 按序过滤 f === 'horse'）算出来，两边逐条相同，
+// 翻页时才不会和首屏重叠或跳行。
+const horseRows = archive.filter((r) => r.filter === 'horse');
+const horseTotal = horseRows.length;
+const firstRows = horseRows.slice(0, PAGE_SIZE);
+const pageTotal = Math.max(1, Math.ceil(horseTotal / PAGE_SIZE));
+const nats = nationOptions();
+
+const qkey = (r: (typeof archive)[number]) =>
+  `${searchKey(r.names)} ${r.country} ${r.cc}`.toLowerCase();
+---
+
+<Base title="名称档案" nav="archive">
+  <div class="sec">
+    全部名称 · <span class="en">NAMES</span>
+    <span class="sec-right">
+      共 {total} 条 · {counts.horse} 匹马 / {counts.race} 场赛事 / {counts.jockey} 位骑手 / {
+        counts.trainer
+      } 位练马师
+    </span>
+  </div>
+
+  <p class="lead">
+    马匹、赛事、骑手、练马师平铺在一起，不做分组。每一行都是同一套名栏：<b>原文 → 英文 → 港译 → 简体 → 自译</b>，
+    缺哪一栏就空着，不猜、不补。其中<b>简体</b>只是港译的逐字转写，不另作校订；<b>简称</b>是稿中简写，
+    一个实体可以挂好几个（多对一），由人工维护。
+  </p>
+
+  <div class="searchrow">
+    <div class="sbox">
+      <input
+        id="q"
+        type="search"
+        autocomplete="off"
+        placeholder="查原文 / 英文 / 港译 / 简体 / 自译 / 简称，空格分隔多个词（须同时命中）"
+        aria-label="搜索名称"
+      />
+    </div>
+    <select id="field" aria-label="检索字段">
+      <option value="all">全部字段</option>
+      <option value="name">只查名称（不查血统）</option>
+      <option value="o">原文</option>
+      <option value="e">英文</option>
+      <option value="h">港译</option>
+      <option value="s">简体</option>
+      <option value="w">自译</option>
+      <option value="a">简称</option>
+      <option value="父">父</option>
+      <option value="母">母</option>
+      <option value="母父">母父</option>
+      <option value="父父">父父</option>
+    </select>
+    <select id="nat" aria-label="按马匹国籍筛选">
+      <option value="">全部国籍</option>
+      {nats.map((n) => <option value={n.code} data-n={n.count}>{n.cn} {n.code}（{n.count}）</option>)}
+    </select>
+    <span class="searchhint">试试 巧繡 · 巧绣 · M.傲 · Embroidery · マイル · JPN · 父名</span>
+  </div>
+
+  <div class="seg" id="seg" role="group" aria-label="按类型筛选">
+    <button aria-pressed="false" data-kind="all">全部 <b>{total}</b></button>
+    <button aria-pressed="true" data-kind="horse">马匹 <b>{counts.horse}</b></button>
+    <button aria-pressed="false" data-kind="race">赛事 <b>{counts.race}</b></button>
+    <button aria-pressed="false" data-kind="jockey">骑手 <b>{counts.jockey}</b></button>
+    <button aria-pressed="false" data-kind="trainer">练马师 <b>{counts.trainer}</b></button>
+  </div>
+
+  <div class="card scroll">
+    <table data-total={total}>
+      <thead>
+        <tr>
+          <th style="width:88px">类型</th>
+          <th>原文</th>
+          <th style="width:168px">英文</th>
+          <th style="width:142px">港译</th>
+          <th style="width:136px">简体</th>
+          <th style="width:132px">自译</th>
+          <th style="width:132px">简称</th>
+          <th style="width:92px">国籍</th>
+          <th style="width:84px">状态</th>
+        </tr>
+      </thead>
+      <tbody id="rows">
+        {
+          firstRows.map((r) => (
+            <tr data-kind={r.filter} data-cc={r.cc} data-uid={r.uid} data-q={qkey(r)}>
+              <td class="kind">{r.kind_cn}</td>
+              <td>
+                <a href={href(r.path)} class="nmain">
+                  {r.names.original || '—'}
+                </a>
+              </td>
+              <td class="en-cell">{r.names.en || '—'}</td>
+              <td>{r.names.hk || '—'}</td>
+              <td class="sc-cell">{r.names.sc || '—'}</td>
+              <td>{r.names.own || '—'}</td>
+              <td class="alias-cell">{aliasText(r.names) || '—'}</td>
+              <td class="kind">
+                {r.country}
+                {r.cc && <span class:list={['orig', r.cc === 'JPN' && 'orig-jp']}>{r.cc}</span>}
+              </td>
+              <td>
+                {r.status === '已校订' ? (
+                  <span class="kk">已校订</span>
+                ) : (
+                  <span class:list={['lv', r.status_cls]}>{r.status}</span>
+                )}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+    <div id="nores" class="nores" hidden>没有匹配的名称。换一个关键词，或清空搜索框。</div>
+  </div>
+
+  <div class="pager">
+    <span>
+      显示 <b id="from">1</b>–<b id="to">{firstRows.length}</b> / <b id="cntTotal">{horseTotal}</b> 条
+    </span>
+    <span class="pgs">
+      <button class="pg" id="pgFirst" disabled>首页</button>
+      <button class="pg" id="pgPrev" disabled>上一页</button>
+      <span class="pgn">第 <b id="pageN">1</b> / <b id="pageT">{pageTotal}</b> 页</span>
+      <button class="pg" id="pgNext">下一页</button>
+      <button class="pg" id="pgLast">末页</button>
+    </span>
+  </div>
+
+  <div class="srcnote">
+    每页 {PAGE_SIZE} 条 · 索引入库 {indexTotal} 篇公告 · 翻页与搜索都在全量上做（不分繁简、忽略空格）·
+    检索字段可选：原文 / 英文 / 港译 / 简体 / 自译 / 简称 / 父 / 母 / 母父 / 父父，关键词按空格切词后须全部命中·
+    维护范围：{curated} 匹日本籍马已校订，{pendingCount} 匹其他地区只落不维（保留公告港译与拉丁原名，不生成自译、不接血统）·
+    血统与生卒信息已按 JBIS 全量补齐 {manifest.counts.pedigree} / {curated} 匹（每匹三页、10 秒排队，共 22 小时）。
+  </div>
+
+  <script>
+    const q = document.getElementById('q') as HTMLInputElement;
+    const natSel = document.getElementById('nat') as HTMLSelectElement;
+    const fieldSel = document.getElementById('field') as HTMLSelectElement;
+    const seg = document.getElementById('seg')!;
+    const tbody = document.getElementById('rows') as HTMLTableSectionElement;
+    const fromEl = document.getElementById('from')!;
+    const toEl = document.getElementById('to')!;
+    const cntTotal = document.getElementById('cntTotal')!;
+    const pageN = document.getElementById('pageN')!;
+    const pageT = document.getElementById('pageT')!;
+    const pgFirst = document.getElementById('pgFirst') as HTMLButtonElement;
+    const pgPrev = document.getElementById('pgPrev') as HTMLButtonElement;
+    const pgNext = document.getElementById('pgNext') as HTMLButtonElement;
+    const pgLast = document.getElementById('pgLast') as HTMLButtonElement;
+    const nores = document.getElementById('nores') as HTMLDivElement;
+    const BASE = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+    const dataUrl = (p: string) => BASE + 'data/' + p.replace(/^\/+/, '');
+    const PAGE = 200;
+
+    type Row = {
+      k: string; uid: string; cn: string; f: string;
+      o: string | null; e: string | null; h: string | null; s: string | null; w: string | null;
+      a: string[]; c: string; cc: string; st: string; cls: string;
+    };
+
+    let kind = 'horse';
+    let nat = '';
+    /** 检索字段：all 全字段 / name 只查名称 / o 原文 / e 英文 / h 港译 / s 简体 / w 自译 / a 简称 / 父 / 母 / 母父 / 父父 */
+    let field = 'all';
+    let page = 1;
+
+    /** 名栏目 → 索引里的位掩码（与 s5_export 的 MASK 一一对应） */
+    const FIELD_BIT: Record<string, number> = { o: 1, e: 2, h: 4, s: 8, w: 16, a: 32 };
+    const PED_FIELDS = new Set(['父', '母', '母父', '父父']);
+
+    /** 全量行（顺序即翻页顺序，来自 rows.json）；首屏不加载，点「下一页」或筛选时才拉 */
+    let allRows: Row[] | null = null;
+    let rowsP: Promise<void> | null = null;
+    let index: Record<string, { kind: string; uid: string; m: number }> | null = null;
+    /** 血统索引：{父: {种马名: [马 uid…]}}，键在小写归一化后再存一份，键盘输入时不必反复转 */
+    let pedIndex: Record<string, Record<string, string[]>> | null = null;
+    let indexP: Promise<void> | null = null;
+    /** 当前筛选下的全量结果，翻页只切这个数组 */
+    let view: Row[] = [];
+    /** 并发保护：快速输入时只认最后一次渲染 */
+    let seq = 0;
+
+    const esc = (s: string | null | undefined) =>
+      (s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    const norm = (s: string) => s.toLowerCase().replace(/\s+/g, '');
+
+    function rowHtml(r: Row) {
+      const path = (r.k === 'person' ? 'person/' : r.k === 'race' ? 'race/' : 'horse/') + r.uid + '/';
+      const alias = r.a.length
+        ? r.a.slice(0, 3).join(' · ') + (r.a.length > 3 ? ` +${r.a.length - 3}` : '')
+        : '—';
+      return (
+        `<tr data-kind="${r.f}" data-cc="${esc(r.cc)}" data-uid="${esc(r.uid)}">` +
+        `<td class="kind">${esc(r.cn)}</td>` +
+        `<td><a href="${BASE}${path}" class="nmain">${esc(r.o || '—')}</a></td>` +
+        `<td class="en-cell">${esc(r.e || '—')}</td>` +
+        `<td>${esc(r.h || '—')}</td>` +
+        `<td class="sc-cell">${esc(r.s || '—')}</td>` +
+        `<td>${esc(r.w || '—')}</td>` +
+        `<td class="alias-cell">${esc(alias)}</td>` +
+        `<td class="kind">${esc(r.c)}${r.cc ? `<span class="orig${r.cc === 'JPN' ? ' orig-jp' : ''}">${esc(r.cc)}</span>` : ''}</td>` +
+        `<td>${r.st === '已校订' ? '<span class="kk">已校订</span>' : `<span class="lv ${esc(r.cls)}">${esc(r.st)}</span>`}</td>` +
+        `</tr>`
+      );
+    }
+
+    function notice(text: string) {
+      tbody.innerHTML = `<tr><td colspan="9" class="dim">${esc(text)}</td></tr>`;
+    }
+
+    function ensureRows(quiet = false): Promise<void> {
+      if (allRows) return Promise.resolve();
+      if (!rowsP) {
+        if (!quiet) notice('正在加载全量索引…（约 7 MB，只加载一次）');
+        rowsP = fetch(dataUrl('search/rows.json'))
+          .then((r) => r.json())
+          .then((d) => {
+            allRows = d.items as Row[];
+          })
+          .catch(() => {
+            rowsP = null;
+            notice('全量索引加载失败，请刷新重试。');
+            throw new Error('rows');
+          });
+      }
+      return rowsP;
+    }
+
+    function ensureIndex(): Promise<void> {
+      if (index) return Promise.resolve();
+      if (!indexP) {
+        indexP = fetch(dataUrl('search/all.json'))
+          .then((r) => r.json())
+          .then((d) => {
+            index = d.items || {};
+            // 血统键名归一化后重建：每个种马名查一次就能命中全部产驹
+            const norm2 = (s: string) => norm(s);
+            pedIndex = {};
+            for (const [role, m] of Object.entries(d.ped || {})) {
+              const flat: Record<string, string[]> = {};
+              for (const [name, uids] of Object.entries(m as Record<string, string[]>)) {
+                const k = norm2(name);
+                flat[k] = (flat[k] || []).concat(uids);
+              }
+              pedIndex[role] = flat;
+            }
+          })
+          .catch(() => {
+            indexP = null;
+          });
+      }
+      return indexP;
+    }
+
+    /**
+     * 关键词 + 国籍命中的全量行（**不含类型过滤**），保持 rows.json 的原顺序。
+     * 类型过滤放到 render 里做，一份结果同时喂给 chip 计数和当前列表。
+     *
+     * 关键词按空格切词，每个词都要命中（AND）；每个词在「选中的名栏」里查，
+     * 名栏用索引里的位掩码判定，所以「只查港译」不会把英文名混进来。
+     */
+    async function buildScoped(): Promise<Row[]> {
+      const rows = allRows!;
+      const natOk = (r: Row) => !nat || r.cc === nat;
+      const raw = q.value.trim();
+      if (!raw) return rows.filter(natOk);
+
+      const tokens = raw.split(/\s+/).map(norm).filter(Boolean);
+      if (!tokens.length) return rows.filter(natOk);
+
+      await ensureIndex();
+      const bit = FIELD_BIT[field] || 0;          // 0 = 不按名栏收窄（all / name）
+      const byName = field === 'all' || field === 'name' || !!bit;
+      const roles = field === 'all' ? ['父', '母', '母父', '父父'] : PED_FIELDS.has(field) ? [field] : [];
+
+      let hit: Set<string> | null = null;
+      for (const t of tokens) {
+        const cur = new Set<string>();
+        if (byName && index) {
+          for (const key in index) {
+            if (!key.includes(t)) continue;
+            const v = index[key];
+            if (bit && !(v.m & bit)) continue;
+            cur.add(`${v.kind}:${v.uid}`);
+          }
+        }
+        for (const role of roles) {
+          const m = pedIndex?.[role];
+          if (!m) continue;
+          for (const name in m) {
+            if (!name.includes(t)) continue;
+            for (const uid of m[name]) cur.add(`horse:${uid}`);
+          }
+        }
+        // 三字国家码（JPN / ARG）不在名称索引里，全字段下直接按国籍命中
+        if (field === 'all' && /^[a-z]{3}$/.test(t)) {
+          const code = t.toUpperCase();
+          for (const r of rows) if (r.cc === code) cur.add(`${r.k}:${r.uid}`);
+        }
+        hit = hit ? new Set([...hit].filter((x) => cur.has(x))) : cur;
+        if (!hit.size) break;
+      }
+      const ids = hit || new Set<string>();
+      return rows.filter((r) => ids.has(`${r.k}:${r.uid}`) && natOk(r));
+    }
+
+    /** chip 上的数字 = 当前关键词 / 国籍 / 字段命中的条数（还没按类型收窄），检索后就变成结果数 */
+    function paintChips(scoped: Row[]) {
+      const n: Record<string, number> = { all: scoped.length, horse: 0, race: 0, jockey: 0, trainer: 0 };
+      for (const r of scoped) n[r.f] = (n[r.f] || 0) + 1;
+      seg.querySelectorAll('button').forEach((b) => {
+        const k = b.getAttribute('data-kind') || 'all';
+        const num = b.querySelector('b');
+        if (num) num.textContent = String(n[k] ?? 0);
+      });
+    }
+
+    function syncUrl() {
+      const p = new URLSearchParams();
+      const text = q.value.trim();
+      if (text) p.set('q', text);
+      if (kind !== 'horse') p.set('kind', kind);
+      if (field !== 'all') p.set('field', field);
+      if (nat) p.set('nat', nat);
+      if (page > 1) p.set('page', String(page));
+      const qs = p.toString();
+      history.replaceState(null, '', location.pathname + (qs ? `?${qs}` : ''));
+    }
+
+    async function render(sync = true) {
+      const my = ++seq;
+      try {
+        await ensureRows();
+      } catch {
+        return;
+      }
+      if (my !== seq) return;
+
+      const scoped = await buildScoped();
+      if (my !== seq) return;
+      paintChips(scoped);
+      view = kind === 'all' ? scoped : scoped.filter((r) => r.f === kind);
+      if (my !== seq) return;
+
+      const pages = Math.max(1, Math.ceil(view.length / PAGE));
+      page = Math.min(Math.max(1, page), pages);
+
+      const start = (page - 1) * PAGE;
+      const slice = view.slice(start, start + PAGE);
+      tbody.innerHTML = slice.map(rowHtml).join('');
+
+      fromEl.textContent = String(view.length ? start + 1 : 0);
+      toEl.textContent = String(start + slice.length);
+      cntTotal.textContent = String(view.length);
+      pageN.textContent = String(page);
+      pageT.textContent = String(pages);
+      pgFirst.disabled = pgPrev.disabled = page <= 1;
+      pgNext.disabled = pgLast.disabled = page >= pages;
+      nores.hidden = view.length > 0;
+
+      if (sync) syncUrl();
+    }
+
+    /** 首屏是 SSR 出来的，view 还没建——第一次翻页要先把全量视图算出来，否则会以为总共只有 1 页 */
+    async function primeView() {
+      if (view.length) return;
+      try {
+        await ensureRows();
+      } catch {
+        return;
+      }
+      const scoped = await buildScoped();
+      paintChips(scoped);
+      view = kind === 'all' ? scoped : scoped.filter((r) => r.f === kind);
+    }
+
+    async function goto(p: number) {
+      await primeView();
+      const pages = Math.max(1, Math.ceil(view.length / PAGE));
+      const next = Math.min(Math.max(1, p), pages);
+      if (next === page) return;
+      page = next;
+      render();
+      (tbody.closest('.card') as HTMLElement | null)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // 鼠标落到翻页键上就先拉数据：点下去不用等 7 MB（失败不打扰，点击时还会再提示）
+    for (const b of [pgFirst, pgPrev, pgNext, pgLast]) {
+      b.addEventListener(
+        'mouseenter',
+        () => {
+          ensureRows(true).catch(() => {});
+        },
+        { once: true },
+      );
+    }
+
+    pgFirst.addEventListener('click', () => goto(1));
+    pgPrev.addEventListener('click', () => goto(page - 1));
+    pgNext.addEventListener('click', () => goto(page + 1));
+    pgLast.addEventListener('click', () => goto(Number.MAX_SAFE_INTEGER));
+
+    seg.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest('button');
+      if (!b) return;
+      kind = b.dataset.kind || 'all';
+      page = 1;
+      seg.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      render();
+    });
+
+    natSel.addEventListener('change', () => {
+      nat = natSel.value;
+      page = 1;
+      // 国籍只对马匹有意义：选了国籍就顺带切到「马匹」，别的类型会筛出空表
+      if (nat && kind !== 'horse') {
+        kind = 'horse';
+        seg.querySelectorAll('button').forEach((x) =>
+          x.setAttribute('aria-pressed', String(x.getAttribute('data-kind') === 'horse')),
+        );
+      }
+      render();
+    });
+
+    fieldSel.addEventListener('change', () => {
+      field = fieldSel.value;
+      page = 1;
+      // 父/母/母父/父父 只有马匹有：选了血统字段就切到「马匹」
+      if (field !== 'all' && field !== 'name' && kind !== 'horse') {
+        kind = 'horse';
+        seg.querySelectorAll('button').forEach((x) =>
+          x.setAttribute('aria-pressed', String(x.getAttribute('data-kind') === 'horse')),
+        );
+      }
+      fieldSel.blur();
+      render();
+    });
+
+    let timer: number | undefined;
+    q.addEventListener('input', () => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        page = 1;
+        render();
+      }, 150);
+    });
+
+    // 深链：?q= 关键词、?kind=horse|race|jockey|trainer、?nat=JPN、?page=3，可组合也可分享
+    const preset = new URLSearchParams(location.search);
+    const preKind = preset.get('kind');
+    if (preKind && seg.querySelector(`button[data-kind="${preKind}"]`)) {
+      kind = preKind;
+      seg.querySelectorAll('button').forEach((x) =>
+        x.setAttribute('aria-pressed', String(x.getAttribute('data-kind') === kind)),
+      );
+    }
+    const preNat = preset.get('nat');
+    if (preNat) {
+      natSel.value = preNat;
+      nat = natSel.value;
+      // 与下拉行为一致：国籍只对马匹有意义，没指定类型时落到马匹
+      if (nat && kind === 'all') {
+        kind = 'horse';
+        seg.querySelectorAll('button').forEach((x) =>
+          x.setAttribute('aria-pressed', String(x.getAttribute('data-kind') === 'horse')),
+        );
+      }
+    }
+    const preQ = preset.get('q');
+    if (preQ) q.value = preQ;
+    const preField = preset.get('field');
+    if (preField && fieldSel.querySelector(`option[value="${preField}"]`)) {
+      field = preField;
+      fieldSel.value = preField;
+      if (field !== 'all' && field !== 'name' && kind !== 'horse') {
+        kind = 'horse';
+        seg.querySelectorAll('button').forEach((x) =>
+          x.setAttribute('aria-pressed', String(x.getAttribute('data-kind') === 'horse')),
+        );
+      }
+    }
+    const prePage = Number(preset.get('page') || 0);
+    if (prePage > 1) page = prePage;
+
+    // SSR 输出的就是「默认状态」（马匹栏 + 无关键词 + 无国籍 + 全字段 + 第 1 页）时，
+    // 不必白拉 7 MB 的 rows.json；一旦有任何一个筛选，才去算全量视图。
+    const atDefault =
+      kind === 'horse' && !nat && field === 'all' && !q.value.trim() && page === 1;
+    if (!atDefault) render(false);
+  </script>
+</Base>

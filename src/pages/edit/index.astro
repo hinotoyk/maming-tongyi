@@ -1,0 +1,491 @@
+---
+import Base from '../../layouts/Base.astro';
+import { archive, countBy, href, curated, PAGE_SIZE, pendingCount } from '../../lib/data';
+
+const total = archive.length;
+const counts = {
+  horse: countBy('horse'),
+  race: countBy('race'),
+  jockey: countBy('jockey'),
+  trainer: countBy('trainer'),
+};
+
+// 维护队列优先：curated 马（日本籍）→ 其他马 → 赛事 → 骑手 → 练马师，然后按 PAGE_SIZE 分页。
+// 这里**不做**交错：改名页是干活的地方，先把 3013 匹待校订马铺完，混排只会让人多翻页。
+// 客户端翻页前会把 rows.json 按同一规则重排（分区是稳定的），所以第 N 页与这里一致。
+const ordered = [
+  ...archive.filter((r) => r.kind === 'horse' && r.status === '已校订'),
+  ...archive.filter((r) => r.kind === 'horse' && r.status !== '已校订'),
+  ...archive.filter((r) => r.kind === 'race'),
+  ...archive.filter((r) => r.filter === 'jockey'),
+  ...archive.filter((r) => r.filter === 'trainer'),
+];
+const rows = ordered.slice(0, PAGE_SIZE);
+const pageTotal = Math.max(1, Math.ceil(total / PAGE_SIZE));
+---
+
+<Base title="批量改名" nav="edit">
+  <div class="sec">
+    批量改名 · <span class="en">BATCH EDIT</span>
+    <span class="sec-right">马匹 / 赛事 / 骑手 / 练马师 同表编辑</span>
+  </div>
+
+  <p class="lead">
+    改的是<b>名称</b>，不动事实字段。改动进入 <code>data-src/name-overrides.json</code>，
+    脚本每次重建都先读这份覆盖表再抓取，所以不会被下一轮抓取抹掉。
+    简体列由港译自动转写，这里不开放编辑，改完港译重建即同步；
+    简称是稿中简写，一个实体可以写好几个，用顿号分隔。
+  </p>
+
+  <div class="searchrow">
+    <div class="sbox">
+      <input id="q" type="search" autocomplete="off" placeholder="搜索要改的实体：原文 / 英文 / 港译 / 简体 / 简称" aria-label="搜索实体" />
+    </div>
+    <label class="chk">
+      <input type="checkbox" id="onlyEmpty" />
+      只看缺自译
+    </label>
+  </div>
+
+  <div class="seg" id="seg" role="group" aria-label="按类型筛选">
+    <button aria-pressed="true" data-kind="all">全部 <b>{total}</b></button>
+    <button aria-pressed="false" data-kind="horse">马匹 <b>{counts.horse}</b></button>
+    <button aria-pressed="false" data-kind="race">赛事 <b>{counts.race}</b></button>
+    <button aria-pressed="false" data-kind="jockey">骑手 <b>{counts.jockey}</b></button>
+    <button aria-pressed="false" data-kind="trainer">练马师 <b>{counts.trainer}</b></button>
+  </div>
+
+  <div class="card scroll">
+    <table class="edittbl">
+      <thead>
+        <tr>
+          <th style="width:88px">类型</th>
+          <th>实体</th>
+          <th style="width:92px">国籍</th>
+          <th style="width:170px">港译</th>
+          <th style="width:170px">自译</th>
+          <th style="width:160px">简称</th>
+          <th style="width:78px">状态</th>
+        </tr>
+      </thead>
+      <tbody id="rows">
+        {
+          rows.map((r) => (
+            <tr
+              data-uid={r.uid}
+              data-kind={r.filter}
+              data-cc={r.cc}
+              data-hk={r.names.hk || ''}
+              data-own={r.names.own || ''}
+              data-alias={r.names.alias.map((a) => a.text).join('、')}
+              data-q={[r.names.original, r.names.en, r.names.hk, r.names.sc, r.country, r.cc]
+                .filter(Boolean)
+                .join(' ')
+                .toLowerCase()}
+            >
+              <td class="kind">{r.kind_cn}</td>
+              <td>
+                <div class="tname">
+                  <a class="tzh" href={href(r.path)}>
+                    {r.names.original || r.names.en}
+                  </a>
+                  {r.names.en !== r.names.original && <span class="ten">{r.names.en}</span>}
+                </div>
+              </td>
+              <td class="kind">
+                {r.country}
+                {r.cc && <span class:list={['orig', r.cc === 'JPN' && 'orig-jp']}>{r.cc}</span>}
+              </td>
+              <td>
+                <input class="editin" data-f="hk" value={r.names.hk || ''} placeholder="未收录" />
+              </td>
+              <td>
+                <input class="editin" data-f="own" value={r.names.own || ''} placeholder="待填" />
+              </td>
+              <td>
+                <input
+                  class="editin"
+                  data-f="alias"
+                  value={r.names.alias.map((a) => a.text).join('、')}
+                  placeholder="未录入"
+                />
+              </td>
+              <td>
+                {r.status === '已校订' ? (
+                  <span class="kk">已校订</span>
+                ) : (
+                  <span class:list={['lv', r.status_cls]}>{r.status}</span>
+                )}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <div class="pager">
+    <span>
+      显示 <b id="from">1</b>–<b id="to">{rows.length}</b> / <b id="cntTotal">{total}</b> 条
+    </span>
+    <span class="pgs">
+      <button class="pg" id="pgFirst" disabled>首页</button>
+      <button class="pg" id="pgPrev" disabled>上一页</button>
+      <span class="pgn">第 <b id="pageN">1</b> / <b id="pageT">{pageTotal}</b> 页</span>
+      <button class="pg" id="pgNext">下一页</button>
+      <button class="pg" id="pgLast">末页</button>
+    </span>
+  </div>
+
+  <div class="srcnote">
+    每页 {PAGE_SIZE} 条 · 翻页不会丢改动（改过的行记在草稿里，跨页保留）· 简称用顿号分隔（M.傲、S.门）·
+    港译留空 = 确认无港译，自译留空 = 未生成
+  </div>
+
+  <div class="editbar" id="bar">
+    <span class="eb-cnt">已改 <b id="dirtyN">0</b> 项</span>
+    <span class="eb-spacer"></span>
+    <button class="btn-ghost" id="undo">撤销全部</button>
+    <button class="btn" id="save">保存改动</button>
+  </div>
+
+  <div id="panel" hidden>
+    <div class="sec">将写入 <span class="en">NAME OVERRIDES</span></div>
+    <div class="srcnote">
+      本站不落盘。下面这段就是要合并进 <code>data-src/name-overrides.json</code> 的 <code>entries</code>，
+      管线每次重建都先读它，再套用在抓取结果上（简称直接覆盖，港译改了会连带重算简体）。
+    </div>
+    <pre class="patch" id="patch"></pre>
+  </div>
+
+  <div class="note">
+    <span class="ni">◇</span>
+    <div>
+      <b>为什么覆盖表要单独一个文件。</b>
+      抓取是可重复的，改名是人的判断。把判断混进抓取结果里，下一次重建就没了；
+      独立成表后，任何人都能审阅「谁在什么时候把哪个名字改成了什么」。
+      本页按维护队列排序（{curated} 匹日本马优先），每页 {PAGE_SIZE} 条；
+      改过的行留在草稿里，翻页、筛选都不会丢，最后一起保存。
+    </div>
+  </div>
+
+  <script>
+    const q = document.getElementById('q') as HTMLInputElement;
+    const onlyEmpty = document.getElementById('onlyEmpty') as HTMLInputElement;
+    const seg = document.getElementById('seg')!;
+    const tbody = document.getElementById('rows') as HTMLTableSectionElement;
+    const fromEl = document.getElementById('from')!;
+    const toEl = document.getElementById('to')!;
+    const cntTotal = document.getElementById('cntTotal')!;
+    const pageN = document.getElementById('pageN')!;
+    const pageT = document.getElementById('pageT')!;
+    const pgFirst = document.getElementById('pgFirst') as HTMLButtonElement;
+    const pgPrev = document.getElementById('pgPrev') as HTMLButtonElement;
+    const pgNext = document.getElementById('pgNext') as HTMLButtonElement;
+    const pgLast = document.getElementById('pgLast') as HTMLButtonElement;
+    const dirtyN = document.getElementById('dirtyN')!;
+    const bar = document.getElementById('bar')!;
+    const panel = document.getElementById('panel') as HTMLDivElement;
+    const patch = document.getElementById('patch')!;
+    const BASE = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+    const dataUrl = (p: string) => BASE + 'data/' + p.replace(/^\/+/, '');
+    const PAGE = 200;
+
+    type Row = {
+      k: string; uid: string; cn: string; f: string;
+      o: string | null; e: string | null; h: string | null; s: string | null; w: string | null;
+      a: string[]; c: string; cc: string; st: string; cls: string;
+    };
+    type Draft = { hk: string; own: string; alias: string };
+
+    let kind = 'all';
+    let page = 1;
+    let allRows: Row[] | null = null;
+    let rowsP: Promise<void> | null = null;
+    /** 当前筛选下的全量结果，翻页只切它 */
+    let view: Row[] = [];
+    /** 并发保护：快速输入时只认最后一次渲染 */
+    let seq = 0;
+
+    /** 未保存的改动：uid → 当前输入值。翻页会重建 DOM，靠它把改动留在内存里 */
+    const drafts = new Map<string, Draft>();
+    /** 原值快照：算 patch 用，不受重绘影响 */
+    const base = new Map<string, Draft>();
+
+    const esc = (s: string | null | undefined) =>
+      (s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    const norm = (s: string) => s.toLowerCase().replace(/\s+/g, '');
+
+    const trs = () => Array.from(tbody.querySelectorAll<HTMLTableRowElement>('tr[data-uid]'));
+    const field = (tr: HTMLTableRowElement, f: string) =>
+      (tr.querySelector(`input[data-f="${f}"]`) as HTMLInputElement).value.trim();
+
+    // 简称：顿号 / 逗号 / 空格都当分隔符，规范化后再比较，避免「多敲一个空格」算改动
+    const aliasList = (raw: string) =>
+      raw.split(/[、,，;；\s]+/).map((x) => x.trim()).filter(Boolean);
+
+    const orig = (tr: HTMLTableRowElement): Draft => ({
+      hk: tr.dataset.hk || '',
+      own: tr.dataset.own || '',
+      alias: tr.dataset.alias || '',
+    });
+
+    const same = (a: Draft, b: Draft) =>
+      a.hk === b.hk && a.own === b.own && aliasList(a.alias).join('|') === aliasList(b.alias).join('|');
+
+    function refresh() {
+      dirtyN.textContent = String(drafts.size);
+      bar.classList.toggle('on', drafts.size > 0);
+    }
+
+    function rowHtml(r: Row) {
+      const path = (r.k === 'person' ? 'person/' : r.k === 'race' ? 'race/' : 'horse/') + r.uid + '/';
+      const alias = r.a.join('、');
+      const cc = r.cc ? `<span class="orig${r.cc === 'JPN' ? ' orig-jp' : ''}">${esc(r.cc)}</span>` : '';
+      return (
+        `<tr data-uid="${esc(r.uid)}" data-kind="${r.f}" data-cc="${esc(r.cc)}" data-hk="${esc(r.h)}" data-own="${esc(r.w)}" ` +
+        `data-alias="${esc(alias)}">` +
+        `<td class="kind">${esc(r.cn)}</td>` +
+        `<td><div class="tname"><a class="tzh" href="${BASE}${path}">${esc(r.o || r.e || '—')}</a>` +
+        (r.e && r.e !== r.o ? `<span class="ten">${esc(r.e)}</span>` : '') +
+        `</div></td>` +
+        `<td class="kind">${esc(r.c)}${cc}</td>` +
+        `<td><input class="editin" data-f="hk" value="${esc(r.h)}" placeholder="未收录" /></td>` +
+        `<td><input class="editin" data-f="own" value="${esc(r.w)}" placeholder="待填" /></td>` +
+        `<td><input class="editin" data-f="alias" value="${esc(alias)}" placeholder="未录入" /></td>` +
+        `<td>${r.st === '已校订' ? '<span class="kk">已校订</span>' : `<span class="lv ${esc(r.cls)}">${esc(r.st)}</span>`}</td>` +
+        `</tr>`
+      );
+    }
+
+    function notice(text: string) {
+      tbody.innerHTML = `<tr><td colspan="7" class="dim">${esc(text)}</td></tr>`;
+    }
+
+    /** rows.json 是交错序，这里重排成「维护队列 → 其他」，与 SSR 首屏一致 */
+    function editOrder(rows: Row[]): Row[] {
+      const ch: Row[] = [], oh: Row[] = [], race: Row[] = [], jockey: Row[] = [], trainer: Row[] = [];
+      for (const r of rows) {
+        if (r.k === 'horse') (r.st === '已校订' ? ch : oh).push(r);
+        else if (r.k === 'race') race.push(r);
+        else if (r.f === 'jockey') jockey.push(r);
+        else trainer.push(r);
+      }
+      return [...ch, ...oh, ...race, ...jockey, ...trainer];
+    }
+
+    function ensureRows(quiet = false): Promise<void> {
+      if (allRows) return Promise.resolve();
+      if (!rowsP) {
+        if (!quiet) notice('正在加载全量索引…（约 7 MB，只加载一次）');
+        rowsP = fetch(dataUrl('search/rows.json'))
+          .then((r) => r.json())
+          .then((d) => {
+            allRows = editOrder(d.items as Row[]);
+          })
+          .catch(() => {
+            rowsP = null;
+            notice('全量索引加载失败，请刷新重试。');
+            throw new Error('rows');
+          });
+      }
+      return rowsP;
+    }
+
+    const qkey = (r: Row) => norm([r.o, r.e, r.h, r.s, r.w, r.c, r.cc, ...r.a].filter(Boolean).join(' '));
+
+    /** 画一页，并把草稿回填进去（翻页不丢改动） */
+    function paint(list: Row[]) {
+      tbody.innerHTML = list.map(rowHtml).join('');
+      for (const tr of trs()) {
+        const d = drafts.get(tr.dataset.uid!);
+        if (!d) continue;
+        (tr.querySelector('input[data-f="hk"]') as HTMLInputElement).value = d.hk;
+        (tr.querySelector('input[data-f="own"]') as HTMLInputElement).value = d.own;
+        (tr.querySelector('input[data-f="alias"]') as HTMLInputElement).value = d.alias;
+        tr.classList.add('dirty');
+      }
+      refresh();
+    }
+
+    function syncUrl() {
+      const p = new URLSearchParams();
+      const text = q.value.trim();
+      if (text) p.set('q', text);
+      if (kind !== 'all') p.set('kind', kind);
+      if (onlyEmpty.checked) p.set('empty', '1');
+      if (page > 1) p.set('page', String(page));
+      const qs = p.toString();
+      history.replaceState(null, '', location.pathname + (qs ? `?${qs}` : ''));
+    }
+
+    /** 当前筛选下的全量行（render 与首次翻页共用） */
+    async function collect(): Promise<Row[]> {
+      const s = norm(q.value.trim());
+      let list = allRows!;
+      if (kind !== 'all') list = list.filter((r) => r.f === kind);
+      if (s) list = list.filter((r) => qkey(r).includes(s));
+      if (onlyEmpty.checked) list = list.filter((r) => !r.w);
+      return list;
+    }
+
+    async function render(sync = true) {
+      const my = ++seq;
+      try {
+        await ensureRows();
+      } catch {
+        return;
+      }
+      if (my !== seq) return;
+
+      view = await collect();
+
+      const pages = Math.max(1, Math.ceil(view.length / PAGE));
+      page = Math.min(Math.max(1, page), pages);
+
+      const start = (page - 1) * PAGE;
+      const slice = view.slice(start, start + PAGE);
+      paint(slice);
+
+      fromEl.textContent = String(view.length ? start + 1 : 0);
+      toEl.textContent = String(start + slice.length);
+      cntTotal.textContent = String(view.length);
+      pageN.textContent = String(page);
+      pageT.textContent = String(pages);
+      pgFirst.disabled = pgPrev.disabled = page <= 1;
+      pgNext.disabled = pgLast.disabled = page >= pages;
+
+      if (sync) syncUrl();
+    }
+
+    /** 首屏是 SSR 出来的，view 还没建——第一次翻页要先把全量视图算出来，否则会以为总共只有 1 页 */
+    async function primeView() {
+      if (view.length) return;
+      try {
+        await ensureRows();
+      } catch {
+        return;
+      }
+      view = await collect();
+    }
+
+    async function goto(p: number) {
+      await primeView();
+      const pages = Math.max(1, Math.ceil(view.length / PAGE));
+      const next = Math.min(Math.max(1, p), pages);
+      if (next === page) return;
+      page = next;
+      render();
+      (tbody.closest('.card') as HTMLElement | null)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // 鼠标落到翻页键上就先拉数据：点下去不用等 7 MB（失败不打扰，点击时还会再提示）
+    for (const b of [pgFirst, pgPrev, pgNext, pgLast]) {
+      b.addEventListener(
+        'mouseenter',
+        () => {
+          ensureRows(true).catch(() => {});
+        },
+        { once: true },
+      );
+    }
+
+    pgFirst.addEventListener('click', () => goto(1));
+    pgPrev.addEventListener('click', () => goto(page - 1));
+    pgNext.addEventListener('click', () => goto(page + 1));
+    pgLast.addEventListener('click', () => goto(Number.MAX_SAFE_INTEGER));
+
+    // 每次输入立刻进草稿：翻页、筛选、重绘都靠它保住改动
+    tbody.addEventListener('input', (e) => {
+      const tr = (e.target as HTMLElement).closest('tr') as HTMLTableRowElement | null;
+      if (!tr) return;
+      const uid = tr.dataset.uid!;
+      if (!base.has(uid)) base.set(uid, orig(tr));
+      const now: Draft = { hk: field(tr, 'hk'), own: field(tr, 'own'), alias: field(tr, 'alias') };
+      if (same(now, base.get(uid)!)) drafts.delete(uid);
+      else drafts.set(uid, now);
+      tr.classList.toggle('dirty', drafts.has(uid));
+      refresh();
+      panel.hidden = true;
+    });
+
+    seg.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest('button');
+      if (!b) return;
+      kind = b.dataset.kind || 'all';
+      page = 1;
+      seg.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      render();
+    });
+
+    let timer: number | undefined;
+    q.addEventListener('input', () => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        page = 1;
+        render();
+      }, 150);
+    });
+    onlyEmpty.addEventListener('change', () => {
+      page = 1;
+      render();
+    });
+
+    // 深链：?q= 关键词、?kind=horse|race|jockey|trainer、?empty=1、?page=4
+    const preset = new URLSearchParams(location.search);
+    const preKind = preset.get('kind');
+    if (preKind && seg.querySelector(`button[data-kind="${preKind}"]`)) {
+      kind = preKind;
+      seg.querySelectorAll('button').forEach((x) =>
+        x.setAttribute('aria-pressed', String(x.getAttribute('data-kind') === kind)),
+      );
+    }
+    if (preset.get('empty') === '1') onlyEmpty.checked = true;
+    const preQ = preset.get('q');
+    if (preQ) q.value = preQ;
+    const prePage = Number(preset.get('page') || 0);
+    if (prePage > 1) page = prePage;
+
+    // 无筛选且第 1 页时，SSR 输出的就是第 1 页，不必白拉 7 MB
+    if (kind !== 'all' || onlyEmpty.checked || q.value.trim() || page > 1) render(false);
+    refresh();
+
+    document.getElementById('undo')!.addEventListener('click', () => {
+      drafts.clear();
+      base.clear();
+      if (allRows) {
+        render(false);
+      } else {
+        for (const tr of trs()) {
+          const o = orig(tr);
+          (tr.querySelector('input[data-f="hk"]') as HTMLInputElement).value = o.hk;
+          (tr.querySelector('input[data-f="own"]') as HTMLInputElement).value = o.own;
+          (tr.querySelector('input[data-f="alias"]') as HTMLInputElement).value = o.alias;
+          tr.classList.remove('dirty');
+        }
+        refresh();
+      }
+      panel.hidden = true;
+    });
+
+    document.getElementById('save')!.addEventListener('click', () => {
+      const entries: Record<string, Record<string, string | string[]>> = {};
+      for (const [uid, d] of drafts) {
+        const o = base.get(uid);
+        if (!o) continue;
+        const row: Record<string, string | string[]> = {};
+        if (d.hk !== o.hk) row.hk = d.hk;
+        if (d.own !== o.own) row.own = d.own;
+        if (aliasList(d.alias).join('|') !== aliasList(o.alias).join('|')) row.alias = aliasList(d.alias);
+        if (Object.keys(row).length) entries[uid] = row;
+      }
+      const doc = {
+        _meta: { schema: 'name-overrides/v2', updated: new Date().toISOString().slice(0, 10) },
+        entries,
+      };
+      patch.textContent = JSON.stringify(doc, null, 2);
+      panel.hidden = false;
+      panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+</script>
+</Base>

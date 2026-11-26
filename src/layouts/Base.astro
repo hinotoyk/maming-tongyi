@@ -1,0 +1,90 @@
+---
+import '../styles/global.css';
+import { href } from '../lib/data';
+
+interface Props {
+  title: string;
+  /** 当前导航项 key，用于 aria-current */
+  nav?: string;
+}
+
+const { title, nav = '' } = Astro.props;
+
+const groups = [
+  {
+    label: '名称档案',
+    items: [{ key: 'archive', label: '全部名称', path: '' }],
+  },
+  {
+    label: '编辑',
+    items: [{ key: 'edit', label: '批量改名', path: 'edit/' }],
+  },
+  {
+    label: '说明',
+    items: [{ key: 'sources', label: '来源与分级', path: 'sources/' }],
+  },
+];
+---
+
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · 马名通译</title>
+    <meta
+      name="description"
+      content="马匹、赛事、骑手、练马师的中文名档案：原文、英文、港译、简体、自译逐栏对照，每条名称都带出处。"
+    />
+  </head>
+
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <a class="brand" href={href()}>
+          <div class="brand-logo">马</div>
+          <div class="brand-name">
+            马名通译<small class="brand-sub">全球赛马中文名典</small>
+          </div>
+        </a>
+
+        <nav class="nav">
+          {
+            groups.map((g) => (
+              <>
+                <div class="nlabel">{g.label}</div>
+                {g.items.map((it) => (
+                  <a class="nitem" href={href(it.path)} aria-current={nav === it.key ? 'page' : undefined}>
+                    {it.label}
+                  </a>
+                ))}
+              </>
+            ))
+          }
+        </nav>
+
+        <div class="sidefoot">
+          演示数据 · 单场公告
+          <div>P0 · 语料建设中</div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="page-title">{title}</header>
+        <div class="wrap">
+          <slot />
+          <div class="foot">
+            非官方站点，与香港赛马会及各赛马机构无隶属关系 · 只陈列名称与事实字段，不转载原文
+            <br />
+            代码 MIT · 派生数据 CC BY-NC 4.0 · 本页数据取自
+            <a
+              href="https://web.archive.org/web/20261124081540/https://racingnews.hkjc.com/chinese/2026/11/20/%E4%B8%80%E5%93%A9%E5%86%A0%E8%BB%8D%E8%B3%BD%E6%9C%80%E5%BE%8C%E5%AE%A3%E4%BD%88%E5%87%BA%E8%B3%BD%E9%A6%AC%E5%8C%B9%E5%90%8D%E5%96%AE%E5%8F%8A%E6%8E%92%E4%BD%8D/"
+              target="_blank"
+              rel="noopener">已归档公告</a
+            >
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+---
+import Base from '../../layouts/Base.astro';
+import Names from '../../components/Names.astro';
+import Info from '../../components/Info.astro';
+import Aliases from '../../components/Aliases.astro';
+import PedigreeChart from '../../components/Pedigree.astro';
+import { horses, href, fmtDate, raceByUid, primaryName, nameCols, manifest } from '../../lib/data';
+
+export function getStaticPaths() {
+  return horses.map((h) => ({ params: { uid: h.uid }, props: { h } }));
+}
+
+const { h } = Astro.props;
+const ped = h.pedigree;
+const pending = h.curation === 'pending';
+const cols = nameCols(h.names);
+
+/** 出生日期：JBIS 给到日就写日，只有年就写「年生」，都没有留空——不按年龄倒推具体日期。 */
+const birth = ped?.birth_date
+  ? fmtDate(ped.birth_date)
+  : h.birth_year
+    ? `${h.birth_year} 年生`
+    : '—';
+
+// 档案只留三行：产地 / 性别 / 出生日期。
+// 练马师、骑手、本场号位是「某一场」的事实，不是马的属性，放在赛事的名单里看。
+const facts = [
+  {
+    k: '产地',
+    v: `${h.country}${h.origin ? ` <span class="orig${h.origin === 'JPN' ? ' orig-jp' : ''}">${h.origin}</span>` : ''}`,
+  },
+  {
+    k: '性别',
+    // 配色与血统图一致：牡蓝、牝粉，一眼对上格子
+    v: h.sex_cn
+      ? `<span class="sex ${h.sex === 'F' ? 'sex-f' : 'sex-m'}">${h.sex_cn}</span>`
+      : '—',
+    r: h.color || '',
+  },
+  { k: '出生日期', v: birth },
+];
+---
+
+<Base title={primaryName(h.names)} nav="archive">
+  <div class="crumb">
+    <a href={href()}>名称档案</a><span>/</span><a href={href()}>马匹</a><span>/</span>{primaryName(h.names)}
+  </div>
+
+  {pending && (
+    <div class="warn">
+      <span class="warn-i">!</span>
+      <div>
+        <b>本区译名未纳入维护。</b>
+        {h.country}马只保留公告里的港译与拉丁原名，不生成自译、不接血统；事实字段与出处照常记录。
+      </div>
+    </div>
+  )}
+
+  <div class="sec">
+    名称 · <span class="en">NAMES</span>
+    <span class="sec-right">
+      {pending ? <span class="lv lv-l3">待维护</span> : <span class="lv lv-l1">已校订</span>}
+    </span>
+  </div>
+
+  <Names cols={cols} />
+  <Aliases names={h.names} />
+
+  <div class="sec">档案 · <span class="en">PROFILE</span></div>
+  <Info rows={facts} />
+
+  <div class="sec">
+    血统 · <span class="en">PEDIGREE</span>
+    <span class="sec-right">{ped ? (ped.fno ? `JBIS · ${ped.fno}` : 'JBIS') : '未接入'}</span>
+  </div>
+
+  {
+    ped && ped.tree ? (
+      <>
+        <Info
+          rows={[
+            { k: '父', v: ped.sire || '—' },
+            { k: '母', v: ped.dam || '—' },
+            { k: '父父', v: ped.siresire || '—' },
+            { k: '母父', v: ped.damsire || '—' },
+            {
+              k: 'JBIS',
+              v: `<a href="https://www.jbis.or.jp/horse/${ped.jbis_id}/" target="_blank" rel="noopener">${ped.jbis_id}</a>`,
+              r: `${ped.fetched_at} 抓取`,
+            },
+          ]}
+        />
+        <PedigreeChart
+          ped={ped}
+          name={h.names.original || primaryName(h.names)}
+          sex={h.sex}
+          birthYear={ped.birth_year ?? h.birth_year}
+          color={h.color}
+        />
+        <div class="srcnote">
+          血统图按传统 5 代表画：本体在最左、父系占上半、母系占下半，每代五分向下切；牡浅蓝、牝浅粉，
+          空位画斜纹。1–3 代带毛色与 JBIS 直链，四、五代替换马不在本站建条目，点开即 JBIS 原页；
+          名字保持 JBIS 原样，不转写、不按罗马字反推假名。
+        </div>
+      </>
+    ) : (
+      <div class="empty">
+        <b>{pending ? '本区暂不维护血统' : 'JBIS 待补全'}</b>
+        {
+          pending
+            ? '非日本籍马匹的 pedigree 字段与日本马同形，扩区时回填数据即可，页面自动展开，不需要改模板。'
+            : '日本籍马匹按 JBIS 检索页 → 基本情報页 → 5 代血統页逐匹补全（10 秒一匹，排队跑）。抓取未完成时留空，不按罗马字反推假名。'
+        }
+        {
+          !pending && (
+            <div class="srcnote" style="margin-top:8px">
+              补全进度：{manifest.counts.pedigree} / {manifest.curation.curated} 匹日本马已接血统图。
+            </div>
+          )
+        }
+      </div>
+    )
+  }
+
+  <div class="sec">
+    出处记录 · <span class="en">SOURCES</span>
+    <span class="sec-right">{h.entries.length} 场公告</span>
+  </div>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:112px">公告日</th>
+          <th>赛事</th>
+          <th style="width:120px">出现形式</th>
+          <th style="width:132px">原件</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          h.entries.map((e) => {
+            const r = raceByUid(e.race_uid);
+            return (
+              <tr>
+                <td>{fmtDate(r?.announce_date ?? null)}</td>
+                <td>{r && <a href={href(`race/${r.uid}/`)}>{primaryName(r.names)}</a>}</td>
+                <td class="kind">公告名单 · {e.no ?? '—'} 号</td>
+                <td>
+                  {r?.source.article.archive_url ? (
+                    <a href={r.source.article.archive_url} target="_blank" rel="noopener">存档 ↗</a>
+                  ) : r?.source.article.url ? (
+                    <a href={r.source.article.url} target="_blank" rel="noopener">原件未存档</a>
+                  ) : (
+                    '—'
+                  )}
+                </td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+  </div>
+  <div class="srcnote">
+    这里只记「这匹马出现在哪份公告」，不做赛果、名次与生涯统计——战绩维护是后续阶段的事，现在留空比填占位数字更可信。
+  </div>
+</Base>

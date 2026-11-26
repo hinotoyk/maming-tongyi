@@ -1,0 +1,151 @@
+---
+import Base from '../../layouts/Base.astro';
+import Info from '../../components/Info.astro';
+import { href, regions, indexTotal, races, curated, pendingCount } from '../../lib/data';
+
+const levels = [
+  { lv: 'L1', cls: 'lv-l1', name: '港译', src: '香港赛马会公告与排位表', conf: '0.95', use: '马匹、赛事、人物的首选中文名' },
+  { lv: '原文', cls: 'lv-or', name: '原文', src: 'JBIS（日本马）/ 公告附件拉丁名', conf: '1.00', use: '对照基准，不参与中文检索排序' },
+  { lv: 'L2', cls: 'lv-l2', name: '民间通译', src: '媒体、社区、出版物', conf: '0.60', use: '港译缺失时补位' },
+  { lv: 'L3', cls: 'lv-l3', name: '自译', src: '人工编写（当前为空）', conf: '—', use: '港译与民间都没有时，人工拟名并标注' },
+];
+---
+
+<Base title="来源与分级" nav="sources">
+  <div class="sec">名称分级 · <span class="en">LEVELS</span></div>
+  <p class="lead">
+    名称不是字段，是<b>带出处的声明</b>。同一语言里高一级压过低一级，但低一级只补位、不覆盖；每条名称都必须能指回一份原件。
+  </p>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:78px">级别</th>
+          <th style="width:110px">名称</th>
+          <th>来源</th>
+          <th style="width:88px">置信</th>
+          <th style="width:280px">用法</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          levels.map((l) => (
+            <tr>
+              <td>
+                <span class:list={['lv', l.cls]}>{l.lv}</span>
+              </td>
+              <td style="font-weight:600">{l.name}</td>
+              <td style="color:#52525b">{l.src}</td>
+              <td class="kind">{l.conf}</td>
+              <td class="kind">{l.use}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <div class="srcnote">
+    另有一列<b>简体</b>，它不是第五级名称：由港译逐字转写而来，只换字形、不改词，
+    转换前后字数必须相等，因此不参与分级、不单独校订、也不进覆盖表——港译改了，它跟着改。
+  </div>
+
+  <div class="sec">抓取来源 · <span class="en">FETCH</span></div>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:220px">来源</th>
+          <th>用途</th>
+          <th style="width:120px">限速</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>racingnews.hkjc.com</td>
+          <td style="color:#52525b">出马表公告（正文页 + docx 附件），中文名的直接证据</td>
+          <td class="kind">≥ 2s / 请求</td>
+        </tr>
+        <tr>
+          <td>res.hkjc.com</td>
+          <td style="color:#52525b">公告附件原件（.docx / .doc / .pdf）</td>
+          <td class="kind">≥ 2s / 请求</td>
+        </tr>
+        <tr>
+          <td>www.jbis.or.jp</td>
+          <td style="color:#52525b">日本马匹的日文原名、父、母、生年（检索页）、出生日期与毛色（基本情報页）、5 代血統表</td>
+          <td class="kind">≥ 10s / 请求</td>
+        </tr>
+        <tr>
+          <td>db.netkeiba.com</td>
+          <td style="color:#52525b">赛事与马匹 ID 对齐（后续阶段）</td>
+          <td class="kind">≥ 5s / 请求</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec" id="scope">
+    维护范围 · <span class="en">SCOPE</span>
+    <span class="sec-right">抓全量 · 译名只维护日本</span>
+  </div>
+  <p class="lead">
+    全部 {indexTotal} 篇公告、{regions.length} 个地区<b>全量入队解析</b>；译名只对日本籍做人工维护。
+    其他地区落库不校订——不是没有名字，而是「有港译、没核对」，页面明确标出这个区别。
+  </p>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:170px">地区</th>
+          <th style="width:96px" class="num">公告数</th>
+          <th style="width:110px">译名维护</th>
+          <th>扩区动作</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          regions.map((r) => (
+            <tr>
+              <td style="font-weight:600">{r.region}</td>
+              <td class="num">{r.announcements}</td>
+              <td>
+                <span class:list={['lv', r.status === 'curated' ? 'lv-l1' : 'lv-l3']}>
+                  {r.status === 'curated' ? '已校订' : '待维护'}
+                </span>
+              </td>
+              <td class="kind">
+                {r.status === 'curated'
+                  ? '当前维护区：接血统、生成自译、进改名队列'
+                  : '翻 status 为 curated 后补校；数据已在库，不用重抓'}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec">存档政策 · <span class="en">ARCHIVE</span></div>
+  <Info
+    rows={[
+      { k: '对外引用', v: '一律指向 Internet Archive 回放地址，不指回原站', r: '防改版' },
+      { k: '无存档', v: '页面显式标注「原件未存档」并保留原链接', r: '不静默' },
+      { k: '原件', v: '<code>cache/</code> 保留并记 sha256，仅作解析中间件', r: '可清理' },
+      { k: '失败', v: '标 failed / pending，下轮重试，不阻塞解析', r: '最多 3 次' },
+    ]}
+  />
+
+  <div class="note">
+    <span class="ni">◇</span>
+    <div>
+      <b>只陈列事实字段与名称对照。</b>
+      不转载公告正文、不镜像附件、不提供赔率与投注入口。本站为非官方资料库，与香港赛马会及各赛马机构无隶属关系。
+      代码 MIT，派生数据 CC BY-NC 4.0。
+    </div>
+  </div>
+
+  <div class="pager">
+    <span>本页数据：{indexTotal} 篇公告索引 · {races.length} 场已解析 · {curated} 匹已校订 / {pendingCount} 匹待维护</span>
+    <span>{races.length > 0 && <a href={href(`race/${races[0].uid}/`)}>看一场实例 →</a>}</span>
+  </div>
+</Base>

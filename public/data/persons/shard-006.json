@@ -1,0 +1,12121 @@
+{
+"_meta": {
+"schema": "names/v3",
+"updated": "2026-11-26",
+"count": 500,
+"kind": "persons"
+},
+"items": [
+{
+"uid": "t-m-m-conners",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鄺馬克及鄺練常",
+"en": "M & M Conners",
+"hk": "鄺馬克及鄺練常",
+"sc": "邝马克及邝练常",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-danish-prince",
+"au-penpel",
+"au-willaidow"
+]
+},
+{
+"uid": "t-m-m-pitman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "畢迪文及畢馬兆",
+"en": "M & M Pitman",
+"hk": "畢迪文及畢馬兆",
+"sc": "毕迪文及毕马兆",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-rosso"
+]
+},
+{
+"uid": "t-m-matsunaga",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "松永幹夫",
+"en": "M Matsunaga",
+"hk": "松永幹夫",
+"sc": "松永干夫",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-geniale",
+"jp-larc"
+]
+},
+{
+"uid": "t-m-mccarthy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥恪凡",
+"en": "M McCarthy",
+"hk": "麥恪凡",
+"sc": "麦恪凡",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-there-goes-harvard"
+]
+},
+{
+"uid": "t-m-meade",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "梅馬田",
+"en": "M Meade",
+"hk": "梅馬田",
+"sc": "梅马田",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-aclaim"
+]
+},
+{
+"uid": "t-m-mescam",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫知鑑",
+"en": "M Mescam",
+"hk": "莫知鑑",
+"sc": "莫知鉴",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-hurricane-dream"
+]
+},
+{
+"uid": "t-m-moroney-g-thompson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫朗尼及湯鵬勢",
+"en": "M Moroney & G Thompson",
+"hk": "莫朗尼及湯鵬勢",
+"sc": "莫朗尼及汤鹏势",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-benagil",
+"au-brandjam",
+"au-jungle-jim",
+"au-not-an-option",
+"au-peru",
+"gb-whisky-on-the-hill",
+"nz-bankers-choice",
+"nz-coeur-volante",
+"nz-war-machine"
+]
+},
+{
+"uid": "t-m-munoz",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蒙露仙",
+"en": "M Munoz",
+"hk": "蒙露仙",
+"sc": "蒙露仙",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-mirinaque"
+]
+},
+{
+"uid": "t-m-murphy-m-keady",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫米高及桂宜登",
+"en": "M Murphy & M Keady",
+"hk": "莫米高及桂宜登",
+"sc": "莫米高及桂宜登",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-antiphon",
+"ire-split-the-profit"
+]
+},
+{
+"uid": "t-m-nieslanik",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "寧朗烈",
+"en": "M Nieslanik",
+"hk": "寧朗烈",
+"sc": "宁朗烈",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-jenilat-bright",
+"ire-sadalbari"
+]
+},
+{
+"uid": "t-m-nigge",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "歷治",
+"en": "M Nigge",
+"hk": "歷治",
+"sc": "历治",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-apax",
+"fr-bella-memoria",
+"fr-come-say-hi",
+"fr-navidad",
+"fr-poschiavo",
+"fr-toijk"
+]
+},
+{
+"uid": "t-m-ogasa",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "小笠倫弘",
+"en": "M Ogasa",
+"hk": "小笠倫弘",
+"sc": "小笠伦弘",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-chain-of-love"
+]
+},
+{
+"uid": "t-m-otake",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "大竹正博",
+"en": "M Otake",
+"hk": "大竹正博",
+"sc": "大竹正博",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-blast-onepiece"
+]
+},
+{
+"uid": "t-m-pimbonnet",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "彭邦利",
+"en": "M Pimbonnet",
+"hk": "彭邦利",
+"sc": "彭邦利",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-poets-black"
+]
+},
+{
+"uid": "t-m-pitart",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "裴泰特",
+"en": "M Pitart",
+"hk": "裴泰特",
+"sc": "裴泰特",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-elauneil"
+]
+},
+{
+"uid": "t-m-polanco",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布倫高",
+"en": "M Polanco",
+"hk": "布倫高",
+"sc": "布伦高",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-irideo"
+]
+},
+{
+"uid": "t-m-price-m-kent-jnr",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "佩思及肯爾迪",
+"en": "M Price & M Kent (Jnr)",
+"hk": "佩思及肯爾迪",
+"sc": "佩思及肯尔迪",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-amedei",
+"au-amenable",
+"au-buggsy",
+"au-bustling",
+"au-charm-stone",
+"au-first-settler",
+"au-floozie",
+"au-gatwick",
+"au-global-eclipse",
+"au-guest-house",
+"au-gumdrops",
+"au-hedged",
+"au-hot-digity-boom",
+"au-maximillius",
+"au-naifah",
+"au-on-display",
+"au-outback-miss",
+"au-party-for-one",
+"au-phillip-island",
+"au-planet-red",
+"au-raikoke",
+"au-reserve-bank",
+"au-robrick",
+"au-sabaj",
+"au-south-of-houston",
+"au-space-rider",
+"au-st-edward",
+"au-the-speed-machine",
+"au-vibrant-sun",
+"au-wee-nessy",
+"fr-boniface",
+"fr-lastotchka",
+"fr-saganti",
+"gb-bur-dubai",
+"gb-chiringita",
+"gb-kitty-rose",
+"gb-think-giant",
+"gb-welwal",
+"ire-la-fracas",
+"ire-see-that-storm",
+"nz-annavisto",
+"nz-ayrton",
+"nz-engine-of-war",
+"nz-globe",
+"nz-golden-path",
+"nz-grand-impact",
+"nz-hezashocka",
+"nz-knobelas",
+"nz-leonchroi",
+"nz-public-attention",
+"nz-she-s-got-the-cash",
+"nz-skycatcher",
+"nz-snow-patrol",
+"nz-the-creator",
+"nz-warmonger",
+"nz-zambardo"
+]
+},
+{
+"uid": "t-m-raymond-p-bell",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "雷妙德及貝律仁",
+"en": "M Raymond & P Bell",
+"hk": "雷妙德及貝律仁",
+"sc": "雷妙德及贝律仁",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-home-rule"
+]
+},
+{
+"uid": "t-m-rulec",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "雷力雅",
+"en": "M Rulec",
+"hk": "雷力雅",
+"sc": "雷力雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-bonjour-ca-va"
+]
+},
+{
+"uid": "t-m-scandella-lacaille",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施蕎娟",
+"en": "M Scandella-Lacaille",
+"hk": "施蕎娟",
+"sc": "施荞娟",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-kapetanios",
+"fr-orion-class",
+"fr-toyotomi",
+"gb-mgheera"
+]
+},
+{
+"uid": "t-m-van-den-weghe",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "范敏蘭",
+"en": "M Van Den Weghe",
+"hk": "范敏蘭",
+"sc": "范敏兰",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-rue-du-sahel"
+]
+},
+{
+"uid": "t-m-w-j-hawkes",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賀米高、賀維恩及賀嘉時",
+"en": "M, W & J Hawkes",
+"hk": "賀米高、賀維恩及賀嘉時",
+"sc": "贺米高、贺维恩及贺嘉时",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-airman",
+"au-bandersnatch",
+"au-dashing-legend",
+"au-fire",
+"au-fly-fly",
+"au-foujita-san",
+"au-groundrush",
+"au-jump-the-broom",
+"au-makarena",
+"au-more-secrets",
+"au-sebonack",
+"au-sekani",
+"au-sessions-road",
+"au-superium",
+"au-tonneofgrit",
+"au-zondee",
+"fr-zeyrek",
+"gb-pesto",
+"nz-newley-wed"
+]
+},
+{
+"uid": "t-m-w-mccarthy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥恪凡",
+"en": "M W McCarthy",
+"hk": "麥恪凡",
+"sc": "麦恪凡",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-there-goes-harvard"
+]
+},
+{
+"uid": "t-m-walker",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍卡",
+"en": "M Walker",
+"hk": "霍卡",
+"sc": "霍卡",
+"own": null,
+"alias": []
+},
+"horses": [
+"unk-black-quail",
+"unk-bringer-of-war",
+"unk-distinctive-darci",
+"unk-ferocious",
+"unk-first-light",
+"unk-sacred-galaxy",
+"unk-sacred-surfer",
+"unk-storm-trooper"
+]
+},
+{
+"uid": "t-m-walker-s-bergerson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍卡及白俊山",
+"en": "M Walker & S Bergerson",
+"hk": "霍卡及白俊山",
+"sc": "霍卡及白俊山",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-belle-du-monde",
+"au-bolli-belle",
+"au-captured-by-love",
+"au-espionage",
+"au-in-haste",
+"au-king-s-english",
+"au-kinnaird",
+"au-lara-antipova",
+"au-midnight-blue",
+"ire-i-m-a-dirty-rascal",
+"nz-belle-cheval",
+"nz-campionessa",
+"nz-class",
+"nz-damask-rose",
+"nz-dare-to-proisir",
+"nz-drops-of-god",
+"nz-hakkinen",
+"nz-he-who-dares",
+"nz-la-dorada",
+"nz-out-of-the-blue",
+"nz-qali-al-farrasha",
+"nz-to-bravery-born",
+"nz-towering-vision",
+"nz-zaharias"
+]
+},
+{
+"uid": "t-m-weiss",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "尹懷志",
+"en": "M Weiss",
+"hk": "尹懷志",
+"sc": "尹怀志",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-petit-marin"
+]
+},
+{
+"uid": "t-m-yusof",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "M尤索",
+"en": "M Yusof",
+"hk": "M尤索",
+"sc": "M尤索",
+"own": null,
+"alias": []
+},
+"horses": [
+"unk-darshini"
+]
+},
+{
+"uid": "t-maciej-jodlowski",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "祖雷健",
+"en": "Maciej Jodlowski",
+"hk": "祖雷健",
+"sc": "祖雷健",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-merveilleux-lapin"
+]
+},
+{
+"uid": "t-mack-griffith",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀方輝",
+"en": "Mack Griffith",
+"hk": "紀方輝",
+"sc": "纪方辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-condone",
+"au-musical-affair"
+]
+},
+{
+"uid": "t-maddie-raymond",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "雷妙德",
+"en": "Maddie Raymond",
+"hk": "雷妙德",
+"sc": "雷妙德",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-turaath",
+"ire-pacodali"
+]
+},
+{
+"uid": "t-mahmood-hussain",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "哈辛",
+"en": "Mahmood Hussain",
+"hk": "哈辛",
+"sc": "哈辛",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-oasis-charm",
+"ire-lucius-tiberius",
+"us-mark-of-approval"
+]
+},
+{
+"uid": "t-maitha-alsuwaidi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "敖蕙德",
+"en": "Maitha Alsuwaidi",
+"hk": "敖蕙德",
+"sc": "敖蕙德",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-injazati"
+]
+},
+{
+"uid": "t-makoto-saito",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "齋藤誠",
+"en": "Makoto Saito",
+"hk": "齋藤誠",
+"sc": "斋藤诚",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-august",
+"jp-bakushin",
+"jp-bridge-effect",
+"jp-fruor",
+"jp-gene-king",
+"jp-ho-o-no-side",
+"jp-king-s-valley",
+"jp-lord-reinado",
+"jp-metal-speed",
+"jp-once-in-a-moon",
+"jp-one-sky",
+"jp-peace-bonheur",
+"jp-ptah",
+"jp-rainbow-lucky",
+"jp-rapid-rise",
+"jp-shadow-diva",
+"jp-shooting-guy",
+"jp-sky-rex",
+"jp-tamio-star",
+"jp-uranus-charm",
+"us-lucks-at-there"
+]
+},
+{
+"uid": "t-mamoru-ishibashi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "石橋守",
+"en": "Mamoru Ishibashi",
+"hk": "石橋守",
+"sc": "石桥守",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-compounder",
+"jp-fortina",
+"jp-lance-of-agua",
+"jp-meisho-inuwashi",
+"jp-meisho-kamishima",
+"jp-meisho-kogiku",
+"jp-meisho-kojo",
+"jp-meisho-sachishio",
+"jp-meisho-shoot",
+"jp-meisho-tabaru",
+"jp-meisho-toko",
+"jp-nobori-shoryu",
+"jp-spirit-world",
+"jp-stapes-maria",
+"jp-t-s-bara",
+"jp-water-garuda",
+"jp-water-gerbera",
+"jp-water-licht",
+"jp-wonder-ecarte",
+"jp-yabusame"
+]
+},
+{
+"uid": "t-manabu-ikezoe",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "池添學",
+"en": "Manabu Ikezoe",
+"hk": "池添學",
+"sc": "池添学",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-melagrana",
+"ire-mad-cool",
+"jp-ailes-du-courage",
+"jp-andvaranaut",
+"jp-arvand-rud",
+"jp-black-morion",
+"jp-brazilian-song",
+"jp-catedral",
+"jp-dura-erede",
+"jp-gold-tier",
+"jp-haru-frontier",
+"jp-ice-green",
+"jp-kazu-petrin",
+"jp-l-excellence",
+"jp-mikki-frankel",
+"jp-moment-heureux",
+"jp-muttrah-corniche",
+"jp-pradaria",
+"jp-raijin",
+"jp-safira",
+"jp-salacia",
+"jp-sky-survey",
+"jp-total-clarity",
+"jp-victipharus",
+"jp-weep-delight",
+"jp-world-s-end",
+"us-air-almas",
+"us-air-fanditha",
+"us-shailene"
+]
+},
+{
+"uid": "t-manfred-man",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "HKG",
+"nationality_cn": "中国香港",
+"names": {
+"original": "文家良",
+"en": "Manfred Man",
+"hk": "文家良",
+"sc": "文家良",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-circuit-grand-slam",
+"unk-12b9ea94",
+"unk-6bd85468",
+"unk-84377b7d",
+"unk-d5ac8c24"
+]
+},
+{
+"uid": "t-manfred-weber",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋博彥",
+"en": "Manfred Weber",
+"hk": "韋博彥",
+"sc": "韦博彦",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-emirate-s-flight",
+"ire-sea-the-man"
+]
+},
+{
+"uid": "t-mano-pandaram",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "潘堤浪",
+"en": "Mano Pandaram",
+"hk": "潘堤浪",
+"sc": "潘堤浪",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-indian-ocean",
+"saf-kavady",
+"saf-kudikaran",
+"saf-porridge-boy",
+"saf-thunee-playa",
+"saf-vanakkam"
+]
+},
+{
+"uid": "t-mar-hofer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "何發",
+"en": "Mar Hofer",
+"hk": "何發",
+"sc": "何发",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-ariadne"
+]
+},
+{
+"uid": "t-marc-chevalier",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "卓煥良",
+"en": "Marc Chevalier",
+"hk": "卓煥良",
+"sc": "卓焕良",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-everyone-s-a-star",
+"au-stand-my-ground",
+"au-torrens"
+]
+},
+{
+"uid": "t-marc-conners",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鄺馬克",
+"en": "Marc Conners",
+"hk": "鄺馬克",
+"sc": "邝马克",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-super-too",
+"au-willaidow"
+]
+},
+{
+"uid": "t-marc-pimbonnet",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "彭邦利",
+"en": "Marc Pimbonnet",
+"hk": "彭邦利",
+"sc": "彭邦利",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-poet-s-black"
+]
+},
+{
+"uid": "t-marc-quinn",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "昆應漣",
+"en": "Marc Quinn",
+"hk": "昆應漣",
+"sc": "昆应涟",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-agirlsbestfriend",
+"au-auzstar"
+]
+},
+{
+"uid": "t-marc-rosseel",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅賽爾",
+"en": "Marc Rosseel",
+"hk": "羅賽爾",
+"sc": "罗赛尔",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-on-y-va"
+]
+},
+{
+"uid": "t-marc-timpelan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "田柏倫",
+"en": "Marc Timpelan",
+"hk": "田柏倫",
+"sc": "田柏伦",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-zavaro"
+]
+},
+{
+"uid": "t-marcel-rolland",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅勵德",
+"en": "Marcel Rolland",
+"hk": "羅勵德",
+"sc": "罗励德",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-une-pointure"
+]
+},
+{
+"uid": "t-marcel-weiss",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "尹懷志",
+"en": "Marcel Weiss",
+"hk": "尹懷志",
+"sc": "尹怀志",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-stingray",
+"gb-laxxio",
+"ger-alessio",
+"ger-anistou",
+"ger-aojana",
+"ger-englishman",
+"ger-global-queen",
+"ger-lordano",
+"ger-lorella",
+"ger-narrativo",
+"ger-night-breath",
+"ger-petit-marin",
+"ger-reine-des-roses",
+"ger-sainte-marie",
+"ger-skylo",
+"ger-sweet-on-you",
+"ger-tausendschon",
+"ger-tiamo-hilleshage",
+"ger-tiara-hilleshage",
+"ger-torquator-tasso",
+"ger-vintage-moon",
+"ire-alleno",
+"ire-giorgia",
+"ire-go-flying"
+]
+},
+{
+"uid": "t-marcio-ferreira",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "顧山常",
+"en": "Marcio Ferreira",
+"hk": "顧山常",
+"sc": "顾山常",
+"own": null,
+"alias": []
+},
+"horses": [
+"brz-cold-heart"
+]
+},
+{
+"uid": "t-marco-angermann",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "顏安民",
+"en": "Marco Angermann",
+"hk": "顏安民",
+"sc": "颜安民",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-heyne-s-henry",
+"ger-antas"
+]
+},
+{
+"uid": "t-marco-botti",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布銘球",
+"en": "Marco Botti",
+"hk": "布銘球",
+"sc": "布铭球",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-royal-dubai",
+"gb-advancing",
+"gb-aljazzi",
+"gb-ardakan",
+"gb-atalis-bay",
+"gb-bated-benevolence",
+"gb-colori-forever",
+"gb-crowned-eagle",
+"gb-felix",
+"gb-invincible-aura",
+"gb-onigiri",
+"gb-rising-star",
+"gb-silver-samurai",
+"gb-sommelier",
+"gb-sunset-on-leros",
+"ire-archers-bay",
+"ire-capla-temptress",
+"ire-coco-jamboo",
+"ire-daysofourlives",
+"ire-folgaria",
+"ire-giavellotto",
+"ire-great-generation",
+"ire-hyperchromatic",
+"ire-legend-of-leros",
+"ire-lizzana",
+"ire-notable-dream",
+"ire-pon-pon-dalia",
+"ire-prince-of-india",
+"ire-rocket-boy",
+"ire-soldier-s-empire",
+"ire-wait-forever",
+"ire-war-horse",
+"us-minwah"
+]
+},
+{
+"uid": "t-marcus-tregoning",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓浩年",
+"en": "Marcus Tregoning",
+"hk": "卓浩年",
+"sc": "卓浩年",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-cassias-comet",
+"gb-master-of-chant",
+"gb-mohaather",
+"gb-mukalal",
+"gb-olivetti",
+"gb-orchard-hatches",
+"gb-perotto",
+"gb-power-of-darkness",
+"gb-secret-solace",
+"gb-skysail",
+"gb-tap-dancer",
+"ire-receding",
+"ire-ribhi",
+"ire-spanish-blaze",
+"ire-wisper"
+]
+},
+{
+"uid": "t-margaret-falconer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "傅瓊琳",
+"en": "Margaret Falconer",
+"hk": "傅瓊琳",
+"sc": "傅琼琳",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-moschino"
+]
+},
+{
+"uid": "t-margaux-tillet",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鐵盈天",
+"en": "Margaux Tillet",
+"hk": "鐵盈天",
+"sc": "铁盈天",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-toscane-temple"
+]
+},
+{
+"uid": "t-maria-f-alvarez",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾詠莉",
+"en": "Maria F Alvarez",
+"hk": "艾詠莉",
+"sc": "艾咏莉",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-folie-ninja"
+]
+},
+{
+"uid": "t-maria-munoz",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蒙露仙",
+"en": "Maria Munoz",
+"hk": "蒙露仙",
+"sc": "蒙露仙",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-mirinaque"
+]
+},
+{
+"uid": "t-maria-ritchie",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "列清儀",
+"en": "Maria Ritchie",
+"hk": "列清儀",
+"sc": "列清仪",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-fityaan",
+"ire-special-fighter",
+"us-shaishee"
+]
+},
+{
+"uid": "t-marian-falk-weissmeier",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋羨謀",
+"en": "Marian Falk Weissmeier",
+"hk": "韋羨謀",
+"sc": "韦羡谋",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-aiguiere-d-argent",
+"fr-cogolin",
+"fr-major-oak",
+"fr-rashford",
+"fr-zeolakis",
+"ger-dublone",
+"ger-gesa",
+"ger-lady-sahara",
+"ger-lili-marleen",
+"ger-pelegrina",
+"ger-straight",
+"ger-wilela",
+"ire-art-market"
+]
+},
+{
+"uid": "t-marian-weissmeier",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋羨謀",
+"en": "Marian Weissmeier",
+"hk": "韋羨謀",
+"sc": "韦羡谋",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-baba-sim",
+"fr-be-my-day",
+"fr-calcutta-cup",
+"fr-cogolin",
+"fr-glacier-peak",
+"fr-have-dancer",
+"fr-karinas-dream",
+"fr-major-oak",
+"fr-prairie-glory",
+"fr-saga-timgad",
+"gb-just-in-love",
+"ger-lili-marleen",
+"ger-straight",
+"ire-burattina",
+"ire-glorious-bay"
+]
+},
+{
+"uid": "t-mario-baratti",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鮑浪天",
+"en": "Mario Baratti",
+"hk": "鮑浪天",
+"sc": "鲍浪天",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-angers",
+"fr-aura",
+"fr-gafara",
+"fr-metropolitan",
+"fr-misunderstood",
+"fr-moana",
+"fr-montsecret",
+"fr-saga-timgad",
+"fr-saidi-el-fal",
+"gb-bandiagara",
+"gb-breckenbrough",
+"gb-crohanne",
+"gb-etincelle",
+"gb-inju",
+"gb-monteille",
+"gb-rubis-vendome",
+"gb-sea-of-thieves",
+"ire-philly-bassett"
+]
+},
+{
+"uid": "t-mario-hofer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "何發",
+"en": "Mario Hofer",
+"hk": "何發",
+"sc": "何发",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-hout-bay",
+"ger-blue-ocean-dream",
+"ger-flying",
+"ger-quick-and-wild",
+"ger-zavaro",
+"ire-ariadne",
+"ire-blueridge-silver",
+"ire-thekingofmyheart"
+]
+},
+{
+"uid": "t-mark-ashby",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾世培",
+"en": "Mark Ashby",
+"hk": "艾世培",
+"sc": "艾世培",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-core-concept"
+]
+},
+{
+"uid": "t-mark-brosnan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "朴醒楠",
+"en": "Mark Brosnan",
+"hk": "朴醒楠",
+"sc": "朴醒楠",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-arjay-s-flight",
+"nz-sterling-express"
+]
+},
+{
+"uid": "t-mark-c-webb",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋馬克",
+"en": "Mark C Webb",
+"hk": "韋馬克",
+"sc": "韦马克",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-miss-belisa"
+]
+},
+{
+"uid": "t-mark-casse",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "祁斯",
+"en": "Mark Casse",
+"hk": "祁斯",
+"sc": "祁斯",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-facteur-cheval",
+"us-classic-q",
+"us-get-smokin",
+"us-got-stormy",
+"us-holding-gold",
+"us-measure",
+"us-nitrogen",
+"us-time-to-dazzle"
+]
+},
+{
+"uid": "t-mark-dixon",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "狄克遜",
+"en": "Mark Dixon",
+"hk": "狄克遜",
+"sc": "狄克逊",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-admiral-s-guest",
+"saf-captain-s-christy"
+]
+},
+{
+"uid": "t-mark-fahey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "范慶陽",
+"en": "Mark Fahey",
+"hk": "范慶陽",
+"sc": "范庆阳",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-i-bid-you-ajou",
+"ire-chica-guerrera",
+"ire-happy-jacky",
+"ire-tina-s-indian"
+]
+},
+{
+"uid": "t-mark-forbes",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍邦壽",
+"en": "Mark Forbes",
+"hk": "霍邦壽",
+"sc": "霍邦寿",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-halo-s-fire",
+"nz-halos-fire"
+]
+},
+{
+"uid": "t-mark-gillard",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀利德",
+"en": "Mark Gillard",
+"hk": "紀利德",
+"sc": "纪利德",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-pilansberg",
+"ire-l-attesa"
+]
+},
+{
+"uid": "t-mark-glatt",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "葛馬克",
+"en": "Mark Glatt",
+"hk": "葛馬克",
+"sc": "葛马克",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-dr-schivel"
+]
+},
+{
+"uid": "t-mark-goodwin",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高煥臨",
+"en": "Mark Goodwin",
+"hk": "高煥臨",
+"sc": "高焕临",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-warp-speed"
+]
+},
+{
+"uid": "t-mark-johnston",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "張仕頓",
+"en": "Mark Johnston",
+"hk": "張仕頓",
+"sc": "张仕顿",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-baghdad",
+"fr-baileys-excelerate",
+"fr-naamoos",
+"fr-royal-patronage",
+"fr-ventura-vision",
+"gb-aquarium",
+"gb-arctic-sound",
+"gb-blown-by-wind",
+"gb-capital-theory",
+"gb-cardsharp",
+"gb-chapelli",
+"gb-chase-the-dollar",
+"gb-cuban-dancer",
+"gb-dee-ex-bee",
+"gb-dutch-decoy",
+"gb-elarqam",
+"gb-elegiac",
+"gb-eye-of-heaven",
+"gb-harb",
+"gb-herbertandflorence",
+"gb-highland-premiere",
+"gb-i-am-a-dreamer",
+"gb-if-you-dare",
+"gb-jadhlaan",
+"gb-king-s-caper",
+"gb-kings-prince",
+"gb-lucky-deal",
+"gb-making-miracles",
+"gb-mildenberger",
+"gb-mountain-brave",
+"gb-natalie-s-joy",
+"gb-new-winds",
+"gb-out-in-yorkshire",
+"gb-outside-world",
+"gb-pelekai",
+"gb-poet-s-society",
+"gb-rufus-king",
+"gb-sands-of-time",
+"gb-sir-ron-priestley",
+"gb-sky-defender",
+"gb-soapy-stevens",
+"gb-subjectivist",
+"gb-summer-moon",
+"gb-trumpet-man",
+"gb-west-end-girl",
+"gb-zabeel-champion",
+"ger-oriental-fox",
+"ire-annandale",
+"ire-army-of-india",
+"ire-asdaa",
+"ire-aussie-view",
+"ire-austrian-theory",
+"ire-book-of-dreams",
+"ire-bowman",
+"ire-brazilian-beach",
+"ire-communique",
+"ire-dancing-king",
+"ire-dark-vision",
+"ire-desert-safari",
+"ire-dream-with-me",
+"ire-dubai-fountain",
+"ire-fire-fighting",
+"ire-forest-falcon",
+"ire-freyja",
+"ire-gear-up",
+"ire-glen-again",
+"ire-golden-flame",
+"ire-hochfeld",
+"ire-huboor",
+"ire-iffraaz",
+"ire-im-a-gambler",
+"ire-jm-jackson",
+"ire-king-frankel",
+"ire-king-s-proctor",
+"ire-king-zain",
+"ire-kondo-isami",
+"ire-lake-volta",
+"ire-love-dreams",
+"ire-love-is-golden",
+"ire-lynwood-gold",
+"ire-main-edition",
+"ire-makyon",
+"ire-march-law",
+"ire-marie-s-diamond",
+"ire-masham-star",
+"ire-matterhorn",
+"ire-maydanny",
+"ire-misty-grey",
+"ire-mr-excellency",
+"ire-mutazawwed",
+"ire-nayef-road",
+"ire-nyaleti",
+"ire-overwrite",
+"ire-persian-moon",
+"ire-qaader",
+"ire-raffle-prize",
+"ire-rochester-house",
+"ire-rose-of-kildare",
+"ire-rusumaat",
+"ire-sharp-combo",
+"ire-smile-a-mile",
+"ire-state-of-bliss",
+"ire-the-gatekeeper",
+"ire-the-trader",
+"ire-themaxwecan",
+"ire-threading",
+"ire-thunder-of-niagara",
+"ire-thunderous",
+"ire-vale-of-kent",
+"ire-ventura-knight",
+"ire-victory-command",
+"ire-vintage-fashion",
+"ire-west-end-charmer",
+"ire-whitefeathersfall",
+"us-glenties",
+"us-leopardo",
+"us-monoski",
+"us-prestbury-park"
+]
+},
+{
+"uid": "t-mark-jones",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鍾練韶",
+"en": "Mark Jones",
+"hk": "鍾練韶",
+"sc": "钟练韶",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-crusader-kings"
+]
+},
+{
+"uid": "t-mark-kavanagh",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卡偉樂",
+"en": "Mark Kavanagh",
+"hk": "卡偉樂",
+"sc": "卡伟乐",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-santorini-summer"
+]
+},
+{
+"uid": "t-mark-khan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "簡明基",
+"en": "Mark Khan",
+"hk": "簡明基",
+"sc": "简明基",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-solar-sail"
+]
+},
+{
+"uid": "t-mark-levi-kavanagh",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卡偉樂及卡梵利",
+"en": "Mark & Levi Kavanagh",
+"hk": "卡偉樂及卡梵利",
+"sc": "卡伟乐及卡梵利",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-first-immortal",
+"au-rhodesian-red",
+"au-thanks-gorgeous"
+]
+},
+{
+"uid": "t-mark-loughnane",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "劉瑾尼",
+"en": "Mark Loughnane",
+"hk": "劉瑾尼",
+"sc": "刘瑾尼",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-coachello",
+"ire-ninetynineproblems"
+]
+},
+{
+"uid": "t-mark-minervini",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文利威",
+"en": "Mark Minervini",
+"hk": "文利威",
+"sc": "文利威",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-hanau",
+"ire-hosier"
+]
+},
+{
+"uid": "t-mark-newnham",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "廖康銘",
+"en": "Mark Newnham",
+"hk": "廖康銘",
+"sc": "廖康铭",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-a-very-fine-red",
+"au-darling-diamond",
+"au-every-rose",
+"au-harmony-rose",
+"au-joyful-fortune",
+"au-my-wish",
+"au-nakeeta-jane",
+"au-quackerjack",
+"au-quintessa",
+"au-scarlet-dream",
+"au-shadow-hero",
+"au-splintex",
+"au-swift-sweet",
+"au-talents-ambition",
+"ire-king-frankel",
+"nz-bargain",
+"saf-aerodynamics",
+"unk-1406460b",
+"unk-43bec5a3",
+"unk-45fe11fd",
+"unk-64b1acc2",
+"unk-6efef6ed",
+"unk-8257762d",
+"unk-ae8beed6",
+"unk-aerodynamics",
+"unk-c98282b9",
+"unk-cb61e767"
+]
+},
+{
+"uid": "t-mark-schmetzer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "薛明山",
+"en": "Mark Schmetzer",
+"hk": "薛明山",
+"sc": "薛明山",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-surooj"
+]
+},
+{
+"uid": "t-mark-stephenson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "史鐵新",
+"en": "Mark Stephenson",
+"hk": "史鐵新",
+"sc": "史铁新",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-albertville"
+]
+},
+{
+"uid": "t-mark-tompkins",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "湯健士",
+"en": "Mark Tompkins",
+"hk": "湯健士",
+"sc": "汤健士",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-garrel-glen"
+]
+},
+{
+"uid": "t-mark-usher",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "魏殊",
+"en": "Mark Usher",
+"hk": "魏殊",
+"sc": "魏殊",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-sid-s-annie"
+]
+},
+{
+"uid": "t-mark-walford",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "華寬定",
+"en": "Mark Walford",
+"hk": "華寬定",
+"sc": "华宽定",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-spioradalta"
+]
+},
+{
+"uid": "t-mark-walker",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍卡",
+"en": "Mark Walker",
+"hk": "霍卡",
+"sc": "霍卡",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-elite-remarkable",
+"au-admiral-winston",
+"au-afalonhro",
+"au-augustus",
+"au-barbeque",
+"au-beau-geste",
+"au-bellatrix-star",
+"au-brutus",
+"au-captured-by-love",
+"au-cousteau",
+"au-crismera",
+"au-elliot-ness",
+"au-esternay",
+"au-exdream",
+"au-federation",
+"au-geegees-mistruth",
+"au-gruzamba",
+"au-i-am-aria",
+"au-imperatriz",
+"au-inherit",
+"au-jr-malone",
+"au-lim-s-knight",
+"au-mascot",
+"au-master-ryker",
+"au-mcwoody",
+"au-midnight-blue",
+"au-motakhayyel",
+"au-nationality",
+"au-richebourg",
+"au-royal-rendezvous",
+"au-sacred-gift",
+"au-sacred-judgement",
+"au-sacred-rebel",
+"au-sans-doute",
+"au-seize-the-day",
+"au-speedy-missile",
+"au-stenmark",
+"au-street-cry-success",
+"au-time-to-rock",
+"au-tolaga-bay",
+"au-what-you-like",
+"au-zac-kasa",
+"gb-elite-power",
+"ire-buddy-buddy",
+"ire-elite-invincible",
+"ire-yulong-edition",
+"nz-axel",
+"nz-azazel",
+"nz-belle-cheval",
+"nz-black-quail",
+"nz-broadway-success",
+"nz-campionessa",
+"nz-damask-rose",
+"nz-distinctive-darci",
+"nz-dynastic",
+"nz-lim-s-reform",
+"nz-mr-clint",
+"nz-mustengo",
+"nz-our-paramour",
+"nz-quintessa",
+"nz-sacred-croix",
+"nz-savoir-faire",
+"nz-savvy-command",
+"nz-skew-wiff",
+"nz-stage-n-screen",
+"nz-time-lord",
+"nz-viviano",
+"nz-west-indies"
+]
+},
+{
+"uid": "t-mark-walker-sam-bergerson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍卡及白俊山",
+"en": "Mark Walker & Sam Bergerson",
+"hk": "霍卡及白俊山",
+"sc": "霍卡及白俊山",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-towering-vision"
+]
+},
+{
+"uid": "t-marko-megsner",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "孟兆立",
+"en": "Marko Megsner",
+"hk": "孟兆立",
+"sc": "孟兆立",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-alive-again",
+"ire-edinburgh-rock",
+"ire-kilworth-kate",
+"ire-skipjack"
+]
+},
+{
+"uid": "t-markus-geisler",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀山嵐",
+"en": "Markus Geisler",
+"hk": "紀山嵐",
+"sc": "纪山岚",
+"own": null,
+"alias": []
+},
+"horses": [
+"aut-sultan-of-swing",
+"fr-galagos",
+"fr-hadewin",
+"ger-captain-david"
+]
+},
+{
+"uid": "t-markus-klug",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高立",
+"en": "Markus Klug",
+"hk": "高立",
+"sc": "高立",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-ashana",
+"fr-borna",
+"gb-ardakan",
+"gb-goin",
+"ger-aguirre",
+"ger-aspirant",
+"ger-diaphora",
+"ger-kassada",
+"ger-larios",
+"ger-tunnes",
+"ire-koelle"
+]
+},
+{
+"uid": "t-markus-munch",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "孟殊",
+"en": "Markus Munch",
+"hk": "孟殊",
+"sc": "孟殊",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-boorga",
+"fr-cameron",
+"fr-euboa",
+"fr-koskov",
+"fr-reshabar"
+]
+},
+{
+"uid": "t-markus-nigge",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "歷治",
+"en": "Markus Nigge",
+"hk": "歷治",
+"sc": "历治",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-apax",
+"fr-bella-memoria",
+"fr-calouniya",
+"fr-chiareggio",
+"fr-come-say-hi",
+"fr-happy-hunter",
+"fr-marillaman",
+"fr-navidad",
+"fr-poschiavo",
+"fr-septimus",
+"fr-tertius",
+"fr-toijk"
+]
+},
+{
+"uid": "t-marlena-stanislawska",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "冼天琪",
+"en": "Marlena Stanislawska",
+"hk": "冼天琪",
+"sc": "冼天琪",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-colin-the-brave",
+"ire-le-destrier"
+]
+},
+{
+"uid": "t-martin-dunne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鄧安隆",
+"en": "Martin Dunne",
+"hk": "鄧安隆",
+"sc": "邓安隆",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-sing-the-blues"
+]
+},
+{
+"uid": "t-martin-hassett",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏先道",
+"en": "Martin Hassett",
+"hk": "夏先道",
+"sc": "夏先道",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-dmaniac",
+"gb-harry-s-hill",
+"ire-secret-magician"
+]
+},
+{
+"uid": "t-martin-lehmann",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "雷彥聞",
+"en": "Martin Lehmann",
+"hk": "雷彥聞",
+"sc": "雷彦闻",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-karmina-bella"
+]
+},
+{
+"uid": "t-martin-schu",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蕭譽揚",
+"en": "Martin Schu",
+"hk": "蕭譽揚",
+"sc": "萧誉扬",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-dormio"
+]
+},
+{
+"uid": "t-martin-smith",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施文豐",
+"en": "Martin Smith",
+"hk": "施文豐",
+"sc": "施文丰",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-happy-craf",
+"ire-affluence",
+"us-ace-rothstein"
+]
+},
+{
+"uid": "t-martina-grunewald",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "官麗慧",
+"en": "Martina Grunewald",
+"hk": "官麗慧",
+"sc": "官丽慧",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-kadjar"
+]
+},
+{
+"uid": "t-martyn-meade",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "梅馬田",
+"en": "Martyn Meade",
+"hk": "梅馬田",
+"sc": "梅马田",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-variyann",
+"gb-advertise",
+"gb-chilean",
+"gb-ebury",
+"gb-organ",
+"gb-swayze",
+"gb-technique",
+"ire-eminent",
+"ire-lone-eagle",
+"ire-method",
+"ire-statement",
+"ire-technician",
+"ire-wilamina",
+"us-gloucestershire",
+"us-king-ademar",
+"us-walk-in-the-sun"
+]
+},
+{
+"uid": "t-masaaki-koga",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "古賀慎明",
+"en": "Masaaki Koga",
+"hk": "古賀慎明",
+"sc": "古贺慎明",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-aoi-creator",
+"jp-cafe-cendrillon",
+"jp-cafe-karma",
+"jp-herrenchiemsee",
+"jp-king-glory",
+"jp-logi-mambo",
+"jp-marvelous-queen",
+"jp-nishino-raiko",
+"jp-no-double-dip",
+"jp-one-breath-away",
+"jp-orede-iinoka",
+"jp-red-teleos",
+"jp-sea-route",
+"jp-windstille"
+]
+},
+{
+"uid": "t-masahiro-horii",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "堀井雅廣",
+"en": "Masahiro Horii",
+"hk": "堀井雅廣",
+"sc": "堀井雅广",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-asti",
+"jp-cosmo-stack",
+"jp-derma-vodka",
+"jp-good-jewelry",
+"jp-maltese-apogee",
+"jp-meiner-renka",
+"jp-morito-yubu",
+"jp-salvete",
+"jp-sol-presa"
+]
+},
+{
+"uid": "t-masahiro-ikegami",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "池上昌弘",
+"en": "Masahiro Ikegami",
+"hk": "池上昌弘",
+"sc": "池上昌弘",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-hikari-brandy",
+"jp-hikari-masamune",
+"jp-hikari-top-memory",
+"jp-sublime-kaiser"
+]
+},
+{
+"uid": "t-masahiro-matsunaga",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "松永昌博",
+"en": "Masahiro Matsunaga",
+"hk": "松永昌博",
+"sc": "松永昌博",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-burning-pesca",
+"jp-landler",
+"jp-marukano-kagayaki",
+"jp-meisho-orso",
+"jp-meisho-shirogane",
+"jp-phrase-d-armes",
+"jp-raptus",
+"jp-rhein-garuda",
+"jp-rhein-spirit"
+]
+},
+{
+"uid": "t-masahiro-otake",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "大竹正博",
+"en": "Masahiro Otake",
+"hk": "大竹正博",
+"sc": "大竹正博",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-schwarz-kaiser",
+"jp-air-dunluce",
+"jp-akokuro",
+"jp-blast-onepiece",
+"jp-danon-whitney",
+"jp-dea-regalo",
+"jp-ho-o-peaceful",
+"jp-la-la-maceration",
+"jp-night-fox",
+"jp-peace-dion",
+"jp-peace-one-duc",
+"jp-peace-one-paradis",
+"jp-red-bande",
+"jp-rouge-buck",
+"jp-shonan-hakuun",
+"jp-slap-shot",
+"jp-stochastique",
+"jp-veil-nebula",
+"jp-weiss-blitz",
+"jp-western-oji"
+]
+},
+{
+"uid": "t-masahiro-takeuchi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "竹內正洋",
+"en": "Masahiro Takeuchi",
+"hk": "竹內正洋",
+"sc": "竹内正洋",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-boiler-house",
+"jp-fukuno-blue-lake",
+"jp-isa-chil-runrun",
+"jp-isa-chil-seaside",
+"jp-koyu-hokuto",
+"jp-le-vent-vert",
+"jp-plaisir-de-vivre",
+"jp-psammead",
+"jp-salisbury",
+"jp-seiun-harukani",
+"jp-shinryokuka",
+"jp-yuino-chucky"
+]
+},
+{
+"uid": "t-masakazu-ikegami",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "池上昌和",
+"en": "Masakazu Ikegami",
+"hk": "池上昌和",
+"sc": "池上昌和",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-aurum-regalia",
+"jp-auspicious-day",
+"jp-beer-for-now",
+"jp-daiwa-donovan",
+"jp-daiwa-proper",
+"jp-ho-o-emmy-s",
+"jp-ho-o-shelly",
+"jp-purushapura",
+"jp-sabrina-waltz",
+"jp-scintillation",
+"jp-seiun-kirabiyaka",
+"us-charoite"
+]
+},
+{
+"uid": "t-masaki-matsuyama",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "松山將樹",
+"en": "Masaki Matsuyama",
+"hk": "松山將樹",
+"sc": "松山将树",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-cosmo-spumoni",
+"jp-dream-magic",
+"jp-eternal-vitesse",
+"jp-nishino-coco",
+"jp-shigeru-kamikaze"
+]
+},
+{
+"uid": "t-masamichi-wada",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "和田正道",
+"en": "Masamichi Wada",
+"hk": "和田正道",
+"sc": "和田正道",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-queen-s-milagro"
+]
+},
+{
+"uid": "t-masanori-ito",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "伊藤正德",
+"en": "Masanori Ito",
+"hk": "伊藤正德",
+"sc": "伊藤正德",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-suzukaze"
+]
+},
+{
+"uid": "t-masanori-sakaguchi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "坂口正則",
+"en": "Masanori Sakaguchi",
+"hk": "坂口正則",
+"sc": "坂口正则",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-peisha-luas"
+]
+},
+{
+"uid": "t-masao-kasuya",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "粕谷昌央",
+"en": "Masao Kasuya",
+"hk": "粕谷昌央",
+"sc": "粕谷昌央",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-bambton-heart",
+"jp-daichi-gem",
+"jp-demoiselle",
+"jp-earth-vigorous",
+"jp-lumiere-soleil",
+"jp-nathan",
+"jp-never-gone-out",
+"jp-smart-cuore",
+"jp-snow-desire"
+]
+},
+{
+"uid": "t-masaru-honda",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "本田優",
+"en": "Masaru Honda",
+"hk": "本田優",
+"sc": "本田优",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-daimei-seven",
+"jp-dantsu-elise",
+"jp-dantsu-gazelle",
+"jp-deep-adorare",
+"jp-deep-harmony",
+"jp-diamant-minoru",
+"jp-elizabeth-minoru",
+"jp-eterna-minoru",
+"jp-heroic-tale",
+"jp-ja-nalia",
+"jp-meisho-habomai",
+"jp-meisho-kogashira",
+"jp-meisho-matoi",
+"jp-meisho-zuiun",
+"jp-reine-minoru",
+"jp-sea-splash",
+"jp-tagano-gajumaru",
+"jp-two-m-khronos",
+"jp-two-m-meister",
+"jp-uraeus",
+"jp-violet-imeru"
+]
+},
+{
+"uid": "t-masashi-atarashi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "新子雅司",
+"en": "Masashi Atarashi",
+"hk": "新子雅司",
+"sc": "新子雅司",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-igniter"
+]
+},
+{
+"uid": "t-masashi-fukayama",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "深山雅史",
+"en": "Masashi Fukayama",
+"hk": "深山雅史",
+"sc": "深山雅史",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-buchanan-tesoro",
+"jp-copano-seiber",
+"jp-cosmo-ishtar",
+"jp-famous-dandy",
+"jp-friend-pal",
+"jp-glint-ritter",
+"jp-harumeki",
+"jp-peisha-negano",
+"jp-saiya-dancer",
+"jp-seiun-del-rey",
+"jp-suzuno-teresa",
+"jp-suzuno-ume",
+"jp-win-marvel",
+"jp-yuino-ichigeki",
+"jp-yuino-otokoyama"
+]
+},
+{
+"uid": "t-masashi-okuhira",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "奧平雅士",
+"en": "Masashi Okuhira",
+"hk": "奧平雅士",
+"sc": "奥平雅士",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-api-tesoro",
+"jp-buena-diosa",
+"jp-chimpun-kampun",
+"jp-feadog",
+"jp-grimoire",
+"jp-i-am-hayasugiru",
+"jp-kongur-tesoro",
+"jp-marino-sophia",
+"jp-rikisan-daio",
+"jp-seiun-galleon"
+]
+},
+{
+"uid": "t-masatatsu-kikukawa",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "菊川正達",
+"en": "Masatatsu Kikukawa",
+"hk": "菊川正達",
+"sc": "菊川正达",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-bros",
+"jp-crisp-breeze",
+"jp-fujimasa-teio",
+"jp-great-mission",
+"jp-magic-gale",
+"jp-meiner-stellaire",
+"jp-metal-spark",
+"jp-noble-mystery",
+"jp-ocea-great",
+"jp-sweet-melina",
+"jp-tokai-orden"
+]
+},
+{
+"uid": "t-masato-nishizono",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "西園正都",
+"en": "Masato Nishizono",
+"hk": "西園正都",
+"sc": "西园正都",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-extra-buck",
+"jp-african-gold",
+"jp-big-caesar",
+"jp-cosmo-in-the-heart",
+"jp-date-boreas",
+"jp-diorama",
+"jp-frost-edge",
+"jp-jour-polaire",
+"jp-marble-rock",
+"jp-modus-operandi",
+"jp-pod-volk",
+"jp-pompier",
+"jp-rosa-noir",
+"jp-satono-phoenix",
+"jp-seurasaari",
+"jp-smart-rachel",
+"jp-smart-raptor",
+"jp-tagano-beauty",
+"jp-tagano-peca",
+"jp-tagano-tulle",
+"jp-tomboy",
+"jp-wide-kant",
+"jp-win-gagnant"
+]
+},
+{
+"uid": "t-masatoshi-tsukazaki",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "柄崎將壽",
+"en": "Masatoshi Tsukazaki",
+"hk": "柄崎將壽",
+"sc": "柄崎将寿",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-framlingham"
+]
+},
+{
+"uid": "t-masayoshi-ebina",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "蛯名正義",
+"en": "Masayoshi Ebina",
+"hk": "蛯名正義",
+"sc": "蛯名正义",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-elan",
+"jp-master-soarer",
+"jp-red-mon-reve",
+"jp-rhein-portulaca",
+"jp-stjarn-gosse",
+"us-roly-glory",
+"us-vanishing-point"
+]
+},
+{
+"uid": "t-masayuki-nishimura",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "西村真幸",
+"en": "Masayuki Nishimura",
+"hk": "西村真幸",
+"sc": "西村真幸",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-cerejeira",
+"jp-fairy-polka",
+"jp-faust-rasen",
+"jp-first-force",
+"jp-genetics",
+"jp-hiruno-lausanne",
+"jp-lynx-tip",
+"jp-mahatma-bel",
+"jp-more-rigid",
+"jp-oceanscape",
+"jp-phantom-thief",
+"jp-protoporos",
+"jp-push-on",
+"jp-rickenbacker",
+"jp-semimaru",
+"jp-solace",
+"jp-solitario",
+"jp-suzuka-panther",
+"jp-taisei-avenir",
+"jp-taisei-excel",
+"jp-taisei-pride",
+"jp-taisei-vision"
+]
+},
+{
+"uid": "t-mathew-ellerton",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾馬殊",
+"en": "Mathew Ellerton",
+"hk": "艾馬殊",
+"sc": "艾马殊",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-general-beau",
+"au-nodachi",
+"au-zakat",
+"au-zoutori"
+]
+},
+{
+"uid": "t-mathew-ellerton-simon-zahra",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾馬殊及翟世民",
+"en": "Mathew Ellerton & Simon Zahra",
+"hk": "艾馬殊及翟世民",
+"sc": "艾马殊及翟世民",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-aristia",
+"au-booker",
+"au-crystal-dreamer",
+"au-debt-n-deficit",
+"au-dirty-thoughts",
+"au-flamberge",
+"au-ollivander",
+"au-parmie",
+"au-prezado",
+"au-river-jewel",
+"au-rock-n-gold",
+"au-sheezdashing",
+"au-smart-coupe",
+"au-sword-of-light",
+"au-zoutori",
+"nz-odeon"
+]
+},
+{
+"uid": "t-mathias-baudy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鮑定宜",
+"en": "Mathias Baudy",
+"hk": "鮑定宜",
+"sc": "鲍定宜",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-le-gitan",
+"gb-cour-du-roi"
+]
+},
+{
+"uid": "t-mathieu-boutin",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鮑田",
+"en": "Mathieu Boutin",
+"hk": "鮑田",
+"sc": "鲍田",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-big-freeze",
+"fr-bonarda",
+"fr-ciaccino",
+"fr-day-of-rest",
+"fr-gallius",
+"fr-glicourt",
+"fr-hur-cat",
+"fr-imotep",
+"fr-jordan-baker",
+"fr-king-robbe",
+"fr-marlowe",
+"fr-moudir",
+"fr-pink-valentine",
+"fr-reux",
+"fr-rue-mia",
+"fr-si-capo-si",
+"fr-splendino",
+"fr-stromboli",
+"fr-sweet-as",
+"fr-tudo-bem",
+"ger-woff",
+"ire-droit-de-parole"
+]
+},
+{
+"uid": "t-mathieu-brasme",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "畢樹萬",
+"en": "Mathieu Brasme",
+"hk": "畢樹萬",
+"sc": "毕树万",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-chiricco",
+"fr-dollar-index",
+"fr-fireman",
+"fr-golden-river",
+"fr-highbari",
+"fr-jerimadeth",
+"fr-lily-rose",
+"fr-nagano",
+"fr-pedrochec",
+"fr-rapide",
+"fr-san-valentina",
+"fr-shatterhand",
+"fr-valentina-bella",
+"gb-antharis",
+"gb-matauri-gold",
+"ire-saint-eligius"
+]
+},
+{
+"uid": "t-mathieu-le-forestier",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍煥庭",
+"en": "Mathieu Le Forestier",
+"hk": "霍煥庭",
+"sc": "霍焕庭",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-ison"
+]
+},
+{
+"uid": "t-mathieu-pitart",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "裴泰特",
+"en": "Mathieu Pitart",
+"hk": "裴泰特",
+"sc": "裴泰特",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-monna-vanna"
+]
+},
+{
+"uid": "t-matt-cumani",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "古敏力",
+"en": "Matt Cumani",
+"hk": "古敏力",
+"sc": "古敏力",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-autumn-deel",
+"au-autumnheat",
+"au-cecchetti",
+"au-deal-done-fast",
+"au-deserved",
+"au-flandersrain",
+"au-khoekhoe",
+"au-kingofwallstreet",
+"au-nobel-heights",
+"au-single-choice",
+"gb-delectation-girl",
+"ire-future-score",
+"ire-san-huberto",
+"ire-team-captain",
+"ity-tempesti",
+"nz-greycliffe"
+]
+},
+{
+"uid": "t-matt-jenkins",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "殷勁生",
+"en": "Matt Jenkins",
+"hk": "殷勁生",
+"sc": "殷劲生",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-prestige-lucky"
+]
+},
+{
+"uid": "t-matt-kropp",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "江浩平",
+"en": "Matt Kropp",
+"hk": "江浩平",
+"sc": "江浩平",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-flash-aah",
+"au-sun-worshipper"
+]
+},
+{
+"uid": "t-matt-laurie",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅滿德",
+"en": "Matt Laurie",
+"hk": "羅滿德",
+"sc": "罗满德",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-aberro",
+"au-algadon-miss",
+"au-archo-nacho",
+"au-aztec-ruler",
+"au-bella-verona",
+"au-blethyn",
+"au-bleu-roche",
+"au-chartres",
+"au-choir-point",
+"au-coleman",
+"au-delicious-tycoon",
+"au-extremely-wicked",
+"au-frank-whisper",
+"au-grand-omaha",
+"au-hiyaam-proud",
+"au-i-am-algadon",
+"au-la-caresse",
+"au-miss-icelandic",
+"au-moonlover",
+"au-prestige-ole",
+"au-prestige-snitzel",
+"au-real-success",
+"au-riverina-cyclone",
+"au-shalaman",
+"au-soft-love",
+"au-sparkling",
+"au-tagline",
+"au-treasurethe-moment",
+"au-vinrock",
+"nz-made-by-khan",
+"nz-tokenist",
+"nz-vega-for-luck",
+"nz-youmzaa"
+]
+},
+{
+"uid": "t-matthew-brown",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布偉年",
+"en": "Matthew Brown",
+"hk": "布偉年",
+"sc": "布伟年",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-he-s-the-real-deel",
+"au-mr-exclusive",
+"nz-prix-de-turn"
+]
+},
+{
+"uid": "t-matthew-dale",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "戴文輝",
+"en": "Matthew Dale",
+"hk": "戴文輝",
+"sc": "戴文辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-cavalier-charles",
+"au-danny-s-st-darci",
+"au-fell-swoop",
+"au-front-page",
+"au-gravina",
+"au-mystery-shot",
+"au-so-you-pence",
+"au-zou-force",
+"nz-canadian-ruler"
+]
+},
+{
+"uid": "t-matthew-dunn",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鄧滿輝",
+"en": "Matthew Dunn",
+"hk": "鄧滿輝",
+"sc": "邓满辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-belvedere-boys",
+"au-bluish-hue",
+"au-boom-torque",
+"au-considered",
+"au-derry-grove",
+"au-fukubana",
+"au-golden-decade",
+"au-lubrication",
+"au-oceans-of-energy",
+"au-quatronic",
+"au-rainbow-connection",
+"au-rocknavar",
+"au-royal-commodore",
+"au-she-s-exotic",
+"au-tribeca-star",
+"gb-cepheus",
+"gb-sea-king"
+]
+},
+{
+"uid": "t-matthew-hoysted",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "何孜登",
+"en": "Matthew Hoysted",
+"hk": "何孜登",
+"sc": "何孜登",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-appin-girl",
+"au-uncommon-james"
+]
+},
+{
+"uid": "t-matthew-j-smith",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "史明豐",
+"en": "Matthew J Smith",
+"hk": "史明豐",
+"sc": "史明丰",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-dartan",
+"gb-la-hacienda",
+"gb-master-matt",
+"gb-open-secret",
+"ire-first-ascent",
+"ire-one-cool-poet",
+"ire-razdan"
+]
+},
+{
+"uid": "t-matthew-kelley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "祁立裕",
+"en": "Matthew Kelley",
+"hk": "祁立裕",
+"sc": "祁立裕",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-i-ve-bean-tryin",
+"au-silent-impact"
+]
+},
+{
+"uid": "t-matthew-smith",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施萬輝",
+"en": "Matthew Smith",
+"hk": "施萬輝",
+"sc": "施万辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-aethelflaed",
+"au-aethelwulf",
+"au-astero",
+"au-beauty-swift",
+"au-buenos-noches",
+"au-credit-crunch",
+"au-dezignation",
+"au-eureka-rebel",
+"au-faraway-town",
+"au-floating",
+"au-french-endeavour",
+"au-golden-straand",
+"au-headwall",
+"au-idle-flyer",
+"au-mediaro",
+"au-mountain-queen",
+"au-nimalee",
+"au-palazzo-pubblico",
+"au-placid-pearl",
+"au-rock-my-wand",
+"au-scalextrics",
+"au-tricky-gal",
+"au-way-to-the-stars",
+"au-winston-hills",
+"au-world-alliance",
+"fr-true-marvel",
+"gb-beauty-charge",
+"gb-corncrake",
+"gb-waltham",
+"ger-sweet-thomas",
+"hun-esti-feny",
+"ire-portland",
+"nz-prima-bella"
+]
+},
+{
+"uid": "t-matthew-williams",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋念誠",
+"en": "Matthew Williams",
+"hk": "韋念誠",
+"sc": "韦念诚",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-colour-our-world",
+"au-flying-fizz",
+"au-literary-magnate",
+"au-rose-of-shalaa",
+"au-turnitaround",
+"fr-gailo-chop",
+"fr-harbour-views",
+"nz-loose-on-gin",
+"nz-unseen-ruler",
+"nz-wrote-to-arataki"
+]
+},
+{
+"uid": "t-matthieu-palussiere",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鮑思雅",
+"en": "Matthieu Palussiere",
+"hk": "鮑思雅",
+"sc": "鲍思雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-drop-dead-gorgeous",
+"fr-junius-brutus",
+"fr-show-must-go-on",
+"fr-wheels-on-fire",
+"ger-real-appeal",
+"ire-brand-new-day",
+"ire-forever-in-dreams",
+"us-on-a-session",
+"us-rolling-king"
+]
+},
+{
+"uid": "t-maurice-ahern",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾鏗然",
+"en": "Maurice Ahern",
+"hk": "艾鏗然",
+"sc": "艾铿然",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-perry-mason",
+"ire-counting-coup"
+]
+},
+{
+"uid": "t-mauricio-delcher-sanchez",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "戴卓雅",
+"en": "Mauricio Delcher-Sanchez",
+"hk": "戴卓雅",
+"sc": "戴卓雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-arel-nova",
+"fr-coco-city",
+"fr-coeur-de-beaute",
+"fr-coeur-de-pierre",
+"fr-confined-queen",
+"fr-crowdfunding",
+"fr-favaritx",
+"fr-marieta",
+"fr-nemba",
+"fr-prince-hamlet",
+"fr-simply-striking",
+"ire-bakoel-koffie",
+"ire-finsbury-square"
+]
+},
+{
+"uid": "t-mauricio-j-muniz",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文練山",
+"en": "Mauricio J Muniz",
+"hk": "文練山",
+"sc": "文练山",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-mister-coquette"
+]
+},
+{
+"uid": "t-maurizio-guarnieri",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "顧勉練",
+"en": "Maurizio Guarnieri",
+"hk": "顧勉練",
+"sc": "顾勉练",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-big-rock",
+"fr-ciaran",
+"fr-curaro-light",
+"fr-flers",
+"fr-gattopardo",
+"fr-kaotic",
+"fr-presa-diretta",
+"fr-profumo-di-iena",
+"fr-wejdan",
+"gb-bacchilide",
+"ire-asymmetric",
+"ire-blue-rose-cen",
+"ire-egiategia",
+"ire-epson-blue-cen",
+"ire-snobbish",
+"ity-cirano"
+]
+},
+{
+"uid": "t-max-young",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "楊喬",
+"en": "Max Young",
+"hk": "楊喬",
+"sc": "杨乔",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-monete"
+]
+},
+{
+"uid": "t-maxim-pecheur",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "彭楚宜",
+"en": "Maxim Pecheur",
+"hk": "彭楚宜",
+"sc": "彭楚宜",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-akronym",
+"fr-varley",
+"ger-aktivist",
+"ger-empore",
+"ger-erle",
+"ger-narmada",
+"ger-walkover",
+"ger-weltbeste",
+"ger-wintersonne",
+"ire-anspruch"
+]
+},
+{
+"uid": "t-maxime-cesandri",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "薛桑特",
+"en": "Maxime Cesandri",
+"hk": "薛桑特",
+"sc": "薛桑特",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-captain-de-cerisy",
+"fr-engaliwe",
+"fr-turtle-chope",
+"fr-zlara"
+]
+},
+{
+"uid": "t-maximilien-justum",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "曾仕同",
+"en": "Maximilien Justum",
+"hk": "曾仕同",
+"sc": "曾仕同",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-ciccio-boy"
+]
+},
+{
+"uid": "t-me-tsui",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "HKG",
+"nationality_cn": "中国香港",
+"names": {
+"original": "徐雨石",
+"en": "Me Tsui",
+"hk": "徐雨石",
+"sc": "徐雨石",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-daryl-flash",
+"au-lucy-in-the-sky",
+"au-natural-numbers",
+"au-pope-cody",
+"unk-bcfd1d3e",
+"unk-cb19c9c5",
+"unk-the-auspicious"
+]
+},
+{
+"uid": "t-melanie-o-gorman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "奧美拉",
+"en": "Melanie O'Gorman",
+"hk": "奧美拉",
+"sc": "奥美拉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-breukelen",
+"au-nation-changing"
+]
+},
+{
+"uid": "t-melissa-kelly",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "祁敏莎",
+"en": "Melissa Kelly",
+"hk": "祁敏莎",
+"sc": "祁敏莎",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-oughton"
+]
+},
+{
+"uid": "t-meshal-almutairi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾明天",
+"en": "Meshal Almutairi",
+"hk": "艾明天",
+"sc": "艾明天",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-webinar"
+]
+},
+{
+"uid": "t-michael-appleby",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾培彬",
+"en": "Michael Appleby",
+"hk": "艾培彬",
+"sc": "艾培彬",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-larado",
+"gb-ayr-harbour",
+"gb-barlow-barlow",
+"gb-billyjoh",
+"gb-clover-time",
+"gb-danzeno",
+"gb-fantasy-master",
+"gb-fantasy-obsessor",
+"gb-gentle-george",
+"gb-harvanna",
+"gb-intervention",
+"gb-juan-les-pins",
+"gb-nostrum",
+"gb-raasel",
+"gb-triple-spear",
+"gb-warrior-brave",
+"gb-washington-royale",
+"ire-annaf",
+"ire-arklow-lad",
+"ire-asad",
+"ire-baldomero",
+"ire-bedford-flyer",
+"ire-big-country",
+"ire-big-evs",
+"ire-big-mojo",
+"ire-blind-beggar",
+"ire-caspian-prince",
+"ire-coul-angel",
+"ire-edraak",
+"ire-eponina",
+"ire-howth",
+"ire-jungle-ruler",
+"ire-king-of-stars",
+"ire-kitai",
+"ire-kodi-lion",
+"ire-lipsink",
+"ire-loch-ness-monster",
+"ire-michaela-s-boy",
+"ire-mr-lightside",
+"ire-nad-alshiba-green",
+"ire-nad-alshiba-snow",
+"ire-night-on-earth",
+"ire-roberto-escobarr",
+"ire-royal-zabeel",
+"ire-sampers-seven",
+"ire-shagraan",
+"ire-winchurch",
+"ire-yorkshire-puds"
+]
+},
+{
+"uid": "t-michael-attwater",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾和達",
+"en": "Michael Attwater",
+"hk": "艾和達",
+"sc": "艾和达",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-diddy-man",
+"gb-just-that-lord",
+"gb-mary-of-modena",
+"gb-the-cruising-lord",
+"ire-fresh-fade",
+"ire-gold-haze",
+"ire-tadreeb",
+"ire-versatile"
+]
+},
+{
+"uid": "t-michael-bell",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "包貝義",
+"en": "Michael Bell",
+"hk": "包貝義",
+"sc": "包贝义",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-liari",
+"fr-spring-is-sprung",
+"gb-allmankind",
+"gb-amestris",
+"gb-big-orange",
+"gb-burdett-road",
+"gb-carrytheone",
+"gb-dairerin",
+"gb-dorney-lake",
+"gb-duke-of-oxford",
+"gb-eightsome-reel",
+"gb-fabricate",
+"gb-formality",
+"gb-greek-order",
+"gb-lavender-hill-mob",
+"gb-let-s-dream",
+"gb-liberalist",
+"gb-maso-bastie",
+"gb-maxi-boy",
+"gb-maylandsea",
+"gb-metahorse",
+"gb-parole-d-oro",
+"gb-pretty-pollyanna",
+"gb-queen-s-guard",
+"gb-roulette",
+"gb-spicy-marg",
+"gb-tenth-century",
+"gb-tony-montana",
+"gb-zmile",
+"ire-adjuvant",
+"ire-applecross",
+"ire-babbo-s-boy",
+"ire-blue-zodiac",
+"ire-bolthole",
+"ire-brave-nation",
+"ire-caio-shark",
+"ire-cecilia-star",
+"ire-choreography",
+"ire-eagles-by-day",
+"ire-easy-answer",
+"ire-gold-star-hero",
+"ire-great-max",
+"ire-indian-dream",
+"ire-james-watt",
+"ire-kerindia",
+"ire-nascimento",
+"ire-natural-path",
+"ire-neverbeen-to-paris",
+"ire-one-morning",
+"ire-platform-nineteen",
+"ire-prepschool",
+"ire-present-moment",
+"ire-rajeko",
+"ire-red-zone-hero",
+"ire-the-lir-jet",
+"ire-yashin"
+]
+},
+{
+"uid": "t-michael-blake",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "拜立權",
+"en": "Michael Blake",
+"hk": "拜立權",
+"sc": "拜立权",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-under-the-twilight"
+]
+},
+{
+"uid": "t-michael-browne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白磊然",
+"en": "Michael Browne",
+"hk": "白磊然",
+"sc": "白磊然",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-logo-hunter"
+]
+},
+{
+"uid": "t-michael-byrne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白央佑",
+"en": "Michael Byrne",
+"hk": "白央佑",
+"sc": "白央佑",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-likedbymike"
+]
+},
+{
+"uid": "t-michael-clements",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "克萊門",
+"en": "Michael Clements",
+"hk": "克萊門",
+"sc": "克莱门",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-elite-incredible",
+"arg-global-kid",
+"arg-istataba",
+"arg-taling-pling",
+"arg-trumpy",
+"au-ablest-ascend",
+"au-alqantur",
+"au-bahama-mama",
+"au-bakeel",
+"au-big-hearted",
+"au-celavi",
+"au-faithfully",
+"au-gingerella",
+"au-greatham-boy",
+"au-imperium",
+"au-iron-ruler",
+"au-june",
+"au-karisto",
+"au-mamamia-mamamia",
+"au-mcgregor",
+"au-miej",
+"au-mongol-warrior",
+"au-ocean-crossing",
+"au-pacific-commander",
+"au-pacific-emperor",
+"au-pacific-hero",
+"au-pacific-snoopy",
+"au-pacific-star",
+"au-pacific-warrior",
+"au-real-success",
+"au-resolution",
+"au-royal-pavilion",
+"au-saturday",
+"au-siam-royal-orchid",
+"au-siam-vipasiri",
+"au-skylight",
+"au-starlight",
+"au-the-shadow",
+"au-tiger-roar",
+"au-top-knight",
+"au-vittoria-perfetta",
+"fr-sincerely",
+"gb-day-approach",
+"gb-kassab",
+"ire-dream-big",
+"ire-great-warrior",
+"ire-implement",
+"ire-so-hi-class",
+"ire-spirit-of-big-bang",
+"jp-bushido",
+"jp-fighter",
+"jp-quarter-back",
+"nz-alamak",
+"nz-alibi",
+"nz-arhat",
+"nz-cavalry",
+"nz-countofmontecristo",
+"nz-elena-of-avalor",
+"nz-heartening-flyer",
+"nz-imperial-win",
+"nz-on-line",
+"nz-paletas",
+"nz-pattaya",
+"nz-safeer",
+"nz-scorpio",
+"nz-siam-blue-vanda",
+"nz-song-to-the-moon",
+"nz-tom-cat",
+"nz-yabadabadoo",
+"saf-tangible",
+"us-knight-love",
+"us-loving-you",
+"us-pacific-angel",
+"us-siam-mp"
+]
+},
+{
+"uid": "t-michael-costa",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高兆騰",
+"en": "Michael Costa",
+"hk": "高兆騰",
+"sc": "高兆腾",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-elnajmm",
+"gb-keffaaf",
+"gb-marbaan",
+"ire-bilhayl",
+"ire-maljoom",
+"ire-tawalla",
+"us-gaassid",
+"us-midland-money",
+"us-mouheeb",
+"us-saayedd",
+"us-sadaaty"
+]
+},
+{
+"uid": "t-michael-david-easterby",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "伊德比及伊天博",
+"en": "Michael & David Easterby",
+"hk": "伊德比及伊天博",
+"sc": "伊德比及伊天博",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-elysian-flame",
+"gb-grantley-hall",
+"gb-le-beau-garcon",
+"gb-yorkshire-lady"
+]
+},
+{
+"uid": "t-michael-dods",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "杜德誠",
+"en": "Michael Dods",
+"hk": "杜德誠",
+"sc": "杜德诚",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-blackrod",
+"gb-brunch",
+"gb-commanche-falls",
+"gb-dakota-gold",
+"gb-gale-force-maya",
+"gb-havagomecca",
+"gb-jawwaal",
+"gb-mabs-cross",
+"gb-novamay",
+"gb-pendleton",
+"gb-prairie-falcon",
+"ire-arapaho-gold",
+"ire-azure-blue",
+"ire-glenfinnan",
+"ire-midnite-runner",
+"ire-mighty-magnus",
+"ire-northern-express",
+"ire-que-amoro",
+"ire-queens-gift",
+"ire-tatterstall",
+"ire-zuffolo"
+]
+},
+{
+"uid": "t-michael-figge",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍偉傑",
+"en": "Michael Figge",
+"hk": "霍偉傑",
+"sc": "霍伟杰",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-a-stolen-kiss",
+"fr-imani",
+"fr-jacksun",
+"fr-mademoiselle-lilly",
+"fr-rakaposhi",
+"fr-snow-player",
+"fr-stern-markka",
+"ger-aguna",
+"ger-astoria",
+"ger-fine-bubbles",
+"ger-freibier",
+"ger-kelani",
+"ger-noreia-s-secondo",
+"ger-saphira-dream",
+"ire-amazing-luna"
+]
+},
+{
+"uid": "t-michael-freedman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥菲文",
+"en": "Michael Freedman",
+"hk": "麥菲文",
+"sc": "麦菲文",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-aerodrome",
+"au-apocalyptic",
+"au-berzelius",
+"au-blanc-de-blanc",
+"au-daytona",
+"au-decorum",
+"au-ducasse",
+"au-edited-by",
+"au-encoder",
+"au-enriched",
+"au-extractor",
+"au-forbidden-love",
+"au-hip-hip-hurrah",
+"au-incognito",
+"au-insurrection",
+"au-manaal",
+"au-mareth",
+"au-marhoona",
+"au-mexico",
+"au-moravia",
+"au-mumbai-muse",
+"au-ninja",
+"au-outspan",
+"au-pallaton",
+"au-profoundly",
+"au-queen-of-the-ball",
+"au-ruination",
+"au-soothsayer",
+"ire-givemethebeatboys",
+"nz-empress-of-japan",
+"nz-fashionable",
+"nz-panic",
+"nz-pushy",
+"nz-waikato-girl",
+"nz-wymark"
+]
+},
+{
+"uid": "t-michael-grassick",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "簡崇佳",
+"en": "Michael Grassick",
+"hk": "簡崇佳",
+"sc": "简崇佳",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-verhoyen",
+"ire-gazelle-d-or",
+"ire-glory-to-be",
+"ire-truth-be-told"
+]
+},
+{
+"uid": "t-michael-halford",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "何富德",
+"en": "Michael Halford",
+"hk": "何富德",
+"sc": "何富德",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-saltonstall",
+"gb-zileo",
+"ire-golden-twilight",
+"ire-silaiyli",
+"ire-surrounding"
+]
+},
+{
+"uid": "t-michael-herrington",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "項永滔",
+"en": "Michael Herrington",
+"hk": "項永滔",
+"sc": "项永滔",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-badri",
+"gb-lady-roxby",
+"gb-nikovo",
+"ire-powdering"
+]
+},
+{
+"uid": "t-michael-hickmott",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "何萬滔",
+"en": "Michael Hickmott",
+"hk": "何萬滔",
+"sc": "何万滔",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-cash",
+"au-ole-go",
+"au-promises-kept",
+"nz-aqueduct",
+"nz-cotehele",
+"nz-fancify",
+"nz-lord-vladivostok"
+]
+},
+{
+"uid": "t-michael-huglin",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賀傑寧",
+"en": "Michael Huglin",
+"hk": "賀傑寧",
+"sc": "贺杰宁",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-gracie-s-rain"
+]
+},
+{
+"uid": "t-michael-john-wayne-hawkes",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賀米高、賀嘉時及賀維恩",
+"en": "Michael, John & Wayne Hawkes",
+"hk": "賀米高、賀嘉時及賀維恩",
+"sc": "贺米高、贺嘉时及贺维恩",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-briasa",
+"au-devil-night",
+"au-nepotism"
+]
+},
+{
+"uid": "t-michael-keady",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "桂宜登",
+"en": "Michael Keady",
+"hk": "桂宜登",
+"sc": "桂宜登",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-underwriter",
+"gb-caitlin-g",
+"gb-redemption-road",
+"gb-scottish-anthem",
+"ire-dapper-valley",
+"ire-dee-s-funny-girl",
+"ire-emperor-spirit"
+]
+},
+{
+"uid": "t-michael-kent",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "肯特",
+"en": "Michael Kent",
+"hk": "肯特",
+"sc": "肯特",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-abbey-marie",
+"au-arabian-prince",
+"au-moonlight-circus",
+"au-quilate",
+"au-steel-run",
+"au-supido",
+"au-terilee",
+"gb-sunset-park",
+"ire-deny-knowledge",
+"nz-bye-bye-belle",
+"nz-eternal-flame",
+"nz-wyndspelle"
+]
+},
+{
+"uid": "t-michael-luke-cerchi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施志賢及施立奇",
+"en": "Michael & Luke Cerchi",
+"hk": "施志賢及施立奇",
+"sc": "施志贤及施立奇",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-young-liam",
+"gb-midterm"
+]
+},
+{
+"uid": "t-michael-maker",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥米高",
+"en": "Michael Maker",
+"hk": "麥米高",
+"sc": "麦米高",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-foie-gras",
+"us-red-knight",
+"us-run-time"
+]
+},
+{
+"uid": "t-michael-matthew-pitman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "畢迪文及畢馬兆",
+"en": "Michael & Matthew Pitman",
+"hk": "畢迪文及畢馬兆",
+"sc": "毕迪文及毕马兆",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-savvy-coup"
+]
+},
+{
+"uid": "t-michael-mccarthy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥恪凡",
+"en": "Michael McCarthy",
+"hk": "麥恪凡",
+"sc": "麦恪凡",
+"own": null,
+"alias": []
+},
+"horses": [
+"chi-master-piece",
+"uru-touch-of-destiny",
+"us-formidable-man",
+"us-friar-s-road",
+"us-journalism",
+"us-look-forward",
+"us-simply-joking",
+"us-smooth-like-strait",
+"us-there-goes-harvard",
+"us-yellow-card"
+]
+},
+{
+"uid": "t-michael-mehegan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥慶根",
+"en": "Michael Mehegan",
+"hk": "麥慶根",
+"sc": "麦庆根",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-bossy-benita",
+"au-prussian-vixen"
+]
+},
+{
+"uid": "t-michael-miller",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "M米勒",
+"en": "Michael Miller",
+"hk": "M米勒",
+"sc": "M米勒",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-blackjack-randall",
+"saf-captains-envy",
+"saf-civil-rights",
+"saf-edgartown",
+"saf-epic-view",
+"saf-full-blast",
+"saf-honokalani",
+"saf-infinity-edge",
+"saf-just-reckless",
+"saf-lady-lacewing",
+"saf-magical-view",
+"saf-million-voices",
+"saf-narina-trogon",
+"saf-only-hearts",
+"saf-romance-in-rome",
+"saf-rulership",
+"saf-she-can",
+"saf-siesta-sunset",
+"saf-soldier-boy",
+"saf-sovereign-grant",
+"saf-superior-force",
+"saf-winter-games",
+"saf-woodland-retreat"
+]
+},
+{
+"uid": "t-michael-moroney",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫朗尼",
+"en": "Michael Moroney",
+"hk": "莫朗尼",
+"sc": "莫朗尼",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-chapada",
+"au-chicago-cub",
+"au-elkington-road",
+"au-hawker-hurricane",
+"au-jungle-jim",
+"au-milwaukee",
+"au-not-an-option",
+"au-pacific-cross",
+"au-poland",
+"au-so-you-see",
+"au-swords-drawn",
+"fr-alenquer",
+"gb-emissary",
+"gb-speak",
+"ger-memphis",
+"ger-sound",
+"ger-sound-check",
+"ire-radipole",
+"ire-vengeur-masque",
+"nz-bankers-choice",
+"nz-bermadez",
+"nz-coeur-volante",
+"nz-nerve-not-verve",
+"nz-rainbow-thief",
+"nz-roch-n-horse",
+"nz-savile-row",
+"nz-snapper",
+"nz-tofane",
+"nz-top-of-the-range",
+"us-buffalo-river"
+]
+},
+{
+"uid": "t-michael-moroney-glen-thompson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫朗尼及湯鵬勢",
+"en": "Michael Moroney & Glen Thompson",
+"hk": "莫朗尼及湯鵬勢",
+"sc": "莫朗尼及汤鹏势",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-whisky-on-the-hill"
+]
+},
+{
+"uid": "t-michael-mulholland",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巫瀚林",
+"en": "Michael Mulholland",
+"hk": "巫瀚林",
+"sc": "巫瀚林",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-kranich"
+]
+},
+{
+"uid": "t-michael-mulvany",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "繆允良",
+"en": "Michael Mulvany",
+"hk": "繆允良",
+"sc": "缪允良",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-arizona-raider",
+"ire-electric-beauty",
+"ire-genesis",
+"ire-the-scallionator"
+]
+},
+{
+"uid": "t-michael-o-callaghan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "岳禮翰",
+"en": "Michael O'Callaghan",
+"hk": "岳禮翰",
+"sc": "岳礼翰",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-lokada",
+"fr-lonely-island",
+"gb-celeron",
+"gb-crispy-cat",
+"gb-crypto-force",
+"gb-fairy-oak",
+"gb-luna-mia",
+"gb-malex",
+"ire-admiral-d",
+"ire-bamako-beach",
+"ire-copacabana-sands",
+"ire-fastnet-crown",
+"ire-gozen",
+"ire-great-max",
+"ire-harry-time",
+"ire-i-am-invictus",
+"ire-i-am-magic",
+"ire-i-am-superman",
+"ire-indestructible",
+"ire-isabeau",
+"ire-its-all-peachy",
+"ire-lorelei-rock",
+"ire-mehmar",
+"ire-navassa-island",
+"ire-noli-timere",
+"ire-olivia-maralda",
+"ire-prince-x-j",
+"ire-red-epaulette",
+"ire-red-evolution",
+"ire-saga-lucia",
+"ire-studio-city",
+"ire-the-harv",
+"ire-twilight-jet",
+"us-black-forza"
+]
+},
+{
+"uid": "t-michael-pitman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "畢迪文",
+"en": "Michael Pitman",
+"hk": "畢迪文",
+"sc": "毕迪文",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-enzo-s-lad"
+]
+},
+{
+"uid": "t-michael-roberts",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅拔時",
+"en": "Michael Roberts",
+"hk": "羅拔時",
+"sc": "罗拔时",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-ad-altisima",
+"saf-chill-in-the-air",
+"saf-dallas",
+"saf-danse-milord",
+"saf-fortress-of-fire",
+"saf-good-traveller",
+"saf-jane-s-vision",
+"saf-lou-lou",
+"saf-see-it-again",
+"saf-sun-blushed",
+"saf-viento",
+"saf-viking-leader",
+"saf-warship"
+]
+},
+{
+"uid": "t-michael-robinson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅秉珅",
+"en": "Michael Robinson",
+"hk": "羅秉珅",
+"sc": "罗秉珅",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-goodtime-gal",
+"saf-sudden-star",
+"saf-surjay"
+]
+},
+{
+"uid": "t-michael-shepherdson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "邵沛生",
+"en": "Michael Shepherdson",
+"hk": "邵沛生",
+"sc": "邵沛生",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-my-zephyr"
+]
+},
+{
+"uid": "t-michael-stidham",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "薛德咸",
+"en": "Michael Stidham",
+"hk": "薛德咸",
+"sc": "薛德咸",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-catnip",
+"us-mystic-guide",
+"us-proxy"
+]
+},
+{
+"uid": "t-michael-templeton",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "譚普敦",
+"en": "Michael Templeton",
+"hk": "譚普敦",
+"sc": "谭普敦",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-sharper"
+]
+},
+{
+"uid": "t-michael-trotter",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "曹國定",
+"en": "Michael Trotter",
+"hk": "曹國定",
+"sc": "曹国定",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-apache-song",
+"au-rumbled-again",
+"au-russian-rock"
+]
+},
+{
+"uid": "t-michael-vella",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋雅納",
+"en": "Michael Vella",
+"hk": "韋雅納",
+"sc": "韦雅纳",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-cosmeena"
+]
+},
+{
+"uid": "t-michael-wayne-john-hawkes",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賀米高、賀維恩及賀嘉時",
+"en": "Michael, Wayne & John Hawkes",
+"hk": "賀米高、賀維恩及賀嘉時",
+"sc": "贺米高、贺维恩及贺嘉时",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-amangiri",
+"au-angel-of-truth",
+"au-bella-martini",
+"au-chautauqua",
+"au-dashing-legend",
+"au-dirty-work",
+"au-dyslexic",
+"au-estijaab",
+"au-exceedance",
+"au-glenall",
+"au-hilal",
+"au-human-nature",
+"au-i-m-so-sweet",
+"au-inference",
+"au-jump-the-broom",
+"au-kahlo",
+"au-le-cordon-bleu",
+"au-magic",
+"au-masked-crusader",
+"au-more-secrets",
+"au-najmah",
+"au-ole-kirk",
+"au-outrageous",
+"au-pyrois",
+"au-rock",
+"au-royal-symphony",
+"au-showtime",
+"au-smirnova",
+"au-sunset-watch",
+"au-trope",
+"au-wild-planet",
+"au-yearning",
+"fr-zeyrek",
+"gb-dadoozdart",
+"ger-master-of-wine",
+"ire-mount-popa",
+"nz-euro-angel",
+"nz-zebrowski"
+]
+},
+{
+"uid": "t-michael-wigham",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "屈涵",
+"en": "Michael Wigham",
+"hk": "屈涵",
+"sc": "屈涵",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-coase",
+"gb-glenamoy-lad",
+"gb-intrinsic-bond",
+"gb-thunder-blue",
+"gb-verne-castle",
+"ire-dark-tornado"
+]
+},
+{
+"uid": "t-michal-borkowski",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "貝格奇",
+"en": "Michal Borkowski",
+"hk": "貝格奇",
+"sc": "贝格奇",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-inter-approach"
+]
+},
+{
+"uid": "t-michal-demo",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鄧以望",
+"en": "Michal Demo",
+"hk": "鄧以望",
+"sc": "邓以望",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-rex-of-thunder"
+]
+},
+{
+"uid": "t-michel-drean",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "詹逸殷",
+"en": "Michel Drean",
+"hk": "詹逸殷",
+"sc": "詹逸殷",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-black-hawk"
+]
+},
+{
+"uid": "t-michel-krebs",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "喬寧森",
+"en": "Michel Krebs",
+"hk": "喬寧森",
+"sc": "乔宁森",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-bremontier",
+"fr-gold-shiva",
+"fr-hur-cat",
+"fr-kaleocreek",
+"fr-makenjar",
+"fr-no-time",
+"ger-ronaldo",
+"ire-dandies"
+]
+},
+{
+"uid": "t-michele-italia",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "義天祿",
+"en": "Michele Italia",
+"hk": "義天祿",
+"sc": "义天禄",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-salah-al-din"
+]
+},
+{
+"uid": "t-michele-verdu",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "尹依彤",
+"en": "Michele Verdu",
+"hk": "尹依彤",
+"sc": "尹依彤",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-morandi-first"
+]
+},
+{
+"uid": "t-michelle-bradley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白艾莉",
+"en": "Michelle Bradley",
+"hk": "白艾莉",
+"sc": "白艾莉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-she-s-no-saint",
+"nz-no-plan-be"
+]
+},
+{
+"uid": "t-michelle-lovell",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "駱綿雪",
+"en": "Michelle Lovell",
+"hk": "駱綿雪",
+"sc": "骆绵雪",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-doncho"
+]
+},
+{
+"uid": "t-michelle-payne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "佩妮",
+"en": "Michelle Payne",
+"hk": "佩妮",
+"sc": "佩妮",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-la-marsa",
+"au-optimizzer",
+"au-rambler-rebel",
+"gb-pondus"
+]
+},
+{
+"uid": "t-michelle-ritchie",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "列翠姿",
+"en": "Michelle Ritchie",
+"hk": "列翠姿",
+"sc": "列翠姿",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-blue-missile"
+]
+},
+{
+"uid": "t-michelle-rix",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "瑞米雪",
+"en": "Michelle Rix",
+"hk": "瑞米雪",
+"sc": "瑞米雪",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-beneath-the-clouds",
+"saf-elusive-winter",
+"saf-time-for-love"
+]
+},
+{
+"uid": "t-michihiro-ogasa",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "小笠倫弘",
+"en": "Michihiro Ogasa",
+"hk": "小笠倫弘",
+"sc": "小笠伦弘",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-aizu-ryuko",
+"jp-chain-of-love",
+"jp-daishin-wit",
+"jp-dark-n-stormy",
+"jp-darkn-stormy",
+"jp-iwane-kogoshiki",
+"jp-laughterlines",
+"jp-reveur",
+"jp-shamrock",
+"jp-tenchishimmei",
+"jp-tosen-catharsis",
+"jp-yonku"
+]
+},
+{
+"uid": "t-michio-minamida",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "南田美知雄",
+"en": "Michio Minamida",
+"hk": "南田美知雄",
+"sc": "南田美知雄",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-genievre",
+"jp-iron-flower",
+"jp-j-ai-la-peche",
+"jp-ratel",
+"jp-remarquable",
+"jp-ren-s-full-power",
+"jp-rinen-free",
+"jp-seika-yamano",
+"jp-senno-bestes",
+"jp-usagino-dance"
+]
+},
+{
+"uid": "t-mick-bell",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "貝米其",
+"en": "Mick Bell",
+"hk": "貝米其",
+"sc": "贝米其",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-jungle-edge"
+]
+},
+{
+"uid": "t-mick-channon",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "陳亮鏞",
+"en": "Mick Channon",
+"hk": "陳亮鏞",
+"sc": "陈亮镛",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-azor-ahai",
+"gb-billy-ray",
+"gb-certain-lad",
+"gb-dan-s-dream",
+"gb-flash-betty",
+"gb-helvetian",
+"gb-illykato",
+"gb-johan",
+"gb-kaleidoscopic",
+"gb-kinks",
+"gb-koeman",
+"gb-legend-of-xanadu",
+"gb-mahale",
+"gb-milltown-star",
+"gb-modern-millie",
+"gb-radio-caroline",
+"gb-severance",
+"gb-signorina-merisi",
+"gb-stevenson",
+"gb-trais-fluors",
+"gb-tricksy-spirit",
+"gb-urban-violet",
+"gb-wonderful-world",
+"ire-barbill",
+"ire-chairmanoftheboard",
+"ire-dalanijujo",
+"ire-indian-creak",
+"ire-ingra-tor",
+"ire-jungle-inthebungle",
+"ire-single"
+]
+},
+{
+"uid": "t-mick-nolan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "駱立昂",
+"en": "Mick Nolan",
+"hk": "駱立昂",
+"sc": "骆立昂",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-stylish-secret"
+]
+},
+{
+"uid": "t-mick-price",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "佩思",
+"en": "Mick Price",
+"hk": "佩思",
+"sc": "佩思",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-lone-eagle",
+"au-mighty-boss",
+"au-miss-admiration",
+"au-miss-oklahoma",
+"au-octabello",
+"au-oregon-s-day",
+"au-palazzo-vecchio",
+"au-pedrena",
+"au-persuader",
+"au-prairie-fire",
+"au-princess-of-queens",
+"au-secret-agenda",
+"au-see-me-exceed",
+"au-teleplay",
+"nz-seabrook"
+]
+},
+{
+"uid": "t-mick-price-michael-kent-jnr",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "佩思及肯爾迪",
+"en": "Mick Price & Michael Kent (Jnr)",
+"hk": "佩思及肯爾迪",
+"sc": "佩思及肯尔迪",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-daisies",
+"au-extreme-warrior",
+"au-jacquinot",
+"au-krone",
+"au-our-playboy",
+"au-planet-red",
+"au-quantum-mechanic",
+"au-ready-set-sail",
+"au-reserve-bank",
+"au-sabaj",
+"au-teleplay",
+"au-zest-for-life",
+"fr-lastotchka",
+"gb-welwal",
+"nz-annavisto",
+"nz-contrition",
+"nz-gunstock",
+"nz-i-m-thunderstruck",
+"nz-jungle-magnate",
+"nz-oceanex",
+"nz-tavidance"
+]
+},
+{
+"uid": "t-mickael-gonzalez",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "龔兆良",
+"en": "Mickael Gonzalez",
+"hk": "龔兆良",
+"sc": "龚兆良",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-blackjac-du-houley",
+"fr-hatfaville",
+"ire-bech-river"
+]
+},
+{
+"uid": "t-mickael-seror",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "邵弘毅",
+"en": "Mickael Seror",
+"hk": "邵弘毅",
+"sc": "邵弘毅",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-chiaraniya",
+"fr-vanta",
+"ire-annabel-s-ghost"
+]
+},
+{
+"uid": "t-micky-fenton",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "范韜",
+"en": "Micky Fenton",
+"hk": "范韜",
+"sc": "范韬",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-akabusi",
+"ire-physique"
+]
+},
+{
+"uid": "t-micky-hammond",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏漢文",
+"en": "Micky Hammond",
+"hk": "夏漢文",
+"sc": "夏汉文",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-le-maitre-chat"
+]
+},
+{
+"uid": "t-miguel-clement",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蓋禮望",
+"en": "Miguel Clement",
+"hk": "蓋禮望",
+"sc": "盖礼望",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-bellezza",
+"us-deterministic",
+"us-far-bridge",
+"us-tawny-port"
+]
+},
+{
+"uid": "t-miguel-silva",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "冼敏剛",
+"en": "Miguel Silva",
+"hk": "冼敏剛",
+"sc": "冼敏刚",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-sleepy-eyes-todd"
+]
+},
+{
+"uid": "t-miguel-suarez",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蘇宏盛",
+"en": "Miguel Suarez",
+"hk": "蘇宏盛",
+"sc": "苏宏盛",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-crazy-talent"
+]
+},
+{
+"uid": "t-mikael-mescam",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫知鑑",
+"en": "Mikael Mescam",
+"hk": "莫知鑑",
+"sc": "莫知鉴",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-hurricane-dream"
+]
+},
+{
+"uid": "t-mike-azzie",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾誠",
+"en": "Mike Azzie",
+"hk": "艾誠",
+"sc": "艾诚",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-daisy-jones",
+"saf-radio-star"
+]
+},
+{
+"uid": "t-mike-de-kock",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭克",
+"en": "Mike de Kock",
+"hk": "郭克",
+"sc": "郭克",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-effectif",
+"au-al-muthana",
+"au-alfolk",
+"au-atyaab",
+"au-heavenly-blue",
+"au-naafer",
+"ire-cascapedia",
+"ire-queen-supreme",
+"saf-al-sahem",
+"saf-al-sakeet",
+"saf-alramz",
+"saf-aragosta",
+"saf-battleoftrafalgar",
+"saf-black-thorn",
+"saf-bold-act",
+"saf-dave-the-king",
+"saf-desert-miracle",
+"saf-forever-mine",
+"saf-gimme-a-nother",
+"saf-gimmeanotherchance",
+"saf-hawwaam",
+"saf-humdinger",
+"saf-iphiko",
+"saf-janoobi",
+"saf-light-the-lights",
+"saf-like-a-panther",
+"saf-littlemarysunshine",
+"saf-majestic-mambo",
+"saf-marauding-horde",
+"saf-marinaresco",
+"saf-mary-s-greenlight",
+"saf-noah-from-goa",
+"saf-noble-secret",
+"saf-nother-russia",
+"saf-orchid-island",
+"saf-platina-princess",
+"saf-royal-crusade",
+"saf-safe-passage",
+"saf-shoemaker",
+"saf-silver-sanctuary",
+"saf-sparkling-water",
+"saf-tayooba",
+"saf-vaseem",
+"saf-waheed",
+"saf-yulong-prince"
+]
+},
+{
+"uid": "t-mike-mathew-de-kock",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭克/郭明勛",
+"en": "Mike / Mathew de Kock",
+"hk": "郭克/郭明勛",
+"sc": "郭克/郭明勋",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-aladdin-s-lamp",
+"saf-captain-west",
+"saf-constellation",
+"saf-curious-girl",
+"saf-dave-the-king",
+"saf-drumnadrochit",
+"saf-gimmeanotherchance",
+"saf-immediate-edge",
+"saf-jan-van-goyen",
+"saf-one-eye-on-vegas",
+"saf-oxalis-gold",
+"saf-silver-sanctuary",
+"saf-splittheeights",
+"saf-spumante-dolce",
+"saf-white-pearl",
+"saf-yippee-kiyay"
+]
+},
+{
+"uid": "t-mike-murphy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫米高",
+"en": "Mike Murphy",
+"hk": "莫米高",
+"sc": "莫米高",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-serengeti",
+"gb-mulzim",
+"ire-star-chorus"
+]
+},
+{
+"uid": "t-mike-stewart",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施圖沃",
+"en": "Mike Stewart",
+"hk": "施圖沃",
+"sc": "施图沃",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-fort-red",
+"saf-helen-s-ideal",
+"saf-icon-princess",
+"saf-pretty-betty",
+"saf-rama-forcesa",
+"saf-seeking-peace"
+]
+},
+{
+"uid": "t-mike-van-gestel",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀士圖",
+"en": "Mike Van Gestel",
+"hk": "紀士圖",
+"sc": "纪士图",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-dark-glitter"
+]
+},
+{
+"uid": "t-mikel-delzangles",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "杜誠高",
+"en": "Mikel Delzangles",
+"hk": "杜誠高",
+"sc": "杜诚高",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-alam",
+"fr-arise",
+"fr-bubble-gift",
+"fr-chibitty",
+"fr-dannsa-flora",
+"fr-duty",
+"fr-ellerslie-lace",
+"fr-fashion-city",
+"fr-fly-half",
+"fr-furi-de-la-houssay",
+"fr-gerard-ter-borch",
+"fr-happy-saxon",
+"fr-impa",
+"fr-jupyra",
+"fr-larlib",
+"fr-mangoustine",
+"fr-ridari",
+"fr-rock-blanc",
+"fr-rozarion",
+"fr-rue-boissonade",
+"fr-sagamiyra",
+"fr-soumera",
+"fr-spring-lily",
+"fr-urban-poete",
+"fr-valiabad",
+"gb-bubble-smart",
+"gb-invincible-light",
+"gb-mqse-des-nymphes",
+"gb-royal-shake",
+"gb-waikato",
+"ire-circeo",
+"ire-dolmalan"
+]
+},
+{
+"uid": "t-mikio-matsunaga",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "松永幹夫",
+"en": "Mikio Matsunaga",
+"hk": "松永幹夫",
+"sc": "松永干夫",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-ballon-d-or",
+"jp-bond-loa",
+"jp-captaincy",
+"jp-chantilly-rosa",
+"jp-d-blood",
+"jp-dragon",
+"jp-gilded-mirror",
+"jp-groove-it",
+"jp-hawaiian-tiare",
+"jp-lucky-lilac",
+"jp-lucky-mo",
+"jp-matenro-sky",
+"jp-my-precious",
+"jp-nonlicense",
+"jp-omega-tuxedo",
+"jp-on-your-marks",
+"jp-party-bell",
+"jp-plus",
+"jp-quantum-wave",
+"jp-ras-hammel",
+"jp-red-kamuy",
+"jp-south-of-london",
+"jp-syringa-vulgaris",
+"jp-yamanin-bouclier",
+"jp-yamanin-magia",
+"us-awardee",
+"us-del-avar",
+"us-serein"
+]
+},
+{
+"uid": "t-milton-harris",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏律誠",
+"en": "Milton Harris",
+"hk": "夏律誠",
+"sc": "夏律诚",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-scriptwriter",
+"us-prince-imperial"
+]
+},
+{
+"uid": "t-min-jang-gi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "閔壯基",
+"en": "Min Jang Gi",
+"hk": "閔壯基",
+"sc": "闵壮基",
+"own": null,
+"alias": []
+},
+"horses": [
+"kor-success-baekpa",
+"kor-success-macho",
+"us-doraonpogyeongseon",
+"us-haeya"
+]
+},
+{
+"uid": "t-minoru-oguri",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "小栗實",
+"en": "Minoru Oguri",
+"hk": "小栗實",
+"sc": "小栗实",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-black-shield",
+"jp-g-t-man",
+"jp-gratitud",
+"jp-reine-marron"
+]
+},
+{
+"uid": "t-minoru-tsuchida",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "土田稔",
+"en": "Minoru Tsuchida",
+"hk": "土田稔",
+"sc": "土田稔",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-grand-faubourg",
+"jp-ice-man",
+"jp-kimon-tsugaru",
+"jp-meiner-stratos",
+"jp-oken-bolt",
+"jp-ora-veritas",
+"jp-tosen-epona"
+]
+},
+{
+"uid": "t-miroslav-nieslanik",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "寧朗烈",
+"en": "Miroslav Nieslanik",
+"hk": "寧朗烈",
+"sc": "宁朗烈",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-chaldero",
+"fr-jenilat-bright",
+"fr-miss-of-change",
+"ire-ponntos",
+"ire-sadalbari"
+]
+},
+{
+"uid": "t-miroslav-rulec",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "雷力雅",
+"en": "Miroslav Rulec",
+"hk": "雷力雅",
+"sc": "雷力雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-bonjour-ca-va",
+"fr-merkur",
+"fr-nobody-s"
+]
+},
+{
+"uid": "t-mitchell-beer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "比雅",
+"en": "Mitchell Beer",
+"hk": "比雅",
+"sc": "比雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-mnementh",
+"au-redouble",
+"au-suspect"
+]
+},
+{
+"uid": "t-mitchell-freedman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "菲道明",
+"en": "Mitchell Freedman",
+"hk": "菲道明",
+"sc": "菲道明",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-asakura",
+"au-attrition",
+"au-belle-et-riche",
+"au-bravo-tango",
+"au-gina-s-hope",
+"au-skybird",
+"au-vagrant",
+"au-whitson",
+"gb-oraqua",
+"nz-spirit-of-gaylard"
+]
+},
+{
+"uid": "t-mitchell-leek",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "李英奇",
+"en": "Mitchell Leek",
+"hk": "李英奇",
+"sc": "李英奇",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-matron-bullwinkel"
+]
+},
+{
+"uid": "t-mitchell-pateman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白棣文",
+"en": "Mitchell Pateman",
+"hk": "白棣文",
+"sc": "白棣文",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-beach-pad"
+]
+},
+{
+"uid": "t-mitsugu-kon",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "昆貢",
+"en": "Mitsugu Kon",
+"hk": "昆貢",
+"sc": "昆贡",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-turkish-palace",
+"jp-dixie-queen",
+"jp-hawaiian-time",
+"jp-hiruno-atrani",
+"jp-hiruno-devaro",
+"jp-hiruno-edward",
+"jp-lumina-reine",
+"jp-matenro-leo",
+"jp-matenro-orion",
+"jp-miss-panthere",
+"jp-power-hall",
+"jp-readiness",
+"jp-right-on-cue",
+"jp-suave-seals",
+"jp-top-knife",
+"jp-whittaker-beat"
+]
+},
+{
+"uid": "t-mitsumasa-nakauchida",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "中內田充正",
+"en": "Mitsumasa Nakauchida",
+"hk": "中內田充正",
+"sc": "中内田充正",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-shining-sword",
+"ire-blue-spirit",
+"jp-all-for-love",
+"jp-anduril",
+"jp-argine",
+"jp-art-house",
+"jp-ausangate",
+"jp-big-ribbon",
+"jp-cravache-d-or",
+"jp-danon-fantasy",
+"jp-danon-kilauea",
+"jp-danon-premium",
+"jp-dynamic",
+"jp-el-sabio",
+"jp-eri-king",
+"jp-grenadier-guards",
+"jp-humming",
+"jp-liberty-island",
+"jp-lord-del-rey",
+"jp-lord-les-ailes",
+"jp-lord-plaisir",
+"jp-lord-shamrock",
+"jp-mikki-charm",
+"jp-monde-chat-luna",
+"jp-prognosis",
+"jp-queen-s-walk",
+"jp-red-valiente",
+"jp-ria-amelia",
+"jp-serifos",
+"jp-suave-don",
+"jp-velox",
+"us-old-bailey"
+]
+},
+{
+"uid": "t-mitsunori-makiura",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "牧浦充德",
+"en": "Mitsunori Makiura",
+"hk": "牧浦充德",
+"sc": "牧浦充德",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-banderuola",
+"jp-bergun",
+"jp-condor-hideo",
+"jp-ecoro-walz",
+"jp-gale-rider",
+"jp-gempachi-mighty",
+"jp-godairiki",
+"jp-meisho-hachiko",
+"jp-shirankedo",
+"jp-sunrise-hawk",
+"jp-tagano-vitter",
+"jp-taiki-ferveur",
+"jp-vento-voce",
+"us-sky-nile"
+]
+},
+{
+"uid": "t-mitsuru-hashida",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "橋田滿",
+"en": "Mitsuru Hashida",
+"hk": "橋田滿",
+"sc": "桥田满",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-couperin",
+"jp-deirdre",
+"jp-reiho-romance",
+"jp-respectable",
+"jp-scar-face",
+"jp-suzuka-kanaloa",
+"jp-taiki-sword"
+]
+},
+{
+"uid": "t-mitsuru-ishibashi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "石橋滿",
+"en": "Mitsuru Ishibashi",
+"hk": "石橋滿",
+"sc": "石桥满",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-kurino-megami-ace"
+]
+},
+{
+"uid": "t-mizuki-takayanagi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高柳瑞樹",
+"en": "Mizuki Takayanagi",
+"hk": "高柳瑞樹",
+"sc": "高柳瑞树",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-energico",
+"jp-estupenda",
+"jp-gift-of-art",
+"jp-iza",
+"jp-lord-affetto",
+"jp-meisho-yozora",
+"jp-pallas-athena",
+"jp-precious-leaf",
+"jp-solar-flare",
+"jp-stars-on-earth",
+"jp-toshin-macau",
+"jp-tuition",
+"jp-wildfang"
+]
+},
+{
+"uid": "t-mlle-c-fey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "費姬娜",
+"en": "Mlle C Fey",
+"hk": "費姬娜",
+"sc": "费姬娜",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-zalamea"
+]
+},
+{
+"uid": "t-mme-andre-fabre",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "費碧瑩",
+"en": "Mme Andre Fabre",
+"hk": "費碧瑩",
+"sc": "费碧莹",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-zulu-warrior"
+]
+},
+{
+"uid": "t-mme-c-barande-barbe",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鮑歌蓮",
+"en": "Mme C Barande Barbe",
+"hk": "鮑歌蓮",
+"sc": "鲍歌莲",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-hopeless",
+"fr-miracle-des-aigles"
+]
+},
+{
+"uid": "t-mme-g-rarick",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "洛麗嘉",
+"en": "Mme G Rarick",
+"hk": "洛麗嘉",
+"sc": "洛丽嘉",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-glorious-emaraty"
+]
+},
+{
+"uid": "t-mme-j-chapple-hyam",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓珍妮",
+"en": "Mme J Chapple-Hyam",
+"hk": "卓珍妮",
+"sc": "卓珍妮",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-el-bodon"
+]
+},
+{
+"uid": "t-mme-j-harrington",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏寧敦夫人",
+"en": "Mme J Harrington",
+"hk": "夏寧敦夫人",
+"sc": "夏宁敦夫人",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-alpine-star"
+]
+},
+{
+"uid": "t-mme-p-brandt",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布蘭婷",
+"en": "Mme P Brandt",
+"hk": "布蘭婷",
+"sc": "布兰婷",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-neufbosc",
+"fr-silver-step",
+"gb-viscount-barfield"
+]
+},
+{
+"uid": "t-mohamed-moubarak",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫巴力",
+"en": "Mohamed Moubarak",
+"hk": "莫巴力",
+"sc": "莫巴力",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-baba-reza"
+]
+},
+{
+"uid": "t-mohammed-ahmed",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "敖民鐸",
+"en": "Mohammed Ahmed",
+"hk": "敖民鐸",
+"sc": "敖民铎",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-love-de-vega"
+]
+},
+{
+"uid": "t-mohammed-al-attiyah",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾鐵意",
+"en": "Mohammed Al Attiyah",
+"hk": "艾鐵意",
+"sc": "艾铁意",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-aafoor"
+]
+},
+{
+"uid": "t-mohammed-alhirabi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "晏希比",
+"en": "Mohammed Alhirabi",
+"hk": "晏希比",
+"sc": "晏希比",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-year-of-the-dragon"
+]
+},
+{
+"uid": "t-mohammed-k-alhirabi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "晏希比",
+"en": "Mohammed K Alhirabi",
+"hk": "晏希比",
+"sc": "晏希比",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-kaspar"
+]
+},
+{
+"uid": "t-mohd-yusof",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "M尤索",
+"en": "Mohd Yusof",
+"hk": "M尤索",
+"sc": "M尤索",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-constant-justice",
+"gb-justice-first",
+"ire-dee-dee-d-or",
+"ire-impediment"
+]
+},
+{
+"uid": "t-moira-kieran-murdoch",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "梅慕娜及梅汀蘭",
+"en": "Moira & Kieran Murdoch",
+"hk": "梅慕娜及梅汀蘭",
+"sc": "梅慕娜及梅汀兰",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-myla"
+]
+},
+{
+"uid": "t-monika-potters",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蒲雯嘉",
+"en": "Monika Potters",
+"hk": "蒲雯嘉",
+"sc": "蒲雯嘉",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-statement"
+]
+},
+{
+"uid": "t-moon-hyeon-cheol",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文賢哲",
+"en": "Moon Hyeon Cheol",
+"hk": "文賢哲",
+"sc": "文贤哲",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-knicks-go-won"
+]
+},
+{
+"uid": "t-moon-seyoung",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文世英",
+"en": "Moon Seyoung",
+"hk": "文世英",
+"sc": "文世英",
+"own": null,
+"alias": []
+},
+"horses": [
+"kor-haksan-speed"
+]
+},
+{
+"uid": "t-moutaib-almulawah",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "安穆華",
+"en": "Moutaib Almulawah",
+"hk": "安穆華",
+"sc": "安穆华",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-castle",
+"us-emblem-road",
+"us-scotland-yard"
+]
+},
+{
+"uid": "t-mrs-alicja-karkosa",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "靳高莎",
+"en": "Mrs Alicja Karkosa",
+"hk": "靳高莎",
+"sc": "靳高莎",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-masaiya"
+]
+},
+{
+"uid": "t-mrs-c-o-leary",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "歐蓮麗",
+"en": "Mrs C O'Leary",
+"hk": "歐蓮麗",
+"sc": "欧莲丽",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-belgoprince",
+"fr-en-or",
+"fr-firstman",
+"ire-zanndabad"
+]
+},
+{
+"uid": "t-mrs-denise-foster",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍秀婷",
+"en": "Mrs Denise Foster",
+"hk": "霍秀婷",
+"sc": "霍秀婷",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-lethal-steps"
+]
+},
+{
+"uid": "t-mrs-john-harrington",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏寧敦夫人",
+"en": "Mrs John Harrington",
+"hk": "夏寧敦夫人",
+"sc": "夏宁敦夫人",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-bopedro",
+"fr-scarlett-o-hara",
+"fr-taipan",
+"gb-albion-square",
+"gb-citronnade",
+"gb-comic-book",
+"gb-dark-viper",
+"gb-echo-inferno",
+"gb-gold-maze",
+"gb-hotazhell",
+"gb-irish-lullaby",
+"gb-kinesiology",
+"gb-lady-in-paris",
+"gb-lady-patrona",
+"gb-landshark",
+"gb-norwalk-havoc",
+"gb-pierre-grosse",
+"gb-pivotal-trigger",
+"gb-satin",
+"gb-sea-the-boss",
+"gb-slaudeen",
+"gb-sounds-of-heaven",
+"gb-supersonic-man",
+"gb-village-voice",
+"ger-quar-shamar",
+"ger-real-appeal",
+"ire-ace-aussie",
+"ire-alpine-star",
+"ire-apollo-s-comet",
+"ire-barbados",
+"ire-barnavara",
+"ire-birdman",
+"ire-bluedrum",
+"ire-breath-of-paradise",
+"ire-brother-bear",
+"ire-cadillac",
+"ire-cayenne-pepper",
+"ire-diamond-exchange",
+"ire-dickiedooda",
+"ire-discoveries",
+"ire-ever-present",
+"ire-fennela",
+"ire-flash-the-cash",
+"ire-foniska",
+"ire-forbearance",
+"ire-givemethebeatboys",
+"ire-glitter-and-glory",
+"ire-green-impact",
+"ire-hell-bent",
+"ire-highland-bling",
+"ire-hurricane-ivor",
+"ire-indigo-balance",
+"ire-iron-fist",
+"ire-jungle-cove",
+"ire-kings-time",
+"ire-la-vita-nova",
+"ire-laelaps",
+"ire-lan-cinnte",
+"ire-leo-de-fury",
+"ire-lucky-vega",
+"ire-magical-lagoon",
+"ire-marazion",
+"ire-matter-of-fact",
+"ire-millisle",
+"ire-mo-ghille-mar",
+"ire-mr-vettori",
+"ire-nancy-j",
+"ire-nautic-star",
+"ire-njord",
+"ire-no-speak-alexander",
+"ire-noble-honour",
+"ire-ocean-quest",
+"ire-oodnadatta",
+"ire-oro-blanco",
+"ire-our-boy-bailey",
+"ire-panic-alarm",
+"ire-pepperoni-pete",
+"ire-presence",
+"ire-proxima-centauri",
+"ire-punica-granatum",
+"ire-raknah",
+"ire-real-encounter",
+"ire-riviera-queen",
+"ire-rock-n-roll-rocket",
+"ire-royal-bones",
+"ire-samnina",
+"ire-sandhurst",
+"ire-saratoga-special",
+"ire-saturn",
+"ire-sears-crossing",
+"ire-seoul-force",
+"ire-september-leaves",
+"ire-serialise",
+"ire-servalan",
+"ire-silence-please",
+"ire-sprewell",
+"ire-supagirl",
+"ire-switching-sides",
+"ire-that-s-just-dandy",
+"ire-the-blue-brilliant",
+"ire-the-very-man",
+"ire-thrifty-of-digby",
+"ire-torcedor",
+"ire-trevaunance",
+"ire-turners-cross",
+"ire-va-va-vroom",
+"ire-valeria-messalina",
+"ire-villanova-queen",
+"ire-wyman",
+"ire-yashin",
+"us-bold-discovery",
+"us-corviglia"
+]
+},
+{
+"uid": "t-muhammad-alkhulifi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "敖啟暉",
+"en": "Muhammad Alkhulifi",
+"hk": "敖啟暉",
+"sc": "敖启晖",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-nonesense"
+]
+},
+{
+"uid": "t-mujeeb-rahman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "拉穆",
+"en": "Mujeeb Rahman",
+"hk": "拉穆",
+"sc": "拉穆",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-noivado"
+]
+},
+{
+"uid": "t-mun-je-bok",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文濟福",
+"en": "Mun Je Bok",
+"hk": "文濟福",
+"sc": "文济福",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-perdido-pomeroy"
+]
+},
+{
+"uid": "t-murray-baker-andrew-forsman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白嘉及方世民",
+"en": "Murray Baker & Andrew Forsman",
+"hk": "白嘉及方世民",
+"sc": "白嘉及方世民",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-mission-hill",
+"au-quick-thinker",
+"au-weather-with-you",
+"nz-aegon",
+"nz-bonneval",
+"nz-botti",
+"nz-clementina",
+"nz-jon-snow",
+"nz-mongolian-marshal",
+"nz-privileged-son",
+"nz-regal-lion",
+"nz-the-chosen-one",
+"nz-the-frontman",
+"nz-vin-de-dance",
+"nz-white-noise",
+"nz-zacada"
+]
+},
+{
+"uid": "t-murray-johnson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莊仕新",
+"en": "Murray Johnson",
+"hk": "莊仕新",
+"sc": "庄仕新",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-pure-pride"
+]
+},
+{
+"uid": "t-musabbeh-al-mheiri",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥漢尼",
+"en": "Musabbeh Al Mheiri",
+"hk": "麥漢尼",
+"sc": "麦汉尼",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-for-the-top",
+"fr-al-madhar",
+"gb-alkaamel",
+"gb-dahawi",
+"gb-el-nasseeb",
+"gb-lahresh",
+"gb-meraas",
+"gb-military-law",
+"gb-muzdawaj",
+"gb-on-the-warpath",
+"gb-thammin",
+"ire-aeonian",
+"ire-alfareeq",
+"ire-casey-jones",
+"ire-danyah",
+"ire-daramethos",
+"ire-dark-of-night",
+"ire-echo-point",
+"ire-ibn-malik",
+"ire-jash",
+"ire-khanjar",
+"ire-mutaraffa",
+"ire-raaeb",
+"ire-royal-dornoch",
+"ire-rusumaat",
+"ire-special-fighter",
+"ire-tashweeq",
+"ire-team-decision",
+"us-alkaraama",
+"us-duke-of-immatin",
+"us-fire-group",
+"us-moqarrab",
+"us-oasis-moon",
+"us-premier-star",
+"us-qareeb",
+"us-street-mood",
+"us-taneen",
+"us-zainhom"
+]
+},
+{
+"uid": "t-mutaeb-almulawah",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "安穆華",
+"en": "Mutaeb Almulawah",
+"hk": "安穆華",
+"sc": "安穆华",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-power-of-beauty",
+"us-scotland-yard"
+]
+},
+{
+"uid": "t-muteb-almulawah",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "安穆華",
+"en": "Muteb Almulawah",
+"hk": "安穆華",
+"sc": "安穆华",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-thundersquall"
+]
+},
+{
+"uid": "t-myriam-bollack-badel",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巴迪女士",
+"en": "Myriam Bollack-Badel",
+"hk": "巴迪女士",
+"sc": "巴迪女士",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-lune-de-rio",
+"gb-avec-laura"
+]
+},
+{
+"uid": "t-n-bellanger",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "包朗建",
+"en": "N Bellanger",
+"hk": "包朗建",
+"sc": "包朗建",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-glanworth",
+"ire-shy-feeling"
+]
+},
+{
+"uid": "t-n-caullery",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "戈勒尼",
+"en": "N Caullery",
+"hk": "戈勒尼",
+"sc": "戈勒尼",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-batwan",
+"fr-bocciatore",
+"fr-d-day-man",
+"fr-dark-zel",
+"fr-fort-payne",
+"fr-fou-furieux",
+"fr-frosty-bay",
+"fr-kennella",
+"fr-king-gold",
+"fr-loughcrew",
+"fr-luci-del-faro",
+"fr-purple-mood",
+"fr-wild-west",
+"gb-aimef",
+"gb-on-the-sea",
+"ire-autumn-twilight"
+]
+},
+{
+"uid": "t-n-clement",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蓋萊文",
+"en": "N Clement",
+"hk": "蓋萊文",
+"sc": "盖莱文",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-aiguiere-dargent",
+"fr-now-we-know",
+"ire-miz-vega",
+"ire-schooner-ridge"
+]
+},
+{
+"uid": "t-n-clement-f-hermans",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蓋萊文及康敏珊",
+"en": "N Clement & F Hermans",
+"hk": "蓋萊文及康敏珊",
+"sc": "盖莱文及康敏珊",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-charly"
+]
+},
+{
+"uid": "t-n-leenders",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "連德丞",
+"en": "N Leenders",
+"hk": "連德丞",
+"sc": "连德丞",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-ker-welen"
+]
+},
+{
+"uid": "t-n-perret",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "彭納德",
+"en": "N Perret",
+"hk": "彭納德",
+"sc": "彭纳德",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-chop-val",
+"fr-launceston-place",
+"fr-lord-of-war",
+"fr-river-of-silver",
+"ire-for-win",
+"ire-le-tropic"
+]
+},
+{
+"uid": "t-n-sugai",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "須貝尚介",
+"en": "N Sugai",
+"hk": "須貝尚介",
+"sc": "须贝尚介",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-stella-veloce",
+"jp-veloce-oro"
+]
+},
+{
+"uid": "t-nacim-dilmi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "狄勵明",
+"en": "Nacim Dilmi",
+"hk": "狄勵明",
+"sc": "狄励明",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-aix-en-provence",
+"au-matcha-latte"
+]
+},
+{
+"uid": "t-nadine-verheyen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋凱欣",
+"en": "Nadine Verheyen",
+"hk": "韋凱欣",
+"sc": "韦凯欣",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-sirius-slew"
+]
+},
+{
+"uid": "t-naif-almandeel",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文東佑",
+"en": "Naif Almandeel",
+"hk": "文東佑",
+"sc": "文东佑",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-eagle-s-flight",
+"ire-lagertha-rhyme",
+"ire-pin-your-hopes",
+"ire-sunset-flash"
+]
+},
+{
+"uid": "t-naif-almindeel",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "文東佑",
+"en": "Naif Almindeel",
+"hk": "文東佑",
+"sc": "文东佑",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-pin-your-hopes",
+"ire-sunset-flash"
+]
+},
+{
+"uid": "t-nancy-vermeulen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "尹美蘭",
+"en": "Nancy Vermeulen",
+"hk": "尹美蘭",
+"sc": "尹美兰",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-iseult",
+"fr-sapiens"
+]
+},
+{
+"uid": "t-naohiro-yoshida",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "吉田直弘",
+"en": "Naohiro Yoshida",
+"hk": "吉田直弘",
+"sc": "吉田直弘",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-bellclear",
+"jp-cosmo-dark-night",
+"jp-cosmo-elbaite",
+"jp-crescens-luna",
+"jp-hero-in-chief",
+"jp-maria-elena",
+"jp-meiner-full-moon",
+"jp-meiner-gustav",
+"jp-smart-bombshell",
+"jp-takamizu",
+"jp-troca-animada",
+"jp-un",
+"jp-win-luxe",
+"jp-z-nova"
+]
+},
+{
+"uid": "t-naosuke-sugai",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "須貝尚介",
+"en": "Naosuke Sugai",
+"hk": "須貝尚介",
+"sc": "须贝尚介",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-admire-alba",
+"jp-admire-eikan",
+"jp-admire-justa",
+"jp-admire-lead",
+"jp-arte-veloce",
+"jp-blanc-noir",
+"jp-dancar",
+"jp-dolce-more",
+"jp-faust-rasen",
+"jp-first-folio",
+"jp-gaiamente",
+"jp-golden-tips",
+"jp-good-deal",
+"jp-heure-du-bonheur",
+"jp-hrimfaxi",
+"jp-kanumera-beach",
+"jp-kingmaker",
+"jp-kurino-mei",
+"jp-lien-tissage",
+"jp-linate",
+"jp-logi-cry",
+"jp-lovely-tiara",
+"jp-magic-sands",
+"jp-purpur-ray",
+"jp-raison-du-sourire",
+"jp-red-soldado",
+"jp-ruby-casablanca",
+"jp-satono-gold",
+"jp-shonan-baldr",
+"jp-shonan-bashitto",
+"jp-shonan-gachi",
+"jp-shonan-gulf",
+"jp-shuji",
+"jp-sodashi",
+"jp-stella-veloce",
+"jp-t-o-solennel",
+"jp-terra-merita",
+"jp-triomphe",
+"jp-veloce-oro"
+]
+},
+{
+"uid": "t-naoto-chiba",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "千葉直人",
+"en": "Naoto Chiba",
+"hk": "千葉直人",
+"sc": "千叶直人",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-fortem",
+"jp-k-two-livre",
+"jp-lord-trident",
+"jp-mondo-dell-amore",
+"jp-nishino-agent",
+"jp-real-center",
+"jp-silflay",
+"jp-white-gerbera"
+]
+},
+{
+"uid": "t-naoya-nakamura",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "中村直也",
+"en": "Naoya Nakamura",
+"hk": "中村直也",
+"sc": "中村直也",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-cecilie-plage",
+"jp-hayatenofukunosuke",
+"jp-henny-typhoon",
+"jp-izu-jo-no-kiseki",
+"jp-lavanda",
+"jp-one-way-to-hell",
+"jp-touchable",
+"jp-yamanin-cerchi",
+"jp-zenno-ange",
+"us-isshin",
+"us-jigen"
+]
+},
+{
+"uid": "t-naoyuki-morita",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "森田直行",
+"en": "Naoyuki Morita",
+"hk": "森田直行",
+"sc": "森田直行",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-breakup",
+"jp-daimei-fuji",
+"jp-daimei-princess",
+"jp-floral-dress",
+"jp-haidizhen",
+"jp-heart-of-a-city",
+"jp-lord-radius",
+"jp-love-kampf",
+"jp-melody-lane",
+"jp-mozu-bello",
+"jp-smile-force",
+"jp-snoflinga"
+]
+},
+{
+"uid": "t-naru-owada",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "大和田成",
+"en": "Naru Owada",
+"hk": "大和田成",
+"sc": "大和田成",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-bold-spartan",
+"jp-charro-negro",
+"jp-corniglia",
+"jp-flashing-gem",
+"jp-granite",
+"jp-higher-ground",
+"jp-kurfurst",
+"jp-max-un",
+"jp-on-the-line",
+"jp-prayer-samson",
+"jp-sublime"
+]
+},
+{
+"uid": "t-naser-fawaz",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "符維山",
+"en": "Naser Fawaz",
+"hk": "符維山",
+"sc": "符维山",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-star-of-wins"
+]
+},
+{
+"uid": "t-nastasja-volz-degel",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蔚洛桃",
+"en": "Nastasja Volz-Degel",
+"hk": "蔚洛桃",
+"sc": "蔚洛桃",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-master-of-light"
+]
+},
+{
+"uid": "t-natalia-lupini",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "陸盼妮",
+"en": "Natalia Lupini",
+"hk": "陸盼妮",
+"sc": "陆盼妮",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-powerful-lady",
+"gb-barnso",
+"gb-kitty-rose",
+"gb-oriole",
+"ire-bishopton",
+"ire-blairmayne",
+"ire-dunum",
+"ire-final-melody",
+"ire-flame-of-forest",
+"ire-golden-trigger",
+"ire-highly-desirable",
+"ire-making-time",
+"ire-miss-cashman-hooke",
+"ire-talia",
+"ire-zia-zabel"
+]
+},
+{
+"uid": "t-natalie-mccall",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "萬麗娜",
+"en": "Natalie McCall",
+"hk": "萬麗娜",
+"sc": "万丽娜",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-tiger-shark"
+]
+},
+{
+"uid": "t-nathalie-vasutek-zinck",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "范淑笙",
+"en": "Nathalie Vasutek-Zinck",
+"hk": "范淑笙",
+"sc": "范淑笙",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-kanifushi"
+]
+},
+{
+"uid": "t-nathan-doyle",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "杜倚立",
+"en": "Nathan Doyle",
+"hk": "杜倚立",
+"sc": "杜倚立",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-better-late",
+"au-churchill-s-choice",
+"au-dalaalaat",
+"au-harlem-queen",
+"au-hidden-motive",
+"au-mercy-me",
+"au-midnight-opal",
+"au-overriding",
+"au-silvanito"
+]
+},
+{
+"uid": "t-nathan-hobson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "侯博舜",
+"en": "Nathan Hobson",
+"hk": "侯博舜",
+"sc": "侯博舜",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-soldier-of-love"
+]
+},
+{
+"uid": "t-nathan-kotzen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "科勝",
+"en": "Nathan Kotzen",
+"hk": "科勝",
+"sc": "科胜",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-captain-oupie",
+"saf-cats-pajamas",
+"saf-field-marshal",
+"saf-madison-valley",
+"saf-merlin-from-berlin",
+"saf-paybackthemoney",
+"saf-perpetual-flame",
+"saf-pinch-me",
+"saf-royal-victory",
+"saf-shoot-the-rapids",
+"saf-world-of-royalty"
+]
+},
+{
+"uid": "t-neil-bruss",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布魯斯",
+"en": "Neil Bruss",
+"hk": "布魯斯",
+"sc": "布鲁斯",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-fantastic-four",
+"ire-god-s-speed"
+]
+},
+{
+"uid": "t-neil-mulholland",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巫浩良",
+"en": "Neil Mulholland",
+"hk": "巫浩良",
+"sc": "巫浩良",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-think-first"
+]
+},
+{
+"uid": "t-neil-osborne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "奧醒彪",
+"en": "Neil Osborne",
+"hk": "奧醒彪",
+"sc": "奥醒彪",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-to-dubai-we-go"
+]
+},
+{
+"uid": "t-nell-carter",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卡泰雅",
+"en": "Nell Carter",
+"hk": "卡泰雅",
+"sc": "卡泰雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-anphina"
+]
+},
+{
+"uid": "t-nell-foley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "霍麗如",
+"en": "Nell Foley",
+"hk": "霍麗如",
+"sc": "霍丽如",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-chance-reward"
+]
+},
+{
+"uid": "t-nelson-smyth",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施晚輝",
+"en": "Nelson Smyth",
+"hk": "施晚輝",
+"sc": "施晚辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-mistressofillusion"
+]
+},
+{
+"uid": "t-neville-boyle",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "波耀力",
+"en": "Neville Boyle",
+"hk": "波耀力",
+"sc": "波耀力",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-greyworm"
+]
+},
+{
+"uid": "t-neville-parnham",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "潘漢文",
+"en": "Neville Parnham",
+"hk": "潘漢文",
+"sc": "潘汉文",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-alaskan",
+"au-demolish",
+"au-ellicazoom",
+"au-malibu-style"
+]
+},
+{
+"uid": "t-nicholas-bachalard",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巴齊樂",
+"en": "Nicholas Bachalard",
+"hk": "巴齊樂",
+"sc": "巴齐乐",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-boerhan",
+"ire-forjatt",
+"ire-power-of-beauty",
+"ire-zamaani",
+"us-masaarr",
+"us-mouheeb",
+"us-nayefah",
+"us-sadeedd",
+"us-scotland-yard"
+]
+},
+{
+"uid": "t-nicholas-bishara",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "畢璽立",
+"en": "Nicholas Bishara",
+"hk": "畢璽立",
+"sc": "毕玺立",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-texas"
+]
+},
+{
+"uid": "t-nick-gifford",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀奉達",
+"en": "Nick Gifford",
+"hk": "紀奉達",
+"sc": "纪奉达",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-zuba"
+]
+},
+{
+"uid": "t-nick-olive",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "岳禮富",
+"en": "Nick Olive",
+"hk": "岳禮富",
+"sc": "岳礼富",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-kimberley-secrets",
+"au-single-gaze",
+"au-sizzling-belle",
+"au-spicy-lu",
+"au-voynichese",
+"nz-miss-stalwart"
+]
+},
+{
+"uid": "t-nick-ryan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賴容安",
+"en": "Nick Ryan",
+"hk": "賴容安",
+"sc": "赖容安",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-anglais",
+"au-doubt-time",
+"au-highvol",
+"au-johnny-rocker",
+"au-mahamedeis",
+"au-material-dreams",
+"au-miewa",
+"au-mysweetmoses",
+"au-port-albert",
+"au-red-aces",
+"au-serious-liaison",
+"au-suntora",
+"au-terrortorian",
+"au-winnasedge",
+"gb-munhamek",
+"ire-haaracaine",
+"nz-wolfy"
+]
+},
+{
+"uid": "t-nick-scholfield",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蘇厚豐",
+"en": "Nick Scholfield",
+"hk": "蘇厚豐",
+"sc": "苏厚丰",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-hipop-de-loire",
+"gb-theheatison",
+"ire-glen-to-glen"
+]
+},
+{
+"uid": "t-nicky-henderson",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韓德信",
+"en": "Nicky Henderson",
+"hk": "韓德信",
+"sc": "韩德信",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-gunnery",
+"gb-ahorsewithnoname",
+"ire-the-cashel-man",
+"ire-verdana-blue"
+]
+},
+{
+"uid": "t-nicolas-bachalard",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巴齊樂",
+"en": "Nicolas Bachalard",
+"hk": "巴齊樂",
+"sc": "巴齐乐",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-power-of-beauty",
+"us-carracci",
+"us-scotland-yard"
+]
+},
+{
+"uid": "t-nicolas-bellanger",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "包朗建",
+"en": "Nicolas Bellanger",
+"hk": "包朗建",
+"sc": "包朗建",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-woodchuck",
+"ire-glanworth",
+"ire-shy-feeling"
+]
+},
+{
+"uid": "t-nicolas-caullery",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "戈勒尼",
+"en": "Nicolas Caullery",
+"hk": "戈勒尼",
+"sc": "戈勒尼",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-aversa",
+"fr-batwan",
+"fr-bobrovkha",
+"fr-bobydargent",
+"fr-bocciatore",
+"fr-capchop",
+"fr-city-of-hope",
+"fr-d-day-man",
+"fr-darihanna",
+"fr-dark-zel",
+"fr-dream-with-you",
+"fr-elusive-belardo",
+"fr-fort-payne",
+"fr-fou-furieux",
+"fr-frosty-bay",
+"fr-jacky",
+"fr-kennella",
+"fr-king-gold",
+"fr-king-of-twist",
+"fr-loughcrew",
+"fr-luci-del-faro",
+"fr-makilroy",
+"fr-morning-dew",
+"fr-ocean",
+"fr-purple-mood",
+"fr-riyabovka",
+"fr-sim-card",
+"fr-survivol",
+"fr-tantomile",
+"fr-the-shadow",
+"fr-time-to-fly",
+"fr-tudo-bem",
+"fr-tumbler",
+"fr-victory-folie",
+"fr-wild-west",
+"gb-adwan",
+"gb-aimef",
+"gb-faithfilly-man",
+"gb-flag-fen",
+"gb-innovator",
+"gb-on-the-sea",
+"gb-pink-city",
+"ire-autumn-twilight",
+"ire-just-for-dream",
+"ire-signora-bellissima",
+"mor-russipant-fal"
+]
+},
+{
+"uid": "t-nicolas-clement",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蓋萊文",
+"en": "Nicolas Clement",
+"hk": "蓋萊文",
+"sc": "盖莱文",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-clash-royale",
+"fr-moon-ray",
+"fr-now-we-know",
+"fr-rosetta-stone",
+"fr-shady-lady",
+"fr-the-juliet-rose",
+"fr-very-meri",
+"gb-havana-bound",
+"ire-love-rush",
+"ire-miz-vega",
+"ire-rose-bloom",
+"ire-schooner-ridge",
+"ire-survie",
+"ire-wonderment"
+]
+},
+{
+"uid": "t-nicolas-guilbert",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀培泰",
+"en": "Nicolas Guilbert",
+"hk": "紀培泰",
+"sc": "纪培泰",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-falcon",
+"fr-topy-sim",
+"ire-sijoux"
+]
+},
+{
+"uid": "t-nicolas-le-roch",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅學智",
+"en": "Nicolas Le Roch",
+"hk": "羅學智",
+"sc": "罗学智",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-haarlem",
+"fr-mehmist",
+"fr-mimos",
+"fr-pemba-bay"
+]
+},
+{
+"uid": "t-nicolas-m-ferro",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "封仁隆",
+"en": "Nicolas M Ferro",
+"hk": "封仁隆",
+"sc": "封仁隆",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-vundu"
+]
+},
+{
+"uid": "t-nicolas-martin-ferro",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "封仁隆",
+"en": "Nicolas Martin Ferro",
+"hk": "封仁隆",
+"sc": "封仁隆",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-acento-final",
+"arg-intense-for-me"
+]
+},
+{
+"uid": "t-nicolas-perret",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "彭納德",
+"en": "Nicolas Perret",
+"hk": "彭納德",
+"sc": "彭纳德",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-american-glory",
+"fr-chop-val",
+"fr-comme-quoi",
+"fr-darling-darling",
+"fr-launceston-place",
+"fr-lord-of-war",
+"fr-mafalda-story",
+"fr-scenariste",
+"fr-un-instant",
+"ire-for-win",
+"ire-le-tropic",
+"ire-olympic-message",
+"ire-schwangau",
+"us-true-to-form"
+]
+},
+{
+"uid": "t-nicole-irwin",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾溫蘭",
+"en": "Nicole Irwin",
+"hk": "艾溫蘭",
+"sc": "艾温兰",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-call-me-vexatious"
+]
+},
+{
+"uid": "t-niels-lantsoght",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "藍尚德",
+"en": "Niels Lantsoght",
+"hk": "藍尚德",
+"sc": "蓝尚德",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-paletuvier",
+"fr-silver-condor"
+]
+},
+{
+"uid": "t-niels-petersen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "彭德信",
+"en": "Niels Petersen",
+"hk": "彭德信",
+"sc": "彭德信",
+"own": null,
+"alias": []
+},
+"horses": [
+"den-king-david",
+"den-slava-ukraini",
+"fr-nordic-defense",
+"fr-spitzbergen",
+"fr-square-de-luynes",
+"fr-trouble-of-course",
+"gb-could-be-king",
+"gb-kick-on",
+"gb-privilegiado",
+"gb-war-socks",
+"ire-hunters-lullaby",
+"ire-rock-of-cashel",
+"swe-ascot-brass",
+"swe-careless-whisper",
+"swe-iron-butterfly",
+"us-queen-azteca"
+]
+},
+{
+"uid": "t-nigel-blackiston",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白璟敦",
+"en": "Nigel Blackiston",
+"hk": "白璟敦",
+"sc": "白璟敦",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-frost-yourself",
+"au-matrimonial",
+"au-mercante",
+"au-subrising"
+]
+},
+{
+"uid": "t-nigel-tinkler",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "丁國良",
+"en": "Nigel Tinkler",
+"hk": "丁國良",
+"sc": "丁国良",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-cugini",
+"gb-el-floridita",
+"gb-imperium-blue",
+"gb-kaeso",
+"gb-lakota-blue",
+"gb-ronson",
+"gb-theme-park",
+"gb-ticktyboo",
+"ire-acklam-express",
+"ire-believeinmenow",
+"ire-dandy-dinmont",
+"ire-duran",
+"ire-isla-kai",
+"ire-make-it-easy",
+"ire-mejthaam",
+"ire-muker",
+"ire-not-on-your-nellie",
+"ire-paddy-s-day",
+"ire-princess-power",
+"ire-squealer",
+"ire-ubettabelieveit",
+"ire-ubettabequick"
+]
+},
+{
+"uid": "t-nigel-twiston-davies",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "戴偉斯",
+"en": "Nigel Twiston-Davies",
+"hk": "戴偉斯",
+"sc": "戴伟斯",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-earlofthecotswolds",
+"ire-paddys-motorbike"
+]
+},
+{
+"uid": "t-nikki-burke",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布莉琦",
+"en": "Nikki Burke",
+"hk": "布莉琦",
+"sc": "布莉琦",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-perfect-ten"
+]
+},
+{
+"uid": "t-nikki-evans",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "伊雲絲",
+"en": "Nikki Evans",
+"hk": "伊雲絲",
+"sc": "伊云丝",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-baileysgutfeeling"
+]
+},
+{
+"uid": "t-nikolay-vulkov-ivanov",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "伊風臨",
+"en": "Nikolay Vulkov Ivanov",
+"hk": "伊風臨",
+"sc": "伊风临",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-rival-order"
+]
+},
+{
+"uid": "t-nilson-lima",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "利望毅",
+"en": "Nilson Lima",
+"hk": "利望毅",
+"sc": "利望毅",
+"own": null,
+"alias": []
+},
+"horses": [
+"brz-eyes-of-gold"
+]
+},
+{
+"uid": "t-nina-lensvik",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "凌倩華",
+"en": "Nina Lensvik",
+"hk": "凌倩華",
+"sc": "凌倩华",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-sanary"
+]
+},
+{
+"uid": "t-nina-walsh",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "華蕾倩",
+"en": "Nina Walsh",
+"hk": "華蕾倩",
+"sc": "华蕾倩",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-dinard-rose"
+]
+},
+{
+"uid": "t-noboru-takagi",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高木登",
+"en": "Noboru Takagi",
+"hk": "高木登",
+"sc": "高木登",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-ammaliare",
+"jp-citrus-cooler",
+"jp-crockford",
+"jp-dear-theory",
+"jp-don-to-the-moon",
+"jp-grand-line",
+"jp-grover-tesoro",
+"jp-ho-o-las-cases",
+"jp-laurier-tesoro",
+"jp-meiner-hitze",
+"jp-meteor-d-avril",
+"jp-neuse-tesoro",
+"jp-nishino-asuka",
+"jp-partner-laugh",
+"jp-peisha-felicita",
+"jp-salute",
+"jp-snow-dragon",
+"jp-top-of-jealous",
+"jp-twinkle-stage",
+"jp-ushba-tesoro",
+"jp-warp-speed",
+"jp-wilson-tesoro",
+"jp-win-activo",
+"us-zippy-racer"
+]
+},
+{
+"uid": "t-nobuharu-fukushima",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "福島信晴",
+"en": "Nobuharu Fukushima",
+"hk": "福島信晴",
+"sc": "福岛信晴",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-diana-halo"
+]
+},
+{
+"uid": "t-nobuhiro-suzuki",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "鈴木伸尋",
+"en": "Nobuhiro Suzuki",
+"hk": "鈴木伸尋",
+"sc": "铃木伸寻",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-k-two-marka",
+"jp-mitsukane-prince",
+"jp-neo-gold",
+"jp-neo-true",
+"jp-pai-meimei",
+"jp-panja-bosatsu",
+"jp-polifolia"
+]
+},
+{
+"uid": "t-noel-mayfield-smith",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬菲史密夫",
+"en": "Noel Mayfield-Smith",
+"hk": "馬菲史密夫",
+"sc": "马菲史密夫",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-de-forza"
+]
+},
+{
+"uid": "t-noel-meade",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "梅狄",
+"en": "Noel Meade",
+"hk": "梅狄",
+"sc": "梅狄",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-bobby-mcgee",
+"gb-calrissiana",
+"ire-cask-mate",
+"ire-caught-u-sleeping",
+"ire-de-name-escapes-me",
+"ire-dutch-gold",
+"ire-golden-temple",
+"ire-helvic-dream",
+"ire-jesse-evans",
+"ire-joe-masseria",
+"ire-lady-of-inishfree",
+"ire-layfayette",
+"ire-letherfly",
+"ire-madbadanddangerous",
+"ire-port-louis",
+"ire-snow-falcon",
+"ire-star-of-sapphire",
+"ire-stars-will-shine",
+"ire-zoffman"
+]
+},
+{
+"uid": "t-norbert-leenders",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "連德丞",
+"en": "Norbert Leenders",
+"hk": "連德丞",
+"sc": "连德丞",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-ker-welen"
+]
+},
+{
+"uid": "t-norio-fujisawa",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "藤澤則雄",
+"en": "Norio Fujisawa",
+"hk": "藤澤則雄",
+"sc": "藤泽则雄",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-kurino-gaudi",
+"jp-kurino-san-leo",
+"jp-turbulencia"
+]
+},
+{
+"uid": "t-noriyuki-hori",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "堀宣行",
+"en": "Noriyuki Hori",
+"hk": "堀宣行",
+"sc": "堀宣行",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-campbell-junior",
+"ire-burringurrah",
+"jp-air-gene",
+"jp-cisalpino",
+"jp-cite-florale",
+"jp-cliffhanger",
+"jp-corrientes",
+"jp-danon-ayers-rock",
+"jp-danon-beluga",
+"jp-danon-history",
+"jp-dio-del-mare",
+"jp-dios-valiente",
+"jp-dual-wielder",
+"jp-gonbade-qabus",
+"jp-hishi-gekko",
+"jp-hishi-iguazu",
+"jp-jinambo",
+"jp-kana-tape",
+"jp-lucas",
+"jp-neorealism",
+"jp-regina-doro",
+"jp-saai-roang",
+"jp-sakura-empire",
+"jp-sakura-farrel",
+"jp-sakura-roi",
+"jp-sakura-toujours",
+"jp-salios",
+"jp-satono-butler",
+"jp-satono-carnaval",
+"jp-satono-crown",
+"jp-satono-damsel",
+"jp-satono-genesis",
+"jp-satono-oracion",
+"jp-satono-reve",
+"jp-satono-saltus",
+"jp-struve",
+"jp-sword-line",
+"jp-tastiera",
+"jp-victor-barows",
+"us-cafe-pharoah",
+"us-luxor-cafe",
+"us-worlds-collide"
+]
+},
+{
+"uid": "t-norm-gardner",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭典立",
+"en": "Norm Gardner",
+"hk": "郭典立",
+"sc": "郭典立",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-miss-ghent"
+]
+},
+{
+"uid": "t-o-al-dafea",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "歐狄斐",
+"en": "O Al Dafea",
+"hk": "歐狄斐",
+"sc": "欧狄斐",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-taxiwala"
+]
+},
+{
+"uid": "t-o-burrows",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布隆思",
+"en": "O Burrows",
+"hk": "布隆思",
+"sc": "布隆思",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-hukum"
+]
+},
+{
+"uid": "t-o-de-montzey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蒙治惜",
+"en": "O De Montzey",
+"hk": "蒙治惜",
+"sc": "蒙治惜",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-denver-chop"
+]
+},
+{
+"uid": "t-o-j-burrows",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布隆思",
+"en": "O J Burrows",
+"hk": "布隆思",
+"sc": "布隆思",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-minzaal"
+]
+},
+{
+"uid": "t-o-sangster",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "宋碩棠",
+"en": "O Sangster",
+"hk": "宋碩棠",
+"sc": "宋硕棠",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-louis-barthas"
+]
+},
+{
+"uid": "t-o-trigodet",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓繼迪",
+"en": "O Trigodet",
+"hk": "卓繼迪",
+"sc": "卓继迪",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-romantic-moon"
+]
+},
+{
+"uid": "t-oh-moon-sik",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "吳汶植",
+"en": "Oh Moon Sik",
+"hk": "吳汶植",
+"sc": "吴汶植",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-morning-daero"
+]
+},
+{
+"uid": "t-oli-rix",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "利奕晨",
+"en": "Oli Rix",
+"hk": "利奕晨",
+"sc": "利奕晨",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-intense-vision",
+"gb-mr-macartney",
+"gb-noble-horizon",
+"gb-spell-master"
+]
+},
+{
+"uid": "t-oliver-cole",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高耀仁",
+"en": "Oliver Cole",
+"hk": "高耀仁",
+"sc": "高耀仁",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-public-affection",
+"gb-agitator",
+"gb-american-gulf",
+"gb-demonstrate",
+"gb-dr-rascal",
+"gb-greek-symphony",
+"gb-twisting-physics",
+"ire-echo-of-stars",
+"ire-silver-dominion"
+]
+},
+{
+"uid": "t-oliver-greenall",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀理羅",
+"en": "Oliver Greenall",
+"hk": "紀理羅",
+"sc": "纪理罗",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-fort-jefferson"
+]
+},
+{
+"uid": "t-oliver-mckiernan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "孟紀楠",
+"en": "Oliver McKiernan",
+"hk": "孟紀楠",
+"sc": "孟纪楠",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-presto"
+]
+},
+{
+"uid": "t-oliver-schnakenberg",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "孫力弼",
+"en": "Oliver Schnakenberg",
+"hk": "孫力弼",
+"sc": "孙力弼",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-agent-sim",
+"gb-scrum",
+"ger-alatemagicbaby",
+"ger-oriental-king",
+"ger-oriental-princess",
+"ger-prairie-lion",
+"ger-twilight-dream",
+"ire-newkidontheblock",
+"ire-noshowlikeajoeshow"
+]
+},
+{
+"uid": "t-oliverio-martinez-l",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬鐵利",
+"en": "Oliverio Martinez L",
+"hk": "馬鐵利",
+"sc": "马铁利",
+"own": null,
+"alias": []
+},
+"horses": [
+"chi-vivir-la-vida"
+]
+},
+{
+"uid": "t-olivia-osborne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "奧可妮",
+"en": "Olivia Osborne",
+"hk": "奧可妮",
+"sc": "奥可妮",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-shaiyhar"
+]
+},
+{
+"uid": "t-olivier-de-montzey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蒙治惜",
+"en": "Olivier de Montzey",
+"hk": "蒙治惜",
+"sc": "蒙治惜",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-denver-chop"
+]
+},
+{
+"uid": "t-olivier-regley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "李瑾亮",
+"en": "Olivier Regley",
+"hk": "李瑾亮",
+"sc": "李瑾亮",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-ladiva"
+]
+},
+{
+"uid": "t-olivier-trigodet",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓繼迪",
+"en": "Olivier Trigodet",
+"hk": "卓繼迪",
+"sc": "卓继迪",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-pas-dansant",
+"fr-romantic-moon"
+]
+},
+{
+"uid": "t-ollie-sangster",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "宋碩棠",
+"en": "Ollie Sangster",
+"hk": "宋碩棠",
+"sc": "宋硕棠",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-celestial-orbit",
+"gb-eternal-solace",
+"gb-flight",
+"gb-inquisitively",
+"gb-it-dunt-marra",
+"gb-lady-of-andros",
+"gb-sands-of-havana",
+"gb-simmering",
+"ger-really-darn-hot",
+"ire-artista",
+"ire-bone-marra",
+"ire-cruise",
+"ire-dig-two",
+"ire-dublin-bay",
+"ire-kings-valley",
+"ire-louis-barthas",
+"ire-per-contra",
+"ire-profit-refused",
+"ire-radio-star",
+"ire-sands-of-marra",
+"ire-state-of-america",
+"ire-tuco-salamanca"
+]
+},
+{
+"uid": "t-olly-murphy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫凡勇",
+"en": "Olly Murphy",
+"hk": "莫凡勇",
+"sc": "莫凡勇",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-fleurman",
+"ire-kentucky-river"
+]
+},
+{
+"uid": "t-onur-ozelcanat",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "柯素奇",
+"en": "Onur Ozelcanat",
+"hk": "柯素奇",
+"sc": "柯素奇",
+"own": null,
+"alias": []
+},
+"horses": [
+"tur-final-dance",
+"us-aegean-finale"
+]
+},
+{
+"uid": "t-osama-al-dafea",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "歐狄斐",
+"en": "Osama Al Dafea",
+"hk": "歐狄斐",
+"sc": "欧狄斐",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-taxiwala"
+]
+},
+{
+"uid": "t-osama-refai",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "利科爾",
+"en": "Osama Refai",
+"hk": "利科爾",
+"sc": "利科尔",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-dhahabi",
+"us-road-bloc"
+]
+},
+{
+"uid": "t-osamu-hirata",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "平田修",
+"en": "Osamu Hirata",
+"hk": "平田修",
+"sc": "平田修",
+"own": null,
+"alias": []
+},
+"horses": [
+"jp-curren-mirotic",
+"jp-emanuele",
+"jp-fascinate-z",
+"jp-happy-yunibansu",
+"jp-keiai-nautique",
+"jp-last-excel",
+"jp-leather-and-lace",
+"jp-sodankyla",
+"jp-sunrise-acacia",
+"jp-sunrise-arion",
+"jp-waverley"
+]
+},
+{
+"uid": "t-owen-burrows",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布隆思",
+"en": "Owen Burrows",
+"hk": "布隆思",
+"sc": "布隆思",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-george-cross",
+"fr-green-team",
+"fr-nakheel",
+"gb-al-shababi",
+"gb-alfareqa",
+"gb-alflaila",
+"gb-calendar-girl",
+"gb-fair-wind",
+"gb-falakeyah",
+"gb-glittering-surf",
+"gb-jarraaf",
+"gb-lohoobb",
+"gb-miaharris",
+"gb-muntazah",
+"gb-nanino-niyati",
+"gb-remmooz",
+"gb-see-the-green",
+"gb-tabdeed",
+"gb-touleen",
+"gb-twaasol",
+"gb-wadilsafa",
+"gb-wishaah",
+"ger-so-moonstruck",
+"ire-al-wasl-storm",
+"ire-alyanaabi",
+"ire-anmaat",
+"ire-danyah",
+"ire-deira-mile",
+"ire-embrace",
+"ire-gethin",
+"ire-hengroin",
+"ire-heyzoom",
+"ire-hukum",
+"ire-laraaib",
+"ire-manthoor",
+"ire-merveilleux-lapin",
+"ire-minzaal",
+"ire-raaheeb",
+"ire-raqiya",
+"ire-rowayeh",
+"ire-sea-poetry",
+"ire-tarrabb",
+"ire-waardah",
+"ire-war-rooms",
+"ire-washraa",
+"us-dawaam",
+"us-habub"
+]
+},
+{
+"uid": "t-p-adda",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "倪達",
+"en": "P Adda",
+"hk": "倪達",
+"sc": "倪达",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-smart-and-fast"
+]
+},
+{
+"uid": "t-p-bary",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巴利",
+"en": "P Bary",
+"hk": "巴利",
+"sc": "巴利",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-baby-rider",
+"fr-livachope",
+"fr-silverwave",
+"gb-harper",
+"ire-gold-vibe",
+"ire-spinning-memories",
+"ire-study-of-man",
+"ire-terrestrial",
+"us-animal-fever",
+"us-senga"
+]
+},
+{
+"uid": "t-p-butel-j-l-beaunez",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "寶婷及白爾歷",
+"en": "P Butel & J-L Beaunez",
+"hk": "寶婷及白爾歷",
+"sc": "宝婷及白尔历",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-zillione-sun",
+"ire-good-bye-manu"
+]
+},
+{
+"uid": "t-p-c-ng",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "伍鵬志",
+"en": "P C Ng",
+"hk": "伍鵬志",
+"sc": "伍鹏志",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-apache-pass",
+"au-mugen",
+"ire-glorious-dragon",
+"nz-duke-wai"
+]
+},
+{
+"uid": "t-p-carey-h-walker",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭禮義及韋奇毅",
+"en": "P Carey & H Walker",
+"hk": "郭禮義及韋奇毅",
+"sc": "郭礼义及韦奇毅",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-bulawayo",
+"au-chocolate-freckles",
+"au-chocolate-royal",
+"au-recon",
+"au-starlight-scope",
+"au-who-dares",
+"nz-commando-drift"
+]
+},
+{
+"uid": "t-p-charalambous-et-al",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "查彼得及簡天培",
+"en": "P Charalambous et al.",
+"hk": "查彼得及簡天培",
+"sc": "查彼得及简天培",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-apollo-one"
+]
+},
+{
+"uid": "t-p-charalambous-j-clutterbuck",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "查彼得及簡天培",
+"en": "P Charalambous & J Clutterbuck",
+"hk": "查彼得及簡天培",
+"sc": "查彼得及简天培",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-apollo-one"
+]
+},
+{
+"uid": "t-p-cottier",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "姜添衍",
+"en": "P Cottier",
+"hk": "姜添衍",
+"sc": "姜添衍",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-game-run",
+"fr-harmonize",
+"fr-morphewan",
+"fr-pink-panthera",
+"fr-ten-horns",
+"gb-classic-flower",
+"ire-we-ride-the-world"
+]
+},
+{
+"uid": "t-p-d-amato",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾馬圖",
+"en": "P D'Amato",
+"hk": "艾馬圖",
+"sc": "艾马图",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-almendares",
+"gb-halfway-line",
+"gb-motorious",
+"ire-turn-on-the-jets",
+"ire-unconquerable-keen",
+"us-conclude",
+"us-connie-swingle"
+]
+},
+{
+"uid": "t-p-d-evans",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "伊宏思",
+"en": "P D Evans",
+"hk": "伊宏思",
+"sc": "伊宏思",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-coul-queen",
+"ire-rohaan"
+]
+},
+{
+"uid": "t-p-damato",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾馬圖",
+"en": "P D’Amato",
+"hk": "艾馬圖",
+"sc": "艾马图",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-divin-propos",
+"fr-easter",
+"gb-almendares",
+"gb-king-of-gosford",
+"ire-balnikhov",
+"ire-gold-phoenix",
+"ire-rockemperor",
+"us-conclude"
+]
+},
+{
+"uid": "t-p-de-chevigny",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓威年",
+"en": "P De Chevigny",
+"hk": "卓威年",
+"sc": "卓威年",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-montussan"
+]
+},
+{
+"uid": "t-p-decouz",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "戴固善",
+"en": "P Decouz",
+"hk": "戴固善",
+"sc": "戴固善",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-almiro",
+"fr-uthred",
+"gb-hooking",
+"ire-tornibush"
+]
+},
+{
+"uid": "t-p-e-dubois",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "杜品懷",
+"en": "P E Dubois",
+"hk": "杜品懷",
+"sc": "杜品怀",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-darlinghurst"
+]
+},
+{
+"uid": "t-p-eurton",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "敖爾騰",
+"en": "P Eurton",
+"hk": "敖爾騰",
+"sc": "敖尔腾",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-exaulted",
+"us-seven-wonders"
+]
+},
+{
+"uid": "t-p-f-adda-renaut",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "倪達及許勞",
+"en": "P&F Adda & Renaut",
+"hk": "倪達及許勞",
+"sc": "倪达及许劳",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-speed-ball",
+"gb-matauri-gold"
+]
+},
+{
+"uid": "t-p-f-monfort",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蒙福爾及蒙科達",
+"en": "P & F Monfort",
+"hk": "蒙福爾及蒙科達",
+"sc": "蒙福尔及蒙科达",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-comedia-eria",
+"fr-connivence",
+"fr-garigliano",
+"ire-adehaine"
+]
+},
+{
+"uid": "t-p-f-o-donnell",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "奧棟樑",
+"en": "P F O'Donnell",
+"hk": "奧棟樑",
+"sc": "奥栋梁",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-extensio"
+]
+},
+{
+"uid": "t-p-f-yiu",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "姚本輝",
+"en": "P F Yiu",
+"hk": "姚本輝",
+"sc": "姚本辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-voyage-bubble"
+]
+},
+{
+"uid": "t-p-g-moody-k-coleman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫德及高敏玲",
+"en": "P G Moody & K Coleman",
+"hk": "莫德及高敏玲",
+"sc": "莫德及高敏玲",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-actuality",
+"au-aldolfito",
+"au-amping-lass",
+"au-autumn-angel",
+"au-autumn-lover",
+"au-bingi",
+"au-blindedbythelight",
+"au-bridal-waltz",
+"au-butternut-princess",
+"au-chain-of-lightning",
+"au-conscience",
+"au-cooly",
+"au-eneeza",
+"au-fame",
+"au-forbidden-city",
+"au-gallant-son",
+"au-gates",
+"au-gold-medallist",
+"au-itazura",
+"au-kirribilli",
+"au-legacies",
+"au-moesha",
+"au-mollynickers",
+"au-nunthorpe",
+"au-olatunde",
+"au-ole-dancer",
+"au-paradise-city",
+"au-pounding",
+"au-princess-montecito",
+"au-pure-passion",
+"au-quickster",
+"au-roll-on-high",
+"au-saban",
+"au-she-dances",
+"au-she-s-got-pizzazz",
+"au-sheza-alibi",
+"au-shuffle-dancer",
+"au-versaille",
+"au-victorious-spirit",
+"au-waltz-on-by",
+"gb-insulation",
+"nz-alma-rise",
+"nz-codigo",
+"nz-desert-lightning",
+"nz-i-wish-i-win",
+"nz-life-lessons",
+"nz-supernima",
+"nz-unusual-culture",
+"us-spanish-mission"
+]
+},
+{
+"uid": "t-p-groualle",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "鞏華傲",
+"en": "P Groualle",
+"hk": "鞏華傲",
+"sc": "巩华傲",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-iberia",
+"fr-omicrone"
+]
+},
+{
+"uid": "t-p-j-brandt",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布蘭婷及布頌祈",
+"en": "P & J Brandt",
+"hk": "布蘭婷及布頌祈",
+"sc": "布兰婷及布颂祈",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-calas",
+"fr-cassius",
+"fr-miss-extra",
+"fr-policy-of-truth",
+"gb-kingentleman",
+"gb-lev",
+"ire-green-curry"
+]
+},
+{
+"uid": "t-p-l-guerin",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "顧雅年",
+"en": "P L Guerin",
+"hk": "顧雅年",
+"sc": "顾雅年",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-sable-du-pyla"
+]
+},
+{
+"uid": "t-p-messara-l-gavrani",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬善拿及紀芬玲",
+"en": "P Messara & L Gavrani",
+"hk": "馬善拿及紀芬玲",
+"sc": "马善拿及纪芬玲",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-gentileschi"
+]
+},
+{
+"uid": "t-p-messara-l-gavranich",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬善拿及紀芬玲",
+"en": "P Messara/L Gavranich",
+"hk": "馬善拿及紀芬玲",
+"sc": "马善拿及纪芬玲",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-akasawa",
+"au-are-you-kidding",
+"au-autumn-king",
+"au-avista",
+"au-cormier",
+"au-intervarsity",
+"au-know-thyself",
+"au-olympian",
+"gb-clear-thinking"
+]
+},
+{
+"uid": "t-p-olave-valdivelso",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "華狄素",
+"en": "P Olave Valdivelso",
+"hk": "華狄素",
+"sc": "华狄素",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-lordofthehorizon"
+]
+},
+{
+"uid": "t-p-olave-valdivielso",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "華狄素",
+"en": "P Olave Valdivielso",
+"hk": "華狄素",
+"sc": "华狄素",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-imperial-me-cen",
+"ire-my-calyx-cen",
+"ire-sir-tommy-cen",
+"us-comedy-cen"
+]
+},
+{
+"uid": "t-p-p-j-m-vermeulen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "威姆林/威夢妮",
+"en": "P P / J M Vermeulen",
+"hk": "威姆林/威夢妮",
+"sc": "威姆林/威梦妮",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-slinky-mapimpi"
+]
+},
+{
+"uid": "t-p-schiergen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "薛根",
+"en": "P Schiergen",
+"hk": "薛根",
+"sc": "薛根",
+"own": null,
+"alias": []
+},
+"horses": [
+"ger-ashiana",
+"ger-lacazar",
+"ger-principe",
+"ire-navaro-girl"
+]
+},
+{
+"uid": "t-p-sogorb",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "蘇國邦",
+"en": "P Sogorb",
+"hk": "蘇國邦",
+"sc": "苏国邦",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-skalleto",
+"ire-ninth-titan"
+]
+},
+{
+"uid": "t-p-twomey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "杜明義",
+"en": "P Twomey",
+"hk": "杜明義",
+"sc": "杜明义",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-pearls-galore"
+]
+},
+{
+"uid": "t-p-van-de-poele",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "范德培",
+"en": "P Van De Poele",
+"hk": "范德培",
+"sc": "范德培",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-svolta"
+]
+},
+{
+"uid": "t-p-vashchenko",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "衛正廣",
+"en": "P Vashchenko",
+"hk": "衛正廣",
+"sc": "卫正广",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-azure-coast"
+]
+},
+{
+"uid": "t-pablo-p-sahagian",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "沙亨祺",
+"en": "Pablo P Sahagian",
+"hk": "沙亨祺",
+"sc": "沙亨祺",
+"own": null,
+"alias": []
+},
+"horses": [
+"arg-irwin"
+]
+},
+{
+"uid": "t-paddy-twomey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "杜明義",
+"en": "Paddy Twomey",
+"hk": "杜明義",
+"sc": "杜明义",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-arouet",
+"fr-beamish",
+"fr-iowa-city",
+"fr-pearls-galore",
+"gb-big-negotiator",
+"gb-bond",
+"gb-deepone",
+"gb-just-beautiful",
+"gb-king-cuan",
+"gb-magical-hope",
+"gb-rogue-legend",
+"gb-sunday-sovereign",
+"gb-super-sox",
+"ger-ismahane",
+"ger-rosscarbery",
+"ire-a-lilac-rolla",
+"ire-alpine-wedding",
+"ire-black-caviar-gold",
+"ire-bonus-time",
+"ire-carmers",
+"ire-catalina-delcarpio",
+"ire-city-of-memphis",
+"ire-currawood",
+"ire-daneh-of-dandy",
+"ire-dark-lucinda",
+"ire-deressa",
+"ire-earl-of-tyrone",
+"ire-easy",
+"ire-gunzburg",
+"ire-la-petite-coco",
+"ire-limiti-di-greccio",
+"ire-moody",
+"ire-noche-magica",
+"ire-one-look",
+"ire-otsana",
+"ire-perfect-your-craft",
+"ire-purple-lily",
+"ire-sonaiyla",
+"ire-trean",
+"ire-velozee"
+]
+},
+{
+"uid": "t-padraig-roche",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "盧展逸",
+"en": "Padraig Roche",
+"hk": "盧展逸",
+"sc": "卢展逸",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-back-down-under",
+"ire-brazil"
+]
+},
+{
+"uid": "t-pam-gerard",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高娜黛",
+"en": "Pam Gerard",
+"hk": "高娜黛",
+"sc": "高娜黛",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-affirmative-action",
+"nz-dubai-goldrush",
+"nz-fall-for-cindy",
+"nz-now-not-never",
+"nz-romanoff"
+]
+},
+{
+"uid": "t-pam-sly",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "史麗莉",
+"en": "Pam Sly",
+"hk": "史麗莉",
+"sc": "史丽莉",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-astral-beau",
+"ire-dazzling-dan",
+"ire-physique"
+]
+},
+{
+"uid": "t-park-byeong-il",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "朴炳一",
+"en": "Park Byeong Il",
+"hk": "朴炳一",
+"sc": "朴炳一",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-geumjayu"
+]
+},
+{
+"uid": "t-park-dae-heung",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "朴大興",
+"en": "Park Dae Heung",
+"hk": "朴大興",
+"sc": "朴大兴",
+"own": null,
+"alias": []
+},
+"horses": [
+"kor-gasokbulpae"
+]
+},
+{
+"uid": "t-park-jae-woo",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "朴在雨",
+"en": "Park Jae Woo",
+"hk": "朴在雨",
+"sc": "朴在雨",
+"own": null,
+"alias": []
+},
+"horses": [
+"kor-choegang-queen",
+"kor-clean-up-happy"
+]
+},
+{
+"uid": "t-park-jong-kon",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "朴宗坤",
+"en": "Park Jong Kon",
+"hk": "朴宗坤",
+"sc": "朴宗坤",
+"own": null,
+"alias": []
+},
+"horses": [
+"kor-manseok-jigi",
+"kor-raon-first",
+"kor-raon-tap-man",
+"kor-raon-the-fighter"
+]
+},
+{
+"uid": "t-park-youn-gu",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "朴潤圭",
+"en": "Park Youn Gu",
+"hk": "朴潤圭",
+"sc": "朴润圭",
+"own": null,
+"alias": []
+},
+"horses": [
+"kor-p-n-s-chance",
+"us-haengbok-wangja"
+]
+},
+{
+"uid": "t-partick-foley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍亮勇",
+"en": "Partick Foley",
+"hk": "霍亮勇",
+"sc": "霍亮勇",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-tango-flare"
+]
+},
+{
+"uid": "t-pascal-adda",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "倪達",
+"en": "Pascal Adda",
+"hk": "倪達",
+"sc": "倪达",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-smart-and-fast",
+"fr-zouk"
+]
+},
+{
+"uid": "t-pascal-bary",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巴利",
+"en": "Pascal Bary",
+"hk": "巴利",
+"sc": "巴利",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-baby-rider",
+"fr-kenbaio",
+"fr-livachope",
+"fr-lovamour",
+"fr-tahlie",
+"fr-winning-side",
+"gb-feed-the-flame",
+"gb-harper",
+"gb-monteille",
+"ire-gold-vibe",
+"ire-human-evolution",
+"ire-jannah-flower",
+"ire-spinning-memories",
+"ire-terrestrial",
+"us-animal-fever"
+]
+},
+{
+"uid": "t-pascal-capelle",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卡佩利",
+"en": "Pascal Capelle",
+"hk": "卡佩利",
+"sc": "卡佩利",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-april-angel",
+"fr-never-without-you"
+]
+},
+{
+"uid": "t-pat-carey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭禮義",
+"en": "Pat Carey",
+"hk": "郭禮義",
+"sc": "郭礼义",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-crestani",
+"nz-commando-drift"
+]
+},
+{
+"uid": "t-pat-fahy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "菲爾",
+"en": "Pat Fahy",
+"hk": "菲爾",
+"sc": "菲尔",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-dunvegan"
+]
+},
+{
+"uid": "t-pat-hyland",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏麟",
+"en": "Pat Hyland",
+"hk": "夏麟",
+"sc": "夏麟",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-fille-champagne"
+]
+},
+{
+"uid": "t-pat-lee",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "李家輝",
+"en": "Pat Lee",
+"hk": "李家輝",
+"sc": "李家辉",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-mission-magic",
+"nz-go-go-mission",
+"nz-yanson"
+]
+},
+{
+"uid": "t-pat-murphy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥凡菲",
+"en": "Pat Murphy",
+"hk": "麥凡菲",
+"sc": "麦凡菲",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-body-bob",
+"au-sass-n-cheek"
+]
+},
+{
+"uid": "t-pat-phelan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馮禮",
+"en": "Pat Phelan",
+"hk": "馮禮",
+"sc": "冯礼",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-epsom-faithfull"
+]
+},
+{
+"uid": "t-pat-webster",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋時登",
+"en": "Pat Webster",
+"hk": "韋時登",
+"sc": "韦时登",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-esjay"
+]
+},
+{
+"uid": "t-patrice-cottier",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "姜添衍",
+"en": "Patrice Cottier",
+"hk": "姜添衍",
+"sc": "姜添衍",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-belgian-prince",
+"fr-daylight",
+"fr-game-run",
+"fr-harmonize",
+"fr-horizon-dore",
+"fr-indian-pacific",
+"fr-morphewan",
+"fr-pink-panthera",
+"fr-reach-the-sky",
+"fr-saint-arnoult",
+"fr-saint-hellier",
+"fr-sauterne",
+"fr-showay",
+"fr-siciliano",
+"fr-skazino",
+"fr-sparkling-plenty",
+"fr-stolen-kiss",
+"fr-ten-horns",
+"gb-classic-flower",
+"gb-diane-star",
+"ire-we-ride-the-world"
+]
+},
+{
+"uid": "t-patricio-baeza-alamos",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "巴奕山",
+"en": "Patricio Baeza Alamos",
+"hk": "巴奕山",
+"sc": "巴奕山",
+"own": null,
+"alias": []
+},
+"horses": [
+"chi-costa-del-norte",
+"chi-my-way"
+]
+},
+{
+"uid": "t-patrick-biancone",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賓康",
+"en": "Patrick Biancone",
+"hk": "賓康",
+"sc": "宾康",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-celtic-dispute",
+"us-lennilu"
+]
+},
+{
+"uid": "t-patrick-chamings",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "湛銘兆",
+"en": "Patrick Chamings",
+"hk": "湛銘兆",
+"sc": "湛铭兆",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-back-to-me",
+"ire-spanish-star"
+]
+},
+{
+"uid": "t-patrick-cleave",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "祈臨風",
+"en": "Patrick Cleave",
+"hk": "祈臨風",
+"sc": "祈临风",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-autafinna"
+]
+},
+{
+"uid": "t-patrick-f-ryan-jnr",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賴宜安",
+"en": "Patrick F Ryan Jnr",
+"hk": "賴宜安",
+"sc": "赖宜安",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-bubion",
+"au-ferago",
+"au-stokke",
+"au-winter-arc"
+]
+},
+{
+"uid": "t-patrick-flynn",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馮禮賢",
+"en": "Patrick Flynn",
+"hk": "馮禮賢",
+"sc": "冯礼贤",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-carrigans-grove",
+"ire-imperial-dream",
+"ire-niobite",
+"ire-whatharm"
+]
+},
+{
+"uid": "t-patrick-foley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "霍亮勇",
+"en": "Patrick Foley",
+"hk": "霍亮勇",
+"sc": "霍亮勇",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-tango-flare"
+]
+},
+{
+"uid": "t-patrick-kearney",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "關漢立",
+"en": "Patrick Kearney",
+"hk": "關漢立",
+"sc": "关汉立",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-cannonball",
+"au-cripps",
+"au-easy-turn",
+"au-meet-the-prince",
+"au-tempt-the-gods"
+]
+},
+{
+"uid": "t-patrick-kruyer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "克魯雅",
+"en": "Patrick Kruyer",
+"hk": "克魯雅",
+"sc": "克鲁雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-mulberry-street",
+"saf-the-us-of-a"
+]
+},
+{
+"uid": "t-patrick-magee",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬覺義",
+"en": "Patrick Magee",
+"hk": "馬覺義",
+"sc": "马觉义",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-arch-enemy",
+"ire-rosie-frith"
+]
+},
+{
+"uid": "t-patrick-mckenna",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥近楠",
+"en": "Patrick McKenna",
+"hk": "麥近楠",
+"sc": "麦近楠",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-cuban-grey"
+]
+},
+{
+"uid": "t-patrick-morris",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫勵新",
+"en": "Patrick Morris",
+"hk": "莫勵新",
+"sc": "莫励新",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-henrythenate"
+]
+},
+{
+"uid": "t-patrick-neville",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "李允聯",
+"en": "Patrick Neville",
+"hk": "李允聯",
+"sc": "李允联",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-paroda-diva"
+]
+},
+{
+"uid": "t-patrick-nicot",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "連國同",
+"en": "Patrick Nicot",
+"hk": "連國同",
+"sc": "连国同",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-al-rassoul",
+"fr-jordan-baker",
+"fr-molino"
+]
+},
+{
+"uid": "t-patrick-owens",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "敖榮仕",
+"en": "Patrick Owens",
+"hk": "敖榮仕",
+"sc": "敖荣仕",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-lord-of-winterfell",
+"gb-oddyssey"
+]
+},
+{
+"uid": "t-patrick-payne",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "佩恩",
+"en": "Patrick Payne",
+"hk": "佩恩",
+"sc": "佩恩",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-black-peppermint",
+"au-buccleuch",
+"au-douceur",
+"au-quang-tri",
+"au-rubisaki",
+"au-zizzis",
+"nz-justacanta"
+]
+},
+{
+"uid": "t-patrick-webster",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋柏程",
+"en": "Patrick Webster",
+"hk": "韋柏程",
+"sc": "韦柏程",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-happy-clapper"
+]
+},
+{
+"uid": "t-paul-attwater",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "艾域泰",
+"en": "Paul Attwater",
+"hk": "艾域泰",
+"sc": "艾域泰",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-brosay",
+"gb-lil-brother",
+"ire-bueno-nacho",
+"ire-muddy-mooy"
+]
+},
+{
+"uid": "t-paul-butterworth",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "畢道和",
+"en": "Paul Butterworth",
+"hk": "畢道和",
+"sc": "毕道和",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-capital-gain"
+]
+},
+{
+"uid": "t-paul-cole",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高義理",
+"en": "Paul Cole",
+"hk": "高義理",
+"sc": "高义理",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-duke-of-hazzard",
+"gb-baron-bolt",
+"gb-li-kui",
+"gb-upstaging",
+"ire-charlemaine",
+"ire-cool-reflection",
+"ire-highland-chief",
+"ire-majestic-dawn"
+]
+},
+{
+"uid": "t-paul-d-arcy",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "達西",
+"en": "Paul D'Arcy",
+"hk": "達西",
+"sc": "达西",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-pass-the-vino",
+"ire-spring-loaded"
+]
+},
+{
+"uid": "t-paul-de-chevigny",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓威年",
+"en": "Paul de Chevigny",
+"hk": "卓威年",
+"sc": "卓威年",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-contentious-soul",
+"fr-haviassor",
+"fr-montussan",
+"fr-saskia-des-places",
+"fr-star-of-the-night"
+]
+},
+{
+"uid": "t-paul-dolle",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "董安禮",
+"en": "Paul Dolle",
+"hk": "董安禮",
+"sc": "董安礼",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-maestro-chop",
+"fr-rue-dauphine"
+]
+},
+{
+"uid": "t-paul-flynn",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "方倫",
+"en": "Paul Flynn",
+"hk": "方倫",
+"sc": "方伦",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-cheers-again",
+"ire-i-ready",
+"ire-little-queenie",
+"ire-rappell",
+"ire-the-real-screamer",
+"ire-timourid"
+]
+},
+{
+"uid": "t-paul-gadsby",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "賈茲比",
+"en": "Paul Gadsby",
+"hk": "賈茲比",
+"sc": "贾兹比",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-captain-ariano",
+"saf-techno-captain",
+"saf-vision-to-achieve",
+"saf-vision-to-kill"
+]
+},
+{
+"uid": "t-paul-gilligan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "紀列甲",
+"en": "Paul Gilligan",
+"hk": "紀列甲",
+"sc": "纪列甲",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-buddy-one"
+]
+},
+{
+"uid": "t-paul-koumis",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "古明善",
+"en": "Paul Koumis",
+"hk": "古明善",
+"sc": "古明善",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-boy-from-zadar"
+]
+},
+{
+"uid": "t-paul-lafferty",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅法迪",
+"en": "Paul Lafferty",
+"hk": "羅法迪",
+"sc": "罗法迪",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-share-holder",
+"saf-alannah",
+"saf-bruh",
+"saf-forward-motion"
+]
+},
+{
+"uid": "t-paul-matchett",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬奇特",
+"en": "Paul Matchett",
+"hk": "馬奇特",
+"sc": "马奇特",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-atarime",
+"saf-back-from-war",
+"saf-battle-force",
+"saf-casus-belli",
+"saf-clairwood-rose",
+"saf-danilo-danilovitch",
+"saf-elusive-dragon",
+"saf-fetching-flyer",
+"saf-gaelic-dancer",
+"saf-gallic-chief",
+"saf-impressive",
+"saf-let-s-go-lola",
+"saf-look-yourself",
+"saf-no-drama",
+"saf-only-the-brave",
+"saf-smith-and-wesson",
+"saf-special-charm",
+"saf-taxhaven",
+"saf-todoque",
+"saf-towers-of-gold",
+"saf-valyrian-king",
+"saf-war-of-athena",
+"saf-wings-of-ice",
+"saf-zalatoris"
+]
+},
+{
+"uid": "t-paul-messara",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馬善拿",
+"en": "Paul Messara",
+"hk": "馬善拿",
+"sc": "马善拿",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-summer-glow",
+"au-tempel-one"
+]
+},
+{
+"uid": "t-paul-midgley",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥格禮",
+"en": "Paul Midgley",
+"hk": "麥格禮",
+"sc": "麦格礼",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-spring-is-sprung",
+"gb-lethal-nymph",
+"gb-mid-winster",
+"gb-ostilio",
+"gb-tarboosh",
+"gb-ventura-express",
+"ire-ballintoy-harbour",
+"ire-desert-law",
+"ire-indian-sounds",
+"ire-line-of-reason",
+"ire-manshood",
+"ire-son-and-sannie",
+"ire-tanasoq",
+"ire-texas-man",
+"ire-vadamiah"
+]
+},
+{
+"uid": "t-paul-mirabelli",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "繆博廉",
+"en": "Paul Mirabelli",
+"hk": "繆博廉",
+"sc": "缪博廉",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-taylor-square"
+]
+},
+{
+"uid": "t-paul-murray",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "梅保羅",
+"en": "Paul Murray",
+"hk": "梅保羅",
+"sc": "梅保罗",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-harry-s-bar"
+]
+},
+{
+"uid": "t-paul-niceforo",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "JPN",
+"nationality_cn": "日本",
+"names": {
+"original": "凌輝朗",
+"en": "Paul Niceforo",
+"hk": "凌輝朗",
+"sc": "凌辉朗",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-territory-express"
+]
+},
+{
+"uid": "t-paul-nicholls",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "歷布洛",
+"en": "Paul Nicholls",
+"hk": "歷布洛",
+"sc": "历布洛",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-ashutor",
+"fr-black-corton",
+"fr-san-benedeto",
+"gb-fasol",
+"gb-pleasant-man",
+"ire-scaramanga"
+]
+},
+{
+"uid": "t-paul-oliver-cole",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "高義理及高耀仁",
+"en": "Paul & Oliver Cole",
+"hk": "高義理及高耀仁",
+"sc": "高义理及高耀仁",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-black-run",
+"fr-celtic-art",
+"fr-duke-of-hazzard",
+"fr-zhang-fei",
+"gb-american-gulf",
+"gb-bela-sonata",
+"gb-ernie-s-valentine",
+"gb-miss-rascal",
+"gb-seaplane",
+"gb-she-s-hot",
+"gb-sumo-sam",
+"gb-thunder-ball",
+"gb-valpolicella",
+"gb-white-chapel-road",
+"ire-afentiko",
+"ire-arran",
+"ire-balearic",
+"ire-eleftheria",
+"ire-general-lee",
+"ire-great-chieftain",
+"ire-highland-chief",
+"ire-hot-front",
+"ire-jack-darcy",
+"ire-king-of-bears",
+"ire-leap-abroad",
+"ire-majestic-dawn",
+"ire-many-a-star",
+"ire-medieval",
+"ire-physique",
+"ire-rockstar-icon",
+"ire-royal-scotsman",
+"ire-splendent",
+"ire-sunningdale",
+"ire-the-first-king",
+"ire-yacowlef"
+]
+},
+{
+"uid": "t-paul-perry",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白保羅",
+"en": "Paul Perry",
+"hk": "白保羅",
+"sc": "白保罗",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-conchita",
+"au-condor",
+"au-cruel-summer",
+"au-don-t-look-back",
+"au-nosey-parker",
+"au-nothing-too-hard",
+"au-olympic-gaze",
+"au-ragged-rascal",
+"au-sky-lab",
+"au-the-mission",
+"au-totoka"
+]
+},
+{
+"uid": "t-paul-peter",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "P彼德",
+"en": "Paul Peter",
+"hk": "P彼德",
+"sc": "P彼德",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-alssakhra",
+"saf-astrix",
+"saf-big-burn",
+"saf-bless-my-stars",
+"saf-casa-inverno",
+"saf-catch-twentytwo",
+"saf-dr-doolittle",
+"saf-fort-ember",
+"saf-heart-stwings",
+"saf-majestic-mambo",
+"saf-master-archie",
+"saf-miss-cool",
+"saf-mk-s-pride",
+"saf-netta",
+"saf-ode-to-the-ocean",
+"saf-palace-chapel",
+"saf-rebel-s-champ",
+"saf-ring-of-fire",
+"saf-river-queraress",
+"saf-sarah",
+"saf-shangani",
+"saf-smorgasbord",
+"saf-sprinkles",
+"saf-summer-pudding",
+"saf-swing-upon-a-star",
+"saf-trying-times",
+"saf-val-d-orcia"
+]
+},
+{
+"uid": "t-paul-preusker",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "甫士家",
+"en": "Paul Preusker",
+"hk": "甫士家",
+"sc": "甫士家",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-inevitable-award",
+"au-lunar-fox",
+"au-steparty",
+"au-surfy-pete",
+"au-ten-commandments",
+"gb-suffolk-star",
+"nz-aftermath",
+"nz-surprise-baby",
+"nz-torranzino"
+]
+},
+{
+"uid": "t-paul-reeves",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "利雲士",
+"en": "Paul Reeves",
+"hk": "利雲士",
+"sc": "利云士",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-chilly-winter",
+"saf-duchess-of-paloma",
+"saf-fearless-trip",
+"saf-hear-my-voice",
+"saf-helen-s-ideal"
+]
+},
+{
+"uid": "t-paul-shailer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "謝世朗",
+"en": "Paul Shailer",
+"hk": "謝世朗",
+"sc": "谢世朗",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-certify",
+"nz-deep-focus"
+]
+},
+{
+"uid": "t-paul-snowden",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施保賢",
+"en": "Paul Snowden",
+"hk": "施保賢",
+"sc": "施保贤",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-xtreme"
+]
+},
+{
+"uid": "t-paul-sweeney",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "史寰力",
+"en": "Paul Sweeney",
+"hk": "史寰力",
+"sc": "史寰力",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-pillar-of-hope"
+]
+},
+{
+"uid": "t-paul-traynor",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "程立力",
+"en": "Paul Traynor",
+"hk": "程立力",
+"sc": "程立力",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-fiver-friday"
+]
+},
+{
+"uid": "t-paul-van-de-weijer",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "衛懷真",
+"en": "Paul van de Weijer",
+"hk": "衛懷真",
+"sc": "卫怀真",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-pearl-harbour"
+]
+},
+{
+"uid": "t-paula-trenwith",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "千詠芙",
+"en": "Paula Trenwith",
+"hk": "千詠芙",
+"sc": "千咏芙",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-savatoff"
+]
+},
+{
+"uid": "t-paulo-lobo",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "羅寶",
+"en": "Paulo Lobo",
+"hk": "羅寶",
+"sc": "罗宝",
+"own": null,
+"alias": []
+},
+"horses": [
+"brz-in-love",
+"brz-ivar",
+"brz-nautilus"
+]
+},
+{
+"uid": "t-pavel-bradik",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "布昂狄",
+"en": "Pavel Bradik",
+"hk": "布昂狄",
+"sc": "布昂狄",
+"own": null,
+"alias": []
+},
+"horses": [
+"ire-aurum-sky"
+]
+},
+{
+"uid": "t-pavel-vashchenko",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "衛正廣",
+"en": "Pavel Vashchenko",
+"hk": "衛正廣",
+"sc": "卫正广",
+"own": null,
+"alias": []
+},
+"horses": [
+"us-azure-coast"
+]
+},
+{
+"uid": "t-pavel-vovcenko",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "馮善國",
+"en": "Pavel Vovcenko",
+"hk": "馮善國",
+"sc": "冯善国",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-autumn",
+"fr-daddy-s-heart",
+"ger-age-of-aquarius",
+"ger-ally-mcmagic",
+"ger-espero",
+"ger-kiko",
+"ger-menuett",
+"ger-next-eagle",
+"ger-noble-henry",
+"ger-sarah-majesty",
+"ger-super",
+"ger-viviane",
+"ger-waldadler"
+]
+},
+{
+"uid": "t-peter-and-trent-didham",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "狄通明及狄登文",
+"en": "Peter and Trent Didham",
+"hk": "狄通明及狄登文",
+"sc": "狄通明及狄登文",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-war-princess"
+]
+},
+{
+"uid": "t-peter-chapple-hyam",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "卓普咸",
+"en": "Peter Chapple-Hyam",
+"hk": "卓普咸",
+"sc": "卓普咸",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-deja",
+"fr-harvey",
+"gb-blake",
+"gb-crystallium",
+"gb-north-view",
+"gb-queen-of-atlantis",
+"gb-rogue-enforcer",
+"ger-bharani-star",
+"ire-desperate-dan",
+"ire-fast-medicine",
+"ire-loz-vegas",
+"ire-makinitup",
+"ire-photosynthesis",
+"ire-wildfell"
+]
+},
+{
+"uid": "t-peter-charalambous-james-clutterbuck",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "查彼得及簡天培",
+"en": "Peter Charalambous & James Clutterbuck",
+"hk": "查彼得及簡天培",
+"sc": "查彼得及简天培",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-apollo-one"
+]
+},
+{
+"uid": "t-peter-chow",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "周朋達",
+"en": "Peter Chow",
+"hk": "周朋達",
+"sc": "周朋达",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-endless-fury",
+"au-paul-s-regret"
+]
+},
+{
+"uid": "t-peter-crate",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "祈彼得",
+"en": "Peter Crate",
+"hk": "祈彼得",
+"sc": "祈彼得",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-harry-brown",
+"gb-sandscreendeliverd"
+]
+},
+{
+"uid": "t-peter-d-wrensch",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "尹斯奇",
+"en": "Peter D Wrensch",
+"hk": "尹斯奇",
+"sc": "尹斯奇",
+"own": null,
+"alias": []
+},
+"horses": [
+"saf-black-path"
+]
+},
+{
+"uid": "t-peter-dawn-williams",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "韋廉斯及韋端欣",
+"en": "Peter & Dawn Williams",
+"hk": "韋廉斯及韋端欣",
+"sc": "韦廉斯及韦端欣",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-desert-lightning"
+]
+},
+{
+"uid": "t-peter-f-blanch",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "白亮聰",
+"en": "Peter F Blanch",
+"hk": "白亮聰",
+"sc": "白亮聪",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-jim-s-journey"
+]
+},
+{
+"uid": "t-peter-fahey",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "范顯仁",
+"en": "Peter Fahey",
+"hk": "范顯仁",
+"sc": "范显仁",
+"own": null,
+"alias": []
+},
+"horses": [
+"fr-o-reilly",
+"gb-suprise-package",
+"ire-insane-bolt",
+"ire-kojin"
+]
+},
+{
+"uid": "t-peter-g-moody",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫德",
+"en": "Peter G Moody",
+"hk": "莫德",
+"sc": "莫德",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-boogie-dancer",
+"au-daytona-bay",
+"au-gimmie-par",
+"au-he-s-heaven",
+"au-incentivise",
+"au-lightsaber",
+"au-millane",
+"au-nunthorpe",
+"au-oxley-road",
+"au-scorsese",
+"au-see-marie",
+"nz-charms-star",
+"nz-i-wish-i-win"
+]
+},
+{
+"uid": "t-peter-g-moody-katherine-coleman",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫德及高敏玲",
+"en": "Peter G Moody & Katherine Coleman",
+"hk": "莫德及高敏玲",
+"sc": "莫德及高敏玲",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-bingi",
+"au-gallant-son",
+"au-victorious-spirit",
+"nz-desert-lightning"
+]
+},
+{
+"uid": "t-peter-gelagotis",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭力剛",
+"en": "Peter Gelagotis",
+"hk": "郭力剛",
+"sc": "郭力刚",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-caelius",
+"au-extremely-rowdy",
+"au-illustrious-lad",
+"au-recuperato",
+"au-wetumpka",
+"ire-long-arm",
+"nz-blandford-lad",
+"nz-captain-hilfiger",
+"nz-house-of-lords",
+"nz-moss-n-dale"
+]
+},
+{
+"uid": "t-peter-green",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "郭啟龍",
+"en": "Peter Green",
+"hk": "郭啟龍",
+"sc": "郭启龙",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-coyote"
+]
+},
+{
+"uid": "t-peter-hardacre",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "夏東其",
+"en": "Peter Hardacre",
+"hk": "夏東其",
+"sc": "夏东其",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-press-down",
+"nz-dual-fuel"
+]
+},
+{
+"uid": "t-peter-hedger",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "許德嘉",
+"en": "Peter Hedger",
+"hk": "許德嘉",
+"sc": "许德嘉",
+"own": null,
+"alias": []
+},
+"horses": [
+"gb-silent-echo",
+"ire-total-commitment"
+]
+},
+{
+"uid": "t-peter-ho",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "HKG",
+"nationality_cn": "中国香港",
+"names": {
+"original": "木火兄弟",
+"en": "Peter Ho",
+"hk": "木火兄弟",
+"sc": "木火兄弟",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-woodfire-bro"
+]
+},
+{
+"uid": "t-peter-j-morgan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫敬勤",
+"en": "Peter J Morgan",
+"hk": "莫敬勤",
+"sc": "莫敬勤",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-burrandana"
+]
+},
+{
+"uid": "t-peter-jeffcoat",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "謝暉國",
+"en": "Peter Jeffcoat",
+"hk": "謝暉國",
+"sc": "谢晖国",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-don-pedro"
+]
+},
+{
+"uid": "t-peter-jolly",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "佐尼",
+"en": "Peter Jolly",
+"hk": "佐尼",
+"sc": "佐尼",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-morvada"
+]
+},
+{
+"uid": "t-peter-leyshan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "李森",
+"en": "Peter Leyshan",
+"hk": "李森",
+"sc": "李森",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-contented-n-happy",
+"ire-ashkari",
+"ire-benson",
+"ire-chinese-dream",
+"ire-sixth-sense",
+"nz-eclair-lightning",
+"nz-falcoshow",
+"nz-georgian-ease",
+"nz-hyshem",
+"nz-krystrump"
+]
+},
+{
+"uid": "t-peter-miller",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "苗利雅",
+"en": "Peter Miller",
+"hk": "苗利雅",
+"sc": "苗利雅",
+"own": null,
+"alias": []
+},
+"horses": [
+"can-conquest-tsunami",
+"gb-belvoir-bay",
+"us-c-z-rocket",
+"us-gray-magician",
+"us-liam-smith",
+"us-mo-forza",
+"us-moonlight",
+"us-richard-s-boy",
+"us-roy-h",
+"us-stormy-liberal"
+]
+},
+{
+"uid": "t-peter-morgan",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "莫敬勤",
+"en": "Peter Morgan",
+"hk": "莫敬勤",
+"sc": "莫敬勤",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-sam-s-image",
+"au-super-snob"
+]
+},
+{
+"uid": "t-peter-muscutt",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥斯卡",
+"en": "Peter Muscutt",
+"hk": "麥斯卡",
+"sc": "麦斯卡",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-st-harry",
+"au-traces",
+"saf-battle-force",
+"saf-benny-and-paul",
+"saf-bevies-delight",
+"saf-captain-bombshell",
+"saf-cold-shine",
+"saf-count-of-rouen",
+"saf-deandre-s-dream",
+"saf-down-by-the-river",
+"saf-down-to-business",
+"saf-except-temptation",
+"saf-formagear",
+"saf-hugs-accepted",
+"saf-i-salute-you",
+"saf-indi-anna",
+"saf-isivivane",
+"saf-isivunguvungu",
+"saf-jordash",
+"saf-kayson",
+"saf-kupholiwe",
+"saf-mr-gonzales",
+"saf-noble-city",
+"saf-ocean-time",
+"saf-purple-persuasion",
+"saf-quasiforsure",
+"saf-sashay-away",
+"saf-sunset-eyes",
+"saf-touched-by-angels",
+"saf-ultra-magnus",
+"saf-winter-flight"
+]
+},
+{
+"uid": "t-peter-paul-snowden",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "施諾敦及施保賢",
+"en": "Peter & Paul Snowden",
+"hk": "施諾敦及施保賢",
+"sc": "施诺敦及施保贤",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-aim",
+"au-anaheed",
+"au-august-bloom",
+"au-bartley",
+"au-bodyguard",
+"au-boorooj",
+"au-brave-song",
+"au-calanda",
+"au-california-salto",
+"au-california-zimbol",
+"au-cannonball",
+"au-captivant",
+"au-carif",
+"au-cheer-leader",
+"au-cosmic-force",
+"au-dame-giselle",
+"au-divine-glory",
+"au-don-corleone",
+"au-dracarys",
+"au-drifting",
+"au-dynasties",
+"au-fearless",
+"au-flippant",
+"au-ghaanati",
+"au-heman",
+"au-high-octane",
+"au-jen-rules",
+"au-king-of-sparta",
+"au-king-s-gambit",
+"au-king-s-legacy",
+"au-make-a-call",
+"au-marboosha",
+"au-mayaaseh",
+"au-mazu",
+"au-mclaren",
+"au-mirra-view",
+"au-mirra-vision",
+"au-miss-hellfire",
+"au-missile-coda",
+"au-moss-trip",
+"au-najmaty",
+"au-nancy",
+"au-pariah",
+"au-paris-dior",
+"au-pierossa",
+"au-queen-of-dragons",
+"au-quilista",
+"au-ravi",
+"au-redzel",
+"au-revolutionary-miss",
+"au-russian-revolution",
+"au-salateen",
+"au-sancy",
+"au-sangria",
+"au-sheeza-belter",
+"au-signore-fox",
+"au-snapback",
+"au-spin",
+"au-stellar-pauline",
+"au-tajneed",
+"au-tashi",
+"au-the-king",
+"au-tycoon-evie",
+"au-warranty",
+"au-wayupinthesky",
+"au-wild-ruler",
+"au-wollombi",
+"fr-huetor",
+"gb-substantial",
+"gb-touristic",
+"ire-i-am-superman",
+"nz-latino-blend"
+]
+},
+{
+"uid": "t-peter-robl",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "勞保",
+"en": "Peter Robl",
+"hk": "勞保",
+"sc": "劳保",
+"own": null,
+"alias": []
+},
+"horses": [
+"au-overfull"
+]
+},
+{
+"uid": "t-peter-schiergen",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "薛根",
+"en": "Peter Schiergen",
+"hk": "薛根",
+"sc": "薛根",
+"own": null,
+"alias": []
+},
+"horses": [
+"brz-cold-heart",
+"fr-fire-of-the-sun",
+"gb-daiana",
+"gb-dhitjari",
+"gb-rocchigiani",
+"gb-santagada",
+"ger-abachi",
+"ger-armira",
+"ger-askalon",
+"ger-avola",
+"ger-calif",
+"ger-daytona",
+"ger-dishina",
+"ger-egina",
+"ger-four-seasons",
+"ger-geography",
+"ger-guevara",
+"ger-karlos",
+"ger-lahzar-star",
+"ger-lord-charming",
+"ger-luna",
+"ger-narrativo",
+"ger-nicoreni",
+"ger-novemba",
+"ger-path-of-soldier",
+"ger-perito",
+"ger-principe",
+"ger-quality-road",
+"ger-quibia",
+"ger-royal-night",
+"ger-royal-spirit",
+"ger-tunnes",
+"ger-weracruz",
+"ger-winning-spirit",
+"ger-zauberkonig",
+"ger-zuckerhut",
+"ire-nachteule",
+"ire-napolitano",
+"ire-nerik",
+"ire-northern-eclipse",
+"ire-novemberrose",
+"ire-quello",
+"ire-ross",
+"ire-salitos",
+"ire-sammarco",
+"ire-wilko",
+"ire-winnyzja"
+]
+},
+{
+"uid": "t-peter-shaun-mckay",
+"role": "trainer",
+"role_cn": "练马师",
+"nationality": "",
+"nationality_cn": "—",
+"names": {
+"original": "麥奇德及麥更耀",
+"en": "Peter & Shaun McKay",
+"hk": "麥奇德及麥更耀",
+"sc": "麦奇德及麦更耀",
+"own": null,
+"alias": []
+},
+"horses": [
+"nz-wolfgang"
+]
+}
+]
+}

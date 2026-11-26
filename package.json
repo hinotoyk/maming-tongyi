@@ -1,0 +1,17 @@
+{
+  "name": "maming-tongyi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "马名通译 · 全球赛马中文名典 — 港译/民间通译/机器译名的对照与溯源",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "astro": "^5.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

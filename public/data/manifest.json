@@ -1,0 +1,101 @@
+{
+ "v": "names/v3",
+ "generated_at": "2026-11-26T18:15:44+08:00",
+ "updated": "2026-11-26",
+ "counts": {
+  "horses": 21535,
+  "races": 2883,
+  "persons": 4168,
+  "names": 28586,
+  "aliases": 2,
+  "pedigree": 3013
+ },
+ "curation": {
+  "curated": 3013,
+  "pending": 18522,
+  "policy": "抓取全量、译名只维护日本籍（horse.curation = curated）",
+  "regions": [
+   {
+    "region": "澳洲/新西兰",
+    "announcements": 242,
+    "status": "pending"
+   },
+   {
+    "region": "日本",
+    "announcements": 235,
+    "status": "curated"
+   },
+   {
+    "region": "英国/爱尔兰",
+    "announcements": 172,
+    "status": "pending"
+   },
+   {
+    "region": "法国",
+    "announcements": 109,
+    "status": "pending"
+   },
+   {
+    "region": "中东（杜拜/沙特）",
+    "announcements": 51,
+    "status": "pending"
+   },
+   {
+    "region": "德国/欧洲其他",
+    "announcements": 50,
+    "status": "pending"
+   },
+   {
+    "region": "新加坡",
+    "announcements": 26,
+    "status": "pending"
+   },
+   {
+    "region": "香港",
+    "announcements": 25,
+    "status": "pending"
+   },
+   {
+    "region": "美国/加拿大",
+    "announcements": 14,
+    "status": "pending"
+   },
+   {
+    "region": "南非",
+    "announcements": 12,
+    "status": "pending"
+   },
+   {
+    "region": "韩国",
+    "announcements": 11,
+    "status": "pending"
+   },
+   {
+    "region": "南美",
+    "announcements": 6,
+    "status": "pending"
+   },
+   {
+    "region": "其他/待核对",
+    "announcements": 2,
+    "status": "pending"
+   },
+   {
+    "region": "中国内地",
+    "announcements": 1,
+    "status": "pending"
+   }
+  ]
+ },
+ "shards": {
+  "horses": 44,
+  "races": 6,
+  "persons": 9
+ },
+ "shard_size": 500,
+ "search": {
+  "all": "search/all.json",
+  "rows": "search/rows.json"
+ },
+ "index_total": 956
+}

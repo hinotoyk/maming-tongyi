@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>马名通译 · 页面预览</title>
+<style>
+/* ============================================================
+ * 版式基线：对齐 yunji-web 的 theme.css / tailwind.config.js
+ * 令牌逐个同值：primary #0aa7a0 · accent #e6f6f5 · border #e5e5e5
+ * 结构语言：白底 + 发丝缝线 + 留白分区，不用彩色卡片堆叠
+ * ============================================================ */
+:root{
+  --bg:#fff; --fg:#0a0a0a; --card:#fff;
+  --primary:#0aa7a0; --primary-fg:#fff;
+  --secondary:#f5f5f5; --secondary-fg:#171717;
+  --muted:#f5f5f5; --muted-fg:#737373;
+  --accent:#e6f6f5; --accent-fg:#0b6b64;
+  --border:#e5e5e5; --input:#e5e5e5;
+  --chart2:#0f8fd6; --chart3:#e8742a; --chart5:#7cc8c5;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased;
+  font-family:"Noto Sans SC","Noto Sans CJK SC","Geist","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:16px;line-height:1.40;letter-spacing:.10px;
+  text-rendering:optimizeLegibility;font-variant-numeric:tabular-nums;
+}
+a{color:var(--primary);text-decoration:none}
+button{font-family:inherit}
+
+/* ── 外壳 ─────────────────────────────── */
+.shell{display:flex;height:100vh;overflow:hidden}
+.sidebar{
+  width:220px;flex:none;display:flex;flex-direction:column;
+  border-right:1px solid var(--border);background:var(--card);
+}
+.brand{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border);padding:18px 18px 14px}
+.brand-logo{
+  width:30px;height:30px;flex:none;display:grid;place-items:center;border-radius:8px;
+  background:var(--primary);color:var(--primary-fg);font-size:15px;font-weight:700;
+}
+.brand-name{font-size:15px;font-weight:600;letter-spacing:.5px}
+.brand-sub{display:block;font-size:11px;font-weight:400;letter-spacing:1px;color:var(--secondary-fg)}
+.nav{flex:1;overflow-y:auto;padding:10px}
+.nlabel{padding:12px 10px 6px;font-size:11.5px;font-weight:600;letter-spacing:1.5px;color:var(--secondary-fg)}
+.nitem{
+  position:relative;display:flex;align-items:center;gap:10px;margin-bottom:2px;
+  padding:9px 10px;border-radius:8px;font-size:14px;color:var(--muted-fg);cursor:pointer;
+  transition:background .15s,color .15s;
+}
+.nitem:hover{background:rgba(245,245,245,.4);color:var(--fg)}
+.nitem::before{
+  content:"";position:absolute;left:0;top:50%;width:3px;height:18px;border-radius:0 2px 2px 0;
+  background:var(--primary);transform:translateY(-50%) scaleY(0);transition:transform .16s ease;
+}
+.nitem.on{background:var(--accent);color:var(--accent-fg);font-weight:600}
+.nitem.on::before{transform:translateY(-50%) scaleY(1)}
+.n-ico{width:18px;flex:none;text-align:center;font-size:14px;opacity:.9}
+.sidefoot{border-top:1px solid var(--border);padding:12px 16px;font-size:12px;color:var(--muted-fg)}
+.sidefoot div{margin-top:6px;font-size:11px;line-height:1.5}
+
+/* ── 内容区 ───────────────────────────── */
+.content{flex:1;min-width:0;overflow-y:auto;background:var(--bg)}
+.page-title{
+  display:flex;align-items:center;gap:10px;padding:18px 24px 16px;
+  font-size:14px;font-weight:700;letter-spacing:1px;color:var(--secondary-fg);
+  text-transform:uppercase;
+}
+.page-title::before{content:"";width:4px;height:16px;flex:none;border-radius:2px;background:var(--primary)}
+.wrap{padding:0 24px 40px}
+
+.view{display:none}
+.view.on{display:block}
+
+/* ── 名字四格（yunji profile 的 ncol / nslot）── */
+.names{display:flex;flex-wrap:wrap;align-items:flex-end;column-gap:24px;row-gap:12px}
+.ncol{display:flex;min-width:0;flex-direction:column}
+.ncol .lbl{font-size:10.5px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted-fg)}
+.ncol .v{margin-top:2px;font-size:19px;font-weight:600;line-height:1.25;color:var(--secondary-fg);white-space:nowrap}
+.ncol.big .lbl{color:var(--primary)}
+.ncol.big .v{font-size:30px;font-weight:700;line-height:1.2;color:var(--fg)}
+.ncol.empty .lbl{color:rgba(115,115,115,.7)}
+.ncol.empty .v{font-weight:400;color:rgba(115,115,115,.6)}
+.nsep{margin-bottom:2px;font-size:15px;font-weight:300;color:rgba(115,115,115,.45);user-select:none}
+
+/* ── 缝线资料表（gap-px + bg-border = 1px 发丝线）── */
+.info{display:grid;gap:1px;overflow:hidden;border:1px solid var(--border);border-radius:10px;background:var(--border)}
+.frow{display:flex;align-items:center;gap:12px;background:var(--card);padding:9px 16px}
+.frow .k{width:74px;flex:none;font-size:11.5px;letter-spacing:.5px;color:var(--muted-fg)}
+.frow .v{min-width:0;flex:1;font-size:13.5px;font-weight:500;color:var(--fg)}
+.frow .v.sm{font-size:12.5px;font-weight:400;color:var(--secondary-fg)}
+.frow .r{flex:none;font-size:12px;color:var(--muted-fg)}
+
+/* ── 三等分上段（照片 / 资料 / 出处）── */
+.trio{display:flex;align-items:stretch;gap:24px;margin-top:24px}
+.trio>*{min-width:0;flex:1}
+.photo{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  min-height:206px;border:1px solid var(--border);border-radius:10px;background:#fcfcfc;
+  color:var(--muted-fg);text-align:center;padding:16px;
+}
+.photo b{font-size:13px;font-weight:600;color:#52525b}
+.photo span{font-size:11px;line-height:1.6;max-width:200px}
+
+/* ── 栏目标题 ─────────────────────────── */
+.sec{display:flex;align-items:center;gap:10px;margin:36px 0 12px;font-size:14px;font-weight:700;letter-spacing:1px;color:var(--secondary-fg);text-transform:uppercase}
+.sec::before{content:"";width:4px;height:16px;flex:none;border-radius:2px;background:var(--primary)}
+.sec .right{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:11.5px;font-weight:400;letter-spacing:.2px;color:var(--muted-fg);text-transform:none}
+
+/* ── KPI 条 ───────────────────────────── */
+.kpis{display:flex;flex-wrap:wrap}
+.kpi{padding:2px 18px;border-left:1px solid #ececec}
+.kpi:first-child{padding-left:2px;border-left:0}
+.kpi .k{font-size:11px;font-weight:600;letter-spacing:.5px;color:#8a8a8a;white-space:nowrap}
+.kpi .v{margin-top:2px;font-size:20px;font-weight:600;color:#171717;white-space:nowrap}
+.kpi .v.hi{color:var(--primary)}
+.kpi .v.dim{color:#a1a1aa}
+.kpi .v em{font-style:normal;font-size:11px;font-weight:500;color:#a1a1aa;margin-left:4px}
+
+/* ── 概览色带（yunji .yj-ov-*：渐变描边 + 径向雾）── */
+.band-outer{border-radius:17px;padding:1px;background:linear-gradient(100deg,#0aa7a0 0%,#6fcac4 35%,#d9efed 70%,#eef7f6 100%)}
+.band{
+  border-radius:16px;display:flex;align-items:center;flex-wrap:wrap;padding:21px 0 21px 28px;color:#173330;
+  background:
+    radial-gradient(420px 200px at 6% 0%,#e7f6f4 0%,rgba(231,246,244,0) 62%),
+    radial-gradient(520px 260px at 100% 100%,#d8f0ed 0%,rgba(216,240,237,0) 55%),#fff;
+}
+.band-lab,.band-k{font-size:9.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#5f8a86;white-space:nowrap}
+.band-rec{padding-right:24px;border-right:1px solid rgba(10,167,160,.22)}
+.band-lab{display:block;margin-bottom:9px}
+.band-big{display:block;font-size:38px;font-weight:700;letter-spacing:-.5px;line-height:1;color:#0b5f5b;white-space:nowrap}
+.band-br{display:block;margin-top:8px;font-size:12px;font-weight:500;letter-spacing:1px;color:rgba(11,95,91,.55)}
+.band-rate{padding:0 18px;border-right:1px solid rgba(10,167,160,.22);text-align:center}
+.band-rate .band-k{display:block;margin-bottom:9px}
+.band-rate b{display:block;min-width:2.7em;font-size:24px;font-weight:700;letter-spacing:-.5px;line-height:1;color:#173330}
+.band-hi b{color:var(--primary)}
+.band-prizes{flex:1;display:flex;min-width:0;padding:0 28px 0 6px}
+.band-m{flex:1;min-width:0;padding:2px 0 2px 22px;border-left:1px solid rgba(10,167,160,.22);text-align:center}
+.band-m:first-child{border-left:none}
+.band-m .band-k{display:block;margin-bottom:9px;color:#0b5f5b;opacity:.72;letter-spacing:1.6px}
+.band-m b{font-size:24px;font-weight:700;letter-spacing:-.5px;line-height:1;white-space:nowrap;color:#0b5f5b}
+.band-bar{display:flex;overflow:hidden;margin-top:10px;width:150px;height:6px;border-radius:99px;background:#f5f5f5}
+.band-bar i{display:block;height:100%}
+.band-tag{
+  margin-left:8px;border-radius:100px;background:rgba(255,255,255,.75);border:1px dashed rgba(11,95,91,.28);
+  padding:1px 7px;font-size:9.5px;font-weight:600;letter-spacing:.6px;color:#0b5f5b;
+}
+
+/* ── 表格 ─────────────────────────────── */
+.card{border:1px solid var(--border);border-radius:10px;background:var(--card);overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+thead th{
+  white-space:nowrap;border-bottom:1px solid var(--border);background:rgba(245,245,245,.4);
+  padding:9px 13px;text-align:left;font-size:12.5px;font-weight:600;letter-spacing:.5px;color:var(--secondary-fg);
+}
+tbody td{white-space:nowrap;border-bottom:1px solid var(--border);padding:8px 13px;color:var(--fg)}
+tbody tr:last-child td{border-bottom:0}
+td.num{text-align:right}
+td.win{font-weight:600;color:var(--primary)}
+.tname{display:flex;flex-direction:column;gap:1px;line-height:1.3}
+.tname .zh{font-size:13.5px;font-weight:600}
+.tname .en{font-size:11px;font-weight:400;color:var(--muted-fg);letter-spacing:.2px}
+.orig{font-size:10px;font-weight:600;letter-spacing:.4px;color:#7a8794;margin-left:5px}
+.orig.jp{color:#0b6b64}
+
+/* ── 徽章 ─────────────────────────────── */
+.grade{display:inline-block;border-radius:100px;padding:2px 7px;font-size:11px;font-weight:700;line-height:1.35;color:#fff;vertical-align:1px}
+.g1{background:#d5302a}.g2{background:#0a3b7e}.g3{background:#087220}.listed{background:#dca026}
+.gopen{background:rgba(10,167,160,.15);color:#0a7a75}
+.no{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:4px;border:1px solid transparent;font-size:13px}
+.no1{background:#ffef7f;border-color:#e2cc38}
+.no2{background:#cbdeff;border-color:#87aee6}
+.no3{background:#efc79f;border-color:#dca167}
+.no0{color:var(--muted-fg)}
+.lv{display:inline-block;border-radius:100px;padding:1px 7px;font-size:10.5px;font-weight:700;letter-spacing:.3px;line-height:1.6}
+.lv-l1{background:var(--accent);color:var(--accent-fg)}
+.lv-l2{background:var(--muted);color:#52525b}
+.lv-l3{background:#fff;color:var(--muted-fg);border:1px dashed #c9c9c9}
+.lv-or{background:#fff;color:#52525b;border:1px solid var(--border)}
+.pd{
+  display:inline-block;margin-left:6px;border-radius:100px;padding:1px 7px;
+  border:1px dashed #c9c9c9;font-size:10.5px;font-weight:600;color:#7a7a7a;vertical-align:1px;
+}
+.ok-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--primary);margin-right:6px;vertical-align:1px}
+
+/* ── 分段控件 ─────────────────────────── */
+.seg{display:inline-flex;overflow:hidden;border:1px solid var(--border);border-radius:8px;background:#fff}
+.seg button{height:32px;padding:0 15px;border:0;border-right:1px solid #ececec;background:#fff;font-size:13px;color:#52525b;cursor:pointer;white-space:nowrap}
+.seg button:last-child{border-right:0}
+.seg button:hover{background:#f5f5f5}
+.seg button.on{background:var(--primary);color:#fff;font-weight:600}
+
+/* ── 提示条（yunji 草稿横幅同构）───────── */
+.ribbon{
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin-bottom:20px;
+  border:1px solid var(--border);border-radius:10px;background:rgba(232,116,42,.10);
+  padding:10px 16px;font-size:12px;
+}
+.ribbon b{flex:none;font-weight:700;color:var(--chart3)}
+.ribbon span{min-width:0;color:var(--muted-fg)}
+.ribbon a{margin-left:auto;flex:none;font-weight:600;color:var(--chart3)}
+
+/* ── 说明块（待维护页替代色带）────────── */
+.explain{border:1px solid var(--border);border-radius:10px;padding:16px 18px;background:#fcfcfc}
+.explain h4{margin:0 0 10px;font-size:12.5px;font-weight:700;letter-spacing:.6px;color:var(--secondary-fg)}
+.explain ul{margin:0;padding:0;list-style:none}
+.explain li{position:relative;padding-left:14px;font-size:13px;line-height:1.85;color:#3a4149}
+.explain li::before{content:"";position:absolute;left:0;top:.78em;width:5px;height:5px;border-radius:50%;background:#d4d4d4}
+.explain li b{font-weight:600;color:var(--fg)}
+
+/* ── 地区 chips ───────────────────────── */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border-radius:100px;padding:2px 10px;font-size:11.5px;font-weight:600;background:var(--muted);color:#52525b}
+.chip.on{background:var(--accent);color:var(--accent-fg)}
+.chip.off{background:#fff;border:1px dashed #d4d4d4;color:#8a8a8a;font-weight:500}
+
+/* ── 代码块 ───────────────────────────── */
+.code{
+  margin:0;border:1px solid var(--border);border-radius:10px;background:#fcfcfc;padding:16px 18px;
+  font-family:"Cascadia Code",Consolas,ui-monospace,monospace;font-size:12.5px;line-height:1.7;
+  overflow-x:auto;letter-spacing:0;color:#3a4149;
+}
+.code .k{color:#0a7a75}
+.code .s{color:#a8571b}
+.code .n{color:#0f8fd6}
+.code .c{color:#a1a1aa}
+
+/* ── 页脚声明 ─────────────────────────── */
+.foot{margin-top:40px;padding:12px 0 0;border-top:1px solid var(--border);text-align:center;font-size:11px;line-height:1.8;color:rgba(115,115,115,.7)}
+.foot b{display:block;margin-top:2px;font-size:10.5px;font-weight:400;letter-spacing:.5px;color:rgba(115,115,115,.6)}
+
+/* ── 窄屏 ─────────────────────────────── */
+@media (max-width:860px){
+  .sidebar{display:none}
+  .wrap{padding:0 14px 32px}
+  .page-title{padding:14px}
+  .trio{flex-direction:column;gap:16px}
+  .band{padding:16px 18px;gap:14px 0}
+  .band-rec{width:100%;border-right:none;padding-right:0}
+  .band-big{font-size:28px}
+  .band-prizes{flex:0 0 100%;padding:4px 0 0;border-top:1px solid rgba(10,167,160,.22)}
+  table{font-size:12.5px}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">马</div>
+      <div class="brand-name">马名通译<small class="brand-sub">全球赛马中文名典</small></div>
+    </div>
+    <nav class="nav" id="nav">
+      <div class="nlabel">名称档案</div>
+      <div class="nitem on" data-v="race"><span class="n-ico">🏁</span>赛事</div>
+      <div class="nitem" data-v="cur"><span class="n-ico">🐎</span>马匹 · 已校订</div>
+      <div class="nitem" data-v="pen"><span class="n-ico">🐎</span>马匹 · 待维护</div>
+      <div class="nlabel">对照</div>
+      <div class="nitem" data-v="dict"><span class="n-ico">⇄</span>译名对照</div>
+      <div class="nlabel">说明</div>
+      <div class="nitem" data-v="scope"><span class="n-ico">🌏</span>维护范围</div>
+      <div class="nitem" data-v="data"><span class="n-ico">{ }</span>数据结构</div>
+    </nav>
+    <div class="sidefoot">
+      马名通译 · 数据仅供分享交流
+      <div>归档 2 份 · 更新 2026-11-24</div>
+    </div>
+  </aside>
+
+  <main class="content">
+    <header class="page-title" id="ptitle">赛事 · RACE</header>
+    <div class="wrap">
+
+      <!-- ═══════════ 赛事 ═══════════ -->
+      <section class="view on" id="v-race">
+        <div class="names">
+          <div class="ncol big"><span class="lbl">中文</span><span class="v">一哩冠军赛</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">English</span><span class="v">Mile Championship</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">日本語</span><span class="v">マイルチャンピオンシップ</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">日期</span><span class="v">2026-11-20</span></div>
+        </div>
+
+        <div style="margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12.5px;color:var(--muted-fg)">
+          <span class="grade g1">G1</span>
+          <span>日本 · 1600 米 草地</span>
+          <span style="color:#d4d4d4">|</span>
+          <span>越洋转播场次</span>
+          <span style="color:#d4d4d4">|</span>
+          <span>马场待 netkeiba 对齐</span>
+        </div>
+
+        <div style="margin-top:22px" class="kpis">
+          <div class="kpi"><div class="k">出马</div><div class="v">18 <em>匹</em></div></div>
+          <div class="kpi"><div class="k">已校订</div><div class="v hi">15</div></div>
+          <div class="kpi"><div class="k">待维护</div><div class="v">3</div></div>
+          <div class="kpi"><div class="k">名稱出处</div><div class="v">1 <em>份</em></div></div>
+          <div class="kpi"><div class="k">归档</div><div class="v dim">2 / 2</div></div>
+        </div>
+
+        <div class="sec">
+          出马表 · ENTRIES
+          <span class="right">
+            <span class="seg" id="entrySeg">
+              <button class="on" data-f="all">全部 18</button>
+              <button data-f="cur">已校订 15</button>
+              <button data-f="pen">待维护 3</button>
+            </span>
+          </span>
+        </div>
+        <div class="card">
+          <table>
+            <thead>
+              <tr>
+                <th style="width:52px">马号</th><th style="width:52px">档位</th><th>马名</th>
+                <th style="width:104px">骑师</th><th style="width:112px">练马师</th>
+                <th style="width:64px">性龄</th><th style="width:60px" class="num">评分</th>
+                <th style="width:62px" class="num">负磅</th>
+              </tr>
+            </thead>
+            <tbody id="entryBody"></tbody>
+          </table>
+        </div>
+
+        <div class="sec">来源与存档 · SOURCE</div>
+        <div class="info">
+          <div class="frow">
+            <span class="k">公告正文</span>
+            <span class="v sm">racingnews.hkjc.com/chinese/2026/11/20/一哩冠军赛…</span>
+            <span class="r"><span class="ok-dot"></span>已存档 2026-11-24</span>
+            <a class="r" href="https://web.archive.org/web/20261124080624/https://racingnews.hkjc.com/chinese/2026/11/20/%e4%b8%80%e5%93%a9%e5%86%a0%e8%bb%8d%e8%b3%bd%e6%9c%80%e5%be%8c%e5%ae%a3%e4%bd%88%e5%87%ba%e8%b3%bd%e9%a6%ac%e5%8c%b9%e5%90%8d%e5%96%ae%e5%8f%8a%e6%8e%92%e4%bd%8d/" target="_blank" rel="noopener">回放 ↗</a>
+          </div>
+          <div class="frow">
+            <span class="k">出马表原件</span>
+            <span class="v sm">20261120_MileChampionship_FinalDecl_C.docx</span>
+            <span class="r"><span class="ok-dot"></span>已存档 2026-11-24</span>
+            <a class="r" href="https://web.archive.org/web/20261124080654/https://res.hkjc.com/racingnews/wp-content/uploads/sites/2/2026/11/20261120_MileChampionship_FinalDecl_C.docx" target="_blank" rel="noopener">回放 ↗</a>
+          </div>
+          <div class="frow">
+            <span class="k">解析口径</span>
+            <span class="v sm">附件表格第 1 表 · 18 行 · 欄位 13 列</span>
+            <span class="r">S3 解析 · 2026-11-24</span>
+          </div>
+        </div>
+
+        <div class="foot">
+          仅供个人学习、研究 · 赛马应援 · 非商业用途 · 请以官方发布为准
+          <b>版式预览 · 名称与出马表取自 2026-11-20 公告存档</b>
+        </div>
+      </section>
+
+      <!-- ═══════════ 马匹 · 已校订 ═══════════ -->
+      <section class="view" id="v-cur">
+        <div class="names">
+          <div class="ncol big"><span class="lbl">港译</span><span class="v">巧繡生花</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">日本語</span><span class="v">—</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">English</span><span class="v">Embroidery</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol empty"><span class="lbl">民間通譯</span><span class="v">—</span></div>
+        </div>
+
+        <div class="trio">
+          <div class="photo">
+            <b>照片未收录</b>
+            <span>来源站图片有版权，本站只陈列名称与事实字段</span>
+          </div>
+          <div class="info">
+            <div class="frow"><span class="k">性别</span><span class="v">雌 · 4 岁</span></div>
+            <div class="frow"><span class="k">产地</span><span class="v">日本 <span class="lv lv-or">JPN</span></span></div>
+            <div class="frow"><span class="k">国际评分</span><span class="v">118</span></div>
+            <div class="frow"><span class="k">练马师</span><span class="v">森一誠</span></div>
+            <div class="frow"><span class="k">本次骑师</span><span class="v">李慕華</span></div>
+            <div class="frow"><span class="k">本次负磅</span><span class="v">123 磅</span></div>
+          </div>
+          <div class="info">
+            <div class="frow"><span class="k">港译</span><span class="v">巧繡生花</span><span class="r"><span class="lv lv-l1">L1 · 0.95</span></span></div>
+            <div class="frow"><span class="k">原名</span><span class="v">Embroidery</span><span class="r"><span class="lv lv-or">英文</span></span></div>
+            <div class="frow"><span class="k">日文</span><span class="v" style="color:#a1a1aa">—</span><span class="r"><span class="lv lv-l3">待对齐</span></span></div>
+            <div class="frow"><span class="k">民間</span><span class="v" style="color:#a1a1aa">—</span><span class="r"><span class="lv lv-l3">未收录</span></span></div>
+            <div class="frow"><span class="k">机器拟译</span><span class="v" style="color:#a1a1aa">—</span><span class="r"><span class="lv lv-l3">不生成</span></span></div>
+            <div class="frow"><span class="k">定于</span><span class="v sm">2026-11-20 · HKJC 公告</span></div>
+          </div>
+        </div>
+
+        <div class="sec">数据概览 · OVERVIEW <span class="right"><span class="band-tag" style="margin:0">示意数值</span></span></div>
+        <div class="band-outer">
+          <div class="band">
+            <div class="band-rec">
+              <span class="band-lab">通算成绩 · RECORD</span>
+              <span class="band-big">12战5胜</span>
+              <span class="band-br">[5-2-1-4]</span>
+              <span class="band-bar">
+                <i style="flex-grow:5;background:#ffef7f"></i>
+                <i style="flex-grow:2;background:#cbdeff"></i>
+                <i style="flex-grow:1;background:#efc79f"></i>
+                <i style="flex-grow:4;background:#d4d4d4"></i>
+              </span>
+            </div>
+            <div class="band-rate band-hi"><span class="band-k">胜率</span><b>41.7%</b></div>
+            <div class="band-rate"><span class="band-k">连对率</span><b>58.3%</b></div>
+            <div class="band-rate"><span class="band-k">复胜率</span><b>66.7%</b></div>
+            <div class="band-prizes">
+              <div class="band-m"><span class="band-k">草地</span><b>10</b></div>
+              <div class="band-m"><span class="band-k">泥地</span><b>2</b></div>
+              <div class="band-m"><span class="band-k">G1 出走</span><b>3</b></div>
+              <div class="band-m"><span class="band-k">G1 胜</span><b>1</b></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec">出赛记录 · RACES <span class="right">最近 5 场 · <a href="#">全部 12 场 →</a></span></div>
+        <div class="card">
+          <table>
+            <thead><tr>
+              <th style="width:96px">日期</th><th>赛事</th><th style="width:56px">级别</th>
+              <th style="width:88px">马场</th><th style="width:78px" class="num">距离</th>
+              <th style="width:64px">场地</th><th style="width:64px">着顺</th>
+              <th>骑师</th><th style="width:70px" class="num">负磅</th>
+            </tr></thead>
+            <tbody>
+              <tr><td>2026-11-20</td><td>一哩冠军赛</td><td><span class="grade g1">G1</span></td><td style="color:#a1a1aa">—</td><td class="num">1600</td><td>草地</td><td><span class="no no0">—</span></td><td>李慕華</td><td class="num">123</td></tr>
+              <tr><td>2026-10-25</td><td>天皇赏（秋）</td><td><span class="grade g1">G1</span></td><td>东京</td><td class="num">2000</td><td>草地</td><td><span class="no no1">1</span></td><td>李慕華</td><td class="num">122</td></tr>
+              <tr><td>2026-06-28</td><td>宝冢纪念</td><td><span class="grade g1">G1</span></td><td>阪神</td><td class="num">2200</td><td>草地</td><td><span class="no no2">2</span></td><td>川田將雅</td><td class="num">122</td></tr>
+              <tr><td>2026-04-12</td><td>樱花赏</td><td><span class="grade g1">G1</span></td><td>阪神</td><td class="num">1600</td><td>草地</td><td><span class="no no3">3</span></td><td>李慕華</td><td class="num">121</td></tr>
+              <tr><td>2026-02-15</td><td>京都纪念</td><td><span class="grade g2">G2</span></td><td>京都</td><td class="num">2200</td><td>草地</td><td><span class="no no1">1</span></td><td>李慕華</td><td class="num">121</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="sec">同场对手 · RIVALS <span class="right">同场 ≥ 2 次才收录</span></div>
+        <div class="card">
+          <table>
+            <thead><tr><th>马名</th><th style="width:110px">产地</th><th style="width:96px" class="num">同场次数</th><th style="width:130px">最近同场</th><th style="width:96px">胜负</th></tr></thead>
+            <tbody>
+              <tr><td><div class="tname"><span class="zh">名店滿街</span><span class="en">Rodeo Drive</span></div></td><td>日本 <span class="orig jp">JPN</span></td><td class="num">3</td><td>2026-06-28</td><td class="win">2 胜 1 负</td></tr>
+              <tr><td><div class="tname"><span class="zh">六月豪取</span><span class="en">June Take</span></div></td><td>日本 <span class="orig jp">JPN</span></td><td class="num">2</td><td>2026-10-25</td><td>1 胜 1 负</td></tr>
+              <tr><td><div class="tname"><span class="zh">地神力</span><span class="en">Gaia Force</span></div></td><td>日本 <span class="orig jp">JPN</span></td><td class="num">2</td><td>2026-06-28</td><td class="win">2 胜 0 负</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="foot">
+          仅供个人学习、研究 · 非商业用途 · 请以官方发布为准
+          <b>版式预览 · 名称取自 2026-11-20 公告存档；战绩、赏金为占位示意</b>
+        </div>
+      </section>
+
+      <!-- ═══════════ 马匹 · 待维护 ═══════════ -->
+      <section class="view" id="v-pen">
+        <div class="ribbon">
+          <b>未校订</b>
+          <span>本页译名取自公告附件，尚未与日文名、英文名交叉核对；不生成民间通译与机器拟译。</span>
+          <a href="#">查看核对队列 →</a>
+        </div>
+
+        <div class="names">
+          <div class="ncol big"><span class="lbl">港译</span><span class="v">傲登龍門</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">原名</span><span class="v">Erdenali</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol empty"><span class="lbl">日本語</span><span class="v">—</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol empty"><span class="lbl">民間通譯</span><span class="v">—</span></div>
+        </div>
+
+        <div class="trio">
+          <div class="photo">
+            <b>照片未收录</b>
+            <span>同上：只陈列名称与事实字段</span>
+          </div>
+          <div class="info">
+            <div class="frow"><span class="k">性别</span><span class="v">骟 · 3 岁</span></div>
+            <div class="frow"><span class="k">产地</span><span class="v">法国 <span class="lv lv-or">FR</span></span></div>
+            <div class="frow"><span class="k">国际评分</span><span class="v">124</span></div>
+            <div class="frow"><span class="k">练马师</span><span class="v">葛威法</span></div>
+            <div class="frow"><span class="k">本次骑师</span><span class="v">巴米高</span></div>
+            <div class="frow"><span class="k">本次负磅</span><span class="v">126 磅</span></div>
+          </div>
+          <div class="info">
+            <div class="frow"><span class="k">港译</span><span class="v">傲登龍門</span><span class="r"><span class="lv lv-l1">L1 · 0.95</span></span></div>
+            <div class="frow"><span class="k">原名</span><span class="v">Erdenali</span><span class="r"><span class="lv lv-or">英文</span></span></div>
+            <div class="frow"><span class="k">日文</span><span class="v" style="color:#a1a1aa">—</span><span class="r"><span class="lv lv-l3">不适用</span></span></div>
+            <div class="frow"><span class="k">民間</span><span class="v" style="color:#a1a1aa">—</span><span class="r"><span class="lv lv-l3">不生成</span></span></div>
+            <div class="frow"><span class="k">定于</span><span class="v sm">2026-11-20 · HKJC 公告</span></div>
+          </div>
+        </div>
+
+        <div class="sec">这页为什么比日本马薄 · WHY</div>
+        <div class="explain">
+          <h4>curation = pending · 只落库未校订</h4>
+          <ul>
+            <li>名稱只有 <b>L1 港译 + 英文原名</b> 兩層，兩者同源（同一份公告），因此<b>不構成互證</b>。</li>
+            <li>不生成 L2 民间通译与 L3 机器拟译——<b>宁可不收，不可猜</b>。</li>
+            <li>不出现于 <b>/dict/</b> 译名对照，也不进人工核对队列；扩区时把 <b>curation</b> 翻成 curated 再补校。</li>
+            <li>赛绩与出马表<b>完全不受影响</b>，事实层与维护层解耦。</li>
+          </ul>
+        </div>
+
+        <div class="sec">出赛记录 · RACES <span class="right"><span class="band-tag" style="margin:0">示意数值</span></span></div>
+        <div class="card">
+          <table>
+            <thead><tr>
+              <th style="width:96px">日期</th><th>赛事</th><th style="width:56px">级别</th>
+              <th style="width:88px">马场</th><th style="width:78px" class="num">距离</th>
+              <th style="width:64px">场地</th><th style="width:64px">着顺</th>
+              <th>骑师</th><th style="width:70px" class="num">负磅</th>
+            </tr></thead>
+            <tbody>
+              <tr><td>2026-11-20</td><td>一哩冠军赛</td><td><span class="grade g1">G1</span></td><td style="color:#a1a1aa">—</td><td class="num">1600</td><td>草地</td><td><span class="no no0">—</span></td><td>巴米高</td><td class="num">126</td></tr>
+              <tr><td>2026-09-13</td><td>隆尚磨坊大赛</td><td><span class="grade g1">G1</span></td><td>隆尚</td><td class="num">1600</td><td>草地</td><td><span class="no no2">2</span></td><td>巴米高</td><td class="num">128</td></tr>
+              <tr><td>2026-05-31</td><td>法国二千坚尼</td><td><span class="grade g1">G1</span></td><td>隆尚</td><td class="num">1600</td><td>草地</td><td><span class="no no1">1</span></td><td>巴米高</td><td class="num">128</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="foot">
+          仅供个人学习、研究 · 非商业用途 · 请以官方发布为准
+          <b>版式预览 · 名称取自 2026-11-20 公告存档；战绩为占位示意</b>
+        </div>
+      </section>
+
+      <!-- ═══════════ 译名对照 ═══════════ -->
+      <section class="view" id="v-dict">
+        <div class="names">
+          <div class="ncol big"><span class="lbl">译名对照</span><span class="v">日本马 · 已校订</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">范围</span><span class="v">2026 年 · 香港出马表</span></div>
+        </div>
+
+        <div style="margin-top:20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+          <span class="seg">
+            <button class="on">全部 1,284</button>
+            <button>L1 港译 1,240</button>
+            <button>L2 民間 44</button>
+            <button>L3 機器 0</button>
+          </span>
+          <span style="font-size:12px;color:var(--muted-fg)">同語言下 L1 壓過 L2/L3，L3 只補位不覆蓋</span>
+        </div>
+
+        <div class="sec">港译对照 · HKJC</div>
+        <div class="card">
+          <table>
+            <thead><tr>
+              <th style="width:190px">中文</th><th>English</th><th style="width:88px">级别</th>
+              <th style="width:120px">出处</th><th style="width:110px">决定日</th><th style="width:92px">核对</th>
+            </tr></thead>
+            <tbody id="dictBody"></tbody>
+          </table>
+        </div>
+
+        <div class="foot">
+          仅供个人学习、研究 · 非商业用途 · 请以官方发布为准
+          <b>版式预览 · 名单取自 2026-11-20 公告附件（18 匹中 15 匹日本马）</b>
+        </div>
+      </section>
+
+      <!-- ═══════════ 维护范围 ═══════════ -->
+      <section class="view" id="v-scope">
+        <div class="names">
+          <div class="ncol big"><span class="lbl">维护范围</span><span class="v">抓全量 · 校一区</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">已校订</span><span class="v">日本 1,240 匹</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">待维护</span><span class="v">20,100 匹</span></div>
+        </div>
+
+        <div class="trio" style="margin-top:24px">
+          <div class="explain" style="background:#fff">
+            <h4>已校订 · CURATED</h4>
+            <div class="chips" style="margin-bottom:10px"><span class="chip on">JPN</span></div>
+            <ul>
+              <li>名稱四層：L1 港译 + 日文原名 + L2 民間 + L3 補位</li>
+              <li>进人工核对队列，收录于 <b>/dict/</b></li>
+              <li>出马表打实心「已校订」，不再逐行标注</li>
+            </ul>
+          </div>
+          <div class="explain">
+            <h4>待维护 · PENDING</h4>
+            <div class="chips" style="margin-bottom:10px">
+              <span class="chip off">AUS</span><span class="chip off">NZL</span><span class="chip off">GBR</span>
+              <span class="chip off">IRE</span><span class="chip off">FRA</span><span class="chip off">USA</span>
+              <span class="chip off">GER</span><span class="chip off">CHN</span><span class="chip off">+5</span>
+            </div>
+            <ul>
+              <li>只有 L1 港译 + 英文原名（同源，不互證）</li>
+              <li>不生成 L2 / L3，不进核对队列</li>
+              <li>事实层照常：出马表、赛绩、存档都不缺</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sec">地区台账 · REGISTRY</div>
+        <div class="card">
+          <table>
+            <thead><tr>
+              <th>地区</th><th style="width:96px" class="num">马匹</th><th style="width:120px">curation</th>
+              <th style="width:150px">名称层级</th><th>扩区动作</th>
+            </tr></thead>
+            <tbody>
+              <tr><td>日本 <span class="orig jp">JPN</span></td><td class="num">1,240</td><td><span class="lv lv-l1">curated</span></td><td>L1 + 日文 + L2 + L3</td><td style="color:var(--muted-fg)">已在校对</td></tr>
+              <tr><td>中国香港 <span class="orig">HK</span></td><td class="num">860</td><td><span class="lv lv-l2">pending</span></td><td>L1 + 英文</td><td style="color:var(--muted-fg)">本地马无日文原名，另行定规则</td></tr>
+              <tr><td>澳洲 <span class="orig">AUS</span></td><td class="num">5,320</td><td><span class="lv lv-l2">pending</span></td><td>L1 + 英文</td><td style="color:var(--muted-fg)">翻 curation 后补校</td></tr>
+              <tr><td>法国 <span class="orig">FRA</span></td><td class="num">2,140</td><td><span class="lv lv-l2">pending</span></td><td>L1 + 英文</td><td style="color:var(--muted-fg)">同上</td></tr>
+              <tr><td>英国 <span class="orig">GBR</span></td><td class="num">3,870</td><td><span class="lv lv-l2">pending</span></td><td>L1 + 英文</td><td style="color:var(--muted-fg)">同上</td></tr>
+              <tr><td>其他 8 区</td><td class="num">7,910</td><td><span class="lv lv-l2">pending</span></td><td>L1 + 英文</td><td style="color:var(--muted-fg)">按需</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="foot">
+          仅供个人学习、研究 · 非商业用途 · 请以官方发布为准
+          <b>版式预览 · 匹数为估算占位，待 S5 实跑</b>
+        </div>
+      </section>
+
+      <!-- ═══════════ 数据结构 ═══════════ -->
+      <section class="view" id="v-data">
+        <div class="names">
+          <div class="ncol big"><span class="lbl">数据结构</span><span class="v">public/data/*.json</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">分片</span><span class="v">500 条 / 文件</span></div>
+          <span class="nsep">/</span>
+          <div class="ncol"><span class="lbl">体积</span><span class="v">约 37 MB</span></div>
+        </div>
+
+        <div class="sec">horse shard · shard-000.json</div>
+<pre class="code">{
+  <span class="k">"_meta"</span>: { <span class="k">"schema"</span>: <span class="s">"horses/v1"</span>, <span class="k">"updated"</span>: <span class="s">"2026-11-24"</span>, <span class="k">"count"</span>: <span class="n">500</span> },
+  <span class="k">"horses"</span>: [
+    {
+      <span class="k">"uid"</span>: <span class="s">"jp-embroidery"</span>,
+      <span class="k">"curation"</span>: <span class="s">"curated"</span>,          <span class="c">// 决定名称层级的唯一开关</span>
+      <span class="k">"origin"</span>: <span class="s">"JPN"</span>,
+      <span class="k">"names"</span>: [
+        { <span class="k">"lang"</span>: <span class="s">"zh-HK"</span>, <span class="k">"value"</span>: <span class="s">"巧繡生花"</span>, <span class="k">"type"</span>: <span class="s">"translated"</span>,
+          <span class="k">"primary"</span>: <span class="n">true</span>, <span class="k">"level"</span>: <span class="s">"l1_hkjc"</span>, <span class="k">"confidence"</span>: <span class="n">0.95</span>,
+          <span class="k">"source"</span>: <span class="s">"hkjc:2026-11-20/MileChampionship"</span>, <span class="k">"decided_at"</span>: <span class="s">"2026-11-24"</span> },
+        { <span class="k">"lang"</span>: <span class="s">"en"</span>, <span class="k">"value"</span>: <span class="s">"Embroidery"</span>, <span class="k">"type"</span>: <span class="s">"original"</span>, <span class="k">"level"</span>: <span class="s">"l1_hkjc"</span> }
+        <span class="c">// 日文原名待 S4 与 netkeiba 对齐后写入，不凭罗马字反推</span>
+      ],
+      <span class="k">"starts"</span>: [ <span class="c">/* 赛绩：与赛事分片刻意冗余，保证马匹页独立可渲染 */</span> ],
+      <span class="k">"rivals"</span>: [ { <span class="k">"uid"</span>: <span class="s">"jp-rodeo-drive"</span>, <span class="k">"zh"</span>: <span class="s">"名店滿街"</span>, <span class="k">"together"</span>: <span class="n">3</span>, <span class="k">"w"</span>: <span class="n">2</span>, <span class="k">"l"</span>: <span class="n">1</span> } ]
+    }
+  ]
+}</pre>
+
+        <div class="sec">entry · 出马表不产生 N+1</div>
+<pre class="code">{
+  <span class="k">"no"</span>: <span class="n">1</span>, <span class="k">"draw"</span>: <span class="n">1</span>, <span class="k">"lb"</span>: <span class="n">126</span>, <span class="k">"rating"</span>: <span class="n">124</span>,
+  <span class="k">"horse"</span>: {
+    <span class="k">"uid"</span>: <span class="s">"fr-erdenali"</span>, <span class="k">"zh"</span>: <span class="s">"傲登龍門"</span>, <span class="k">"en"</span>: <span class="s">"Erdenali"</span>,
+    <span class="k">"origin"</span>: <span class="s">"FRA"</span>,        <span class="c">// 冗余：渲染徽章不必再拉马匹分片</span>
+    <span class="k">"curation"</span>: <span class="s">"pending"</span>  <span class="c">// 同上，一张 18 行表省 18 次请求</span>
+  },
+  <span class="k">"jockey"</span>: { <span class="k">"uid"</span>: <span class="s">"p-mickael-barzalona"</span>, <span class="k">"zh"</span>: <span class="s">"巴米高"</span> },
+  <span class="k">"trainer"</span>: { <span class="k">"uid"</span>: <span class="s">"p-francis-graffard"</span>, <span class="k">"zh"</span>: <span class="s">"葛威法"</span> },
+  <span class="k">"status"</span>: <span class="s">"declared"</span>   <span class="c">// declared / scratched / ran</span>
+}</pre>
+
+        <div class="foot">
+          仅供个人学习、研究 · 非商业用途 · 请以官方发布为准
+          <b>版式预览 · 字段口径以 docs/SCHEMA.md 为准</b>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<script>
+const TITLES={race:'赛事 · RACE',cur:'马匹档案 · PROFILE',pen:'马匹档案 · PROFILE',dict:'译名对照 · DICTIONARY',scope:'维护范围 · CURATION',data:'数据结构 · SCHEMA'};
+
+const ENTRIES=[
+{no:1,gear:null,en:"Erdenali",zh:"傲登龍門",org:"FR",draw:1,rating:124,lb:126,sex:"G",age:3,tz:"葛威法",jz:"巴米高"},
+{no:2,gear:null,en:"Embroidery",zh:"巧繡生花",org:"JPN",draw:2,rating:118,lb:123,sex:"F",age:4,tz:"森一誠",jz:"李慕華"},
+{no:3,gear:null,en:"Dragon Boost",zh:"沖天龍",org:"JPN",draw:3,rating:109,lb:128,sex:"C",age:4,tz:"藤野健太",jz:"濱中俊"},
+{no:4,gear:"B",en:"Sixpence",zh:"幸運銀幣",org:"JPN",draw:4,rating:118,lb:128,sex:"H",age:5,tz:"田中博康",jz:"貝知仁"},
+{no:5,gear:null,en:"Admire Zoom",zh:"喜迅升",org:"JPN",draw:5,rating:111,lb:128,sex:"C",age:4,tz:"友道康夫",jz:"武豊"},
+{no:6,gear:null,en:"Piko Rose",zh:"嬌艷薇",org:"JPN",draw:6,rating:101,lb:123,sex:"F",age:4,tz:"伊藤大士",jz:"三浦皇成"},
+{no:7,gear:null,en:"Coconuts Brown",zh:"暖茶艷色",org:"JPN",draw:7,rating:111,lb:123,sex:"M",age:6,tz:"上村洋行",jz:"北村友一"},
+{no:8,gear:null,en:"Rodeo Drive",zh:"名店滿街",org:"JPN",draw:8,rating:119,lb:126,sex:"C",age:3,tz:"辻哲英",jz:"莫雷拉"},
+{no:9,gear:null,en:"June Take",zh:"六月豪取",org:"JPN",draw:9,rating:114,lb:128,sex:"H",age:5,tz:"武英智",jz:"川田將雅"},
+{no:10,gear:null,en:"Water Licht",zh:"水之輝",org:"JPN",draw:10,rating:111,lb:128,sex:"H",age:5,tz:"石橋守",jz:"幸英明"},
+{no:11,gear:null,en:"Gaia Force",zh:"地神力",org:"JPN",draw:11,rating:117,lb:128,sex:"H",age:7,tz:"杉山晴紀",jz:"西村淳也"},
+{no:12,gear:null,en:"World's End",zh:"天懸絕壁",org:"JPN",draw:12,rating:117,lb:128,sex:"H",age:5,tz:"池添學",jz:"杜滿樂"},
+{no:13,gear:null,en:"Reservation",zh:"預約制",org:"JPN",draw:13,rating:110,lb:126,sex:"C",age:3,tz:"松下武士",jz:"田口貫太"},
+{no:14,gear:null,en:"Star Anise",zh:"星茴香",org:"JPN",draw:14,rating:116,lb:121,sex:"F",age:3,tz:"高野友和",jz:"松山弘平"},
+{no:15,gear:null,en:"Ecoro Bloom",zh:"千花綻放",org:"JPN",draw:15,rating:110,lb:128,sex:"H",age:5,tz:"加藤征弘",jz:"坂井瑠星"},
+{no:16,gear:null,en:"Suzu Khalom",zh:"好夢實現",org:"JPN",draw:16,rating:113,lb:128,sex:"H",age:6,tz:"牧田和彌",jz:"藤懸貴志"},
+{no:17,gear:null,en:"Ampadu",zh:"後衛球星",org:"GB",draw:17,rating:113,lb:128,sex:"H",age:5,tz:"木村哲也",jz:"岩田望來"},
+{no:18,gear:null,en:"Off Trail",zh:"越野跑",org:"GB",draw:18,rating:114,lb:128,sex:"H",age:5,tz:"吉村圭司",jz:"菅原明良"}
+];
+const SEX={C:'雄',F:'雌',M:'雄',H:'雄',G:'騸'};
+
+function rowHTML(e){
+  const pen=e.org!=='JPN';
+  return '<tr data-cur="'+(pen?'pen':'cur')+'">'+
+    '<td class="num" style="font-weight:600">'+e.no+'</td>'+
+    '<td style="color:#737373">'+e.draw+'</td>'+
+    '<td><div class="tname"><span class="zh">'+e.zh+(pen?'<span class="pd">未复核</span>':'')+'</span>'+
+      '<span class="en">'+e.en+'<span class="orig'+(e.org==='JPN'?' jp':'')+'">'+e.org+'</span></span></div></td>'+
+    '<td>'+e.jz+'</td>'+
+    '<td style="color:#52525b">'+e.tz+'</td>'+
+    '<td>'+(SEX[e.sex]||e.sex)+e.age+(e.gear?' <span class="orig">'+e.gear+'</span>':'')+'</td>'+
+    '<td class="num">'+e.rating+'</td>'+
+    '<td class="num">'+e.lb+'</td>'+
+  '</tr>';
+}
+document.getElementById('entryBody').innerHTML=ENTRIES.map(rowHTML).join('');
+
+document.getElementById('dictBody').innerHTML=ENTRIES.filter(function(e){return e.org==='JPN';}).slice(0,12).map(function(e){
+  return '<tr>'+
+    '<td><span style="font-weight:600">'+e.zh+'</span></td>'+
+    '<td style="color:#52525b">'+e.en+'</td>'+
+    '<td><span class="lv lv-l1">L1 港译</span></td>'+
+    '<td style="font-size:12.5px;color:#737373">HKJC 公告</td>'+
+    '<td style="font-size:12.5px;color:#737373">2026-11-20</td>'+
+    '<td style="font-size:12.5px"><span class="ok-dot"></span>已核</td>'+
+  '</tr>';
+}).join('');
+
+// 分段筛选
+var seg=document.getElementById('entrySeg');
+seg.addEventListener('click',function(ev){
+  var b=ev.target.closest('button'); if(!b) return;
+  Array.prototype.forEach.call(seg.children,function(x){x.classList.toggle('on',x===b);});
+  var f=b.dataset.f;
+  Array.prototype.forEach.call(document.querySelectorAll('#entryBody tr'),function(tr){
+    tr.style.display=(f==='all'||tr.dataset.cur===f)?'':'none';
+  });
+});
+
+// 视图切换
+var nav=Array.prototype.slice.call(document.querySelectorAll('#nav .nitem'));
+function show(v){
+  nav.forEach(function(x){x.classList.toggle('on',x.dataset.v===v);});
+  Array.prototype.forEach.call(document.querySelectorAll('.view'),function(s){
+    s.classList.toggle('on',s.id==='v-'+v);
+  });
+  document.getElementById('ptitle').textContent=TITLES[v]||'';
+  document.querySelector('.content').scrollTop=0;
+  history.replaceState(null,'','#'+v);
+}
+nav.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.v);});});
+show((location.hash||'#race').slice(1));
+</script>
+</body>
+</html>

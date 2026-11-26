@@ -1,0 +1,144 @@
+---
+import Base from '../../layouts/Base.astro';
+import Names from '../../components/Names.astro';
+import Info from '../../components/Info.astro';
+import Aliases from '../../components/Aliases.astro';
+import { races, href, fmtDate, horseByUid, personByUid, primaryName, nameCols, raceEntries } from '../../lib/data';
+
+export function getStaticPaths() {
+  return races.map((r) => ({ params: { uid: r.uid }, props: { r } }));
+}
+
+const { r } = Astro.props;
+const ents = raceEntries(r);
+
+const cols = nameCols(r.names);
+const gradeCls = r.grade ? `grade-${r.grade.toLowerCase()}` : 'grade-open';
+
+const facts = [
+  { k: '赛期', v: `${fmtDate(r.race_date)}${r.race_time ? ` · ${r.race_time}` : ''}`, r: '公告表头' },
+  { k: '级别', v: r.grade ? `<span class="grade ${gradeCls}">${r.grade}</span>` : '—', r: r.grade_cn || '' },
+  { k: '马场', v: r.course || '—', r: r.venue_country || '' },
+  { k: '途程', v: `${r.distance || '—'} · ${r.surface || '—'}`, r: '公告表头' },
+  { k: '场次', v: r.session || '—' },
+  { k: '公告日', v: fmtDate(r.announce_date), r: `${r.entries.length} 匹名单` },
+];
+---
+
+<Base title={primaryName(r.names)} nav="archive">
+  <div class="crumb">
+    <a href={href()}>名称档案</a><span>/</span><a href={href()}>赛事</a><span>/</span>{primaryName(r.names)}
+  </div>
+
+  <div class="sec">
+    名称 · <span class="en">NAMES</span>
+    <span class="sec-right"><span class="lv lv-l2">公告直取</span></span>
+  </div>
+
+  <Names cols={cols} />
+  <Aliases names={r.names} />
+
+  <div class="sec">比赛页记录 · <span class="en">RACE SHEET</span></div>
+  <Info rows={facts} />
+  <div class="srcnote">
+    只记录抓取到的这一页公告本身：赛期、马场、途程、名单、出处全部来自公告表头与附件，
+    没有一项是推断的。赛果、名次、跑道状态不在此维护。
+  </div>
+
+  <div class="sec">
+    公告名单 · <span class="en">DECLARED</span>
+    <span class="sec-right">原样抓取 · {r.entries.length} 匹</span>
+  </div>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:64px">马号</th>
+          <th>马名</th>
+          <th style="width:132px">产地</th>
+          <th style="width:78px">性龄</th>
+          <th style="width:132px">骑手</th>
+          <th style="width:140px">练马师</th>
+          <th style="width:66px" class="num">负磅</th>
+          <th style="width:62px" class="num">评分</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          ents.map((e) => {
+            const h = horseByUid(e.horse_uid);
+            const j = personByUid(e.jockey_uid);
+            const t = personByUid(e.trainer_uid);
+            return (
+              <tr>
+                <td class="num" style="font-weight:600">{e.no ?? '—'}</td>
+                <td>
+                  {h ? (
+                    <div class="tname">
+                      <a class="tzh" href={href(`horse/${h.uid}/`)}>
+                        {h.names.hk || h.names.en || '—'}
+                      </a>
+                      <span class="ten">
+                        {h.names.en}
+                        <span class={h.origin === 'JPN' ? 'orig orig-jp' : 'orig'}>{h.origin}</span>
+                      </span>
+                    </div>
+                  ) : (
+                    '—'
+                  )}
+                </td>
+                <td style="color:#52525b">
+                  {h ? `${h.country} ` : ''}
+                  {h && <span class={h.origin === 'JPN' ? 'orig orig-jp' : 'orig'}>{h.origin}</span>}
+                </td>
+                <td class="sexcell">
+                  {h?.sex_cn ? <span class:list={['sex', h.sex === 'F' ? 'sex-f' : 'sex-m']}>{h.sex_cn}</span> : '—'}
+                  <span class="age">{e.age ?? ''}</span>
+                </td>
+                <td>{j ? <a href={href(`person/${j.uid}/`)}>{primaryName(j.names)}</a> : '—'}</td>
+                <td style="color:#52525b">{t ? <a href={href(`person/${t.uid}/`)}>{primaryName(t.names)}</a> : '—'}</td>
+                <td class="num">
+                  {e.lb ?? '—'}
+                  {typeof e.claim === 'number' && <span class="orig">{e.claim > 0 ? `+${e.claim}` : e.claim}</span>}
+                </td>
+                <td class="num">{e.rating ?? '—'}</td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec">来源与存档 · <span class="en">ARCHIVE</span></div>
+  <Info
+    rows={[
+      {
+        k: '公告正文',
+        v: r.source.article.url
+          ? `<a href="${r.source.article.url}" target="_blank" rel="noopener">racingnews.hkjc.com</a>`
+          : '—',
+        r: r.source.article.archive_url
+          ? `<a href="${r.source.article.archive_url}" target="_blank" rel="noopener">存档 ↗</a>`
+          : '<span class="lv lv-l3">原件未存档</span>',
+      },
+      {
+        k: '名单附件',
+        v: r.source.attachment.url
+          ? `<a href="${r.source.attachment.url}" target="_blank" rel="noopener">${r.source.attachment.url.split('/').pop()}</a>`
+          : '—',
+        r: r.source.attachment.archive_url
+          ? `<a href="${r.source.attachment.archive_url}" target="_blank" rel="noopener">存档 ↗</a>`
+          : '<span class="lv lv-l3">原件未存档</span>',
+      },
+      {
+        k: '本地校验',
+        v: '<code>cache/</code> 保留原件并记 sha256，不入库',
+        r: '已核',
+      },
+    ]}
+  />
+  <div class="srcnote">
+    原件不对外分发：有 Internet Archive 快照就指回放地址，没有就明说「原件未存档」，不渲染成错误。
+  </div>
+</Base>

@@ -1,0 +1,26 @@
+---
+interface Row {
+  k: string;
+  /** 允许内联 HTML，用于挂链接与徽章 */
+  v: string;
+  r?: string;
+}
+
+interface Props {
+  rows: Row[];
+}
+
+const { rows } = Astro.props;
+---
+
+<div class="info">
+  {
+    rows.map((r) => (
+      <div class="frow">
+        <span class="frow-k">{r.k}</span>
+        <span class="frow-v" set:html={r.v} />
+        {r.r && <span class="frow-r" set:html={r.r} />}
+      </div>
+    ))
+  }
+</div>
