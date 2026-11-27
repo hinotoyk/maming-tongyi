@@ -38,3 +38,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# 归一复核页的候选数据：派生自 cache/entries.csv，每次 s3b 重生成
+public/review/

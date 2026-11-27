@@ -1,131 +1,11 @@
 {
 "_meta": {
 "schema": "names/v3",
-"updated": "2026-11-26",
+"updated": "2026-11-27",
 "count": 500,
 "kind": "horses"
 },
 "items": [
-{
-"uid": "au-ragged-rascal",
-"names": {
-"original": "Ragged Rascal",
-"en": "Ragged Rascal",
-"hk": "山野閒人",
-"sc": "山野闲人",
-"own": null,
-"alias": []
-},
-"origin": "AUS",
-"country": "澳洲",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2015,
-"color": null,
-"age": 3,
-"rating": 104,
-"lb": 126.0,
-"no": 2,
-"draw": 7,
-"gear": "B",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-tim-clark",
-"trainer_uid": "t-paul-perry",
-"race_uid": "aus-2018-1027-紅船錨錦標",
-"entries": [
-{
-"no": 2,
-"draw": 7,
-"gear": "B",
-"horse_uid": "au-ragged-rascal",
-"jockey_uid": "j-tim-clark",
-"trainer_uid": "t-paul-perry",
-"lb": 126.0,
-"claim": null,
-"rating": 104,
-"sex": "M",
-"age": 3,
-"race_uid": "aus-2018-1027-紅船錨錦標"
-}
-]
-},
-{
-"uid": "au-raging-bull",
-"names": {
-"original": "Raging Bull",
-"en": "Raging Bull",
-"hk": "狂牛",
-"sc": "狂牛",
-"own": null,
-"alias": []
-},
-"origin": "AUS",
-"country": "澳洲",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": 3,
-"rating": 100,
-"lb": 126.0,
-"no": 14,
-"draw": 17,
-"gear": "B",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-michael-dee",
-"trainer_uid": "t-david-payne",
-"race_uid": "aus-2021-1030-維多利亞打吡",
-"entries": [
-{
-"no": 14,
-"draw": 17,
-"gear": "B",
-"horse_uid": "au-raging-bull",
-"jockey_uid": "j-michael-dee",
-"trainer_uid": "t-david-payne",
-"lb": 126.0,
-"claim": null,
-"rating": 100,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2021-1030-維多利亞打吡"
-},
-{
-"no": 11,
-"draw": 15,
-"gear": "B",
-"horse_uid": "au-raging-bull",
-"jockey_uid": "j-craig-williams",
-"trainer_uid": "t-david-payne",
-"lb": 125.0,
-"claim": null,
-"rating": 109,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2022-0402-澳洲打吡"
-},
-{
-"no": 11,
-"draw": 6,
-"gear": "V",
-"horse_uid": "au-raging-bull",
-"jockey_uid": "j-patrick-moloney",
-"trainer_uid": "t-arthur-pace",
-"lb": 117.0,
-"claim": null,
-"rating": 78,
-"sex": "G",
-"age": 7,
-"race_uid": "aus-2025-1104-指標評分96讓賽"
-}
-]
-},
 {
 "uid": "au-raging-force",
 "names": {
@@ -134,7 +14,8 @@
 "hk": "怒憤力",
 "sc": "怒愤力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -180,7 +61,8 @@
 "hk": "狂掃",
 "sc": "狂扫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -226,7 +108,8 @@
 "hk": "賽車名將",
 "sc": "赛车名将",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -286,7 +169,8 @@
 "hk": "噴發海島",
 "sc": "喷发海岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -332,7 +216,8 @@
 "hk": "要雨得雨",
 "sc": "要雨得雨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -378,7 +263,8 @@
 "hk": "雨凝冰",
 "sc": "雨凝冰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -438,7 +324,8 @@
 "hk": "名蛙金曲",
 "sc": "名蛙金曲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -484,7 +371,8 @@
 "hk": "毫無疑問",
 "sc": "毫无疑问",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -530,7 +418,8 @@
 "hk": "強悍風範",
 "sc": "强悍风范",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -576,7 +465,8 @@
 "hk": "雷鳥神",
 "sc": "雷鸟神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -622,7 +512,8 @@
 "hk": "牧地男兒",
 "sc": "牧地男儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -696,7 +587,8 @@
 "hk": "勁衝小花",
 "sc": "劲冲小花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -742,7 +634,8 @@
 "hk": "火速多娜",
 "sc": "火速多娜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -788,7 +681,8 @@
 "hk": "臻喜",
 "sc": "臻喜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -848,7 +742,8 @@
 "hk": "利銼之威",
 "sc": "利锉之威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -894,7 +789,8 @@
 "hk": "麗域芳影",
 "sc": "丽域芳影",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -940,7 +836,8 @@
 "hk": "納瓦利",
 "sc": "纳瓦利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -986,7 +883,8 @@
 "hk": "狂喜",
 "sc": "狂喜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1046,7 +944,8 @@
 "hk": "雷迅駒",
 "sc": "雷迅驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1092,7 +991,8 @@
 "hk": "拉雅",
 "sc": "拉雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1152,7 +1052,8 @@
 "hk": "幻星蹄",
 "sc": "幻星蹄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1212,7 +1113,8 @@
 "hk": "銳鋒",
 "sc": "锐锋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1258,7 +1160,8 @@
 "hk": "外出走走",
 "sc": "外出走走",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1318,7 +1221,8 @@
 "hk": "如意寶",
 "sc": "如意宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1364,7 +1268,8 @@
 "hk": "有準備",
 "sc": "有准备",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1410,7 +1315,8 @@
 "hk": "準備啟航",
 "sc": "准备启航",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1429,7 +1335,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-dwayne-dunn",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "race_uid": "aus-2019-1105-香港賽馬會錦標-表列賽",
 "entries": [
 {
@@ -1438,7 +1344,7 @@
 "gear": null,
 "horse_uid": "au-ready-set-sail",
 "jockey_uid": "j-dwayne-dunn",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": 128.0,
 "claim": null,
 "rating": 72,
@@ -1456,7 +1362,8 @@
 "hk": "揚帆啟航",
 "sc": "扬帆启航",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1502,7 +1409,8 @@
 "hk": "衝擊",
 "sc": "冲击",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1604,7 +1512,8 @@
 "hk": "快樂小孩",
 "sc": "快乐小孩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1650,7 +1559,8 @@
 "hk": "明越",
 "sc": "明越",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1705,7 +1615,7 @@
 "draw": 9,
 "gear": "B",
 "horse_uid": "au-real-success",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-michael-clements",
 "lb": 129.0,
 "claim": null,
@@ -1724,7 +1634,8 @@
 "hk": "花域",
 "sc": "花域",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1784,7 +1695,8 @@
 "hk": "捉馬索",
 "sc": "捉马索",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1830,7 +1742,8 @@
 "hk": "桀驁競速",
 "sc": "桀骜竞速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1876,7 +1789,8 @@
 "hk": "週二逆襲",
 "sc": "周二逆袭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1922,7 +1836,8 @@
 "hk": "摯誠推介",
 "sc": "挚诚推介",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -1982,7 +1897,8 @@
 "hk": "偵察任務",
 "sc": "侦察任务",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2084,7 +2000,8 @@
 "hk": "佳態再來",
 "sc": "佳态再来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2158,7 +2075,8 @@
 "hk": "紅色王牌",
 "sc": "红色王牌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2218,7 +2136,8 @@
 "hk": "高品紅",
 "sc": "高品红",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2264,7 +2183,8 @@
 "hk": "紅牌",
 "sc": "红牌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2324,7 +2244,8 @@
 "hk": "紅水晶燈",
 "sc": "红水晶灯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2370,7 +2291,8 @@
 "hk": "紅爪",
 "sc": "红爪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2416,7 +2338,8 @@
 "hk": "赤艷精彩",
 "sc": "赤艳精彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2476,7 +2399,8 @@
 "hk": "赤熱力",
 "sc": "赤热力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2536,7 +2460,8 @@
 "hk": "怒火引發",
 "sc": "怒火引发",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2582,7 +2507,8 @@
 "hk": "火紅頑抗",
 "sc": "火红顽抗",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2628,7 +2554,8 @@
 "hk": "赤浪",
 "sc": "赤浪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2674,7 +2601,8 @@
 "hk": "利到拿來",
 "sc": "利到拿来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2734,7 +2662,8 @@
 "hk": "再加倍",
 "sc": "再加倍",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2780,7 +2709,8 @@
 "hk": "紅達時",
 "sc": "红达时",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2826,7 +2756,8 @@
 "hk": "妙思",
 "sc": "妙思",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2872,7 +2803,8 @@
 "hk": "免行大禮",
 "sc": "免行大礼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2918,7 +2850,8 @@
 "hk": "帝之大志",
 "sc": "帝之大志",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -2964,7 +2897,8 @@
 "hk": "御賞賜",
 "sc": "御赏赐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3108,7 +3042,8 @@
 "hk": "御前密探",
 "sc": "御前密探",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3154,7 +3089,8 @@
 "hk": "帝威宙斯",
 "sc": "帝威宙斯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3228,7 +3164,8 @@
 "hk": "軍樂團",
 "sc": "军乐团",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3274,7 +3211,8 @@
 "hk": "冷血殺手",
 "sc": "冷血杀手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3315,7 +3253,7 @@
 "draw": 5,
 "gear": "B",
 "horse_uid": "au-relentless",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-timothy-fitzsimmons",
 "lb": 126.0,
 "claim": null,
@@ -3348,7 +3286,8 @@
 "hk": "子彈充沛",
 "sc": "子弹充沛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3394,7 +3333,8 @@
 "hk": "印記",
 "sc": "印记",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3413,7 +3353,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-jamie-kah",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "race_uid": "aus-2024-1019-悉尼錦標",
 "entries": [
 {
@@ -3422,7 +3362,7 @@
 "gear": null,
 "horse_uid": "au-remarque",
 "jockey_uid": "j-jamie-kah",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 129.0,
 "claim": null,
 "rating": 112,
@@ -3440,7 +3380,8 @@
 "hk": "岸邊佳釀",
 "sc": "岸边佳酿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3486,7 +3427,8 @@
 "hk": "央行",
 "sc": "央行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3542,7 +3484,7 @@
 "gear": null,
 "horse_uid": "au-reserve-bank",
 "jockey_uid": null,
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3560,7 +3502,8 @@
 "hk": "天然樹脂",
 "sc": "天然树脂",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3620,7 +3563,8 @@
 "hk": "決心",
 "sc": "决心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3638,7 +3582,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-michael-clements",
 "race_uid": "sin-2020-0816-第四班讓賽-1530",
 "entries": [
@@ -3647,7 +3591,7 @@
 "draw": 13,
 "gear": "TT",
 "horse_uid": "au-resolution",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-michael-clements",
 "lb": 112.0,
 "claim": null,
@@ -3666,7 +3610,8 @@
 "hk": "心驛動",
 "sc": "心驿动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3712,7 +3657,8 @@
 "hk": "譽滿歸來",
 "sc": "誉满归来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3758,7 +3704,8 @@
 "hk": "威風力",
 "sc": "威风力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3818,7 +3765,8 @@
 "hk": "大展身手",
 "sc": "大展身手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -3892,7 +3840,8 @@
 "hk": "求變女子",
 "sc": "求变女子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4008,7 +3957,8 @@
 "hk": "萬力王",
 "sc": "万力王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4152,7 +4102,8 @@
 "hk": "巴特勒",
 "sc": "巴特勒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4212,7 +4163,8 @@
 "hk": "羅德紅酒",
 "sc": "罗德红酒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4258,7 +4210,8 @@
 "hk": "真愛韻律",
 "sc": "真爱韵律",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4332,7 +4285,8 @@
 "hk": "貴品精釀",
 "sc": "贵品精酿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4378,7 +4332,8 @@
 "hk": "富有魔力",
 "sc": "富有魔力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4424,7 +4379,8 @@
 "hk": "富有桃子",
 "sc": "富有桃子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4470,7 +4426,8 @@
 "hk": "體態豐盈",
 "sc": "体态丰盈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4489,7 +4446,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "aus-2020-1017-翠士雅錦標",
 "entries": [
 {
@@ -4498,7 +4455,7 @@
 "gear": "TT",
 "horse_uid": "au-rich-hips",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 121.0,
 "claim": null,
 "rating": 96,
@@ -4512,7 +4469,7 @@
 "gear": "TT",
 "horse_uid": "au-rich-hips",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 121.0,
 "claim": null,
 "rating": 96,
@@ -4530,7 +4487,8 @@
 "hk": "豐盈氣泡",
 "sc": "丰盈气泡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4590,7 +4548,8 @@
 "hk": "愛富足",
 "sc": "爱富足",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4636,7 +4595,8 @@
 "hk": "強國",
 "sc": "强国",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4682,7 +4642,8 @@
 "hk": "情報站",
 "sc": "情报站",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4728,7 +4689,8 @@
 "hk": "歷偉度",
 "sc": "历伟度",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4788,7 +4750,8 @@
 "hk": "精華沖天",
 "sc": "精华冲天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4848,7 +4811,8 @@
 "hk": "派對權利",
 "sc": "派对权利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4922,7 +4886,8 @@
 "hk": "確實",
 "sc": "确实",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -4941,7 +4906,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "race_uid": "aus-2023-1021-考菲爾德盃",
 "entries": [
 {
@@ -4950,7 +4915,7 @@
 "gear": "V/TT",
 "horse_uid": "au-right-you-are",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 117.0,
 "claim": null,
 "rating": 114,
@@ -4964,7 +4929,7 @@
 "gear": "V/TT",
 "horse_uid": "au-right-you-are",
 "jockey_uid": "j-john-allen",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 117.0,
 "claim": null,
 "rating": 114,
@@ -4992,7 +4957,7 @@
 "gear": "V2/TT",
 "horse_uid": "au-right-you-are",
 "jockey_uid": "j-dean-yendall",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 121.0,
 "claim": null,
 "rating": 112,
@@ -5010,7 +4975,8 @@
 "hk": "永無敵",
 "sc": "永无敌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5056,7 +5022,8 @@
 "hk": "叮噹鈴聲",
 "sc": "叮当铃声",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5102,7 +5069,8 @@
 "hk": "啟動繩",
 "sc": "启动绳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5148,7 +5116,8 @@
 "hk": "天才雷利",
 "sc": "天才雷利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5194,7 +5163,8 @@
 "hk": "霸王之王",
 "sc": "霸王之王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5254,7 +5224,8 @@
 "hk": "群起而攻",
 "sc": "群起而攻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5314,7 +5285,8 @@
 "hk": "南美名宿",
 "sc": "南美名宿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5416,7 +5388,8 @@
 "hk": "江河神彩",
 "sc": "江河神彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5462,7 +5435,8 @@
 "hk": "寶川",
 "sc": "宝川",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5522,7 +5496,8 @@
 "hk": "農區旋風",
 "sc": "农区旋风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5568,7 +5543,8 @@
 "hk": "聯誠福星",
 "sc": "联诚福星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5628,7 +5604,8 @@
 "hk": "龍步大開",
 "sc": "龙步大开",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5674,7 +5651,8 @@
 "hk": "朗步驥",
 "sc": "朗步骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5720,7 +5698,8 @@
 "hk": "好派頭",
 "sc": "好派头",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5794,7 +5773,8 @@
 "hk": "岩岩之石",
 "sc": "岩岩之石",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5840,7 +5820,8 @@
 "hk": "樂壇霸業",
 "sc": "乐坛霸业",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5886,7 +5867,8 @@
 "hk": "施魔幻",
 "sc": "施魔幻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5932,7 +5914,8 @@
 "hk": "金石山",
 "sc": "金石山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -5978,7 +5961,8 @@
 "hk": "搖滾旋律",
 "sc": "摇滚旋律",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6024,7 +6008,8 @@
 "hk": "石林",
 "sc": "石林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6070,7 +6055,8 @@
 "hk": "香工之星",
 "sc": "香工之星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6116,7 +6102,8 @@
 "hk": "拾金玩意",
 "sc": "拾金玩意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6162,7 +6149,8 @@
 "hk": "火箭雷恩",
 "sc": "火箭雷恩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6236,7 +6224,8 @@
 "hk": "黑桃火箭",
 "sc": "黑桃火箭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6255,7 +6244,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-kerrin-mcevoy",
-"trainer_uid": "t-lance-o-sullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "race_uid": "aus-2021-0410-澳洲打吡",
 "entries": [
 {
@@ -6264,7 +6253,7 @@
 "gear": "B/XB",
 "horse_uid": "au-rocket-spade",
 "jockey_uid": "j-kerrin-mcevoy",
-"trainer_uid": "t-lance-o-sullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "lb": 125.0,
 "claim": null,
 "rating": 109,
@@ -6282,7 +6271,8 @@
 "hk": "火箭星",
 "sc": "火箭星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6356,7 +6346,8 @@
 "hk": "箭步虎",
 "sc": "箭步虎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6402,7 +6393,8 @@
 "hk": "急升火箭",
 "sc": "急升火箭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6504,7 +6496,8 @@
 "hk": "來勁會社",
 "sc": "来劲会社",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6550,7 +6543,8 @@
 "hk": "莉花島",
 "sc": "莉花岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6596,7 +6590,8 @@
 "hk": "堅定如山",
 "sc": "坚定如山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6642,7 +6637,8 @@
 "hk": "明月青天",
 "sc": "明月青天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6688,7 +6684,8 @@
 "hk": "機謀巧取",
 "sc": "机谋巧取",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6734,7 +6731,8 @@
 "hk": "花招展",
 "sc": "花招展",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6808,7 +6806,8 @@
 "hk": "高度期待",
 "sc": "高度期待",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6896,7 +6895,8 @@
 "hk": "滾動石子",
 "sc": "滚动石子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -6942,7 +6942,8 @@
 "hk": "醒目名駒",
 "sc": "醒目名驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7002,7 +7003,8 @@
 "hk": "樂美妮",
 "sc": "乐美妮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7062,7 +7064,8 @@
 "hk": "輪旋曲",
 "sc": "轮旋曲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7108,7 +7111,8 @@
 "hk": "樂貝娜",
 "sc": "乐贝娜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7168,7 +7172,8 @@
 "hk": "花根本艷",
 "sc": "花根本艳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7228,7 +7233,8 @@
 "hk": "紐國月季",
 "sc": "纽国月季",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7274,7 +7280,8 @@
 "hk": "勢力美薇",
 "sc": "势力美薇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7320,7 +7327,8 @@
 "hk": "粉緋晶",
 "sc": "粉绯晶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7366,7 +7374,8 @@
 "hk": "麗善星",
 "sc": "丽善星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7412,7 +7421,8 @@
 "hk": "怒風火",
 "sc": "怒风火",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7556,7 +7566,8 @@
 "hk": "霓虹聲色",
 "sc": "霓虹声色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7602,7 +7613,8 @@
 "hk": "轉盤王",
 "sc": "转盘王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7676,7 +7688,8 @@
 "hk": "遠年琥珀",
 "sc": "远年琥珀",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7722,7 +7735,8 @@
 "hk": "雷伊最強",
 "sc": "雷伊最强",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7782,7 +7796,8 @@
 "hk": "雷伊魔術",
 "sc": "雷伊魔术",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7828,7 +7843,8 @@
 "hk": "利維拉",
 "sc": "利维拉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7874,7 +7890,8 @@
 "hk": "軍爺",
 "sc": "军爷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7920,7 +7937,8 @@
 "hk": "御准上校",
 "sc": "御准上校",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -7966,7 +7984,8 @@
 "hk": "御徽",
 "sc": "御徽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8040,7 +8059,8 @@
 "hk": "御准商號",
 "sc": "御准商号",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8059,7 +8079,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "race_uid": "aus-2023-0218-榮耀錦標",
 "entries": [
 {
@@ -8068,7 +8088,7 @@
 "gear": "TT1",
 "horse_uid": "au-royal-merchant",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 123.0,
 "claim": null,
 "rating": 101,
@@ -8086,7 +8106,8 @@
 "hk": "皇家行宮",
 "sc": "皇家行宫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8146,7 +8167,8 @@
 "hk": "御皇印刷",
 "sc": "御皇印刷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8192,7 +8214,8 @@
 "hk": "宮廷會面",
 "sc": "宫廷会面",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8238,7 +8261,8 @@
 "hk": "嬌貴搖曳",
 "sc": "娇贵摇曳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8284,7 +8308,8 @@
 "hk": "御前演奏",
 "sc": "御前演奏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8330,7 +8355,8 @@
 "hk": "皇家房車",
 "sc": "皇家房车",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8376,7 +8402,8 @@
 "hk": "皇族",
 "sc": "皇族",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8422,7 +8449,8 @@
 "hk": "小旋風",
 "sc": "小旋风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8468,7 +8496,8 @@
 "hk": "露比莎琪",
 "sc": "露比莎琪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8528,7 +8557,8 @@
 "hk": "紅寶飛駿",
 "sc": "红宝飞骏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8588,7 +8618,8 @@
 "hk": "火曜紅寶",
 "sc": "火曜红宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8634,7 +8665,8 @@
 "hk": "RUBYLOT (AUS)",
 "sc": "RUBYLOT (AUS)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8680,7 +8712,8 @@
 "hk": "翻天覆地",
 "sc": "翻天覆地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8740,7 +8773,8 @@
 "hk": "法之治",
 "sc": "法之治",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8786,7 +8820,8 @@
 "hk": "隆隆再響",
 "sc": "隆隆再响",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8874,7 +8909,8 @@
 "hk": "奔跑小狐",
 "sc": "奔跑小狐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8934,7 +8970,8 @@
 "hk": "哈仔快跑",
 "sc": "哈仔快跑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -8994,7 +9031,8 @@
 "hk": "跑來安",
 "sc": "跑来安",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9054,7 +9092,8 @@
 "hk": "勢頭猛",
 "sc": "势头猛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9073,7 +9112,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2018-1106-墨爾本盃",
 "entries": [
 {
@@ -9082,7 +9121,7 @@
 "gear": null,
 "horse_uid": "au-runaway",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 115.0,
 "claim": null,
 "rating": 102,
@@ -9096,7 +9135,7 @@
 "gear": null,
 "horse_uid": "au-runaway",
 "jockey_uid": null,
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9110,7 +9149,7 @@
 "gear": null,
 "horse_uid": "au-runaway",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 126.0,
 "claim": null,
 "rating": 101,
@@ -9128,7 +9167,8 @@
 "hk": "明德賓得",
 "sc": "明德宾得",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9174,7 +9214,8 @@
 "hk": "跑過",
 "sc": "跑过",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9248,7 +9289,8 @@
 "hk": "奔跑吧",
 "sc": "奔跑吧",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9294,7 +9336,8 @@
 "hk": "東歐遊族",
 "sc": "东欧游族",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9368,7 +9411,8 @@
 "hk": "俄式變革",
 "sc": "俄式变革",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9414,7 +9458,8 @@
 "hk": "俄羅斯島",
 "sc": "俄罗斯岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9460,7 +9505,8 @@
 "hk": "俄式旋轉",
 "sc": "俄式旋转",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9478,7 +9524,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-james-peters",
 "race_uid": "sin-2022-0717-第五班讓賽",
 "entries": [
@@ -9487,7 +9533,7 @@
 "draw": 1,
 "gear": "V/TT",
 "horse_uid": "au-russian-twist",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-james-peters",
 "lb": 130.0,
 "claim": null,
@@ -9506,7 +9552,8 @@
 "hk": "雷厲寶冠",
 "sc": "雷厉宝冠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9552,7 +9599,8 @@
 "hk": "質樸鋼件",
 "sc": "质朴钢件",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9626,7 +9674,8 @@
 "hk": "瑞士雪鎮",
 "sc": "瑞士雪镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9672,7 +9721,8 @@
 "hk": "勝步",
 "sc": "胜步",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9798,7 +9848,7 @@
 "gear": null,
 "horse_uid": "au-sabaj",
 "jockey_uid": null,
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9830,7 +9880,8 @@
 "hk": "先步",
 "sc": "先步",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9876,7 +9927,8 @@
 "hk": "西岸名城",
 "sc": "西岸名城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9895,7 +9947,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-adam-hyeronimus",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2020-0404-澳洲打吡",
 "entries": [
 {
@@ -9904,7 +9956,7 @@
 "gear": "B",
 "horse_uid": "au-sacramento",
 "jockey_uid": "j-adam-hyeronimus",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 125.0,
 "claim": null,
 "rating": 83,
@@ -9918,7 +9970,7 @@
 "gear": "B",
 "horse_uid": "au-sacramento",
 "jockey_uid": "j-sam-clipperton",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 120.0,
 "claim": null,
 "rating": 99,
@@ -9936,7 +9988,8 @@
 "hk": "神聖飛鷹",
 "sc": "神圣飞鹰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -9982,7 +10035,8 @@
 "hk": "聖靈之禮",
 "sc": "圣灵之礼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10000,7 +10054,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-mark-walker",
 "race_uid": "sin-2020-1121-克蘭芝b級錦標",
 "entries": [
@@ -10009,7 +10063,7 @@
 "draw": 5,
 "gear": "TT",
 "horse_uid": "au-sacred-gift",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-mark-walker",
 "lb": 118.0,
 "claim": null,
@@ -10070,7 +10124,8 @@
 "hk": "聖裁",
 "sc": "圣裁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10172,7 +10227,8 @@
 "hk": "非同凡響",
 "sc": "非同凡响",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10218,7 +10274,8 @@
 "hk": "聖靈之物",
 "sc": "圣灵之物",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10264,7 +10321,8 @@
 "hk": "聖抗士",
 "sc": "圣抗士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10282,7 +10340,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-mark-walker",
 "race_uid": "sin-2021-0522-克蘭芝a級賽",
 "entries": [
@@ -10291,7 +10349,7 @@
 "draw": 10,
 "gear": "TT",
 "horse_uid": "au-sacred-rebel",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-mark-walker",
 "lb": 126.0,
 "claim": null,
@@ -10324,7 +10382,8 @@
 "hk": "古淘金鎮",
 "sc": "古淘金镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10370,7 +10429,8 @@
 "hk": "濃厚佳釀",
 "sc": "浓厚佳酿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10444,7 +10504,8 @@
 "hk": "聖特羅佩",
 "sc": "圣特罗佩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10490,7 +10551,8 @@
 "hk": "暴飛龍",
 "sc": "暴飞龙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10536,7 +10598,8 @@
 "hk": "海鹽如花",
 "sc": "海盐如花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10624,7 +10687,8 @@
 "hk": "鹽路古道",
 "sc": "盐路古道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10670,7 +10734,8 @@
 "hk": "王道",
 "sc": "王道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10716,7 +10781,8 @@
 "hk": "辣伙子",
 "sc": "辣伙子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10776,7 +10842,8 @@
 "hk": "樣板小村",
 "sc": "样板小村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10864,7 +10931,8 @@
 "hk": "鹽花珠",
 "sc": "盐花珠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -10952,7 +11020,8 @@
 "hk": "敬禮儀式",
 "sc": "敬礼仪式",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11012,7 +11081,8 @@
 "hk": "森之影像",
 "sc": "森之影像",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11058,7 +11128,8 @@
 "hk": "生猛",
 "sc": "生猛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11104,7 +11175,8 @@
 "hk": "隱密文章",
 "sc": "隐密文章",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11150,7 +11222,8 @@
 "hk": "俄式茶壺",
 "sc": "俄式茶壶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11196,7 +11269,8 @@
 "hk": "勝百驥",
 "sc": "胜百骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11242,7 +11316,8 @@
 "hk": "聖殿",
 "sc": "圣殿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11302,7 +11377,8 @@
 "hk": "瑰美黃鑽",
 "sc": "瑰美黄钻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11348,7 +11424,8 @@
 "hk": "河口沙洲",
 "sc": "河口沙洲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11408,7 +11485,8 @@
 "hk": "砂紙工夫",
 "sc": "砂纸工夫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11496,7 +11574,8 @@
 "hk": "水果酒",
 "sc": "水果酒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11542,7 +11621,8 @@
 "hk": "毫不懷疑",
 "sc": "毫不怀疑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11630,7 +11710,8 @@
 "hk": "聖雅勒徑",
 "sc": "圣雅勒径",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11676,7 +11757,8 @@
 "hk": "加城明月",
 "sc": "加城明月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11722,7 +11804,8 @@
 "hk": "爽天時間",
 "sc": "爽天时间",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11768,7 +11851,8 @@
 "hk": "桑迪諾",
 "sc": "桑迪诺",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11814,7 +11898,8 @@
 "hk": "環島度夏",
 "sc": "环岛度夏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11860,7 +11945,8 @@
 "hk": "聖托斯",
 "sc": "圣托斯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11879,7 +11965,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2018-0324-金拖鞋大賽",
 "entries": [
 {
@@ -11888,7 +11974,7 @@
 "gear": null,
 "horse_uid": "au-santos",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 125.0,
 "claim": null,
 "rating": null,
@@ -11902,7 +11988,7 @@
 "gear": null,
 "horse_uid": "au-santos",
 "jockey_uid": null,
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11920,7 +12006,8 @@
 "hk": "藍寶妖姬",
 "sc": "蓝宝妖姬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -11966,7 +12053,8 @@
 "hk": "史丹警長",
 "sc": "史丹警长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12012,7 +12100,8 @@
 "hk": "媚惑傾城",
 "sc": "媚惑倾城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12086,7 +12175,8 @@
 "hk": "嬌蠻娃娃",
 "sc": "娇蛮娃娃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12132,7 +12222,8 @@
 "hk": "絲絲細雨",
 "sc": "丝丝细雨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12192,7 +12283,8 @@
 "hk": "禮拜六",
 "sc": "礼拜六",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12238,7 +12330,8 @@
 "hk": "冰上得食",
 "sc": "冰上得食",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12284,7 +12377,8 @@
 "hk": "狂野氣息",
 "sc": "狂野气息",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12330,7 +12424,8 @@
 "hk": "愛凡納",
 "sc": "爱凡纳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12371,7 +12466,7 @@
 "draw": 20,
 "gear": "B",
 "horse_uid": "au-savanna-amour",
-"jockey_uid": "j-ron-stewart",
+"jockey_uid": "j-ronald-stewart",
 "trainer_uid": "t-chris-meagher",
 "lb": 118.0,
 "claim": null,
@@ -12390,7 +12485,8 @@
 "hk": "白葡萄",
 "sc": "白葡萄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12478,7 +12574,8 @@
 "hk": "先發到",
 "sc": "先发到",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12524,7 +12621,8 @@
 "hk": "常綠省",
 "sc": "常绿省",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12570,7 +12668,8 @@
 "hk": "雪山公國",
 "sc": "雪山公国",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12589,7 +12688,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "race_uid": "aus-2026-0919-指標評分84讓賽",
 "entries": [
 {
@@ -12598,7 +12697,7 @@
 "gear": null,
 "horse_uid": "au-savoyard",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 117.0,
 "claim": null,
 "rating": 67,
@@ -12616,7 +12715,8 @@
 "hk": "叻凱麗",
 "sc": "叻凯丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12704,7 +12804,8 @@
 "hk": "碩信勇銳",
 "sc": "硕信勇锐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12764,7 +12865,8 @@
 "hk": "路軌小車",
 "sc": "路轨小车",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12810,7 +12912,8 @@
 "hk": "奇味無窮",
 "sc": "奇味无穷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12856,7 +12959,8 @@
 "hk": "奔跑為樂",
 "sc": "奔跑为乐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12902,7 +13006,8 @@
 "hk": "科幻漫畫",
 "sc": "科幻漫画",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12948,7 +13053,8 @@
 "hk": "鮮紅橡",
 "sc": "鲜红橡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -12994,7 +13100,8 @@
 "hk": "瑩彩寶",
 "sc": "莹彩宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13082,7 +13189,8 @@
 "hk": "青銅禮品",
 "sc": "青铜礼品",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13128,7 +13236,8 @@
 "hk": "好瑩好瑩",
 "sc": "好莹好莹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13174,7 +13283,8 @@
 "hk": "玄勝驥",
 "sc": "玄胜骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13276,7 +13386,8 @@
 "hk": "輝華閃",
 "sc": "辉华闪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13322,7 +13433,8 @@
 "hk": "亮光一閃",
 "sc": "亮光一闪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13368,7 +13480,8 @@
 "hk": "電影大師",
 "sc": "电影大师",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13414,7 +13527,8 @@
 "hk": "螢幕名花",
 "sc": "萤幕名花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13488,7 +13602,8 @@
 "hk": "超強車隊",
 "sc": "超强车队",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13534,7 +13649,8 @@
 "hk": "航海時代",
 "sc": "航海时代",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13580,7 +13696,8 @@
 "hk": "醒狐",
 "sc": "醒狐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13626,7 +13743,8 @@
 "hk": "高級會所",
 "sc": "高级会所",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13645,7 +13763,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "race_uid": "aus-2023-1014-銀鷹錦標",
 "entries": [
 {
@@ -13654,7 +13772,7 @@
 "gear": "B",
 "horse_uid": "au-sebonack",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": 96,
@@ -13672,7 +13790,8 @@
 "hk": "識飆駒",
 "sc": "识飙驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13718,7 +13837,8 @@
 "hk": "西奔夕陽",
 "sc": "西奔夕阳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13764,7 +13884,8 @@
 "hk": "二發槍彈",
 "sc": "二发枪弹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13824,7 +13945,8 @@
 "hk": "秘密議程",
 "sc": "秘密议程",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13870,7 +13992,8 @@
 "hk": "誘惑奧祕",
 "sc": "诱惑奥秘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13916,7 +14039,8 @@
 "hk": "瞞天女子",
 "sc": "瞒天女子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -13976,7 +14100,8 @@
 "hk": "密謀",
 "sc": "密谋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14022,7 +14147,8 @@
 "hk": "秘密勝利",
 "sc": "秘密胜利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14068,7 +14194,8 @@
 "hk": "西舞嫡傳",
 "sc": "西舞嫡传",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14087,7 +14214,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "jra-2019-0413-草上女皇錦標",
 "entries": [
 {
@@ -14096,7 +14223,7 @@
 "gear": "B2",
 "horse_uid": "au-sedanzer",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 126.0,
 "claim": null,
 "rating": 106,
@@ -14114,7 +14241,8 @@
 "hk": "魅惑女君",
 "sc": "魅惑女君",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14160,7 +14288,8 @@
 "hk": "看瑪利",
 "sc": "看玛利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14206,7 +14335,8 @@
 "hk": "看我本領",
 "sc": "看我本领",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14252,7 +14382,8 @@
 "hk": "重逢",
 "sc": "重逢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14298,7 +14429,8 @@
 "hk": "再相見",
 "sc": "再相见",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14317,7 +14449,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "race_uid": "aus-2023-0218-榮耀錦標",
 "entries": [
 {
@@ -14326,7 +14458,7 @@
 "gear": "B",
 "horse_uid": "au-see-you-in-heaven",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 129.0,
 "claim": null,
 "rating": 103,
@@ -14340,7 +14472,7 @@
 "gear": "B",
 "horse_uid": "au-see-you-in-heaven",
 "jockey_uid": "j-jake-toeroek",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 126.0,
 "claim": null,
 "rating": 104,
@@ -14354,7 +14486,7 @@
 "gear": "B",
 "horse_uid": "au-see-you-in-heaven",
 "jockey_uid": "j-jamie-kah",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 126.0,
 "claim": null,
 "rating": 103,
@@ -14372,7 +14504,8 @@
 "hk": "有緣再見",
 "sc": "有缘再见",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14418,7 +14551,8 @@
 "hk": "抓緊每天",
 "sc": "抓紧每天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14464,7 +14598,8 @@
 "hk": "山居族",
 "sc": "山居族",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14483,7 +14618,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "race_uid": "aus-2023-1014-高明錦標",
 "entries": [
 {
@@ -14492,7 +14627,7 @@
 "gear": "BO",
 "horse_uid": "au-sekani",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": null,
@@ -14510,7 +14645,8 @@
 "hk": "花玫瑰",
 "sc": "花玫瑰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14556,7 +14692,8 @@
 "hk": "自強不息",
 "sc": "自强不息",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14575,7 +14712,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "race_uid": "kor-2025-0905-韓國短途錦標及韓國盃",
 "entries": [
 {
@@ -14584,7 +14721,7 @@
 "gear": null,
 "horse_uid": "au-self-improvement",
 "jockey_uid": null,
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14598,7 +14735,7 @@
 "gear": "B/TT",
 "horse_uid": "au-self-improvement",
 "jockey_uid": "j-h-t-mo",
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "lb": 128.0,
 "claim": null,
 "rating": 108,
@@ -14612,7 +14749,7 @@
 "gear": "B/TT",
 "horse_uid": "au-self-improvement",
 "jockey_uid": "j-c-l-chau",
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "lb": 126.0,
 "claim": null,
 "rating": 110,
@@ -14630,7 +14767,8 @@
 "hk": "勇探索",
 "sc": "勇探索",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14676,7 +14814,8 @@
 "hk": "七曜",
 "sc": "七曜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14764,7 +14903,8 @@
 "hk": "言下之意",
 "sc": "言下之意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14824,7 +14964,8 @@
 "hk": "多巴先生",
 "sc": "多巴先生",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14884,7 +15025,8 @@
 "hk": "隆重感覺",
 "sc": "隆重感觉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -14944,7 +15086,8 @@
 "hk": "燃愛火",
 "sc": "燃爱火",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15004,7 +15147,8 @@
 "hk": "花之萼",
 "sc": "花之萼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15023,7 +15167,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "race_uid": "aus-2025-1011-杜勒讓賽",
 "entries": [
 {
@@ -15032,7 +15176,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 126.0,
 "claim": null,
 "rating": 109,
@@ -15046,7 +15190,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 123.0,
 "claim": null,
 "rating": 114,
@@ -15060,7 +15204,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-tommy-berry",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 131.0,
 "claim": null,
 "rating": 110,
@@ -15074,7 +15218,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 121.0,
 "claim": null,
 "rating": 114,
@@ -15088,7 +15232,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 125.0,
 "claim": null,
 "rating": 114,
@@ -15102,7 +15246,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 130.0,
 "claim": null,
 "rating": 114,
@@ -15116,7 +15260,7 @@
 "gear": null,
 "horse_uid": "au-sepals",
 "jockey_uid": null,
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -15130,7 +15274,7 @@
 "gear": null,
 "horse_uid": "au-sepals",
 "jockey_uid": null,
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -15148,7 +15292,8 @@
 "hk": "九月飛馳",
 "sc": "九月飞驰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15222,7 +15367,8 @@
 "hk": "靜謐離塵",
 "sc": "静谧离尘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15268,7 +15414,8 @@
 "hk": "亮片流彩",
 "sc": "亮片流彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15314,7 +15461,8 @@
 "hk": "千嬌態",
 "sc": "千娇态",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15360,7 +15508,8 @@
 "hk": "異國情調",
 "sc": "异国情调",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15379,7 +15528,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-blake-shinn",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "aus-2022-1101-柏文錦標-表列賽",
 "entries": [
 {
@@ -15388,7 +15537,7 @@
 "gear": "TT",
 "horse_uid": "au-serangoon",
 "jockey_uid": "j-blake-shinn",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 126.0,
 "claim": null,
 "rating": 62,
@@ -15406,7 +15555,8 @@
 "hk": "熾天狐",
 "sc": "炽天狐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15480,7 +15630,8 @@
 "hk": "心靈通",
 "sc": "心灵通",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15526,7 +15677,8 @@
 "hk": "夜靜幻夢",
 "sc": "夜静幻梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15572,7 +15724,8 @@
 "hk": "心中有馬",
 "sc": "心中有马",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15618,7 +15771,8 @@
 "hk": "疾迅路",
 "sc": "疾迅路",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15637,7 +15791,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-ben-melham",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "race_uid": "aus-2023-0218-全球匯合彩池讓賽",
 "entries": [
 {
@@ -15646,7 +15800,7 @@
 "gear": null,
 "horse_uid": "au-sessions-road",
 "jockey_uid": "j-ben-melham",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 123.0,
 "claim": null,
 "rating": 76,
@@ -15664,7 +15818,8 @@
 "hk": "勝意步",
 "sc": "胜意步",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15766,7 +15921,8 @@
 "hk": "勁猛勢",
 "sc": "劲猛势",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15812,7 +15968,8 @@
 "hk": "玫瑰色彩",
 "sc": "玫瑰色彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15858,7 +16015,8 @@
 "hk": "獨角羚",
 "sc": "独角羚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15946,7 +16104,8 @@
 "hk": "影子英雄",
 "sc": "影子英雄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -15992,7 +16151,8 @@
 "hk": "愛神倩影",
 "sc": "爱神倩影",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16038,7 +16198,8 @@
 "hk": "上古神明",
 "sc": "上古神明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16084,7 +16245,8 @@
 "hk": "醒樂天",
 "sc": "醒乐天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16130,7 +16292,8 @@
 "hk": "亞述國君",
 "sc": "亚述国君",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16176,7 +16339,8 @@
 "hk": "雜念",
 "sc": "杂念",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16236,7 +16400,8 @@
 "hk": "尚名廬",
 "sc": "尚名庐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16282,7 +16447,8 @@
 "hk": "淌水",
 "sc": "淌水",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16328,7 +16494,8 @@
 "hk": "蓬萊仙泉",
 "sc": "蓬莱仙泉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16402,7 +16569,8 @@
 "hk": "勢奇奧",
 "sc": "势奇奥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16462,7 +16630,8 @@
 "hk": "大股東",
 "sc": "大股东",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16508,7 +16677,8 @@
 "hk": "速見效",
 "sc": "速见效",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16554,7 +16724,8 @@
 "hk": "智掠妙取",
 "sc": "智掠妙取",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16600,7 +16771,8 @@
 "hk": "霓裳舞",
 "sc": "霓裳舞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16646,7 +16818,8 @@
 "hk": "勇女",
 "sc": "勇女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16692,7 +16865,8 @@
 "hk": "成事叻女",
 "sc": "成事叻女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16752,7 +16926,8 @@
 "hk": "女莊家",
 "sc": "女庄家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16812,7 +16987,8 @@
 "hk": "通才女子",
 "sc": "通才女子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16858,7 +17034,8 @@
 "hk": "刀槍不入",
 "sc": "刀枪不入",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16932,7 +17109,8 @@
 "hk": "異族姿容",
 "sc": "异族姿容",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -16978,7 +17156,8 @@
 "hk": "卿卿超逸",
 "sc": "卿卿超逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17024,7 +17203,8 @@
 "hk": "臻極姑娘",
 "sc": "臻极姑娘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17070,7 +17250,8 @@
 "hk": "健美娃",
 "sc": "健美娃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17116,7 +17297,8 @@
 "hk": "活潑彩花",
 "sc": "活泼彩花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17190,7 +17372,8 @@
 "hk": "獨酌嬌嬈",
 "sc": "独酌娇娆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17236,7 +17419,8 @@
 "hk": "心水嬌娃",
 "sc": "心水娇娃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17245,19 +17429,47 @@
 "birth_date": null,
 "birth_year": 2016,
 "color": null,
-"age": 6,
-"rating": 111,
-"lb": 115.0,
-"no": 14,
-"draw": 5,
-"gear": "B2",
+"age": null,
+"rating": null,
+"lb": null,
+"no": null,
+"draw": null,
+"gear": null,
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-craig-newitt",
+"jockey_uid": null,
 "trainer_uid": "t-bjorn-baker",
-"race_uid": "aus-2021-考菲爾德盃",
+"race_uid": "aus-2021-1014-考菲爾德盃",
 "entries": [
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "au-she-s-ideel",
+"jockey_uid": null,
+"trainer_uid": "t-bjorn-baker",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "aus-2021-1014-考菲爾德盃"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "au-she-s-ideel",
+"jockey_uid": null,
+"trainer_uid": "t-bjorn-baker",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "aus-2021-墨爾本盃"
+},
 {
 "no": 14,
 "draw": 5,
@@ -17296,7 +17508,8 @@
 "hk": "世俗芳華",
 "sc": "世俗芳华",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17342,7 +17555,8 @@
 "hk": "完美化身",
 "sc": "完美化身",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17388,7 +17602,8 @@
 "hk": "女飛人",
 "sc": "女飞人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17434,7 +17649,8 @@
 "hk": "女王儲",
 "sc": "女王储",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17480,7 +17696,8 @@
 "hk": "聲聲鏗鏘",
 "sc": "声声铿锵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17540,7 +17757,8 @@
 "hk": "嬌態迷人",
 "sc": "娇态迷人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17586,7 +17804,8 @@
 "hk": "聳動",
 "sc": "耸动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17632,7 +17851,8 @@
 "hk": "名跑車",
 "sc": "名跑车",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17720,7 +17940,8 @@
 "hk": "司法長官",
 "sc": "司法长官",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17766,7 +17987,8 @@
 "hk": "雪活林",
 "sc": "雪活林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17805,66 +18027,6 @@
 ]
 },
 {
-"uid": "au-shes-ideel",
-"names": {
-"original": "SHE’S IDEEL",
-"en": "SHE’S IDEEL",
-"hk": "心水嬌娃",
-"sc": "心水娇娃",
-"own": null,
-"alias": []
-},
-"origin": "AUS",
-"country": "澳洲",
-"sex": null,
-"sex_cn": "",
-"birth_date": null,
-"birth_year": null,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-bjorn-baker",
-"race_uid": "aus-2021-1014-考菲爾德盃",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "au-shes-ideel",
-"jockey_uid": null,
-"trainer_uid": "t-bjorn-baker",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "aus-2021-1014-考菲爾德盃"
-},
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "au-shes-ideel",
-"jockey_uid": null,
-"trainer_uid": "t-bjorn-baker",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "aus-2021-墨爾本盃"
-}
-]
-},
-{
 "uid": "au-shesallshenanigans",
 "names": {
 "original": "Shesallshenanigans",
@@ -17872,7 +18034,8 @@
 "hk": "好把戲",
 "sc": "好把戏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17918,7 +18081,8 @@
 "hk": "仙驊",
 "sc": "仙骅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -17964,7 +18128,8 @@
 "hk": "紅妝力證",
 "sc": "红妆力证",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18080,7 +18245,8 @@
 "hk": "一線女星",
 "sc": "一线女星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18154,7 +18320,8 @@
 "hk": "一年四季",
 "sc": "一年四季",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18200,7 +18367,8 @@
 "hk": "亮出真我",
 "sc": "亮出真我",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18246,7 +18414,8 @@
 "hk": "核心",
 "sc": "核心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18306,7 +18475,8 @@
 "hk": "仙玉液",
 "sc": "仙玉液",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18352,7 +18522,8 @@
 "hk": "短跑飛將",
 "sc": "短跑飞将",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18398,7 +18569,8 @@
 "hk": "淺灘",
 "sc": "浅滩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18444,7 +18616,8 @@
 "hk": "勝局",
 "sc": "胜局",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18490,7 +18663,8 @@
 "hk": "狩獵速行",
 "sc": "狩猎速行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18536,7 +18710,8 @@
 "hk": "賞太郎",
 "sc": "赏太郎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18582,7 +18757,8 @@
 "hk": "勝局大定",
 "sc": "胜局大定",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18601,7 +18777,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2021-0410-唐加士打一哩賽",
 "entries": [
 {
@@ -18610,7 +18786,7 @@
 "gear": "B",
 "horse_uid": "au-shout-the-bar",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 118.0,
 "claim": null,
 "rating": 110,
@@ -18624,7 +18800,7 @@
 "gear": null,
 "horse_uid": "au-shout-the-bar",
 "jockey_uid": "j-adam-hyeronimus",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 123.0,
 "claim": null,
 "rating": 109,
@@ -18638,7 +18814,7 @@
 "gear": "B",
 "horse_uid": "au-shout-the-bar",
 "jockey_uid": "j-nash-rawiller",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 126.0,
 "claim": null,
 "rating": 110,
@@ -18656,7 +18832,8 @@
 "hk": "展吼聲",
 "sc": "展吼声",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18702,7 +18879,8 @@
 "hk": "星級場",
 "sc": "星级场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18748,7 +18926,8 @@
 "hk": "表演時間",
 "sc": "表演时间",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18794,7 +18973,8 @@
 "hk": "曳步多姿",
 "sc": "曳步多姿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18882,7 +19062,8 @@
 "hk": "羞勁男子",
 "sc": "羞劲男子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -18928,7 +19109,8 @@
 "hk": "暹羅玉蘭",
 "sc": "暹罗玉兰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19002,7 +19184,8 @@
 "hk": "暹羅麗人",
 "sc": "暹罗丽人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19048,7 +19231,8 @@
 "hk": "暹羅戰士",
 "sc": "暹罗战士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19108,7 +19292,8 @@
 "hk": "魁省戰役",
 "sc": "魁省战役",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19127,7 +19312,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-michael-walker",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2018-1027-水晶一哩賽",
 "entries": [
 {
@@ -19136,7 +19321,7 @@
 "gear": "B/TT",
 "horse_uid": "au-siege-of-quebec",
 "jockey_uid": "j-michael-walker",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 129.0,
 "claim": null,
 "rating": 113,
@@ -19154,7 +19339,8 @@
 "hk": "好眼光",
 "sc": "好眼光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19196,7 +19382,7 @@
 "gear": "E/PC1",
 "horse_uid": "au-sight-success",
 "jockey_uid": "j-ryan-moore",
-"trainer_uid": "t-j-size",
+"trainer_uid": "t-john-size",
 "lb": 130.0,
 "claim": null,
 "rating": 112,
@@ -19214,7 +19400,8 @@
 "hk": "世遺石堡",
 "sc": "世遗石堡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19260,7 +19447,8 @@
 "hk": "甜品君子",
 "sc": "甜品君子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19320,7 +19508,8 @@
 "hk": "狐狸大爺",
 "sc": "狐狸大爷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19380,7 +19569,8 @@
 "hk": "靜靜衝擊",
 "sc": "静静冲击",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19426,7 +19616,8 @@
 "hk": "沉默是金",
 "sc": "沉默是金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19472,7 +19663,8 @@
 "hk": "潛移默化",
 "sc": "潜移默化",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19546,7 +19738,8 @@
 "hk": "心靜悅服",
 "sc": "心静悦服",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19592,7 +19785,8 @@
 "hk": "豐盛",
 "sc": "丰盛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19638,7 +19832,8 @@
 "hk": "旋風刀",
 "sc": "旋风刀",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19684,7 +19879,8 @@
 "hk": "銀衣女",
 "sc": "银衣女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19730,7 +19926,8 @@
 "hk": "銀鋒劍",
 "sc": "银锋剑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19776,7 +19973,8 @@
 "hk": "贏星樂",
 "sc": "赢星乐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19822,7 +20020,8 @@
 "hk": "銀婚",
 "sc": "银婚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19882,7 +20081,8 @@
 "hk": "銀狼",
 "sc": "银狼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19928,7 +20128,8 @@
 "hk": "銀冠閃爍",
 "sc": "银冠闪烁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -19974,7 +20175,8 @@
 "hk": "簡明",
 "sc": "简明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20020,7 +20222,8 @@
 "hk": "SINBA (AUS)",
 "sc": "SINBA (AUS)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20066,7 +20269,8 @@
 "hk": "昇瀧駒",
 "sc": "升泷驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20085,7 +20289,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-karis-teetan",
-"trainer_uid": "t-w-y-so",
+"trainer_uid": "t-chris-so",
 "race_uid": "me-2026-0228-北風錦標",
 "entries": [
 {
@@ -20094,7 +20298,7 @@
 "gear": "P1/TT",
 "horse_uid": "au-sing-dragon",
 "jockey_uid": "j-karis-teetan",
-"trainer_uid": "t-w-y-so",
+"trainer_uid": "t-chris-so",
 "lb": 126.0,
 "claim": null,
 "rating": 100,
@@ -20112,7 +20316,8 @@
 "hk": "熱唱歌星",
 "sc": "热唱歌星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20158,7 +20363,8 @@
 "hk": "獨一心水",
 "sc": "独一心水",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20232,7 +20438,8 @@
 "hk": "一看動人",
 "sc": "一看动人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20320,7 +20527,8 @@
 "hk": "夏姆淺嚐",
 "sc": "夏姆浅尝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20366,7 +20574,8 @@
 "hk": "傲天爵",
 "sc": "傲天爵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20385,7 +20594,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-braith-nock",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "race_uid": "aus-2025-1018-香港賽馬會全球匯合彩池讓賽",
 "entries": [
 {
@@ -20394,7 +20603,7 @@
 "gear": "CP",
 "horse_uid": "au-sir-artie",
 "jockey_uid": "j-braith-nock",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 132.0,
 "claim": null,
 "rating": 88,
@@ -20408,7 +20617,7 @@
 "gear": "CP",
 "horse_uid": "au-sir-artie",
 "jockey_uid": "j-kerrin-mcevoy",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 88,
@@ -20422,7 +20631,7 @@
 "gear": "CP",
 "horse_uid": "au-sir-artie",
 "jockey_uid": "j-nash-rawiller",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 127.0,
 "claim": null,
 "rating": 83,
@@ -20440,7 +20649,8 @@
 "hk": "查爾道",
 "sc": "查尔道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20459,7 +20669,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-dwayne-dunn",
-"trainer_uid": "t-lance-o-sullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "race_uid": "aus-2018-1106-墨爾本盃",
 "entries": [
 {
@@ -20468,7 +20678,7 @@
 "gear": "B/TT",
 "horse_uid": "au-sir-charles-road",
 "jockey_uid": "j-dwayne-dunn",
-"trainer_uid": "t-lance-o-sullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "lb": 117.0,
 "claim": null,
 "rating": 102,
@@ -20482,7 +20692,7 @@
 "gear": null,
 "horse_uid": "au-sir-charles-road",
 "jockey_uid": null,
-"trainer_uid": "t-lance-osullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20496,7 +20706,7 @@
 "gear": "B/TT",
 "horse_uid": "au-sir-charles-road",
 "jockey_uid": "j-andrew-adkins",
-"trainer_uid": "t-lance-o-sullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "lb": 123.0,
 "claim": null,
 "rating": 102,
@@ -20510,7 +20720,7 @@
 "gear": "B/TT",
 "horse_uid": "au-sir-charles-road",
 "jockey_uid": "j-andrew-adkins",
-"trainer_uid": "t-lance-o-sullivan-andrew-scott",
+"trainer_uid": "t-l-o-sullivan-a-scott",
 "lb": 117.0,
 "claim": null,
 "rating": 103,
@@ -20528,7 +20738,8 @@
 "hk": "戴威爵士",
 "sc": "戴威爵士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20588,7 +20799,8 @@
 "hk": "法國先生",
 "sc": "法国先生",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20634,7 +20846,8 @@
 "hk": "艾薩爵士",
 "sc": "艾萨爵士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20680,7 +20893,8 @@
 "hk": "勁放勇爵",
 "sc": "劲放勇爵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20754,7 +20968,8 @@
 "hk": "明高尊駕",
 "sc": "明高尊驾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20800,7 +21015,8 @@
 "hk": "名流說客",
 "sc": "名流说客",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20860,7 +21076,8 @@
 "hk": "笑傲狂心",
 "sc": "笑傲狂心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20879,7 +21096,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "race_uid": "jra-2026-0411-南太平洋經典賽-表列賽",
 "entries": [
 {
@@ -20888,7 +21105,7 @@
 "gear": null,
 "horse_uid": "au-siragusa",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 117.0,
 "claim": null,
 "rating": 65,
@@ -20906,7 +21123,8 @@
 "hk": "海魔狂怒",
 "sc": "海魔狂怒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -20952,7 +21170,8 @@
 "hk": "狼獅嬌",
 "sc": "狼狮娇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21026,7 +21245,8 @@
 "hk": "星的疑惑",
 "sc": "星的疑惑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21086,7 +21306,8 @@
 "hk": "極其熱",
 "sc": "极其热",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21132,7 +21353,8 @@
 "hk": "月姐姐",
 "sc": "月姐姐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21178,7 +21400,8 @@
 "hk": "六十風度",
 "sc": "六十风度",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21280,7 +21503,8 @@
 "hk": "極熱一瞬",
 "sc": "极热一瞬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21326,7 +21550,8 @@
 "hk": "熱熾飛揚",
 "sc": "热炽飞扬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21372,7 +21597,8 @@
 "hk": "熾熱芳心",
 "sc": "炽热芳心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21432,7 +21658,8 @@
 "hk": "速寫",
 "sc": "速写",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21478,7 +21705,8 @@
 "hk": "宏偉山峰",
 "sc": "宏伟山峰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21524,7 +21752,8 @@
 "hk": "小戰鬥",
 "sc": "小战斗",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21570,7 +21799,8 @@
 "hk": "遊走法律",
 "sc": "游走法律",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21616,7 +21846,8 @@
 "hk": "海盜鳥",
 "sc": "海盗鸟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21676,7 +21907,8 @@
 "hk": "天機令",
 "sc": "天机令",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21722,7 +21954,8 @@
 "hk": "太空實驗",
 "sc": "太空实验",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21810,7 +22043,8 @@
 "hk": "SKY TRUST (AUS)",
 "sc": "SKY TRUST (AUS)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -21870,7 +22104,8 @@
 "hk": "天鳥飛",
 "sc": "天鸟飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22042,7 +22277,8 @@
 "hk": "滑翔機",
 "sc": "滑翔机",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22088,7 +22324,8 @@
 "hk": "天鈎攻籃",
 "sc": "天钩攻篮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22186,7 +22423,7 @@
 "gear": null,
 "horse_uid": "au-skyhook",
 "jockey_uid": null,
-"trainer_uid": "t-gerald-ryan-sterling-alexiou",
+"trainer_uid": "t-g-ryan-s-alexiou",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22218,7 +22455,8 @@
 "hk": "天光",
 "sc": "天光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22264,7 +22502,8 @@
 "hk": "陡山深村",
 "sc": "陡山深村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22310,7 +22549,8 @@
 "hk": "慢來火",
 "sc": "慢来火",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22356,7 +22596,8 @@
 "hk": "智能轎車",
 "sc": "智能轿车",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22416,7 +22657,8 @@
 "hk": "精明之星",
 "sc": "精明之星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22462,7 +22704,8 @@
 "hk": "如風",
 "sc": "如风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22508,7 +22751,8 @@
 "hk": "非凡鷹",
 "sc": "非凡鹰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22554,7 +22798,8 @@
 "hk": "首席地位",
 "sc": "首席地位",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22600,7 +22845,8 @@
 "hk": "滑如春冰",
 "sc": "滑如春冰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22660,7 +22906,8 @@
 "hk": "平穩著陸",
 "sc": "平稳著陆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22679,7 +22926,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-damian-lane",
-"trainer_uid": "t-john-p-thompson",
+"trainer_uid": "t-john-thompson",
 "race_uid": "gb-2017-0930-航班錦標",
 "entries": [
 {
@@ -22688,7 +22935,7 @@
 "gear": null,
 "horse_uid": "au-smooth-landing",
 "jockey_uid": "j-damian-lane",
-"trainer_uid": "t-john-p-thompson",
+"trainer_uid": "t-john-thompson",
 "lb": 123.0,
 "claim": null,
 "rating": 99,
@@ -22706,7 +22953,8 @@
 "hk": "點心站",
 "sc": "点心站",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22752,7 +23000,8 @@
 "hk": "回彈",
 "sc": "回弹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22798,7 +23047,8 @@
 "hk": "圓滑尤物",
 "sc": "圆滑尤物",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22844,7 +23094,8 @@
 "hk": "曙光乍現",
 "sc": "曙光乍现",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22904,7 +23155,8 @@
 "hk": "急先鋒",
 "sc": "急先锋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -22950,7 +23202,8 @@
 "hk": "川河少駒",
 "sc": "川河少驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23010,7 +23263,8 @@
 "hk": "巧舌小貓",
 "sc": "巧舌小猫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23084,7 +23338,8 @@
 "hk": "倩麗舞后",
 "sc": "倩丽舞后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23144,7 +23399,8 @@
 "hk": "犀利紙",
 "sc": "犀利纸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23190,7 +23446,8 @@
 "hk": "犀利神",
 "sc": "犀利神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23250,7 +23507,8 @@
 "hk": "當旺小犬",
 "sc": "当旺小犬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23296,7 +23554,8 @@
 "hk": "五月雪",
 "sc": "五月雪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23370,7 +23629,8 @@
 "hk": "雪美善",
 "sc": "雪美善",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23416,7 +23676,8 @@
 "hk": "雪人",
 "sc": "雪人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23476,7 +23737,8 @@
 "hk": "極璀璨",
 "sc": "极璀璨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23536,7 +23798,8 @@
 "hk": "極瑰逸",
 "sc": "极瑰逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23582,7 +23845,8 @@
 "hk": "讚不絕口",
 "sc": "赞不绝口",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23642,7 +23906,8 @@
 "hk": "非你莫屬",
 "sc": "非你莫属",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23786,7 +24051,8 @@
 "hk": "信可致富",
 "sc": "信可致富",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23832,7 +24098,8 @@
 "hk": "了然於心",
 "sc": "了然于心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23878,7 +24145,8 @@
 "hk": "承貴言",
 "sc": "承贵言",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23924,7 +24192,8 @@
 "hk": "信可贏",
 "sc": "信可赢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -23984,7 +24253,8 @@
 "hk": "爽擊國度",
 "sc": "爽击国度",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24030,7 +24300,8 @@
 "hk": "柔情",
 "sc": "柔情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24076,7 +24347,8 @@
 "hk": "抵買",
 "sc": "抵买",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24136,7 +24408,8 @@
 "hk": "愛勇兵",
 "sc": "爱勇兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24182,7 +24455,8 @@
 "hk": "太陽唯一",
 "sc": "太阳唯一",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24256,7 +24530,8 @@
 "hk": "獨唱風騷",
 "sc": "独唱风骚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24302,7 +24577,8 @@
 "hk": "冒火",
 "sc": "冒火",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24348,7 +24624,8 @@
 "hk": "天壤之間",
 "sc": "天壤之间",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24394,7 +24671,8 @@
 "hk": "天籟",
 "sc": "天籁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24440,7 +24718,8 @@
 "hk": "勝利寶",
 "sc": "胜利宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24486,7 +24765,8 @@
 "hk": "得勢之子",
 "sc": "得势之子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24532,7 +24812,8 @@
 "hk": "定心丸",
 "sc": "定心丸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24578,7 +24859,8 @@
 "hk": "真言預示",
 "sc": "真言预示",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24624,7 +24906,8 @@
 "hk": "蘇菲抉擇",
 "sc": "苏菲抉择",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24670,7 +24953,8 @@
 "hk": "笑面迎人",
 "sc": "笑面迎人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24716,7 +25000,8 @@
 "hk": "心所向",
 "sc": "心所向",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24790,7 +25075,8 @@
 "hk": "總帥",
 "sc": "总帅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24836,7 +25122,8 @@
 "hk": "蘇豪",
 "sc": "苏豪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24882,7 +25169,8 @@
 "hk": "最南端",
 "sc": "最南端",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -24928,7 +25216,8 @@
 "hk": "川河尊駒",
 "sc": "川河尊驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25002,7 +25291,8 @@
 "hk": "極南冰山",
 "sc": "极南冰山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25021,7 +25311,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-mark-du-plessis",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "race_uid": "aus-2026-0516-香港賽馬會全球匯合彩池粗魯碟",
 "entries": [
 {
@@ -25030,7 +25320,7 @@
 "gear": "B/XB/TT",
 "horse_uid": "au-southern-prince",
 "jockey_uid": "j-mark-du-plessis",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 126.0,
 "claim": null,
 "rating": 73,
@@ -25048,7 +25338,8 @@
 "hk": "越南將軍",
 "sc": "越南将军",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25094,7 +25385,8 @@
 "hk": "南枝輕擺",
 "sc": "南枝轻摆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25154,7 +25446,8 @@
 "hk": "南港富豪",
 "sc": "南港富豪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25228,7 +25521,8 @@
 "hk": "地下金礦",
 "sc": "地下金矿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25302,7 +25596,8 @@
 "hk": "主權國",
 "sc": "主权国",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25390,7 +25685,8 @@
 "hk": "星空鐵騎",
 "sc": "星空铁骑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25464,7 +25760,8 @@
 "hk": "時空奇談",
 "sc": "时空奇谈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25524,7 +25821,8 @@
 "hk": "跨步宇宙",
 "sc": "跨步宇宙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25612,7 +25910,8 @@
 "hk": "西海礁石",
 "sc": "西海礁石",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25672,7 +25971,8 @@
 "hk": "西洋耳語",
 "sc": "西洋耳语",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25732,7 +26032,8 @@
 "hk": "半月頭",
 "sc": "半月头",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25778,7 +26079,8 @@
 "hk": "爍晶瑩",
 "sc": "烁晶莹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25824,7 +26126,8 @@
 "hk": "搏擊攻防",
 "sc": "搏击攻防",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25870,7 +26173,8 @@
 "hk": "幸運掌櫃",
 "sc": "幸运掌柜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25916,7 +26220,8 @@
 "hk": "不世之藝",
 "sc": "不世之艺",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -25962,7 +26267,8 @@
 "hk": "皇山",
 "sc": "皇山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26008,7 +26314,8 @@
 "hk": "特工",
 "sc": "特工",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26054,7 +26361,8 @@
 "hk": "快艇告白",
 "sc": "快艇告白",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26100,7 +26408,8 @@
 "hk": "快亨利",
 "sc": "快亨利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26146,7 +26455,8 @@
 "hk": "快速飛彈",
 "sc": "快速飞弹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26206,7 +26516,8 @@
 "hk": "規格",
 "sc": "规格",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26252,7 +26563,8 @@
 "hk": "辣妹",
 "sc": "辣妹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26298,7 +26610,8 @@
 "hk": "火辣混酒",
 "sc": "火辣混酒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26428,7 +26741,8 @@
 "hk": "辣女",
 "sc": "辣女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26474,7 +26788,8 @@
 "hk": "高速轉動",
 "sc": "高速转动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26548,7 +26863,8 @@
 "hk": "富貴心",
 "sc": "富贵心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26594,7 +26910,8 @@
 "hk": "防守鬥志",
 "sc": "防守斗志",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26640,7 +26957,8 @@
 "hk": "瑰麗絕艷",
 "sc": "瑰丽绝艳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26686,7 +27004,8 @@
 "hk": "綠草油油",
 "sc": "绿草油油",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26732,7 +27051,8 @@
 "hk": "斯佩林",
 "sc": "斯佩林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26778,7 +27098,8 @@
 "hk": "勝必達",
 "sc": "胜必达",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26824,7 +27145,8 @@
 "hk": "破裂邊緣",
 "sc": "破裂边缘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26870,7 +27192,8 @@
 "hk": "秒天秒地",
 "sc": "秒天秒地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -26944,7 +27267,8 @@
 "hk": "朝氣煥發",
 "sc": "朝气焕发",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27018,7 +27342,8 @@
 "hk": "背風春意",
 "sc": "背风春意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27106,7 +27431,8 @@
 "hk": "春雷",
 "sc": "春雷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27152,7 +27478,8 @@
 "hk": "天賜神力",
 "sc": "天赐神力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27198,7 +27525,8 @@
 "hk": "間諜線",
 "sc": "间谍线",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27286,7 +27614,8 @@
 "hk": "艾爾文",
 "sc": "艾尔文",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27346,7 +27675,8 @@
 "hk": "高維真情",
 "sc": "高维真情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27406,7 +27736,8 @@
 "hk": "愛威聖王",
 "sc": "爱威圣王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27452,7 +27783,8 @@
 "hk": "紫荊主教",
 "sc": "紫荆主教",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27512,7 +27844,8 @@
 "hk": "聖哈利",
 "sc": "圣哈利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27558,7 +27891,8 @@
 "hk": "舞台專業",
 "sc": "舞台专业",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27604,7 +27938,8 @@
 "hk": "悄然而至",
 "sc": "悄然而至",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27650,7 +27985,8 @@
 "hk": "拔足狂奔",
 "sc": "拔足狂奔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27669,7 +28005,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2018-1106-碟-表列賽",
 "entries": [
 {
@@ -27678,7 +28014,7 @@
 "gear": null,
 "horse_uid": "au-stampede",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 132.0,
 "claim": null,
 "rating": 107,
@@ -27696,7 +28032,8 @@
 "hk": "秉持立場",
 "sc": "秉持立场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27742,7 +28079,8 @@
 "hk": "出眾",
 "sc": "出众",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27784,7 +28122,7 @@
 "gear": null,
 "horse_uid": "au-standout",
 "jockey_uid": null,
-"trainer_uid": "t-gerald-ryan-sterling-alexiou",
+"trainer_uid": "t-g-ryan-s-alexiou",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27798,7 +28136,7 @@
 "gear": "SR1/XB",
 "horse_uid": "au-standout",
 "jockey_uid": "j-tbc",
-"trainer_uid": "t-gerald-ryan-sterling-alexiou",
+"trainer_uid": "t-g-ryan-s-alexiou",
 "lb": 129.0,
 "claim": null,
 "rating": 110,
@@ -27816,7 +28154,8 @@
 "hk": "守護聖者",
 "sc": "守护圣者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27862,7 +28201,8 @@
 "hk": "星際帝國",
 "sc": "星际帝国",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27922,7 +28262,8 @@
 "hk": "星示愛",
 "sc": "星示爱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -27968,7 +28309,8 @@
 "hk": "新意星",
 "sc": "新意星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -28014,7 +28356,8 @@
 "hk": "王國驕子",
 "sc": "王国骄子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -28074,7 +28417,8 @@
 "hk": "上游星瑩",
 "sc": "上游星莹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -28134,7 +28478,8 @@
 "hk": "鳳煌之星",
 "sc": "凤煌之星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "AUS",
 "country": "澳洲",
@@ -28169,6 +28514,203 @@
 "sex": "G",
 "age": 4,
 "race_uid": "aus-2019-0303-主席挑戰盃-澳門一級賽"
+}
+]
+},
+{
+"uid": "au-star-patrol",
+"names": {
+"original": "Star Patrol",
+"en": "Star Patrol",
+"hk": "星海行",
+"sc": "星海行",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "AUS",
+"country": "澳洲",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 6,
+"rating": 112,
+"lb": 128.0,
+"no": 1,
+"draw": 7,
+"gear": "B2/XB/TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-blake-shinn",
+"trainer_uid": "t-clinton-mcdonald",
+"race_uid": "aus-2024-1102-名氣急升錦標",
+"entries": [
+{
+"no": 1,
+"draw": 7,
+"gear": "B2/XB/TT",
+"horse_uid": "au-star-patrol",
+"jockey_uid": "j-blake-shinn",
+"trainer_uid": "t-clinton-mcdonald",
+"lb": 128.0,
+"claim": null,
+"rating": 112,
+"sex": "G",
+"age": 6,
+"race_uid": "aus-2024-1102-名氣急升錦標"
+},
+{
+"no": 4,
+"draw": 3,
+"gear": "B2/XB/TT",
+"horse_uid": "au-star-patrol",
+"jockey_uid": "j-ben-melham",
+"trainer_uid": "t-clinton-mcdonald",
+"lb": 128.0,
+"claim": null,
+"rating": 106,
+"sex": "G",
+"age": 7,
+"race_uid": "aus-2025-1101-名氣急升錦標"
+},
+{
+"no": 5,
+"draw": 6,
+"gear": "XB/TT",
+"horse_uid": "au-star-patrol",
+"jockey_uid": "j-ben-melham",
+"trainer_uid": "t-clinton-mcdonald",
+"lb": 121.0,
+"claim": null,
+"rating": 99,
+"sex": "G",
+"age": 7,
+"race_uid": "gb-2025-0913-香港賽馬會全球匯合彩池波比路易士讓賽"
+},
+{
+"no": 2,
+"draw": 11,
+"gear": "XB/TT",
+"horse_uid": "au-star-patrol",
+"jockey_uid": "j-ben-melham",
+"trainer_uid": "t-clinton-mcdonald",
+"lb": 130.0,
+"claim": null,
+"rating": 107,
+"sex": "G",
+"age": 5,
+"race_uid": "jra-2023-1007-吉爾蓋錦標"
+}
+]
+},
+{
+"uid": "au-star-point",
+"names": {
+"original": "Star Point",
+"en": "Star Point",
+"hk": "星亮點",
+"sc": "星亮点",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "AUS",
+"country": "澳洲",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 3,
+"rating": 64,
+"lb": 117.0,
+"no": 12,
+"draw": 4,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-glen-boss",
+"trainer_uid": "t-gwenda-markwell",
+"race_uid": "aus-2021-0410-羅克斯錦標",
+"entries": [
+{
+"no": 12,
+"draw": 4,
+"gear": null,
+"horse_uid": "au-star-point",
+"jockey_uid": "j-glen-boss",
+"trainer_uid": "t-gwenda-markwell",
+"lb": 117.0,
+"claim": null,
+"rating": 64,
+"sex": "F",
+"age": 3,
+"race_uid": "aus-2021-0410-羅克斯錦標"
+}
+]
+},
+{
+"uid": "au-star-reflection",
+"names": {
+"original": "Star Reflection",
+"en": "Star Reflection",
+"hk": "星影",
+"sc": "星影",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "AUS",
+"country": "澳洲",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2013,
+"color": null,
+"age": 5,
+"rating": 79,
+"lb": 117.0,
+"no": 13,
+"draw": 13,
+"gear": "B",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-kathy-o-hara",
+"trainer_uid": "t-kris-lees",
+"race_uid": "aus-2018-0324-生日卡錦標",
+"entries": [
+{
+"no": 13,
+"draw": 13,
+"gear": "B",
+"horse_uid": "au-star-reflection",
+"jockey_uid": "j-kathy-o-hara",
+"trainer_uid": "t-kris-lees",
+"lb": 117.0,
+"claim": null,
+"rating": 79,
+"sex": "F",
+"age": 5,
+"race_uid": "aus-2018-0324-生日卡錦標"
+},
+{
+"no": 16,
+"draw": 11,
+"gear": "B",
+"horse_uid": "au-star-reflection",
+"jockey_uid": "j-brenton-avdulla",
+"trainer_uid": "t-kris-lees",
+"lb": 119.0,
+"claim": null,
+"rating": 92,
+"sex": "F",
+"age": 6,
+"race_uid": "jra-2019-0413-藍寶石錦標"
 }
 ]
 }

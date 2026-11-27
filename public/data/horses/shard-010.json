@@ -1,799 +1,11 @@
 {
 "_meta": {
 "schema": "names/v3",
-"updated": "2026-11-26",
+"updated": "2026-11-27",
 "count": 500,
 "kind": "horses"
 },
 "items": [
-{
-"uid": "fr-qazaq",
-"names": {
-"original": "Qazaq",
-"en": "Qazaq",
-"hk": "哈族語言",
-"sc": "哈族语言",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 4,
-"rating": 92,
-"lb": 125.0,
-"no": 15,
-"draw": 9,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-silvestre-de-sousa",
-"trainer_uid": "t-roger-varian",
-"race_uid": "gb-2025-0726-國際讓賽",
-"entries": [
-{
-"no": 15,
-"draw": 9,
-"gear": null,
-"horse_uid": "fr-qazaq",
-"jockey_uid": "j-silvestre-de-sousa",
-"trainer_uid": "t-roger-varian",
-"lb": 125.0,
-"claim": null,
-"rating": 92,
-"sex": "G",
-"age": 4,
-"race_uid": "gb-2025-0726-國際讓賽"
-}
-]
-},
-{
-"uid": "fr-quai-de-bethune",
-"names": {
-"original": "Quai De Bethune",
-"en": "Quai De Bethune",
-"hk": "名碼頭",
-"sc": "名码头",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 3,
-"rating": 91,
-"lb": 129.0,
-"no": 5,
-"draw": 8,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-oisin-murphy",
-"trainer_uid": "t-andrew-balding",
-"race_uid": "aus-2025-0517-倫敦金盃",
-"entries": [
-{
-"no": 5,
-"draw": 8,
-"gear": null,
-"horse_uid": "fr-quai-de-bethune",
-"jockey_uid": "j-oisin-murphy",
-"trainer_uid": "t-andrew-balding",
-"lb": 129.0,
-"claim": null,
-"rating": 91,
-"sex": "M",
-"age": 3,
-"race_uid": "aus-2025-0517-倫敦金盃"
-},
-{
-"no": 10,
-"draw": 14,
-"gear": null,
-"horse_uid": "fr-quai-de-bethune",
-"jockey_uid": "j-oisin-murphy",
-"trainer_uid": "t-andrew-balding",
-"lb": 128.0,
-"claim": null,
-"rating": 93,
-"sex": "M",
-"age": 3,
-"race_uid": "gb-2025-0622-金門錦標"
-},
-{
-"no": 7,
-"draw": 2,
-"gear": null,
-"horse_uid": "fr-quai-de-bethune",
-"jockey_uid": "j-james-doyle",
-"trainer_uid": "t-hamad-al-jehani",
-"lb": 128.0,
-"claim": null,
-"rating": 100,
-"sex": "G",
-"age": 4,
-"race_uid": "gb-2026-0605-四歲以上馬讓賽"
-},
-{
-"no": 9,
-"draw": 12,
-"gear": null,
-"horse_uid": "fr-quai-de-bethune",
-"jockey_uid": "j-james-doyle",
-"trainer_uid": "t-hamad-al-jehani",
-"lb": 126.0,
-"claim": null,
-"rating": 97,
-"sex": "G",
-"age": 4,
-"race_uid": "gb-2026-0728-四歲以上馬讓賽"
-}
-]
-},
-{
-"uid": "fr-qualisaga",
-"names": {
-"original": "Qualisaga",
-"en": "Qualisaga",
-"hk": "賢慧傳",
-"sc": "贤慧传",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2014,
-"color": null,
-"age": 5,
-"rating": 93,
-"lb": 123.0,
-"no": 8,
-"draw": 8,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-eddy-hardouin",
-"trainer_uid": "t-carina-fey",
-"race_uid": "fr-2019-0512-蕭柏錦標-表列賽",
-"entries": [
-{
-"no": 8,
-"draw": 8,
-"gear": null,
-"horse_uid": "fr-qualisaga",
-"jockey_uid": "j-eddy-hardouin",
-"trainer_uid": "t-carina-fey",
-"lb": 123.0,
-"claim": null,
-"rating": 93,
-"sex": "F",
-"age": 5,
-"race_uid": "fr-2019-0512-蕭柏錦標-表列賽"
-}
-]
-},
-{
-"uid": "fr-queen-s-sargent",
-"names": {
-"original": "Queen's Sargent",
-"en": "Queen's Sargent",
-"hk": "后之軍士",
-"sc": "后之军士",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2015,
-"color": null,
-"age": 6,
-"rating": 87,
-"lb": 132.0,
-"no": 12,
-"draw": 19,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-kevin-stott",
-"trainer_uid": "t-kevin-ryan",
-"race_uid": "gb-2021-0729-全球匯合彩池讓賽",
-"entries": [
-{
-"no": 12,
-"draw": 19,
-"gear": null,
-"horse_uid": "fr-queen-s-sargent",
-"jockey_uid": "j-kevin-stott",
-"trainer_uid": "t-kevin-ryan",
-"lb": 132.0,
-"claim": null,
-"rating": 87,
-"sex": "G",
-"age": 6,
-"race_uid": "gb-2021-0729-全球匯合彩池讓賽"
-}
-]
-},
-{
-"uid": "fr-queen-trezy",
-"names": {
-"original": "Queen Trezy",
-"en": "Queen Trezy",
-"hk": "翠絲女王",
-"sc": "翠丝女王",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2019,
-"color": null,
-"age": 3,
-"rating": 102,
-"lb": 123.0,
-"no": 1,
-"draw": 1,
-"gear": "CP",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-carlos-yann-lerner",
-"race_uid": "fr-2022-0814-米羅夫錦標",
-"entries": [
-{
-"no": 1,
-"draw": 1,
-"gear": "CP",
-"horse_uid": "fr-queen-trezy",
-"jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-carlos-yann-lerner",
-"lb": 123.0,
-"claim": null,
-"rating": 102,
-"sex": "F",
-"age": 3,
-"race_uid": "fr-2022-0814-米羅夫錦標"
-}
-]
-},
-{
-"uid": "fr-queenfleur",
-"names": {
-"original": "Queenfleur",
-"en": "Queenfleur",
-"hk": "花后",
-"sc": "花后",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 5,
-"rating": 56,
-"lb": 128.0,
-"no": 10,
-"draw": 1,
-"gear": "H",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-theo-bachelot",
-"trainer_uid": "t-damien-artu",
-"race_uid": "fr-2026-0817-第三班讓賽",
-"entries": [
-{
-"no": 10,
-"draw": 1,
-"gear": "H",
-"horse_uid": "fr-queenfleur",
-"jockey_uid": "j-theo-bachelot",
-"trainer_uid": "t-damien-artu",
-"lb": 128.0,
-"claim": null,
-"rating": 56,
-"sex": "F",
-"age": 5,
-"race_uid": "fr-2026-0817-第三班讓賽"
-}
-]
-},
-{
-"uid": "fr-quelle-charm",
-"names": {
-"original": "Quelle Charm",
-"en": "Quelle Charm",
-"hk": "逼人魅力",
-"sc": "逼人魅力",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-c-y-lerner",
-"race_uid": "fr-2021-0806-三歲馬讓賽",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-quelle-charm",
-"jockey_uid": null,
-"trainer_uid": "t-c-y-lerner",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2021-0806-三歲馬讓賽"
-},
-{
-"no": 8,
-"draw": 9,
-"gear": "TT",
-"horse_uid": "fr-quelle-charm",
-"jockey_uid": "j-frida-valle-skar",
-"trainer_uid": "t-carlos-yann-lerner",
-"lb": 127.0,
-"claim": -4.0,
-"rating": 68,
-"sex": "F",
-"age": 3,
-"race_uid": "fr-2021-0809-三歲馬讓賽"
-}
-]
-},
-{
-"uid": "fr-quest-for-magic",
-"names": {
-"original": "Quest For Magic",
-"en": "Quest For Magic",
-"hk": "求幻探術",
-"sc": "求幻探术",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-s-wattel",
-"race_uid": "fr-2026-0904-福伊錦標",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-quest-for-magic",
-"jockey_uid": null,
-"trainer_uid": "t-s-wattel",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2026-0904-福伊錦標"
-},
-{
-"no": 4,
-"draw": 1,
-"gear": null,
-"horse_uid": "fr-quest-for-magic",
-"jockey_uid": "j-theo-bachelot",
-"trainer_uid": "t-stephane-wattel",
-"lb": 125.0,
-"claim": null,
-"rating": 100,
-"sex": "F",
-"age": 4,
-"race_uid": "fr-2026-0906-福伊錦標"
-}
-]
-},
-{
-"uid": "fr-quest-for-stars",
-"names": {
-"original": "Quest For Stars",
-"en": "Quest For Stars",
-"hk": "星追尋",
-"sc": "星追寻",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2024,
-"color": null,
-"age": 2,
-"rating": 103,
-"lb": 131.0,
-"no": 7,
-"draw": 8,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-james-doyle",
-"trainer_uid": "t-charlie-appleby",
-"race_uid": "gb-2026-0912-香港賽馬會全球匯合彩池金羊毛錦標",
-"entries": [
-{
-"no": 7,
-"draw": 8,
-"gear": null,
-"horse_uid": "fr-quest-for-stars",
-"jockey_uid": "j-james-doyle",
-"trainer_uid": "t-charlie-appleby",
-"lb": 131.0,
-"claim": null,
-"rating": 103,
-"sex": "M",
-"age": 2,
-"race_uid": "gb-2026-0912-香港賽馬會全球匯合彩池金羊毛錦標"
-}
-]
-},
-{
-"uid": "fr-quevillon",
-"names": {
-"original": "Quevillon",
-"en": "Quevillon",
-"hk": "桂維朗村",
-"sc": "桂维朗村",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2014,
-"color": null,
-"age": 4,
-"rating": 39,
-"lb": 121.0,
-"no": 11,
-"draw": 3,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-carlos-yann-lerner",
-"race_uid": "fr-2018-0513-巴黎隆尚讓賽",
-"entries": [
-{
-"no": 11,
-"draw": 3,
-"gear": null,
-"horse_uid": "fr-quevillon",
-"jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-carlos-yann-lerner",
-"lb": 121.0,
-"claim": null,
-"rating": 39,
-"sex": "M",
-"age": 4,
-"race_uid": "fr-2018-0513-巴黎隆尚讓賽"
-}
-]
-},
-{
-"uid": "fr-quick-flash",
-"names": {
-"original": "Quick Flash",
-"en": "Quick Flash",
-"hk": "快飛閃",
-"sc": "快飞闪",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": 4,
-"rating": 76,
-"lb": 132.0,
-"no": 1,
-"draw": 12,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-jean-philippe-dubois",
-"race_uid": "fr-2022-0814-第三班讓賽",
-"entries": [
-{
-"no": 1,
-"draw": 12,
-"gear": null,
-"horse_uid": "fr-quick-flash",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-jean-philippe-dubois",
-"lb": 132.0,
-"claim": null,
-"rating": 76,
-"sex": "G",
-"age": 4,
-"race_uid": "fr-2022-0814-第三班讓賽"
-}
-]
-},
-{
-"uid": "fr-quickstep",
-"names": {
-"original": "Quickstep",
-"en": "Quickstep",
-"hk": "跳踏步",
-"sc": "跳踏步",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2020,
-"color": null,
-"age": 3,
-"rating": 100,
-"lb": 126.0,
-"no": 5,
-"draw": 9,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-andre-fabre",
-"race_uid": "fr-2023-0514-法國一千堅尼",
-"entries": [
-{
-"no": 5,
-"draw": 9,
-"gear": null,
-"horse_uid": "fr-quickstep",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-andre-fabre",
-"lb": 126.0,
-"claim": null,
-"rating": 100,
-"sex": "F",
-"age": 3,
-"race_uid": "fr-2023-0514-法國一千堅尼"
-}
-]
-},
-{
-"uid": "fr-quisisana",
-"names": {
-"original": "Quisisana",
-"en": "Quisisana",
-"hk": "健身心",
-"sc": "健身心",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2020,
-"color": null,
-"age": 5,
-"rating": 116,
-"lb": 128.0,
-"no": 8,
-"draw": 7,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-francis-henri-graffard",
-"race_uid": "fr-2025-1005-凱旋門大賽",
-"entries": [
-{
-"no": 8,
-"draw": 7,
-"gear": null,
-"horse_uid": "fr-quisisana",
-"jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-francis-henri-graffard",
-"lb": 128.0,
-"claim": null,
-"rating": 116,
-"sex": "F",
-"age": 5,
-"race_uid": "fr-2025-1005-凱旋門大賽"
-},
-{
-"no": 6,
-"draw": 5,
-"gear": null,
-"horse_uid": "fr-quisisana",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-francis-henri-graffard",
-"lb": 133.0,
-"claim": null,
-"rating": 116,
-"sex": "F",
-"age": 5,
-"race_uid": "gb-2025-1018-英國冠軍雌馬錦標"
-}
-]
-},
-{
-"uid": "fr-rabbit-s-foot",
-"names": {
-"original": "Rabbit's Foot",
-"en": "Rabbit's Foot",
-"hk": "好運隨身",
-"sc": "好运随身",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 4,
-"rating": 107,
-"lb": 126.0,
-"no": 12,
-"draw": 11,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-francis-henri-graffard",
-"race_uid": "fr-2026-0614-普麗斯錦標-表列賽",
-"entries": [
-{
-"no": 12,
-"draw": 11,
-"gear": null,
-"horse_uid": "fr-rabbit-s-foot",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-francis-henri-graffard",
-"lb": 126.0,
-"claim": null,
-"rating": 107,
-"sex": "F",
-"age": 4,
-"race_uid": "fr-2026-0614-普麗斯錦標-表列賽"
-},
-{
-"no": 5,
-"draw": 7,
-"gear": null,
-"horse_uid": "fr-rabbit-s-foot",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-francis-henri-graffard",
-"lb": 130.0,
-"claim": null,
-"rating": 107,
-"sex": "F",
-"age": 4,
-"race_uid": "fr-2026-0906-紅寶錦標"
-}
-]
-},
-{
-"uid": "fr-rabbits-foot",
-"names": {
-"original": "RABBIT’S FOOT",
-"en": "RABBIT’S FOOT",
-"hk": "好運隨身",
-"sc": "好运随身",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": null,
-"sex_cn": "",
-"birth_date": null,
-"birth_year": null,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
-"race_uid": "fr-2026-0904-隆尚磨坊大賽日-暫定",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-rabbits-foot",
-"jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2026-0904-隆尚磨坊大賽日-暫定"
-}
-]
-},
 {
 "uid": "fr-radiant",
 "names": {
@@ -802,7 +14,8 @@
 "hk": "光彩迸發",
 "sc": "光彩迸发",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -821,7 +34,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-s-gavilan",
+"trainer_uid": "t-sandrine-gavilan",
 "race_uid": "fr-2026-0508-法國一千堅尼",
 "entries": [
 {
@@ -830,7 +43,7 @@
 "gear": null,
 "horse_uid": "fr-radiant",
 "jockey_uid": null,
-"trainer_uid": "t-s-gavilan",
+"trainer_uid": "t-sandrine-gavilan",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -862,7 +75,8 @@
 "hk": "狂放牛",
 "sc": "狂放牛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -908,7 +122,8 @@
 "hk": "王儲",
 "sc": "王储",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -954,7 +169,8 @@
 "hk": "龍勁駒",
 "sc": "龙劲驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1028,7 +244,8 @@
 "hk": "閃壁峻峰",
 "sc": "闪壁峻峰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1074,7 +291,8 @@
 "hk": "齋月",
 "sc": "斋月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1116,7 +334,7 @@
 "gear": null,
 "horse_uid": "fr-ramadan",
 "jockey_uid": null,
-"trainer_uid": "t-chr-head",
+"trainer_uid": "t-christopher-head",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -1176,7 +394,8 @@
 "hk": "流星速",
 "sc": "流星速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1222,7 +441,8 @@
 "hk": "勳章球星",
 "sc": "勋章球星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1241,7 +461,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-jack-mitchell",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "race_uid": "eur-2025-1108-拜仁大賽",
 "entries": [
 {
@@ -1250,7 +470,7 @@
 "gear": null,
 "horse_uid": "fr-rashford",
 "jockey_uid": "j-jack-mitchell",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 132.0,
 "claim": null,
 "rating": 107,
@@ -1268,7 +488,8 @@
 "hk": "橫溢寶駒",
 "sc": "横溢宝驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1314,7 +535,8 @@
 "hk": "綠光線",
 "sc": "绿光线",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1333,7 +555,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "race_uid": "fr-2018-1005-航空讓賽",
 "entries": [
 {
@@ -1342,7 +564,7 @@
 "gear": null,
 "horse_uid": "fr-rayon-vert",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -1360,7 +582,8 @@
 "hk": "攀天",
 "sc": "攀天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1406,7 +629,8 @@
 "hk": "重新劃一",
 "sc": "重新划一",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1508,7 +732,8 @@
 "hk": "逆襲",
 "sc": "逆袭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1554,7 +779,8 @@
 "hk": "偉高力道",
 "sc": "伟高力道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1628,7 +854,8 @@
 "hk": "赤雅致",
 "sc": "赤雅致",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1647,7 +874,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-b-audouin",
+"trainer_uid": "t-bruno-audouin",
 "race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -1656,7 +883,7 @@
 "gear": null,
 "horse_uid": "fr-red-grace",
 "jockey_uid": null,
-"trainer_uid": "t-b-audouin",
+"trainer_uid": "t-bruno-audouin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -1688,7 +915,8 @@
 "hk": "紅陣風",
 "sc": "红阵风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1707,7 +935,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-v-toux",
+"trainer_uid": "t-jean-vincent-toux",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -1716,7 +944,7 @@
 "gear": null,
 "horse_uid": "fr-red-gust",
 "jockey_uid": null,
-"trainer_uid": "t-j-v-toux",
+"trainer_uid": "t-jean-vincent-toux",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -1748,7 +976,8 @@
 "hk": "赤熱",
 "sc": "赤热",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1794,7 +1023,8 @@
 "hk": "赤貓",
 "sc": "赤猫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1854,7 +1084,8 @@
 "hk": "警戒線",
 "sc": "警戒线",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1873,7 +1104,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-antoine-hamelin",
-"trainer_uid": "t-antoine-de-watrigant",
+"trainer_uid": "t-antoine-watrigant",
 "race_uid": "fr-2018-0513-法國一千堅尼",
 "entries": [
 {
@@ -1882,7 +1113,7 @@
 "gear": null,
 "horse_uid": "fr-red-line",
 "jockey_uid": "j-antoine-hamelin",
-"trainer_uid": "t-antoine-de-watrigant",
+"trainer_uid": "t-antoine-watrigant",
 "lb": 126.0,
 "claim": null,
 "rating": 100,
@@ -1900,7 +1131,8 @@
 "hk": "紅遍西方",
 "sc": "红遍西方",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1946,7 +1178,8 @@
 "hk": "赤紅火炬",
 "sc": "赤红火炬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1992,7 +1225,8 @@
 "hk": "御統皇權",
 "sc": "御统皇权",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2034,7 +1268,7 @@
 "gear": null,
 "horse_uid": "fr-regalien",
 "jockey_uid": null,
-"trainer_uid": "t-c-h-plisson",
+"trainer_uid": "t-christophe-plisson",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2066,7 +1300,8 @@
 "hk": "慧德女皇",
 "sc": "慧德女皇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2112,7 +1347,8 @@
 "hk": "悠悠閒",
 "sc": "悠悠闲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2158,7 +1394,8 @@
 "hk": "輕快兒歌",
 "sc": "轻快儿歌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2204,7 +1441,8 @@
 "hk": "光輝續放",
 "sc": "光辉续放",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2250,7 +1488,8 @@
 "hk": "唯利蹄",
 "sc": "唯利蹄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2296,7 +1535,8 @@
 "hk": "補氣添力",
 "sc": "补气添力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2342,7 +1582,8 @@
 "hk": "狂暴沙風",
 "sc": "狂暴沙风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2402,7 +1643,8 @@
 "hk": "利升",
 "sc": "利升",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2504,7 +1746,8 @@
 "hk": "法村風景",
 "sc": "法村风景",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2550,7 +1793,8 @@
 "hk": "縱谷追夢",
 "sc": "纵谷追梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2624,7 +1868,8 @@
 "hk": "大改革",
 "sc": "大改革",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2670,7 +1915,8 @@
 "hk": "凜英姿",
 "sc": "凛英姿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2730,7 +1976,8 @@
 "hk": "饒富山",
 "sc": "饶富山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2749,7 +1996,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-vermeulen",
+"trainer_uid": "t-fabrice-vermeulen",
 "race_uid": "aus-2021-0820-尚羅萬尼錦標賽馬日-暫定",
 "entries": [
 {
@@ -2758,7 +2005,7 @@
 "gear": null,
 "horse_uid": "fr-richemont",
 "jockey_uid": null,
-"trainer_uid": "t-f-vermeulen",
+"trainer_uid": "t-fabrice-vermeulen",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2790,7 +2037,8 @@
 "hk": "永動力",
 "sc": "永动力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2846,7 +2094,7 @@
 "gear": null,
 "horse_uid": "fr-ridari",
 "jockey_uid": null,
-"trainer_uid": "t-m-delzangles",
+"trainer_uid": "t-mikel-delzangles",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2878,7 +2126,8 @@
 "hk": "女神座駕",
 "sc": "女神座驾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2897,7 +2146,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-vermeulen",
+"trainer_uid": "t-fabrice-vermeulen",
 "race_uid": "fr-2021-0806-三歲馬讓賽",
 "entries": [
 {
@@ -2906,7 +2155,7 @@
 "gear": null,
 "horse_uid": "fr-rideofthevalkyrie",
 "jockey_uid": null,
-"trainer_uid": "t-f-vermeulen",
+"trainer_uid": "t-fabrice-vermeulen",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2938,7 +2187,8 @@
 "hk": "愛與義",
 "sc": "爱与义",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2984,7 +2234,8 @@
 "hk": "此時此處",
 "sc": "此时此处",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3058,7 +2309,8 @@
 "hk": "麗巧美",
 "sc": "丽巧美",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3104,7 +2356,8 @@
 "hk": "利明市",
 "sc": "利明市",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3123,7 +2376,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-ferland",
+"trainer_uid": "t-christophe-ferland",
 "race_uid": "fr-2017-0929-隆尚教堂大賽",
 "entries": [
 {
@@ -3132,7 +2385,7 @@
 "gear": null,
 "horse_uid": "fr-rimini",
 "jockey_uid": null,
-"trainer_uid": "t-c-ferland",
+"trainer_uid": "t-christophe-ferland",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3150,7 +2403,8 @@
 "hk": "麗奇趣",
 "sc": "丽奇趣",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3210,7 +2464,8 @@
 "hk": "覆奏曲式",
 "sc": "覆奏曲式",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3256,7 +2511,8 @@
 "hk": "康城之河",
 "sc": "康城之河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3302,7 +2558,8 @@
 "hk": "銀之河",
 "sc": "银之河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3321,7 +2578,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-n-perret",
+"trainer_uid": "t-nicolas-perret",
 "race_uid": "aus-2021-0820-尚羅萬尼錦標賽馬日-暫定",
 "entries": [
 {
@@ -3330,7 +2587,7 @@
 "gear": null,
 "horse_uid": "fr-river-of-silver",
 "jockey_uid": null,
-"trainer_uid": "t-n-perret",
+"trainer_uid": "t-nicolas-perret",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3348,7 +2605,8 @@
 "hk": "優雅寶驥",
 "sc": "优雅宝骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3408,7 +2666,8 @@
 "hk": "陸路重地",
 "sc": "陆路重地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3454,7 +2713,8 @@
 "hk": "民族之驕",
 "sc": "民族之骄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3500,7 +2760,8 @@
 "hk": "妙聲傳城",
 "sc": "妙声传城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3546,7 +2807,8 @@
 "hk": "神鵰",
 "sc": "神雕",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3592,7 +2854,8 @@
 "hk": "傲雪",
 "sc": "傲雪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3638,7 +2901,8 @@
 "hk": "皓石",
 "sc": "皓石",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3698,7 +2962,8 @@
 "hk": "峻壁之子",
 "sc": "峻壁之子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3786,7 +3051,8 @@
 "hk": "愉快搖滾",
 "sc": "愉快摇滚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3805,7 +3071,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-p-gauvin",
+"trainer_uid": "t-jean-pierre-gauvin",
 "race_uid": "fr-2022-0805-第一班讓賽",
 "entries": [
 {
@@ -3814,7 +3080,7 @@
 "gear": null,
 "horse_uid": "fr-rock-joyeux",
 "jockey_uid": null,
-"trainer_uid": "t-j-p-gauvin",
+"trainer_uid": "t-jean-pierre-gauvin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3860,7 +3126,8 @@
 "hk": "巨石勢力",
 "sc": "巨石势力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3906,7 +3173,8 @@
 "hk": "法北村鎮",
 "sc": "法北村镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3948,7 +3216,7 @@
 "gear": null,
 "horse_uid": "fr-rocquemont",
 "jockey_uid": null,
-"trainer_uid": "t-c-escuder",
+"trainer_uid": "t-christophe-escuder",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3980,7 +3248,8 @@
 "hk": "靠石為家",
 "sc": "靠石为家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4026,7 +3295,8 @@
 "hk": "明日王者",
 "sc": "明日王者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4072,7 +3342,8 @@
 "hk": "月感性",
 "sc": "月感性",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4114,7 +3385,7 @@
 "gear": null,
 "horse_uid": "fr-romantic-moon",
 "jockey_uid": null,
-"trainer_uid": "t-o-trigodet",
+"trainer_uid": "t-olivier-trigodet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -4146,7 +3417,8 @@
 "hk": "羅曼情懷",
 "sc": "罗曼情怀",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4192,7 +3464,8 @@
 "hk": "演優則歌",
 "sc": "演优则歌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4238,7 +3511,8 @@
 "hk": "樂免怒",
 "sc": "乐免怒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4257,7 +3531,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-y-lerner",
+"trainer_uid": "t-carlos-yann-lerner",
 "race_uid": "fr-2018-1005-航空讓賽",
 "entries": [
 {
@@ -4266,7 +3540,7 @@
 "gear": null,
 "horse_uid": "fr-rominou",
 "jockey_uid": null,
-"trainer_uid": "t-c-y-lerner",
+"trainer_uid": "t-carlos-yann-lerner",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -4284,7 +3558,8 @@
 "hk": "朗星連天",
 "sc": "朗星连天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4330,7 +3605,8 @@
 "hk": "古文解讀",
 "sc": "古文解读",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4376,7 +3652,8 @@
 "hk": "厲雪風",
 "sc": "厉雪风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4436,7 +3713,8 @@
 "hk": "滋味糖果",
 "sc": "滋味糖果",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4482,7 +3760,8 @@
 "hk": "紅黑鬥智",
 "sc": "红黑斗智",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4528,7 +3807,8 @@
 "hk": "勝妝紅",
 "sc": "胜妆红",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4602,7 +3882,8 @@
 "hk": "濃情意",
 "sc": "浓情意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4662,7 +3943,8 @@
 "hk": "盛極繁城",
 "sc": "盛极繁城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4736,7 +4018,8 @@
 "hk": "利南海岸",
 "sc": "利南海岸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4777,7 +4060,7 @@
 "draw": 5,
 "gear": "B",
 "horse_uid": "fr-royal-lytham",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-aidan-o-brien",
 "lb": 126.0,
 "claim": null,
@@ -4796,7 +4079,8 @@
 "hk": "皇廄",
 "sc": "皇厩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4870,7 +4154,8 @@
 "hk": "御皇贊助",
 "sc": "御皇赞助",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4954,7 +4239,7 @@
 "gear": null,
 "horse_uid": "fr-royal-patronage",
 "jockey_uid": null,
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -5014,7 +4299,8 @@
 "hk": "帝君實權",
 "sc": "帝君实权",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5060,7 +4346,8 @@
 "hk": "威皇庭",
 "sc": "威皇庭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5106,7 +4393,8 @@
 "hk": "金口玉言",
 "sc": "金口玉言",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5148,7 +4436,7 @@
 "gear": null,
 "horse_uid": "fr-royal-word",
 "jockey_uid": null,
-"trainer_uid": "t-a-shavuyev",
+"trainer_uid": "t-arslangirey-shavuyev",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -5166,7 +4454,8 @@
 "hk": "御園林",
 "sc": "御园林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5185,7 +4474,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-barande-barbe",
+"trainer_uid": "t-corine-barande-barbe",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -5194,7 +4483,7 @@
 "gear": null,
 "horse_uid": "fr-royalwood",
 "jockey_uid": null,
-"trainer_uid": "t-c-barande-barbe",
+"trainer_uid": "t-corine-barande-barbe",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -5226,7 +4515,8 @@
 "hk": "氣派非凡",
 "sc": "气派非凡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5245,7 +4535,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "race_uid": "aus-2021-0820-第二班條件讓磅賽",
 "entries": [
 {
@@ -5254,7 +4544,7 @@
 "gear": null,
 "horse_uid": "fr-royaumont",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -5286,7 +4576,8 @@
 "hk": "威勢凌人",
 "sc": "威势凌人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5332,7 +4623,8 @@
 "hk": "古詩情意",
 "sc": "古诗情意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5378,7 +4670,8 @@
 "hk": "博才路",
 "sc": "博才路",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5424,7 +4717,8 @@
 "hk": "美藝大街",
 "sc": "美艺大街",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5470,7 +4764,8 @@
 "hk": "繁華大道",
 "sc": "繁华大道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5516,7 +4811,8 @@
 "hk": "文青巷",
 "sc": "文青巷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5562,7 +4858,8 @@
 "hk": "花木滿路",
 "sc": "花木满路",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5608,7 +4905,8 @@
 "hk": "魅幻街",
 "sc": "魅幻街",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5654,7 +4952,8 @@
 "hk": "普桑街",
 "sc": "普桑街",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5700,7 +4999,8 @@
 "hk": "桀驁貓",
 "sc": "桀骜猫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5746,7 +5046,8 @@
 "hk": "詩意如泉",
 "sc": "诗意如泉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5806,7 +5107,8 @@
 "hk": "俄式鍛鍊",
 "sc": "俄式锻炼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5852,7 +5154,8 @@
 "hk": "龍躍",
 "sc": "龙跃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5898,7 +5201,8 @@
 "hk": "凌晨驕日",
 "sc": "凌晨骄日",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5944,7 +5248,8 @@
 "hk": "共聚",
 "sc": "共聚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5990,7 +5295,8 @@
 "hk": "海邊沙丘",
 "sc": "海边沙丘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6009,7 +5315,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-l-guerin",
+"trainer_uid": "t-pierre-louis-guerin",
 "race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -6018,7 +5324,7 @@
 "gear": null,
 "horse_uid": "fr-sable-du-pyla",
 "jockey_uid": null,
-"trainer_uid": "t-p-l-guerin",
+"trainer_uid": "t-pierre-louis-guerin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6064,7 +5370,8 @@
 "hk": "勁道",
 "sc": "劲道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6083,7 +5390,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-ioritz-mendizabal",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "race_uid": "fr-2025-1006-第一班讓賽-e862",
 "entries": [
 {
@@ -6092,7 +5399,7 @@
 "gear": null,
 "horse_uid": "fr-sabroso",
 "jockey_uid": "j-ioritz-mendizabal",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 127.0,
 "claim": null,
 "rating": 87,
@@ -6106,7 +5413,7 @@
 "gear": null,
 "horse_uid": "fr-sabroso",
 "jockey_uid": null,
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6120,7 +5427,7 @@
 "gear": null,
 "horse_uid": "fr-sabroso",
 "jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 119.0,
 "claim": null,
 "rating": 86,
@@ -6138,7 +5445,8 @@
 "hk": "志同心合",
 "sc": "志同心合",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6184,7 +5492,8 @@
 "hk": "心飛揚",
 "sc": "心飞扬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6230,7 +5539,8 @@
 "hk": "名城風雲",
 "sc": "名城风云",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6249,7 +5559,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-baratti",
+"trainer_uid": "t-mario-baratti",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -6258,7 +5568,7 @@
 "gear": null,
 "horse_uid": "fr-saga-timgad",
 "jockey_uid": null,
-"trainer_uid": "t-m-baratti",
+"trainer_uid": "t-mario-baratti",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6286,7 +5596,7 @@
 "gear": null,
 "horse_uid": "fr-saga-timgad",
 "jockey_uid": null,
-"trainer_uid": "t-m-f-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6318,7 +5628,8 @@
 "hk": "性格迷人",
 "sc": "性格迷人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6378,7 +5689,8 @@
 "hk": "世家天兵",
 "sc": "世家天兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6438,7 +5750,8 @@
 "hk": "爽蹄快",
 "sc": "爽蹄快",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6457,7 +5770,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-baratti",
+"trainer_uid": "t-mario-baratti",
 "race_uid": "fr-2024-0802-s2-3-第一班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -6466,7 +5779,7 @@
 "gear": null,
 "horse_uid": "fr-saidi-el-fal",
 "jockey_uid": null,
-"trainer_uid": "t-m-baratti",
+"trainer_uid": "t-mario-baratti",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6498,7 +5811,8 @@
 "hk": "塞納河畔",
 "sc": "塞纳河畔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6544,7 +5858,8 @@
 "hk": "林區農村",
 "sc": "林区农村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6590,7 +5905,8 @@
 "hk": "航路匯點",
 "sc": "航路汇点",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6636,7 +5952,8 @@
 "hk": "神定力",
 "sc": "神定力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6682,7 +5999,8 @@
 "hk": "鹽湖城",
 "sc": "盐湖城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6701,7 +6019,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-b-audouin",
+"trainer_uid": "t-bruno-audouin",
 "race_uid": "fr-2019-1004-航空讓賽",
 "entries": [
 {
@@ -6710,7 +6028,7 @@
 "gear": null,
 "horse_uid": "fr-salt-lake-city",
 "jockey_uid": null,
-"trainer_uid": "t-b-audouin",
+"trainer_uid": "t-bruno-audouin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6728,7 +6046,8 @@
 "hk": "迅猛驥",
 "sc": "迅猛骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6774,7 +6093,8 @@
 "hk": "傳芳萬里",
 "sc": "传芳万里",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6820,7 +6140,8 @@
 "hk": "福安駒",
 "sc": "福安驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6866,7 +6187,8 @@
 "hk": "聖人主教",
 "sc": "圣人主教",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6885,7 +6207,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "race_uid": "fr-2020-0702-法國打吡大賽及法國橡樹大賽-暫定",
 "entries": [
 {
@@ -6894,7 +6216,7 @@
 "gear": null,
 "horse_uid": "fr-san-fabrizio",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -6926,7 +6248,8 @@
 "hk": "山海勝地",
 "sc": "山海胜地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6972,7 +6295,8 @@
 "hk": "愛遍街",
 "sc": "爱遍街",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -6991,7 +6315,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-brasme",
+"trainer_uid": "t-mathieu-brasme",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -7000,7 +6324,7 @@
 "gear": null,
 "horse_uid": "fr-san-valentina",
 "jockey_uid": null,
-"trainer_uid": "t-m-brasme",
+"trainer_uid": "t-mathieu-brasme",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -7032,7 +6356,8 @@
 "hk": "馬里大漠",
 "sc": "马里大漠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7148,7 +6473,8 @@
 "hk": "新的使命",
 "sc": "新的使命",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7208,7 +6534,8 @@
 "hk": "聖彼特",
 "sc": "圣彼特",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7254,7 +6581,8 @@
 "hk": "不悔",
 "sc": "不悔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7300,7 +6628,8 @@
 "hk": "冬雪后",
 "sc": "冬雪后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7346,7 +6675,8 @@
 "hk": "聖他獸園",
 "sc": "圣他兽园",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7392,7 +6722,8 @@
 "hk": "海聖",
 "sc": "海圣",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7411,7 +6742,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-leras",
+"trainer_uid": "t-jeremy-leras",
 "race_uid": "fr-2022-0730-第三班讓賽-容後公佈-第二班讓賽",
 "entries": [
 {
@@ -7420,7 +6751,7 @@
 "gear": null,
 "horse_uid": "fr-santi-del-mare",
 "jockey_uid": null,
-"trainer_uid": "t-j-leras",
+"trainer_uid": "t-jeremy-leras",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -7452,7 +6783,8 @@
 "hk": "愛琴海島",
 "sc": "爱琴海岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7512,7 +6844,8 @@
 "hk": "智駒",
 "sc": "智驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7531,7 +6864,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-reynier",
+"trainer_uid": "t-jerome-reynier",
 "race_uid": "fr-2022-0730-第三班讓賽-容後公佈-第二班讓賽",
 "entries": [
 {
@@ -7540,7 +6873,7 @@
 "gear": null,
 "horse_uid": "fr-sapiens",
 "jockey_uid": null,
-"trainer_uid": "t-j-reynier",
+"trainer_uid": "t-jerome-reynier",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -7586,7 +6919,8 @@
 "hk": "遊牧民",
 "sc": "游牧民",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7632,7 +6966,8 @@
 "hk": "颯爽勁",
 "sc": "飒爽劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7678,7 +7013,8 @@
 "hk": "自信姑娘",
 "sc": "自信姑娘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7724,7 +7060,8 @@
 "hk": "如願",
 "sc": "如愿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7743,7 +7080,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-s-wattel",
+"trainer_uid": "t-stephane-wattel",
 "race_uid": "fr-2021-0806-月影雲霞錦標",
 "entries": [
 {
@@ -7752,7 +7089,7 @@
 "gear": null,
 "horse_uid": "fr-satisfied",
 "jockey_uid": null,
-"trainer_uid": "t-s-wattel",
+"trainer_uid": "t-stephane-wattel",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -7784,7 +7121,8 @@
 "hk": "優哉游哉",
 "sc": "优哉游哉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7830,7 +7168,8 @@
 "hk": "法式甜酒",
 "sc": "法式甜酒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7904,7 +7243,8 @@
 "hk": "香車美女",
 "sc": "香车美女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7950,7 +7290,8 @@
 "hk": "亂世佳麗",
 "sc": "乱世佳丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -7996,7 +7337,8 @@
 "hk": "揮灑潘妮",
 "sc": "挥洒潘妮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8015,7 +7357,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-joanna-mason",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "race_uid": "gb-2024-0822-兩歲馬讓賽-15bb",
 "entries": [
 {
@@ -8024,7 +7366,7 @@
 "gear": null,
 "horse_uid": "fr-scatter-penny",
 "jockey_uid": "j-joanna-mason",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 127.0,
 "claim": null,
 "rating": 85,
@@ -8042,7 +7384,8 @@
 "hk": "劇本作家",
 "sc": "剧本作家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8088,7 +7431,8 @@
 "hk": "明媚景致",
 "sc": "明媚景致",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8148,7 +7492,8 @@
 "hk": "醒佳麗",
 "sc": "醒佳丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8194,7 +7539,8 @@
 "hk": "赤蠍星",
 "sc": "赤蝎星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8240,7 +7586,8 @@
 "hk": "文思滔滔",
 "sc": "文思滔滔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8286,7 +7633,8 @@
 "hk": "海夫人",
 "sc": "海夫人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8305,7 +7653,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "race_uid": "fr-2022-0730-六星完美錦標",
 "entries": [
 {
@@ -8314,7 +7662,7 @@
 "gear": null,
 "horse_uid": "fr-sea-the-lady",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -8360,7 +7708,8 @@
 "hk": "海推力",
 "sc": "海推力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8406,7 +7755,8 @@
 "hk": "怒海驚濤",
 "sc": "怒海惊涛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8452,7 +7802,8 @@
 "hk": "變幻海",
 "sc": "变幻海",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8498,7 +7849,8 @@
 "hk": "笑來威",
 "sc": "笑来威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8554,7 +7906,7 @@
 "gear": null,
 "horse_uid": "fr-sealiway",
 "jockey_uid": null,
-"trainer_uid": "t-fred-rossi",
+"trainer_uid": "t-frederic-rossi",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -8600,7 +7952,8 @@
 "hk": "西雅圖",
 "sc": "西雅图",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8646,7 +7999,8 @@
 "hk": "垂簾顧問",
 "sc": "垂帘顾问",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8706,7 +8060,8 @@
 "hk": "秘境木區",
 "sc": "秘境木区",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8766,7 +8121,8 @@
 "hk": "隱隱秘秘",
 "sc": "隐隐秘秘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8826,7 +8182,8 @@
 "hk": "青芹碧澗",
 "sc": "青芹碧涧",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8872,7 +8229,8 @@
 "hk": "恍然大悟",
 "sc": "恍然大悟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8918,7 +8276,8 @@
 "hk": "慶祝日子",
 "sc": "庆祝日子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -8964,7 +8323,8 @@
 "hk": "朗月",
 "sc": "朗月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9024,7 +8384,8 @@
 "hk": "第七任務",
 "sc": "第七任务",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9070,7 +8431,8 @@
 "hk": "野生遷徙",
 "sc": "野生迁徙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9186,7 +8548,8 @@
 "hk": "至尊位",
 "sc": "至尊位",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9232,7 +8595,8 @@
 "hk": "六號客機",
 "sc": "六号客机",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9274,7 +8638,7 @@
 "gear": null,
 "horse_uid": "fr-sestilio-jet",
 "jockey_uid": null,
-"trainer_uid": "t-a-marcialis",
+"trainer_uid": "t-andrea-marcialis",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9292,7 +8656,8 @@
 "hk": "甘為棗馬",
 "sc": "甘为枣马",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9352,7 +8717,8 @@
 "hk": "七弦幽曲",
 "sc": "七弦幽曲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9398,7 +8764,8 @@
 "hk": "七天無休",
 "sc": "七天无休",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9444,7 +8811,8 @@
 "hk": "滔天浪",
 "sc": "滔天浪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9463,7 +8831,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-h-blume",
+"trainer_uid": "t-hans-blume",
 "race_uid": "fr-2022-0805-三歲馬讓賽",
 "entries": [
 {
@@ -9472,7 +8840,7 @@
 "gear": null,
 "horse_uid": "fr-seventh-wave",
 "jockey_uid": null,
-"trainer_uid": "t-h-blume",
+"trainer_uid": "t-hans-blume",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9504,7 +8872,8 @@
 "hk": "嬌冶",
 "sc": "娇冶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9550,7 +8919,8 @@
 "hk": "心踏實",
 "sc": "心踏实",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9596,7 +8966,8 @@
 "hk": "長程轟炸",
 "sc": "长程轰炸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9642,7 +9013,8 @@
 "hk": "王貴子",
 "sc": "王贵子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9688,7 +9060,8 @@
 "hk": "犀利舞王",
 "sc": "犀利舞王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9734,7 +9107,8 @@
 "hk": "勢力達",
 "sc": "势力达",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9780,7 +9154,8 @@
 "hk": "石要塞",
 "sc": "石要塞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9840,7 +9215,8 @@
 "hk": "三葉閃動",
 "sc": "三叶闪动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9859,7 +9235,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "race_uid": "fr-2024-0802-s2-5-月影雲霞錦標",
 "entries": [
 {
@@ -9868,7 +9244,7 @@
 "gear": null,
 "horse_uid": "fr-shamrock-glitter",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9900,7 +9276,8 @@
 "hk": "先擊勇男",
 "sc": "先击勇男",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -9946,7 +9323,8 @@
 "hk": "醒霸盧",
 "sc": "醒霸卢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10006,7 +9384,8 @@
 "hk": "粉碎拳",
 "sc": "粉碎拳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10052,7 +9431,8 @@
 "hk": "石堡驥",
 "sc": "石堡骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10098,7 +9478,8 @@
 "hk": "沙塵浪",
 "sc": "沙尘浪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10144,7 +9525,8 @@
 "hk": "雪無垠",
 "sc": "雪无垠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10163,7 +9545,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -10172,7 +9554,7 @@
 "gear": null,
 "horse_uid": "fr-shearkan",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -10204,7 +9586,8 @@
 "hk": "絕美玫瑰",
 "sc": "绝美玫瑰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10264,7 +9647,8 @@
 "hk": "賽道之霸",
 "sc": "赛道之霸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10310,7 +9694,8 @@
 "hk": "德莉亞",
 "sc": "德莉亚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10356,7 +9741,8 @@
 "hk": "醒威驥",
 "sc": "醒威骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10444,7 +9830,8 @@
 "hk": "幽靜村里",
 "sc": "幽静村里",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10463,7 +9850,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-g-doleuze",
+"trainer_uid": "t-georges-doleuze",
 "race_uid": "fr-2018-1005-航空讓賽",
 "entries": [
 {
@@ -10472,7 +9859,7 @@
 "gear": null,
 "horse_uid": "fr-shere-calm",
 "jockey_uid": null,
-"trainer_uid": "t-g-doleuze",
+"trainer_uid": "t-georges-doleuze",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -10504,7 +9891,8 @@
 "hk": "真命新帝",
 "sc": "真命新帝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10704,7 +10092,8 @@
 "hk": "耀彩黃",
 "sc": "耀彩黄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10750,7 +10139,8 @@
 "hk": "汪海閃亮",
 "sc": "汪海闪亮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10796,7 +10186,8 @@
 "hk": "歌韻",
 "sc": "歌韵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10856,7 +10247,8 @@
 "hk": "如流歲月",
 "sc": "如流岁月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10902,7 +10294,8 @@
 "hk": "安全著陸",
 "sc": "安全著陆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -10921,7 +10314,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-s-kobayashi",
+"trainer_uid": "t-satoshi-kobayashi",
 "race_uid": "fr-2024-0802-s2-3-第一班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -10930,7 +10323,7 @@
 "gear": null,
 "horse_uid": "fr-short-final",
 "jockey_uid": null,
-"trainer_uid": "t-s-kobayashi",
+"trainer_uid": "t-satoshi-kobayashi",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -10976,7 +10369,8 @@
 "hk": "繼續表演",
 "sc": "继续表演",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11022,7 +10416,8 @@
 "hk": "展風采",
 "sc": "展风采",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11068,7 +10463,8 @@
 "hk": "騷雅",
 "sc": "骚雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11087,7 +10483,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-s-kobayashi",
+"trainer_uid": "t-satoshi-kobayashi",
 "race_uid": "fr-2026-0508-法國一千堅尼",
 "entries": [
 {
@@ -11096,7 +10492,7 @@
 "gear": null,
 "horse_uid": "fr-showna",
 "jockey_uid": null,
-"trainer_uid": "t-s-kobayashi",
+"trainer_uid": "t-satoshi-kobayashi",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11142,7 +10538,8 @@
 "hk": "木百葉",
 "sc": "木百叶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11188,7 +10585,8 @@
 "hk": "聽令遵行",
 "sc": "听令遵行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11230,7 +10628,7 @@
 "gear": null,
 "horse_uid": "fr-si-capo-si",
 "jockey_uid": null,
-"trainer_uid": "t-m-boutin",
+"trainer_uid": "t-mathieu-boutin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11262,7 +10660,8 @@
 "hk": "泰完美",
 "sc": "泰完美",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11304,7 +10703,7 @@
 "gear": null,
 "horse_uid": "fr-siam-paragon",
 "jockey_uid": null,
-"trainer_uid": "t-g-doleuze",
+"trainer_uid": "t-georges-doleuze",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11350,7 +10749,8 @@
 "hk": "小報恩",
 "sc": "小报恩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11396,7 +10796,8 @@
 "hk": "西西里",
 "sc": "西西里",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11442,7 +10843,8 @@
 "hk": "流暢律動",
 "sc": "流畅律动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11488,7 +10890,8 @@
 "hk": "銀美洲",
 "sc": "银美洲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11534,7 +10937,8 @@
 "hk": "銀輝神鷹",
 "sc": "银辉神鹰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11580,7 +10984,8 @@
 "hk": "銀足印",
 "sc": "银足印",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11599,7 +11004,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-mme-p-brandt",
+"trainer_uid": "t-pia-brandt",
 "race_uid": "fr-2017-0929-暫定宣佈出賽馬匹名單-歌劇錦標",
 "entries": [
 {
@@ -11608,7 +11013,7 @@
 "gear": null,
 "horse_uid": "fr-silver-step",
 "jockey_uid": null,
-"trainer_uid": "t-mme-p-brandt",
+"trainer_uid": "t-pia-brandt",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11626,7 +11031,8 @@
 "hk": "銀石飆速",
 "sc": "银石飙速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11672,7 +11078,8 @@
 "hk": "銀色海浪",
 "sc": "银色海浪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11691,7 +11098,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-bary",
+"trainer_uid": "t-pascal-bary",
 "race_uid": "fr-2017-0929-凱旋門大賽-歌劇錦標-隆尚教堂-大賽及森林大賽",
 "entries": [
 {
@@ -11700,7 +11107,7 @@
 "gear": null,
 "horse_uid": "fr-silverwave",
 "jockey_uid": null,
-"trainer_uid": "t-p-bary",
+"trainer_uid": "t-pascal-bary",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11718,7 +11125,8 @@
 "hk": "銀霧",
 "sc": "银雾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11764,7 +11172,8 @@
 "hk": "一卡啟動",
 "sc": "一卡启动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11824,7 +11233,8 @@
 "hk": "常滿",
 "sc": "常满",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11870,7 +11280,8 @@
 "hk": "真可愛",
 "sc": "真可爱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11889,7 +11300,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-m-beguigne",
+"trainer_uid": "t-jean-marie-beguigne",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -11898,7 +11309,7 @@
 "gear": null,
 "horse_uid": "fr-simply-lovely",
 "jockey_uid": null,
-"trainer_uid": "t-j-m-beguigne",
+"trainer_uid": "t-jean-marie-beguigne",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11930,7 +11341,8 @@
 "hk": "確特別",
 "sc": "确特别",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -11972,7 +11384,7 @@
 "gear": null,
 "horse_uid": "fr-simply-striking",
 "jockey_uid": "j-tony-piccone",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 128.0,
 "claim": null,
 "rating": 103,
@@ -12028,7 +11440,7 @@
 "gear": null,
 "horse_uid": "fr-simply-striking",
 "jockey_uid": "j-eddy-hardouin",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 118.0,
 "claim": null,
 "rating": 78,
@@ -12046,7 +11458,8 @@
 "hk": "水手辛巴",
 "sc": "水手辛巴",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12065,7 +11478,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-w-hickst",
+"trainer_uid": "t-waldemar-hickst",
 "race_uid": "fr-2018-1005-航空讓賽",
 "entries": [
 {
@@ -12074,7 +11487,7 @@
 "gear": null,
 "horse_uid": "fr-sinbad",
 "jockey_uid": null,
-"trainer_uid": "t-w-hickst",
+"trainer_uid": "t-waldemar-hickst",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12092,7 +11505,8 @@
 "hk": "真誠",
 "sc": "真诚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12138,7 +11552,8 @@
 "hk": "星洲東方",
 "sc": "星洲东方",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12157,7 +11572,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-escuder",
+"trainer_uid": "t-christophe-escuder",
 "race_uid": "fr-2021-0806-第三班讓賽",
 "entries": [
 {
@@ -12166,7 +11581,7 @@
 "gear": null,
 "horse_uid": "fr-singapor-rienta",
 "jockey_uid": null,
-"trainer_uid": "t-c-escuder",
+"trainer_uid": "t-christophe-escuder",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12198,7 +11613,8 @@
 "hk": "首相官邸",
 "sc": "首相官邸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12217,7 +11633,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "race_uid": "aus-2026-0328-葉健士公開賽-表列賽",
 "entries": [
 {
@@ -12226,7 +11642,7 @@
 "gear": null,
 "horse_uid": "fr-sir-chartwell",
 "jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 79,
@@ -12240,7 +11656,7 @@
 "gear": null,
 "horse_uid": "fr-sir-chartwell",
 "jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 117.0,
 "claim": null,
 "rating": 81,
@@ -12258,7 +11674,8 @@
 "hk": "朗奇爵士",
 "sc": "朗奇爵士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12304,7 +11721,8 @@
 "hk": "犀利爵爺",
 "sc": "犀利爵爷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12350,7 +11768,8 @@
 "hk": "擅快行",
 "sc": "擅快行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12480,7 +11899,8 @@
 "hk": "我所想",
 "sc": "我所想",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12554,7 +11974,8 @@
 "hk": "仙韻來",
 "sc": "仙韵来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12573,7 +11994,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-wattel",
+"trainer_uid": "t-anastasia-wattel",
 "race_uid": "fr-2022-0730-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -12582,7 +12003,7 @@
 "gear": null,
 "horse_uid": "fr-sivana",
 "jockey_uid": null,
-"trainer_uid": "t-a-wattel",
+"trainer_uid": "t-anastasia-wattel",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12614,7 +12035,8 @@
 "hk": "勝益分",
 "sc": "胜益分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12660,7 +12082,8 @@
 "hk": "先勇王",
 "sc": "先勇王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12706,7 +12129,8 @@
 "hk": "實勁力達",
 "sc": "实劲力达",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12752,7 +12176,8 @@
 "hk": "實夠力到",
 "sc": "实够力到",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12771,7 +12196,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-sogorb",
+"trainer_uid": "t-philippe-sogorb",
 "race_uid": "fr-2018-1005-航空讓賽",
 "entries": [
 {
@@ -12780,7 +12205,7 @@
 "gear": null,
 "horse_uid": "fr-skalleto",
 "jockey_uid": null,
-"trainer_uid": "t-p-sogorb",
+"trainer_uid": "t-philippe-sogorb",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12798,7 +12223,8 @@
 "hk": "實極醒目",
 "sc": "实极醒目",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12817,7 +12243,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-ce-rossi",
+"trainer_uid": "t-cedric-rossi",
 "race_uid": "aus-2021-0820-賈嘉利大賽",
 "entries": [
 {
@@ -12826,7 +12252,7 @@
 "gear": null,
 "horse_uid": "fr-skazino",
 "jockey_uid": null,
-"trainer_uid": "t-ce-rossi",
+"trainer_uid": "t-cedric-rossi",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12854,7 +12280,7 @@
 "gear": null,
 "horse_uid": "fr-skazino",
 "jockey_uid": null,
-"trainer_uid": "t-r-chotard",
+"trainer_uid": "t-richard-chotard",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12900,7 +12326,8 @@
 "hk": "輕鬆邁步",
 "sc": "轻松迈步",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12946,7 +12373,8 @@
 "hk": "穹蒼力",
 "sc": "穹苍力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -12965,7 +12393,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-g-barbedette",
+"trainer_uid": "t-gael-barbedette",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -12974,7 +12402,7 @@
 "gear": null,
 "horse_uid": "fr-sky-power",
 "jockey_uid": null,
-"trainer_uid": "t-g-barbedette",
+"trainer_uid": "t-gael-barbedette",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13002,7 +12430,7 @@
 "gear": null,
 "horse_uid": "fr-sky-power",
 "jockey_uid": null,
-"trainer_uid": "t-g-hernon",
+"trainer_uid": "t-gavin-hernon",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13044,7 +12472,7 @@
 "gear": null,
 "horse_uid": "fr-sky-power",
 "jockey_uid": null,
-"trainer_uid": "t-g-hernon",
+"trainer_uid": "t-gavin-hernon",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13076,7 +12504,8 @@
 "hk": "劃破天際",
 "sc": "划破天际",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13122,7 +12551,8 @@
 "hk": "峻嶺滑雪",
 "sc": "峻岭滑雪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13141,7 +12571,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-fabre",
+"trainer_uid": "t-andre-fabre",
 "race_uid": "fr-2019-法國打吡大賽",
 "entries": [
 {
@@ -13150,7 +12580,7 @@
 "gear": null,
 "horse_uid": "fr-slalom",
 "jockey_uid": null,
-"trainer_uid": "t-a-fabre",
+"trainer_uid": "t-andre-fabre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13168,7 +12598,8 @@
 "hk": "一鳴驚天",
 "sc": "一鸣惊天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13228,7 +12659,8 @@
 "hk": "渴眠秀倩",
 "sc": "渴眠秀倩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13247,7 +12679,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-escuder",
+"trainer_uid": "t-christophe-escuder",
 "race_uid": "fr-2022-0805-三歲馬讓賽",
 "entries": [
 {
@@ -13256,7 +12688,7 @@
 "gear": null,
 "horse_uid": "fr-sleepy-suzy",
 "jockey_uid": null,
-"trainer_uid": "t-c-escuder",
+"trainer_uid": "t-christophe-escuder",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13288,7 +12720,8 @@
 "hk": "快又醒",
 "sc": "快又醒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13307,7 +12740,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-adda",
+"trainer_uid": "t-pascal-adda",
 "race_uid": "fr-2021-0806-第二班條件讓磅賽",
 "entries": [
 {
@@ -13316,7 +12749,7 @@
 "gear": null,
 "horse_uid": "fr-smart-and-fast",
 "jockey_uid": null,
-"trainer_uid": "t-p-adda",
+"trainer_uid": "t-pascal-adda",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13348,7 +12781,8 @@
 "hk": "微笑因我",
 "sc": "微笑因我",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13394,7 +12828,8 @@
 "hk": "展笑顏",
 "sc": "展笑颜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13436,7 +12871,7 @@
 "gear": null,
 "horse_uid": "fr-smile-makers",
 "jockey_uid": null,
-"trainer_uid": "t-fred-rossi",
+"trainer_uid": "t-frederic-rossi",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13468,7 +12903,8 @@
 "hk": "俐索",
 "sc": "俐索",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13514,7 +12950,8 @@
 "hk": "雪上行",
 "sc": "雪上行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13560,7 +12997,8 @@
 "hk": "冰花會",
 "sc": "冰花会",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13606,7 +13044,8 @@
 "hk": "上岸",
 "sc": "上岸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13652,7 +13091,8 @@
 "hk": "志清醒",
 "sc": "志清醒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13740,7 +13180,8 @@
 "hk": "無上權威",
 "sc": "无上权威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13786,7 +13227,8 @@
 "hk": "社會棟樑",
 "sc": "社会栋梁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13832,7 +13274,8 @@
 "hk": "人民王妃",
 "sc": "人民王妃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13878,7 +13321,8 @@
 "hk": "柔和光線",
 "sc": "柔和光线",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13897,7 +13341,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "race_uid": "fr-2019-1004-凱旋門大賽日",
 "entries": [
 {
@@ -13906,7 +13350,7 @@
 "gear": null,
 "horse_uid": "fr-soft-light",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13920,7 +13364,7 @@
 "gear": null,
 "horse_uid": "fr-soft-light",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13938,7 +13382,8 @@
 "hk": "熱愛生命",
 "sc": "热爱生命",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -13957,7 +13402,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-s-lanslots",
+"trainer_uid": "t-sofie-lanslots",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -13966,7 +13411,7 @@
 "gear": null,
 "horse_uid": "fr-soif-de-vivre",
 "jockey_uid": null,
-"trainer_uid": "t-s-lanslots",
+"trainer_uid": "t-sofie-lanslots",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -13984,7 +13429,8 @@
 "hk": "半邊天",
 "sc": "半边天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14030,7 +13476,8 @@
 "hk": "湛藍眼眸",
 "sc": "湛蓝眼眸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14049,7 +13496,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "race_uid": "fr-2017-0929-隆尚教堂大賽",
 "entries": [
 {
@@ -14058,7 +13505,7 @@
 "gear": null,
 "horse_uid": "fr-son-cesio",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14090,7 +13537,8 @@
 "hk": "素菲星光",
 "sc": "素菲星光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14164,7 +13612,8 @@
 "hk": "太好了",
 "sc": "太好了",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14210,7 +13659,8 @@
 "hk": "設計名師",
 "sc": "设计名师",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14229,7 +13679,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "race_uid": "fr-2019-1004-凱旋門大賽日",
 "entries": [
 {
@@ -14238,7 +13688,7 @@
 "gear": null,
 "horse_uid": "fr-sottsass",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14252,7 +13702,7 @@
 "gear": null,
 "horse_uid": "fr-sottsass",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14284,7 +13734,8 @@
 "hk": "信未來",
 "sc": "信未来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14330,7 +13781,8 @@
 "hk": "雪中驥",
 "sc": "雪中骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14372,7 +13824,7 @@
 "gear": null,
 "horse_uid": "fr-sous-la-neige",
 "jockey_uid": null,
-"trainer_uid": "t-g-hernon",
+"trainer_uid": "t-gavin-hernon",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14418,7 +13870,8 @@
 "hk": "南之芳桂",
 "sc": "南之芳桂",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14464,7 +13917,8 @@
 "hk": "闖南域",
 "sc": "闯南域",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14510,7 +13964,8 @@
 "hk": "才思不絕",
 "sc": "才思不绝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14570,7 +14025,8 @@
 "hk": "耀麗",
 "sc": "耀丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14616,7 +14072,8 @@
 "hk": "爍爍多",
 "sc": "烁烁多",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14690,7 +14147,8 @@
 "hk": "真感激",
 "sc": "真感激",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14736,7 +14194,8 @@
 "hk": "一言即中",
 "sc": "一言即中",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14778,7 +14237,7 @@
 "gear": null,
 "horse_uid": "fr-speak-of-the-devil",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14838,7 +14297,8 @@
 "hk": "過人速度",
 "sc": "过人速度",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14898,7 +14358,8 @@
 "hk": "游泳小將",
 "sc": "游泳小将",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14944,7 +14405,8 @@
 "hk": "速飆飛馳",
 "sc": "速飙飞驰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -14990,7 +14452,8 @@
 "hk": "快高小草",
 "sc": "快高小草",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15036,7 +14499,8 @@
 "hk": "笑舉杯",
 "sc": "笑举杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15082,7 +14546,8 @@
 "hk": "志比天高",
 "sc": "志比天高",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15128,7 +14593,8 @@
 "hk": "精神復仇",
 "sc": "精神复仇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15174,7 +14640,8 @@
 "hk": "尖子精神",
 "sc": "尖子精神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15220,7 +14687,8 @@
 "hk": "挪威大島",
 "sc": "挪威大岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15266,7 +14734,8 @@
 "hk": "飛灑再來",
 "sc": "飞洒再来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15396,7 +14865,8 @@
 "hk": "妙絕倫",
 "sc": "妙绝伦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15415,7 +14885,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-boutin",
+"trainer_uid": "t-mathieu-boutin",
 "race_uid": "fr-2026-0508-法國二千堅尼賽馬日-暫定",
 "entries": [
 {
@@ -15424,7 +14894,7 @@
 "gear": null,
 "horse_uid": "fr-splendino",
 "jockey_uid": null,
-"trainer_uid": "t-m-boutin",
+"trainer_uid": "t-mathieu-boutin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -15456,7 +14926,8 @@
 "hk": "歌韻串流",
 "sc": "歌韵串流",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15544,7 +15015,8 @@
 "hk": "春景",
 "sc": "春景",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15590,7 +15062,8 @@
 "hk": "春意綿綿",
 "sc": "春意绵绵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15678,7 +15151,8 @@
 "hk": "春天莉莉",
 "sc": "春天莉莉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15724,7 +15198,8 @@
 "hk": "春天街",
 "sc": "春天街",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15770,7 +15245,8 @@
 "hk": "呂伊廣場",
 "sc": "吕伊广场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15816,7 +15292,8 @@
 "hk": "小園地",
 "sc": "小园地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15862,7 +15339,8 @@
 "hk": "金教堂",
 "sc": "金教堂",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -15899,6 +15377,20 @@
 "race_uid": "fr-2021-法國打吡大賽"
 },
 {
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "fr-st-mark-s-basilica",
+"jockey_uid": null,
+"trainer_uid": "t-aidan-o-brien",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2021-法國打吡大賽-暫定"
+},
+{
 "no": 4,
 "draw": 1,
 "gear": null,
@@ -15911,6 +15403,20 @@
 "sex": "M",
 "age": 3,
 "race_uid": "gb-2021-0703-蝕大賽"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "fr-st-mark-s-basilica",
+"jockey_uid": null,
+"trainer_uid": "t-aidan-o-brien",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "gb-2021-0817-國際錦標"
 },
 {
 "no": 4,
@@ -15929,66 +15435,6 @@
 ]
 },
 {
-"uid": "fr-st-marks-basilica",
-"names": {
-"original": "ST MARK’S BASILICA",
-"en": "ST MARK’S BASILICA",
-"hk": "金教堂",
-"sc": "金教堂",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": null,
-"sex_cn": "",
-"birth_date": null,
-"birth_year": null,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-a-p-obrien",
-"race_uid": "fr-2021-法國打吡大賽-暫定",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-st-marks-basilica",
-"jockey_uid": null,
-"trainer_uid": "t-a-p-obrien",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2021-法國打吡大賽-暫定"
-},
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-st-marks-basilica",
-"jockey_uid": null,
-"trainer_uid": "t-a-p-obrien",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "gb-2021-0817-國際錦標"
-}
-]
-},
-{
 "uid": "fr-star-of-light",
 "names": {
 "original": "Star Of Light",
@@ -15996,7 +15442,8 @@
 "hk": "亮星兒",
 "sc": "亮星儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16042,7 +15489,8 @@
 "hk": "夜星飛",
 "sc": "夜星飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16088,7 +15536,8 @@
 "hk": "星滾石",
 "sc": "星滚石",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16176,7 +15625,8 @@
 "hk": "五湖名勝",
 "sc": "五湖名胜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16222,7 +15672,8 @@
 "hk": "鋼桶鼓",
 "sc": "钢桶鼓",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16268,7 +15719,8 @@
 "hk": "鋼錘",
 "sc": "钢锤",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16287,7 +15739,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-h-blume",
+"trainer_uid": "t-hans-blume",
 "race_uid": "fr-2022-0730-三歲馬讓賽",
 "entries": [
 {
@@ -16296,7 +15748,7 @@
 "gear": null,
 "horse_uid": "fr-steelhammer",
 "jockey_uid": null,
-"trainer_uid": "t-h-blume",
+"trainer_uid": "t-hans-blume",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -16328,7 +15780,8 @@
 "hk": "硬朗馬克",
 "sc": "硬朗马克",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16374,7 +15827,8 @@
 "hk": "魔鬼魚",
 "sc": "魔鬼鱼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16420,7 +15874,8 @@
 "hk": "偷偷吻",
 "sc": "偷偷吻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16480,7 +15935,8 @@
 "hk": "右直拳",
 "sc": "右直拳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16568,7 +16024,8 @@
 "hk": "陌路相逢",
 "sc": "陌路相逢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16587,7 +16044,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-n-hollinshead",
+"trainer_uid": "t-andrew-hollinshead",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -16596,7 +16053,7 @@
 "gear": null,
 "horse_uid": "fr-stranger",
 "jockey_uid": null,
-"trainer_uid": "t-a-n-hollinshead",
+"trainer_uid": "t-andrew-hollinshead",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -16628,7 +16085,8 @@
 "hk": "全無壓力",
 "sc": "全无压力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16716,7 +16174,8 @@
 "hk": "芝士卷餅",
 "sc": "芝士卷饼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16762,7 +16221,8 @@
 "hk": "曠世奇花",
 "sc": "旷世奇花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16808,7 +16268,8 @@
 "hk": "奪取風格",
 "sc": "夺取风格",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16854,7 +16315,8 @@
 "hk": "瑞典話",
 "sc": "瑞典话",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16900,7 +16362,8 @@
 "hk": "日光電源",
 "sc": "日光电源",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16974,7 +16437,8 @@
 "hk": "烈日專案",
 "sc": "烈日专案",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -16993,7 +16457,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-l-d-racco",
+"trainer_uid": "t-leonardo-racco",
 "race_uid": "fr-2026-0731-s2-4-pmu-全球匯合彩池第三班讓賽-s2-6-pmu-全球匯合彩池第三班讓賽",
 "entries": [
 {
@@ -17002,7 +16466,7 @@
 "gear": null,
 "horse_uid": "fr-sun-project",
 "jockey_uid": null,
-"trainer_uid": "t-l-d-racco",
+"trainer_uid": "t-leonardo-racco",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -17034,7 +16498,8 @@
 "hk": "盛裝登場",
 "sc": "盛装登场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17080,7 +16545,8 @@
 "hk": "持久鮮色",
 "sc": "持久鲜色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17126,7 +16592,8 @@
 "hk": "盛威",
 "sc": "盛威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17284,7 +16751,8 @@
 "hk": "手鼓樂家",
 "sc": "手鼓乐家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17330,7 +16798,8 @@
 "hk": "疾速度",
 "sc": "疾速度",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17432,7 +16901,8 @@
 "hk": "雪裡霧",
 "sc": "雪里雾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17492,7 +16962,8 @@
 "hk": "生意盎然",
 "sc": "生意盎然",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17538,7 +17009,8 @@
 "hk": "妙轉彎",
 "sc": "妙转弯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17557,7 +17029,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-van-de-poele",
+"trainer_uid": "t-philippe-van-de-poele",
 "race_uid": "fr-2022-0730-第三班讓賽-容後公佈-第二班讓賽",
 "entries": [
 {
@@ -17566,7 +17038,7 @@
 "gear": null,
 "horse_uid": "fr-svolta",
 "jockey_uid": null,
-"trainer_uid": "t-p-van-de-poele",
+"trainer_uid": "t-philippe-van-de-poele",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -17598,7 +17070,8 @@
 "hk": "席捲天地",
 "sc": "席卷天地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17658,7 +17131,8 @@
 "hk": "勁出色",
 "sc": "劲出色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17704,7 +17178,8 @@
 "hk": "甜絲怨曲",
 "sc": "甜丝怨曲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17750,7 +17225,8 @@
 "hk": "甜印記",
 "sc": "甜印记",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17769,7 +17245,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-murphy",
+"trainer_uid": "t-amy-murphy",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -17778,7 +17254,7 @@
 "gear": null,
 "horse_uid": "fr-sweet-chop",
 "jockey_uid": null,
-"trainer_uid": "t-a-murphy",
+"trainer_uid": "t-amy-murphy",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -17810,7 +17286,8 @@
 "hk": "甜美姐兒",
 "sc": "甜美姐儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17870,7 +17347,8 @@
 "hk": "戀戀甜心",
 "sc": "恋恋甜心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17916,7 +17394,8 @@
 "hk": "迅飛",
 "sc": "迅飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -17972,7 +17451,7 @@
 "gear": null,
 "horse_uid": "fr-swift-flight",
 "jockey_uid": null,
-"trainer_uid": "t-s-cerulis",
+"trainer_uid": "t-stephane-cerulis",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -18018,7 +17497,8 @@
 "hk": "湖中噴發",
 "sc": "湖中喷发",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18064,7 +17544,8 @@
 "hk": "攀峰基地",
 "sc": "攀峰基地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18110,7 +17591,8 @@
 "hk": "緹麗驥",
 "sc": "缇丽骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18156,7 +17638,8 @@
 "hk": "量身訂造",
 "sc": "量身订造",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18202,7 +17685,8 @@
 "hk": "大班派頭",
 "sc": "大班派头",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18248,7 +17732,8 @@
 "hk": "格鬥特技",
 "sc": "格斗特技",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18294,7 +17779,8 @@
 "hk": "清談節目",
 "sc": "清谈节目",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18313,7 +17799,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-g-bietolini",
+"trainer_uid": "t-gianluca-bietolini",
 "race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -18322,7 +17808,7 @@
 "gear": null,
 "horse_uid": "fr-talk-show",
 "jockey_uid": null,
-"trainer_uid": "t-g-bietolini",
+"trainer_uid": "t-gianluca-bietolini",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -18354,7 +17840,8 @@
 "hk": "感應貓",
 "sc": "感应猫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18400,7 +17887,8 @@
 "hk": "塔拉女后",
 "sc": "塔拉女后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18460,7 +17948,8 @@
 "hk": "意態駿逸",
 "sc": "意态骏逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18479,7 +17968,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-andreu",
+"trainer_uid": "t-jerome-andreu",
 "race_uid": "fr-2024-0802-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -18488,7 +17977,7 @@
 "gear": null,
 "horse_uid": "fr-tashanka",
 "jockey_uid": null,
-"trainer_uid": "t-j-andreu",
+"trainer_uid": "t-jerome-andreu",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -18534,7 +18023,8 @@
 "hk": "塔斯曼灣",
 "sc": "塔斯曼湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18608,7 +18098,8 @@
 "hk": "十角號",
 "sc": "十角号",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18627,7 +18118,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-cottier",
+"trainer_uid": "t-patrice-cottier",
 "race_uid": "fr-2024-0802-s2-5-月影雲霞錦標",
 "entries": [
 {
@@ -18636,7 +18127,7 @@
 "gear": null,
 "horse_uid": "fr-ten-horns",
 "jockey_uid": null,
-"trainer_uid": "t-p-cottier",
+"trainer_uid": "t-patrice-cottier",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -18696,7 +18187,8 @@
 "hk": "貼心暖意",
 "sc": "贴心暖意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18742,7 +18234,8 @@
 "hk": "飛瀑火山",
 "sc": "飞瀑火山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18788,7 +18281,8 @@
 "hk": "川椒",
 "sc": "川椒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18830,7 +18324,7 @@
 "gear": null,
 "horse_uid": "fr-teppal",
 "jockey_uid": null,
-"trainer_uid": "t-d-simcock",
+"trainer_uid": "t-david-simcock",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -18848,7 +18342,8 @@
 "hk": "女梟本領",
 "sc": "女枭本领",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18894,7 +18389,8 @@
 "hk": "交鋒地域",
 "sc": "交锋地域",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18913,7 +18409,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-maxime-guyon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "race_uid": "fr-2025-0706-第三班讓賽",
 "entries": [
 {
@@ -18922,7 +18418,7 @@
 "gear": null,
 "horse_uid": "fr-terredeguerre",
 "jockey_uid": "j-maxime-guyon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 130.0,
 "claim": null,
 "rating": 72,
@@ -18940,7 +18436,8 @@
 "hk": "得天時",
 "sc": "得天时",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -18986,7 +18483,8 @@
 "hk": "河口星光",
 "sc": "河口星光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19032,7 +18530,8 @@
 "hk": "古錢",
 "sc": "古钱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19092,7 +18591,8 @@
 "hk": "德州",
 "sc": "德州",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19110,7 +18610,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-george-m-baker",
 "race_uid": "gb-2026-0730-三歲以上馬0-80分讓賽",
 "entries": [
@@ -19119,7 +18619,7 @@
 "draw": 10,
 "gear": "CP/TT",
 "horse_uid": "fr-tex",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-george-m-baker",
 "lb": 130.0,
 "claim": null,
@@ -19138,7 +18638,8 @@
 "hk": "豐饒靈思",
 "sc": "丰饶灵思",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19198,7 +18699,8 @@
 "hk": "暗色宮娥",
 "sc": "暗色宫娥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19217,7 +18719,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-gosden",
+"trainer_uid": "t-john-gosden",
 "race_uid": "fr-2017-0929-暫定宣佈出賽馬匹名單-歌劇錦標",
 "entries": [
 {
@@ -19226,7 +18728,7 @@
 "gear": null,
 "horse_uid": "fr-the-black-princess",
 "jockey_uid": null,
-"trainer_uid": "t-j-gosden",
+"trainer_uid": "t-john-gosden",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19258,7 +18760,8 @@
 "hk": "穩奪冠",
 "sc": "稳夺冠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19332,7 +18835,8 @@
 "hk": "俊誘力",
 "sc": "俊诱力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19374,7 +18878,7 @@
 "gear": null,
 "horse_uid": "fr-the-charm",
 "jockey_uid": null,
-"trainer_uid": "t-f-fievez",
+"trainer_uid": "t-fabrice-fievez",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19406,7 +18910,8 @@
 "hk": "俊魅惑",
 "sc": "俊魅惑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19425,7 +18930,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-delzangles",
+"trainer_uid": "t-mikel-delzangles",
 "race_uid": "fr-2022-0805-第一班讓賽",
 "entries": [
 {
@@ -19434,7 +18939,7 @@
 "gear": null,
 "horse_uid": "fr-the-charmer",
 "jockey_uid": null,
-"trainer_uid": "t-m-delzangles",
+"trainer_uid": "t-mikel-delzangles",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19452,7 +18957,8 @@
 "hk": "彬彬君子",
 "sc": "彬彬君子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19494,7 +19000,7 @@
 "gear": null,
 "horse_uid": "fr-the-good-man",
 "jockey_uid": null,
-"trainer_uid": "t-s-wattel",
+"trainer_uid": "t-stephane-wattel",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19526,7 +19032,8 @@
 "hk": "萬金栽花",
 "sc": "万金栽花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19572,7 +19079,8 @@
 "hk": "臨別之舞",
 "sc": "临别之舞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19591,7 +19099,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-y-lerner",
+"trainer_uid": "t-carlos-yann-lerner",
 "race_uid": "fr-2026-0508-法國一千堅尼",
 "entries": [
 {
@@ -19600,7 +19108,7 @@
 "gear": null,
 "horse_uid": "fr-the-last-dance",
 "jockey_uid": null,
-"trainer_uid": "t-c-y-lerner",
+"trainer_uid": "t-carlos-yann-lerner",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19632,7 +19140,8 @@
 "hk": "奪桂冠",
 "sc": "夺桂冠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19651,7 +19160,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tony-piccone",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "race_uid": "fr-2023-1002-第一班讓賽-f600",
 "entries": [
 {
@@ -19660,7 +19169,7 @@
 "gear": null,
 "horse_uid": "fr-the-laureate",
 "jockey_uid": "j-tony-piccone",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 118.0,
 "claim": null,
 "rating": 83,
@@ -19678,7 +19187,8 @@
 "hk": "尼羅河曲",
 "sc": "尼罗河曲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19724,7 +19234,8 @@
 "hk": "小天地",
 "sc": "小天地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19770,7 +19281,8 @@
 "hk": "影子兒",
 "sc": "影子儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19816,7 +19328,8 @@
 "hk": "仙地君",
 "sc": "仙地君",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19862,7 +19375,8 @@
 "hk": "執法官",
 "sc": "执法官",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19908,7 +19422,8 @@
 "hk": "登頂峰",
 "sc": "登顶峰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -19950,7 +19465,7 @@
 "gear": null,
 "horse_uid": "fr-the-summit",
 "jockey_uid": null,
-"trainer_uid": "t-h-a-pantall",
+"trainer_uid": "t-henri-alex-pantall",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19982,7 +19497,8 @@
 "hk": "好時分",
 "sc": "好时分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20028,7 +19544,8 @@
 "hk": "百計千謀",
 "sc": "百计千谋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20074,7 +19591,8 @@
 "hk": "雪白姬",
 "sc": "雪白姬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20093,7 +19611,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "race_uid": "fr-2024-0802-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -20102,7 +19620,7 @@
 "gear": null,
 "horse_uid": "fr-the-white-lady",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20134,7 +19652,8 @@
 "hk": "劇場小屋",
 "sc": "剧场小屋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20180,7 +19699,8 @@
 "hk": "同風光",
 "sc": "同风光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20199,7 +19719,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "race_uid": "fr-2022-0805-第二班條件讓磅賽",
 "entries": [
 {
@@ -20208,7 +19728,7 @@
 "gear": null,
 "horse_uid": "fr-thierache",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20240,7 +19760,8 @@
 "hk": "三回夢",
 "sc": "三回梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20286,7 +19807,8 @@
 "hk": "霹靂心",
 "sc": "霹雳心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20332,7 +19854,8 @@
 "hk": "雷速",
 "sc": "雷速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20378,7 +19901,8 @@
 "hk": "心滿意足",
 "sc": "心满意足",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20438,7 +19962,8 @@
 "hk": "王族統治",
 "sc": "王族统治",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20480,7 +20005,7 @@
 "gear": null,
 "horse_uid": "fr-tiberian",
 "jockey_uid": null,
-"trainer_uid": "t-a-couetil",
+"trainer_uid": "t-alain-couetil",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20498,7 +20023,8 @@
 "hk": "大哥領前",
 "sc": "大哥领前",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20600,7 +20126,8 @@
 "hk": "神虎勇征",
 "sc": "神虎勇征",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20646,7 +20173,8 @@
 "hk": "虎吼聲威",
 "sc": "虎吼声威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20692,7 +20220,8 @@
 "hk": "赤紋金虎",
 "sc": "赤纹金虎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20738,7 +20267,8 @@
 "hk": "藍星虎",
 "sc": "蓝星虎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20784,7 +20314,8 @@
 "hk": "高盧彪娃",
 "sc": "高卢彪娃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20830,7 +20361,8 @@
 "hk": "拼到底",
 "sc": "拼到底",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20849,7 +20381,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-boutin",
+"trainer_uid": "t-mathieu-boutin",
 "race_uid": "fr-2021-0806-第二班條件讓磅賽",
 "entries": [
 {
@@ -20858,7 +20390,7 @@
 "gear": null,
 "horse_uid": "fr-till-we-die",
 "jockey_uid": null,
-"trainer_uid": "t-m-boutin",
+"trainer_uid": "t-mathieu-boutin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20876,7 +20408,8 @@
 "hk": "木柱陣",
 "sc": "木柱阵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20922,7 +20455,8 @@
 "hk": "高翔時機",
 "sc": "高翔时机",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -20968,7 +20502,8 @@
 "hk": "求學時期",
 "sc": "求学时期",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21014,7 +20549,8 @@
 "hk": "時報廣場",
 "sc": "时报广场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21033,7 +20569,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-carleen-hefel",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "race_uid": "aus-2023-1021-滿家錦標",
 "entries": [
 {
@@ -21042,7 +20578,7 @@
 "gear": null,
 "horse_uid": "fr-times-square",
 "jockey_uid": "j-carleen-hefel",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 123.0,
 "claim": null,
 "rating": 101,
@@ -21056,7 +20592,7 @@
 "gear": null,
 "horse_uid": "fr-times-square",
 "jockey_uid": "j-hugh-bowman",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 126.0,
 "claim": null,
 "rating": 110,
@@ -21074,7 +20610,8 @@
 "hk": "南征北討",
 "sc": "南征北讨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21148,7 +20685,8 @@
 "hk": "甜妮子",
 "sc": "甜妮子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21194,7 +20732,8 @@
 "hk": "調皮心",
 "sc": "调皮心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21250,7 +20789,7 @@
 "gear": null,
 "horse_uid": "fr-tipinso",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -21268,7 +20807,8 @@
 "hk": "多積極",
 "sc": "多积极",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21287,7 +20827,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-nigge",
+"trainer_uid": "t-markus-nigge",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -21296,7 +20836,7 @@
 "gear": null,
 "horse_uid": "fr-toijk",
 "jockey_uid": null,
-"trainer_uid": "t-m-nigge",
+"trainer_uid": "t-markus-nigge",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -21324,7 +20864,7 @@
 "gear": null,
 "horse_uid": "fr-toijk",
 "jockey_uid": null,
-"trainer_uid": "t-h-sauer",
+"trainer_uid": "t-hella-sauer",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -21356,7 +20896,8 @@
 "hk": "通明男兒",
 "sc": "通明男儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21375,7 +20916,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "race_uid": "aus-2021-0820-莫尼大賽",
 "entries": [
 {
@@ -21384,7 +20925,7 @@
 "gear": null,
 "horse_uid": "fr-toimy-son",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -21486,7 +21027,8 @@
 "hk": "加密經濟",
 "sc": "加密经济",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21574,7 +21116,8 @@
 "hk": "村莊情致",
 "sc": "村庄情致",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21593,7 +21136,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-augustin-madamet",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "race_uid": "fr-2024-1007-第一班讓賽-72ab",
 "entries": [
 {
@@ -21602,7 +21145,7 @@
 "gear": null,
 "horse_uid": "fr-tollevast",
 "jockey_uid": "j-augustin-madamet",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 118.0,
 "claim": null,
 "rating": 81,
@@ -21620,7 +21163,8 @@
 "hk": "夢明天",
 "sc": "梦明天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21680,7 +21224,8 @@
 "hk": "瓊漿小鎮",
 "sc": "琼浆小镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21699,7 +21244,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-e-d-monfort",
+"trainer_uid": "t-edouard-monfort",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -21708,7 +21253,7 @@
 "gear": null,
 "horse_uid": "fr-tonnencourt",
 "jockey_uid": null,
-"trainer_uid": "t-e-d-monfort",
+"trainer_uid": "t-edouard-monfort",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -21740,7 +21285,8 @@
 "hk": "飛越校園",
 "sc": "飞越校园",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21786,7 +21332,8 @@
 "hk": "極級競速",
 "sc": "极级竞速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21888,7 +21435,8 @@
 "hk": "溫和口味",
 "sc": "温和口味",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21934,7 +21482,8 @@
 "hk": "多變色",
 "sc": "多变色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -21994,7 +21543,8 @@
 "hk": "山巔",
 "sc": "山巅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22050,7 +21600,7 @@
 "gear": null,
 "horse_uid": "fr-torpen",
 "jockey_uid": null,
-"trainer_uid": "t-r-schoof",
+"trainer_uid": "t-robin-schoof",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22152,7 +21702,8 @@
 "hk": "今昔村景",
 "sc": "今昔村景",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22208,7 +21759,7 @@
 "gear": null,
 "horse_uid": "fr-tortisambert",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22254,7 +21805,8 @@
 "hk": "樹影銀灘",
 "sc": "树影银滩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22300,7 +21852,8 @@
 "hk": "意中神廟",
 "sc": "意中神庙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22346,7 +21899,8 @@
 "hk": "全擊破",
 "sc": "全击破",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22392,7 +21946,8 @@
 "hk": "圖騰標記",
 "sc": "图腾标记",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22411,7 +21966,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-anthony-bernard",
-"trainer_uid": "t-pierre-fertillet",
+"trainer_uid": "t-pierre-j-fertillet",
 "race_uid": "fr-2022-0814-第三班讓賽",
 "entries": [
 {
@@ -22420,7 +21975,7 @@
 "gear": "TT",
 "horse_uid": "fr-totem",
 "jockey_uid": "j-anthony-bernard",
-"trainer_uid": "t-pierre-fertillet",
+"trainer_uid": "t-pierre-j-fertillet",
 "lb": 128.0,
 "claim": null,
 "rating": 72,
@@ -22438,7 +21993,8 @@
 "hk": "巴黎遊",
 "sc": "巴黎游",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22484,7 +22040,8 @@
 "hk": "戰國英傑",
 "sc": "战国英杰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22614,7 +22171,8 @@
 "hk": "鐵火槍",
 "sc": "铁火枪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22660,7 +22218,8 @@
 "hk": "計分秒",
 "sc": "计分秒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22734,7 +22293,8 @@
 "hk": "名景點",
 "sc": "名景点",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22780,7 +22340,8 @@
 "hk": "超乎想象",
 "sc": "超乎想象",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22826,7 +22387,8 @@
 "hk": "有運數字",
 "sc": "有运数字",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22872,7 +22434,8 @@
 "hk": "全滿",
 "sc": "全满",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -22932,7 +22495,8 @@
 "hk": "英明族長",
 "sc": "英明族长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23020,7 +22584,8 @@
 "hk": "大君王",
 "sc": "大君王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23066,7 +22631,8 @@
 "hk": "一發三響",
 "sc": "一发三响",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23085,7 +22651,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-fabre",
+"trainer_uid": "t-andre-fabre",
 "race_uid": "aus-2021-0820-莫尼大賽",
 "entries": [
 {
@@ -23094,7 +22660,7 @@
 "gear": null,
 "horse_uid": "fr-trident",
 "jockey_uid": null,
-"trainer_uid": "t-a-fabre",
+"trainer_uid": "t-andre-fabre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -23140,7 +22706,8 @@
 "hk": "省電燈",
 "sc": "省电灯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23186,7 +22753,8 @@
 "hk": "朝聖之旅",
 "sc": "朝圣之旅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23232,7 +22800,8 @@
 "hk": "全是利",
 "sc": "全是利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23251,7 +22820,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-v-luka",
+"trainer_uid": "t-vaclav-luka",
 "race_uid": "fr-2018-1005-航空讓賽",
 "entries": [
 {
@@ -23260,7 +22829,7 @@
 "gear": null,
 "horse_uid": "fr-troizilet",
 "jockey_uid": null,
-"trainer_uid": "t-v-luka",
+"trainer_uid": "t-vaclav-luka",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -23274,7 +22843,7 @@
 "gear": null,
 "horse_uid": "fr-troizilet",
 "jockey_uid": null,
-"trainer_uid": "t-v-luka",
+"trainer_uid": "t-vaclav-luka",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -23292,7 +22861,8 @@
 "hk": "吐輝",
 "sc": "吐辉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23352,7 +22922,8 @@
 "hk": "銀灘景致",
 "sc": "银滩景致",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23398,7 +22969,8 @@
 "hk": "場霸",
 "sc": "场霸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23444,7 +23016,8 @@
 "hk": "奇俠本色",
 "sc": "奇侠本色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23532,7 +23105,8 @@
 "hk": "真章",
 "sc": "真章",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23788,7 +23362,8 @@
 "hk": "都可以",
 "sc": "都可以",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23890,7 +23465,8 @@
 "hk": "嬌花杯",
 "sc": "娇花杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -23936,7 +23512,8 @@
 "hk": "雜技高手",
 "sc": "杂技高手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24010,7 +23587,8 @@
 "hk": "靈動翻騰",
 "sc": "灵动翻腾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24029,7 +23607,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-aurelien-lemaitre",
-"trainer_uid": "t-x-thomas-demeaulte",
+"trainer_uid": "t-xavier-thomas-demeaulte",
 "race_uid": "fr-2024-0708-金剛威錦標-表列賽",
 "entries": [
 {
@@ -24038,7 +23616,7 @@
 "gear": null,
 "horse_uid": "fr-turn-cartwheels",
 "jockey_uid": "j-aurelien-lemaitre",
-"trainer_uid": "t-x-thomas-demeaulte",
+"trainer_uid": "t-xavier-thomas-demeaulte",
 "lb": 125.0,
 "claim": null,
 "rating": 96,
@@ -24056,7 +23634,8 @@
 "hk": "多得速",
 "sc": "多得速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24075,7 +23654,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-cesandri",
+"trainer_uid": "t-maxime-cesandri",
 "race_uid": "fr-2021-0806-三歲馬讓賽",
 "entries": [
 {
@@ -24084,7 +23663,7 @@
 "gear": null,
 "horse_uid": "fr-turtle-chope",
 "jockey_uid": null,
-"trainer_uid": "t-m-cesandri",
+"trainer_uid": "t-maxime-cesandri",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -24116,7 +23695,8 @@
 "hk": "山巒勝境",
 "sc": "山峦胜境",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24176,7 +23756,8 @@
 "hk": "托斯卡星",
 "sc": "托斯卡星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24222,7 +23803,8 @@
 "hk": "雙生孩",
 "sc": "双生孩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24268,7 +23850,8 @@
 "hk": "加倍再三",
 "sc": "加倍再三",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24328,7 +23911,8 @@
 "hk": "姍姍娃兒",
 "sc": "姗姗娃儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24374,7 +23958,8 @@
 "hk": "海事中心",
 "sc": "海事中心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24420,7 +24005,8 @@
 "hk": "權勢領主",
 "sc": "权势领主",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24466,7 +24052,8 @@
 "hk": "仙朗雪驥",
 "sc": "仙朗雪骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24512,7 +24099,8 @@
 "hk": "鮮美",
 "sc": "鲜美",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24568,7 +24156,7 @@
 "gear": null,
 "horse_uid": "fr-umami",
 "jockey_uid": null,
-"trainer_uid": "t-y-barberot",
+"trainer_uid": "t-yann-barberot",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -24600,7 +24188,8 @@
 "hk": "飛秒",
 "sc": "飞秒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24646,7 +24235,8 @@
 "hk": "佳影成對",
 "sc": "佳影成对",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24692,7 +24282,8 @@
 "hk": "不驕不躁",
 "sc": "不骄不躁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24738,7 +24329,8 @@
 "hk": "承包",
 "sc": "承包",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24826,7 +24418,8 @@
 "hk": "名畫功力",
 "sc": "名画功力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24868,7 +24461,7 @@
 "gear": null,
 "horse_uid": "fr-une-peinture",
 "jockey_uid": null,
-"trainer_uid": "t-s-ghys",
+"trainer_uid": "t-sofean-ghys",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -24900,7 +24493,8 @@
 "hk": "盛名驕女",
 "sc": "盛名骄女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -24946,7 +24540,8 @@
 "hk": "不容置疑",
 "sc": "不容置疑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25034,7 +24629,8 @@
 "hk": "不言而喻",
 "sc": "不言而喻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25080,7 +24676,8 @@
 "hk": "詐敵得分",
 "sc": "诈敌得分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25126,7 +24723,8 @@
 "hk": "蒼天神",
 "sc": "苍天神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25172,7 +24770,8 @@
 "hk": "城市詩人",
 "sc": "城市诗人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25218,7 +24817,8 @@
 "hk": "驁霸",
 "sc": "骜霸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25237,7 +24837,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-decouz",
+"trainer_uid": "t-philippe-decouz",
 "race_uid": "fr-2026-0904-福伊錦標",
 "entries": [
 {
@@ -25246,7 +24846,7 @@
 "gear": null,
 "horse_uid": "fr-uthred",
 "jockey_uid": null,
-"trainer_uid": "t-p-decouz",
+"trainer_uid": "t-philippe-decouz",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -25278,7 +24878,8 @@
 "hk": "俞沙鎮",
 "sc": "俞沙镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25324,7 +24925,8 @@
 "hk": "奮蹈厲",
 "sc": "奋蹈厉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25380,7 +24982,7 @@
 "gear": null,
 "horse_uid": "fr-vadeni",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -25412,7 +25014,8 @@
 "hk": "詠仙來",
 "sc": "咏仙来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25431,7 +25034,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "race_uid": "fr-2020-0702-法國橡樹大賽",
 "entries": [
 {
@@ -25440,7 +25043,7 @@
 "gear": null,
 "horse_uid": "fr-vadsena",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -25472,7 +25075,8 @@
 "hk": "深閨美貌",
 "sc": "深闺美貌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25518,7 +25122,8 @@
 "hk": "華衣舞動",
 "sc": "华衣舞动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25564,7 +25169,8 @@
 "hk": "華倫俏臉",
 "sc": "华伦俏脸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25610,7 +25216,8 @@
 "hk": "華麗蹄",
 "sc": "华丽蹄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25656,7 +25263,8 @@
 "hk": "風凌日",
 "sc": "风凌日",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25675,7 +25283,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "race_uid": "aus-2021-0820-普望錦標",
 "entries": [
 {
@@ -25684,7 +25292,7 @@
 "gear": null,
 "horse_uid": "fr-valia",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -25716,7 +25324,8 @@
 "hk": "僻靜小村",
 "sc": "僻静小村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25762,7 +25371,8 @@
 "hk": "希國村鎮",
 "sc": "希国村镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25822,7 +25432,8 @@
 "hk": "扉畫滿目",
 "sc": "扉画满目",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25841,7 +25452,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "race_uid": "fr-2021-0806-月影雲霞錦標",
 "entries": [
 {
@@ -25850,7 +25461,7 @@
 "gear": null,
 "horse_uid": "fr-valloria",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -25882,7 +25493,8 @@
 "hk": "耀光環",
 "sc": "耀光环",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25928,7 +25540,8 @@
 "hk": "花庭",
 "sc": "花庭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25974,7 +25587,8 @@
 "hk": "風雲天",
 "sc": "风云天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -25993,7 +25607,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "race_uid": "fr-2026-0904-尼爾錦標",
 "entries": [
 {
@@ -26002,7 +25616,7 @@
 "gear": null,
 "horse_uid": "fr-varandir",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26048,7 +25662,8 @@
 "hk": "放天飛",
 "sc": "放天飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26094,7 +25709,8 @@
 "hk": "更可取",
 "sc": "更可取",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26154,7 +25770,8 @@
 "hk": "花解笑",
 "sc": "花解笑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26173,7 +25790,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "race_uid": "aus-2021-0820-第二班條件讓磅賽",
 "entries": [
 {
@@ -26182,7 +25799,7 @@
 "gear": null,
 "horse_uid": "fr-varkesha",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26214,7 +25831,8 @@
 "hk": "優游村情",
 "sc": "优游村情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26260,7 +25878,8 @@
 "hk": "攻守有道",
 "sc": "攻守有道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26372,7 +25991,7 @@
 "gear": null,
 "horse_uid": "fr-vauban",
 "jockey_uid": null,
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26456,7 +26075,7 @@
 "gear": null,
 "horse_uid": "fr-vauban",
 "jockey_uid": null,
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26470,7 +26089,7 @@
 "gear": null,
 "horse_uid": "fr-vauban",
 "jockey_uid": null,
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26558,7 +26177,8 @@
 "hk": "飛丹妮",
 "sc": "飞丹妮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26577,7 +26197,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-e-d-monfort",
+"trainer_uid": "t-edouard-monfort",
 "race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -26586,7 +26206,7 @@
 "gear": null,
 "horse_uid": "fr-vaydena",
 "jockey_uid": null,
-"trainer_uid": "t-e-d-monfort",
+"trainer_uid": "t-edouard-monfort",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26618,7 +26238,8 @@
 "hk": "波斯小村",
 "sc": "波斯小村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26678,7 +26299,8 @@
 "hk": "假情紳士",
 "sc": "假情绅士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26697,7 +26319,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-fabre",
+"trainer_uid": "t-andre-fabre",
 "race_uid": "fr-2024-0802-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -26706,7 +26328,7 @@
 "gear": null,
 "horse_uid": "fr-vcte-de-jodelet",
 "jockey_uid": null,
-"trainer_uid": "t-a-fabre",
+"trainer_uid": "t-andre-fabre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26738,7 +26360,8 @@
 "hk": "威尼斯城",
 "sc": "威尼斯城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26784,7 +26407,8 @@
 "hk": "金風爽",
 "sc": "金风爽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26830,7 +26454,8 @@
 "hk": "逆風剛強",
 "sc": "逆风刚强",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26849,7 +26474,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-bocskai",
+"trainer_uid": "t-carmen-bocskai",
 "race_uid": "fr-2022-0805-第一班讓賽",
 "entries": [
 {
@@ -26858,7 +26483,7 @@
 "gear": null,
 "horse_uid": "fr-vents-contraires",
 "jockey_uid": null,
-"trainer_uid": "t-c-bocskai",
+"trainer_uid": "t-carmen-bocskai",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26890,7 +26515,8 @@
 "hk": "凡城雷電",
 "sc": "凡城雷电",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26936,7 +26562,8 @@
 "hk": "凡城景致",
 "sc": "凡城景致",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -26955,7 +26582,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-r-monfort",
+"trainer_uid": "t-francois-monfort",
 "race_uid": "fr-2022-0730-第三班讓賽-容後公佈-第二班讓賽",
 "entries": [
 {
@@ -26964,7 +26591,7 @@
 "gear": null,
 "horse_uid": "fr-ventura-vision",
 "jockey_uid": null,
-"trainer_uid": "t-f-r-monfort",
+"trainer_uid": "t-francois-monfort",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27010,7 +26637,8 @@
 "hk": "名副其實",
 "sc": "名副其实",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27052,7 +26680,7 @@
 "gear": null,
 "horse_uid": "fr-veritable",
 "jockey_uid": null,
-"trainer_uid": "t-s-gavilan",
+"trainer_uid": "t-sandrine-gavilan",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27084,7 +26712,8 @@
 "hk": "威力鎮",
 "sc": "威力镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27130,7 +26759,8 @@
 "hk": "深海",
 "sc": "深海",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27176,7 +26806,8 @@
 "hk": "蜚聲霸",
 "sc": "蜚声霸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27195,7 +26826,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-da-silva",
+"trainer_uid": "t-jeremy-da-silva",
 "race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -27204,7 +26835,7 @@
 "gear": null,
 "horse_uid": "fr-vesinaba",
 "jockey_uid": null,
-"trainer_uid": "t-j-da-silva",
+"trainer_uid": "t-jeremy-da-silva",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27236,7 +26867,8 @@
 "hk": "夜飛鼠",
 "sc": "夜飞鼠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27352,7 +26984,8 @@
 "hk": "顫音演唱",
 "sc": "颤音演唱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27371,7 +27004,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-x-blanchet",
+"trainer_uid": "t-xavier-blanchet",
 "race_uid": "fr-2026-0731-s2-4-pmu-全球匯合彩池第三班讓賽-s2-6-pmu-全球匯合彩池第三班讓賽",
 "entries": [
 {
@@ -27380,7 +27013,7 @@
 "gear": null,
 "horse_uid": "fr-vibrato",
 "jockey_uid": null,
-"trainer_uid": "t-x-blanchet",
+"trainer_uid": "t-xavier-blanchet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27412,7 +27045,8 @@
 "hk": "辣手偵探",
 "sc": "辣手侦探",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27431,7 +27065,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "race_uid": "fr-2023-0806-月影雲霞錦標-表列賽",
 "entries": [
 {
@@ -27440,7 +27074,7 @@
 "gear": null,
 "horse_uid": "fr-vicious-harry",
 "jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 125.0,
 "claim": null,
 "rating": 106,
@@ -27454,7 +27088,7 @@
 "gear": null,
 "horse_uid": "fr-vicious-harry",
 "jockey_uid": null,
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27468,7 +27102,7 @@
 "gear": "TT",
 "horse_uid": "fr-vicious-harry",
 "jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 130.0,
 "claim": null,
 "rating": 100,
@@ -27482,7 +27116,7 @@
 "gear": null,
 "horse_uid": "fr-vicious-harry",
 "jockey_uid": "j-maxime-guyon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 127.0,
 "claim": null,
 "rating": 98,
@@ -27500,7 +27134,8 @@
 "hk": "勝出高呼",
 "sc": "胜出高呼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27546,7 +27181,8 @@
 "hk": "凱旋狂歡",
 "sc": "凯旋狂欢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27592,7 +27228,8 @@
 "hk": "優勝禮敬",
 "sc": "优胜礼敬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27638,7 +27275,8 @@
 "hk": "心寧靜",
 "sc": "心宁静",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27684,7 +27322,8 @@
 "hk": "永來旺",
 "sc": "永来旺",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27703,7 +27342,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-d-smaga",
+"trainer_uid": "t-david-smaga",
 "race_uid": "fr-2021-0806-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -27712,7 +27351,7 @@
 "gear": null,
 "horse_uid": "fr-vilaro",
 "jockey_uid": null,
-"trainer_uid": "t-d-smaga",
+"trainer_uid": "t-david-smaga",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27744,7 +27383,8 @@
 "hk": "藝術村",
 "sc": "艺术村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27790,7 +27430,8 @@
 "hk": "皇家別苑",
 "sc": "皇家别苑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27836,7 +27477,8 @@
 "hk": "威奧山村",
 "sc": "威奥山村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27882,7 +27524,8 @@
 "hk": "飛飛燕",
 "sc": "飞飞燕",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27928,7 +27571,8 @@
 "hk": "夜翱翔",
 "sc": "夜翱翔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -27947,7 +27591,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-v-sartori",
+"trainer_uid": "t-vincent-sartori",
 "race_uid": "fr-2021-0806-三歲馬讓賽",
 "entries": [
 {
@@ -27956,7 +27600,7 @@
 "gear": null,
 "horse_uid": "fr-voler-de-nuit",
 "jockey_uid": null,
-"trainer_uid": "t-v-sartori",
+"trainer_uid": "t-vincent-sartori",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -27988,7 +27632,8 @@
 "hk": "異幻術",
 "sc": "异幻术",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28034,7 +27679,8 @@
 "hk": "傳奇皇后",
 "sc": "传奇皇后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28080,7 +27726,8 @@
 "hk": "邊城要塞",
 "sc": "边城要塞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28126,7 +27773,8 @@
 "hk": "猛獅之城",
 "sc": "猛狮之城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28172,7 +27820,8 @@
 "hk": "穩得先",
 "sc": "稳得先",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28218,7 +27867,8 @@
 "hk": "魔幻森林",
 "sc": "魔幻森林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28264,7 +27914,8 @@
 "hk": "華城倩雅",
 "sc": "华城倩雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28310,7 +27961,8 @@
 "hk": "花裡意",
 "sc": "花里意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28370,7 +28022,8 @@
 "hk": "確安保全",
 "sc": "确安保全",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28444,7 +28097,8 @@
 "hk": "戰鈴",
 "sc": "战铃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28518,7 +28172,8 @@
 "hk": "宏圖夢",
 "sc": "宏图梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28537,7 +28192,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-baron",
+"trainer_uid": "t-axel-baron",
 "race_uid": "fr-2026-0508-法國二千堅尼賽馬日-暫定",
 "entries": [
 {
@@ -28546,7 +28201,7 @@
 "gear": null,
 "horse_uid": "fr-wardama",
 "jockey_uid": null,
-"trainer_uid": "t-a-baron",
+"trainer_uid": "t-axel-baron",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -28606,7 +28261,8 @@
 "hk": "獲勝名驥",
 "sc": "获胜名骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28625,7 +28281,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "race_uid": "fr-2019-1004-森林大賽",
 "entries": [
 {
@@ -28634,7 +28290,7 @@
 "gear": null,
 "horse_uid": "fr-wasmya",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -28666,7 +28322,8 @@
 "hk": "值得留意",
 "sc": "值得留意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28740,7 +28397,8 @@
 "hk": "看著我",
 "sc": "看著我",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28782,7 +28440,7 @@
 "gear": null,
 "horse_uid": "fr-watch-me",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -28814,7 +28472,8 @@
 "hk": "神蹟展現",
 "sc": "神迹展现",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28860,7 +28519,8 @@
 "hk": "威猛鬥士",
 "sc": "威猛斗士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28906,7 +28566,8 @@
 "hk": "開荒劍",
 "sc": "开荒剑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28952,7 +28613,8 @@
 "hk": "網上研討",
 "sc": "网上研讨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -28998,7 +28660,8 @@
 "hk": "愛定妳",
 "sc": "爱定你",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -29058,7 +28721,8 @@
 "hk": "勢已成",
 "sc": "势已成",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -29077,7 +28741,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-baudron",
+"trainer_uid": "t-jean-baudron",
 "race_uid": "fr-2021-0806-第二班條件讓磅賽",
 "entries": [
 {
@@ -29086,7 +28750,7 @@
 "gear": null,
 "horse_uid": "fr-were",
 "jockey_uid": null,
-"trainer_uid": "t-j-baudron",
+"trainer_uid": "t-jean-baudron",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -29107,6 +28771,898 @@
 "sex": "F",
 "age": 2,
 "race_uid": "fr-2021-0808-第二班條件讓磅賽"
+}
+]
+},
+{
+"uid": "fr-westminster-fox",
+"names": {
+"original": "Westminster Fox",
+"en": "Westminster Fox",
+"hk": "銳敏小狐",
+"sc": "锐敏小狐",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 2,
+"rating": null,
+"lb": 126.0,
+"no": 10,
+"draw": 4,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-marie-velon",
+"trainer_uid": "t-vaclav-luka",
+"race_uid": "fr-2024-0707-兩歲初出雌馬賽",
+"entries": [
+{
+"no": 10,
+"draw": 4,
+"gear": null,
+"horse_uid": "fr-westminster-fox",
+"jockey_uid": "j-marie-velon",
+"trainer_uid": "t-vaclav-luka",
+"lb": 126.0,
+"claim": null,
+"rating": null,
+"sex": "F",
+"age": 2,
+"race_uid": "fr-2024-0707-兩歲初出雌馬賽"
+}
+]
+},
+{
+"uid": "fr-westminster-night",
+"names": {
+"original": "Westminster Night",
+"en": "Westminster Night",
+"hk": "威敏深宵",
+"sc": "威敏深宵",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 6,
+"rating": 90,
+"lb": 130.0,
+"no": 4,
+"draw": 16,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-tony-piccone",
+"trainer_uid": "t-henri-alex-pantall",
+"race_uid": "fr-2025-0706-第二班讓賽",
+"entries": [
+{
+"no": 4,
+"draw": 16,
+"gear": null,
+"horse_uid": "fr-westminster-night",
+"jockey_uid": "j-tony-piccone",
+"trainer_uid": "t-henri-alex-pantall",
+"lb": 130.0,
+"claim": null,
+"rating": 90,
+"sex": "G",
+"age": 6,
+"race_uid": "fr-2025-0706-第二班讓賽"
+},
+{
+"no": 15,
+"draw": null,
+"gear": null,
+"horse_uid": "fr-westminster-night",
+"jockey_uid": null,
+"trainer_uid": null,
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2025-0810-多維爾讓賽"
+}
+]
+},
+{
+"uid": "fr-westridge",
+"names": {
+"original": "Westridge",
+"en": "Westridge",
+"hk": "聳聳山稜",
+"sc": "耸耸山棱",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2021,
+"color": null,
+"age": 3,
+"rating": 88,
+"lb": 133.0,
+"no": 5,
+"draw": 10,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-kieran-shoemark",
+"trainer_uid": "t-john-thady-gosden",
+"race_uid": "gb-2024-0802-香港賽馬會全球匯合彩池讓賽",
+"entries": [
+{
+"no": 5,
+"draw": 10,
+"gear": null,
+"horse_uid": "fr-westridge",
+"jockey_uid": "j-kieran-shoemark",
+"trainer_uid": "t-john-thady-gosden",
+"lb": 133.0,
+"claim": null,
+"rating": 88,
+"sex": "M",
+"age": 3,
+"race_uid": "gb-2024-0802-香港賽馬會全球匯合彩池讓賽"
+},
+{
+"no": 17,
+"draw": 8,
+"gear": "CP",
+"horse_uid": "fr-westridge",
+"jockey_uid": "j-billy-loughnane",
+"trainer_uid": "t-john-thady-gosden",
+"lb": 120.0,
+"claim": null,
+"rating": 92,
+"sex": "G",
+"age": 4,
+"race_uid": "gb-2025-0729-四歲以上馬讓賽"
+}
+]
+},
+{
+"uid": "fr-whataboutism",
+"names": {
+"original": "Whataboutism",
+"en": "Whataboutism",
+"hk": "轉移視線",
+"sc": "转移视线",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 3,
+"rating": 101,
+"lb": 125.0,
+"no": 6,
+"draw": 5,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-alexis-pouchin",
+"trainer_uid": "t-andre-fabre",
+"race_uid": "fr-2025-0803-普賽克錦標",
+"entries": [
+{
+"no": 6,
+"draw": 5,
+"gear": null,
+"horse_uid": "fr-whataboutism",
+"jockey_uid": "j-alexis-pouchin",
+"trainer_uid": "t-andre-fabre",
+"lb": 125.0,
+"claim": null,
+"rating": 101,
+"sex": "F",
+"age": 3,
+"race_uid": "fr-2025-0803-普賽克錦標"
+}
+]
+},
+{
+"uid": "fr-whatever-it-costs",
+"names": {
+"original": "WHATEVER IT COSTS",
+"en": "WHATEVER IT COSTS",
+"hk": "不惜工本",
+"sc": "不惜工本",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": null,
+"sex_cn": "",
+"birth_date": null,
+"birth_year": null,
+"color": null,
+"age": null,
+"rating": null,
+"lb": null,
+"no": null,
+"draw": null,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": null,
+"trainer_uid": "t-jonathan-leroy",
+"race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
+"entries": [
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "fr-whatever-it-costs",
+"jockey_uid": null,
+"trainer_uid": "t-jonathan-leroy",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹"
+}
+]
+},
+{
+"uid": "fr-wheel-of-chance",
+"names": {
+"original": "Wheel Of Chance",
+"en": "Wheel Of Chance",
+"hk": "喜運輪",
+"sc": "喜运轮",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2017,
+"color": null,
+"age": 6,
+"rating": 61,
+"lb": 127.0,
+"no": 10,
+"draw": 6,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-mickael-barzalona",
+"trainer_uid": "t-dominique-chenu",
+"race_uid": "fr-2023-0904-第三班讓賽",
+"entries": [
+{
+"no": 10,
+"draw": 6,
+"gear": null,
+"horse_uid": "fr-wheel-of-chance",
+"jockey_uid": "j-mickael-barzalona",
+"trainer_uid": "t-dominique-chenu",
+"lb": 127.0,
+"claim": null,
+"rating": 61,
+"sex": "G",
+"age": 6,
+"race_uid": "fr-2023-0904-第三班讓賽"
+}
+]
+},
+{
+"uid": "fr-wheels-on-fire",
+"names": {
+"original": "Wheels On Fire",
+"en": "Wheels On Fire",
+"hk": "火速輪蹄",
+"sc": "火速轮蹄",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2017,
+"color": null,
+"age": 2,
+"rating": null,
+"lb": 129.0,
+"no": 19,
+"draw": 1,
+"gear": "CP",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-antoine-hamelin",
+"trainer_uid": "t-matthieu-palussiere",
+"race_uid": "gb-2019-0620-溫莎堡錦標-表列賽",
+"entries": [
+{
+"no": 19,
+"draw": 1,
+"gear": "CP",
+"horse_uid": "fr-wheels-on-fire",
+"jockey_uid": "j-antoine-hamelin",
+"trainer_uid": "t-matthieu-palussiere",
+"lb": 129.0,
+"claim": null,
+"rating": null,
+"sex": "M",
+"age": 2,
+"race_uid": "gb-2019-0620-溫莎堡錦標-表列賽"
+}
+]
+},
+{
+"uid": "fr-white-platin",
+"names": {
+"original": "White Platin",
+"en": "White Platin",
+"hk": "白色合金",
+"sc": "白色合金",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 4,
+"rating": 87,
+"lb": 120.0,
+"no": 11,
+"draw": 5,
+"gear": "B",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-ronan-thomas",
+"trainer_uid": "t-corine-barande-barbe",
+"race_uid": "fr-2022-1003-第一班讓賽",
+"entries": [
+{
+"no": 11,
+"draw": 5,
+"gear": "B",
+"horse_uid": "fr-white-platin",
+"jockey_uid": "j-ronan-thomas",
+"trainer_uid": "t-corine-barande-barbe",
+"lb": 120.0,
+"claim": null,
+"rating": 87,
+"sex": "G",
+"age": 4,
+"race_uid": "fr-2022-1003-第一班讓賽"
+},
+{
+"no": 9,
+"draw": 18,
+"gear": "B",
+"horse_uid": "fr-white-platin",
+"jockey_uid": "j-ronan-thomas",
+"trainer_uid": "t-corine-barande-barbe",
+"lb": 120.0,
+"claim": null,
+"rating": 88,
+"sex": "G",
+"age": 5,
+"race_uid": "fr-2023-1002-第一班讓賽"
+},
+{
+"no": 12,
+"draw": 16,
+"gear": "B",
+"horse_uid": "fr-white-platin",
+"jockey_uid": "j-ronan-thomas",
+"trainer_uid": "t-corine-barande-barbe",
+"lb": 123.0,
+"claim": null,
+"rating": 85,
+"sex": "G",
+"age": 6,
+"race_uid": "fr-2024-0707-第二班讓賽"
+}
+]
+},
+{
+"uid": "fr-white-whisky",
+"names": {
+"original": "White Whisky",
+"en": "White Whisky",
+"hk": "新烈酒",
+"sc": "新烈酒",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 5,
+"rating": 88,
+"lb": 121.0,
+"no": 15,
+"draw": 14,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-fabrice-veron",
+"trainer_uid": "t-georgios-alimpinisis",
+"race_uid": "aus-2023-0820-第一班讓賽",
+"entries": [
+{
+"no": 15,
+"draw": 14,
+"gear": "TT",
+"horse_uid": "fr-white-whisky",
+"jockey_uid": "j-fabrice-veron",
+"trainer_uid": "t-georgios-alimpinisis",
+"lb": 121.0,
+"claim": null,
+"rating": 88,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2023-0820-第一班讓賽"
+}
+]
+},
+{
+"uid": "fr-who-knows",
+"names": {
+"original": "Who Knows",
+"en": "Who Knows",
+"hk": "有待分曉",
+"sc": "有待分晓",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 2,
+"rating": 96,
+"lb": 122.0,
+"no": 6,
+"draw": 3,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-theo-bachelot",
+"trainer_uid": "t-stephane-wattel",
+"race_uid": "fr-2021-0815-包添錦標",
+"entries": [
+{
+"no": 6,
+"draw": 3,
+"gear": "TT",
+"horse_uid": "fr-who-knows",
+"jockey_uid": "j-theo-bachelot",
+"trainer_uid": "t-stephane-wattel",
+"lb": 122.0,
+"claim": null,
+"rating": 96,
+"sex": "F",
+"age": 2,
+"race_uid": "fr-2021-0815-包添錦標"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "fr-who-knows",
+"jockey_uid": null,
+"trainer_uid": "t-stephane-wattel",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2022-0805-月影雲霞錦標"
+},
+{
+"no": 13,
+"draw": 6,
+"gear": "TT",
+"horse_uid": "fr-who-knows",
+"jockey_uid": "j-theo-bachelot",
+"trainer_uid": "t-stephane-wattel",
+"lb": 121.0,
+"claim": null,
+"rating": 99,
+"sex": "F",
+"age": 3,
+"race_uid": "fr-2022-0807-月影雲霞錦標-表列賽"
+}
+]
+},
+{
+"uid": "fr-why-chope",
+"names": {
+"original": "Why Chope",
+"en": "Why Chope",
+"hk": "開懷暢飲",
+"sc": "开怀畅饮",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 5,
+"rating": 64,
+"lb": 132.0,
+"no": 3,
+"draw": 4,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-delphine-santiago",
+"trainer_uid": "t-jess-parize",
+"race_uid": "fr-2024-0812-第三班讓賽",
+"entries": [
+{
+"no": 3,
+"draw": 4,
+"gear": null,
+"horse_uid": "fr-why-chope",
+"jockey_uid": "j-delphine-santiago",
+"trainer_uid": "t-jess-parize",
+"lb": 132.0,
+"claim": -3.0,
+"rating": 64,
+"sex": "F",
+"age": 5,
+"race_uid": "fr-2024-0812-第三班讓賽"
+}
+]
+},
+{
+"uid": "fr-wicked",
+"names": {
+"original": "Wicked",
+"en": "Wicked",
+"hk": "確實好極",
+"sc": "确实好极",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 3,
+"rating": 85,
+"lb": 131.0,
+"no": 14,
+"draw": 6,
+"gear": "CP",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-james-doyle",
+"trainer_uid": "t-john-thady-gosden",
+"race_uid": "gb-2025-0801-全球匯合彩池bet-with-the-tote讓賽",
+"entries": [
+{
+"no": 14,
+"draw": 6,
+"gear": "CP",
+"horse_uid": "fr-wicked",
+"jockey_uid": "j-james-doyle",
+"trainer_uid": "t-john-thady-gosden",
+"lb": 131.0,
+"claim": null,
+"rating": 85,
+"sex": "M",
+"age": 3,
+"race_uid": "gb-2025-0801-全球匯合彩池bet-with-the-tote讓賽"
+}
+]
+},
+{
+"uid": "fr-wienerbrod",
+"names": {
+"original": "Wienerbrod",
+"en": "Wienerbrod",
+"hk": "丹麥酥",
+"sc": "丹麦酥",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2016,
+"color": null,
+"age": 3,
+"rating": null,
+"lb": 108.0,
+"no": 8,
+"draw": 8,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-nanako-fujita",
+"trainer_uid": "t-toru-hayashi",
+"race_uid": "jra-2019-0929-三歲以上一捷馬賽-1225",
+"entries": [
+{
+"no": 8,
+"draw": 8,
+"gear": null,
+"horse_uid": "fr-wienerbrod",
+"jockey_uid": "j-nanako-fujita",
+"trainer_uid": "t-toru-hayashi",
+"lb": 108.0,
+"claim": null,
+"rating": null,
+"sex": "F",
+"age": 3,
+"race_uid": "jra-2019-0929-三歲以上一捷馬賽-1225"
+}
+]
+},
+{
+"uid": "fr-wild-city",
+"names": {
+"original": "Wild City",
+"en": "Wild City",
+"hk": "孤城僻處",
+"sc": "孤城僻处",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2021,
+"color": null,
+"age": 4,
+"rating": 81,
+"lb": 131.0,
+"no": 5,
+"draw": 14,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-anthony-crastus",
+"trainer_uid": "t-thibaut-richard",
+"race_uid": "fr-2025-0803-第三班讓賽",
+"entries": [
+{
+"no": 5,
+"draw": 14,
+"gear": "TT",
+"horse_uid": "fr-wild-city",
+"jockey_uid": "j-anthony-crastus",
+"trainer_uid": "t-thibaut-richard",
+"lb": 131.0,
+"claim": null,
+"rating": 81,
+"sex": "M",
+"age": 4,
+"race_uid": "fr-2025-0803-第三班讓賽"
+}
+]
+},
+{
+"uid": "fr-wild-west",
+"names": {
+"original": "Wild West",
+"en": "Wild West",
+"hk": "狂野地帶",
+"sc": "狂野地带",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2020,
+"color": null,
+"age": 4,
+"rating": 90,
+"lb": 129.0,
+"no": 4,
+"draw": 5,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-alexis-pouchin",
+"trainer_uid": "t-mauricio-delcher-sanchez",
+"race_uid": "fr-2024-0707-第二班讓賽",
+"entries": [
+{
+"no": 4,
+"draw": 5,
+"gear": null,
+"horse_uid": "fr-wild-west",
+"jockey_uid": "j-alexis-pouchin",
+"trainer_uid": "t-mauricio-delcher-sanchez",
+"lb": 129.0,
+"claim": null,
+"rating": 90,
+"sex": "M",
+"age": 4,
+"race_uid": "fr-2024-0707-第二班讓賽"
+},
+{
+"no": 16,
+"draw": 3,
+"gear": null,
+"horse_uid": "fr-wild-west",
+"jockey_uid": "j-eddy-hardouin",
+"trainer_uid": "t-mauricio-delcher-sanchez",
+"lb": 119.0,
+"claim": null,
+"rating": 87,
+"sex": "M",
+"age": 4,
+"race_uid": "fr-2024-1007-第一班讓賽"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "fr-wild-west",
+"jockey_uid": null,
+"trainer_uid": "t-nicolas-caullery",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定"
+},
+{
+"no": 8,
+"draw": 2,
+"gear": "TT",
+"horse_uid": "fr-wild-west",
+"jockey_uid": "j-maxime-guyon",
+"trainer_uid": "t-nicolas-caullery",
+"lb": 123.0,
+"claim": null,
+"rating": 73,
+"sex": "M",
+"age": 6,
+"race_uid": "fr-2026-0802-pmu全球匯合彩池第二班讓賽"
+}
+]
+},
+{
+"uid": "fr-wind-of-change",
+"names": {
+"original": "Wind Of Change",
+"en": "Wind Of Change",
+"hk": "革新風勢",
+"sc": "革新风势",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "FRA",
+"country": "法国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 7,
+"rating": 72,
+"lb": 130.0,
+"no": 4,
+"draw": 15,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-augustin-madamet",
+"trainer_uid": "t-jess-parize",
+"race_uid": "fr-2025-0804-第三班讓賽",
+"entries": [
+{
+"no": 4,
+"draw": 15,
+"gear": "TT",
+"horse_uid": "fr-wind-of-change",
+"jockey_uid": "j-augustin-madamet",
+"trainer_uid": "t-jess-parize",
+"lb": 130.0,
+"claim": null,
+"rating": 72,
+"sex": "G",
+"age": 7,
+"race_uid": "fr-2025-0804-第三班讓賽"
+},
+{
+"no": 5,
+"draw": 8,
+"gear": "TT",
+"horse_uid": "fr-wind-of-change",
+"jockey_uid": "j-ambre-molins",
+"trainer_uid": "t-jess-parize",
+"lb": 136.0,
+"claim": -4.0,
+"rating": 67,
+"sex": "G",
+"age": 8,
+"race_uid": "fr-2026-0705-pmu全球匯合彩池第三班讓賽-b481"
 }
 ]
 }

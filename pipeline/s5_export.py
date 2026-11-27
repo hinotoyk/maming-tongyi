@@ -58,18 +58,26 @@ def q(conn: sqlite3.Connection, sql: str, args: tuple = ()) -> list[sqlite3.Row]
 
 
 def build_names(conn: sqlite3.Connection) -> dict[tuple[str, str], dict]:
-    """name + entity_alias → { (type, uid): {original,en,hk,sc,own,alias[]} }"""
+    """name + entity_alias → { (type, uid): {original,en,hk,sc,own,alias[],variants[]} }
+
+    同一栏可以有多行：主名一行，其余是同一个人的其他写法（归一后并进来的）。
+    主名按 is_primary DESC 先取，剩下的进 `variants`——检索要吃全部写法，
+    页面只显示主名，人物页把 variants 列成「其他写法」。
+    """
     out: dict[tuple[str, str], dict] = defaultdict(
-        lambda: {"original": None, "en": None, "hk": None, "sc": None, "own": None, "alias": []}
+        lambda: {"original": None, "en": None, "hk": None, "sc": None, "own": None,
+                 "alias": [], "variants": []}
     )
     for r in q(conn, "SELECT * FROM name ORDER BY is_primary DESC, decided_at DESC"):
         key = (r["entity_type"], r["entity_uid"])
         field = r["field"]
         if field not in ("original", "en", "hk", "own"):
             continue
-        if out[key].get(field):        # 已有主名，后面的同栏值不覆盖（多写法留给 review_queue）
+        if not out[key].get(field):
+            out[key][field] = r["value"]
             continue
-        out[key][field] = r["value"]
+        if r["value"] != out[key][field]:
+            out[key]["variants"].append({"field": field, "value": r["value"]})
     for r in q(conn, "SELECT * FROM entity_alias ORDER BY entity_type, entity_uid, seq"):
         out[(r["entity_type"], r["entity_uid"])]["alias"].append({"text": r["text"], "note": r["note"] or None})
     for names in out.values():
@@ -227,7 +235,32 @@ def main(argv: list[str] | None = None) -> int:
             "nationality": p["country_code"] or "", "nationality_cn": COUNTRY_CN.get(p["country_code"], "—"),
             "names": names[("person", p["person_uid"])],
             "horses": sorted(horses_by_person.get(p["person_uid"], ())),
+            # 同名跨角色：一个人可能既是骑手又是练马师（Donnacha O'Brien）。
+            # 按 P0 的口径不并成一条（role 是 person 的主键维度），但两页要互链。
+            "counterpart": [],
         })
+
+    # 港译 → 角色 → uid：用来给跨角色的同名人物互相指路
+    hk_role: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
+    for p in persons:
+        hk = p["names"].get("hk")
+        if not hk:
+            continue
+        try:
+            k = C.norm_key(C.simplified(hk))
+        except Exception:
+            k = C.norm_key(hk)
+        hk_role[k][p["role"]].append(p["uid"])
+    for p in persons:
+        hk = p["names"].get("hk")
+        if not hk:
+            continue
+        try:
+            k = C.norm_key(C.simplified(hk))
+        except Exception:
+            k = C.norm_key(hk)
+        other = "trainer" if p["role"] == "jockey" else "jockey"
+        p["counterpart"] = sorted(u for u in hk_role[k].get(other, []) if u != p["uid"])
     conn.close()
 
     # ── 落盘 ────────────────────────────────────────────────────────────
@@ -256,26 +289,32 @@ def main(argv: list[str] | None = None) -> int:
         "persons": write_shards("persons", persons),
     }
 
-    # 检索索引：键 = 归一化名称（小写去空白 + 繁简双向展开），值 = {kind, uid, m}
+    # 检索索引：键 = 归一化名称（小写去空白 + 繁简双向展开），值 = **列表** [{kind, uid, m}]
     # m 是「这个键命中哪些名栏」的位掩码：o 原文 1 / e 英文 2 / h 港译 4 / s 简体 8 /
     # w 自译 16 / a 简称 32。页面上的「按字段检索」就是拿 m 做与运算，
     # 这样同一个键既能整词命中，也能只命中某一个栏，不必为六个栏各存一份索引。
+    #
+    # 值必须是列表：同名不同实体是常态（同名赛事、不同年份的同名马、父子同名练马师）。
+    # 旧版一个键只留一个实体，28586 个实体里有 2086 个因此完全搜不到。
     MASK = {"o": 1, "e": 2, "h": 4, "s": 8, "w": 16, "a": 32}
-    search: dict[str, dict] = {}
+    search: dict[str, list[dict]] = {}
     for kind, items in (("horse", horses), ("race", races), ("person", persons)):
         for it in items:
             n = it["names"]
             pairs = [(f, n.get(k)) for f, k in
                      (("o", "original"), ("e", "en"), ("h", "hk"), ("s", "sc"), ("w", "own"))]
+            pairs += [("e", v["value"]) for v in (n.get("variants") or []) if v["field"] == "en"]
+            pairs += [("h", v["value"]) for v in (n.get("variants") or []) if v["field"] == "hk"]
             pairs += [("a", a["text"]) for a in (n.get("alias") or [])]
             for field, t in pairs:
                 for key in C.norm_variants(t or ""):
-                    cur = search.get(key)
-                    if cur is None:
-                        search[key] = {"kind": kind, "uid": it["uid"], "m": MASK[field]}
-                    elif cur["kind"] == kind and cur["uid"] == it["uid"]:
-                        cur["m"] |= MASK[field]
-                    # 不同实体撞同一个键时保留先到的（与旧行为一致，不静默改归属）
+                    bucket = search.setdefault(key, [])
+                    for entry in bucket:
+                        if entry["kind"] == kind and entry["uid"] == it["uid"]:
+                            entry["m"] |= MASK[field]
+                            break
+                    else:
+                        bucket.append({"kind": kind, "uid": it["uid"], "m": MASK[field]})
 
     # 索引页 / 改名页的分页行。顺序就是翻页顺序：SSR 首屏是它前 200 条，
     # 客户端第 N 页也按这个数组切片——两边必须同一份顺序，否则翻页会跳行或重复。
@@ -304,7 +343,7 @@ def main(argv: list[str] | None = None) -> int:
             "o": r["names"]["original"], "e": r["names"]["en"], "h": r["names"]["hk"],
             "s": r["names"]["sc"], "w": r["names"]["own"],
             "a": [x["text"] for x in r["names"]["alias"]],
-            "c": r["venue_country"] or "—", "cc": "", "st": "公告直取", "cls": "lv-l2",
+            "c": r["venue_country"] or "—", "cc": "", "st": "公告直取", "cls": "lv-src",
         } for r in races],
         [{
             "k": "person", "uid": p["uid"], "cn": p["role_cn"], "f": p["role"],
@@ -312,7 +351,7 @@ def main(argv: list[str] | None = None) -> int:
             "s": p["names"]["sc"], "w": p["names"]["own"],
             "a": [x["text"] for x in p["names"]["alias"]],
             "c": p["nationality_cn"] or "—", "cc": p["nationality"] or "",
-            "st": "公告直取", "cls": "lv-l2",
+            "st": "公告直取", "cls": "lv-src",
         } for p in persons if p["role"] == "jockey"],
         [{
             "k": "person", "uid": p["uid"], "cn": p["role_cn"], "f": p["role"],
@@ -320,7 +359,7 @@ def main(argv: list[str] | None = None) -> int:
             "s": p["names"]["sc"], "w": p["names"]["own"],
             "a": [x["text"] for x in p["names"]["alias"]],
             "c": p["nationality_cn"] or "—", "cc": p["nationality"] or "",
-            "st": "公告直取", "cls": "lv-l2",
+            "st": "公告直取", "cls": "lv-src",
         } for p in persons if p["role"] != "jockey"],
     ]
     rows = []

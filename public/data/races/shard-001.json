@@ -1,7 +1,7 @@
 {
 "_meta": {
 "schema": "names/v3",
-"updated": "2026-11-26",
+"updated": "2026-11-27",
 "count": 500,
 "kind": "races"
 },
@@ -14,7 +14,8 @@
 "hk": "心齋橋錦標",
 "sc": "心斋桥锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-04",
 "race_date": "2026-04-05",
@@ -300,7 +301,8 @@
 "hk": "紫羅蘭錦標",
 "sc": "紫罗兰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-04",
 "race_date": "2026-04-05",
@@ -502,7 +504,8 @@
 "hk": "大阪盃",
 "sc": "大阪杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-05",
@@ -746,7 +749,8 @@
 "hk": "主席讓賽",
 "sc": "主席让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -976,7 +980,8 @@
 "hk": "史密夫錦標",
 "sc": "史密夫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -1010,7 +1015,7 @@
 "gear": null,
 "horse_uid": "au-briasa",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 129.0,
 "claim": null,
 "rating": 118,
@@ -1136,7 +1141,8 @@
 "hk": "唐加士打一哩賽",
 "sc": "唐加士打一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -1296,7 +1302,7 @@
 "gear": "TT",
 "horse_uid": "au-cristal-clear",
 "jockey_uid": "j-braith-nock",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 110.0,
 "claim": null,
 "rating": 109,
@@ -1338,7 +1344,7 @@
 "gear": "XB",
 "horse_uid": "ire-hellsing",
 "jockey_uid": "j-ryan-houston",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 110.0,
 "claim": null,
 "rating": 98,
@@ -1394,7 +1400,8 @@
 "hk": "澳洲打吡",
 "sc": "澳洲打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -1498,7 +1505,7 @@
 "gear": "CP",
 "horse_uid": "au-federalist",
 "jockey_uid": "j-dylan-gibbons",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": 106,
@@ -1610,7 +1617,8 @@
 "hk": "澳洲賽馬會育馬錦標",
 "sc": "澳洲赛马会育马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -1840,7 +1848,8 @@
 "hk": "貝堯錦標",
 "sc": "贝尧锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -1958,7 +1967,7 @@
 "gear": null,
 "horse_uid": "au-kujenga",
 "jockey_uid": "j-zac-purton",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 121.0,
 "claim": null,
 "rating": 78,
@@ -2070,7 +2079,7 @@
 "gear": "XB",
 "horse_uid": "au-wootton-lass",
 "jockey_uid": "j-dylan-gibbons",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 121.0,
 "claim": null,
 "rating": 70,
@@ -2126,7 +2135,7 @@
 "gear": "TT1",
 "horse_uid": "au-nepo-baby",
 "jockey_uid": "j-tom-sherry",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 121.0,
 "claim": null,
 "rating": 87,
@@ -2182,7 +2191,8 @@
 "hk": "鄉郊錦標決賽",
 "sc": "乡郊锦标决赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -2538,7 +2548,8 @@
 "hk": "香港賽馬會全球匯合彩池卡賓會錦標",
 "sc": "香港赛马会全球汇合彩池卡宾会锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -2726,7 +2737,7 @@
 "gear": "XB",
 "horse_uid": "nz-pappa-blue",
 "jockey_uid": "j-tom-sherry",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 62,
@@ -2768,7 +2779,8 @@
 "hk": "南非打吡",
 "sc": "南非打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -2984,7 +2996,8 @@
 "hk": "女皇會所錦標",
 "sc": "女皇会所锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -3018,7 +3031,7 @@
 "gear": null,
 "horse_uid": "saf-rainbow-lorikeet",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 108,
@@ -3158,7 +3171,8 @@
 "hk": "電腦態況短途賽",
 "sc": "电脑态况短途赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -3262,7 +3276,7 @@
 "gear": null,
 "horse_uid": "saf-future-variety",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 105,
@@ -3430,7 +3444,8 @@
 "hk": "香港賽馬會全球匯合彩池總理冠軍挑戰錦標",
 "sc": "香港赛马会全球汇合彩池总理冠军挑战锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-04-03",
 "race_date": "2026-04-04",
@@ -3618,7 +3633,8 @@
 "hk": "高松宮紀念賽",
 "sc": "高松宫纪念赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-29",
@@ -3904,7 +3920,8 @@
 "hk": "杜拜世界盃",
 "sc": "杜拜世界杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-29",
@@ -3938,7 +3955,7 @@
 "gear": "TT",
 "horse_uid": "us-magnitude",
 "jockey_uid": "j-jose-ortiz",
-"trainer_uid": "t-steven-asmussen",
+"trainer_uid": "t-steve-asmussen",
 "lb": 126.0,
 "claim": null,
 "rating": 117,
@@ -4035,7 +4052,7 @@
 "draw": 8,
 "gear": null,
 "horse_uid": "us-tap-leader",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-doug-watson",
 "lb": 126.0,
 "claim": null,
@@ -4064,7 +4081,8 @@
 "hk": "杜拜司馬經典賽",
 "sc": "杜拜司马经典赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-29",
@@ -4097,7 +4115,7 @@
 "draw": 6,
 "gear": "H",
 "horse_uid": "ire-ethical-diamond",
-"jockey_uid": "j-dylan-browne-mcmonagle",
+"jockey_uid": "j-dylan-mcmonagle",
 "trainer_uid": "t-willie-mullins",
 "lb": 126.0,
 "claim": null,
@@ -4182,7 +4200,8 @@
 "hk": "唐加士打預賽",
 "sc": "唐加士打预赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -4202,7 +4221,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-tommy-berry",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 131.0,
 "claim": null,
 "rating": 110,
@@ -4342,7 +4361,7 @@
 "gear": "V/XB",
 "horse_uid": "au-magnatear",
 "jockey_uid": "j-ashley-morgan",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 119.0,
 "claim": null,
 "rating": 95,
@@ -4412,7 +4431,7 @@
 "gear": "XB",
 "horse_uid": "ire-hellsing",
 "jockey_uid": "j-braith-nock",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 117.0,
 "claim": null,
 "rating": 90,
@@ -4454,7 +4473,8 @@
 "hk": "澳洲盃",
 "sc": "澳洲杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -4656,7 +4676,8 @@
 "hk": "葉健士公開賽 (表列賽)",
 "sc": "叶健士公开赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -4676,7 +4697,7 @@
 "gear": null,
 "horse_uid": "us-onesmoothoperator",
 "jockey_uid": "j-ben-melham",
-"trainer_uid": "t-tim-fitzsimmons",
+"trainer_uid": "t-timothy-fitzsimmons",
 "lb": 129.0,
 "claim": null,
 "rating": 105,
@@ -4802,7 +4823,7 @@
 "gear": null,
 "horse_uid": "fr-sir-chartwell",
 "jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 79,
@@ -4872,7 +4893,8 @@
 "hk": "鄧格錦標",
 "sc": "邓格锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -5032,7 +5054,8 @@
 "hk": "杜拜草地大賽",
 "sc": "杜拜草地大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -5220,7 +5243,8 @@
 "hk": "杜拜金盃",
 "sc": "杜拜金杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -5394,7 +5418,8 @@
 "hk": "杜拜金莎軒錦標",
 "sc": "杜拜金莎轩锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -5553,7 +5578,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "ire-colour-up",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-doug-watson",
 "lb": 126.0,
 "claim": null,
@@ -5610,7 +5635,8 @@
 "hk": "阿喬斯短途錦標",
 "sc": "阿乔斯短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -5685,7 +5711,7 @@
 "draw": 3,
 "gear": "TT",
 "horse_uid": "ire-cover-up",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-simon-ed-crisford",
 "lb": 132.0,
 "claim": null,
@@ -5826,7 +5852,8 @@
 "hk": "阿聯酋打吡",
 "sc": "阿联酋打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -6028,7 +6055,8 @@
 "hk": "高多芬一哩賽",
 "sc": "高多芬一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-27",
 "race_date": "2026-03-28",
@@ -6230,7 +6258,8 @@
 "hk": "伊邦娜錦標",
 "sc": "伊邦娜锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -6404,7 +6433,7 @@
 "gear": null,
 "horse_uid": "au-maisy",
 "jockey_uid": "j-jamie-melham",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 121.0,
 "claim": null,
 "rating": 71,
@@ -6474,7 +6503,8 @@
 "hk": "佐治萊德錦標",
 "sc": "佐治莱德锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -6648,7 +6678,7 @@
 "gear": null,
 "horse_uid": "au-nepotism",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 123.0,
 "claim": null,
 "rating": 110,
@@ -6676,7 +6706,8 @@
 "hk": "指標評分72讓賽",
 "sc": "指标评分72让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -6737,7 +6768,7 @@
 "draw": 8,
 "gear": null,
 "horse_uid": "au-titanium-miss",
-"jockey_uid": "j-s-llewellyn",
+"jockey_uid": "j-shannen-llewellyn",
 "trainer_uid": "t-tracey-bartley",
 "lb": 129.0,
 "claim": -7.0,
@@ -6794,7 +6825,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-my-phar-lady",
 "jockey_uid": "j-chad-schofield",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 125.0,
 "claim": null,
 "rating": 69,
@@ -6920,7 +6951,8 @@
 "hk": "星河大賽",
 "sc": "星河大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -6940,7 +6972,7 @@
 "gear": null,
 "horse_uid": "au-briasa",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 129.0,
 "claim": null,
 "rating": 118,
@@ -7052,7 +7084,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-ostraka",
 "jockey_uid": "j-ben-thompson",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 115.0,
 "claim": null,
 "rating": 107,
@@ -7206,7 +7238,8 @@
 "hk": "玫瑰崗堅尼",
 "sc": "玫瑰岗坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -7296,7 +7329,7 @@
 "gear": "CP",
 "horse_uid": "au-federalist",
 "jockey_uid": "j-dylan-gibbons",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": 105,
@@ -7366,7 +7399,8 @@
 "hk": "生日卡錦標",
 "sc": "生日卡锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -7470,7 +7504,7 @@
 "gear": null,
 "horse_uid": "ire-coco-jamboo",
 "jockey_uid": "j-ben-thompson",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 120.0,
 "claim": null,
 "rating": 91,
@@ -7624,7 +7658,7 @@
 "gear": null,
 "horse_uid": "au-terrestar",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 118.0,
 "claim": null,
 "rating": 78,
@@ -7652,7 +7686,8 @@
 "hk": "萬利安盃",
 "sc": "万利安杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -7812,7 +7847,7 @@
 "gear": "CP1/XB",
 "horse_uid": "fr-don-diego-de-vega",
 "jockey_uid": "j-ben-thompson",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 117.0,
 "claim": null,
 "rating": 92,
@@ -7910,7 +7945,8 @@
 "hk": "蘭威錦標",
 "sc": "兰威锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -8028,7 +8064,8 @@
 "hk": "金拖鞋大賽",
 "sc": "金拖鞋大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -8230,7 +8267,7 @@
 "gear": null,
 "horse_uid": "au-chayan",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 120.0,
 "claim": null,
 "rating": 106,
@@ -8342,7 +8379,8 @@
 "hk": "香港賽馬會全球匯合彩池滿羅錦標 (表列賽)",
 "sc": "香港赛马会全球汇合彩池满罗锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-20",
 "race_date": "2026-03-21",
@@ -8600,7 +8638,8 @@
 "hk": "南非雌馬經典賽",
 "sc": "南非雌马经典赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -8774,7 +8813,8 @@
 "hk": "奇偉錦標 (表列賽)",
 "sc": "奇伟锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -8933,7 +8973,7 @@
 "draw": 11,
 "gear": "V/TT",
 "horse_uid": "nz-belle-cheval",
-"jockey_uid": "j-mick-dee",
+"jockey_uid": "j-michael-dee",
 "trainer_uid": "t-m-walker-s-bergerson",
 "lb": 125.0,
 "claim": null,
@@ -9060,7 +9100,8 @@
 "hk": "奧克蘭盃",
 "sc": "奥克兰杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -9107,8 +9148,8 @@
 "draw": 1,
 "gear": "B/TT",
 "horse_uid": "ire-rosso",
-"jockey_uid": "j-mick-dee",
-"trainer_uid": "t-m-m-pitman",
+"jockey_uid": "j-michael-dee",
+"trainer_uid": "t-michael-matthew-pitman",
 "lb": 122.0,
 "claim": null,
 "rating": 92,
@@ -9388,7 +9429,8 @@
 "hk": "新市場讓賽",
 "sc": "新市场让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -9464,7 +9506,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 123.0,
 "claim": null,
 "rating": 114,
@@ -9632,7 +9674,8 @@
 "hk": "栗馬錦標",
 "sc": "栗马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -9792,7 +9835,8 @@
 "hk": "系統錦標",
 "sc": "系统锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -9867,7 +9911,7 @@
 "draw": 4,
 "gear": null,
 "horse_uid": "au-lara-antipova",
-"jockey_uid": "j-mick-dee",
+"jockey_uid": "j-michael-dee",
 "trainer_uid": "t-m-walker-s-bergerson",
 "lb": 121.0,
 "claim": null,
@@ -9980,7 +10024,8 @@
 "hk": "紐西蘭錦標",
 "sc": "纽西兰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -10013,7 +10058,7 @@
 "draw": 5,
 "gear": "B/XB",
 "horse_uid": "nz-waitak",
-"jockey_uid": "j-mick-dee",
+"jockey_uid": "j-michael-dee",
 "trainer_uid": "t-l-o-sullivan-a-scott",
 "lb": 130.0,
 "claim": null,
@@ -10154,7 +10199,8 @@
 "hk": "肯德百里錦標",
 "sc": "肯德百里锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -10300,7 +10346,7 @@
 "gear": null,
 "horse_uid": "au-nepotism",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 123.0,
 "claim": null,
 "rating": 109,
@@ -10328,7 +10374,8 @@
 "hk": "蘭域堅尼",
 "sc": "兰域坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -10488,7 +10535,8 @@
 "hk": "香港賽馬會全球匯合彩池南非經典賽",
 "sc": "香港赛马会全球汇合彩池南非经典赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -10648,7 +10696,8 @@
 "hk": "香港賽馬會全球匯合彩池紐西蘭打吡",
 "sc": "香港赛马会全球汇合彩池纽西兰打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -10681,8 +10730,8 @@
 "draw": 10,
 "gear": "V-/H1/XB1",
 "horse_uid": "nz-aksil",
-"jockey_uid": "j-mick-dee",
-"trainer_uid": "t-s-k-alexander",
+"jockey_uid": "j-michael-dee",
+"trainer_uid": "t-simon-katrina-alexander",
 "lb": 126.0,
 "claim": null,
 "rating": 95,
@@ -10906,7 +10955,8 @@
 "hk": "馬頓錦標",
 "sc": "马顿锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-03-06",
 "race_date": "2026-03-07",
@@ -11108,7 +11158,8 @@
 "hk": "杜拜黃金之都錦標",
 "sc": "杜拜黄金之都锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-03-01",
@@ -11183,7 +11234,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "gb-kihavah",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-adrian-keatley",
 "lb": 128.0,
 "claim": null,
@@ -11254,7 +11305,8 @@
 "hk": "談唱劇錦標",
 "sc": "谈唱剧锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-03-01",
@@ -11400,7 +11452,8 @@
 "hk": "麥通經典錦標",
 "sc": "麦通经典锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-03-01",
@@ -11489,7 +11542,7 @@
 "draw": 7,
 "gear": null,
 "horse_uid": "us-tap-leader",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-doug-watson",
 "lb": 126.0,
 "claim": null,
@@ -11574,7 +11627,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -11622,7 +11676,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-celui",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 122.0,
 "claim": null,
 "rating": 90,
@@ -11650,7 +11704,7 @@
 "gear": null,
 "horse_uid": "au-egerton",
 "jockey_uid": "j-zac-spain",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 119.0,
 "claim": null,
 "rating": 71,
@@ -11748,7 +11802,8 @@
 "hk": "布林美錦標",
 "sc": "布林美锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -11796,7 +11851,7 @@
 "gear": null,
 "horse_uid": "us-onesmoothoperator",
 "jockey_uid": "j-harry-coffey",
-"trainer_uid": "t-tim-fitzsimmons",
+"trainer_uid": "t-timothy-fitzsimmons",
 "lb": 128.0,
 "claim": null,
 "rating": 109,
@@ -11922,7 +11977,8 @@
 "hk": "指標評分88讓賽",
 "sc": "指标评分88让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -11984,7 +12040,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-lilac",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 90,
@@ -12026,7 +12082,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-eye-of-the-fire",
 "jockey_uid": "j-adam-hyeronimus",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 127.0,
 "claim": null,
 "rating": 83,
@@ -12152,7 +12208,8 @@
 "hk": "澳洲堅尼",
 "sc": "澳洲坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -12326,7 +12383,8 @@
 "hk": "環繞錦標",
 "sc": "环绕锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -12472,7 +12530,8 @@
 "hk": "雍容爾雅錦標",
 "sc": "雍容尔雅锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -12632,7 +12691,8 @@
 "hk": "香港賽馬會全球匯合彩池利物浦城盃",
 "sc": "香港赛马会全球汇合彩池利物浦城杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -12834,7 +12894,8 @@
 "hk": "香港賽馬會全球匯合彩池錦標",
 "sc": "香港赛马会全球汇合彩池锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -13036,7 +13097,8 @@
 "hk": "北風錦標",
 "sc": "北风锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-27",
 "race_date": "2026-02-28",
@@ -13153,7 +13215,7 @@
 "draw": 5,
 "gear": "B/TT",
 "horse_uid": "us-cats-by-five",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-doug-watson",
 "lb": 126.0,
 "claim": null,
@@ -13168,7 +13230,7 @@
 "gear": "P1/TT",
 "horse_uid": "au-sing-dragon",
 "jockey_uid": "j-karis-teetan",
-"trainer_uid": "t-w-y-so",
+"trainer_uid": "t-chris-so",
 "lb": 126.0,
 "claim": null,
 "rating": 100,
@@ -13210,7 +13272,8 @@
 "hk": "新未來城草地盃",
 "sc": "新未来城草地杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-15",
@@ -13243,8 +13306,8 @@
 "draw": 11,
 "gear": "TT",
 "horse_uid": "ire-bolide-porto",
-"jockey_uid": "j-camilio-ospina",
-"trainer_uid": "t-bader-rizaiq",
+"jockey_uid": "j-camillo-ospina",
+"trainer_uid": "t-bader-rezaiq",
 "lb": 126.0,
 "claim": null,
 "rating": 102,
@@ -13271,7 +13334,7 @@
 "draw": 9,
 "gear": "V",
 "horse_uid": "gb-galen",
-"jockey_uid": "j-dylan-browne-mcmonagle",
+"jockey_uid": "j-dylan-mcmonagle",
 "trainer_uid": "t-joseph-o-brien",
 "lb": 126.0,
 "claim": null,
@@ -13398,7 +13461,8 @@
 "hk": "沙特盃",
 "sc": "沙特杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-15",
@@ -13543,7 +13607,7 @@
 "draw": 5,
 "gear": null,
 "horse_uid": "us-star-of-wonder",
-"jockey_uid": "j-camilio-ospina",
+"jockey_uid": "j-camillo-ospina",
 "trainer_uid": "t-saad-aljenade",
 "lb": 126.0,
 "claim": null,
@@ -13572,7 +13636,7 @@
 "gear": "B/TT",
 "horse_uid": "gb-thundersquall",
 "jockey_uid": "j-daniel-tudhope",
-"trainer_uid": "t-muteb-almulawah",
+"trainer_uid": "t-moutaib-almulawah",
 "lb": 126.0,
 "claim": null,
 "rating": 105,
@@ -13628,7 +13692,8 @@
 "hk": "紅海草地讓賽",
 "sc": "红海草地让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-15",
@@ -13689,7 +13754,7 @@
 "draw": 6,
 "gear": null,
 "horse_uid": "gb-sons-and-lovers",
-"jockey_uid": "j-dylan-browne-mcmonagle",
+"jockey_uid": "j-dylan-mcmonagle",
 "trainer_uid": "t-joseph-o-brien",
 "lb": 128.0,
 "claim": null,
@@ -13830,7 +13895,8 @@
 "hk": "1351草地短途錦標",
 "sc": "1351草地短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-14",
@@ -13891,7 +13957,7 @@
 "draw": 3,
 "gear": "TT",
 "horse_uid": "ger-geography",
-"jockey_uid": "j-camilio-ospina",
+"jockey_uid": "j-camillo-ospina",
 "trainer_uid": "t-saad-aljenade",
 "lb": 126.0,
 "claim": null,
@@ -13990,7 +14056,7 @@
 "gear": "TT",
 "horse_uid": "us-zefzaf",
 "jockey_uid": "j-joel-rosario",
-"trainer_uid": "t-sami-al-harabi",
+"trainer_uid": "t-sami-alharabi",
 "lb": 126.0,
 "claim": null,
 "rating": 104,
@@ -14046,7 +14112,8 @@
 "hk": "圖瓦克盃 (表列賽)",
 "sc": "图瓦克杯 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-14",
@@ -14065,7 +14132,7 @@
 "draw": 10,
 "gear": "TT",
 "horse_uid": "us-akfeek",
-"jockey_uid": "j-camilio-ospina",
+"jockey_uid": "j-camillo-ospina",
 "trainer_uid": "t-hesham-abdulwahed",
 "lb": 126.0,
 "claim": null,
@@ -14108,7 +14175,7 @@
 "gear": "TT",
 "horse_uid": "us-carracci",
 "jockey_uid": "j-daniel-tudhope",
-"trainer_uid": "t-nicolas-bachalard",
+"trainer_uid": "t-nicholas-bachalard",
 "lb": 126.0,
 "claim": null,
 "rating": 100,
@@ -14136,7 +14203,7 @@
 "gear": "TT",
 "horse_uid": "us-havildar",
 "jockey_uid": "j-abdullah-alfairouz",
-"trainer_uid": "t-baden-alsubaie",
+"trainer_uid": "t-bedan-alsubaie",
 "lb": 126.0,
 "claim": null,
 "rating": 101,
@@ -14192,7 +14259,7 @@
 "gear": "TT",
 "horse_uid": "ire-power-of-beauty",
 "jockey_uid": "j-naif-alanazi",
-"trainer_uid": "t-nicolas-bachalard",
+"trainer_uid": "t-nicholas-bachalard",
 "lb": 126.0,
 "claim": null,
 "rating": 101,
@@ -14234,7 +14301,7 @@
 "gear": "TT",
 "horse_uid": "us-scotland-yard",
 "jockey_uid": "j-adel-alfouraidi",
-"trainer_uid": "t-nicolas-bachalard",
+"trainer_uid": "t-nicholas-bachalard",
 "lb": 126.0,
 "claim": null,
 "rating": 106,
@@ -14346,7 +14413,8 @@
 "hk": "沙特打吡",
 "sc": "沙特打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-14",
@@ -14450,7 +14518,7 @@
 "gear": "B/TT",
 "horse_uid": "us-obliteration",
 "jockey_uid": "j-joel-rosario",
-"trainer_uid": "t-steven-asmussen",
+"trainer_uid": "t-steve-asmussen",
 "lb": 126.0,
 "claim": null,
 "rating": 108,
@@ -14576,7 +14644,8 @@
 "hk": "維雅德泥地短途錦標",
 "sc": "维雅德泥地短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-02-13",
 "race_date": "2026-02-14",
@@ -14722,7 +14791,7 @@
 "gear": "B/TT",
 "horse_uid": "au-self-improvement",
 "jockey_uid": "j-c-l-chau",
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "lb": 126.0,
 "claim": null,
 "rating": 110,
@@ -14792,7 +14861,8 @@
 "hk": "開普C班賽",
 "sc": "开普C班赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-02-01",
@@ -14839,7 +14909,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "saf-yamazaki",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 132.0,
 "claim": null,
@@ -14966,7 +15036,7 @@
 "gear": null,
 "horse_uid": "saf-king-s-quest",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 138.0,
 "claim": null,
 "rating": 82,
@@ -15064,7 +15134,8 @@
 "hk": "夏日威風錦標",
 "sc": "夏日威风锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -15224,7 +15295,8 @@
 "hk": "大都會錦標",
 "sc": "大都会锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -15341,7 +15413,7 @@
 "draw": 8,
 "gear": null,
 "horse_uid": "saf-native-ruler",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 131.0,
 "claim": null,
@@ -15412,7 +15484,8 @@
 "hk": "奧運決勝錦標 (表列賽)",
 "sc": "奥运决胜锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -15516,7 +15589,7 @@
 "gear": null,
 "horse_uid": "saf-babelicious",
 "jockey_uid": "j-gavin-lerena",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 125.0,
 "claim": null,
 "rating": 100,
@@ -15571,7 +15644,7 @@
 "draw": 11,
 "gear": "TT",
 "horse_uid": "saf-mai-sensation",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-lucinda-woodruff",
 "lb": 135.0,
 "claim": null,
@@ -15586,7 +15659,7 @@
 "gear": null,
 "horse_uid": "saf-tanneron",
 "jockey_uid": "j-keagan-de-melo",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 121.0,
 "claim": null,
 "rating": 96,
@@ -15628,7 +15701,8 @@
 "hk": "溫徹斯特短途盃",
 "sc": "温彻斯特短途杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -15717,8 +15791,8 @@
 "draw": 6,
 "gear": "TT",
 "horse_uid": "saf-kaiboy",
-"jockey_uid": "j-j-p-van-der-merwe",
-"trainer_uid": "t-candice-bass",
+"jockey_uid": "j-juan-paul-v-d-merwe",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 128.0,
 "claim": null,
 "rating": 96,
@@ -15816,7 +15890,7 @@
 "gear": null,
 "horse_uid": "saf-future-variety",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 137.0,
 "claim": null,
 "rating": 106,
@@ -15830,7 +15904,7 @@
 "gear": null,
 "horse_uid": "saf-all-the-rage",
 "jockey_uid": "j-andrew-fortune",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 119.0,
 "claim": null,
 "rating": 101,
@@ -15914,7 +15988,8 @@
 "hk": "西開普長途賽",
 "sc": "西开普长途赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -15947,7 +16022,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "saf-magic-verse",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 130.0,
 "claim": null,
@@ -16060,7 +16135,8 @@
 "hk": "開普A班賽",
 "sc": "开普A班赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -16080,7 +16156,7 @@
 "gear": "TT2",
 "horse_uid": "saf-tenango",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 136.0,
 "claim": null,
 "rating": 126,
@@ -16177,7 +16253,7 @@
 "draw": 8,
 "gear": null,
 "horse_uid": "saf-scottish-kiss",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 119.0,
 "claim": null,
@@ -16304,7 +16380,8 @@
 "hk": "開普C班賽",
 "sc": "开普C班赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -16492,7 +16569,7 @@
 "gear": null,
 "horse_uid": "saf-follow-your-heart",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 137.0,
 "claim": null,
 "rating": 88,
@@ -16533,7 +16610,7 @@
 "draw": 16,
 "gear": "B1",
 "horse_uid": "saf-steadfast",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 132.0,
 "claim": null,
@@ -16604,7 +16681,8 @@
 "hk": "香港賽馬會全球匯合彩池政治家錦標",
 "sc": "香港赛马会全球汇合彩池政治家锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -16665,7 +16743,7 @@
 "draw": 4,
 "gear": null,
 "horse_uid": "saf-randolph-hearst",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 132.0,
 "claim": null,
@@ -16750,7 +16828,8 @@
 "hk": "馬略卡錦標",
 "sc": "马略卡锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-30",
 "race_date": "2026-01-31",
@@ -16825,8 +16904,8 @@
 "draw": 5,
 "gear": "TT",
 "horse_uid": "saf-roccapina",
-"jockey_uid": "j-j-p-van-der-merwe",
-"trainer_uid": "t-candice-bass",
+"jockey_uid": "j-juan-paul-v-d-merwe",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 100,
@@ -16854,7 +16933,7 @@
 "gear": null,
 "horse_uid": "saf-scarlet-macaw",
 "jockey_uid": "j-serino-moodley",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 104,
@@ -16868,7 +16947,7 @@
 "gear": null,
 "horse_uid": "saf-rainbow-lorikeet",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 105,
@@ -16980,7 +17059,8 @@
 "hk": "卡拉卡百萬三歲馬大賽 (表列賽)",
 "sc": "卡拉卡百万三岁马大赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-23",
 "race_date": "2026-01-24",
@@ -17210,7 +17290,8 @@
 "hk": "卡拉卡百萬兩歲馬大賽 (表列賽)",
 "sc": "卡拉卡百万两岁马大赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-23",
 "race_date": "2026-01-24",
@@ -17468,7 +17549,8 @@
 "hk": "奧特亞羅經典賽",
 "sc": "奥特亚罗经典赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-23",
 "race_date": "2026-01-24",
@@ -17726,7 +17808,8 @@
 "hk": "好戰王錦標",
 "sc": "好战王锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-23",
 "race_date": "2026-01-24",
@@ -17984,7 +18067,8 @@
 "hk": "火車路錦標",
 "sc": "火车路锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-23",
 "race_date": "2026-01-24",
@@ -18200,7 +18284,8 @@
 "hk": "香港賽馬會全球匯合彩池紀悅心錦標",
 "sc": "香港赛马会全球汇合彩池纪悦心锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-23",
 "race_date": "2026-01-24",
@@ -18388,7 +18473,8 @@
 "hk": "主席盃",
 "sc": "主席杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -18477,7 +18563,7 @@
 "draw": 6,
 "gear": null,
 "horse_uid": "saf-magic-verse",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 137.0,
 "claim": null,
@@ -18548,7 +18634,8 @@
 "hk": "全球匯合彩池飛行冠軍錦標",
 "sc": "全球汇合彩池飞行冠军锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -18568,7 +18655,7 @@
 "gear": null,
 "horse_uid": "saf-tenango",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 114,
@@ -18834,7 +18921,8 @@
 "hk": "國王碟",
 "sc": "国王碟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -18882,7 +18970,7 @@
 "gear": null,
 "horse_uid": "saf-sugar-mountain",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 108,
@@ -19064,7 +19152,8 @@
 "hk": "沙圈錦標",
 "sc": "沙圈锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -19111,7 +19200,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "saf-give-me-everything",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-dean-kannemeyer",
 "lb": 131.0,
 "claim": null,
@@ -19126,7 +19215,7 @@
 "gear": null,
 "horse_uid": "saf-rainbow-lorikeet",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 103,
@@ -19238,7 +19327,8 @@
 "hk": "狄更斯錦標",
 "sc": "狄更斯锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -19286,7 +19376,7 @@
 "gear": null,
 "horse_uid": "saf-preacher-man",
 "jockey_uid": "j-gareth-wright",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 125.0,
 "claim": null,
 "rating": null,
@@ -19299,7 +19389,7 @@
 "draw": 4,
 "gear": null,
 "horse_uid": "saf-virginia-bluebell",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-james-crawford",
 "lb": 125.0,
 "claim": null,
@@ -19454,7 +19544,8 @@
 "hk": "王權錦標",
 "sc": "王权锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -19558,7 +19649,7 @@
 "gear": null,
 "horse_uid": "saf-scarlet-macaw",
 "jockey_uid": "j-gavin-lerena",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 128.0,
 "claim": null,
 "rating": 99,
@@ -19571,7 +19662,7 @@
 "draw": 8,
 "gear": "TT1",
 "horse_uid": "saf-mai-sensation",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-lucinda-woodruff",
 "lb": 128.0,
 "claim": null,
@@ -19656,7 +19747,7 @@
 "gear": "TT",
 "horse_uid": "saf-symphony-in-white",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 128.0,
 "claim": null,
 "rating": 94,
@@ -19670,7 +19761,7 @@
 "gear": "TT",
 "horse_uid": "saf-roccapina",
 "jockey_uid": "j-sean-veale",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 128.0,
 "claim": null,
 "rating": 104,
@@ -19726,7 +19817,8 @@
 "hk": "第四班讓賽",
 "sc": "第四班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -19844,7 +19936,7 @@
 "gear": null,
 "horse_uid": "saf-follow-your-heart",
 "jockey_uid": "j-andrew-fortune",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 133.0,
 "claim": null,
 "rating": 90,
@@ -20012,7 +20104,8 @@
 "hk": "總理錦標",
 "sc": "总理锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -20031,7 +20124,7 @@
 "draw": 1,
 "gear": null,
 "horse_uid": "saf-native-ruler",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 128.0,
 "claim": null,
@@ -20088,7 +20181,7 @@
 "gear": null,
 "horse_uid": "saf-la-pulga",
 "jockey_uid": "j-sean-veale",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 128.0,
 "claim": null,
 "rating": 94,
@@ -20158,7 +20251,7 @@
 "gear": null,
 "horse_uid": "saf-major-master",
 "jockey_uid": "j-aldo-domeyer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 128.0,
 "claim": null,
 "rating": 94,
@@ -20186,7 +20279,8 @@
 "hk": "開普B班賽",
 "sc": "开普B班赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -20233,7 +20327,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "saf-clair-de-lune",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 119.0,
 "claim": null,
@@ -20402,7 +20496,8 @@
 "hk": "開普B班賽",
 "sc": "开普B班赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2026-01-09",
 "race_date": "2026-01-10",
@@ -20435,7 +20530,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "saf-roland-garros",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 136.0,
 "claim": null,
@@ -20450,7 +20545,7 @@
 "gear": "TT",
 "horse_uid": "saf-air-raid",
 "jockey_uid": "j-corne-orffer",
-"trainer_uid": "t-candice-bass",
+"trainer_uid": "t-candice-bass-robinson",
 "lb": 132.0,
 "claim": null,
 "rating": 94,
@@ -20660,7 +20755,8 @@
 "hk": "有馬紀念賽",
 "sc": "有马纪念赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-12-26",
 "race_date": "2025-12-28",
@@ -20918,7 +21014,8 @@
 "hk": "兩歲新馬賽",
 "sc": "两岁新马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-12-27",
 "race_date": "2025-12-28",
@@ -21176,7 +21273,8 @@
 "hk": "日本盃",
 "sc": "日本杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-28",
 "race_date": "2025-11-30",
@@ -21462,7 +21560,8 @@
 "hk": "一哩冠軍賽",
 "sc": "一哩冠军赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-21",
 "race_date": "2025-11-23",
@@ -21748,7 +21847,8 @@
 "hk": "三歲以上一捷馬賽",
 "sc": "三岁以上一捷马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -22006,7 +22106,8 @@
 "hk": "三歲以上兩捷馬賽",
 "sc": "三岁以上两捷马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -22264,7 +22365,8 @@
 "hk": "三歲以上兩捷馬賽",
 "sc": "三岁以上两捷马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -22508,7 +22610,8 @@
 "hk": "兩歲新馬賽",
 "sc": "两岁新马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -22668,7 +22771,8 @@
 "hk": "唐加士達盃",
 "sc": "唐加士达杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -22870,7 +22974,8 @@
 "hk": "天橋立錦標",
 "sc": "天桥立锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -23100,7 +23205,8 @@
 "hk": "黃菊賞",
 "sc": "黄菊赏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-15",
 "race_date": "2025-11-16",
@@ -23246,7 +23352,8 @@
 "hk": "女皇伊利沙伯二世盃",
 "sc": "女皇伊利沙伯二世杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-14",
 "race_date": "2025-11-16",
@@ -23504,7 +23611,8 @@
 "hk": "冠軍一哩錦標",
 "sc": "冠军一哩锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -23594,7 +23702,7 @@
 "gear": null,
 "horse_uid": "nz-von-hauke",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 130.0,
 "claim": null,
 "rating": 109,
@@ -23678,7 +23786,8 @@
 "hk": "冠軍短途錦標",
 "sc": "冠军短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -23740,7 +23849,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-libertad",
 "jockey_uid": "j-tom-marquand",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 129.0,
 "claim": null,
 "rating": 108,
@@ -23852,7 +23961,8 @@
 "hk": "冠軍錦標",
 "sc": "冠军锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -24040,7 +24150,8 @@
 "hk": "女族長錦標",
 "sc": "女族长锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -24172,7 +24283,7 @@
 "gear": null,
 "horse_uid": "au-terrestar",
 "jockey_uid": "j-beau-mertens",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 121.0,
 "claim": null,
 "rating": 99,
@@ -24256,7 +24367,8 @@
 "hk": "女皇伊利沙伯錦標",
 "sc": "女皇伊利沙伯锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -24416,7 +24528,7 @@
 "gear": null,
 "horse_uid": "gb-naval-college",
 "jockey_uid": "j-tom-marquand",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 99,
@@ -24528,7 +24640,8 @@
 "hk": "常迎錦標 (表列賽)",
 "sc": "常迎锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -24604,7 +24717,7 @@
 "gear": "V",
 "horse_uid": "nz-klabel",
 "jockey_uid": "j-zac-spain",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 121.0,
 "claim": null,
 "rating": 103,
@@ -24786,7 +24899,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -24834,7 +24948,7 @@
 "gear": null,
 "horse_uid": "au-grand-larceny",
 "jockey_uid": "j-ben-melham",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 135.0,
 "claim": null,
 "rating": 78,
@@ -25100,7 +25214,8 @@
 "hk": "Wettstar.de參與全球匯合彩池讓賽",
 "sc": "Wettstar.de参与全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -25358,7 +25473,8 @@
 "hk": "兩歲馬條件讓磅賽",
 "sc": "两岁马条件让磅赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -25532,7 +25648,8 @@
 "hk": "拜仁大賽",
 "sc": "拜仁大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -25608,7 +25725,7 @@
 "gear": null,
 "horse_uid": "fr-rashford",
 "jockey_uid": "j-jack-mitchell",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 132.0,
 "claim": null,
 "rating": 107,
@@ -25692,7 +25809,8 @@
 "hk": "第三班讓賽",
 "sc": "第三班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -25936,7 +26054,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-07",
 "race_date": "2025-11-08",
@@ -26194,7 +26313,8 @@
 "hk": "伊蓮羅錦標 (表列賽)",
 "sc": "伊莲罗锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -26438,7 +26558,7 @@
 "gear": "CP1",
 "horse_uid": "au-common-interest",
 "jockey_uid": "j-kerrin-mcevoy",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 119.0,
 "claim": null,
 "rating": null,
@@ -26466,7 +26586,8 @@
 "hk": "墨爾本盃",
 "sc": "墨尔本杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -26836,7 +26957,8 @@
 "hk": "指標評分90讓賽",
 "sc": "指标评分90让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -26898,7 +27020,7 @@
 "gear": "CP",
 "horse_uid": "au-sir-artie",
 "jockey_uid": "j-kerrin-mcevoy",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 88,
@@ -27150,7 +27272,8 @@
 "hk": "指標評分96讓賽",
 "sc": "指标评分96让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -27198,7 +27321,7 @@
 "gear": "XB",
 "horse_uid": "fr-don-diego-de-vega",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 129.0,
 "claim": null,
 "rating": 93,
@@ -27254,7 +27377,7 @@
 "gear": "XB/TT",
 "horse_uid": "ire-fernao",
 "jockey_uid": "j-jett-stanley",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 120.0,
 "claim": null,
 "rating": 85,
@@ -27450,7 +27573,8 @@
 "hk": "玉泉碟",
 "sc": "玉泉碟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -27666,7 +27790,8 @@
 "hk": "碟 (表列賽)",
 "sc": "碟 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -27770,7 +27895,7 @@
 "gear": "XB",
 "horse_uid": "ire-redstone-well",
 "jockey_uid": "j-tbc",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 122.0,
 "claim": null,
 "rating": 101,
@@ -27882,7 +28007,8 @@
 "hk": "香港賽馬會錦標",
 "sc": "香港赛马会锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-11-02",
 "race_date": "2025-11-04",
@@ -28014,7 +28140,7 @@
 "gear": null,
 "horse_uid": "ire-coco-jamboo",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 121.0,
 "claim": null,
 "rating": 101,
@@ -28182,7 +28308,8 @@
 "hk": "秋季天皇賞",
 "sc": "秋季天皇赏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-02",
@@ -28412,7 +28539,8 @@
 "hk": "育馬者盃一哩大賽",
 "sc": "育马者杯一哩大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-02",
@@ -28628,7 +28756,8 @@
 "hk": "育馬者盃泥地一哩大賽",
 "sc": "育马者杯泥地一哩大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-02",
@@ -28774,7 +28903,7 @@
 "gear": null,
 "horse_uid": "us-white-abarrio",
 "jockey_uid": "j-irad-ortiz-jr",
-"trainer_uid": "t-saffie-joseph-jr",
+"trainer_uid": "t-saffie-joseph",
 "lb": 126.0,
 "claim": null,
 "rating": 124,
@@ -28802,7 +28931,8 @@
 "hk": "育馬者盃經典大賽",
 "sc": "育马者杯经典大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-02",
@@ -28976,7 +29106,8 @@
 "hk": "育馬者盃草地大賽",
 "sc": "育马者杯草地大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-02",
@@ -29206,7 +29337,8 @@
 "hk": "育馬者盃雌馬草地大賽",
 "sc": "育马者杯雌马草地大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-02",
@@ -29310,7 +29442,7 @@
 "gear": null,
 "horse_uid": "ire-be-your-best",
 "jockey_uid": "j-irad-ortiz-jr",
-"trainer_uid": "t-saffie-joseph-jr",
+"trainer_uid": "t-saffie-joseph",
 "lb": 124.0,
 "claim": null,
 "rating": 110,
@@ -29436,7 +29568,8 @@
 "hk": "卡賓會錦標",
 "sc": "卡宾会锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -29596,7 +29729,8 @@
 "hk": "名氣急升錦標",
 "sc": "名气急升锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -29616,7 +29750,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-libertad",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 108,
@@ -29630,7 +29764,7 @@
 "gear": "CP/XB",
 "horse_uid": "au-bosustow",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 129.0,
 "claim": null,
 "rating": 108,
@@ -29812,7 +29946,8 @@
 "hk": "岳禮華錦標",
 "sc": "岳礼华锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -29888,7 +30023,7 @@
 "gear": "XB/TT",
 "horse_uid": "gb-mighty-ulysses",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 125.0,
 "claim": null,
 "rating": 102,
@@ -30042,7 +30177,8 @@
 "hk": "帝國玫瑰錦標",
 "sc": "帝国玫瑰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -30230,7 +30366,8 @@
 "hk": "榮耀錦標",
 "sc": "荣耀锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -30446,7 +30583,8 @@
 "hk": "維多利亞打吡",
 "sc": "维多利亚打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -30704,7 +30842,7 @@
 "gear": "B1/XB",
 "horse_uid": "au-freddie-bassett",
 "jockey_uid": "j-ben-allen",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 126.0,
 "claim": null,
 "rating": 95,
@@ -30760,7 +30898,8 @@
 "hk": "艷海棠錦標",
 "sc": "艳海棠锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -31004,7 +31143,8 @@
 "hk": "雅閣圍錦標",
 "sc": "雅阁围锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -31206,7 +31346,8 @@
 "hk": "香港賽馬會全球匯合彩池威風錦標",
 "sc": "香港赛马会全球汇合彩池威风锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-31",
 "race_date": "2025-11-01",
@@ -31380,7 +31521,8 @@
 "hk": "菊花賞",
 "sc": "菊花赏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-26",
@@ -31666,7 +31808,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -31840,7 +31983,8 @@
 "hk": "伊雲錦標",
 "sc": "伊云锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -31902,7 +32046,7 @@
 "gear": "V",
 "horse_uid": "nz-klabel",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 129.0,
 "claim": null,
 "rating": 96,
@@ -32000,7 +32144,8 @@
 "hk": "威廉哥達錦標 (表列賽)",
 "sc": "威廉哥达锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -32048,7 +32193,7 @@
 "gear": null,
 "horse_uid": "au-kujenga",
 "jockey_uid": "j-damian-lane",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 126.0,
 "claim": null,
 "rating": 102,
@@ -32230,7 +32375,8 @@
 "hk": "本中央競馬會盃",
 "sc": "本中央竞马会杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -32320,7 +32466,7 @@
 "gear": "B1",
 "horse_uid": "gb-naval-college",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 100,
@@ -32376,7 +32522,7 @@
 "gear": null,
 "horse_uid": "nz-lincoln-rocks",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 119.0,
 "claim": null,
 "rating": null,
@@ -32404,7 +32550,8 @@
 "hk": "水晶一哩賽",
 "sc": "水晶一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -32438,7 +32585,7 @@
 "gear": "CP/XB",
 "horse_uid": "au-port-lockroy",
 "jockey_uid": "j-jye-mcneil",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 131.0,
 "claim": null,
 "rating": 102,
@@ -32508,7 +32655,7 @@
 "gear": null,
 "horse_uid": "nz-von-hauke",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 126.0,
 "claim": null,
 "rating": 99,
@@ -32564,7 +32711,8 @@
 "hk": "泰斯奧錦標",
 "sc": "泰斯奥锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -32724,7 +32872,7 @@
 "gear": null,
 "horse_uid": "au-terrestar",
 "jockey_uid": "j-beau-mertens",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 119.0,
 "claim": null,
 "rating": 98,
@@ -32808,7 +32956,8 @@
 "hk": "滿利谷瓶",
 "sc": "满利谷瓶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -33038,7 +33187,8 @@
 "hk": "覺士盾",
 "sc": "觉士盾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -33170,7 +33320,7 @@
 "gear": null,
 "horse_uid": "au-nepotism",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 109.0,
 "claim": null,
 "rating": 105,
@@ -33198,7 +33348,8 @@
 "hk": "雌馬經典賽",
 "sc": "雌马经典赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -33400,7 +33551,8 @@
 "hk": "香港賽馬會全球匯合彩池紅船錨錦標",
 "sc": "香港赛马会全球汇合彩池红船锚锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-24",
 "race_date": "2025-10-25",
@@ -33448,7 +33600,7 @@
 "gear": null,
 "horse_uid": "au-virtual-illusion",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 126.0,
 "claim": null,
 "rating": 67,
@@ -33560,7 +33712,8 @@
 "hk": "秋華賞",
 "sc": "秋华赏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-19",
@@ -33846,7 +33999,8 @@
 "hk": "拉丁美洲大賽",
 "sc": "拉丁美洲大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-19",
@@ -33894,7 +34048,7 @@
 "gear": null,
 "horse_uid": "arg-need-you-tonight",
 "jockey_uid": "j-maximiliano-aserito",
-"trainer_uid": "t-roberto-pellegatta",
+"trainer_uid": "t-roberto-a-pellegatta",
 "lb": 131.0,
 "claim": null,
 "rating": 114,
@@ -33936,7 +34090,7 @@
 "gear": null,
 "horse_uid": "arg-vundu",
 "jockey_uid": "j-martin-valle",
-"trainer_uid": "t-nicolas-m-ferro",
+"trainer_uid": "t-nicolas-martin-ferro",
 "lb": 132.0,
 "claim": null,
 "rating": 112,
@@ -33949,7 +34103,7 @@
 "draw": 7,
 "gear": null,
 "horse_uid": "brz-ethereum",
-"jockey_uid": "j-jose-a-da-silva",
+"jockey_uid": "j-jose-da-silva",
 "trainer_uid": "t-cosme-morgado-neto",
 "lb": 127.0,
 "claim": null,
@@ -33963,7 +34117,7 @@
 "draw": 8,
 "gear": null,
 "horse_uid": "arg-il-omare",
-"jockey_uid": "j-carlos-trujillo",
+"jockey_uid": "j-carlos-trujillo-c",
 "trainer_uid": "t-juan-suarez-villarroel",
 "lb": 131.0,
 "claim": null,
@@ -34020,7 +34174,7 @@
 "gear": null,
 "horse_uid": "arg-daktari",
 "jockey_uid": "j-gustavo-calvente",
-"trainer_uid": "t-ximeno-urenda",
+"trainer_uid": "t-ximeno-urenda-pastene",
 "lb": 132.0,
 "claim": null,
 "rating": 108,
@@ -34104,7 +34258,8 @@
 "hk": "聖保羅賽馬會大賽",
 "sc": "圣保罗赛马会大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-19",
@@ -34123,7 +34278,7 @@
 "draw": 1,
 "gear": null,
 "horse_uid": "brz-havana-cigar",
-"jockey_uid": "j-jose-a-da-silva",
+"jockey_uid": "j-jose-da-silva",
 "trainer_uid": "t-emerson-garcia",
 "lb": 126.0,
 "claim": null,
@@ -34292,7 +34447,8 @@
 "hk": "悉尼錦標",
 "sc": "悉尼锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -34382,7 +34538,7 @@
 "gear": "XB1/TT",
 "horse_uid": "au-libertad",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 129.0,
 "claim": null,
 "rating": 109,
@@ -34410,7 +34566,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-ostraka",
 "jockey_uid": "j-chad-schofield",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 129.0,
 "claim": null,
 "rating": 107,
@@ -34550,7 +34706,8 @@
 "hk": "珠穆朗瑪峰錦標",
 "sc": "珠穆朗玛峰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -34570,7 +34727,7 @@
 "gear": null,
 "horse_uid": "nz-ka-ying-rising",
 "jockey_uid": "j-zac-purton",
-"trainer_uid": "t-d-a-hayes",
+"trainer_uid": "t-david-hayes",
 "lb": 129.0,
 "claim": null,
 "rating": 126,
@@ -34584,7 +34741,7 @@
 "gear": null,
 "horse_uid": "au-briasa",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 129.0,
 "claim": null,
 "rating": 117,
@@ -34808,7 +34965,8 @@
 "hk": "英皇查理斯三世錦標",
 "sc": "英皇查理斯三世锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -35010,7 +35168,8 @@
 "hk": "銀鷹錦標",
 "sc": "银鹰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -35044,7 +35203,7 @@
 "gear": "XB",
 "horse_uid": "au-depth-of-character",
 "jockey_uid": "j-jason-collett",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 127.0,
 "claim": null,
 "rating": 105,
@@ -35226,7 +35385,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -35288,7 +35448,7 @@
 "gear": "CP",
 "horse_uid": "au-sir-artie",
 "jockey_uid": "j-braith-nock",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 132.0,
 "claim": null,
 "rating": 88,
@@ -35442,7 +35602,7 @@
 "gear": null,
 "horse_uid": "au-waimarie",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 84,
@@ -35526,7 +35686,7 @@
 "gear": null,
 "horse_uid": "gb-formal-display",
 "jockey_uid": "j-tom-sherry",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 120.0,
 "claim": null,
 "rating": 77,
@@ -35568,7 +35728,8 @@
 "hk": "考菲爾德盃",
 "sc": "考菲尔德杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -35854,7 +36015,8 @@
 "hk": "兩歲馬條件讓磅賽",
 "sc": "两岁马条件让磅赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -36070,7 +36232,8 @@
 "hk": "女皇伊利沙伯二世錦標",
 "sc": "女皇伊利沙伯二世锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -36328,7 +36491,8 @@
 "hk": "巴爾莫奴讓賽",
 "sc": "巴尔莫奴让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -36684,7 +36848,8 @@
 "hk": "英國冠軍短途錦標",
 "sc": "英国冠军短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -36998,7 +37163,8 @@
 "hk": "英國冠軍錦標",
 "sc": "英国冠军锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -37186,7 +37352,8 @@
 "hk": "英國冠軍雌馬錦標",
 "sc": "英国冠军雌马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-17",
 "race_date": "2025-10-18",
@@ -37360,7 +37527,8 @@
 "hk": "史利士錦標",
 "sc": "史利士锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -37506,7 +37674,7 @@
 "gear": "B1",
 "horse_uid": "au-devil-night",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 117.0,
 "claim": null,
 "rating": 103,
@@ -37534,7 +37702,8 @@
 "hk": "女士日瓶",
 "sc": "女士日瓶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -37652,7 +37821,7 @@
 "gear": null,
 "horse_uid": "au-terrestar",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 123.0,
 "claim": null,
 "rating": 95,
@@ -37750,7 +37919,8 @@
 "hk": "杜勒讓賽",
 "sc": "杜勒让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -37826,7 +37996,7 @@
 "gear": "TT",
 "horse_uid": "au-sepals",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 126.0,
 "claim": null,
 "rating": 109,
@@ -37938,7 +38108,8 @@
 "hk": "考菲爾德堅尼",
 "sc": "考菲尔德坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -38000,7 +38171,7 @@
 "gear": null,
 "horse_uid": "au-nepotism",
 "jockey_uid": "j-blake-shinn",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 126.0,
 "claim": null,
 "rating": 101,
@@ -38112,7 +38283,7 @@
 "gear": "XB",
 "horse_uid": "au-hillier",
 "jockey_uid": "j-luke-currie",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 126.0,
 "claim": null,
 "rating": 99,
@@ -38224,7 +38395,8 @@
 "hk": "考菲爾德錦標",
 "sc": "考菲尔德锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -38328,7 +38500,8 @@
 "hk": "週末商販讓賽 (表列賽)",
 "sc": "周末商贩让赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -38488,7 +38661,8 @@
 "hk": "香港賽馬會全球匯合彩池諾活錦標",
 "sc": "香港赛马会全球汇合彩池诺活锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -38648,7 +38822,7 @@
 "gear": null,
 "horse_uid": "au-karavas",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 123.0,
 "claim": null,
 "rating": 96,
@@ -38690,7 +38864,8 @@
 "hk": "俄國皇儲讓賽",
 "sc": "俄国皇储让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -39018,7 +39193,8 @@
 "hk": "思蘭錦標",
 "sc": "思兰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -39164,7 +39340,8 @@
 "hk": "杜何斯特錦標",
 "sc": "杜何斯特锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -39324,7 +39501,8 @@
 "hk": "秋季錦標",
 "sc": "秋季锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -39456,7 +39634,8 @@
 "hk": "達利錦標",
 "sc": "达利锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-10",
 "race_date": "2025-10-11",
@@ -39574,7 +39753,8 @@
 "hk": "第一班讓賽",
 "sc": "第一班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-06",
@@ -39776,7 +39956,7 @@
 "gear": "TT",
 "horse_uid": "fr-hemevez",
 "jockey_uid": "j-antoine-hamelin",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 121.0,
 "claim": null,
 "rating": 90,
@@ -39860,7 +40040,8 @@
 "hk": "第一班讓賽",
 "sc": "第一班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-06",
@@ -39964,7 +40145,7 @@
 "gear": null,
 "horse_uid": "fr-prince-de-montfort",
 "jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-d-p-prod-homme",
+"trainer_uid": "t-didier-pauline-prod-homme",
 "lb": 128.0,
 "claim": null,
 "rating": 88,
@@ -39992,7 +40173,7 @@
 "gear": null,
 "horse_uid": "fr-sabroso",
 "jockey_uid": "j-ioritz-mendizabal",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 127.0,
 "claim": null,
 "rating": 87,
@@ -40076,7 +40257,7 @@
 "gear": null,
 "horse_uid": "fr-big-log",
 "jockey_uid": "j-antoine-hamelin",
-"trainer_uid": "t-d-p-prod-homme",
+"trainer_uid": "t-didier-pauline-prod-homme",
 "lb": 119.0,
 "claim": null,
 "rating": 79,
@@ -40132,7 +40313,8 @@
 "hk": "凱旋門大賽",
 "sc": "凯旋门大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-05",
@@ -40418,7 +40600,8 @@
 "hk": "尚盧利加迪大賽",
 "sc": "尚卢利加迪大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-05",
@@ -40578,7 +40761,8 @@
 "hk": "森林大賽",
 "sc": "森林大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-05",
@@ -40836,7 +41020,8 @@
 "hk": "歌劇錦標",
 "sc": "歌剧锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-05",
@@ -41038,7 +41223,8 @@
 "hk": "隆尚教堂大賽",
 "sc": "隆尚教堂大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-05",
@@ -41338,7 +41524,8 @@
 "hk": "馬素爾大賽",
 "sc": "马素尔大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-10-04",
 "race_date": "2025-10-05",
@@ -41498,7 +41685,8 @@
 "hk": "歐洲大賽",
 "sc": "欧洲大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-26",
 "race_date": "2025-09-28",
@@ -41574,7 +41762,7 @@
 "gear": "CP",
 "horse_uid": "ire-tiffany",
 "jockey_uid": "j-luke-morris",
-"trainer_uid": "t-sir-mark-prescott",
+"trainer_uid": "t-sir-mark-prescott-bt",
 "lb": 129.0,
 "claim": null,
 "rating": 113,
@@ -41630,7 +41818,8 @@
 "hk": "短途馬錦標",
 "sc": "短途马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-26",
 "race_date": "2025-09-28",
@@ -41776,7 +41965,7 @@
 "gear": "V",
 "horse_uid": "nz-lucky-sweynesse",
 "jockey_uid": "j-k-c-leung",
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "lb": 128.0,
 "claim": null,
 "rating": 118,
@@ -41888,7 +42077,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-14",
@@ -42188,7 +42378,8 @@
 "hk": "國家錦標",
 "sc": "国家锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-13",
 "race_date": "2025-09-14",
@@ -42306,7 +42497,8 @@
 "hk": "愛爾蘭冠軍錦標",
 "sc": "爱尔兰冠军锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-14",
@@ -42452,7 +42644,8 @@
 "hk": "愛爾蘭聖烈治大賽",
 "sc": "爱尔兰圣烈治大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-13",
 "race_date": "2025-09-14",
@@ -42612,7 +42805,8 @@
 "hk": "莫格雅育馬錦標",
 "sc": "莫格雅育马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-13",
 "race_date": "2025-09-14",
@@ -42744,7 +42938,8 @@
 "hk": "香港賽馬會全球匯合彩池秋季雌馬讓賽",
 "sc": "香港赛马会全球汇合彩池秋季雌马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-14",
@@ -43100,7 +43295,8 @@
 "hk": "高利五股錦標",
 "sc": "高利五股锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-13",
 "race_date": "2025-09-14",
@@ -43358,7 +43554,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -43616,7 +43813,8 @@
 "hk": "伊佳步錦標 (表列賽)",
 "sc": "伊佳步锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -43804,7 +44002,8 @@
 "hk": "冠軍兩歲馬錦標",
 "sc": "冠军两岁马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -43908,7 +44107,8 @@
 "hk": "戴花錦標",
 "sc": "戴花锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -44026,7 +44226,8 @@
 "hk": "荷輝讓賽",
 "sc": "荷辉让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -44130,7 +44331,7 @@
 "gear": "XB",
 "horse_uid": "fr-mormona",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 119.0,
 "claim": null,
 "rating": 92,
@@ -44242,7 +44443,8 @@
 "hk": "蓋達靈錦標",
 "sc": "盖达灵锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -44430,7 +44632,8 @@
 "hk": "蘇龍那威錦標",
 "sc": "苏龙那威锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -44604,7 +44807,8 @@
 "hk": "香港賽馬會全球匯合彩池波比路易士讓賽",
 "sc": "香港赛马会全球汇合彩池波比路易士让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -44638,7 +44842,7 @@
 "gear": null,
 "horse_uid": "au-airman",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 128.0,
 "claim": null,
 "rating": 113,
@@ -44792,7 +44996,8 @@
 "hk": "馬頓錦標",
 "sc": "马顿锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-12",
 "race_date": "2025-09-13",
@@ -44980,7 +45185,8 @@
 "hk": "巴登大賽",
 "sc": "巴登大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-05",
 "race_date": "2025-09-07",
@@ -45126,7 +45332,8 @@
 "hk": "紅寶錦標",
 "sc": "红宝锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-06",
 "race_date": "2025-09-07",
@@ -45244,7 +45451,8 @@
 "hk": "隆尚磨坊大賽",
 "sc": "隆尚磨坊大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-09-06",
 "race_date": "2025-09-07",
@@ -45446,7 +45654,8 @@
 "hk": "三歲馬0-105分讓賽",
 "sc": "三岁马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-23",
@@ -45718,7 +45927,8 @@
 "hk": "三歲以上雌馬0-105分讓賽",
 "sc": "三岁以上雌马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -45934,7 +46144,8 @@
 "hk": "三歲以上雌馬讓賽",
 "sc": "三岁以上雌马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-22",
@@ -46220,7 +46431,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -46408,7 +46620,8 @@
 "hk": "倫斯度盃",
 "sc": "伦斯度杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -46526,7 +46739,8 @@
 "hk": "兩歲從未勝出馬賽",
 "sc": "两岁从未胜出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -46770,7 +46984,8 @@
 "hk": "小玩意錦標",
 "sc": "小玩意锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -46916,7 +47131,8 @@
 "hk": "楠索普錦標",
 "sc": "楠索普锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -47188,7 +47404,8 @@
 "hk": "全球匯合彩池Bet With The Tote讓賽",
 "sc": "全球汇合彩池Bet With The Tote让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -47348,7 +47565,8 @@
 "hk": "香港賽馬會全球匯合彩池希望錦標 (表列賽)",
 "sc": "香港赛马会全球汇合彩池希望锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-21",
 "race_date": "2025-08-22",
@@ -47536,7 +47754,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-21",
@@ -47822,7 +48041,8 @@
 "hk": "兩歲馬條件讓磅賽",
 "sc": "两岁马条件让磅赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-21",
@@ -48164,7 +48384,8 @@
 "hk": "兩歲馬讓賽",
 "sc": "两岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-21",
@@ -48464,7 +48685,8 @@
 "hk": "兩歲馬讓賽",
 "sc": "两岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-21",
@@ -48806,7 +49028,8 @@
 "hk": "紀塞斯錦標 (表列賽)",
 "sc": "纪塞斯锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-21",
@@ -48980,7 +49203,8 @@
 "hk": "約克郡橡樹大賽",
 "sc": "约克郡橡树大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-21",
@@ -49070,7 +49294,8 @@
 "hk": "雷凡錦標",
 "sc": "雷凡锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-20",
 "race_date": "2025-08-21",
@@ -49258,7 +49483,8 @@
 "hk": "三歲以上雌馬0-105分讓賽",
 "sc": "三岁以上雌马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-20",
@@ -49586,7 +49812,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-20",
@@ -49802,7 +50029,8 @@
 "hk": "國際錦標",
 "sc": "国际锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-20",
@@ -49920,7 +50148,8 @@
 "hk": "獲狄嘉錦標",
 "sc": "获狄嘉锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-20",
@@ -50052,7 +50281,8 @@
 "hk": "雅琴錦標",
 "sc": "雅琴锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-20",
@@ -50198,7 +50428,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-19",
 "race_date": "2025-08-20",
@@ -50512,7 +50743,8 @@
 "hk": "柏林大賽",
 "sc": "柏林大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -50588,7 +50820,7 @@
 "gear": null,
 "horse_uid": "ger-straight",
 "jockey_uid": "j-jack-mitchell",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 132.0,
 "claim": null,
 "rating": 110,
@@ -50602,7 +50834,7 @@
 "gear": null,
 "horse_uid": "gb-nastaria",
 "jockey_uid": "j-jozef-bojko",
-"trainer_uid": "t-a-schleusner-fruhriep",
+"trainer_uid": "t-anna-schleusner-fruhriep",
 "lb": 129.0,
 "claim": null,
 "rating": 105,
@@ -50630,7 +50862,8 @@
 "hk": "第三班讓賽",
 "sc": "第三班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -50846,7 +51079,8 @@
 "hk": "霍珀加滕飛行錦標 (表列賽)",
 "sc": "霍珀加滕飞行锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -50992,7 +51226,7 @@
 "gear": null,
 "horse_uid": "ire-art-market",
 "jockey_uid": "j-thore-hammer-hansen",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 121.0,
 "claim": null,
 "rating": 83,
@@ -51034,7 +51268,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -51264,7 +51499,8 @@
 "hk": "圓環錦標 (表列賽)",
 "sc": "圆环锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -51298,7 +51534,7 @@
 "gear": null,
 "horse_uid": "fr-vicious-harry",
 "jockey_uid": "j-maxime-guyon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 127.0,
 "claim": null,
 "rating": 98,
@@ -51368,7 +51604,7 @@
 "gear": null,
 "horse_uid": "fr-estepona",
 "jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 123.0,
 "claim": null,
 "rating": 104,
@@ -51466,7 +51702,8 @@
 "hk": "多維爾讓賽",
 "sc": "多维尔让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -51780,7 +52017,8 @@
 "hk": "戴芙莉錦標",
 "sc": "戴芙莉锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -51982,7 +52220,8 @@
 "hk": "月影雲霞錦標 (表列賽)",
 "sc": "月影云霞锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -52142,7 +52381,8 @@
 "hk": "第四班讓賽",
 "sc": "第四班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -52400,7 +52640,8 @@
 "hk": "第四班讓賽",
 "sc": "第四班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -52420,7 +52661,7 @@
 "gear": "H",
 "horse_uid": "fr-cogolin",
 "jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 137.0,
 "claim": null,
 "rating": 60,
@@ -52658,7 +52899,8 @@
 "hk": "紀爾斯大賽",
 "sc": "纪尔斯大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-09",
 "race_date": "2025-08-10",
@@ -52846,7 +53088,8 @@
 "hk": "第三班讓賽",
 "sc": "第三班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-04",
@@ -53090,7 +53333,8 @@
 "hk": "德國橡樹大賽",
 "sc": "德国橡树大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -53334,7 +53578,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -53438,7 +53683,7 @@
 "gear": "CP",
 "horse_uid": "ger-lili-marleen",
 "jockey_uid": "j-thore-hammer-hansen",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 129.0,
 "claim": null,
 "rating": 73,
@@ -53536,7 +53781,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -53752,7 +53998,8 @@
 "hk": "兩歲初出馬賽",
 "sc": "两岁初出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -53912,7 +54159,8 @@
 "hk": "兩歲初出馬賽",
 "sc": "两岁初出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -54100,7 +54348,8 @@
 "hk": "六星完美錦標",
 "sc": "六星完美锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -54246,7 +54495,8 @@
 "hk": "普賽克錦標",
 "sc": "普赛克锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -54378,7 +54628,8 @@
 "hk": "第三班讓賽",
 "sc": "第三班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -54636,7 +54887,8 @@
 "hk": "第二班讓賽",
 "sc": "第二班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -54894,7 +55146,8 @@
 "hk": "羅斯齊爾德大賽",
 "sc": "罗斯齐尔德大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-08-02",
 "race_date": "2025-08-03",
@@ -55110,7 +55363,8 @@
 "hk": "全球匯合彩池Bet With The Tote讓賽",
 "sc": "全球汇合彩池Bet With The Tote让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-08-01",
@@ -55424,7 +55678,8 @@
 "hk": "三歲馬0-95分讓賽",
 "sc": "三岁马0-95分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -55682,7 +55937,8 @@
 "hk": "三歲馬讓賽",
 "sc": "三岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -55968,7 +56224,8 @@
 "hk": "兩歲從未勝出雌馬賽",
 "sc": "两岁从未胜出雌马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -56254,7 +56511,8 @@
 "hk": "兩歲馬讓賽",
 "sc": "两岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -56442,7 +56700,8 @@
 "hk": "利治蒙錦標",
 "sc": "利治蒙锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -56602,7 +56861,8 @@
 "hk": "蘭秀錦標",
 "sc": "兰秀锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -56706,7 +56966,8 @@
 "hk": "香港賽馬會全球匯合彩池哥頓錦標",
 "sc": "香港赛马会全球汇合彩池哥顿锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-30",
 "race_date": "2025-07-31",
@@ -56838,7 +57099,8 @@
 "hk": "三歲以上雌馬0-105分讓賽",
 "sc": "三岁以上雌马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -57068,7 +57330,8 @@
 "hk": "三歲馬0-105分讓賽",
 "sc": "三岁马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -57228,7 +57491,8 @@
 "hk": "全球匯合彩池Bet With The Tote讓賽",
 "sc": "全球汇合彩池Bet With The Tote让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -57500,7 +57764,7 @@
 "gear": "H",
 "horse_uid": "gb-stanage",
 "jockey_uid": "j-joanna-mason",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 127.0,
 "claim": null,
 "rating": 84,
@@ -57542,7 +57806,8 @@
 "hk": "全球匯合彩池Bet With The Tote雌馬讓賽",
 "sc": "全球汇合彩池Bet With The Tote雌马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-30",
@@ -57772,7 +58037,8 @@
 "hk": "兩歲雌馬條件讓磅賽",
 "sc": "两岁雌马条件让磅赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -57960,7 +58226,8 @@
 "hk": "薩塞克斯錦標",
 "sc": "萨塞克斯锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -58092,7 +58359,8 @@
 "hk": "香港賽馬會全球匯合彩池摩金錦標",
 "sc": "香港赛马会全球汇合彩池摩金锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -58238,7 +58506,8 @@
 "hk": "香港賽馬會全球匯合彩池橡樹錦標",
 "sc": "香港赛马会全球汇合彩池橡树锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-29",
 "race_date": "2025-07-30",
@@ -58468,7 +58737,8 @@
 "hk": "三歲以上雌馬0-95分讓賽",
 "sc": "三岁以上雌马0-95分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -58684,7 +58954,8 @@
 "hk": "三歲以上馬0-105分讓賽",
 "sc": "三岁以上马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -58900,7 +59171,7 @@
 "gear": null,
 "horse_uid": "gb-canon-s-house",
 "jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 124.0,
 "claim": null,
 "rating": 87,
@@ -59026,7 +59297,8 @@
 "hk": "兩歲從未勝出馬賽",
 "sc": "两岁从未胜出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -59298,7 +59570,8 @@
 "hk": "古活盃",
 "sc": "古活杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -59444,7 +59717,8 @@
 "hk": "四歲以上馬讓賽",
 "sc": "四岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -59730,7 +60004,8 @@
 "hk": "葡萄酒錦標",
 "sc": "葡萄酒锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -59904,7 +60179,8 @@
 "hk": "香港賽馬會全球匯合彩池里諾斯錦標",
 "sc": "香港赛马会全球汇合彩池里诺斯锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-28",
 "race_date": "2025-07-29",
@@ -60106,7 +60382,8 @@
 "hk": "十二月香港國際賽事溫蓋尼讓賽 (表列賽)",
 "sc": "十二月香港国际赛事温盖尼让赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-28",
@@ -60223,7 +60500,7 @@
 "draw": 8,
 "gear": "TT",
 "horse_uid": "saf-symphony-in-white",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-candice-bass-robinson",
 "lb": 126.0,
 "claim": null,
@@ -60322,7 +60599,8 @@
 "hk": "巴伐利亞大賽",
 "sc": "巴伐利亚大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -60510,7 +60788,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -60586,7 +60865,7 @@
 "gear": null,
 "horse_uid": "ger-royal-ice",
 "jockey_uid": "j-adrie-de-vries",
-"trainer_uid": "t-john-david-hillis",
+"trainer_uid": "t-john-hillis",
 "lb": 125.0,
 "claim": null,
 "rating": 70,
@@ -60726,7 +61005,7 @@
 "gear": null,
 "horse_uid": "fr-djariya",
 "jockey_uid": "j-sean-byrne",
-"trainer_uid": "t-john-david-hillis",
+"trainer_uid": "t-john-hillis",
 "lb": 115.0,
 "claim": null,
 "rating": 63,
@@ -60754,7 +61033,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-27",
@@ -60984,7 +61264,8 @@
 "hk": "Bet With The World金手鏈錦標",
 "sc": "Bet With The World金手链锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -61214,7 +61495,8 @@
 "hk": "Follow X@Worldpool錦標",
 "sc": "Follow X@Worldpool锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -61402,7 +61684,8 @@
 "hk": "全球匯合彩池基維爾金盃",
 "sc": "全球汇合彩池基维尔金杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -61618,7 +61901,8 @@
 "hk": "全球匯合彩池每日精彩瞬間冠軍錦標",
 "sc": "全球汇合彩池每日精彩瞬间冠军锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -61791,7 +62075,7 @@
 "draw": 12,
 "gear": null,
 "horse_uid": "saf-bruh",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-paul-lafferty",
 "lb": 132.0,
 "claim": null,
@@ -61848,7 +62132,8 @@
 "hk": "全球匯合彩池與Race Coast初登錦標",
 "sc": "全球汇合彩池与Race Coast初登锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -62050,7 +62335,8 @@
 "hk": "水星短途錦標",
 "sc": "水星短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -62139,7 +62425,7 @@
 "draw": 6,
 "gear": "B",
 "horse_uid": "saf-questioning",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-vaughan-marshall",
 "lb": 132.0,
 "claim": null,
@@ -62308,7 +62594,8 @@
 "hk": "雷勒欣賞錦標 (表列賽)",
 "sc": "雷勒欣赏锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -62552,7 +62839,8 @@
 "hk": "韋達錦標",
 "sc": "韦达锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -62754,7 +63042,8 @@
 "hk": "香港賽馬會冠軍盃",
 "sc": "香港赛马会冠军杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-26",
 "race_date": "2025-07-27",
@@ -62914,7 +63203,8 @@
 "hk": "三歲以上馬0-105分讓賽",
 "sc": "三岁以上马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -63186,7 +63476,8 @@
 "hk": "三歲以上馬0-105分讓賽",
 "sc": "三岁以上马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -63528,7 +63819,8 @@
 "hk": "三歲以上馬61-80分讓賽",
 "sc": "三岁以上马61-80分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -63674,7 +63966,8 @@
 "hk": "兩歲從未勝出馬賽",
 "sc": "两岁从未胜出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -63806,7 +64099,8 @@
 "hk": "國際讓賽",
 "sc": "国际让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -64148,7 +64442,8 @@
 "hk": "威勇錦標",
 "sc": "威勇锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -64336,7 +64631,8 @@
 "hk": "瑪嘉烈公主錦標",
 "sc": "玛嘉烈公主锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -64524,7 +64820,8 @@
 "hk": "約克錦標",
 "sc": "约克锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -64656,7 +64953,8 @@
 "hk": "英皇錦標",
 "sc": "英皇锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-25",
 "race_date": "2025-07-26",
@@ -64760,7 +65058,8 @@
 "hk": "三歲馬讓賽",
 "sc": "三岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-07",
@@ -65018,7 +65317,8 @@
 "hk": "三歲馬條件讓磅賽",
 "sc": "三岁马条件让磅赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -65122,7 +65422,7 @@
 "gear": null,
 "horse_uid": "ger-dublone",
 "jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 120.0,
 "claim": null,
 "rating": 77,
@@ -65136,7 +65436,7 @@
 "gear": "CP",
 "horse_uid": "ger-lili-marleen",
 "jockey_uid": "j-thore-hammer-hansen",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 120.0,
 "claim": null,
 "rating": 74,
@@ -65206,7 +65506,8 @@
 "hk": "三歲馬條件讓磅賽",
 "sc": "三岁马条件让磅赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -65254,7 +65555,7 @@
 "gear": "CP",
 "horse_uid": "ger-lady-sahara",
 "jockey_uid": "j-lukas-delozier",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 129.0,
 "claim": null,
 "rating": 77,
@@ -65338,7 +65639,7 @@
 "gear": null,
 "horse_uid": "ger-royal-ice",
 "jockey_uid": "j-cristian-demuro",
-"trainer_uid": "t-john-david-hillis",
+"trainer_uid": "t-john-hillis",
 "lb": 121.0,
 "claim": null,
 "rating": 71,
@@ -65464,7 +65765,8 @@
 "hk": "德國打吡",
 "sc": "德国打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -65750,7 +66052,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -65994,7 +66297,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -66252,7 +66556,7 @@
 "gear": null,
 "horse_uid": "ger-go-quick",
 "jockey_uid": "j-jozef-bojko",
-"trainer_uid": "t-a-schleusner-fruhriep",
+"trainer_uid": "t-anna-schleusner-fruhriep",
 "lb": 118.0,
 "claim": null,
 "rating": 58,
@@ -66280,7 +66584,8 @@
 "hk": "奧蘭傑斯錦標",
 "sc": "奥兰杰斯锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -66426,7 +66731,8 @@
 "hk": "第三班讓賽",
 "sc": "第三班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -66502,7 +66808,7 @@
 "gear": null,
 "horse_uid": "fr-terredeguerre",
 "jockey_uid": "j-maxime-guyon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 130.0,
 "claim": null,
 "rating": 72,
@@ -66530,7 +66836,7 @@
 "gear": null,
 "horse_uid": "fr-aiguiere-d-argent",
 "jockey_uid": "j-clement-lecoeuvre",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 129.0,
 "claim": null,
 "rating": 71,
@@ -66614,7 +66920,8 @@
 "hk": "第二班讓賽",
 "sc": "第二班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -66802,7 +67109,7 @@
 "gear": null,
 "horse_uid": "fr-simply-striking",
 "jockey_uid": "j-eddy-hardouin",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 118.0,
 "claim": null,
 "rating": 78,
@@ -66872,7 +67179,8 @@
 "hk": "莊柏德大賽",
 "sc": "庄柏德大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -67032,7 +67340,8 @@
 "hk": "金剛威錦標 (表列賽)",
 "sc": "金刚威锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -67234,7 +67543,8 @@
 "hk": "雅敏迪錦標 (表列賽)",
 "sc": "雅敏迪锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-05",
 "race_date": "2025-07-06",
@@ -67366,7 +67676,7 @@
 "gear": null,
 "horse_uid": "fr-medusa-merger",
 "jockey_uid": "j-christophe-soumillon",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 123.0,
 "claim": null,
 "rating": 95,
@@ -67450,7 +67760,8 @@
 "hk": "日蝕大賽",
 "sc": "日蚀大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-04",
 "race_date": "2025-07-05",
@@ -67568,7 +67879,8 @@
 "hk": "德班七月讓賽",
 "sc": "德班七月让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-07-04",
 "race_date": "2025-07-05",
@@ -67587,7 +67899,7 @@
 "draw": 1,
 "gear": null,
 "horse_uid": "saf-oriental-charm",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-james-crawford",
 "lb": 132.0,
 "claim": null,
@@ -67882,7 +68194,8 @@
 "hk": "夏日雌馬讓賽",
 "sc": "夏日雌马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-30",
@@ -68098,7 +68411,8 @@
 "hk": "長途馬讓賽",
 "sc": "长途马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-30",
@@ -68538,7 +68852,8 @@
 "hk": "第三班讓賽",
 "sc": "第三班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -68768,7 +69083,8 @@
 "hk": "聖格盧大賽",
 "sc": "圣格卢大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -68872,7 +69188,8 @@
 "hk": "愛爾蘭打吡",
 "sc": "爱尔兰打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -69046,7 +69363,8 @@
 "hk": "慶典錦標 (表列賽)",
 "sc": "庆典锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -69206,7 +69524,8 @@
 "hk": "打吡賽期讓賽",
 "sc": "打吡赛期让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -69296,7 +69615,7 @@
 "gear": null,
 "horse_uid": "ire-state-actor",
 "jockey_uid": "j-billy-lee",
-"trainer_uid": "t-w-t-farrell",
+"trainer_uid": "t-bill-farrell",
 "lb": 132.0,
 "claim": null,
 "rating": 92,
@@ -69422,7 +69741,8 @@
 "hk": "拉古勝讓賽",
 "sc": "拉古胜让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -69666,7 +69986,8 @@
 "hk": "杜拜免稅店讓賽",
 "sc": "杜拜免税店让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -69882,7 +70203,8 @@
 "hk": "比基夫錦標 (表列賽)",
 "sc": "比基夫锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -70084,7 +70406,8 @@
 "hk": "羅京安讓賽",
 "sc": "罗京安让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-28",
 "race_date": "2025-06-29",
@@ -70314,7 +70637,8 @@
 "hk": "亞歷珊卓皇后錦標",
 "sc": "亚历珊卓皇后锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-22",
@@ -70502,7 +70826,8 @@
 "hk": "屈敬咸錦標",
 "sc": "屈敬咸锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-22",
@@ -70970,7 +71295,8 @@
 "hk": "金門錦標",
 "sc": "金门锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-22",
@@ -71270,7 +71596,8 @@
 "hk": "卓斯咸錦標 (表列賽)",
 "sc": "卓斯咸锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-21",
@@ -71430,7 +71757,8 @@
 "hk": "夏域錦標",
 "sc": "夏域锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-21",
@@ -71632,7 +71960,8 @@
 "hk": "女皇伊利沙伯二世禧年誌慶錦標",
 "sc": "女皇伊利沙伯二世禧年志庆锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-21",
@@ -71890,7 +72219,8 @@
 "hk": "沙特利咸錦標",
 "sc": "沙特利咸锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-21",
@@ -72316,7 +72646,8 @@
 "hk": "澤西錦標",
 "sc": "泽西锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-20",
 "race_date": "2025-06-21",
@@ -72560,7 +72891,8 @@
 "hk": "英皇愛德華七世錦標",
 "sc": "英皇爱德华七世锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-21",
@@ -72748,7 +73080,8 @@
 "hk": "荷里雷德宮錦標",
 "sc": "荷里雷德宫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-21",
@@ -73034,7 +73367,7 @@
 "gear": null,
 "horse_uid": "ire-suhail-star",
 "jockey_uid": "j-ashley-lewis",
-"trainer_uid": "t-m-al-attiyah",
+"trainer_uid": "t-mohammed-al-attiyah",
 "lb": 125.0,
 "claim": -7.0,
 "rating": 90,
@@ -73216,7 +73549,8 @@
 "hk": "加冕錦標",
 "sc": "加冕锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-20",
@@ -73404,7 +73738,8 @@
 "hk": "大不列顛錦標",
 "sc": "大不列颠锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-20",
@@ -73900,7 +74235,8 @@
 "hk": "奧爾巴尼錦標",
 "sc": "奥尔巴尼锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-20",
@@ -74172,7 +74508,8 @@
 "hk": "愛丁堡公爵錦標",
 "sc": "爱丁堡公爵锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-20",
@@ -74514,7 +74851,8 @@
 "hk": "漢普頓宮錦標",
 "sc": "汉普顿宫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-20",
@@ -74744,7 +75082,8 @@
 "hk": "白金漢宮錦標",
 "sc": "白金汉宫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-20",
@@ -74806,7 +75145,7 @@
 "gear": null,
 "horse_uid": "us-aafoor",
 "jockey_uid": "j-szczepan-mazur",
-"trainer_uid": "t-m-al-attiyah",
+"trainer_uid": "t-mohammed-al-attiyah",
 "lb": 138.0,
 "claim": null,
 "rating": 105,
@@ -75226,7 +75565,8 @@
 "hk": "英聯邦盃",
 "sc": "英联邦杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-19",
 "race_date": "2025-06-20",
@@ -75568,7 +75908,8 @@
 "hk": "列普谷錦標",
 "sc": "列普谷锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-19",
@@ -75756,7 +76097,8 @@
 "hk": "溫莎堡錦標 (表列賽)",
 "sc": "温莎堡锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-19",
@@ -76098,7 +76440,7 @@
 "gear": null,
 "horse_uid": "gb-oasis-diamond",
 "jockey_uid": "j-david-allan",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 126.0,
 "claim": null,
 "rating": null,
@@ -76126,7 +76468,8 @@
 "hk": "皇家狩獵盃",
 "sc": "皇家狩猎杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-19",
@@ -76622,7 +76965,8 @@
 "hk": "肯辛頓宮錦標",
 "sc": "肯辛顿宫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-19",
@@ -76992,7 +77336,8 @@
 "hk": "英皇佐治五世錦標",
 "sc": "英皇佐治五世锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-19",
@@ -77334,7 +77679,8 @@
 "hk": "諾福錦標",
 "sc": "诺福锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-19",
@@ -77592,7 +77938,8 @@
 "hk": "雅士谷金盃",
 "sc": "雅士谷金杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-18",
 "race_date": "2025-06-19",
@@ -77738,7 +78085,8 @@
 "hk": "劍橋公爵錦標",
 "sc": "剑桥公爵锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-18",
@@ -77884,7 +78232,8 @@
 "hk": "女皇瓶賽",
 "sc": "女皇瓶赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-18",
@@ -78100,7 +78449,8 @@
 "hk": "威爾斯親王錦標",
 "sc": "威尔斯亲王锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-18",
@@ -78260,7 +78610,8 @@
 "hk": "沃爾弗頓錦標 (表列賽)",
 "sc": "沃尔弗顿锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-18",
@@ -78518,7 +78869,8 @@
 "hk": "瑪麗皇后錦標",
 "sc": "玛丽皇后锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-17",
 "race_date": "2025-06-18",
@@ -78902,7 +79254,8 @@
 "hk": "銅馬錦標",
 "sc": "铜马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-18",
@@ -79202,7 +79555,8 @@
 "hk": "雅士谷錦標",
 "sc": "雅士谷锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-18",
@@ -79516,7 +79870,8 @@
 "hk": "女皇安妮錦標",
 "sc": "女皇安妮锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-17",
@@ -79704,7 +80059,8 @@
 "hk": "聖詹姆士皇宮錦標",
 "sc": "圣詹姆士皇宫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-17",
@@ -79836,7 +80192,8 @@
 "hk": "英皇查理斯三世錦標",
 "sc": "英皇查理斯三世锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-17",
@@ -80136,7 +80493,7 @@
 "gear": null,
 "horse_uid": "fr-estepona",
 "jockey_uid": "j-clement-lecoeuvre",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 127.0,
 "claim": null,
 "rating": 104,
@@ -80192,7 +80549,8 @@
 "hk": "高雲地利錦標",
 "sc": "高云地利锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-16",
 "race_date": "2025-06-17",
@@ -80520,7 +80878,8 @@
 "hk": "史德布克讓賽",
 "sc": "史德布克让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-13",
 "race_date": "2025-06-14",
@@ -80736,7 +81095,7 @@
 "gear": "B2/XB",
 "horse_uid": "au-bosustow",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 113.0,
 "claim": null,
 "rating": 109,
@@ -80876,7 +81235,8 @@
 "hk": "香港賽馬會全球匯合彩池昆士蘭二千二錦標",
 "sc": "香港赛马会全球汇合彩池昆士兰二千二锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-13",
 "race_date": "2025-06-14",
@@ -80896,7 +81256,7 @@
 "gear": "B/XB/TT",
 "horse_uid": "ire-fawkner-park",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 112,
@@ -80910,7 +81270,7 @@
 "gear": null,
 "horse_uid": "gb-bois-d-argent",
 "jockey_uid": "j-ryan-maloney",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 108,
@@ -81022,7 +81382,8 @@
 "hk": "四歲以上馬86-105分讓賽",
 "sc": "四岁以上马86-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-08",
@@ -81041,7 +81402,7 @@
 "draw": 6,
 "gear": null,
 "horse_uid": "gb-get-it",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-george-m-baker",
 "lb": 135.0,
 "claim": null,
@@ -81182,7 +81543,7 @@
 "gear": "V",
 "horse_uid": "gb-sondad",
 "jockey_uid": "j-joanna-mason",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 120.0,
 "claim": null,
 "rating": 85,
@@ -81238,7 +81599,8 @@
 "hk": "香港賽馬會全球匯合彩池柏葛讓賽",
 "sc": "香港赛马会全球汇合彩池柏葛让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-08",
@@ -81412,7 +81774,8 @@
 "hk": "安田紀念賽",
 "sc": "安田纪念赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-08",
@@ -81698,7 +82061,8 @@
 "hk": "冠軍盃預賽",
 "sc": "冠军杯预赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-08",
@@ -81759,7 +82123,7 @@
 "draw": 4,
 "gear": "TT",
 "horse_uid": "saf-regulation",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 115.0,
 "claim": null,
@@ -81914,7 +82278,8 @@
 "hk": "第四班讓賽",
 "sc": "第四班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-08",
@@ -82130,7 +82495,8 @@
 "hk": "三歲馬0-95分讓賽",
 "sc": "三岁马0-95分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -82332,7 +82698,7 @@
 "gear": null,
 "horse_uid": "ire-glorious-kitty",
 "jockey_uid": "j-joanna-mason",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 116.0,
 "claim": null,
 "rating": 75,
@@ -82345,8 +82711,8 @@
 "draw": 4,
 "gear": null,
 "horse_uid": "gb-acrisius",
-"jockey_uid": "j-t-kiely-marshall",
-"trainer_uid": "t-m-d-easterby",
+"jockey_uid": "j-tom-marshall",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 115.0,
 "claim": -5.0,
 "rating": 74,
@@ -82416,7 +82782,8 @@
 "hk": "伊利沙伯公主錦標",
 "sc": "伊利沙伯公主锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -82604,7 +82971,8 @@
 "hk": "四歲以上馬86-105分讓賽",
 "sc": "四岁以上马86-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -82876,7 +83244,8 @@
 "hk": "大奧密錦標",
 "sc": "大奥密锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -83036,7 +83405,8 @@
 "hk": "短途讓賽",
 "sc": "短途让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -83083,7 +83453,7 @@
 "draw": 19,
 "gear": null,
 "horse_uid": "gb-desert-cop",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-george-m-baker",
 "lb": 130.0,
 "claim": null,
@@ -83293,7 +83663,7 @@
 "draw": 4,
 "gear": "B",
 "horse_uid": "ire-blind-beggar",
-"jockey_uid": "j-t-kiely-marshall",
+"jockey_uid": "j-tom-marshall",
 "trainer_uid": "t-michael-appleby",
 "lb": 114.0,
 "claim": -5.0,
@@ -83336,7 +83706,8 @@
 "hk": "英國打吡大賽",
 "sc": "英国打吡大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -83636,7 +84007,8 @@
 "hk": "金挑戰大賽",
 "sc": "金挑战大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -83767,7 +84139,7 @@
 "draw": 9,
 "gear": null,
 "horse_uid": "saf-oriental-charm",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-james-crawford",
 "lb": 132.0,
 "claim": null,
@@ -83838,7 +84210,8 @@
 "hk": "香港賽馬會全球匯合彩池錦標",
 "sc": "香港赛马会全球汇合彩池锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-06-06",
 "race_date": "2025-06-07",
@@ -84054,7 +84427,8 @@
 "hk": "橡樹錦標",
 "sc": "橡树锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-31",
 "race_date": "2025-06-01",
@@ -84228,7 +84602,8 @@
 "hk": "沙特利咸大賽",
 "sc": "沙特利咸大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-31",
 "race_date": "2025-06-01",
@@ -84374,7 +84749,8 @@
 "hk": "法國打吡大賽",
 "sc": "法国打吡大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-31",
 "race_date": "2025-06-01",
@@ -84660,7 +85036,8 @@
 "hk": "第一班讓賽",
 "sc": "第一班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-31",
 "race_date": "2025-06-01",
@@ -84918,7 +85295,8 @@
 "hk": "黃金商人錦標 (表列賽)",
 "sc": "黄金商人锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-31",
 "race_date": "2025-06-01",
@@ -84952,7 +85330,7 @@
 "gear": null,
 "horse_uid": "fr-estepona",
 "jockey_uid": "j-clement-lecoeuvre",
-"trainer_uid": "t-m-delcher-sanchez",
+"trainer_uid": "t-mauricio-delcher-sanchez",
 "lb": 125.0,
 "claim": null,
 "rating": 104,
@@ -85092,7 +85470,8 @@
 "hk": "日本打吡大賽",
 "sc": "日本打吡大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-31",
 "race_date": "2025-06-01",
@@ -85280,7 +85659,8 @@
 "hk": "三歲從未勝出馬賽",
 "sc": "三岁从未胜出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-25",
@@ -85468,7 +85848,8 @@
 "hk": "三歲馬讓賽",
 "sc": "三岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-25",
@@ -85656,7 +86037,8 @@
 "hk": "愛爾蘭一千堅尼",
 "sc": "爱尔兰一千坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-24",
 "race_date": "2025-05-25",
@@ -85858,7 +86240,8 @@
 "hk": "達德素金盃",
 "sc": "达德素金杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-24",
 "race_date": "2025-05-25",
@@ -86018,7 +86401,8 @@
 "hk": "東奔盃",
 "sc": "东奔杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -86066,7 +86450,7 @@
 "gear": "B/XB/TT",
 "horse_uid": "ire-fawkner-park",
 "jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 114,
@@ -86080,7 +86464,7 @@
 "gear": null,
 "horse_uid": "gb-bois-d-argent",
 "jockey_uid": "j-ryan-maloney",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 112,
@@ -86108,7 +86492,7 @@
 "gear": "B/TT",
 "horse_uid": "ire-my-oberon",
 "jockey_uid": "j-jason-collett",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 115,
@@ -86234,7 +86618,8 @@
 "hk": "玫瑰錦標",
 "sc": "玫瑰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -86366,7 +86751,7 @@
 "gear": null,
 "horse_uid": "au-pleasure-artist",
 "jockey_uid": "j-noel-callow",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 125.0,
 "claim": null,
 "rating": 103,
@@ -86562,7 +86947,8 @@
 "hk": "香港賽馬會全球匯合彩池布里斯本賽馬會短途錦標",
 "sc": "香港赛马会全球汇合彩池布里斯本赛马会短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -86890,7 +87276,8 @@
 "hk": "傲拼錦標 (表列賽)",
 "sc": "傲拼锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -87050,7 +87437,8 @@
 "hk": "兩歲從未勝出馬賽",
 "sc": "两岁从未胜出马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -87238,7 +87626,8 @@
 "hk": "四歲以上馬0-90分讓賽",
 "sc": "四岁以上马0-90分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -87566,7 +87955,8 @@
 "hk": "四歲以上馬讓賽",
 "sc": "四岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -87866,7 +88256,8 @@
 "hk": "愛爾蘭二千堅尼",
 "sc": "爱尔兰二千坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -88026,7 +88417,8 @@
 "hk": "格陵蘭錦標",
 "sc": "格陵兰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -88186,7 +88578,8 @@
 "hk": "翡翠一哩錦標",
 "sc": "翡翠一哩锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-23",
 "race_date": "2025-05-24",
@@ -88276,7 +88669,7 @@
 "gear": null,
 "horse_uid": "ire-state-actor",
 "jockey_uid": "j-colin-keane",
-"trainer_uid": "t-w-t-farrell",
+"trainer_uid": "t-bill-farrell",
 "lb": 135.0,
 "claim": null,
 "rating": 95,
@@ -88486,7 +88879,8 @@
 "hk": "維多利亞一哩賽",
 "sc": "维多利亚一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-18",
@@ -88772,7 +89166,8 @@
 "hk": "主席讓賽",
 "sc": "主席让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -88917,7 +89312,7 @@
 "draw": 13,
 "gear": "XB",
 "horse_uid": "nz-strathtay",
-"jockey_uid": "j-ron-stewart",
+"jockey_uid": "j-ronald-stewart",
 "trainer_uid": "t-chris-waller",
 "lb": 119.0,
 "claim": null,
@@ -89002,7 +89397,8 @@
 "hk": "倫敦金盃",
 "sc": "伦敦金杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -89176,7 +89572,8 @@
 "hk": "全球匯合彩池讓賽",
 "sc": "全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -89392,7 +89789,8 @@
 "hk": "加拿芬錦標 (表列賽)",
 "sc": "加拿芬锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -89580,7 +89978,8 @@
 "hk": "四歲以上馬0-105分讓賽",
 "sc": "四岁以上马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -89782,7 +90181,8 @@
 "hk": "東奔一萬錦標",
 "sc": "东奔一万锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -89914,7 +90314,7 @@
 "gear": "TT",
 "horse_uid": "au-libertad",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 129.0,
 "claim": null,
 "rating": 112,
@@ -89956,7 +90356,7 @@
 "gear": "B1",
 "horse_uid": "au-sunshine-in-paris",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 125.0,
 "claim": null,
 "rating": 115,
@@ -89998,7 +90398,7 @@
 "gear": null,
 "horse_uid": "au-lady-laguna",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 125.0,
 "claim": null,
 "rating": 110,
@@ -90054,7 +90454,8 @@
 "hk": "樂景傑錦標",
 "sc": "乐景杰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -90214,7 +90615,8 @@
 "hk": "輝影讓賽 (表列賽)",
 "sc": "辉影让赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -90290,7 +90692,7 @@
 "gear": "XB/TT",
 "horse_uid": "au-midnight-in-tokyo",
 "jockey_uid": "j-jag-guthmann-chester",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 128.0,
 "claim": null,
 "rating": 94,
@@ -90332,7 +90734,7 @@
 "gear": "TT",
 "horse_uid": "au-miss-hellfire",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 119.0,
 "claim": null,
 "rating": 86,
@@ -90444,7 +90846,8 @@
 "hk": "阿斯頓園錦標",
 "sc": "阿斯顿园锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -90590,7 +90993,8 @@
 "hk": "雌馬預賽錦標 (表列賽)",
 "sc": "雌马预赛锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -90764,7 +91168,8 @@
 "hk": "香港賽馬會全球匯合彩池粗魯碟",
 "sc": "香港赛马会全球汇合彩池粗鲁碟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -90784,7 +91189,7 @@
 "gear": null,
 "horse_uid": "au-firm-agreement",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 126.0,
 "claim": null,
 "rating": 99,
@@ -90938,7 +91343,7 @@
 "gear": "SR",
 "horse_uid": "au-mazis",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 126.0,
 "claim": null,
 "rating": 60,
@@ -90994,7 +91399,8 @@
 "hk": "香港賽馬會讓賽",
 "sc": "香港赛马会让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-16",
 "race_date": "2025-05-17",
@@ -91196,7 +91602,8 @@
 "hk": "三歲馬讓賽",
 "sc": "三岁马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-10",
 "race_date": "2025-05-11",
@@ -91454,7 +91861,8 @@
 "hk": "法國一千堅尼",
 "sc": "法国一千坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-10",
 "race_date": "2025-05-11",
@@ -91670,7 +92078,8 @@
 "hk": "法國二千堅尼",
 "sc": "法国二千坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-10",
 "race_date": "2025-05-11",
@@ -91956,7 +92365,8 @@
 "hk": "第一班讓賽",
 "sc": "第一班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-10",
 "race_date": "2025-05-11",
@@ -92270,7 +92680,8 @@
 "hk": "NHK一哩賽",
 "sc": "NHK一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-09",
 "race_date": "2025-05-11",
@@ -92556,7 +92967,8 @@
 "hk": "三歲一捷馬賽",
 "sc": "三岁一捷马赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-10",
 "race_date": "2025-05-11",
@@ -92814,7 +93226,8 @@
 "hk": "三歲馬0-85分讓賽",
 "sc": "三岁马0-85分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-04",
@@ -93030,7 +93443,8 @@
 "hk": "四歲以上馬0-90分讓賽",
 "sc": "四岁以上马0-90分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-04",
@@ -93274,7 +93688,8 @@
 "hk": "南澳洲打吡",
 "sc": "南澳洲打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -93462,7 +93877,7 @@
 "gear": "XB",
 "horse_uid": "nz-scintillante",
 "jockey_uid": "j-billy-egan",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 125.0,
 "claim": null,
 "rating": 99,
@@ -93574,7 +93989,8 @@
 "hk": "阿德雷得堅尼 (表列賽)",
 "sc": "阿德雷得坚尼 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -93650,7 +94066,7 @@
 "gear": "B",
 "horse_uid": "au-the-wirrulla-boy",
 "jockey_uid": "j-callan-murray",
-"trainer_uid": "t-byron-j-cozamanis",
+"trainer_uid": "t-byron-cozamanis",
 "lb": 127.0,
 "claim": null,
 "rating": 64,
@@ -93776,7 +94192,8 @@
 "hk": "香港賽馬會全球匯合彩池阿德雷得港盃 (表列賽)",
 "sc": "香港赛马会全球汇合彩池阿德雷得港杯 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -93852,7 +94269,7 @@
 "gear": "B",
 "horse_uid": "au-i-m-a-dexstar",
 "jockey_uid": "j-ben-price",
-"trainer_uid": "t-byron-j-cozamanis",
+"trainer_uid": "t-byron-cozamanis",
 "lb": 119.0,
 "claim": null,
 "rating": 73,
@@ -93866,7 +94283,7 @@
 "gear": null,
 "horse_uid": "au-dixie-whistler",
 "jockey_uid": "j-taylor-johnstone",
-"trainer_uid": "t-g-richards-d-moyle",
+"trainer_uid": "t-gordon-richards-damien-moyle",
 "lb": 119.0,
 "claim": null,
 "rating": 72,
@@ -93964,7 +94381,8 @@
 "hk": "三歲以上馬讓賽",
 "sc": "三岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -94180,7 +94598,8 @@
 "hk": "三歲馬0-100分讓賽",
 "sc": "三岁马0-100分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -94382,7 +94801,8 @@
 "hk": "卓蘿拉錦標 (表列賽)",
 "sc": "卓萝拉锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -94528,7 +94948,8 @@
 "hk": "四歲以上馬0-105分讓賽",
 "sc": "四岁以上马0-105分让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -94674,7 +95095,8 @@
 "hk": "四歲以上馬讓賽",
 "sc": "四岁以上马让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -94848,7 +95270,7 @@
 "gear": "B",
 "horse_uid": "gb-stanage",
 "jockey_uid": "j-joanna-mason",
-"trainer_uid": "t-m-d-easterby",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 116.0,
 "claim": null,
 "rating": 87,
@@ -94890,7 +95312,8 @@
 "hk": "英國二千堅尼",
 "sc": "英国二千坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -95078,7 +95501,8 @@
 "hk": "香港賽馬會全球匯合彩池皇宮錦標",
 "sc": "香港赛马会全球汇合彩池皇宫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-05-02",
 "race_date": "2025-05-03",
@@ -95266,7 +95690,8 @@
 "hk": "日本二千堅尼",
 "sc": "日本二千坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-18",
 "race_date": "2025-04-20",
@@ -95552,7 +95977,8 @@
 "hk": "中級城市錦標決賽",
 "sc": "中级城市锦标决赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -95600,7 +96026,7 @@
 "gear": "V/XB",
 "horse_uid": "au-magnatear",
 "jockey_uid": "j-tom-marquand",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 123.0,
 "claim": null,
 "rating": 82,
@@ -95740,7 +96166,7 @@
 "gear": "B",
 "horse_uid": "au-art-volant",
 "jockey_uid": "j-zac-lloyd",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 119.0,
 "claim": null,
 "rating": 80,
@@ -95838,7 +96264,8 @@
 "hk": "南太平洋經典賽 (表列賽)",
 "sc": "南太平洋经典赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -95928,7 +96355,7 @@
 "gear": "B1",
 "horse_uid": "au-pleasure-artist",
 "jockey_uid": "j-tommy-berry",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 119.0,
 "claim": null,
 "rating": 78,
@@ -95970,7 +96397,7 @@
 "gear": null,
 "horse_uid": "au-mawjood",
 "jockey_uid": "j-jay-ford",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 117.0,
 "claim": null,
 "rating": 72,
@@ -96012,7 +96439,7 @@
 "gear": "B/TT",
 "horse_uid": "au-duck-egg-blue",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 117.0,
 "claim": null,
 "rating": 63,
@@ -96040,7 +96467,8 @@
 "hk": "女皇伊利沙伯錦標",
 "sc": "女皇伊利沙伯锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -96284,7 +96712,8 @@
 "hk": "悉尼盃",
 "sc": "悉尼杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -96640,7 +97069,8 @@
 "hk": "澳洲橡樹大賽",
 "sc": "澳洲橡树大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -96814,7 +97244,8 @@
 "hk": "珀斯薛基錦標",
 "sc": "珀斯薛基锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -97016,7 +97447,8 @@
 "hk": "皇治錦標三歲馬短途賽",
 "sc": "皇治锦标三岁马短途赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -97120,7 +97552,7 @@
 "gear": null,
 "horse_uid": "au-agenda-setter",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": 82,
@@ -97162,7 +97594,8 @@
 "hk": "草上女皇錦標",
 "sc": "草上女皇锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -97378,7 +97811,8 @@
 "hk": "藍寶石錦標",
 "sc": "蓝宝石锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -97594,7 +98028,8 @@
 "hk": "香港賽馬會全球匯合彩池鳳山一哩讓賽 (表列賽)",
 "sc": "香港赛马会全球汇合彩池凤山一哩让赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-11",
 "race_date": "2025-04-12",
@@ -97628,7 +98063,7 @@
 "gear": null,
 "horse_uid": "au-polish-playgirl",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": null,
@@ -97726,7 +98161,8 @@
 "hk": "大阪盃",
 "sc": "大阪杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-06",
@@ -97970,7 +98406,8 @@
 "hk": "杜拜世界盃",
 "sc": "杜拜世界杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-06",
@@ -98158,7 +98595,8 @@
 "hk": "杜拜司馬經典賽",
 "sc": "杜拜司马经典赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-06",
@@ -98318,7 +98756,8 @@
 "hk": "杜拜草地大賽",
 "sc": "杜拜草地大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-06",
@@ -98366,7 +98805,7 @@
 "gear": null,
 "horse_uid": "gb-goemon",
 "jockey_uid": "j-alberto-sanna",
-"trainer_uid": "t-haider-shaheen",
+"trainer_uid": "t-haider-ebrahim",
 "lb": 126.0,
 "claim": null,
 "rating": 112,
@@ -98436,7 +98875,7 @@
 "gear": "TT",
 "horse_uid": "ire-romantic-warrior",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-c-s-shum",
+"trainer_uid": "t-danny-shum",
 "lb": 126.0,
 "claim": null,
 "rating": 127,
@@ -98506,7 +98945,8 @@
 "hk": "史密夫錦標",
 "sc": "史密夫锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -98582,7 +99022,7 @@
 "gear": null,
 "horse_uid": "au-briasa",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 129.0,
 "claim": null,
 "rating": 105,
@@ -98722,7 +99162,8 @@
 "hk": "唐加士打一哩賽",
 "sc": "唐加士打一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -99036,7 +99477,7 @@
 "gear": "CP",
 "horse_uid": "au-swiftfalcon",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 108.0,
 "claim": null,
 "rating": 113,
@@ -99092,7 +99533,8 @@
 "hk": "澳洲打吡",
 "sc": "澳洲打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -99182,7 +99624,7 @@
 "gear": "XB",
 "horse_uid": "au-pocketing",
 "jockey_uid": "j-joshua-parr",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 125.0,
 "claim": null,
 "rating": 107,
@@ -99448,7 +99890,8 @@
 "hk": "澳洲賽馬會育馬錦標",
 "sc": "澳洲赛马会育马锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -99580,7 +100023,7 @@
 "gear": "CP1",
 "horse_uid": "au-federalist",
 "jockey_uid": "j-nash-rawiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": null,
@@ -99622,7 +100065,8 @@
 "hk": "鄉郊錦標決賽",
 "sc": "乡郊锦标决赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -99768,7 +100212,7 @@
 "gear": null,
 "horse_uid": "au-burrandana",
 "jockey_uid": "j-mathew-cahill",
-"trainer_uid": "t-peter-j-morgan",
+"trainer_uid": "t-peter-morgan",
 "lb": 123.0,
 "claim": null,
 "rating": 76,
@@ -99978,7 +100422,8 @@
 "hk": "香港賽馬會全球匯合彩池卡賓會錦標",
 "sc": "香港赛马会全球汇合彩池卡宾会锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -100012,7 +100457,7 @@
 "gear": "CP",
 "horse_uid": "au-swiftfalcon",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 126.0,
 "claim": null,
 "rating": 112,
@@ -100110,7 +100555,7 @@
 "gear": null,
 "horse_uid": "au-pleasure-artist",
 "jockey_uid": "j-tommy-berry",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 119.0,
 "claim": null,
 "rating": 103,
@@ -100152,7 +100597,8 @@
 "hk": "杜拜金莎軒錦標",
 "sc": "杜拜金莎轩锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -100171,7 +100617,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "ire-colour-up",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-doug-watson",
 "lb": 131.0,
 "claim": null,
@@ -100284,7 +100730,7 @@
 "gear": "E/TT",
 "horse_uid": "us-straight-no-chaser",
 "jockey_uid": "j-john-velazquez",
-"trainer_uid": "t-daniel-blacker",
+"trainer_uid": "t-dan-blacker",
 "lb": 131.0,
 "claim": null,
 "rating": 117,
@@ -100368,7 +100814,8 @@
 "hk": "阿喬斯短途錦標",
 "sc": "阿乔斯短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -100416,7 +100863,7 @@
 "gear": null,
 "horse_uid": "au-howdeepisyourlove",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-j-size",
+"trainer_uid": "t-john-size",
 "lb": 131.0,
 "claim": null,
 "rating": 115,
@@ -100556,7 +101003,8 @@
 "hk": "阿聯酋打吡",
 "sc": "阿联酋打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -100716,7 +101164,8 @@
 "hk": "高多芬一哩賽",
 "sc": "高多芬一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-04-04",
 "race_date": "2025-04-05",
@@ -100946,7 +101395,7 @@
 "gear": "CP",
 "horse_uid": "au-sword-point",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-f-c-lor",
+"trainer_uid": "t-frankie-lor",
 "lb": 126.0,
 "claim": null,
 "rating": 108,
@@ -100974,7 +101423,8 @@
 "hk": "高松宮紀念賽",
 "sc": "高松宫纪念赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-30",
@@ -101260,7 +101710,8 @@
 "hk": "何士達讓賽 (表列賽)",
 "sc": "何士达让赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -101462,7 +101913,8 @@
 "hk": "唐加士打預賽",
 "sc": "唐加士打预赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -101734,7 +102186,8 @@
 "hk": "澳洲盃",
 "sc": "澳洲杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -101908,7 +102361,8 @@
 "hk": "鄧格錦標",
 "sc": "邓格锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -102096,7 +102550,7 @@
 "gear": null,
 "horse_uid": "nz-la-crique",
 "jockey_uid": "j-nash-rawiller",
-"trainer_uid": "t-s-k-alexander",
+"trainer_uid": "t-simon-katrina-alexander",
 "lb": 126.0,
 "claim": null,
 "rating": 111,
@@ -102138,7 +102592,8 @@
 "hk": "香港賽馬會全球匯合彩池短途經典賽 (表列賽)",
 "sc": "香港赛马会全球汇合彩池短途经典赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -102424,7 +102879,8 @@
 "hk": "香港賽馬會全球匯合彩池讓賽",
 "sc": "香港赛马会全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -102682,7 +103138,8 @@
 "hk": "南非打吡",
 "sc": "南非打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -102898,7 +103355,8 @@
 "hk": "南非橡樹大賽",
 "sc": "南非橡树大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -103086,7 +103544,8 @@
 "hk": "夏威夷錦標",
 "sc": "夏威夷锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -103217,7 +103676,7 @@
 "draw": 2,
 "gear": "H",
 "horse_uid": "saf-gimmefabulous",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-m-g-azzie-a-a-azzie",
 "lb": 116.0,
 "claim": null,
@@ -103246,7 +103705,8 @@
 "hk": "女皇會所錦標",
 "sc": "女皇会所锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -103378,7 +103838,8 @@
 "hk": "電腦態況短途賽",
 "sc": "电脑态况短途赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -103537,7 +103998,7 @@
 "draw": 8,
 "gear": "TT",
 "horse_uid": "saf-winds-of-change",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-m-g-azzie-a-a-azzie",
 "lb": 127.0,
 "claim": null,
@@ -103580,7 +104041,8 @@
 "hk": "香港賽馬會全球匯合彩池總理冠軍挑戰錦標",
 "sc": "香港赛马会全球汇合彩池总理冠军挑战锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-28",
 "race_date": "2025-03-29",
@@ -103697,7 +104159,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "saf-silver-sanctuary",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-mike-mathew-de-kock",
 "lb": 127.0,
 "claim": null,
@@ -103768,7 +104230,8 @@
 "hk": "TAB 與全球匯合彩池奇里錦標",
 "sc": "TAB 与全球汇合彩池奇里锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -103942,7 +104405,8 @@
 "hk": "全明星一哩賽",
 "sc": "全明星一哩赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -104074,7 +104538,8 @@
 "hk": "奇偉錦標 (表列賽)",
 "sc": "奇伟锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -104360,7 +104825,8 @@
 "hk": "奧克蘭盃",
 "sc": "奥克兰杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -104674,7 +105140,8 @@
 "hk": "新市場讓賽",
 "sc": "新市场让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -104918,7 +105385,8 @@
 "hk": "紐西蘭打吡",
 "sc": "纽西兰打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -105176,7 +105644,8 @@
 "hk": "紐西蘭錦標",
 "sc": "纽西兰锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -105266,7 +105735,7 @@
 "gear": null,
 "horse_uid": "nz-la-crique",
 "jockey_uid": "j-michael-mcnab",
-"trainer_uid": "t-s-k-alexander",
+"trainer_uid": "t-simon-katrina-alexander",
 "lb": 126.0,
 "claim": null,
 "rating": 111,
@@ -105322,7 +105791,8 @@
 "hk": "肯德百里錦標",
 "sc": "肯德百里锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -105370,7 +105840,7 @@
 "gear": "CP2",
 "horse_uid": "au-airman",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 130.0,
 "claim": null,
 "rating": 113,
@@ -105524,7 +105994,8 @@
 "hk": "蘭域城市錦標 (表列賽)",
 "sc": "兰域城市锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -105838,7 +106309,8 @@
 "hk": "蘭域堅尼",
 "sc": "兰域坚尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -105872,7 +106344,7 @@
 "gear": "CP",
 "horse_uid": "au-swiftfalcon",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 125.0,
 "claim": null,
 "rating": 109,
@@ -105998,7 +106470,8 @@
 "hk": "香港賽馬會全球匯合彩池紐西蘭育馬者錦標",
 "sc": "香港赛马会全球汇合彩池纽西兰育马者锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -106214,7 +106687,8 @@
 "hk": "香港賽馬會全球匯合彩池詠娜讓賽",
 "sc": "香港赛马会全球汇合彩池咏娜让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-03-07",
 "race_date": "2025-03-08",
@@ -106458,7 +106932,8 @@
 "hk": "1351草地短途錦標",
 "sc": "1351草地短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-23",
@@ -106674,7 +107149,8 @@
 "hk": "沙特盃",
 "sc": "沙特杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-23",
@@ -106708,7 +107184,7 @@
 "gear": null,
 "horse_uid": "us-defunded",
 "jockey_uid": "j-antonio-fresu",
-"trainer_uid": "t-abdulaziz-meshref",
+"trainer_uid": "t-abdulaziz-mishref",
 "lb": 126.0,
 "claim": null,
 "rating": 110,
@@ -106722,7 +107198,7 @@
 "gear": null,
 "horse_uid": "arg-el-kodigo",
 "jockey_uid": "j-gustavo-calvente",
-"trainer_uid": "t-abdulaziz-meshref",
+"trainer_uid": "t-abdulaziz-mishref",
 "lb": 126.0,
 "claim": null,
 "rating": 116,
@@ -106764,7 +107240,7 @@
 "gear": null,
 "horse_uid": "arg-intense-for-me",
 "jockey_uid": "j-camillo-ospina",
-"trainer_uid": "t-abdulaziz-meshref",
+"trainer_uid": "t-abdulaziz-mishref",
 "lb": 126.0,
 "claim": null,
 "rating": 116,
@@ -106806,7 +107282,7 @@
 "gear": "TT",
 "horse_uid": "ire-romantic-warrior",
 "jockey_uid": "j-james-mcdonald",
-"trainer_uid": "t-c-s-shum",
+"trainer_uid": "t-danny-shum",
 "lb": 126.0,
 "claim": null,
 "rating": 125,
@@ -106918,7 +107394,8 @@
 "hk": "紅海草地讓賽",
 "sc": "红海草地让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-23",
@@ -107078,7 +107555,7 @@
 "gear": null,
 "horse_uid": "ire-year-of-the-dragon",
 "jockey_uid": "j-camillo-ospina",
-"trainer_uid": "t-mohammed-alhirabi",
+"trainer_uid": "t-mohammed-k-alhirabi",
 "lb": 121.0,
 "claim": null,
 "rating": 100,
@@ -107106,7 +107583,8 @@
 "hk": "未來錦標",
 "sc": "未来锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -107294,7 +107772,8 @@
 "hk": "渥利盾",
 "sc": "渥利盾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -107566,7 +108045,8 @@
 "hk": "禮貌錦標",
 "sc": "礼貌锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -107726,7 +108206,8 @@
 "hk": "維多利亞金盃 (表列賽)",
 "sc": "维多利亚金杯 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -107928,7 +108409,8 @@
 "hk": "藍鑽石錦標",
 "sc": "蓝钻石锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -108004,7 +108486,7 @@
 "gear": null,
 "horse_uid": "au-devil-night",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-m-j-w-hawkes",
+"trainer_uid": "t-michael-john-wayne-hawkes",
 "lb": 126.0,
 "claim": null,
 "rating": 98,
@@ -108186,7 +108668,8 @@
 "hk": "新未來城草地盃",
 "sc": "新未来城草地杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -108220,7 +108703,7 @@
 "gear": null,
 "horse_uid": "ire-bolide-porto",
 "jockey_uid": "j-camillo-ospina",
-"trainer_uid": "t-bader-rizaiq",
+"trainer_uid": "t-bader-rezaiq",
 "lb": 126.0,
 "claim": null,
 "rating": 105,
@@ -108318,7 +108801,7 @@
 "gear": null,
 "horse_uid": "ger-straight",
 "jockey_uid": "j-thore-hammer-hansen",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 126.0,
 "claim": null,
 "rating": 117,
@@ -108360,7 +108843,8 @@
 "hk": "沙特國際讓賽",
 "sc": "沙特国际让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -108506,7 +108990,7 @@
 "gear": null,
 "horse_uid": "gb-iron-lion",
 "jockey_uid": "j-camillo-ospina",
-"trainer_uid": "t-baden-alsubaie",
+"trainer_uid": "t-bedan-alsubaie",
 "lb": 123.0,
 "claim": null,
 "rating": 96,
@@ -108576,7 +109060,8 @@
 "hk": "沙特打吡",
 "sc": "沙特打吡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -108666,7 +109151,7 @@
 "gear": "TT",
 "horse_uid": "us-golden-vekoma",
 "jockey_uid": "j-connor-beasley",
-"trainer_uid": "t-ahmad-harmash",
+"trainer_uid": "t-ahmad-bin-harmash",
 "lb": 121.0,
 "claim": null,
 "rating": 101,
@@ -108764,7 +109249,8 @@
 "hk": "維雅德泥地短途錦標",
 "sc": "维雅德泥地短途锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-02-21",
 "race_date": "2025-02-22",
@@ -108966,7 +109452,8 @@
 "hk": "第四班讓賽",
 "sc": "第四班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-26",
@@ -109070,7 +109557,7 @@
 "gear": "B",
 "horse_uid": "saf-war-chariot",
 "jockey_uid": "j-muzi-yeni",
-"trainer_uid": "t-hwj-crawford-m-rix",
+"trainer_uid": "t-h-w-j-crawford-m-rix",
 "lb": 136.0,
 "claim": null,
 "rating": 83,
@@ -109125,7 +109612,7 @@
 "draw": 11,
 "gear": null,
 "horse_uid": "saf-cavalry-commander",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-b-crawford-j-crawford",
 "lb": 129.0,
 "claim": null,
@@ -109210,7 +109697,8 @@
 "hk": "卡拉卡百萬三歲馬大賽 (表列賽)",
 "sc": "卡拉卡百万三岁马大赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -109285,7 +109773,7 @@
 "draw": 4,
 "gear": "TT",
 "horse_uid": "nz-kiwi-skyhawk",
-"jockey_uid": "j-matthew-cartwright",
+"jockey_uid": "j-matt-cartwright",
 "trainer_uid": "t-stephen-marsh",
 "lb": 126.0,
 "claim": null,
@@ -109342,7 +109830,7 @@
 "gear": "B",
 "horse_uid": "nz-billy-blinx",
 "jockey_uid": "j-kevin-stott",
-"trainer_uid": "t-s-e-clotworth",
+"trainer_uid": "t-s-e-clotworthy",
 "lb": 126.0,
 "claim": null,
 "rating": null,
@@ -109426,7 +109914,8 @@
 "hk": "卡拉卡百萬兩歲馬大賽 (表列賽)",
 "sc": "卡拉卡百万两岁马大赛 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -109501,7 +109990,7 @@
 "draw": 7,
 "gear": "CP1",
 "horse_uid": "nz-hello-romeo",
-"jockey_uid": "j-matthew-cartwright",
+"jockey_uid": "j-matt-cartwright",
 "trainer_uid": "t-ben-will-jd-hayes",
 "lb": 126.0,
 "claim": null,
@@ -109670,7 +110159,8 @@
 "hk": "大都會錦標",
 "sc": "大都会锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -109717,7 +110207,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "saf-oriental-charm",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-b-crawford-j-crawford",
 "lb": 131.0,
 "claim": null,
@@ -109942,7 +110432,8 @@
 "hk": "奧運決勝錦標 (表列賽)",
 "sc": "奥运决胜锦标 (表列赛)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -110129,7 +110620,7 @@
 "draw": 13,
 "gear": null,
 "horse_uid": "saf-mai-sensation",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-lucinda-woodruff",
 "lb": 116.0,
 "claim": null,
@@ -110200,7 +110691,8 @@
 "hk": "政治家錦標",
 "sc": "政治家锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -110219,7 +110711,7 @@
 "draw": 1,
 "gear": null,
 "horse_uid": "saf-dawn-till-dusk",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 126.0,
 "claim": null,
@@ -110402,7 +110894,8 @@
 "hk": "火車路錦標",
 "sc": "火车路锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -110519,7 +111012,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "au-platinum-attack",
-"jockey_uid": "j-matthew-cartwright",
+"jockey_uid": "j-matt-cartwright",
 "trainer_uid": "t-lisa-latta",
 "lb": 121.0,
 "claim": null,
@@ -110604,7 +111097,8 @@
 "hk": "第四班讓賽",
 "sc": "第四班让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -110624,7 +111118,7 @@
 "gear": null,
 "horse_uid": "saf-firingonallengines",
 "jockey_uid": "j-tristan-godden",
-"trainer_uid": "t-hwj-crawford-m-rix",
+"trainer_uid": "t-h-w-j-crawford-m-rix",
 "lb": 123.0,
 "claim": null,
 "rating": 72,
@@ -110707,7 +111201,7 @@
 "draw": 7,
 "gear": "H",
 "horse_uid": "saf-unicorn-alert",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 129.0,
 "claim": null,
@@ -110876,7 +111370,8 @@
 "hk": "開普A班賽",
 "sc": "开普A班赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -111049,7 +111544,7 @@
 "draw": 12,
 "gear": null,
 "horse_uid": "saf-get-impressed",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-justin-snaith",
 "lb": 126.0,
 "claim": null,
@@ -111092,7 +111587,8 @@
 "hk": "香港賽馬會全球匯合彩池飛行冠軍錦標",
 "sc": "香港赛马会全球汇合彩池飞行冠军锦标",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2025-01-24",
 "race_date": "2025-01-25",
@@ -111237,7 +111733,7 @@
 "draw": 10,
 "gear": "B",
 "horse_uid": "saf-questioning",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-vaughan-marshall",
 "lb": 132.0,
 "claim": null,
@@ -111336,7 +111832,8 @@
 "hk": "有馬紀念賽",
 "sc": "有马纪念赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2024-12-20",
 "race_date": "2024-12-22",
@@ -111594,7 +112091,8 @@
 "hk": "卡洛貝格大賽",
 "sc": "卡洛贝格大赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2024-12-13",
 "race_date": "2024-12-15",
@@ -111613,7 +112111,7 @@
 "draw": 1,
 "gear": "CP",
 "horse_uid": "arg-grezzo",
-"jockey_uid": "j-eduardo-ortega-pavon",
+"jockey_uid": "j-pavon-ortega",
 "trainer_uid": "t-lopez-bragante",
 "lb": 118.0,
 "claim": null,
@@ -111810,7 +112308,7 @@
 "gear": null,
 "horse_uid": "arg-pepe-joy",
 "jockey_uid": "j-francisco-lavigna",
-"trainer_uid": "t-gustavo-romero",
+"trainer_uid": "t-gustavo-e-romero",
 "lb": 132.0,
 "claim": null,
 "rating": 100,
@@ -111908,7 +112406,8 @@
 "hk": "日本盃",
 "sc": "日本杯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2024-11-21",
 "race_date": "2024-11-24",
@@ -112138,7 +112637,8 @@
 "hk": "Wettstar參與全球匯合彩池讓賽",
 "sc": "Wettstar参与全球汇合彩池让赛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "announce_date": "2024-11-09",
 "race_date": "2024-11-10",

@@ -28,6 +28,11 @@
    - 401 = 整批停并切 SPN2 API（需 `IA_ACCESS_KEY` / `IA_SECRET_KEY`，走环境变量，不入库）；不得把 401/5xx 记成「未存档」。
 8. **抓取范围全量、维护范围分级**：所有公告、所有地区一律抓取与解析，**禁止按地区跳过**；`region` 只决定队列顺序。译名维护当前只做日本籍马（`horse.curation = curated`），其他地区 `pending`，只保留公告港译与原文名，不生成 L2/L3、不进人工队列。详见 `docs/SCHEMA.md` §2.1。
 9. **出网必须过闸门（风控红线）**：所有请求只能走 `pipeline/netguard.py` 的 `Guard.get()/download()`，不许自己 `curl`/`urlopen`。间隔**只因风控信号上调**，永不低于第 5 条的下限；单线程；撞上风控 = 抬间隔 → 熔断停机 → 冷却后再跑，**不许换 IP/UA、不许绕验证码、不许做主动提速探测**。每批跑完必须 `python pipeline/netguard.py report`，按报告结论（零风控最小档 ×1.25）确定下一批间隔。详见 `docs/IMPL.md` §3。
+10. **人物归一必须分层**（`docs/SCHEMA.md` §2.1.1–2.1.2）：
+    - **字符层**（撇号 `’`/`'`、全角空格、大小写）在 `common.fold_name()` 里全自动折叠，`slug` / 检索键都走它——只改字符，不改名字。
+    - **实体层**（`A P O'Brien` = `Aidan O'Brien`）只允许发生在 `pipeline/s3b_identity.py`：分桶用「角色 + 港译」，判定用「拉丁姓氏 + 名字首字母」，判不了的一律进 `/edit/merge/` 复核页，**不许在别处写启发式合并**。
+    - 人工结论只落 `data-src/entity-merges.json`（确认合并）与 `data-src/person-splits.json`（确认不合并），脚本只读不写；否决优先于任何自动规则。
+    - 合并只改 uid：被并掉的写法必须作为 `name` 的非主名行保留（带出处、可检索），不许丢名；跨角色同人（既骑且练）不合并，两页互链。
 
 ## 3. 代码约定
 

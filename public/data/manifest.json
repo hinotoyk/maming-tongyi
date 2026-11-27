@@ -1,18 +1,18 @@
 {
  "v": "names/v3",
- "generated_at": "2026-11-26T18:15:44+08:00",
- "updated": "2026-11-26",
+ "generated_at": "2026-11-27T10:56:01+08:00",
+ "updated": "2026-11-27",
  "counts": {
-  "horses": 21535,
+  "horses": 21502,
   "races": 2883,
-  "persons": 4168,
-  "names": 28586,
+  "persons": 3643,
+  "names": 28028,
   "aliases": 2,
-  "pedigree": 3013
+  "pedigree": 3003
  },
  "curation": {
-  "curated": 3013,
-  "pending": 18522,
+  "curated": 3008,
+  "pending": 18494,
   "policy": "抓取全量、译名只维护日本籍（horse.curation = curated）",
   "regions": [
    {
@@ -90,7 +90,7 @@
  "shards": {
   "horses": 44,
   "races": 6,
-  "persons": 9
+  "persons": 8
  },
  "shard_size": 500,
  "search": {

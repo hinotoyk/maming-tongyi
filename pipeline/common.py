@@ -103,10 +103,25 @@ def write_csv(p: Path, rows: list[dict], fields: list[str] | None = None, *, bom
     return p
 
 
+# ── 名称折叠（字符级归一，不是实体归一）─────────────────────────────────
+# 公告里的撇号有四种写法：直撇 U+0027、右单引 U+2019、修饰字母 U+02BC、反引 U+0060。
+# 字形一样、码位不同；不折叠就会出现 O'Brien 与 O’Brien 两个 uid（同一人两条实体）。
+# 折叠只改字符，不改名字本身：落库的 value 仍是公告原文，只有 slug / 检索键走折叠。
+_APOSTROPHES = "\u2018\u2019\u201a\u201b\u2032\u02bc\u02b9`\u00b4"
+_APOS_MAP = {ord(ch): "'" for ch in _APOSTROPHES}
+
+
+def fold_name(text: str | None) -> str:
+    """NFKC + 撇号归一 + 空白归一。`O’Brien` / `O'Brien` / ``O`Brien`` → `O'Brien`。"""
+    t = unicodedata.normalize("NFKC", text or "")
+    t = t.translate(_APOS_MAP)
+    return t.replace("\u00a0", " ").replace("\u3000", " ").strip()
+
+
 # ── slug / uid ──────────────────────────────────────────────────────────
 def slug(text: str) -> str:
-    """ASCII slug（IMPL.md §7）：NFKD → ascii → 非字母数字转 - → 小写 → 压连字符。"""
-    text = unicodedata.normalize("NFKD", text or "")
+    """ASCII slug（IMPL.md §7）：fold → NFKD → ascii → 非字母数字转 - → 小写 → 压连字符。"""
+    text = unicodedata.normalize("NFKD", fold_name(text))
     text = text.encode("ascii", "ignore").decode()
     text = re.sub(r"[^a-zA-Z0-9]+", "-", text).strip("-").lower()
     return re.sub(r"-{2,}", "-", text)
@@ -351,22 +366,27 @@ def simplified(text: str | None) -> str | None:
 
 
 def norm_key(text: str) -> str:
-    """检索归一化：lower + 去空白（SCHEMA.md §4.3）。"""
-    return re.sub(r"\s+", "", (text or "").lower())
+    """检索归一化：fold + lower + 去空白（SCHEMA.md §4.3）。"""
+    return re.sub(r"\s+", "", fold_name(text).lower())
 
 
 def norm_variants(text: str) -> list[str]:
-    """同一名称的检索键：原样、简体、繁体各一份（繁简双向展开）。"""
+    """同一名称的检索键：原样、简体、繁体各一份（繁简双向展开）。
+
+    只在文本含汉字时才做繁简展开。以前无条件调 zhconv，拉丁名过一遍转换会被
+    换成奇怪的符号（`O'Brien` 的撇号被转成 `』`），索引里凭空多出一整套脏键。
+    """
     if not text:
         return []
     keys = {norm_key(text)}
-    try:
-        from zhconv import convert as zc
+    if has_cjk(text):
+        try:
+            from zhconv import convert as zc
 
-        keys.add(norm_key(zc(text, "zh-hans")))
-        keys.add(norm_key(zc(text, "zh-hant")))
-    except ImportError:  # pragma: no cover
-        pass
+            keys.add(norm_key(zc(text, "zh-hans")))
+            keys.add(norm_key(zc(text, "zh-hant")))
+        except ImportError:  # pragma: no cover
+            pass
     return [k for k in keys if k]
 
 

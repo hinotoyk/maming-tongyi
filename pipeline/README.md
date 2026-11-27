@@ -14,7 +14,8 @@
 | S2 | `s2_fetch_docs.py` | 索引 CSV（**956 条全量，不按地区过滤**） | `cache/docs/{race_uid}/` + `manifest.csv` | ✅ 小批量跑通 |
 | S2b | `s2b_archive.py` | `cache/docs/manifest.csv` | `cache/archive.csv`（= `archive` 表） | ✅ 小批量跑通 |
 | S3 | `s3_parse.py` | `cache/docs/`（docx / doc / 内联表） | `cache/races.csv` + `cache/entries.csv` | ✅ 小批量跑通 |
-| S4 | `s4_names.py` | S3 产物 + JBIS 检索页 + 覆盖层 | `cache/names.csv` + `aliases.csv` + `horses.csv` + `persons.csv` | ✅ 小批量跑通 |
+| S3b | `s3b_identity.py` | `cache/entries.csv` + `data-src/entity-merges.json` / `person-splits.json` | 改写 entries 的人物 uid + `public/review/merge.json`（复核页数据） | ✅ |
+| S4 | `s4_names.py` | S3b 产物 + JBIS 检索页 + 覆盖层 | `cache/names.csv` + `aliases.csv` + `horses.csv` + `persons.csv` | ✅ 小批量跑通 |
 | S4b | `s4b_pedigree.py` | `cache/jbis.csv` + JBIS 血統页 / 基本情報页 | `cache/pedigree.csv` + `jbis_profile.csv` | ✅ 分批跑（10s/匹） |
 | 建库 | `build_db.py` | 上述 CSV | `cache/maming.sqlite` | ✅ |
 | S5 | `s5_export.py` | SQLite + JBIS + 覆盖层 | `public/data/`（分片 + manifest + 搜索索引） | ✅ |
@@ -30,6 +31,7 @@ python pipeline/s2_fetch_docs.py --region 日本        # 抓正文 + 附件（�
 python pipeline/netguard.py report                   # 每批跑完必做
 python pipeline/s2b_archive.py --kind article        # 提交 IA（≥10s/请求）
 python pipeline/s3_parse.py                          # 解析 → races / entries
+python pipeline/s3b_identity.py                      # 人物实体归一（A 档自动并，B 档进复核页）
 python pipeline/s4_names.py                          # 名称 + JBIS id（可 --jbis-limit 分批）
 python pipeline/s4b_pedigree.py --limit 300          # 5 代血统 + 生日/毛色（断点续跑）
 python pipeline/build_db.py && python pipeline/s5_export.py

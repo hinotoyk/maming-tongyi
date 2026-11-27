@@ -1,0 +1,1025 @@
+{
+ "_meta": {
+  "schema": "entity-merges/v1",
+  "updated": "2026-11-27",
+  "note": "人工确认的人物合并（唯一入口，进 git）。键 = 主 uid，merge = 被并进来的 uid。由 /edit/merge/ 复核页生成，脚本只读不写。合并只改 uid，不改名字：被并掉的写法会作为 name 的非主名行保留，各自带出处。"
+ },
+ "entries": {
+  "t-clifford-brown": {
+   "merge": [
+    "t-c-brown",
+    "t-cliff-brown"
+   ],
+   "note": "复核页默认接受：布隆（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-jane-chapple-hyam": {
+   "merge": [
+    "t-j-chapple-hyam",
+    "t-mme-j-chapple-hyam"
+   ],
+   "note": "复核页默认接受：卓珍妮（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-steve-asmussen": {
+   "merge": [
+    "t-s-asmussen",
+    "t-steven-asmussen"
+   ],
+   "note": "复核页默认接受：艾蒙信（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-mrs-john-harrington": {
+   "merge": [
+    "t-j-harrington",
+    "t-mme-j-harrington"
+   ],
+   "note": "复核页默认接受：夏寧敦夫人（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-jamie-osborne": {
+   "merge": [
+    "t-j-osborne",
+    "t-james-osborne"
+   ],
+   "note": "复核页默认接受：奧斯本（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-christopher-head": {
+   "merge": [
+    "t-c-head",
+    "t-chr-head"
+   ],
+   "note": "复核页默认接受：赫健輝（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-alicja-karkosa": {
+   "merge": [
+    "t-a-karkosa",
+    "t-mrs-alicja-karkosa"
+   ],
+   "note": "复核页默认接受：靳高莎（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-carina-fey": {
+   "merge": [
+    "t-c-fey",
+    "t-mlle-c-fey"
+   ],
+   "note": "复核页默认接受：費姬娜（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-francoise-rohaut": {
+   "merge": [
+    "t-f-rohaut",
+    "t-francois-rohaut"
+   ],
+   "note": "复核页默认接受：盧漢德（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-p-charalambous-et-al": {
+   "merge": [
+    "t-p-charalambous-j-clutterbuck",
+    "t-peter-charalambous-james-clutterbuck"
+   ],
+   "note": "复核页默认接受：查彼得及簡天培（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-marian-weissmeier": {
+   "merge": [
+    "t-m-f-weissmeier",
+    "t-marian-falk-weissmeier"
+   ],
+   "note": "复核页默认接受：韋羨謀（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-stephane-cerulis": {
+   "merge": [
+    "t-s-cerulis",
+    "t-stephan-cerulis"
+   ],
+   "note": "复核页默认接受：薛立新（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-corine-barande-barbe": {
+   "merge": [
+    "t-c-barande-barbe",
+    "t-mme-c-barande-barbe"
+   ],
+   "note": "复核页默认接受：鮑歌蓮（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-ingrid-koplikova": {
+   "merge": [
+    "t-i-janackova-koplikova",
+    "t-ingrid-janackova-koplikova"
+   ],
+   "note": "复核页默认接受：顧嶺花（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-edouard-monfort": {
+   "merge": [
+    "t-e-d-monfort",
+    "t-ed-monfort"
+   ],
+   "note": "复核页默认接受：蒙輝達（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-gina-rarick": {
+   "merge": [
+    "t-g-rarick",
+    "t-mme-g-rarick"
+   ],
+   "note": "复核页默认接受：洛麗嘉（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-moutaib-almulawah": {
+   "merge": [
+    "t-mutaeb-almulawah",
+    "t-muteb-almulawah"
+   ],
+   "note": "复核页默认接受：安穆華（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-louis-philippe-beuzelin": {
+   "merge": [
+    "j-l-p-beuzelin",
+    "j-louis-beuzelin"
+   ],
+   "note": "复核页默认接受：鮑兆霖（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-antonio-cintra": {
+   "merge": [
+    "t-a-cintra",
+    "t-antonio-cintra-pereira"
+   ],
+   "note": "复核页默认接受：冼卓艾（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-freddy-head": {
+   "merge": [
+    "t-f-head",
+    "t-fre-head"
+   ],
+   "note": "复核页默认接受：赫德（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-abdullah-mushrif": {
+   "merge": [
+    "t-a-mishriff",
+    "t-abdullah-mishriff"
+   ],
+   "note": "复核页默认接受：米沙夫（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-frederic-rossi": {
+   "merge": [
+    "t-f-rossi",
+    "t-fred-rossi"
+   ],
+   "note": "复核页默认接受：羅善（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-p-g-moody-k-coleman": {
+   "merge": [
+    "t-peter-g-moody-katherine-coleman"
+   ],
+   "note": "复核页默认接受：莫德及高敏玲（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-ben-will-jd-hayes": {
+   "merge": [
+    "t-ben-will-j-d-hayes"
+   ],
+   "note": "复核页默认接受：比安希斯、威希斯及詹希斯（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-john-hillis": {
+   "merge": [
+    "t-john-david-hillis"
+   ],
+   "note": "复核页默认接受：何理仕（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-thore-hammer-hansen": {
+   "merge": [
+    "j-thore-hansen"
+   ],
+   "note": "复核页默认接受：韓新（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-yasmin-almenrader": {
+   "merge": [
+    "t-yasmine-almenrader"
+   ],
+   "note": "复核页默认接受：歐文黛（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-dylan-mcmonagle": {
+   "merge": [
+    "j-dylan-browne-mcmonagle"
+   ],
+   "note": "复核页默认接受：麥文堅（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-g-waterhouse-a-bott": {
+   "merge": [
+    "t-gai-waterhouse-adrian-bott"
+   ],
+   "note": "复核页默认接受：活侯夫人及布特（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-j-o-shea-t-charlton": {
+   "merge": [
+    "t-john-o-shea-tom-charlton"
+   ],
+   "note": "复核页默认接受：奧詩及查奕通（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-michael-dee": {
+   "merge": [
+    "j-mick-dee"
+   ],
+   "note": "复核页默认接受：戴文高（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-t-busuttin-n-young": {
+   "merge": [
+    "t-trent-busuttin-natalie-young"
+   ],
+   "note": "复核页默认接受：布樹庭及楊麗妮（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-michael-john-wayne-hawkes": {
+   "merge": [
+    "t-m-j-w-hawkes"
+   ],
+   "note": "复核页默认接受：賀米高、賀嘉時及賀維恩（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-m-price-m-kent-jnr": {
+   "merge": [
+    "t-mick-price-michael-kent-jnr"
+   ],
+   "note": "复核页默认接受：佩思及肯爾迪（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-l-t-corstens-w-larkin": {
+   "merge": [
+    "t-leon-troy-corstens-will-larkin"
+   ],
+   "note": "复核页默认接受：郭士庭、郭兆棠及羅季賢（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-annabel-rob-archibald": {
+   "merge": [
+    "t-a-r-archibald"
+   ],
+   "note": "复核页默认接受：艾靄琛及艾基保（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-teo-nugent": {
+   "merge": [
+    "j-teodore-nugent"
+   ],
+   "note": "复核页默认接受：陸景滔（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-timothy-fitzsimmons": {
+   "merge": [
+    "t-tim-fitzsimmons"
+   ],
+   "note": "复核页默认接受：摩西（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-richard-will-freedman": {
+   "merge": [
+    "t-r-w-freedman"
+   ],
+   "note": "复核页默认接受：菲迪民及菲偉廉（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-j-symons-s-laxon": {
+   "merge": [
+    "t-john-symons-sheila-laxon"
+   ],
+   "note": "复核页默认接受：史敏誠及黎雪娜（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-saffie-joseph": {
+   "merge": [
+    "t-saffie-joseph-jr"
+   ],
+   "note": "复核页默认接受：張誠勳（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-graham-motion": {
+   "merge": [
+    "t-h-g-motion"
+   ],
+   "note": "复核页默认接受：莫格林（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-ger-lyons": {
+   "merge": [
+    "t-gerard-lyons"
+   ],
+   "note": "复核页默认接受：李漢聲（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-billy-lee": {
+   "merge": [
+    "j-william-lee"
+   ],
+   "note": "复核页默认接受：李威廉（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-willie-mullins": {
+   "merge": [
+    "t-william-mullins"
+   ],
+   "note": "复核页默认接受：莫威利（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-richard-chantelle-jolly": {
+   "merge": [
+    "t-r-c-jolly"
+   ],
+   "note": "复核页默认接受：佐利及佐倩桃（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-p-messara-l-gavranich": {
+   "merge": [
+    "t-p-messara-l-gavrani"
+   ],
+   "note": "复核页默认接受：馬善拿及紀芬玲（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-pat-dobbs": {
+   "merge": [
+    "j-patrick-dobbs"
+   ],
+   "note": "复核页默认接受：杜百成（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-pierre-louis-jamin": {
+   "merge": [
+    "j-p-l-jamin"
+   ],
+   "note": "复核页默认接受：趙勉力（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-w-muir-c-grassick": {
+   "merge": [
+    "t-william-muir-chris-grassick"
+   ],
+   "note": "复核页默认接受：莫爾及簡世剛（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-jamie-spencer": {
+   "merge": [
+    "j-james-spencer"
+   ],
+   "note": "复核页默认接受：史賓沙（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-g-ryan-s-alexiou": {
+   "merge": [
+    "t-gerald-ryan-sterling-alexiou"
+   ],
+   "note": "复核页默认接受：賴恩及歐領常（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-tony-carroll": {
+   "merge": [
+    "t-a-w-carroll"
+   ],
+   "note": "复核页默认接受：卡萊爾（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-hedi-ghabri": {
+   "merge": [
+    "t-hedy-ghabri"
+   ],
+   "note": "复核页默认接受：賈秉義（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-p-olave-valdivielso": {
+   "merge": [
+    "t-p-olave-valdivelso"
+   ],
+   "note": "复核页默认接受：華狄素（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-andre-lavinia-fabre": {
+   "merge": [
+    "t-a-l-fabre"
+   ],
+   "note": "复核页默认接受：費伯華及費蕾詠（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-faleh-bughenaim": {
+   "merge": [
+    "j-faleh-bughanaim"
+   ],
+   "note": "复核页默认接受：畢顯內（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-elais-mikhalides": {
+   "merge": [
+    "t-elias-mikhalides"
+   ],
+   "note": "复核页默认接受：麥啟令（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-didier-pauline-prod-homme": {
+   "merge": [
+    "t-d-p-prod-homme"
+   ],
+   "note": "复核页默认接受：布達明及布寶蓮（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-carlos-yann-lerner": {
+   "merge": [
+    "t-c-y-lerner"
+   ],
+   "note": "复核页默认接受：雷拿及雷恩（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-chris-hayes": {
+   "merge": [
+    "j-christopher-hayes"
+   ],
+   "note": "复核页默认接受：基士希斯（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-robert-colgan": {
+   "merge": [
+    "j-robbie-colgan"
+   ],
+   "note": "复核页默认接受：高近安（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-andrew-j-slattery": {
+   "merge": [
+    "j-andrew-slattery-jnr"
+   ],
+   "note": "复核页默认接受：冼領滔（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-kozzi-asano": {
+   "merge": [
+    "j-kazuya-asano"
+   ],
+   "note": "复核页默认接受：淺野一哉（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-manfred-man": {
+   "merge": [
+    "t-k-l-man"
+   ],
+   "note": "复核页默认接受：文家良（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-tony-cruz": {
+   "merge": [
+    "t-a-s-cruz"
+   ],
+   "note": "复核页默认接受：告東尼（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-danny-shum": {
+   "merge": [
+    "t-c-s-shum"
+   ],
+   "note": "复核页默认接受：沈集成（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-philip-mcbride": {
+   "merge": [
+    "t-phillip-mcbride"
+   ],
+   "note": "复核页默认接受：麥博德（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-dennis-yip": {
+   "merge": [
+    "t-c-h-yip"
+   ],
+   "note": "复核页默认接受：葉楚航（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-michael-david-easterby": {
+   "merge": [
+    "t-m-d-easterby"
+   ],
+   "note": "复核页默认接受：伊德比及伊天博（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-david-evans": {
+   "merge": [
+    "t-p-d-evans"
+   ],
+   "note": "复核页默认接受：伊宏思（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-tom-marshall": {
+   "merge": [
+    "j-t-kiely-marshall"
+   ],
+   "note": "复核页默认接受：馬瑞豪（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-pia-joakim-brandt": {
+   "merge": [
+    "t-p-j-brandt"
+   ],
+   "note": "复核页默认接受：布蘭婷及布頌祈（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-f-x-belvisi": {
+   "merge": [
+    "t-francois-xavier-belvisi"
+   ],
+   "note": "复核页默认接受：貝輝善（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-m-andriantsoa-ratsimihah": {
+   "merge": [
+    "t-m-a-ratsimihah"
+   ],
+   "note": "复核页默认接受：立盛漢（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-robert-collet": {
+   "merge": [
+    "t-rob-collet"
+   ],
+   "note": "复核页默认接受：高利（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-patrick-cosgrave": {
+   "merge": [
+    "j-pat-cosgrave"
+   ],
+   "note": "复核页默认接受：郭善佳（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-candice-bass-robinson": {
+   "merge": [
+    "t-candice-bass"
+   ],
+   "note": "复核页默认接受：貝文森（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-juan-paul-v-d-merwe": {
+   "merge": [
+    "j-j-p-van-der-merwe"
+   ],
+   "note": "复核页默认接受：莫偉堯（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-patrick-foley": {
+   "merge": [
+    "t-partick-foley"
+   ],
+   "note": "复核页默认接受：霍亮勇（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-clement-hermans": {
+   "merge": [
+    "t-n-clement-f-hermans"
+   ],
+   "note": "复核页默认接受：蓋萊文及康敏珊（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-jul-phelippon": {
+   "merge": [
+    "t-julien-phelippon"
+   ],
+   "note": "复核页默认接受：樊列龐（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-bill-farrell": {
+   "merge": [
+    "t-w-t-farrell"
+   ],
+   "note": "复核页默认接受：范磊略（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-pavon-ortega": {
+   "merge": [
+    "j-eduardo-ortega-pavon"
+   ],
+   "note": "复核页默认接受：柏寬寧（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-francisco-goncalves": {
+   "merge": [
+    "j-francisco-fernandes-g"
+   ],
+   "note": "复核页默认接受：江繼輝（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-vlad-duric": {
+   "merge": [
+    "j-vladimir-duric"
+   ],
+   "note": "复核页默认接受：杜奕（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-r-james-r-wellwood": {
+   "merge": [
+    "t-roger-james-robert-wellwood"
+   ],
+   "note": "复核页默认接受：詹姆士及韋宏德（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-shu-ishibashi": {
+   "merge": [
+    "j-syu-ishibashi"
+   ],
+   "note": "复核页默认接受：石橋脩（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-p-butel-j-l-beaunez": {
+   "merge": [
+    "t-butel-beaunez"
+   ],
+   "note": "复核页默认接受：寶婷及白爾歷（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-clarken-macgillivray": {
+   "merge": [
+    "t-dan-clarken-oopy-macgillivray"
+   ],
+   "note": "复核页默认接受：郭立勤及麥嬌梨（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-jimmy-ting": {
+   "merge": [
+    "t-k-h-ting"
+   ],
+   "note": "复核页默认接受：丁冠豪（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-chris-so": {
+   "merge": [
+    "t-w-y-so"
+   ],
+   "note": "复核页默认接受：蘇偉賢（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-me-tsui": {
+   "merge": [
+    "t-y-s-tsui"
+   ],
+   "note": "复核页默认接受：徐雨石（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-m-walker-s-bergerson": {
+   "merge": [
+    "t-mark-walker-sam-bergerson"
+   ],
+   "note": "复核页默认接受：霍卡及白俊山（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-l-o-sullivan-a-scott": {
+   "merge": [
+    "t-lance-o-sullivan-andrew-scott"
+   ],
+   "note": "复核页默认接受：蘇利雲及施葛德（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-matt-cartwright": {
+   "merge": [
+    "j-matthew-cartwright"
+   ],
+   "note": "复核页默认接受：嘉懷德（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-michael-matthew-pitman": {
+   "merge": [
+    "t-m-m-pitman"
+   ],
+   "note": "复核页默认接受：畢迪文及畢馬兆（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-b-wallace-g-cooksley": {
+   "merge": [
+    "t-bruce-wallace-grant-cooksley"
+   ],
+   "note": "复核页默认接受：華萊士及谷士梨（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-simon-katrina-alexander": {
+   "merge": [
+    "t-s-k-alexander"
+   ],
+   "note": "复核页默认接受：艾令勝及艾莉珊（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-camillo-ospina": {
+   "merge": [
+    "j-camilio-ospina"
+   ],
+   "note": "复核页默认接受：奧士賓拿（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-nicholas-bachalard": {
+   "merge": [
+    "t-nicolas-bachalard"
+   ],
+   "note": "复核页默认接受：巴齊樂（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-bedan-alsubaie": {
+   "merge": [
+    "t-baden-alsubaie"
+   ],
+   "note": "复核页默认接受：歐世弼（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-muhammad-aldaham": {
+   "merge": [
+    "j-mohammed-aldaham"
+   ],
+   "note": "复核页默认接受：柯棣亨（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-sami-alharabi": {
+   "merge": [
+    "t-sami-al-harabi"
+   ],
+   "note": "复核页默认接受：哈偉彬（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-bader-rezaiq": {
+   "merge": [
+    "t-bader-rizaiq"
+   ],
+   "note": "复核页默认接受：利世勤（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-francis-lui": {
+   "merge": [
+    "t-k-w-lui"
+   ],
+   "note": "复核页默认接受：呂健威（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-nicolas-martin-ferro": {
+   "merge": [
+    "t-nicolas-m-ferro"
+   ],
+   "note": "复核页默认接受：封仁隆（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-ximeno-urenda-pastene": {
+   "merge": [
+    "t-ximeno-urenda"
+   ],
+   "note": "复核页默认接受：俞允達（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-bang-dong-suk": {
+   "merge": [
+    "t-dong-suk-bang"
+   ],
+   "note": "复核页默认接受：方東錫（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-jim-crowley": {
+   "merge": [
+    "j-james-crowley"
+   ],
+   "note": "复核页默认接受：高俊誠（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-mario-hofer": {
+   "merge": [
+    "t-mar-hofer"
+   ],
+   "note": "复核页默认接受：何發（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-lee-freedman": {
+   "merge": [
+    "t-d-l-freedman"
+   ],
+   "note": "复核页默认接受：菲特文（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-ronald-stewart": {
+   "merge": [
+    "j-ron-stewart"
+   ],
+   "note": "复核页默认接受：史釗域（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-gordon-richards-damien-moyle": {
+   "merge": [
+    "t-g-richards-d-moyle"
+   ],
+   "note": "复核页默认接受：黎卓昇及文遨然（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-a-neasham-r-archibald": {
+   "merge": [
+    "t-annabel-neasham-rob-archibald"
+   ],
+   "note": "复核页默认接受：凌靄琛及艾基保（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-dan-blacker": {
+   "merge": [
+    "t-daniel-blacker"
+   ],
+   "note": "复核页默认接受：布良堅（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-haider-ebrahim": {
+   "merge": [
+    "t-haider-shaheen"
+   ],
+   "note": "复核页默认接受：伊比軒（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-s-e-clotworthy": {
+   "merge": [
+    "t-s-e-clotworth"
+   ],
+   "note": "复核页默认接受：郭為寬及郭愛敏（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-ricky-yiu": {
+   "merge": [
+    "t-p-f-yiu"
+   ],
+   "note": "复核页默认接受：姚本輝（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-abdulaziz-mishref": {
+   "merge": [
+    "t-abdulaziz-meshref"
+   ],
+   "note": "复核页默认接受：明先輝（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-m-moroney-g-thompson": {
+   "merge": [
+    "t-michael-moroney-glen-thompson"
+   ],
+   "note": "复核页默认接受：莫朗尼及湯鵬勢（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-graeme-deborah-rogerson": {
+   "merge": [
+    "t-g-d-rogerson"
+   ],
+   "note": "复核页默认接受：羅渣遜及羅黛碧（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-w-francis-g-kent": {
+   "merge": [
+    "t-wayne-francis-glen-kent"
+   ],
+   "note": "复核页默认接受：范安成及靳格蘭（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-r-griffiths-m-de-kock": {
+   "merge": [
+    "t-robbie-griffiths-mathew-de-kock"
+   ],
+   "note": "复核页默认接受：紀飛及郭明勛（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-franny-norton": {
+   "merge": [
+    "j-francis-norton"
+   ],
+   "note": "复核页默认接受：駱愛敦（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "j-ismail-saifudin": {
+   "merge": [
+    "j-saifudin-ismail"
+   ],
+   "note": "复核页默认接受：賽富汀（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-michael-wayne-john-hawkes": {
+   "merge": [
+    "t-m-w-j-hawkes"
+   ],
+   "note": "复核页默认接受：賀米高、賀維恩及賀嘉時（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-naif-almandeel": {
+   "merge": [
+    "t-naif-almindeel"
+   ],
+   "note": "复核页默认接受：文東佑（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-ciaron-maher-david-eustace": {
+   "merge": [
+    "t-c-maher-d-eustace"
+   ],
+   "note": "复核页默认接受：馬漢雅及游達榮（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-harry-roger-charlton": {
+   "merge": [
+    "t-harry-roger-charlto"
+   ],
+   "note": "复核页默认接受：查鏗義及查爾頓（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-j-bertran-de-balanda": {
+   "merge": [
+    "t-bertran-de-balanda"
+   ],
+   "note": "复核页默认接受：巴棠（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-edward-de-giles": {
+   "merge": [
+    "t-ed-de-giles"
+   ],
+   "note": "复核页默认接受：紀力誠（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-leon-macdonald-andrew-gluyas": {
+   "merge": [
+    "t-l-macdonald-a-gluyas"
+   ],
+   "note": "复核页默认接受：麥理昂及高雅士（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-luigi-salvatore-riccardi": {
+   "merge": [
+    "t-luigi-riccardi"
+   ],
+   "note": "复核页默认接受：李佳迪（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-rodolphe-collet": {
+   "merge": [
+    "t-rod-collet"
+   ],
+   "note": "复核页默认接受：高禮（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-tony-millard": {
+   "merge": [
+    "t-anthony-millard"
+   ],
+   "note": "复核页默认接受：苗禮德（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-joe-talamo": {
+   "merge": [
+    "j-joseph-talamo"
+   ],
+   "note": "复核页默认接受：陶立武（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-cedric-rossi": {
+   "merge": [
+    "t-ce-rossi"
+   ],
+   "note": "复核页默认接受：羅修彥（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "j-noor-nizar": {
+   "merge": [
+    "j-noon-nizar"
+   ],
+   "note": "复核页默认接受：尼扎爾（jockey）",
+   "decided_at": "2026-11-27"
+  },
+  "t-saimee-bin-jumaat": {
+   "merge": [
+    "t-j-saimee"
+   ],
+   "note": "复核页默认接受：賽米（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-pia-brandt": {
+   "merge": [
+    "t-mme-p-brandt"
+   ],
+   "note": "复核页默认接受：布蘭婷（trainer）",
+   "decided_at": "2026-11-27"
+  },
+  "t-bruce-marsh": {
+   "merge": [
+    "t-r-b-marsh"
+   ],
+   "note": "复核页默认接受：必拿（trainer）",
+   "decided_at": "2026-11-27"
+  }
+ }
+}

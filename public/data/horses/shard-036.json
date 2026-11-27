@@ -1,1847 +1,11 @@
 {
 "_meta": {
 "schema": "names/v3",
-"updated": "2026-11-26",
+"updated": "2026-11-27",
 "count": 500,
 "kind": "horses"
 },
 "items": [
-{
-"uid": "nz-halo-s-fire",
-"names": {
-"original": "Halo's Fire",
-"en": "Halo's Fire",
-"hk": "光環之火",
-"sc": "光环之火",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2023,
-"color": null,
-"age": 3,
-"rating": 99,
-"lb": 126.0,
-"no": 11,
-"draw": 7,
-"gear": "V",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-ryan-elliot",
-"trainer_uid": "t-mark-forbes",
-"race_uid": "aus-2026-0307-香港賽馬會全球匯合彩池紐西蘭打吡",
-"entries": [
-{
-"no": 11,
-"draw": 7,
-"gear": "V",
-"horse_uid": "nz-halo-s-fire",
-"jockey_uid": "j-ryan-elliot",
-"trainer_uid": "t-mark-forbes",
-"lb": 126.0,
-"claim": null,
-"rating": 99,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2026-0307-香港賽馬會全球匯合彩池紐西蘭打吡"
-}
-]
-},
-{
-"uid": "nz-halos-fire",
-"names": {
-"original": "HALO’S FIRE",
-"en": "HALO’S FIRE",
-"hk": "光環之火",
-"sc": "光环之火",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": null,
-"sex_cn": "",
-"birth_date": null,
-"birth_year": null,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-mark-forbes",
-"race_uid": "aus-2026-香港賽馬會全球匯合彩池紐西蘭打吡",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "nz-halos-fire",
-"jockey_uid": null,
-"trainer_uid": "t-mark-forbes",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "aus-2026-香港賽馬會全球匯合彩池紐西蘭打吡"
-}
-]
-},
-{
-"uid": "nz-hankee-alpha",
-"names": {
-"original": "Hankee Alpha",
-"en": "Hankee Alpha",
-"hk": "巧騎烈女",
-"sc": "巧骑烈女",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 3,
-"rating": 98,
-"lb": 123.0,
-"no": 12,
-"draw": 6,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-masa-hashizume",
-"trainer_uid": "t-l-o-sullivan-a-scott",
-"race_uid": "aus-2025-0308-奇偉錦標-表列賽",
-"entries": [
-{
-"no": 12,
-"draw": 6,
-"gear": null,
-"horse_uid": "nz-hankee-alpha",
-"jockey_uid": "j-masa-hashizume",
-"trainer_uid": "t-l-o-sullivan-a-scott",
-"lb": 123.0,
-"claim": null,
-"rating": 98,
-"sex": "F",
-"age": 3,
-"race_uid": "aus-2025-0308-奇偉錦標-表列賽"
-},
-{
-"no": 20,
-"draw": 4,
-"gear": null,
-"horse_uid": "nz-hankee-alpha",
-"jockey_uid": "j-craig-williams",
-"trainer_uid": "t-cindy-alderson",
-"lb": 119.0,
-"claim": null,
-"rating": 93,
-"sex": "F",
-"age": 5,
-"race_uid": "aus-2026-1031-名氣急升錦標"
-},
-{
-"no": 17,
-"draw": 11,
-"gear": null,
-"horse_uid": "nz-hankee-alpha",
-"jockey_uid": "j-craig-williams",
-"trainer_uid": "t-cindy-alderson",
-"lb": 119.0,
-"claim": null,
-"rating": 78,
-"sex": "F",
-"age": 5,
-"race_uid": "aus-2026-1107-常迎錦標-表列賽"
-}
-]
-},
-{
-"uid": "nz-happy-friday",
-"names": {
-"original": "Happy Friday",
-"en": "Happy Friday",
-"hk": "歡樂週五",
-"sc": "欢乐周五",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 5,
-"rating": 50,
-"lb": 111.0,
-"no": 9,
-"draw": 6,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-t-h-koh",
-"trainer_uid": "t-richard-lim",
-"race_uid": "sin-2022-0717-第四班讓賽-1630",
-"entries": [
-{
-"no": 9,
-"draw": 6,
-"gear": "TT",
-"horse_uid": "nz-happy-friday",
-"jockey_uid": "j-t-h-koh",
-"trainer_uid": "t-richard-lim",
-"lb": 111.0,
-"claim": -2.0,
-"rating": 50,
-"sex": "G",
-"age": 5,
-"race_uid": "sin-2022-0717-第四班讓賽-1630"
-}
-]
-},
-{
-"uid": "nz-happy-moment",
-"names": {
-"original": "Happy Moment",
-"en": "Happy Moment",
-"hk": "美好時光",
-"sc": "美好时光",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 5,
-"rating": 70,
-"lb": 120.0,
-"no": 8,
-"draw": 5,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-benny-woodworth",
-"trainer_uid": "t-david-kok",
-"race_uid": "sin-2022-0717-第三班讓賽",
-"entries": [
-{
-"no": 8,
-"draw": 5,
-"gear": "TT",
-"horse_uid": "nz-happy-moment",
-"jockey_uid": "j-benny-woodworth",
-"trainer_uid": "t-david-kok",
-"lb": 120.0,
-"claim": null,
-"rating": 70,
-"sex": "G",
-"age": 5,
-"race_uid": "sin-2022-0717-第三班讓賽"
-}
-]
-},
-{
-"uid": "nz-happy-saturday",
-"names": {
-"original": "Happy Saturday",
-"en": "Happy Saturday",
-"hk": "歡樂週六",
-"sc": "欢乐周六",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": 3,
-"rating": 48,
-"lb": 125.0,
-"no": 9,
-"draw": 16,
-"gear": "B",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-ismail-saifudin",
-"trainer_uid": "t-david-kok",
-"race_uid": "sin-2021-0522-初級賽",
-"entries": [
-{
-"no": 9,
-"draw": 16,
-"gear": "B",
-"horse_uid": "nz-happy-saturday",
-"jockey_uid": "j-ismail-saifudin",
-"trainer_uid": "t-david-kok",
-"lb": 125.0,
-"claim": null,
-"rating": 48,
-"sex": "G",
-"age": 3,
-"race_uid": "sin-2021-0522-初級賽"
-}
-]
-},
-{
-"uid": "nz-happy-vegetable",
-"names": {
-"original": "Happy Vegetable",
-"en": "Happy Vegetable",
-"hk": "開心蔬菜",
-"sc": "开心蔬菜",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2013,
-"color": null,
-"age": 5,
-"rating": 61,
-"lb": 126.0,
-"no": 14,
-"draw": 1,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-marcello-belli",
-"trainer_uid": "t-s-chow",
-"race_uid": "aus-2018-0304-主席挑戰盃-澳門一級賽",
-"entries": [
-{
-"no": 14,
-"draw": 1,
-"gear": "TT",
-"horse_uid": "nz-happy-vegetable",
-"jockey_uid": "j-marcello-belli",
-"trainer_uid": "t-s-chow",
-"lb": 126.0,
-"claim": null,
-"rating": 61,
-"sex": "G",
-"age": 5,
-"race_uid": "aus-2018-0304-主席挑戰盃-澳門一級賽"
-}
-]
-},
-{
-"uid": "nz-hard-roca",
-"names": {
-"original": "Hard Roca",
-"en": "Hard Roca",
-"hk": "剛堅石",
-"sc": "刚坚石",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 3,
-"rating": null,
-"lb": 126.0,
-"no": 16,
-"draw": 16,
-"gear": "B/TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-tbc",
-"trainer_uid": "t-andrew-forsman",
-"race_uid": "aus-2025-0308-奇偉錦標-表列賽",
-"entries": [
-{
-"no": 16,
-"draw": 16,
-"gear": "B/TT",
-"horse_uid": "nz-hard-roca",
-"jockey_uid": "j-tbc",
-"trainer_uid": "t-andrew-forsman",
-"lb": 126.0,
-"claim": null,
-"rating": null,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2025-0308-奇偉錦標-表列賽"
-}
-]
-},
-{
-"uid": "nz-hardcore",
-"names": {
-"original": "Hardcore",
-"en": "Hardcore",
-"hk": "貨真價實",
-"sc": "货真价实",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2016,
-"color": null,
-"age": 3,
-"rating": 58,
-"lb": 126.0,
-"no": 13,
-"draw": 13,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-kasim-a-isisuhairi",
-"trainer_uid": "t-clifford-brown",
-"race_uid": "sin-2019-0525-新加坡堅尼-新加坡一級賽",
-"entries": [
-{
-"no": 13,
-"draw": 13,
-"gear": null,
-"horse_uid": "nz-hardcore",
-"jockey_uid": "j-kasim-a-isisuhairi",
-"trainer_uid": "t-clifford-brown",
-"lb": 126.0,
-"claim": null,
-"rating": 58,
-"sex": "G",
-"age": 3,
-"race_uid": "sin-2019-0525-新加坡堅尼-新加坡一級賽"
-},
-{
-"no": 2,
-"draw": 11,
-"gear": null,
-"horse_uid": "nz-hardcore",
-"jockey_uid": "j-michael-rodd",
-"trainer_uid": "t-clifford-brown",
-"lb": 127.0,
-"claim": null,
-"rating": 64,
-"sex": "G",
-"age": 4,
-"race_uid": "sin-2019-1110-第四班讓賽-1800"
-},
-{
-"no": 8,
-"draw": 5,
-"gear": null,
-"horse_uid": "nz-hardcore",
-"jockey_uid": "j-matthew-kellady",
-"trainer_uid": "t-shane-baertschiger",
-"lb": 116.0,
-"claim": null,
-"rating": 76,
-"sex": "G",
-"age": 5,
-"race_uid": "sin-2021-0522-克蘭芝a級賽"
-},
-{
-"no": 7,
-"draw": 5,
-"gear": "CP1",
-"horse_uid": "nz-hardcore",
-"jockey_uid": "j-matthew-kellady",
-"trainer_uid": "t-shane-baertschiger",
-"lb": 119.0,
-"claim": null,
-"rating": 57,
-"sex": "G",
-"age": 7,
-"race_uid": "sin-2023-0723-第四班讓賽-1505"
-}
-]
-},
-{
-"uid": "nz-harlow-mist",
-"names": {
-"original": "Harlow Mist",
-"en": "Harlow Mist",
-"hk": "霧中城",
-"sc": "雾中城",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 3,
-"rating": 94,
-"lb": 121.0,
-"no": 4,
-"draw": 1,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-blake-shinn",
-"trainer_uid": "t-john-sargent",
-"race_uid": "aus-2023-1104-威風錦標",
-"entries": [
-{
-"no": 4,
-"draw": 1,
-"gear": null,
-"horse_uid": "nz-harlow-mist",
-"jockey_uid": "j-blake-shinn",
-"trainer_uid": "t-john-sargent",
-"lb": 121.0,
-"claim": null,
-"rating": 94,
-"sex": "F",
-"age": 3,
-"race_uid": "aus-2023-1104-威風錦標"
-},
-{
-"no": 2,
-"draw": 21,
-"gear": null,
-"horse_uid": "nz-harlow-mist",
-"jockey_uid": "j-reece-jones",
-"trainer_uid": "t-john-sargent",
-"lb": 122.0,
-"claim": null,
-"rating": 75,
-"sex": "F",
-"age": 3,
-"race_uid": "aus-2024-0406-羅克斯錦標"
-}
-]
-},
-{
-"uid": "nz-harvey-wallbanger",
-"names": {
-"original": "Harvey Wallbanger",
-"en": "Harvey Wallbanger",
-"hk": "風行調酒",
-"sc": "风行调酒",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2024,
-"color": null,
-"age": 2,
-"rating": 69,
-"lb": 126.0,
-"no": 2,
-"draw": 10,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-michael-mcnab",
-"trainer_uid": "t-tony-pike",
-"race_uid": "aus-2026-0307-系統錦標",
-"entries": [
-{
-"no": 2,
-"draw": 10,
-"gear": null,
-"horse_uid": "nz-harvey-wallbanger",
-"jockey_uid": "j-michael-mcnab",
-"trainer_uid": "t-tony-pike",
-"lb": 126.0,
-"claim": null,
-"rating": 69,
-"sex": "G",
-"age": 2,
-"race_uid": "aus-2026-0307-系統錦標"
-}
-]
-},
-{
-"uid": "nz-he-s-lucid",
-"names": {
-"original": "He's Lucid",
-"en": "He's Lucid",
-"hk": "清楚明瞭",
-"sc": "清楚明了",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 3,
-"rating": 103,
-"lb": 126.0,
-"no": 2,
-"draw": 5,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-kelly-myers",
-"trainer_uid": "t-kevin-myers",
-"race_uid": "aus-2025-0125-卡拉卡百萬三歲馬大賽-表列賽",
-"entries": [
-{
-"no": 2,
-"draw": 5,
-"gear": null,
-"horse_uid": "nz-he-s-lucid",
-"jockey_uid": "j-kelly-myers",
-"trainer_uid": "t-kevin-myers",
-"lb": 126.0,
-"claim": null,
-"rating": 103,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2025-0125-卡拉卡百萬三歲馬大賽-表列賽"
-}
-]
-},
-{
-"uid": "nz-he-s-our-rokkii",
-"names": {
-"original": "He's Our Rokkii",
-"en": "He's Our Rokkii",
-"hk": "他山之石",
-"sc": "他山之石",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2012,
-"color": null,
-"age": 5,
-"rating": 103,
-"lb": 119.0,
-"no": 5,
-"draw": 15,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-luke-nolen",
-"trainer_uid": "t-david-b-hayes-t-dabernig",
-"race_uid": "aus-2017-1021-考菲爾德盃",
-"entries": [
-{
-"no": 5,
-"draw": 15,
-"gear": null,
-"horse_uid": "nz-he-s-our-rokkii",
-"jockey_uid": "j-luke-nolen",
-"trainer_uid": "t-david-b-hayes-t-dabernig",
-"lb": 119.0,
-"claim": null,
-"rating": 103,
-"sex": "G",
-"age": 5,
-"race_uid": "aus-2017-1021-考菲爾德盃"
-},
-{
-"no": 4,
-"draw": 5,
-"gear": "B",
-"horse_uid": "nz-he-s-our-rokkii",
-"jockey_uid": "j-dwayne-dunn",
-"trainer_uid": "t-david-b-hayes-t-dabernig",
-"lb": 118.0,
-"claim": null,
-"rating": 106,
-"sex": "G",
-"age": 5,
-"race_uid": "gb-2017-0930-葉森讓賽"
-}
-]
-},
-{
-"uid": "nz-he-who-dares",
-"names": {
-"original": "He Who Dares",
-"en": "He Who Dares",
-"hk": "敢勇建功",
-"sc": "敢勇建功",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2023,
-"color": null,
-"age": 3,
-"rating": 109,
-"lb": 126.0,
-"no": 3,
-"draw": 4,
-"gear": "B/XB/TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-opie-bosson",
-"trainer_uid": "t-m-walker-s-bergerson",
-"race_uid": "aus-2026-0124-卡拉卡百萬三歲馬大賽-表列賽",
-"entries": [
-{
-"no": 3,
-"draw": 4,
-"gear": "B/XB/TT",
-"horse_uid": "nz-he-who-dares",
-"jockey_uid": "j-opie-bosson",
-"trainer_uid": "t-m-walker-s-bergerson",
-"lb": 126.0,
-"claim": null,
-"rating": 109,
-"sex": "M",
-"age": 3,
-"race_uid": "aus-2026-0124-卡拉卡百萬三歲馬大賽-表列賽"
-},
-{
-"no": 8,
-"draw": 13,
-"gear": "B-/V1/XB/TT",
-"horse_uid": "nz-he-who-dares",
-"jockey_uid": "j-opie-bosson",
-"trainer_uid": "t-m-walker-s-bergerson",
-"lb": 126.0,
-"claim": null,
-"rating": 109,
-"sex": "M",
-"age": 3,
-"race_uid": "aus-2026-0307-奇偉錦標-表列賽"
-}
-]
-},
-{
-"uid": "nz-healthy-star",
-"names": {
-"original": "Healthy Star",
-"en": "Healthy Star",
-"hk": "健康之星",
-"sc": "健康之星",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 4,
-"rating": 51,
-"lb": 112.0,
-"no": 10,
-"draw": 6,
-"gear": "B-",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-kasim-a-isisuhairi",
-"trainer_uid": "t-james-peters",
-"race_uid": "sin-2021-0522-第四班讓賽",
-"entries": [
-{
-"no": 10,
-"draw": 6,
-"gear": "B-",
-"horse_uid": "nz-healthy-star",
-"jockey_uid": "j-kasim-a-isisuhairi",
-"trainer_uid": "t-james-peters",
-"lb": 112.0,
-"claim": null,
-"rating": 51,
-"sex": "G",
-"age": 4,
-"race_uid": "sin-2021-0522-第四班讓賽"
-}
-]
-},
-{
-"uid": "nz-heartening-flyer",
-"names": {
-"original": "Heartening Flyer",
-"en": "Heartening Flyer",
-"hk": "鼓舞飛揚",
-"sc": "鼓舞飞扬",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 5,
-"rating": 87,
-"lb": 126.0,
-"no": 14,
-"draw": 14,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-saleh-shafrizal",
-"trainer_uid": "t-michael-clements",
-"race_uid": "sin-2022-0521-克蘭芝一哩賽",
-"entries": [
-{
-"no": 14,
-"draw": 14,
-"gear": null,
-"horse_uid": "nz-heartening-flyer",
-"jockey_uid": "j-saleh-shafrizal",
-"trainer_uid": "t-michael-clements",
-"lb": 126.0,
-"claim": -2.0,
-"rating": 87,
-"sex": "G",
-"age": 5,
-"race_uid": "sin-2022-0521-克蘭芝一哩賽"
-}
-]
-},
-{
-"uid": "nz-heartlight",
-"names": {
-"original": "Heartlight",
-"en": "Heartlight",
-"hk": "心燈",
-"sc": "心灯",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2015,
-"color": null,
-"age": 4,
-"rating": 51,
-"lb": 115.0,
-"no": 11,
-"draw": 15,
-"gear": "CP",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-zulkifli-zuriman",
-"trainer_uid": "t-leslie-khoo",
-"race_uid": "sin-2019-0525-第四班讓賽",
-"entries": [
-{
-"no": 11,
-"draw": 15,
-"gear": "CP",
-"horse_uid": "nz-heartlight",
-"jockey_uid": "j-zulkifli-zuriman",
-"trainer_uid": "t-leslie-khoo",
-"lb": 115.0,
-"claim": -2.0,
-"rating": 51,
-"sex": "G",
-"age": 4,
-"race_uid": "sin-2019-0525-第四班讓賽"
-}
-]
-},
-{
-"uid": "nz-heavenly-dancer",
-"names": {
-"original": "Heavenly Dancer",
-"en": "Heavenly Dancer",
-"hk": "飛天舞者",
-"sc": "飞天舞者",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 4,
-"rating": 65,
-"lb": 128.0,
-"no": 3,
-"draw": 10,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-vladimir-duric",
-"trainer_uid": "t-stephen-gray",
-"race_uid": "sin-2020-1121-第四班讓賽-1330",
-"entries": [
-{
-"no": 3,
-"draw": 10,
-"gear": null,
-"horse_uid": "nz-heavenly-dancer",
-"jockey_uid": "j-vladimir-duric",
-"trainer_uid": "t-stephen-gray",
-"lb": 128.0,
-"claim": null,
-"rating": 65,
-"sex": "G",
-"age": 4,
-"race_uid": "sin-2020-1121-第四班讓賽-1330"
-},
-{
-"no": 1,
-"draw": 1,
-"gear": "B1",
-"horse_uid": "nz-heavenly-dancer",
-"jockey_uid": "j-vladimir-duric",
-"trainer_uid": "t-stephen-gray",
-"lb": 129.0,
-"claim": null,
-"rating": 66,
-"sex": "G",
-"age": 4,
-"race_uid": "sin-2021-0522-第四班讓賽-1330"
-},
-{
-"no": 7,
-"draw": 3,
-"gear": null,
-"horse_uid": "nz-heavenly-dancer",
-"jockey_uid": "j-c-c-wong",
-"trainer_uid": "t-stephen-gray",
-"lb": 118.0,
-"claim": null,
-"rating": 56,
-"sex": "G",
-"age": 5,
-"race_uid": "sin-2022-0521-第四班讓賽-1430"
-}
-]
-},
-{
-"uid": "nz-heavenly-emperor",
-"names": {
-"original": "Heavenly Emperor",
-"en": "Heavenly Emperor",
-"hk": "天帝",
-"sc": "天帝",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2015,
-"color": null,
-"age": 5,
-"rating": 82,
-"lb": 123.0,
-"no": 8,
-"draw": 12,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-stephen-brown",
-"race_uid": "aus-2020-1103-指標評分90讓賽",
-"entries": [
-{
-"no": 8,
-"draw": 12,
-"gear": null,
-"horse_uid": "nz-heavenly-emperor",
-"jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-stephen-brown",
-"lb": 123.0,
-"claim": null,
-"rating": 82,
-"sex": "G",
-"age": 5,
-"race_uid": "aus-2020-1103-指標評分90讓賽"
-}
-]
-},
-{
-"uid": "nz-hello-daddy",
-"names": {
-"original": "HELLO DADDY",
-"en": "HELLO DADDY",
-"hk": "HELLO DADDY (NZ)",
-"sc": "HELLO DADDY (NZ)",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": null,
-"sex_cn": "",
-"birth_date": null,
-"birth_year": null,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": null,
-"race_uid": "hkjc-2020-寶馬香港打吡大賽2020",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "nz-hello-daddy",
-"jockey_uid": null,
-"trainer_uid": null,
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "hkjc-2020-寶馬香港打吡大賽2020"
-}
-]
-},
-{
-"uid": "nz-hello-romeo",
-"names": {
-"original": "Hello Romeo",
-"en": "Hello Romeo",
-"hk": "哈囉壯男",
-"sc": "哈啰壮男",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2023,
-"color": null,
-"age": 2,
-"rating": null,
-"lb": 126.0,
-"no": 5,
-"draw": 7,
-"gear": "CP1",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-matthew-cartwright",
-"trainer_uid": "t-ben-will-jd-hayes",
-"race_uid": "aus-2025-0125-卡拉卡百萬兩歲馬大賽-表列賽",
-"entries": [
-{
-"no": 5,
-"draw": 7,
-"gear": "CP1",
-"horse_uid": "nz-hello-romeo",
-"jockey_uid": "j-matthew-cartwright",
-"trainer_uid": "t-ben-will-jd-hayes",
-"lb": 126.0,
-"claim": null,
-"rating": null,
-"sex": "M",
-"age": 2,
-"race_uid": "aus-2025-0125-卡拉卡百萬兩歲馬大賽-表列賽"
-}
-]
-},
-{
-"uid": "nz-here-to-shock",
-"names": {
-"original": "Here To Shock",
-"en": "Here To Shock",
-"hk": "撼天震地",
-"sc": "撼天震地",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 6,
-"rating": 98,
-"lb": 120.0,
-"no": 10,
-"draw": 4,
-"gear": "H",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-ben-will-jd-hayes",
-"race_uid": "aus-2023-1104-林里斯高錦標",
-"entries": [
-{
-"no": 10,
-"draw": 4,
-"gear": "H",
-"horse_uid": "nz-here-to-shock",
-"jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-ben-will-jd-hayes",
-"lb": 120.0,
-"claim": null,
-"rating": 98,
-"sex": "G",
-"age": 6,
-"race_uid": "aus-2023-1104-林里斯高錦標"
-},
-{
-"no": 7,
-"draw": 1,
-"gear": "H",
-"horse_uid": "nz-here-to-shock",
-"jockey_uid": "j-regan-bayliss",
-"trainer_uid": "t-ben-will-jd-hayes",
-"lb": 117.0,
-"claim": null,
-"rating": 106,
-"sex": "G",
-"age": 6,
-"race_uid": "aus-2024-0615-史德布克讓賽"
-},
-{
-"no": 2,
-"draw": 2,
-"gear": "H",
-"horse_uid": "nz-here-to-shock",
-"jockey_uid": "j-nash-rawiller",
-"trainer_uid": "t-ben-will-jd-hayes",
-"lb": 130.0,
-"claim": null,
-"rating": 115,
-"sex": "G",
-"age": 7,
-"race_uid": "aus-2025-0308-肯德百里錦標"
-},
-{
-"no": 6,
-"draw": 10,
-"gear": "H",
-"horse_uid": "nz-here-to-shock",
-"jockey_uid": "j-daniel-stackhouse",
-"trainer_uid": "t-ben-will-jd-hayes",
-"lb": 122.0,
-"claim": null,
-"rating": 110,
-"sex": "G",
-"age": 9,
-"race_uid": "aus-2026-1031-岳禮華錦標"
-}
-]
-},
-{
-"uid": "nz-hezashocka",
-"names": {
-"original": "Hezashocka",
-"en": "Hezashocka",
-"hk": "稀世震撼",
-"sc": "稀世震撼",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 6,
-"rating": 109,
-"lb": 130.0,
-"no": 13,
-"draw": 1,
-"gear": "XB",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-chad-schofield",
-"trainer_uid": "t-m-price-m-kent-jnr",
-"race_uid": "aus-2024-0615-香港賽馬會全球匯合彩池昆士蘭二千二錦標",
-"entries": [
-{
-"no": 13,
-"draw": 1,
-"gear": "XB",
-"horse_uid": "nz-hezashocka",
-"jockey_uid": "j-chad-schofield",
-"trainer_uid": "t-m-price-m-kent-jnr",
-"lb": 130.0,
-"claim": null,
-"rating": 109,
-"sex": "G",
-"age": 6,
-"race_uid": "aus-2024-0615-香港賽馬會全球匯合彩池昆士蘭二千二錦標"
-},
-{
-"no": 3,
-"draw": 4,
-"gear": "XB",
-"horse_uid": "nz-hezashocka",
-"jockey_uid": "j-jamie-melham",
-"trainer_uid": "t-m-price-m-kent-jnr",
-"lb": 130.0,
-"claim": null,
-"rating": 105,
-"sex": "G",
-"age": 8,
-"race_uid": "aus-2025-1011-考菲爾德錦標"
-},
-{
-"no": 8,
-"draw": 8,
-"gear": "XB",
-"horse_uid": "nz-hezashocka",
-"jockey_uid": "j-jordan-childs",
-"trainer_uid": "t-m-price-m-kent-jnr",
-"lb": 125.0,
-"claim": null,
-"rating": 103,
-"sex": "G",
-"age": 8,
-"race_uid": "aus-2025-1108-女皇伊利沙伯錦標"
-},
-{
-"no": 11,
-"draw": 1,
-"gear": "XB",
-"horse_uid": "nz-hezashocka",
-"jockey_uid": "j-brenton-avdulla",
-"trainer_uid": "t-m-price-m-kent-jnr",
-"lb": 130.0,
-"claim": null,
-"rating": 117,
-"sex": "G",
-"age": 5,
-"race_uid": "jra-2023-0408-女皇伊利沙伯錦標"
-}
-]
-},
-{
-"uid": "nz-high-dandy",
-"names": {
-"original": "High Dandy",
-"en": "High Dandy",
-"hk": "高大型男",
-"sc": "高大型男",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 3,
-"rating": 85,
-"lb": 123.0,
-"no": 23,
-"draw": 15,
-"gear": "B/TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-tbc",
-"trainer_uid": "t-brad-widdup",
-"race_uid": "aus-2024-0406-香港賽馬會全球匯合彩池卡賓會錦標",
-"entries": [
-{
-"no": 23,
-"draw": 15,
-"gear": "B/TT",
-"horse_uid": "nz-high-dandy",
-"jockey_uid": "j-tbc",
-"trainer_uid": "t-brad-widdup",
-"lb": 123.0,
-"claim": null,
-"rating": 85,
-"sex": "M",
-"age": 3,
-"race_uid": "aus-2024-0406-香港賽馬會全球匯合彩池卡賓會錦標"
-}
-]
-},
-{
-"uid": "nz-high-emocean",
-"names": {
-"original": "High Emocean",
-"en": "High Emocean",
-"hk": "情感海洋",
-"sc": "情感海洋",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2016,
-"color": null,
-"age": 6,
-"rating": 102,
-"lb": 110.0,
-"no": 22,
-"draw": 8,
-"gear": "B",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-teo-nugent",
-"trainer_uid": "t-ciaron-maher-david-eustace",
-"race_uid": "aus-2022-1101-墨爾本盃",
-"entries": [
-{
-"no": 22,
-"draw": 8,
-"gear": "B",
-"horse_uid": "nz-high-emocean",
-"jockey_uid": "j-teo-nugent",
-"trainer_uid": "t-ciaron-maher-david-eustace",
-"lb": 110.0,
-"claim": null,
-"rating": 102,
-"sex": "F",
-"age": 6,
-"race_uid": "aus-2022-1101-墨爾本盃"
-},
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "nz-high-emocean",
-"jockey_uid": null,
-"trainer_uid": "t-ciaron-maher-david-eustace",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "aus-2022-墨爾本盃"
-},
-{
-"no": 12,
-"draw": 19,
-"gear": "B",
-"horse_uid": "nz-high-emocean",
-"jockey_uid": "j-robbie-dolan",
-"trainer_uid": "t-c-maher-d-eustace",
-"lb": 112.0,
-"claim": null,
-"rating": 104,
-"sex": "F",
-"age": 6,
-"race_uid": "jra-2023-0408-悉尼盃"
-},
-{
-"no": 8,
-"draw": 19,
-"gear": "B2",
-"horse_uid": "nz-high-emocean",
-"jockey_uid": "j-harry-coffey",
-"trainer_uid": "t-c-maher-d-eustace",
-"lb": 125.0,
-"claim": null,
-"rating": 101,
-"sex": "F",
-"age": 7,
-"race_uid": "jra-2023-1007-甘明斯錦標"
-}
-]
-},
-{
-"uid": "nz-highgate",
-"names": {
-"original": "Highgate",
-"en": "Highgate",
-"hk": "海格特",
-"sc": "海格特",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2015,
-"color": null,
-"age": 4,
-"rating": 52,
-"lb": 113.0,
-"no": 7,
-"draw": 2,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-daniel-moor",
-"trainer_uid": "t-k-s-tan",
-"race_uid": "sin-2019-1110-第四班讓賽-1545",
-"entries": [
-{
-"no": 7,
-"draw": 2,
-"gear": null,
-"horse_uid": "nz-highgate",
-"jockey_uid": "j-daniel-moor",
-"trainer_uid": "t-k-s-tan",
-"lb": 113.0,
-"claim": null,
-"rating": 52,
-"sex": "G",
-"age": 4,
-"race_uid": "sin-2019-1110-第四班讓賽-1545"
-}
-]
-},
-{
-"uid": "nz-highland-jakk",
-"names": {
-"original": "Highland Jakk",
-"en": "Highland Jakk",
-"hk": "高地駿驥",
-"sc": "高地骏骥",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2016,
-"color": null,
-"age": 7,
-"rating": 86,
-"lb": 119.0,
-"no": 14,
-"draw": 14,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-teo-nugent",
-"trainer_uid": "t-robert-hickmott",
-"race_uid": "jra-2023-1007-全球匯合彩池巴黎巷錦標-表列賽",
-"entries": [
-{
-"no": 14,
-"draw": 14,
-"gear": null,
-"horse_uid": "nz-highland-jakk",
-"jockey_uid": "j-teo-nugent",
-"trainer_uid": "t-robert-hickmott",
-"lb": 119.0,
-"claim": null,
-"rating": 86,
-"sex": "G",
-"age": 7,
-"race_uid": "jra-2023-1007-全球匯合彩池巴黎巷錦標-表列賽"
-}
-]
-},
-{
-"uid": "nz-hinekaha",
-"names": {
-"original": "Hinekaha",
-"en": "Hinekaha",
-"hk": "鐵娘子",
-"sc": "铁娘子",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 4,
-"rating": 93,
-"lb": 122.0,
-"no": 9,
-"draw": 4,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-craig-grylls",
-"trainer_uid": "t-andrew-forsman",
-"race_uid": "aus-2026-0124-奧特亞羅經典賽",
-"entries": [
-{
-"no": 9,
-"draw": 4,
-"gear": null,
-"horse_uid": "nz-hinekaha",
-"jockey_uid": "j-craig-grylls",
-"trainer_uid": "t-andrew-forsman",
-"lb": 122.0,
-"claim": null,
-"rating": 93,
-"sex": "F",
-"age": 4,
-"race_uid": "aus-2026-0124-奧特亞羅經典賽"
-}
-]
-},
-{
-"uid": "nz-hit-the-road-jack",
-"names": {
-"original": "Hit The Road Jack",
-"en": "Hit The Road Jack",
-"hk": "阿積啟程",
-"sc": "阿积启程",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2016,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-symon-wilde",
-"race_uid": "aus-2024-1102-指標評分96讓賽及墨爾本盃",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "nz-hit-the-road-jack",
-"jockey_uid": null,
-"trainer_uid": "t-symon-wilde",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "aus-2024-1102-指標評分96讓賽及墨爾本盃"
-},
-{
-"no": 1,
-"draw": 16,
-"gear": "CP",
-"horse_uid": "nz-hit-the-road-jack",
-"jockey_uid": "j-blake-shinn",
-"trainer_uid": "t-symon-wilde",
-"lb": 130.0,
-"claim": null,
-"rating": 94,
-"sex": "G",
-"age": 8,
-"race_uid": "aus-2024-1105-指標評分96讓賽"
-}
-]
-},
-{
-"uid": "nz-hollywood-hero",
-"names": {
-"original": "Hollywood Hero",
-"en": "Hollywood Hero",
-"hk": "影壇大俠",
-"sc": "影坛大侠",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2019,
-"color": null,
-"age": 6,
-"rating": 86,
-"lb": 130.0,
-"no": 6,
-"draw": 14,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-ashley-morgan",
-"trainer_uid": "t-bjorn-baker",
-"race_uid": "aus-2025-1018-香港賽馬會全球匯合彩池讓賽",
-"entries": [
-{
-"no": 6,
-"draw": 14,
-"gear": null,
-"horse_uid": "nz-hollywood-hero",
-"jockey_uid": "j-ashley-morgan",
-"trainer_uid": "t-bjorn-baker",
-"lb": 130.0,
-"claim": null,
-"rating": 86,
-"sex": "G",
-"age": 6,
-"race_uid": "aus-2025-1018-香港賽馬會全球匯合彩池讓賽"
-}
-]
-},
-{
-"uid": "nz-holy-racket",
-"names": {
-"original": "Holy Racket",
-"en": "Holy Racket",
-"hk": "聖明巨利",
-"sc": "圣明巨利",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2020,
-"color": null,
-"age": 3,
-"rating": 66,
-"lb": 126.0,
-"no": 7,
-"draw": 5,
-"gear": "CP",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-craig-williams",
-"trainer_uid": "t-allan-jason-williams",
-"race_uid": "aus-2023-1107-玉泉碟",
-"entries": [
-{
-"no": 7,
-"draw": 5,
-"gear": "CP",
-"horse_uid": "nz-holy-racket",
-"jockey_uid": "j-craig-williams",
-"trainer_uid": "t-allan-jason-williams",
-"lb": 126.0,
-"claim": null,
-"rating": 66,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2023-1107-玉泉碟"
-}
-]
-},
-{
-"uid": "nz-holymanz",
-"names": {
-"original": "Holymanz",
-"en": "Holymanz",
-"hk": "好猛",
-"sc": "好猛",
-"own": null,
-"alias": []
-},
-"origin": "NZL",
-"country": "新西兰",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2019,
-"color": null,
-"age": 3,
-"rating": 97,
-"lb": 123.0,
-"no": 13,
-"draw": 5,
-"gear": "TT1",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-john-allen",
-"trainer_uid": "t-c-maher-d-eustace",
-"race_uid": "aus-2023-0218-哥連希斯錦標",
-"entries": [
-{
-"no": 13,
-"draw": 5,
-"gear": "TT1",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-john-allen",
-"trainer_uid": "t-c-maher-d-eustace",
-"lb": 123.0,
-"claim": null,
-"rating": 97,
-"sex": "G",
-"age": 3,
-"race_uid": "aus-2023-0218-哥連希斯錦標"
-},
-{
-"no": 9,
-"draw": 19,
-"gear": "TT",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-tbc",
-"trainer_uid": "t-c-maher-d-eustace",
-"lb": 131.0,
-"claim": null,
-"rating": 77,
-"sex": "G",
-"age": 4,
-"race_uid": "aus-2023-1014-全球匯合彩池讓賽"
-},
-{
-"no": 7,
-"draw": 9,
-"gear": "TT",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-ben-melham",
-"trainer_uid": "t-ciaron-maher",
-"lb": 123.0,
-"claim": null,
-"rating": 105,
-"sex": "G",
-"age": 6,
-"race_uid": "aus-2025-1101-岳禮華錦標"
-},
-{
-"no": 6,
-"draw": 1,
-"gear": "TT",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-ben-allen",
-"trainer_uid": "t-ciaron-maher",
-"lb": 123.0,
-"claim": null,
-"rating": 105,
-"sex": "G",
-"age": 6,
-"race_uid": "aus-2026-0228-布林美錦標"
-},
-{
-"no": 7,
-"draw": 10,
-"gear": "TT",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-ciaron-maher",
-"lb": 125.0,
-"claim": null,
-"rating": 100,
-"sex": "G",
-"age": 7,
-"race_uid": "aus-2026-1010-週末商販錦標-表列賽"
-},
-{
-"no": 14,
-"draw": 9,
-"gear": "TT",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-jabez-johnstone",
-"trainer_uid": "t-ciaron-maher",
-"lb": 117.0,
-"claim": null,
-"rating": 101,
-"sex": "G",
-"age": 7,
-"race_uid": "aus-2026-1031-岳禮華錦標"
-},
-{
-"no": 6,
-"draw": 16,
-"gear": "TT",
-"horse_uid": "nz-holymanz",
-"jockey_uid": "j-ethan-brown",
-"trainer_uid": "t-ciaron-maher",
-"lb": 125.0,
-"claim": null,
-"rating": 100,
-"sex": "G",
-"age": 7,
-"race_uid": "jra-2026-1003-香港賽馬會全球匯合彩池巴黎巷錦標-表列賽"
-}
-]
-},
 {
 "uid": "nz-hooligan-tommy",
 "names": {
@@ -1850,7 +14,8 @@
 "hk": "狂熱湯美",
 "sc": "狂热汤美",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -1896,7 +61,8 @@
 "hk": "驚天地",
 "sc": "惊天地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -1942,7 +108,8 @@
 "hk": "浩勝盈輝",
 "sc": "浩胜盈辉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -1988,7 +155,8 @@
 "hk": "洋洋得意",
 "sc": "洋洋得意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2048,7 +216,8 @@
 "hk": "貴族院",
 "sc": "贵族院",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2108,7 +277,8 @@
 "hk": "胡卡之鷹",
 "sc": "胡卡之鹰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2154,7 +324,8 @@
 "hk": "保濕器",
 "sc": "保湿器",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2256,7 +427,8 @@
 "hk": "快辣味",
 "sc": "快辣味",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2316,7 +488,8 @@
 "hk": "海德公園",
 "sc": "海德公园",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2404,7 +577,8 @@
 "hk": "誇張法",
 "sc": "夸张法",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2464,7 +638,8 @@
 "hk": "凱璇駒",
 "sc": "凯璇驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2524,7 +699,8 @@
 "hk": "晶亮星",
 "sc": "晶亮星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2584,7 +760,8 @@
 "hk": "無影豹",
 "sc": "无影豹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2630,7 +807,8 @@
 "hk": "征服者",
 "sc": "征服者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2690,7 +868,8 @@
 "hk": "高度震撼",
 "sc": "高度震撼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2709,7 +888,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-hugh-bowman",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "race_uid": "aus-2022-0402-唐加士打一哩賽",
 "entries": [
 {
@@ -2718,7 +897,7 @@
 "gear": "BO/XB",
 "horse_uid": "nz-i-m-thunderstruck",
 "jockey_uid": "j-hugh-bowman",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": 122.0,
 "claim": null,
 "rating": 113,
@@ -2732,7 +911,7 @@
 "gear": "BO/XB",
 "horse_uid": "nz-i-m-thunderstruck",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": 130.0,
 "claim": null,
 "rating": 118,
@@ -2750,7 +929,8 @@
 "hk": "我到位",
 "sc": "我到位",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2796,7 +976,8 @@
 "hk": "勝願",
 "sc": "胜愿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -2912,7 +1093,8 @@
 "hk": "冰水浴",
 "sc": "冰水浴",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3000,7 +1182,8 @@
 "hk": "戰駒文妮",
 "sc": "战驹文妮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3046,7 +1229,8 @@
 "hk": "臨場氣勢",
 "sc": "临场气势",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3120,7 +1304,8 @@
 "hk": "成銘",
 "sc": "成铭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3180,7 +1365,8 @@
 "hk": "擁帝制",
 "sc": "拥帝制",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3254,7 +1440,8 @@
 "hk": "望外之喜",
 "sc": "望外之喜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3314,7 +1501,8 @@
 "hk": "百尺竿頭",
 "sc": "百尺竿头",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3374,7 +1562,8 @@
 "hk": "好事將近",
 "sc": "好事将近",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3420,7 +1609,8 @@
 "hk": "高深莫測",
 "sc": "高深莫测",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3439,7 +1629,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-ben-allen",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "race_uid": "aus-2023-1028-殷利旗錦標-表列賽",
 "entries": [
 {
@@ -3448,7 +1638,7 @@
 "gear": "XB1/TT1",
 "horse_uid": "nz-indefinite",
 "jockey_uid": "j-ben-allen",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 128.0,
 "claim": null,
 "rating": null,
@@ -3466,7 +1656,8 @@
 "hk": "步兵團",
 "sc": "步兵团",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3512,7 +1703,8 @@
 "hk": "洞悉全局",
 "sc": "洞悉全局",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3558,7 +1750,8 @@
 "hk": "靈感嬌娃",
 "sc": "灵感娇娃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3618,7 +1811,8 @@
 "hk": "穿梭星際",
 "sc": "穿梭星际",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3664,7 +1858,8 @@
 "hk": "鐵面無私",
 "sc": "铁面无私",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3738,7 +1933,8 @@
 "hk": "河川彎彎",
 "sc": "河川弯弯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3784,7 +1980,8 @@
 "hk": "爭分",
 "sc": "争分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3844,7 +2041,8 @@
 "hk": "奔放舞者",
 "sc": "奔放舞者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3890,7 +2088,8 @@
 "hk": "最歡樂",
 "sc": "最欢乐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3936,7 +2135,8 @@
 "hk": "獵鷹一月",
 "sc": "猎鹰一月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -3982,7 +2182,8 @@
 "hk": "早得寶",
 "sc": "早得宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4084,7 +2285,8 @@
 "hk": "珍蓮多美",
 "sc": "珍莲多美",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4144,7 +2346,8 @@
 "hk": "珍蓮快走",
 "sc": "珍莲快走",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4246,7 +2449,8 @@
 "hk": "占美新星",
 "sc": "占美新星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4446,7 +2650,8 @@
 "hk": "怒漢尊尼",
 "sc": "怒汉尊尼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4492,7 +2697,8 @@
 "hk": "強威",
 "sc": "强威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4511,7 +2717,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "aus-2017-1104-維多利亞打吡",
 "entries": [
 {
@@ -4520,7 +2726,7 @@
 "gear": "B/TT",
 "horse_uid": "nz-johnny-vinko",
 "jockey_uid": "j-stephen-baster",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 122.0,
 "claim": null,
 "rating": 96,
@@ -4538,7 +2744,8 @@
 "hk": "藩王庶子",
 "sc": "藩王庶子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4584,7 +2791,8 @@
 "hk": "駿力帝",
 "sc": "骏力帝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4630,7 +2838,8 @@
 "hk": "叢林大亨",
 "sc": "丛林大亨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4649,7 +2858,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-luke-currie",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "race_uid": "aus-2021-1030-維多利亞打吡",
 "entries": [
 {
@@ -4658,7 +2867,7 @@
 "gear": null,
 "horse_uid": "nz-jungle-magnate",
 "jockey_uid": "j-luke-currie",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": 126.0,
 "claim": null,
 "rating": 102,
@@ -4676,7 +2885,8 @@
 "hk": "純姬",
 "sc": "纯姬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4722,7 +2932,8 @@
 "hk": "真是我",
 "sc": "真是我",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4768,7 +2979,8 @@
 "hk": "聰靈駿",
 "sc": "聪灵骏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4814,7 +3026,8 @@
 "hk": "駕到",
 "sc": "驾到",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4860,7 +3073,8 @@
 "hk": "真豁達",
 "sc": "真豁达",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4906,7 +3120,8 @@
 "hk": "明光",
 "sc": "明光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4952,7 +3167,8 @@
 "hk": "萬全之備",
 "sc": "万全之备",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -4998,7 +3214,8 @@
 "hk": "巨浪",
 "sc": "巨浪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5044,7 +3261,8 @@
 "hk": "嘉應高昇",
 "sc": "嘉应高升",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5063,7 +3281,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-zac-purton",
-"trainer_uid": "t-d-a-hayes",
+"trainer_uid": "t-david-hayes",
 "race_uid": "aus-2025-1018-珠穆朗瑪峰錦標",
 "entries": [
 {
@@ -5072,7 +3290,7 @@
 "gear": null,
 "horse_uid": "nz-ka-ying-rising",
 "jockey_uid": "j-zac-purton",
-"trainer_uid": "t-d-a-hayes",
+"trainer_uid": "t-david-hayes",
 "lb": 129.0,
 "claim": null,
 "rating": 126,
@@ -5104,7 +3322,8 @@
 "hk": "大熱海角",
 "sc": "大热海角",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5164,7 +3383,8 @@
 "hk": "腳踏風",
 "sc": "脚踏风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5238,7 +3458,8 @@
 "hk": "勁馬女",
 "sc": "劲马女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5284,7 +3505,8 @@
 "hk": "時機路易",
 "sc": "时机路易",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5330,7 +3552,8 @@
 "hk": "物理介子",
 "sc": "物理介子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5404,7 +3627,8 @@
 "hk": "夕映小島",
 "sc": "夕映小岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5450,7 +3674,8 @@
 "hk": "卡得思",
 "sc": "卡得思",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5496,7 +3721,8 @@
 "hk": "凱特使者",
 "sc": "凯特使者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5542,7 +3768,8 @@
 "hk": "豐容靚飾",
 "sc": "丰容靓饰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5588,7 +3815,8 @@
 "hk": "名賽場",
 "sc": "名赛场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5634,7 +3862,8 @@
 "hk": "創時尚",
 "sc": "创时尚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5680,7 +3909,8 @@
 "hk": "滿貫福星",
 "sc": "满贯福星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5740,7 +3970,8 @@
 "hk": "汗王放獵",
 "sc": "汗王放猎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5800,7 +4031,8 @@
 "hk": "步步唯盈",
 "sc": "步步唯盈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5846,7 +4078,8 @@
 "hk": "驕馬",
 "sc": "骄马",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5920,7 +4153,8 @@
 "hk": "創業王",
 "sc": "创业王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -5966,7 +4200,8 @@
 "hk": "城堡王",
 "sc": "城堡王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6012,7 +4247,8 @@
 "hk": "雷王",
 "sc": "雷王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6086,7 +4322,8 @@
 "hk": "好意親王",
 "sc": "好意亲王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6146,7 +4383,8 @@
 "hk": "不凡之人",
 "sc": "不凡之人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6192,7 +4430,8 @@
 "hk": "皇上出巡",
 "sc": "皇上出巡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6238,7 +4477,8 @@
 "hk": "聖旨到",
 "sc": "圣旨到",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6284,7 +4524,8 @@
 "hk": "健力驥",
 "sc": "健力骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6344,7 +4585,8 @@
 "hk": "勁威鷹",
 "sc": "劲威鹰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6362,7 +4604,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-matthew-cartwright",
+"jockey_uid": "j-matt-cartwright",
 "trainer_uid": "t-stephen-marsh",
 "race_uid": "aus-2025-0125-卡拉卡百萬三歲馬大賽-表列賽",
 "entries": [
@@ -6371,7 +4613,7 @@
 "draw": 4,
 "gear": "TT",
 "horse_uid": "nz-kiwi-skyhawk",
-"jockey_uid": "j-matthew-cartwright",
+"jockey_uid": "j-matt-cartwright",
 "trainer_uid": "t-stephen-marsh",
 "lb": 126.0,
 "claim": null,
@@ -6404,7 +4646,8 @@
 "hk": "傾力搏",
 "sc": "倾力搏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6423,7 +4666,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "race_uid": "aus-2025-1025-伊雲錦標",
 "entries": [
 {
@@ -6432,7 +4675,7 @@
 "gear": "V",
 "horse_uid": "nz-klabel",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 129.0,
 "claim": null,
 "rating": 96,
@@ -6446,7 +4689,7 @@
 "gear": "V",
 "horse_uid": "nz-klabel",
 "jockey_uid": "j-zac-spain",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 121.0,
 "claim": null,
 "rating": 103,
@@ -6460,7 +4703,7 @@
 "gear": "V",
 "horse_uid": "nz-klabel",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 128.0,
 "claim": null,
 "rating": 96,
@@ -6474,7 +4717,7 @@
 "gear": "V-/CP1",
 "horse_uid": "nz-klabel",
 "jockey_uid": "j-jett-stanley",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 120.0,
 "claim": null,
 "rating": 94,
@@ -6492,7 +4735,8 @@
 "hk": "麗碧浪",
 "sc": "丽碧浪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6538,7 +4782,8 @@
 "hk": "科靈港",
 "sc": "科灵港",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6598,7 +4843,8 @@
 "hk": "高快驥",
 "sc": "高快骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6840,7 +5086,8 @@
 "hk": "勁威王",
 "sc": "劲威王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6900,7 +5147,8 @@
 "hk": "海盜船長",
 "sc": "海盗船长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -6960,7 +5208,8 @@
 "hk": "蒼鷹飛",
 "sc": "苍鹰飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7020,7 +5269,8 @@
 "hk": "流星追月",
 "sc": "流星追月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7080,7 +5330,8 @@
 "hk": "麗灣",
 "sc": "丽湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7122,7 +5373,7 @@
 "gear": null,
 "horse_uid": "nz-la-crique",
 "jockey_uid": "j-matthew-cameron",
-"trainer_uid": "t-s-k-alexander",
+"trainer_uid": "t-simon-katrina-alexander",
 "lb": 126.0,
 "claim": null,
 "rating": 108,
@@ -7136,7 +5387,7 @@
 "gear": null,
 "horse_uid": "nz-la-crique",
 "jockey_uid": "j-michael-mcnab",
-"trainer_uid": "t-s-k-alexander",
+"trainer_uid": "t-simon-katrina-alexander",
 "lb": 126.0,
 "claim": null,
 "rating": 111,
@@ -7150,7 +5401,7 @@
 "gear": null,
 "horse_uid": "nz-la-crique",
 "jockey_uid": "j-nash-rawiller",
-"trainer_uid": "t-s-k-alexander",
+"trainer_uid": "t-simon-katrina-alexander",
 "lb": 126.0,
 "claim": null,
 "rating": 111,
@@ -7168,7 +5419,8 @@
 "hk": "河畔美鎮",
 "sc": "河畔美镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7242,7 +5494,8 @@
 "hk": "女性優先",
 "sc": "女性优先",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7288,7 +5541,8 @@
 "hk": "情場高手",
 "sc": "情场高手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7348,7 +5602,8 @@
 "hk": "萊瑞",
 "sc": "莱瑞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7422,7 +5677,8 @@
 "hk": "風味拉丁",
 "sc": "风味拉丁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7468,7 +5724,8 @@
 "hk": "蘿拉傳世",
 "sc": "萝拉传世",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7514,7 +5771,8 @@
 "hk": "港區小街",
 "sc": "港区小街",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7560,7 +5818,8 @@
 "hk": "第三代",
 "sc": "第三代",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7606,7 +5865,8 @@
 "hk": "頌精靈",
 "sc": "颂精灵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7652,7 +5912,8 @@
 "hk": "靈機一到",
 "sc": "灵机一到",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7726,7 +5987,8 @@
 "hk": "麗姬領先",
 "sc": "丽姬领先",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7856,7 +6118,8 @@
 "hk": "麗娃",
 "sc": "丽娃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7944,7 +6207,8 @@
 "hk": "醒獅勇心",
 "sc": "醒狮勇心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -7990,7 +6254,8 @@
 "hk": "飛飆",
 "sc": "飞飙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8036,7 +6301,8 @@
 "hk": "麗東來",
 "sc": "丽东来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8082,7 +6348,8 @@
 "hk": "自由神駒",
 "sc": "自由神驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8128,7 +6395,8 @@
 "hk": "一生受用",
 "sc": "一生受用",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8188,7 +6456,8 @@
 "hk": "山海妙域",
 "sc": "山海妙域",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8234,7 +6503,8 @@
 "hk": "紫丁花",
 "sc": "紫丁花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8280,7 +6550,8 @@
 "hk": "林家創世",
 "sc": "林家创世",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8340,7 +6611,8 @@
 "hk": "林家飛揚",
 "sc": "林家飞扬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8386,7 +6658,8 @@
 "hk": "林家魔術",
 "sc": "林家魔术",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8432,7 +6705,8 @@
 "hk": "林家高峰",
 "sc": "林家高峰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8492,7 +6766,8 @@
 "hk": "林家改革",
 "sc": "林家改革",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8538,7 +6813,8 @@
 "hk": "林家波紋",
 "sc": "林家波纹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8584,7 +6860,8 @@
 "hk": "林家神秘",
 "sc": "林家神秘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8630,7 +6907,8 @@
 "hk": "林家高昇",
 "sc": "林家高升",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8690,7 +6968,8 @@
 "hk": "限量版",
 "sc": "限量版",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8736,7 +7015,8 @@
 "hk": "林肯搖滾",
 "sc": "林肯摇滚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8755,7 +7035,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "race_uid": "aus-2025-1025-本中央競馬會盃",
 "entries": [
 {
@@ -8764,7 +7044,7 @@
 "gear": null,
 "horse_uid": "nz-lincoln-rocks",
 "jockey_uid": "j-craig-williams",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 119.0,
 "claim": null,
 "rating": null,
@@ -8782,7 +7062,8 @@
 "hk": "全能鐵衛",
 "sc": "全能铁卫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8894,7 +7175,7 @@
 "gear": null,
 "horse_uid": "nz-linebacker",
 "jockey_uid": null,
-"trainer_uid": "t-john-oshea-tom-charlton",
+"trainer_uid": "t-j-o-shea-t-charlton",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -8912,7 +7193,8 @@
 "hk": "獅吼震天",
 "sc": "狮吼震天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -8972,7 +7254,8 @@
 "hk": "樂迷盛典",
 "sc": "乐迷盛典",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9032,7 +7315,8 @@
 "hk": "龍虎",
 "sc": "龙虎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9092,7 +7376,8 @@
 "hk": "勁高飛",
 "sc": "劲高飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9138,7 +7423,8 @@
 "hk": "好來厲王",
 "sc": "好来厉王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9198,7 +7484,8 @@
 "hk": "關雲",
 "sc": "关云",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9272,7 +7559,8 @@
 "hk": "行如龍蛇",
 "sc": "行如龙蛇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9374,7 +7662,8 @@
 "hk": "闊爵士",
 "sc": "阔爵士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9434,7 +7723,8 @@
 "hk": "橫行直衝",
 "sc": "横行直冲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9453,7 +7743,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-john-oshea",
+"trainer_uid": "t-john-o-shea",
 "race_uid": "aus-2021-1014-珠穆朗瑪峰錦標及考菲爾德盃",
 "entries": [
 {
@@ -9462,7 +7752,7 @@
 "gear": null,
 "horse_uid": "nz-lost-and-running",
 "jockey_uid": null,
-"trainer_uid": "t-john-oshea",
+"trainer_uid": "t-john-o-shea",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9508,7 +7798,8 @@
 "hk": "絕地之爭",
 "sc": "绝地之争",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9554,7 +7845,8 @@
 "hk": "山巒風光",
 "sc": "山峦风光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9600,7 +7892,8 @@
 "hk": "幸運大師",
 "sc": "幸运大师",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9702,7 +7995,8 @@
 "hk": "幸運林肯",
 "sc": "幸运林肯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9748,7 +8042,8 @@
 "hk": "金鑽貴人",
 "sc": "金钻贵人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9767,7 +8062,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-k-c-leung",
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "race_uid": "jra-2025-短途馬錦標",
 "entries": [
 {
@@ -9776,7 +8071,7 @@
 "gear": "V",
 "horse_uid": "nz-lucky-sweynesse",
 "jockey_uid": "j-k-c-leung",
-"trainer_uid": "t-k-l-man",
+"trainer_uid": "t-manfred-man",
 "lb": 128.0,
 "claim": null,
 "rating": 118,
@@ -9794,7 +8089,8 @@
 "hk": "幸運金朝",
 "sc": "幸运金朝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9854,7 +8150,8 @@
 "hk": "衝天嬌",
 "sc": "冲天娇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9900,7 +8197,8 @@
 "hk": "里約露絲",
 "sc": "里约露丝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9946,7 +8244,8 @@
 "hk": "聯安小子",
 "sc": "联安小子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -9992,7 +8291,8 @@
 "hk": "皓月灣",
 "sc": "皓月湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10038,7 +8338,8 @@
 "hk": "月夜俠",
 "sc": "月夜侠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10098,7 +8399,8 @@
 "hk": "一雙一對",
 "sc": "一双一对",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10144,7 +8446,8 @@
 "hk": "心愛露兒",
 "sc": "心爱露儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10190,7 +8493,8 @@
 "hk": "滿笑聲",
 "sc": "满笑声",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10236,7 +8540,8 @@
 "hk": "防水外套",
 "sc": "防水外套",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10282,7 +8587,8 @@
 "hk": "可汗巨作",
 "sc": "可汗巨作",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10328,7 +8634,8 @@
 "hk": "神奇飛氈",
 "sc": "神奇飞毡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10388,7 +8695,8 @@
 "hk": "主舞台",
 "sc": "主舞台",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10407,7 +8715,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-michael-walker",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "aus-2017-1104-維多利亞打吡",
 "entries": [
 {
@@ -10416,7 +8724,7 @@
 "gear": "B",
 "horse_uid": "nz-main-stage",
 "jockey_uid": "j-michael-walker",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 122.0,
 "claim": null,
 "rating": 102,
@@ -10430,7 +8738,7 @@
 "gear": "B",
 "horse_uid": "nz-main-stage",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 125.0,
 "claim": null,
 "rating": 110,
@@ -10448,7 +8756,8 @@
 "hk": "路易之家",
 "sc": "路易之家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10494,7 +8803,8 @@
 "hk": "女皇陛下",
 "sc": "女皇陛下",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10554,7 +8864,8 @@
 "hk": "氣勢磅礴",
 "sc": "气势磅礴",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10614,7 +8925,8 @@
 "hk": "飆少校",
 "sc": "飙少校",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10669,7 +8981,7 @@
 "draw": 3,
 "gear": null,
 "horse_uid": "nz-major-beel",
-"jockey_uid": "j-louis-beuzelin",
+"jockey_uid": "j-louis-philippe-beuzelin",
 "trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 113.0,
 "claim": null,
@@ -10688,7 +9000,8 @@
 "hk": "夢碧藍",
 "sc": "梦碧蓝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10762,7 +9075,8 @@
 "hk": "法力大王",
 "sc": "法力大王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10808,7 +9122,8 @@
 "hk": "多功能",
 "sc": "多功能",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10854,7 +9169,8 @@
 "hk": "優雅勝門",
 "sc": "优雅胜门",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10900,7 +9216,8 @@
 "hk": "生意奇才",
 "sc": "生意奇才",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -10946,7 +9263,8 @@
 "hk": "名小說家",
 "sc": "名小说家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11048,7 +9366,8 @@
 "hk": "美艷仙",
 "sc": "美艳仙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11094,7 +9413,8 @@
 "hk": "高級玩家",
 "sc": "高级玩家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11154,7 +9474,8 @@
 "hk": "牽紅線",
 "sc": "牵红线",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11200,7 +9521,8 @@
 "hk": "獵鷹五月",
 "sc": "猎鹰五月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11246,7 +9568,8 @@
 "hk": "逸世出群",
 "sc": "逸世出群",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11292,7 +9615,8 @@
 "hk": "巨型爆炸",
 "sc": "巨型爆炸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11338,7 +9662,8 @@
 "hk": "旋律美人",
 "sc": "旋律美人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11398,7 +9723,8 @@
 "hk": "至機智",
 "sc": "至机智",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11444,7 +9770,8 @@
 "hk": "南冠星",
 "sc": "南冠星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11490,7 +9817,8 @@
 "hk": "邁阿美",
 "sc": "迈阿美",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11532,7 +9860,7 @@
 "gear": null,
 "horse_uid": "nz-miami-bound",
 "jockey_uid": null,
-"trainer_uid": "t-danny-obrien",
+"trainer_uid": "t-danny-o-brien",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11546,7 +9874,7 @@
 "gear": null,
 "horse_uid": "nz-miami-bound",
 "jockey_uid": null,
-"trainer_uid": "t-danny-obrien",
+"trainer_uid": "t-danny-o-brien",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11564,7 +9892,8 @@
 "hk": "夜擲鏢",
 "sc": "夜掷镖",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11610,7 +9939,8 @@
 "hk": "中宵篇",
 "sc": "中宵篇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11656,7 +9986,8 @@
 "hk": "妙富",
 "sc": "妙富",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11702,7 +10033,8 @@
 "hk": "武裝自己",
 "sc": "武装自己",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11874,7 +10206,8 @@
 "hk": "灰姑娘",
 "sc": "灰姑娘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11920,7 +10253,8 @@
 "hk": "正昭華",
 "sc": "正昭华",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -11966,7 +10300,8 @@
 "hk": "鐵志夢娜",
 "sc": "铁志梦娜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12012,7 +10347,8 @@
 "hk": "款款情深",
 "sc": "款款情深",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12058,7 +10394,8 @@
 "hk": "可靠姐",
 "sc": "可靠姐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12104,7 +10441,8 @@
 "hk": "摘星名花",
 "sc": "摘星名花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12150,7 +10488,8 @@
 "hk": "千奇少艾",
 "sc": "千奇少艾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12210,7 +10549,8 @@
 "hk": "跑者之冠",
 "sc": "跑者之冠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12270,7 +10610,8 @@
 "hk": "至寶",
 "sc": "至宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12344,7 +10685,8 @@
 "hk": "默里納",
 "sc": "默里纳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12390,7 +10732,8 @@
 "hk": "牌局財女",
 "sc": "牌局财女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12464,7 +10807,8 @@
 "hk": "蒙古元帥",
 "sc": "蒙古元帅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12510,7 +10854,8 @@
 "hk": "元太祖",
 "sc": "元太祖",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12556,7 +10901,8 @@
 "hk": "全壟斷",
 "sc": "全垄断",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12616,7 +10962,8 @@
 "hk": "妙月色",
 "sc": "妙月色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12662,7 +11009,8 @@
 "hk": "超越速",
 "sc": "超越速",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12764,7 +11112,8 @@
 "hk": "妙仙嬌",
 "sc": "妙仙娇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12824,7 +11173,8 @@
 "hk": "青苔谷",
 "sc": "青苔谷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12870,7 +11220,8 @@
 "hk": "志在炫耀",
 "sc": "志在炫耀",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -12889,7 +11240,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "race_uid": "aus-2026-0502-阿德雷得堅尼-表列賽",
 "entries": [
 {
@@ -12898,7 +11249,7 @@
 "gear": null,
 "horse_uid": "nz-mostly-for-show",
 "jockey_uid": "j-mark-zahra",
-"trainer_uid": "t-r-c-jolly",
+"trainer_uid": "t-richard-chantelle-jolly",
 "lb": 127.0,
 "claim": null,
 "rating": 71,
@@ -12916,7 +11267,8 @@
 "hk": "出走",
 "sc": "出走",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13018,7 +11370,8 @@
 "hk": "亞歷山羅",
 "sc": "亚历山罗",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13064,7 +11417,8 @@
 "hk": "樂觀派",
 "sc": "乐观派",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13306,7 +11660,8 @@
 "hk": "克林",
 "sc": "克林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13422,7 +11777,8 @@
 "hk": "柯林先生",
 "sc": "柯林先生",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13468,7 +11824,8 @@
 "hk": "篤佳駿",
 "sc": "笃佳骏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13528,7 +11885,8 @@
 "hk": "我的金庫",
 "sc": "我的金库",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13574,7 +11932,8 @@
 "hk": "福寶",
 "sc": "福宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13629,7 +11988,7 @@
 "draw": 8,
 "gear": null,
 "horse_uid": "nz-mr-hooper",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-james-peters",
 "lb": 120.0,
 "claim": null,
@@ -13662,7 +12021,8 @@
 "hk": "演奏名家",
 "sc": "演奏名家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13708,7 +12068,8 @@
 "hk": "馬厲",
 "sc": "马厉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13782,7 +12143,8 @@
 "hk": "喜事",
 "sc": "喜事",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13828,7 +12190,8 @@
 "hk": "默里菲",
 "sc": "默里菲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13902,7 +12265,8 @@
 "hk": "樂曲權威",
 "sc": "乐曲权威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -13948,7 +12312,8 @@
 "hk": "野馬悍勁",
 "sc": "野马悍劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14008,7 +12373,8 @@
 "hk": "山地秘境",
 "sc": "山地秘境",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14054,7 +12420,8 @@
 "hk": "馬天俠",
 "sc": "马天侠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14128,7 +12495,8 @@
 "hk": "我的老板",
 "sc": "我的老板",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14183,7 +12551,7 @@
 "draw": 3,
 "gear": "B",
 "horse_uid": "nz-my-boss",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-k-y-young",
 "lb": 121.0,
 "claim": null,
@@ -14216,7 +12584,8 @@
 "hk": "貴如寶鑽",
 "sc": "贵如宝钻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14262,7 +12631,8 @@
 "hk": "進士",
 "sc": "进士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14308,7 +12678,8 @@
 "hk": "心愛吊墜",
 "sc": "心爱吊坠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14354,7 +12725,8 @@
 "hk": "妙娜",
 "sc": "妙娜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14400,7 +12772,8 @@
 "hk": "遊客中心",
 "sc": "游客中心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14446,7 +12819,8 @@
 "hk": "麗華姿",
 "sc": "丽华姿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14492,7 +12866,8 @@
 "hk": "土生女孩",
 "sc": "土生女孩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14538,7 +12913,8 @@
 "hk": "天官",
 "sc": "天官",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14584,7 +12960,8 @@
 "hk": "海軍王",
 "sc": "海军王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14630,7 +13007,8 @@
 "hk": "海豹精英",
 "sc": "海豹精英",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14676,7 +13054,8 @@
 "hk": "希臘海神",
 "sc": "希腊海神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14722,7 +13101,8 @@
 "hk": "滿身是膽",
 "sc": "满身是胆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14782,7 +13162,8 @@
 "hk": "儲備金",
 "sc": "储备金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14856,7 +13237,8 @@
 "hk": "純情",
 "sc": "纯情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14875,7 +13257,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-regan-bayliss",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "jra-2022-0409-草上女皇錦標",
 "entries": [
 {
@@ -14884,7 +13266,7 @@
 "gear": null,
 "horse_uid": "nz-never-been-kissed",
 "jockey_uid": "j-regan-bayliss",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 120.0,
 "claim": null,
 "rating": 107,
@@ -14902,7 +13284,8 @@
 "hk": "新婚嬌妻",
 "sc": "新婚娇妻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -14921,7 +13304,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-jay-ford",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "race_uid": "aus-2023-1014-珠穆朗瑪峰錦標賽馬越洋轉播賽事熱望錦標",
 "entries": [
 {
@@ -14930,7 +13313,7 @@
 "gear": "B/TT",
 "horse_uid": "nz-newley-wed",
 "jockey_uid": "j-jay-ford",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 119.0,
 "claim": null,
 "rating": 80,
@@ -14948,7 +13331,8 @@
 "hk": "凌厲勢",
 "sc": "凌厉势",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15008,7 +13392,8 @@
 "hk": "麗飛靈",
 "sc": "丽飞灵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15054,7 +13439,8 @@
 "hk": "晚間守望",
 "sc": "晚间守望",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15100,7 +13486,8 @@
 "hk": "棕樹攀天",
 "sc": "棕树攀天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15146,7 +13533,8 @@
 "hk": "絕不妥協",
 "sc": "绝不妥协",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15206,7 +13594,8 @@
 "hk": "多寶多夢",
 "sc": "多宝多梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15252,7 +13641,8 @@
 "hk": "輕爽俐落",
 "sc": "轻爽俐落",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15298,7 +13688,8 @@
 "hk": "無需他選",
 "sc": "无需他选",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15344,7 +13735,8 @@
 "hk": "北方強襲",
 "sc": "北方强袭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15390,7 +13782,8 @@
 "hk": "暢悅號",
 "sc": "畅悦号",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15436,7 +13829,8 @@
 "hk": "諾雅先鋒",
 "sc": "诺雅先锋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15496,7 +13890,8 @@
 "hk": "把握現今",
 "sc": "把握现今",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15542,7 +13937,8 @@
 "hk": "好運來",
 "sc": "好运来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15588,7 +13984,8 @@
 "hk": "看到了",
 "sc": "看到了",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15634,7 +14031,8 @@
 "hk": "萊利舞者",
 "sc": "莱利舞者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15680,7 +14078,8 @@
 "hk": "感覺如何",
 "sc": "感觉如何",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15726,7 +14125,8 @@
 "hk": "橡木嶺",
 "sc": "橡木岭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15772,7 +14172,8 @@
 "hk": "望洋灣畔",
 "sc": "望洋湾畔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15832,7 +14233,8 @@
 "hk": "外海",
 "sc": "外海",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15878,7 +14280,8 @@
 "hk": "汪洋比利",
 "sc": "汪洋比利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15952,7 +14355,8 @@
 "hk": "情深似海",
 "sc": "情深似海",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -15998,7 +14402,8 @@
 "hk": "大海天后",
 "sc": "大海天后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16044,7 +14449,8 @@
 "hk": "海霸王",
 "sc": "海霸王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16090,7 +14496,8 @@
 "hk": "木星海洋",
 "sc": "木星海洋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16136,7 +14543,8 @@
 "hk": "水經典",
 "sc": "水经典",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16182,7 +14590,8 @@
 "hk": "未來大盜",
 "sc": "未来大盗",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16228,7 +14637,8 @@
 "hk": "海洋夢",
 "sc": "海洋梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16274,7 +14684,8 @@
 "hk": "海靈仙",
 "sc": "海灵仙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16293,7 +14704,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-zac-spain",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "race_uid": "aus-2020-1017-考菲爾德盃",
 "entries": [
 {
@@ -16302,7 +14713,7 @@
 "gear": null,
 "horse_uid": "nz-oceanex",
 "jockey_uid": "j-zac-spain",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": 113.0,
 "claim": null,
 "rating": 108,
@@ -16316,7 +14727,7 @@
 "gear": null,
 "horse_uid": "nz-oceanex",
 "jockey_uid": "j-dean-yendall",
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": 113.0,
 "claim": null,
 "rating": 108,
@@ -16330,7 +14741,7 @@
 "gear": null,
 "horse_uid": "nz-oceanex",
 "jockey_uid": null,
-"trainer_uid": "t-mick-price-michael-kent-jnr",
+"trainer_uid": "t-m-price-m-kent-jnr",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -16348,7 +14759,8 @@
 "hk": "獵鷹十月",
 "sc": "猎鹰十月",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16394,7 +14806,8 @@
 "hk": "表演殿堂",
 "sc": "表演殿堂",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16454,7 +14867,8 @@
 "hk": "金奔馳",
 "sc": "金奔驰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16514,7 +14928,8 @@
 "hk": "常勝軍",
 "sc": "常胜军",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16602,7 +15017,8 @@
 "hk": "在線",
 "sc": "在线",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16643,7 +15059,7 @@
 "draw": 10,
 "gear": "B",
 "horse_uid": "nz-on-line",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-michael-clements",
 "lb": 128.0,
 "claim": null,
@@ -16690,7 +15106,8 @@
 "hk": "河流阿積",
 "sc": "河流阿积",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16736,7 +15153,8 @@
 "hk": "超級巨星",
 "sc": "超级巨星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16782,7 +15200,8 @@
 "hk": "妙聲交織",
 "sc": "妙声交织",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16856,7 +15275,8 @@
 "hk": "東方盈喜",
 "sc": "东方盈喜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -16902,7 +15322,8 @@
 "hk": "澳勝歌",
 "sc": "澳胜歌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17004,7 +15425,8 @@
 "hk": "善長",
 "sc": "善长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17064,7 +15486,8 @@
 "hk": "大家鍾情",
 "sc": "大家钟情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17110,7 +15533,8 @@
 "hk": "巔峰",
 "sc": "巅峰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17156,7 +15580,8 @@
 "hk": "超預想",
 "sc": "超预想",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17216,7 +15641,8 @@
 "hk": "有一套",
 "sc": "有一套",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17262,7 +15688,8 @@
 "hk": "超額",
 "sc": "超额",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17308,7 +15735,8 @@
 "hk": "飛達之友",
 "sc": "飞达之友",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17368,7 +15796,8 @@
 "hk": "太平神兵",
 "sc": "太平神兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17414,7 +15843,8 @@
 "hk": "PACKING ANGEL (NZ)",
 "sc": "PACKING ANGEL (NZ)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17460,7 +15890,8 @@
 "hk": "百利達",
 "sc": "百利达",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17520,7 +15951,8 @@
 "hk": "青青棕櫚",
 "sc": "青青棕榈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17594,7 +16026,8 @@
 "hk": "驚魂動魄",
 "sc": "惊魂动魄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17640,7 +16073,8 @@
 "hk": "野黑豹",
 "sc": "野黑豹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17686,7 +16120,8 @@
 "hk": "爸爸藍",
 "sc": "爸爸蓝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17705,7 +16140,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tom-sherry",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "race_uid": "aus-2026-0404-香港賽馬會全球匯合彩池卡賓會錦標",
 "entries": [
 {
@@ -17714,7 +16149,7 @@
 "gear": "XB",
 "horse_uid": "nz-pappa-blue",
 "jockey_uid": "j-tom-sherry",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 123.0,
 "claim": null,
 "rating": 62,
@@ -17732,7 +16167,8 @@
 "hk": "德國歌劇",
 "sc": "德国歌剧",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17792,7 +16228,8 @@
 "hk": "碧潭王爵",
 "sc": "碧潭王爵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17852,7 +16289,8 @@
 "hk": "芭堤雅",
 "sc": "芭堤雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17898,7 +16336,8 @@
 "hk": "治安官",
 "sc": "治安官",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17944,7 +16383,8 @@
 "hk": "珍珠鴻運",
 "sc": "珍珠鸿运",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -17990,7 +16430,8 @@
 "hk": "珍珠強勁",
 "sc": "珍珠强劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18036,7 +16477,8 @@
 "hk": "行如龍蛇",
 "sc": "行如龙蛇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18082,7 +16524,8 @@
 "hk": "寶妮威勁",
 "sc": "宝妮威劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18128,7 +16571,8 @@
 "hk": "五項全能",
 "sc": "五项全能",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18174,7 +16618,8 @@
 "hk": "王冠之風",
 "sc": "王冠之风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18220,7 +16665,8 @@
 "hk": "壯男",
 "sc": "壮男",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18280,7 +16726,8 @@
 "hk": "美滿夜",
 "sc": "美满夜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18326,7 +16773,8 @@
 "hk": "全取十分",
 "sc": "全取十分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18386,7 +16834,8 @@
 "hk": "性能卓越",
 "sc": "性能卓越",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18432,7 +16881,8 @@
 "hk": "芬芳飄逸",
 "sc": "芬芳飘逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18492,7 +16942,8 @@
 "hk": "西域奇觀",
 "sc": "西域奇观",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18538,7 +16989,8 @@
 "hk": "長堤碼頭",
 "sc": "长堤码头",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18640,7 +17092,8 @@
 "hk": "頂班選擇",
 "sc": "顶班选择",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18659,7 +17112,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-jonathan-riddell",
-"trainer_uid": "t-roger-james-robert-wellwood",
+"trainer_uid": "t-r-james-r-wellwood",
 "race_uid": "aus-2022-紐西蘭打吡",
 "entries": [
 {
@@ -18668,7 +17121,7 @@
 "gear": "B/H-/XB",
 "horse_uid": "nz-pinarello",
 "jockey_uid": "j-jonathan-riddell",
-"trainer_uid": "t-roger-james-robert-wellwood",
+"trainer_uid": "t-r-james-r-wellwood",
 "lb": 125.0,
 "claim": null,
 "rating": 98,
@@ -18686,7 +17139,8 @@
 "hk": "拼搏",
 "sc": "拼搏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18732,7 +17186,8 @@
 "hk": "艷淺紅",
 "sc": "艳浅红",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18778,7 +17233,8 @@
 "hk": "十要點",
 "sc": "十要点",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18824,7 +17280,8 @@
 "hk": "繁華匯",
 "sc": "繁华汇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18870,7 +17327,8 @@
 "hk": "詩才冠軍",
 "sc": "诗才冠军",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18916,7 +17374,8 @@
 "hk": "翩仙角",
 "sc": "翩仙角",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -18962,7 +17421,8 @@
 "hk": "多邊",
 "sc": "多边",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19008,7 +17468,8 @@
 "hk": "情感歌王",
 "sc": "情感歌王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19054,7 +17515,8 @@
 "hk": "海神",
 "sc": "海神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19100,7 +17562,8 @@
 "hk": "正面思想",
 "sc": "正面思想",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19230,7 +17693,8 @@
 "hk": "彩石威力",
 "sc": "彩石威力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19290,7 +17754,8 @@
 "hk": "鐵血戰士",
 "sc": "铁血战士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19429,7 +17894,7 @@
 "draw": 2,
 "gear": "TT",
 "horse_uid": "nz-preditor",
-"jockey_uid": "j-vladimir-duric",
+"jockey_uid": "j-vlad-duric",
 "trainer_uid": "t-shane-baertschiger",
 "lb": 130.0,
 "claim": null,
@@ -19462,7 +17927,8 @@
 "hk": "先決前提",
 "sc": "先决前提",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19522,7 +17988,8 @@
 "hk": "美絕色",
 "sc": "美绝色",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19568,7 +18035,8 @@
 "hk": "驕子",
 "sc": "骄子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19614,7 +18082,8 @@
 "hk": "奪標時機",
 "sc": "夺标时机",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19660,7 +18129,8 @@
 "hk": "投機法寶",
 "sc": "投机法宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19706,7 +18176,8 @@
 "hk": "快奇童",
 "sc": "快奇童",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19752,7 +18223,8 @@
 "hk": "虛實之界",
 "sc": "虚实之界",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19798,7 +18270,8 @@
 "hk": "寶聖潔",
 "sc": "宝圣洁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19844,7 +18317,8 @@
 "hk": "明證當前",
 "sc": "明证当前",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19904,7 +18378,8 @@
 "hk": "花田名區",
 "sc": "花田名区",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -19978,7 +18453,8 @@
 "hk": "真本領",
 "sc": "真本领",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20024,7 +18500,8 @@
 "hk": "公眾焦點",
 "sc": "公众焦点",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20084,7 +18561,8 @@
 "hk": "潑天",
 "sc": "泼天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20130,7 +18608,8 @@
 "hk": "心堅石穿",
 "sc": "心坚石穿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20176,7 +18655,8 @@
 "hk": "純傲氣",
 "sc": "纯傲气",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20222,7 +18702,8 @@
 "hk": "最快一段",
 "sc": "最快一段",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20268,7 +18749,8 @@
 "hk": "猛推",
 "sc": "猛推",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20314,7 +18796,8 @@
 "hk": "劍鋒直指",
 "sc": "剑锋直指",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20360,7 +18843,8 @@
 "hk": "蝶語常言",
 "sc": "蝶语常言",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20406,7 +18890,8 @@
 "hk": "量子",
 "sc": "量子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20452,7 +18937,8 @@
 "hk": "表表者",
 "sc": "表表者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20540,7 +19026,8 @@
 "hk": "精銳襲擊",
 "sc": "精锐袭击",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20600,7 +19087,8 @@
 "hk": "虹彩大盜",
 "sc": "虹彩大盗",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20646,7 +19134,8 @@
 "hk": "崛起六一",
 "sc": "崛起六一",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20692,7 +19181,8 @@
 "hk": "快馬健兒",
 "sc": "快马健儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20738,7 +19228,8 @@
 "hk": "好景盡收",
 "sc": "好景尽收",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20784,7 +19275,8 @@
 "hk": "真風雅",
 "sc": "真风雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20886,7 +19378,8 @@
 "hk": "日出生輝",
 "sc": "日出生辉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20932,7 +19425,8 @@
 "hk": "紅龍來了",
 "sc": "红龙来了",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -20978,7 +19472,8 @@
 "hk": "紅鬃",
 "sc": "红鬃",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21024,7 +19519,8 @@
 "hk": "勝海",
 "sc": "胜海",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21070,7 +19566,8 @@
 "hk": "威獅王",
 "sc": "威狮王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21144,7 +19641,8 @@
 "hk": "博學女郎",
 "sc": "博学女郎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21218,7 +19716,8 @@
 "hk": "復古星",
 "sc": "复古星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21264,7 +19763,8 @@
 "hk": "狂歌入時",
 "sc": "狂歌入时",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21310,7 +19810,8 @@
 "hk": "萊茵寶鎮",
 "sc": "莱茵宝镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21370,7 +19871,8 @@
 "hk": "衝鋒犀牛",
 "sc": "冲锋犀牛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21416,7 +19918,8 @@
 "hk": "灰燼重騎",
 "sc": "灰烬重骑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21462,7 +19965,8 @@
 "hk": "凌岳巔",
 "sc": "凌岳巅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21481,7 +19985,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-rachel-king",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2021-1030-龍舌蘭錦標",
 "entries": [
 {
@@ -21490,7 +19994,7 @@
 "gear": "B",
 "horse_uid": "nz-riodini",
 "jockey_uid": "j-rachel-king",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 121.0,
 "claim": null,
 "rating": 105,
@@ -21522,7 +20026,8 @@
 "hk": "晨早醒",
 "sc": "晨早醒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21624,7 +20129,8 @@
 "hk": "江河寶寶",
 "sc": "江河宝宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21684,7 +20190,8 @@
 "hk": "江河縱橫",
 "sc": "江河纵横",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21730,7 +20237,8 @@
 "hk": "江河小寶",
 "sc": "江河小宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21776,7 +20284,8 @@
 "hk": "江河壹寶",
 "sc": "江河壹宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21836,7 +20345,8 @@
 "hk": "江河叁寶",
 "sc": "江河叁宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21882,7 +20392,8 @@
 "hk": "白銀之河",
 "sc": "白银之河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21928,7 +20439,8 @@
 "hk": "路通巴黎",
 "sc": "路通巴黎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -21984,7 +20496,7 @@
 "gear": null,
 "horse_uid": "nz-road-to-paris",
 "jockey_uid": null,
-"trainer_uid": "t-roger-james-robert-wellwood",
+"trainer_uid": "t-r-james-r-wellwood",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22002,7 +20514,8 @@
 "hk": "咆哮驅動",
 "sc": "咆哮驱动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22021,7 +20534,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-danny-obrien",
+"trainer_uid": "t-danny-o-brien",
 "race_uid": "aus-2024-1102-指標評分96讓賽及墨爾本盃",
 "entries": [
 {
@@ -22030,7 +20543,7 @@
 "gear": null,
 "horse_uid": "nz-roaring-engine",
 "jockey_uid": null,
-"trainer_uid": "t-danny-obrien",
+"trainer_uid": "t-danny-o-brien",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22062,7 +20575,8 @@
 "hk": "行俠仗義",
 "sc": "行侠仗义",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22122,7 +20636,8 @@
 "hk": "麗駒",
 "sc": "丽驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22182,7 +20697,8 @@
 "hk": "南島金漿",
 "sc": "南岛金浆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22228,7 +20744,8 @@
 "hk": "小山八度",
 "sc": "小山八度",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22274,7 +20791,8 @@
 "hk": "名香檳",
 "sc": "名香槟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22320,7 +20838,8 @@
 "hk": "滾滾魔術",
 "sc": "滚滚魔术",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22339,7 +20858,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-ashley-morgan",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "race_uid": "aus-2026-1017-香港賽馬會全球匯合彩池讓賽",
 "entries": [
 {
@@ -22348,7 +20867,7 @@
 "gear": "CP/TT",
 "horse_uid": "nz-rolling-magic",
 "jockey_uid": "j-ashley-morgan",
-"trainer_uid": "t-r-w-freedman",
+"trainer_uid": "t-richard-will-freedman",
 "lb": 128.0,
 "claim": null,
 "rating": 84,
@@ -22366,7 +20885,8 @@
 "hk": "多浪漫",
 "sc": "多浪漫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22412,7 +20932,8 @@
 "hk": "女浪人",
 "sc": "女浪人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22458,7 +20979,8 @@
 "hk": "強盛王朝",
 "sc": "强盛王朝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22532,7 +21054,8 @@
 "hk": "羅瑪大道",
 "sc": "罗玛大道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22592,7 +21115,8 @@
 "hk": "羅曼情緣",
 "sc": "罗曼情缘",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22666,7 +21190,8 @@
 "hk": "紫葡萄",
 "sc": "紫葡萄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22708,7 +21233,7 @@
 "gear": "B/XB",
 "horse_uid": "nz-rondinella",
 "jockey_uid": "j-sam-clipperton",
-"trainer_uid": "t-roger-james-robert-wellwood",
+"trainer_uid": "t-r-james-r-wellwood",
 "lb": 112.0,
 "claim": null,
 "rating": 107,
@@ -22726,7 +21251,8 @@
 "hk": "皇庭之寶",
 "sc": "皇庭之宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22786,7 +21312,8 @@
 "hk": "皇家路",
 "sc": "皇家路",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22860,7 +21387,8 @@
 "hk": "鐵血貴婦",
 "sc": "铁血贵妇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22879,7 +21407,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "race_uid": "aus-2023-0225-環繞錦標",
 "entries": [
 {
@@ -22888,7 +21416,7 @@
 "gear": "SR",
 "horse_uid": "nz-ruthless-dame",
 "jockey_uid": "j-tyler-schiller",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 123.0,
 "claim": null,
 "rating": 105,
@@ -22902,7 +21430,7 @@
 "gear": "SR",
 "horse_uid": "nz-ruthless-dame",
 "jockey_uid": "j-jason-collett",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 125.0,
 "claim": null,
 "rating": 112,
@@ -22934,7 +21462,8 @@
 "hk": "沙巴皇牌",
 "sc": "沙巴皇牌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -22980,7 +21509,8 @@
 "hk": "沙巴之星",
 "sc": "沙巴之星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23054,7 +21584,8 @@
 "hk": "聖靈之都",
 "sc": "圣灵之都",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23100,7 +21631,8 @@
 "hk": "聖帥",
 "sc": "圣帅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23146,7 +21678,8 @@
 "hk": "聖十字",
 "sc": "圣十字",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23276,7 +21809,8 @@
 "hk": "神通魔法",
 "sc": "神通魔法",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23322,7 +21856,8 @@
 "hk": "聖寶殿",
 "sc": "圣宝殿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23368,7 +21903,8 @@
 "hk": "聖情",
 "sc": "圣情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23386,7 +21922,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-m-akmazani",
+"jockey_uid": "j-mazuki-akmazani",
 "trainer_uid": "t-jerome-tan",
 "race_uid": "sin-2023-0520-第四班讓賽",
 "entries": [
@@ -23395,7 +21931,7 @@
 "draw": 1,
 "gear": null,
 "horse_uid": "nz-sacred-passion",
-"jockey_uid": "j-m-akmazani",
+"jockey_uid": "j-mazuki-akmazani",
 "trainer_uid": "t-jerome-tan",
 "lb": 112.0,
 "claim": -7.0,
@@ -23414,7 +21950,8 @@
 "hk": "神聖之里",
 "sc": "神圣之里",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23502,7 +22039,8 @@
 "hk": "聖組",
 "sc": "圣组",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23562,7 +22100,8 @@
 "hk": "賽菲爾",
 "sc": "赛菲尔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23636,7 +22175,8 @@
 "hk": "海員積奇",
 "sc": "海员积奇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23682,7 +22222,8 @@
 "hk": "飛舞入聖",
 "sc": "飞舞入圣",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23728,7 +22269,8 @@
 "hk": "瀑布奔流",
 "sc": "瀑布奔流",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23774,7 +22316,8 @@
 "hk": "心滿意",
 "sc": "心满意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23834,7 +22377,8 @@
 "hk": "倩姿途",
 "sc": "倩姿途",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23880,7 +22424,8 @@
 "hk": "活潑寶",
 "sc": "活泼宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23926,7 +22471,8 @@
 "hk": "先領賞",
 "sc": "先领赏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -23972,7 +22518,8 @@
 "hk": "鄉情灼灼",
 "sc": "乡情灼灼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24032,7 +22579,8 @@
 "hk": "神燈進擊",
 "sc": "神灯进击",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24078,7 +22626,8 @@
 "hk": "波本法寶",
 "sc": "波本法宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24124,7 +22673,8 @@
 "hk": "曠原雲彩",
 "sc": "旷原云彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24170,7 +22720,8 @@
 "hk": "小法奇",
 "sc": "小法奇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24189,7 +22740,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "race_uid": "aus-2018-1106-香港賽馬會錦標",
 "entries": [
 {
@@ -24198,7 +22749,7 @@
 "gear": "B",
 "horse_uid": "nz-savapinski",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-gai-waterhouse-adrian-bott",
+"trainer_uid": "t-g-waterhouse-a-bott",
 "lb": 127.0,
 "claim": null,
 "rating": 106,
@@ -24216,7 +22767,8 @@
 "hk": "SAVAQUIN (NZ)",
 "sc": "SAVAQUIN (NZ)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24262,7 +22814,8 @@
 "hk": "先發動",
 "sc": "先发动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24322,7 +22875,8 @@
 "hk": "奢華路",
 "sc": "奢华路",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24368,7 +22922,8 @@
 "hk": "神飛勝途",
 "sc": "神飞胜途",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24484,7 +23039,8 @@
 "hk": "隨機應變",
 "sc": "随机应变",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24530,7 +23086,8 @@
 "hk": "精明命令",
 "sc": "精明命令",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24618,7 +23175,8 @@
 "hk": "巧妙突襲",
 "sc": "巧妙突袭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24678,7 +23236,8 @@
 "hk": "橡木知機",
 "sc": "橡木知机",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24697,7 +23256,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-hugh-bowman",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "aus-2018-1027-滿利谷瓶",
 "entries": [
 {
@@ -24706,7 +23265,7 @@
 "gear": "B/TT",
 "horse_uid": "nz-savvy-oak",
 "jockey_uid": "j-hugh-bowman",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 126.0,
 "claim": null,
 "rating": 94,
@@ -24724,7 +23283,8 @@
 "hk": "醒華倫",
 "sc": "醒华伦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24770,7 +23330,8 @@
 "hk": "望而生畏",
 "sc": "望而生畏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24830,7 +23391,8 @@
 "hk": "閃爍亮",
 "sc": "闪烁亮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24849,7 +23411,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-billy-egan",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "race_uid": "aus-2025-0503-南澳洲打吡",
 "entries": [
 {
@@ -24858,7 +23420,7 @@
 "gear": "XB",
 "horse_uid": "nz-scintillante",
 "jockey_uid": "j-billy-egan",
-"trainer_uid": "t-cliff-brown",
+"trainer_uid": "t-clifford-brown",
 "lb": 125.0,
 "claim": null,
 "rating": 99,
@@ -24876,7 +23438,8 @@
 "hk": "天蠍",
 "sc": "天蝎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24922,7 +23485,8 @@
 "hk": "海裡寶",
 "sc": "海里宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -24968,7 +23532,8 @@
 "hk": "海川市",
 "sc": "海川市",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25042,7 +23607,8 @@
 "hk": "搜查小隊",
 "sc": "搜查小队",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25088,7 +23654,8 @@
 "hk": "防守位置",
 "sc": "防守位置",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25134,7 +23701,8 @@
 "hk": "笑瑪麗",
 "sc": "笑玛丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25153,7 +23721,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "jra-2019-0413-悉尼盃",
 "entries": [
 {
@@ -25162,7 +23730,7 @@
 "gear": null,
 "horse_uid": "nz-semari",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 112.0,
 "claim": null,
 "rating": 99,
@@ -25180,7 +23748,8 @@
 "hk": "軍士長",
 "sc": "军士长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25254,7 +23823,8 @@
 "hk": "世尊",
 "sc": "世尊",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25314,7 +23884,8 @@
 "hk": "星飛達",
 "sc": "星飞达",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25360,7 +23931,8 @@
 "hk": "灰小孩",
 "sc": "灰小孩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25420,7 +23992,8 @@
 "hk": "上海之星",
 "sc": "上海之星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25480,7 +24053,8 @@
 "hk": "星幻",
 "sc": "星幻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25526,7 +24100,8 @@
 "hk": "颯醒",
 "sc": "飒醒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25582,7 +24157,7 @@
 "gear": "V/TT",
 "horse_uid": "nz-sharp-n-smart",
 "jockey_uid": "j-michael-dee",
-"trainer_uid": "t-g-d-rogerson",
+"trainer_uid": "t-graeme-deborah-rogerson",
 "lb": 118.0,
 "claim": null,
 "rating": 110,
@@ -25600,7 +24175,8 @@
 "hk": "妖嬈魅惑",
 "sc": "妖娆魅惑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25730,7 +24306,8 @@
 "hk": "現鈔在握",
 "sc": "现钞在握",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25776,7 +24353,8 @@
 "hk": "真獨特",
 "sc": "真独特",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25822,7 +24400,8 @@
 "hk": "木手杖",
 "sc": "木手杖",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25938,7 +24517,8 @@
 "hk": "仙蹄力",
 "sc": "仙蹄力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -25984,7 +24564,8 @@
 "hk": "鮮明新作",
 "sc": "鲜明新作",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26030,7 +24611,8 @@
 "hk": "齊齊撼",
 "sc": "齐齐撼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26146,7 +24728,8 @@
 "hk": "熱辣迷人",
 "sc": "热辣迷人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26206,7 +24789,8 @@
 "hk": "演藝才華",
 "sc": "演艺才华",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26252,7 +24836,8 @@
 "hk": "暹羅萬代",
 "sc": "暹罗万代",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26307,7 +24892,7 @@
 "draw": 17,
 "gear": "TT",
 "horse_uid": "nz-siam-blue-vanda",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-michael-clements",
 "lb": 126.0,
 "claim": null,
@@ -26326,7 +24911,8 @@
 "hk": "獅山小國",
 "sc": "狮山小国",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26372,7 +24958,8 @@
 "hk": "秀山",
 "sc": "秀山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26391,7 +24978,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-daniel-moor",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "race_uid": "aus-2021-1030-帝國玫瑰錦標",
 "entries": [
 {
@@ -26400,7 +24987,7 @@
 "gear": null,
 "horse_uid": "nz-sierra-sue",
 "jockey_uid": "j-daniel-moor",
-"trainer_uid": "t-trent-busuttin-natalie-young",
+"trainer_uid": "t-t-busuttin-n-young",
 "lb": 126.0,
 "claim": null,
 "rating": 108,
@@ -26418,7 +25005,8 @@
 "hk": "黑美人",
 "sc": "黑美人",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26464,7 +25052,8 @@
 "hk": "寧靜王子",
 "sc": "宁静王子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26482,7 +25071,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-shane-baertschiger",
 "race_uid": "sin-2019-1110-第四班讓賽",
 "entries": [
@@ -26491,7 +25080,7 @@
 "draw": 5,
 "gear": "B",
 "horse_uid": "nz-silent-prince",
-"jockey_uid": "j-j-p-van-der-merwe",
+"jockey_uid": "j-juan-paul-v-d-merwe",
 "trainer_uid": "t-shane-baertschiger",
 "lb": 112.0,
 "claim": null,
@@ -26510,7 +25099,8 @@
 "hk": "西卡多",
 "sc": "西卡多",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26556,7 +25146,8 @@
 "hk": "辣手求贏",
 "sc": "辣手求赢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26602,7 +25193,8 @@
 "hk": "星極泰來",
 "sc": "星极泰来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26648,7 +25240,8 @@
 "hk": "怒放紳士",
 "sc": "怒放绅士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26708,7 +25301,8 @@
 "hk": "傾側",
 "sc": "倾侧",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26796,7 +25390,8 @@
 "hk": "天眼",
 "sc": "天眼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26870,7 +25465,8 @@
 "hk": "SKY HEART (NZ)",
 "sc": "SKY HEART (NZ)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -26930,7 +25526,8 @@
 "hk": "飛天火箭",
 "sc": "飞天火箭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27018,7 +25615,8 @@
 "hk": "捕天者",
 "sc": "捕天者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27064,7 +25662,8 @@
 "hk": "天行者",
 "sc": "天行者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27110,7 +25709,8 @@
 "hk": "明智之戀",
 "sc": "明智之恋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27156,7 +25756,8 @@
 "hk": "激鬥士",
 "sc": "激斗士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27282,7 +25883,7 @@
 "gear": "B2/TT",
 "horse_uid": "nz-smokin-romans",
 "jockey_uid": "j-jamie-mott",
-"trainer_uid": "t-c-maher-d-eustace",
+"trainer_uid": "t-ciaron-maher-david-eustace",
 "lb": 128.0,
 "claim": null,
 "rating": 112,
@@ -27300,7 +25901,8 @@
 "hk": "大收穫",
 "sc": "大收获",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27346,7 +25948,8 @@
 "hk": "霎眼傾情",
 "sc": "霎眼倾情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27392,7 +25995,8 @@
 "hk": "踏雪行",
 "sc": "踏雪行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27466,7 +26070,8 @@
 "hk": "雪球",
 "sc": "雪球",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27512,7 +26117,8 @@
 "hk": "炫麗駒",
 "sc": "炫丽驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27586,7 +26192,8 @@
 "hk": "一直好",
 "sc": "一直好",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27632,7 +26239,8 @@
 "hk": "毫無顧忌",
 "sc": "毫无顾忌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27678,7 +26286,8 @@
 "hk": "兵小哥",
 "sc": "兵小哥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27724,7 +26333,8 @@
 "hk": "實心金",
 "sc": "实心金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27770,7 +26380,8 @@
 "hk": "驕陽小兒",
 "sc": "骄阳小儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27830,7 +26441,8 @@
 "hk": "皓月千里",
 "sc": "皓月千里",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27918,7 +26530,8 @@
 "hk": "大受追捧",
 "sc": "大受追捧",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -27964,7 +26577,8 @@
 "hk": "好提議",
 "sc": "好提议",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28010,7 +26624,8 @@
 "hk": "意境碧灘",
 "sc": "意境碧滩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28098,7 +26713,8 @@
 "hk": "佳樂道",
 "sc": "佳乐道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28144,7 +26760,8 @@
 "hk": "運動精神",
 "sc": "运动精神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28190,7 +26807,8 @@
 "hk": "龍馬六一",
 "sc": "龙马六一",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28236,7 +26854,8 @@
 "hk": "聖羅倫斯",
 "sc": "圣罗伦斯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28296,7 +26915,8 @@
 "hk": "台幕星影",
 "sc": "台幕星影",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28356,7 +26976,8 @@
 "hk": "星際帝皇",
 "sc": "星际帝皇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28416,7 +27037,8 @@
 "hk": "星際戰士",
 "sc": "星际战士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28462,7 +27084,8 @@
 "hk": "星映海面",
 "sc": "星映海面",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28522,7 +27145,8 @@
 "hk": "勇態",
 "sc": "勇态",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28568,7 +27192,8 @@
 "hk": "何須多言",
 "sc": "何须多言",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28614,7 +27239,8 @@
 "hk": "銀速運",
 "sc": "银速运",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28660,7 +27286,8 @@
 "hk": "嘯天際",
 "sc": "啸天际",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28706,7 +27333,8 @@
 "hk": "管領牧場",
 "sc": "管领牧场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28850,7 +27478,8 @@
 "hk": "勁風霸王",
 "sc": "劲风霸王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28896,7 +27525,8 @@
 "hk": "光宗耀祖",
 "sc": "光宗耀祖",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -28937,7 +27567,7 @@
 "draw": 13,
 "gear": "XB",
 "horse_uid": "nz-strathtay",
-"jockey_uid": "j-ron-stewart",
+"jockey_uid": "j-ronald-stewart",
 "trainer_uid": "t-chris-waller",
 "lb": 119.0,
 "claim": null,
@@ -28970,7 +27600,8 @@
 "hk": "街上獻藝",
 "sc": "街上献艺",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -29030,7 +27661,8 @@
 "hk": "掘金者",
 "sc": "掘金者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "NZL",
 "country": "新西兰",
@@ -29048,7 +27680,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-l-p-beuzelin",
+"jockey_uid": "j-louis-philippe-beuzelin",
 "trainer_uid": "t-ricardo-le-grange",
 "race_uid": "sin-2023-0723-新加坡金蹄鐵錦標-新加坡三級賽",
 "entries": [
@@ -29057,7 +27689,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "nz-strike-gold",
-"jockey_uid": "j-l-p-beuzelin",
+"jockey_uid": "j-louis-philippe-beuzelin",
 "trainer_uid": "t-ricardo-le-grange",
 "lb": 123.0,
 "claim": null,
@@ -29079,6 +27711,1804 @@
 "sex": "M",
 "age": 3,
 "race_uid": "sin-2024-0518-新加坡堅尼-新加坡二級賽"
+}
+]
+},
+{
+"uid": "nz-stripping-royalty",
+"names": {
+"original": "Stripping Royalty",
+"en": "Stripping Royalty",
+"hk": "返璞歸真",
+"sc": "返璞归真",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2015,
+"color": null,
+"age": 3,
+"rating": 90,
+"lb": 121.0,
+"no": 14,
+"draw": 8,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-ethan-brown",
+"trainer_uid": "t-darren-weir",
+"race_uid": "aus-2018-1027-滿利谷瓶",
+"entries": [
+{
+"no": 14,
+"draw": 8,
+"gear": null,
+"horse_uid": "nz-stripping-royalty",
+"jockey_uid": "j-ethan-brown",
+"trainer_uid": "t-darren-weir",
+"lb": 121.0,
+"claim": null,
+"rating": 90,
+"sex": "F",
+"age": 3,
+"race_uid": "aus-2018-1027-滿利谷瓶"
+}
+]
+},
+{
+"uid": "nz-stromlinien",
+"names": {
+"original": "Stromlinien",
+"en": "Stromlinien",
+"hk": "流麗如雲",
+"sc": "流丽如云",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2024,
+"color": null,
+"age": 2,
+"rating": 63,
+"lb": 121.0,
+"no": 11,
+"draw": 9,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-craig-grylls",
+"trainer_uid": "t-andrew-forsman",
+"race_uid": "aus-2026-0124-卡拉卡百萬兩歲馬大賽-表列賽",
+"entries": [
+{
+"no": 11,
+"draw": 9,
+"gear": null,
+"horse_uid": "nz-stromlinien",
+"jockey_uid": "j-craig-grylls",
+"trainer_uid": "t-andrew-forsman",
+"lb": 121.0,
+"claim": null,
+"rating": 63,
+"sex": "F",
+"age": 2,
+"race_uid": "aus-2026-0124-卡拉卡百萬兩歲馬大賽-表列賽"
+}
+]
+},
+{
+"uid": "nz-strong-n-best",
+"names": {
+"original": "Strong N Best",
+"en": "Strong N Best",
+"hk": "福至心靈",
+"sc": "福至心灵",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2017,
+"color": null,
+"age": 5,
+"rating": 80,
+"lb": 126.0,
+"no": 19,
+"draw": 5,
+"gear": "B/TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-tbc",
+"trainer_uid": "t-c-t-kuah",
+"race_uid": "sin-2022-0521-克蘭芝一哩賽",
+"entries": [
+{
+"no": 19,
+"draw": 5,
+"gear": "B/TT",
+"horse_uid": "nz-strong-n-best",
+"jockey_uid": "j-tbc",
+"trainer_uid": "t-c-t-kuah",
+"lb": 126.0,
+"claim": null,
+"rating": 80,
+"sex": "G",
+"age": 5,
+"race_uid": "sin-2022-0521-克蘭芝一哩賽"
+},
+{
+"no": 10,
+"draw": 4,
+"gear": "B/TT",
+"horse_uid": "nz-strong-n-best",
+"jockey_uid": "j-kasim-a-isisuhairi",
+"trainer_uid": "t-c-t-kuah",
+"lb": 123.0,
+"claim": null,
+"rating": 73,
+"sex": "G",
+"age": 5,
+"race_uid": "sin-2022-0521-第三班讓賽"
+}
+]
+},
+{
+"uid": "nz-strong-n-smart",
+"names": {
+"original": "Strong N Smart",
+"en": "Strong N Smart",
+"hk": "身強力壯",
+"sc": "身强力壮",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 3,
+"rating": 48,
+"lb": 118.0,
+"no": 12,
+"draw": 6,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-nor-zyrul",
+"trainer_uid": "t-leslie-khoo",
+"race_uid": "sin-2021-0522-初級賽",
+"entries": [
+{
+"no": 12,
+"draw": 6,
+"gear": null,
+"horse_uid": "nz-strong-n-smart",
+"jockey_uid": "j-nor-zyrul",
+"trainer_uid": "t-leslie-khoo",
+"lb": 118.0,
+"claim": -7.0,
+"rating": 48,
+"sex": "G",
+"age": 3,
+"race_uid": "sin-2021-0522-初級賽"
+}
+]
+},
+{
+"uid": "nz-stylish-secret",
+"names": {
+"original": "Stylish Secret",
+"en": "Stylish Secret",
+"hk": "有型秘訣",
+"sc": "有型秘诀",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2021,
+"color": null,
+"age": 3,
+"rating": 103,
+"lb": 126.0,
+"no": 2,
+"draw": 6,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-luke-nolen",
+"trainer_uid": "t-mick-nolan",
+"race_uid": "aus-2024-1102-卡賓會錦標",
+"entries": [
+{
+"no": 2,
+"draw": 6,
+"gear": null,
+"horse_uid": "nz-stylish-secret",
+"jockey_uid": "j-luke-nolen",
+"trainer_uid": "t-mick-nolan",
+"lb": 126.0,
+"claim": null,
+"rating": 103,
+"sex": "G",
+"age": 3,
+"race_uid": "aus-2024-1102-卡賓會錦標"
+}
+]
+},
+{
+"uid": "nz-sulek",
+"names": {
+"original": "Sulek",
+"en": "Sulek",
+"hk": "出力",
+"sc": "出力",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 3,
+"rating": null,
+"lb": 119.0,
+"no": 10,
+"draw": 2,
+"gear": "CP/TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-craig-williams",
+"trainer_uid": "t-dominic-sutton",
+"race_uid": "aus-2025-1104-伊蓮羅錦標-表列賽",
+"entries": [
+{
+"no": 10,
+"draw": 2,
+"gear": "CP/TT",
+"horse_uid": "nz-sulek",
+"jockey_uid": "j-craig-williams",
+"trainer_uid": "t-dominic-sutton",
+"lb": 119.0,
+"claim": null,
+"rating": null,
+"sex": "M",
+"age": 3,
+"race_uid": "aus-2025-1104-伊蓮羅錦標-表列賽"
+},
+{
+"no": 9,
+"draw": 10,
+"gear": "TT",
+"horse_uid": "nz-sulek",
+"jockey_uid": "j-billy-egan",
+"trainer_uid": "t-dominic-sutton",
+"lb": 123.0,
+"claim": null,
+"rating": 72,
+"sex": "G",
+"age": 4,
+"race_uid": "aus-2026-1105-指標評分80讓賽"
+}
+]
+},
+{
+"uid": "nz-sully",
+"names": {
+"original": "Sully",
+"en": "Sully",
+"hk": "斑點馬",
+"sc": "斑点马",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2014,
+"color": null,
+"age": 3,
+"rating": 108,
+"lb": 122.0,
+"no": 6,
+"draw": 15,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-hugh-bowman",
+"trainer_uid": "t-t-busuttin-n-young",
+"race_uid": "aus-2017-1104-維多利亞打吡",
+"entries": [
+{
+"no": 6,
+"draw": 15,
+"gear": "TT",
+"horse_uid": "nz-sully",
+"jockey_uid": "j-hugh-bowman",
+"trainer_uid": "t-t-busuttin-n-young",
+"lb": 122.0,
+"claim": null,
+"rating": 108,
+"sex": "G",
+"age": 3,
+"race_uid": "aus-2017-1104-維多利亞打吡"
+},
+{
+"no": 17,
+"draw": 10,
+"gear": "TT",
+"horse_uid": "nz-sully",
+"jockey_uid": "j-regan-bayliss",
+"trainer_uid": "t-t-busuttin-n-young",
+"lb": 117.0,
+"claim": null,
+"rating": 110,
+"sex": "G",
+"age": 4,
+"race_uid": "aus-2018-1027-滿利谷金盃"
+}
+]
+},
+{
+"uid": "nz-sun-gift",
+"names": {
+"original": "Sun Gift",
+"en": "Sun Gift",
+"hk": "日厚禮",
+"sc": "日厚礼",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2020,
+"color": null,
+"age": 5,
+"rating": 86,
+"lb": 121.0,
+"no": 10,
+"draw": 8,
+"gear": "B",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-craig-williams",
+"trainer_uid": "t-danny-o-brien",
+"race_uid": "aus-2026-0321-伊邦娜錦標",
+"entries": [
+{
+"no": 10,
+"draw": 8,
+"gear": "B",
+"horse_uid": "nz-sun-gift",
+"jockey_uid": "j-craig-williams",
+"trainer_uid": "t-danny-o-brien",
+"lb": 121.0,
+"claim": null,
+"rating": 86,
+"sex": "F",
+"age": 5,
+"race_uid": "aus-2026-0321-伊邦娜錦標"
+},
+{
+"no": 11,
+"draw": 13,
+"gear": "B",
+"horse_uid": "nz-sun-gift",
+"jockey_uid": "j-michael-dee",
+"trainer_uid": "t-danny-o-brien",
+"lb": 119.0,
+"claim": null,
+"rating": 82,
+"sex": "F",
+"age": 6,
+"race_uid": "aus-2026-1024-泰斯奧錦標"
+},
+{
+"no": 15,
+"draw": 6,
+"gear": "B",
+"horse_uid": "nz-sun-gift",
+"jockey_uid": "j-billy-egan",
+"trainer_uid": "t-danny-o-brien",
+"lb": 119.0,
+"claim": null,
+"rating": 82,
+"sex": "F",
+"age": 6,
+"race_uid": "aus-2026-1105-指標評分90讓賽"
+},
+{
+"no": 12,
+"draw": 6,
+"gear": "B",
+"horse_uid": "nz-sun-gift",
+"jockey_uid": "j-michael-dee",
+"trainer_uid": "t-danny-o-brien",
+"lb": 121.0,
+"claim": null,
+"rating": 95,
+"sex": "F",
+"age": 6,
+"race_uid": "aus-2026-1107-女族長錦標"
+}
+]
+},
+{
+"uid": "nz-sunshineinmypocket",
+"names": {
+"original": "Sunshineinmypocket",
+"en": "Sunshineinmypocket",
+"hk": "心晴朗",
+"sc": "心晴朗",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2020,
+"color": null,
+"age": 5,
+"rating": 84,
+"lb": 126.0,
+"no": 7,
+"draw": 9,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-ethan-brown",
+"trainer_uid": "t-ciaron-maher",
+"race_uid": "aus-2025-1104-指標評分90讓賽",
+"entries": [
+{
+"no": 7,
+"draw": 9,
+"gear": "TT",
+"horse_uid": "nz-sunshineinmypocket",
+"jockey_uid": "j-ethan-brown",
+"trainer_uid": "t-ciaron-maher",
+"lb": 126.0,
+"claim": null,
+"rating": 84,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2025-1104-指標評分90讓賽"
+},
+{
+"no": 10,
+"draw": null,
+"gear": "TT",
+"horse_uid": "nz-sunshineinmypocket",
+"jockey_uid": null,
+"trainer_uid": null,
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "jra-2024-0413-南太平洋經典賽-表列賽"
+}
+]
+},
+{
+"uid": "nz-super-football",
+"names": {
+"original": "SUPER FOOTBALL",
+"en": "SUPER FOOTBALL",
+"hk": "SUPER FOOTBALL (NZ)",
+"sc": "SUPER FOOTBALL (NZ)",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": null,
+"sex_cn": "",
+"birth_date": null,
+"birth_year": null,
+"color": null,
+"age": null,
+"rating": null,
+"lb": null,
+"no": null,
+"draw": null,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": null,
+"trainer_uid": null,
+"race_uid": "hkjc-2021-寶馬香港打吡大賽2021",
+"entries": [
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "nz-super-football",
+"jockey_uid": null,
+"trainer_uid": null,
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "hkjc-2021-寶馬香港打吡大賽2021"
+}
+]
+},
+{
+"uid": "nz-super-generous",
+"names": {
+"original": "Super Generous",
+"en": "Super Generous",
+"hk": "超大方",
+"sc": "超大方",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 3,
+"rating": 55,
+"lb": 115.0,
+"no": 13,
+"draw": 3,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-juan-paul-v-d-merwe",
+"trainer_uid": "t-leslie-khoo",
+"race_uid": "sin-2021-0522-初級賽",
+"entries": [
+{
+"no": 13,
+"draw": 3,
+"gear": null,
+"horse_uid": "nz-super-generous",
+"jockey_uid": "j-juan-paul-v-d-merwe",
+"trainer_uid": "t-leslie-khoo",
+"lb": 115.0,
+"claim": null,
+"rating": 55,
+"sex": "F",
+"age": 3,
+"race_uid": "sin-2021-0522-初級賽"
+}
+]
+},
+{
+"uid": "nz-super-impact",
+"names": {
+"original": "Super Impact",
+"en": "Super Impact",
+"hk": "超擊力",
+"sc": "超击力",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 4,
+"rating": 65,
+"lb": 126.0,
+"no": 8,
+"draw": 1,
+"gear": "B1",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-jake-bayliss",
+"trainer_uid": "t-donna-logan",
+"race_uid": "sin-2022-0717-新加坡打吡-新加坡一級賽",
+"entries": [
+{
+"no": 8,
+"draw": 1,
+"gear": "B1",
+"horse_uid": "nz-super-impact",
+"jockey_uid": "j-jake-bayliss",
+"trainer_uid": "t-donna-logan",
+"lb": 126.0,
+"claim": null,
+"rating": 65,
+"sex": "G",
+"age": 4,
+"race_uid": "sin-2022-0717-新加坡打吡-新加坡一級賽"
+}
+]
+},
+{
+"uid": "nz-super-photon",
+"names": {
+"original": "Super Photon",
+"en": "Super Photon",
+"hk": "超光子",
+"sc": "超光子",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 4,
+"rating": 82,
+"lb": 127.0,
+"no": 5,
+"draw": 15,
+"gear": "H/TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-sam-weatherley",
+"trainer_uid": "t-stephen-marsh",
+"race_uid": "aus-2026-0124-奧特亞羅經典賽",
+"entries": [
+{
+"no": 5,
+"draw": 15,
+"gear": "H/TT",
+"horse_uid": "nz-super-photon",
+"jockey_uid": "j-sam-weatherley",
+"trainer_uid": "t-stephen-marsh",
+"lb": 127.0,
+"claim": null,
+"rating": 82,
+"sex": "G",
+"age": 4,
+"race_uid": "aus-2026-0124-奧特亞羅經典賽"
+}
+]
+},
+{
+"uid": "nz-super-power",
+"names": {
+"original": "Super Power",
+"en": "Super Power",
+"hk": "強哥",
+"sc": "强哥",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2014,
+"color": null,
+"age": 4,
+"rating": 73,
+"lb": 126.0,
+"no": 8,
+"draw": 12,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-karis-teetan",
+"trainer_uid": "t-ricardo-le-grange",
+"race_uid": "sin-2019-0525-第三班讓賽",
+"entries": [
+{
+"no": 8,
+"draw": 12,
+"gear": null,
+"horse_uid": "nz-super-power",
+"jockey_uid": "j-karis-teetan",
+"trainer_uid": "t-ricardo-le-grange",
+"lb": 126.0,
+"claim": null,
+"rating": 73,
+"sex": "G",
+"age": 4,
+"race_uid": "sin-2019-0525-第三班讓賽"
+},
+{
+"no": 12,
+"draw": 8,
+"gear": null,
+"horse_uid": "nz-super-power",
+"jockey_uid": "j-barend-vorster",
+"trainer_uid": "t-ricardo-le-grange",
+"lb": 117.0,
+"claim": null,
+"rating": 67,
+"sex": "G",
+"age": 5,
+"race_uid": "sin-2019-1110-第三班讓賽-1650"
+}
+]
+},
+{
+"uid": "nz-super-ray",
+"names": {
+"original": "Super Ray",
+"en": "Super Ray",
+"hk": "得利",
+"sc": "得利",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2016,
+"color": null,
+"age": 3,
+"rating": 57,
+"lb": 121.0,
+"no": 9,
+"draw": 2,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-glen-boss",
+"trainer_uid": "t-leslie-khoo",
+"race_uid": "sin-2019-0525-第四班讓賽-1815",
+"entries": [
+{
+"no": 9,
+"draw": 2,
+"gear": null,
+"horse_uid": "nz-super-ray",
+"jockey_uid": "j-glen-boss",
+"trainer_uid": "t-leslie-khoo",
+"lb": 121.0,
+"claim": null,
+"rating": 57,
+"sex": "G",
+"age": 3,
+"race_uid": "sin-2019-0525-第四班讓賽-1815"
+}
+]
+},
+{
+"uid": "nz-super-tycoon",
+"names": {
+"original": "Super Tycoon",
+"en": "Super Tycoon",
+"hk": "巨亨",
+"sc": "巨亨",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2013,
+"color": null,
+"age": 6,
+"rating": 62,
+"lb": 125.0,
+"no": 2,
+"draw": 2,
+"gear": "SR",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-barend-vorster",
+"trainer_uid": "t-ricardo-le-grange",
+"race_uid": "sin-2019-1110-第四班讓賽",
+"entries": [
+{
+"no": 2,
+"draw": 2,
+"gear": "SR",
+"horse_uid": "nz-super-tycoon",
+"jockey_uid": "j-barend-vorster",
+"trainer_uid": "t-ricardo-le-grange",
+"lb": 125.0,
+"claim": null,
+"rating": 62,
+"sex": "G",
+"age": 6,
+"race_uid": "sin-2019-1110-第四班讓賽"
+}
+]
+},
+{
+"uid": "nz-superfabulistic",
+"names": {
+"original": "Superfabulistic",
+"en": "Superfabulistic",
+"hk": "超世寓言",
+"sc": "超世寓言",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2021,
+"color": null,
+"age": 5,
+"rating": null,
+"lb": 121.0,
+"no": 18,
+"draw": 14,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-jordan-childs",
+"trainer_uid": "t-g-waterhouse-a-bott",
+"race_uid": "aus-2026-1107-女族長錦標",
+"entries": [
+{
+"no": 18,
+"draw": 14,
+"gear": null,
+"horse_uid": "nz-superfabulistic",
+"jockey_uid": "j-jordan-childs",
+"trainer_uid": "t-g-waterhouse-a-bott",
+"lb": 121.0,
+"claim": null,
+"rating": null,
+"sex": "F",
+"age": 5,
+"race_uid": "aus-2026-1107-女族長錦標"
+}
+]
+},
+{
+"uid": "nz-superlative",
+"names": {
+"original": "Superlative",
+"en": "Superlative",
+"hk": "至高無上",
+"sc": "至高无上",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2016,
+"color": null,
+"age": 4,
+"rating": 55,
+"lb": 117.0,
+"no": 9,
+"draw": 12,
+"gear": "H",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-juan-paul-v-d-merwe",
+"trainer_uid": "t-clifford-brown",
+"race_uid": "sin-2020-0816-第四班讓賽-1700",
+"entries": [
+{
+"no": 9,
+"draw": 12,
+"gear": "H",
+"horse_uid": "nz-superlative",
+"jockey_uid": "j-juan-paul-v-d-merwe",
+"trainer_uid": "t-clifford-brown",
+"lb": 117.0,
+"claim": null,
+"rating": 55,
+"sex": "G",
+"age": 4,
+"race_uid": "sin-2020-0816-第四班讓賽-1700"
+}
+]
+},
+{
+"uid": "nz-supernima",
+"names": {
+"original": "Supernima",
+"en": "Supernima",
+"hk": "超圓月",
+"sc": "超圆月",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2021,
+"color": null,
+"age": 3,
+"rating": 67,
+"lb": 119.0,
+"no": 10,
+"draw": 1,
+"gear": "SR",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-billy-egan",
+"trainer_uid": "t-p-g-moody-k-coleman",
+"race_uid": "aus-2024-1105-伊蓮羅錦標-表列賽",
+"entries": [
+{
+"no": 10,
+"draw": 1,
+"gear": "SR",
+"horse_uid": "nz-supernima",
+"jockey_uid": "j-billy-egan",
+"trainer_uid": "t-p-g-moody-k-coleman",
+"lb": 119.0,
+"claim": null,
+"rating": 67,
+"sex": "G",
+"age": 3,
+"race_uid": "aus-2024-1105-伊蓮羅錦標-表列賽"
+},
+{
+"no": 12,
+"draw": 3,
+"gear": "B",
+"horse_uid": "nz-supernima",
+"jockey_uid": "j-luke-nolen",
+"trainer_uid": "t-p-g-moody-k-coleman",
+"lb": 122.0,
+"claim": null,
+"rating": 75,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2026-0919-指標評分84讓賽"
+}
+]
+},
+{
+"uid": "nz-sure-will-do",
+"names": {
+"original": "Sure Will Do",
+"en": "Sure Will Do",
+"hk": "一定得",
+"sc": "一定得",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2017,
+"color": null,
+"age": 4,
+"rating": 54,
+"lb": 128.0,
+"no": 3,
+"draw": 1,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-w-h-kok",
+"trainer_uid": "t-stephen-gray",
+"race_uid": "sin-2020-1121-初級賽",
+"entries": [
+{
+"no": 3,
+"draw": 1,
+"gear": "TT",
+"horse_uid": "nz-sure-will-do",
+"jockey_uid": "j-w-h-kok",
+"trainer_uid": "t-stephen-gray",
+"lb": 128.0,
+"claim": -2.0,
+"rating": 54,
+"sex": "G",
+"age": 4,
+"race_uid": "sin-2020-1121-初級賽"
+},
+{
+"no": 9,
+"draw": 5,
+"gear": "H/TT",
+"horse_uid": "nz-sure-will-do",
+"jockey_uid": "j-kamaru-hakim",
+"trainer_uid": "t-stephen-gray",
+"lb": 108.0,
+"claim": -2.0,
+"rating": 71,
+"sex": "G",
+"age": 5,
+"race_uid": "sin-2022-0521-克蘭芝a級賽"
+}
+]
+},
+{
+"uid": "nz-surprise-baby",
+"names": {
+"original": "Surprise Baby",
+"en": "Surprise Baby",
+"hk": "驚喜寶",
+"sc": "惊喜宝",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2014,
+"color": null,
+"age": 5,
+"rating": 111,
+"lb": 118.0,
+"no": 18,
+"draw": 20,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-jordan-childs",
+"trainer_uid": "t-paul-preusker",
+"race_uid": "aus-2019-1105-墨爾本盃",
+"entries": [
+{
+"no": 18,
+"draw": 20,
+"gear": null,
+"horse_uid": "nz-surprise-baby",
+"jockey_uid": "j-jordan-childs",
+"trainer_uid": "t-paul-preusker",
+"lb": 118.0,
+"claim": null,
+"rating": 111,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2019-1105-墨爾本盃"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "nz-surprise-baby",
+"jockey_uid": null,
+"trainer_uid": "t-paul-preusker",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "aus-2019-墨爾本盃"
+},
+{
+"no": 13,
+"draw": 7,
+"gear": null,
+"horse_uid": "nz-surprise-baby",
+"jockey_uid": "j-craig-williams",
+"trainer_uid": "t-paul-preusker",
+"lb": 120.0,
+"claim": null,
+"rating": 112,
+"sex": "G",
+"age": 6,
+"race_uid": "aus-2020-1103-墨爾本盃"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "nz-surprise-baby",
+"jockey_uid": null,
+"trainer_uid": "t-paul-preusker",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "aus-2020-墨爾本盃"
+},
+{
+"no": 3,
+"draw": 3,
+"gear": "CP",
+"horse_uid": "nz-surprise-baby",
+"jockey_uid": "j-nash-rawiller",
+"trainer_uid": "t-gavin-bedggood",
+"lb": 125.0,
+"claim": null,
+"rating": 102,
+"sex": "G",
+"age": 7,
+"race_uid": "aus-2022-0402-主席讓賽"
+}
+]
+},
+{
+"uid": "nz-surrey-hills",
+"names": {
+"original": "Surrey Hills",
+"en": "Surrey Hills",
+"hk": "薩里山",
+"sc": "萨里山",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 3,
+"rating": 56,
+"lb": 125.0,
+"no": 6,
+"draw": 8,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-daniel-beasley",
+"trainer_uid": "t-jason-ong",
+"race_uid": "sin-2022-0521-初級賽",
+"entries": [
+{
+"no": 6,
+"draw": 8,
+"gear": null,
+"horse_uid": "nz-surrey-hills",
+"jockey_uid": "j-daniel-beasley",
+"trainer_uid": "t-jason-ong",
+"lb": 125.0,
+"claim": null,
+"rating": 56,
+"sex": "G",
+"age": 3,
+"race_uid": "sin-2022-0521-初級賽"
+}
+]
+},
+{
+"uid": "nz-swampland",
+"names": {
+"original": "Swampland",
+"en": "Swampland",
+"hk": "沼澤地",
+"sc": "沼泽地",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2013,
+"color": null,
+"age": 4,
+"rating": 103,
+"lb": 121.0,
+"no": 16,
+"draw": 5,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-chris-symons",
+"trainer_uid": "t-henry-dwyer",
+"race_uid": "aus-2017-1021-翠士雅錦標",
+"entries": [
+{
+"no": 16,
+"draw": 5,
+"gear": null,
+"horse_uid": "nz-swampland",
+"jockey_uid": "j-chris-symons",
+"trainer_uid": "t-henry-dwyer",
+"lb": 121.0,
+"claim": null,
+"rating": 103,
+"sex": "F",
+"age": 4,
+"race_uid": "aus-2017-1021-翠士雅錦標"
+},
+{
+"no": 11,
+"draw": 13,
+"gear": null,
+"horse_uid": "nz-swampland",
+"jockey_uid": "j-chris-symons",
+"trainer_uid": "t-henry-dwyer",
+"lb": 121.0,
+"claim": null,
+"rating": 101,
+"sex": "F",
+"age": 4,
+"race_uid": "aus-2017-1107-香港賽馬會錦標"
+}
+]
+},
+{
+"uid": "nz-sweet-ice",
+"names": {
+"original": "Sweet Ice",
+"en": "Sweet Ice",
+"hk": "甜冰",
+"sc": "甜冰",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2023,
+"color": null,
+"age": 3,
+"rating": 98,
+"lb": 126.0,
+"no": 5,
+"draw": 2,
+"gear": "CP1",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-warren-kennedy",
+"trainer_uid": "t-david-greene",
+"race_uid": "aus-2026-0124-卡拉卡百萬三歲馬大賽-表列賽",
+"entries": [
+{
+"no": 5,
+"draw": 2,
+"gear": "CP1",
+"horse_uid": "nz-sweet-ice",
+"jockey_uid": "j-warren-kennedy",
+"trainer_uid": "t-david-greene",
+"lb": 126.0,
+"claim": null,
+"rating": 98,
+"sex": "G",
+"age": 3,
+"race_uid": "aus-2026-0124-卡拉卡百萬三歲馬大賽-表列賽"
+},
+{
+"no": 10,
+"draw": 11,
+"gear": "CP-",
+"horse_uid": "nz-sweet-ice",
+"jockey_uid": "j-warren-kennedy",
+"trainer_uid": "t-david-greene",
+"lb": 126.0,
+"claim": null,
+"rating": 101,
+"sex": "G",
+"age": 3,
+"race_uid": "aus-2026-0307-香港賽馬會全球匯合彩池紐西蘭打吡"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "nz-sweet-ice",
+"jockey_uid": null,
+"trainer_uid": "t-david-greene",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "aus-2026-香港賽馬會全球匯合彩池紐西蘭打吡"
+}
+]
+},
+{
+"uid": "nz-sweetest-thing",
+"names": {
+"original": "Sweetest Thing",
+"en": "Sweetest Thing",
+"hk": "甜之極",
+"sc": "甜之极",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2024,
+"color": null,
+"age": 2,
+"rating": 65,
+"lb": 121.0,
+"no": 10,
+"draw": 8,
+"gear": "SR",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-ben-thompson",
+"trainer_uid": "t-roydon-bergerson",
+"race_uid": "aus-2026-0307-系統錦標",
+"entries": [
+{
+"no": 10,
+"draw": 8,
+"gear": "SR",
+"horse_uid": "nz-sweetest-thing",
+"jockey_uid": "j-ben-thompson",
+"trainer_uid": "t-roydon-bergerson",
+"lb": 121.0,
+"claim": null,
+"rating": 65,
+"sex": "F",
+"age": 2,
+"race_uid": "aus-2026-0307-系統錦標"
+}
+]
+},
+{
+"uid": "nz-sweynesday",
+"names": {
+"original": "Sweynesday",
+"en": "Sweynesday",
+"hk": "星奇心",
+"sc": "星奇心",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2020,
+"color": null,
+"age": 5,
+"rating": 92,
+"lb": 121.0,
+"no": 11,
+"draw": 3,
+"gear": "CP-/B1",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-masa-hashizume",
+"trainer_uid": "t-r-james-r-wellwood",
+"race_uid": "aus-2026-0124-火車路錦標",
+"entries": [
+{
+"no": 11,
+"draw": 3,
+"gear": "CP-/B1",
+"horse_uid": "nz-sweynesday",
+"jockey_uid": "j-masa-hashizume",
+"trainer_uid": "t-r-james-r-wellwood",
+"lb": 121.0,
+"claim": null,
+"rating": 92,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2026-0124-火車路錦標"
+},
+{
+"no": 5,
+"draw": 10,
+"gear": "CP",
+"horse_uid": "nz-sweynesday",
+"jockey_uid": "j-daniel-stackhouse",
+"trainer_uid": "t-annabel-rob-archibald",
+"lb": 128.0,
+"claim": null,
+"rating": 100,
+"sex": "G",
+"age": 6,
+"race_uid": "aus-2026-1031-名氣急升錦標"
+}
+]
+},
+{
+"uid": "nz-sword-in-stone",
+"names": {
+"original": "Sword In Stone",
+"en": "Sword In Stone",
+"hk": "時時有餘",
+"sc": "时时有余",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2016,
+"color": null,
+"age": 9,
+"rating": 100,
+"lb": 122.0,
+"no": 2,
+"draw": 5,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-kelly-myers",
+"trainer_uid": "t-kevin-stephen-gray",
+"race_uid": "aus-2025-0308-奧克蘭盃",
+"entries": [
+{
+"no": 2,
+"draw": 5,
+"gear": "TT",
+"horse_uid": "nz-sword-in-stone",
+"jockey_uid": "j-kelly-myers",
+"trainer_uid": "t-kevin-stephen-gray",
+"lb": 122.0,
+"claim": null,
+"rating": 100,
+"sex": "G",
+"age": 9,
+"race_uid": "aus-2025-0308-奧克蘭盃"
+}
+]
+},
+{
+"uid": "nz-tangmere",
+"names": {
+"original": "Tangmere",
+"en": "Tangmere",
+"hk": "三岔塘村",
+"sc": "三岔塘村",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2015,
+"color": null,
+"age": 3,
+"rating": null,
+"lb": 125.0,
+"no": 21,
+"draw": 13,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-tbc",
+"trainer_uid": "t-chris-waller",
+"race_uid": "aus-2018-0324-玫瑰崗堅尼",
+"entries": [
+{
+"no": 21,
+"draw": 13,
+"gear": "TT",
+"horse_uid": "nz-tangmere",
+"jockey_uid": "j-tbc",
+"trainer_uid": "t-chris-waller",
+"lb": 125.0,
+"claim": null,
+"rating": null,
+"sex": "M",
+"age": 3,
+"race_uid": "aus-2018-0324-玫瑰崗堅尼"
+}
+]
+},
+{
+"uid": "nz-tappy-s-lad",
+"names": {
+"original": "Tappy's Lad",
+"en": "Tappy's Lad",
+"hk": "譚家少爺",
+"sc": "谭家少爷",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2018,
+"color": null,
+"age": 5,
+"rating": 94,
+"lb": 130.0,
+"no": 15,
+"draw": 2,
+"gear": "TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-joshua-parr",
+"trainer_uid": "t-kerry-taplin",
+"race_uid": "aus-2023-鄧格錦標",
+"entries": [
+{
+"no": 15,
+"draw": 2,
+"gear": "TT",
+"horse_uid": "nz-tappy-s-lad",
+"jockey_uid": "j-joshua-parr",
+"trainer_uid": "t-kerry-taplin",
+"lb": 130.0,
+"claim": null,
+"rating": 94,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2023-鄧格錦標"
+}
+]
+},
+{
+"uid": "nz-taro-san",
+"names": {
+"original": "Taro San",
+"en": "Taro San",
+"hk": "塔羅山",
+"sc": "塔罗山",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2015,
+"color": null,
+"age": 3,
+"rating": 56,
+"lb": 120.0,
+"no": 5,
+"draw": 1,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-craig-grylls",
+"trainer_uid": "t-saimee-bin-jumaat",
+"race_uid": "sin-2018-0526-第四班讓賽",
+"entries": [
+{
+"no": 5,
+"draw": 1,
+"gear": null,
+"horse_uid": "nz-taro-san",
+"jockey_uid": "j-craig-grylls",
+"trainer_uid": "t-saimee-bin-jumaat",
+"lb": 120.0,
+"claim": null,
+"rating": 56,
+"sex": "G",
+"age": 3,
+"race_uid": "sin-2018-0526-第四班讓賽"
+}
+]
+},
+{
+"uid": "nz-tavi-time",
+"names": {
+"original": "Tavi Time",
+"en": "Tavi Time",
+"hk": "騰雲盛世",
+"sc": "腾云盛世",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 6,
+"rating": 105,
+"lb": 138.0,
+"no": 1,
+"draw": 5,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-w-stanley",
+"trainer_uid": "t-kris-lees",
+"race_uid": "aus-2026-0418-香港賽馬會全球匯合彩池讓賽",
+"entries": [
+{
+"no": 1,
+"draw": 5,
+"gear": null,
+"horse_uid": "nz-tavi-time",
+"jockey_uid": "j-w-stanley",
+"trainer_uid": "t-kris-lees",
+"lb": 138.0,
+"claim": -7.0,
+"rating": 105,
+"sex": "G",
+"age": 6,
+"race_uid": "aus-2026-0418-香港賽馬會全球匯合彩池讓賽"
+},
+{
+"no": 3,
+"draw": 12,
+"gear": "TT",
+"horse_uid": "nz-tavi-time",
+"jockey_uid": "j-ben-melham",
+"trainer_uid": "t-kris-lees",
+"lb": 129.0,
+"claim": null,
+"rating": 106,
+"sex": "G",
+"age": 7,
+"race_uid": "aus-2026-1103-碟-表列賽"
+},
+{
+"no": 4,
+"draw": 1,
+"gear": "B1/TT",
+"horse_uid": "nz-tavi-time",
+"jockey_uid": "j-james-mcdonald",
+"trainer_uid": "t-kris-lees",
+"lb": 129.0,
+"claim": null,
+"rating": 104,
+"sex": "G",
+"age": 7,
+"race_uid": "aus-2026-1105-卓德萬利福錦標-表列賽"
+},
+{
+"no": 1,
+"draw": 16,
+"gear": null,
+"horse_uid": "nz-tavi-time",
+"jockey_uid": "j-dylan-gibbons",
+"trainer_uid": "t-kris-lees",
+"lb": 130.0,
+"claim": null,
+"rating": 84,
+"sex": "G",
+"age": 4,
+"race_uid": "jra-2024-0413-中級城市錦標決賽"
+}
+]
+},
+{
+"uid": "nz-tavidance",
+"names": {
+"original": "Tavidance",
+"en": "Tavidance",
+"hk": "德雲舞",
+"sc": "德云舞",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "NZL",
+"country": "新西兰",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2015,
+"color": null,
+"age": 5,
+"rating": 82,
+"lb": 123.0,
+"no": 11,
+"draw": 5,
+"gear": "B",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-jamie-kah",
+"trainer_uid": "t-m-price-m-kent-jnr",
+"race_uid": "aus-2020-1103-指標評分90讓賽",
+"entries": [
+{
+"no": 11,
+"draw": 5,
+"gear": "B",
+"horse_uid": "nz-tavidance",
+"jockey_uid": "j-jamie-kah",
+"trainer_uid": "t-m-price-m-kent-jnr",
+"lb": 123.0,
+"claim": null,
+"rating": 82,
+"sex": "G",
+"age": 5,
+"race_uid": "aus-2020-1103-指標評分90讓賽"
 }
 ]
 }

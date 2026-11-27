@@ -1,887 +1,11 @@
 {
 "_meta": {
 "schema": "names/v3",
-"updated": "2026-11-26",
+"updated": "2026-11-27",
 "count": 500,
 "kind": "horses"
 },
 "items": [
-{
-"uid": "fr-westminster-fox",
-"names": {
-"original": "Westminster Fox",
-"en": "Westminster Fox",
-"hk": "銳敏小狐",
-"sc": "锐敏小狐",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 2,
-"rating": null,
-"lb": 126.0,
-"no": 10,
-"draw": 4,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-marie-velon",
-"trainer_uid": "t-vaclav-luka",
-"race_uid": "fr-2024-0707-兩歲初出雌馬賽",
-"entries": [
-{
-"no": 10,
-"draw": 4,
-"gear": null,
-"horse_uid": "fr-westminster-fox",
-"jockey_uid": "j-marie-velon",
-"trainer_uid": "t-vaclav-luka",
-"lb": 126.0,
-"claim": null,
-"rating": null,
-"sex": "F",
-"age": 2,
-"race_uid": "fr-2024-0707-兩歲初出雌馬賽"
-}
-]
-},
-{
-"uid": "fr-westminster-night",
-"names": {
-"original": "Westminster Night",
-"en": "Westminster Night",
-"hk": "威敏深宵",
-"sc": "威敏深宵",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2019,
-"color": null,
-"age": 6,
-"rating": 90,
-"lb": 130.0,
-"no": 4,
-"draw": 16,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-tony-piccone",
-"trainer_uid": "t-henri-alex-pantall",
-"race_uid": "fr-2025-0706-第二班讓賽",
-"entries": [
-{
-"no": 4,
-"draw": 16,
-"gear": null,
-"horse_uid": "fr-westminster-night",
-"jockey_uid": "j-tony-piccone",
-"trainer_uid": "t-henri-alex-pantall",
-"lb": 130.0,
-"claim": null,
-"rating": 90,
-"sex": "G",
-"age": 6,
-"race_uid": "fr-2025-0706-第二班讓賽"
-},
-{
-"no": 15,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-westminster-night",
-"jockey_uid": null,
-"trainer_uid": null,
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2025-0810-多維爾讓賽"
-}
-]
-},
-{
-"uid": "fr-westridge",
-"names": {
-"original": "Westridge",
-"en": "Westridge",
-"hk": "聳聳山稜",
-"sc": "耸耸山棱",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 3,
-"rating": 88,
-"lb": 133.0,
-"no": 5,
-"draw": 10,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-kieran-shoemark",
-"trainer_uid": "t-john-thady-gosden",
-"race_uid": "gb-2024-0802-香港賽馬會全球匯合彩池讓賽",
-"entries": [
-{
-"no": 5,
-"draw": 10,
-"gear": null,
-"horse_uid": "fr-westridge",
-"jockey_uid": "j-kieran-shoemark",
-"trainer_uid": "t-john-thady-gosden",
-"lb": 133.0,
-"claim": null,
-"rating": 88,
-"sex": "M",
-"age": 3,
-"race_uid": "gb-2024-0802-香港賽馬會全球匯合彩池讓賽"
-},
-{
-"no": 17,
-"draw": 8,
-"gear": "CP",
-"horse_uid": "fr-westridge",
-"jockey_uid": "j-billy-loughnane",
-"trainer_uid": "t-john-thady-gosden",
-"lb": 120.0,
-"claim": null,
-"rating": 92,
-"sex": "G",
-"age": 4,
-"race_uid": "gb-2025-0729-四歲以上馬讓賽"
-}
-]
-},
-{
-"uid": "fr-whataboutism",
-"names": {
-"original": "Whataboutism",
-"en": "Whataboutism",
-"hk": "轉移視線",
-"sc": "转移视线",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 3,
-"rating": 101,
-"lb": 125.0,
-"no": 6,
-"draw": 5,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-andre-fabre",
-"race_uid": "fr-2025-0803-普賽克錦標",
-"entries": [
-{
-"no": 6,
-"draw": 5,
-"gear": null,
-"horse_uid": "fr-whataboutism",
-"jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-andre-fabre",
-"lb": 125.0,
-"claim": null,
-"rating": 101,
-"sex": "F",
-"age": 3,
-"race_uid": "fr-2025-0803-普賽克錦標"
-}
-]
-},
-{
-"uid": "fr-whatever-it-costs",
-"names": {
-"original": "WHATEVER IT COSTS",
-"en": "WHATEVER IT COSTS",
-"hk": "不惜工本",
-"sc": "不惜工本",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": null,
-"sex_cn": "",
-"birth_date": null,
-"birth_year": null,
-"color": null,
-"age": null,
-"rating": null,
-"lb": null,
-"no": null,
-"draw": null,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": null,
-"trainer_uid": "t-j-leroy",
-"race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹",
-"entries": [
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-whatever-it-costs",
-"jockey_uid": null,
-"trainer_uid": "t-j-leroy",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2024-0802-s2-7-第三班讓賽-s2-8-第三班讓賽-s2-9-第四班讓賽-可能參賽馬匹"
-}
-]
-},
-{
-"uid": "fr-wheel-of-chance",
-"names": {
-"original": "Wheel Of Chance",
-"en": "Wheel Of Chance",
-"hk": "喜運輪",
-"sc": "喜运轮",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 6,
-"rating": 61,
-"lb": 127.0,
-"no": 10,
-"draw": 6,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-dominique-chenu",
-"race_uid": "fr-2023-0904-第三班讓賽",
-"entries": [
-{
-"no": 10,
-"draw": 6,
-"gear": null,
-"horse_uid": "fr-wheel-of-chance",
-"jockey_uid": "j-mickael-barzalona",
-"trainer_uid": "t-dominique-chenu",
-"lb": 127.0,
-"claim": null,
-"rating": 61,
-"sex": "G",
-"age": 6,
-"race_uid": "fr-2023-0904-第三班讓賽"
-}
-]
-},
-{
-"uid": "fr-wheels-on-fire",
-"names": {
-"original": "Wheels On Fire",
-"en": "Wheels On Fire",
-"hk": "火速輪蹄",
-"sc": "火速轮蹄",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2017,
-"color": null,
-"age": 2,
-"rating": null,
-"lb": 129.0,
-"no": 19,
-"draw": 1,
-"gear": "CP",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-antoine-hamelin",
-"trainer_uid": "t-matthieu-palussiere",
-"race_uid": "gb-2019-0620-溫莎堡錦標-表列賽",
-"entries": [
-{
-"no": 19,
-"draw": 1,
-"gear": "CP",
-"horse_uid": "fr-wheels-on-fire",
-"jockey_uid": "j-antoine-hamelin",
-"trainer_uid": "t-matthieu-palussiere",
-"lb": 129.0,
-"claim": null,
-"rating": null,
-"sex": "M",
-"age": 2,
-"race_uid": "gb-2019-0620-溫莎堡錦標-表列賽"
-}
-]
-},
-{
-"uid": "fr-white-platin",
-"names": {
-"original": "White Platin",
-"en": "White Platin",
-"hk": "白色合金",
-"sc": "白色合金",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": 4,
-"rating": 87,
-"lb": 120.0,
-"no": 11,
-"draw": 5,
-"gear": "B",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-ronan-thomas",
-"trainer_uid": "t-corine-barande-barbe",
-"race_uid": "fr-2022-1003-第一班讓賽",
-"entries": [
-{
-"no": 11,
-"draw": 5,
-"gear": "B",
-"horse_uid": "fr-white-platin",
-"jockey_uid": "j-ronan-thomas",
-"trainer_uid": "t-corine-barande-barbe",
-"lb": 120.0,
-"claim": null,
-"rating": 87,
-"sex": "G",
-"age": 4,
-"race_uid": "fr-2022-1003-第一班讓賽"
-},
-{
-"no": 9,
-"draw": 18,
-"gear": "B",
-"horse_uid": "fr-white-platin",
-"jockey_uid": "j-ronan-thomas",
-"trainer_uid": "t-corine-barande-barbe",
-"lb": 120.0,
-"claim": null,
-"rating": 88,
-"sex": "G",
-"age": 5,
-"race_uid": "fr-2023-1002-第一班讓賽"
-},
-{
-"no": 12,
-"draw": 16,
-"gear": "B",
-"horse_uid": "fr-white-platin",
-"jockey_uid": "j-ronan-thomas",
-"trainer_uid": "t-corine-barande-barbe",
-"lb": 123.0,
-"claim": null,
-"rating": 85,
-"sex": "G",
-"age": 6,
-"race_uid": "fr-2024-0707-第二班讓賽"
-}
-]
-},
-{
-"uid": "fr-white-whisky",
-"names": {
-"original": "White Whisky",
-"en": "White Whisky",
-"hk": "新烈酒",
-"sc": "新烈酒",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": 5,
-"rating": 88,
-"lb": 121.0,
-"no": 15,
-"draw": 14,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-fabrice-veron",
-"trainer_uid": "t-georgios-alimpinisis",
-"race_uid": "aus-2023-0820-第一班讓賽",
-"entries": [
-{
-"no": 15,
-"draw": 14,
-"gear": "TT",
-"horse_uid": "fr-white-whisky",
-"jockey_uid": "j-fabrice-veron",
-"trainer_uid": "t-georgios-alimpinisis",
-"lb": 121.0,
-"claim": null,
-"rating": 88,
-"sex": "G",
-"age": 5,
-"race_uid": "aus-2023-0820-第一班讓賽"
-}
-]
-},
-{
-"uid": "fr-who-knows",
-"names": {
-"original": "Who Knows",
-"en": "Who Knows",
-"hk": "有待分曉",
-"sc": "有待分晓",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2019,
-"color": null,
-"age": 2,
-"rating": 96,
-"lb": 122.0,
-"no": 6,
-"draw": 3,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-theo-bachelot",
-"trainer_uid": "t-stephane-wattel",
-"race_uid": "fr-2021-0815-包添錦標",
-"entries": [
-{
-"no": 6,
-"draw": 3,
-"gear": "TT",
-"horse_uid": "fr-who-knows",
-"jockey_uid": "j-theo-bachelot",
-"trainer_uid": "t-stephane-wattel",
-"lb": 122.0,
-"claim": null,
-"rating": 96,
-"sex": "F",
-"age": 2,
-"race_uid": "fr-2021-0815-包添錦標"
-},
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-who-knows",
-"jockey_uid": null,
-"trainer_uid": "t-s-wattel",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2022-0805-月影雲霞錦標"
-},
-{
-"no": 13,
-"draw": 6,
-"gear": "TT",
-"horse_uid": "fr-who-knows",
-"jockey_uid": "j-theo-bachelot",
-"trainer_uid": "t-stephane-wattel",
-"lb": 121.0,
-"claim": null,
-"rating": 99,
-"sex": "F",
-"age": 3,
-"race_uid": "fr-2022-0807-月影雲霞錦標-表列賽"
-}
-]
-},
-{
-"uid": "fr-why-chope",
-"names": {
-"original": "Why Chope",
-"en": "Why Chope",
-"hk": "開懷暢飲",
-"sc": "开怀畅饮",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2019,
-"color": null,
-"age": 5,
-"rating": 64,
-"lb": 132.0,
-"no": 3,
-"draw": 4,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-delphine-santiago",
-"trainer_uid": "t-jess-parize",
-"race_uid": "fr-2024-0812-第三班讓賽",
-"entries": [
-{
-"no": 3,
-"draw": 4,
-"gear": null,
-"horse_uid": "fr-why-chope",
-"jockey_uid": "j-delphine-santiago",
-"trainer_uid": "t-jess-parize",
-"lb": 132.0,
-"claim": -3.0,
-"rating": 64,
-"sex": "F",
-"age": 5,
-"race_uid": "fr-2024-0812-第三班讓賽"
-}
-]
-},
-{
-"uid": "fr-wicked",
-"names": {
-"original": "Wicked",
-"en": "Wicked",
-"hk": "確實好極",
-"sc": "确实好极",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2022,
-"color": null,
-"age": 3,
-"rating": 85,
-"lb": 131.0,
-"no": 14,
-"draw": 6,
-"gear": "CP",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-james-doyle",
-"trainer_uid": "t-john-thady-gosden",
-"race_uid": "gb-2025-0801-全球匯合彩池bet-with-the-tote讓賽",
-"entries": [
-{
-"no": 14,
-"draw": 6,
-"gear": "CP",
-"horse_uid": "fr-wicked",
-"jockey_uid": "j-james-doyle",
-"trainer_uid": "t-john-thady-gosden",
-"lb": 131.0,
-"claim": null,
-"rating": 85,
-"sex": "M",
-"age": 3,
-"race_uid": "gb-2025-0801-全球匯合彩池bet-with-the-tote讓賽"
-}
-]
-},
-{
-"uid": "fr-wienerbrod",
-"names": {
-"original": "Wienerbrod",
-"en": "Wienerbrod",
-"hk": "丹麥酥",
-"sc": "丹麦酥",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "F",
-"sex_cn": "雌",
-"birth_date": null,
-"birth_year": 2016,
-"color": null,
-"age": 3,
-"rating": null,
-"lb": 108.0,
-"no": 8,
-"draw": 8,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-nanako-fujita",
-"trainer_uid": "t-toru-hayashi",
-"race_uid": "jra-2019-0929-三歲以上一捷馬賽-1225",
-"entries": [
-{
-"no": 8,
-"draw": 8,
-"gear": null,
-"horse_uid": "fr-wienerbrod",
-"jockey_uid": "j-nanako-fujita",
-"trainer_uid": "t-toru-hayashi",
-"lb": 108.0,
-"claim": null,
-"rating": null,
-"sex": "F",
-"age": 3,
-"race_uid": "jra-2019-0929-三歲以上一捷馬賽-1225"
-}
-]
-},
-{
-"uid": "fr-wild-city",
-"names": {
-"original": "Wild City",
-"en": "Wild City",
-"hk": "孤城僻處",
-"sc": "孤城僻处",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2021,
-"color": null,
-"age": 4,
-"rating": 81,
-"lb": 131.0,
-"no": 5,
-"draw": 14,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-anthony-crastus",
-"trainer_uid": "t-thibaut-richard",
-"race_uid": "fr-2025-0803-第三班讓賽",
-"entries": [
-{
-"no": 5,
-"draw": 14,
-"gear": "TT",
-"horse_uid": "fr-wild-city",
-"jockey_uid": "j-anthony-crastus",
-"trainer_uid": "t-thibaut-richard",
-"lb": 131.0,
-"claim": null,
-"rating": 81,
-"sex": "M",
-"age": 4,
-"race_uid": "fr-2025-0803-第三班讓賽"
-}
-]
-},
-{
-"uid": "fr-wild-west",
-"names": {
-"original": "Wild West",
-"en": "Wild West",
-"hk": "狂野地帶",
-"sc": "狂野地带",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "M",
-"sex_cn": "雄",
-"birth_date": null,
-"birth_year": 2020,
-"color": null,
-"age": 4,
-"rating": 90,
-"lb": 129.0,
-"no": 4,
-"draw": 5,
-"gear": null,
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-m-delcher-sanchez",
-"race_uid": "fr-2024-0707-第二班讓賽",
-"entries": [
-{
-"no": 4,
-"draw": 5,
-"gear": null,
-"horse_uid": "fr-wild-west",
-"jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-m-delcher-sanchez",
-"lb": 129.0,
-"claim": null,
-"rating": 90,
-"sex": "M",
-"age": 4,
-"race_uid": "fr-2024-0707-第二班讓賽"
-},
-{
-"no": 16,
-"draw": 3,
-"gear": null,
-"horse_uid": "fr-wild-west",
-"jockey_uid": "j-eddy-hardouin",
-"trainer_uid": "t-m-delcher-sanchez",
-"lb": 119.0,
-"claim": null,
-"rating": 87,
-"sex": "M",
-"age": 4,
-"race_uid": "fr-2024-1007-第一班讓賽"
-},
-{
-"no": null,
-"draw": null,
-"gear": null,
-"horse_uid": "fr-wild-west",
-"jockey_uid": null,
-"trainer_uid": "t-n-caullery",
-"lb": null,
-"claim": null,
-"rating": null,
-"sex": null,
-"age": null,
-"race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定"
-},
-{
-"no": 8,
-"draw": 2,
-"gear": "TT",
-"horse_uid": "fr-wild-west",
-"jockey_uid": "j-maxime-guyon",
-"trainer_uid": "t-nicolas-caullery",
-"lb": 123.0,
-"claim": null,
-"rating": 73,
-"sex": "M",
-"age": 6,
-"race_uid": "fr-2026-0802-pmu全球匯合彩池第二班讓賽"
-}
-]
-},
-{
-"uid": "fr-wind-of-change",
-"names": {
-"original": "Wind Of Change",
-"en": "Wind Of Change",
-"hk": "革新風勢",
-"sc": "革新风势",
-"own": null,
-"alias": []
-},
-"origin": "FRA",
-"country": "法国",
-"sex": "G",
-"sex_cn": "骟",
-"birth_date": null,
-"birth_year": 2018,
-"color": null,
-"age": 7,
-"rating": 72,
-"lb": 130.0,
-"no": 4,
-"draw": 15,
-"gear": "TT",
-"pedigree": null,
-"curation": "pending",
-"status": "pending",
-"jockey_uid": "j-augustin-madamet",
-"trainer_uid": "t-jess-parize",
-"race_uid": "fr-2025-0804-第三班讓賽",
-"entries": [
-{
-"no": 4,
-"draw": 15,
-"gear": "TT",
-"horse_uid": "fr-wind-of-change",
-"jockey_uid": "j-augustin-madamet",
-"trainer_uid": "t-jess-parize",
-"lb": 130.0,
-"claim": null,
-"rating": 72,
-"sex": "G",
-"age": 7,
-"race_uid": "fr-2025-0804-第三班讓賽"
-},
-{
-"no": 5,
-"draw": 8,
-"gear": "TT",
-"horse_uid": "fr-wind-of-change",
-"jockey_uid": "j-ambre-molins",
-"trainer_uid": "t-jess-parize",
-"lb": 136.0,
-"claim": -4.0,
-"rating": 67,
-"sex": "G",
-"age": 8,
-"race_uid": "fr-2026-0705-pmu全球匯合彩池第三班讓賽-b481"
-}
-]
-},
 {
 "uid": "fr-windburn",
 "names": {
@@ -890,7 +14,8 @@
 "hk": "寒風撲面",
 "sc": "寒风扑面",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -936,7 +61,8 @@
 "hk": "穎敏駒",
 "sc": "颖敏驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -982,7 +108,8 @@
 "hk": "疾風駒",
 "sc": "疾风驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1028,7 +155,8 @@
 "hk": "勝方",
 "sc": "胜方",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1074,7 +202,8 @@
 "hk": "冬日布丁",
 "sc": "冬日布丁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1120,7 +249,8 @@
 "hk": "冬再現",
 "sc": "冬再现",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1180,7 +310,8 @@
 "hk": "心願斗篷",
 "sc": "心愿斗篷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1226,7 +357,8 @@
 "hk": "獵巫行動",
 "sc": "猎巫行动",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1398,7 +530,8 @@
 "hk": "帶勁",
 "sc": "带劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1417,7 +550,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-janssen",
+"trainer_uid": "t-christiane-janssen",
 "race_uid": "fr-2026-0731-s2-4-pmu-全球匯合彩池第三班讓賽-s2-6-pmu-全球匯合彩池第三班讓賽",
 "entries": [
 {
@@ -1426,7 +559,7 @@
 "gear": null,
 "horse_uid": "fr-with-zest",
 "jockey_uid": null,
-"trainer_uid": "t-c-janssen",
+"trainer_uid": "t-christiane-janssen",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -1458,7 +591,8 @@
 "hk": "倭刀鋒",
 "sc": "倭刀锋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1532,7 +666,8 @@
 "hk": "機妙童子",
 "sc": "机妙童子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1592,7 +727,8 @@
 "hk": "歡暢今宵",
 "sc": "欢畅今宵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1680,7 +816,8 @@
 "hk": "快跑哈拉",
 "sc": "快跑哈拉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1740,7 +877,8 @@
 "hk": "運勢來",
 "sc": "运势来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1800,7 +938,8 @@
 "hk": "興奮滿城",
 "sc": "兴奋满城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1846,7 +985,8 @@
 "hk": "活頓林地",
 "sc": "活顿林地",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1948,7 +1088,8 @@
 "hk": "活頓城",
 "sc": "活顿城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -1967,7 +1108,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-reynier",
+"trainer_uid": "t-jerome-reynier",
 "race_uid": "fr-2022-0730-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -1976,7 +1117,7 @@
 "gear": null,
 "horse_uid": "fr-wootton-city",
 "jockey_uid": null,
-"trainer_uid": "t-j-reynier",
+"trainer_uid": "t-jerome-reynier",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2008,7 +1149,8 @@
 "hk": "活頓太陽",
 "sc": "活顿太阳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2082,7 +1224,8 @@
 "hk": "活頓光華",
 "sc": "活顿光华",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2240,7 +1383,8 @@
 "hk": "WORLD FAMOUS (FR)",
 "sc": "WORLD FAMOUS (FR)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2286,7 +1430,8 @@
 "hk": "異彩",
 "sc": "异彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2332,7 +1477,8 @@
 "hk": "逸嬌麗",
 "sc": "逸娇丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2378,7 +1524,8 @@
 "hk": "思鄉之情",
 "sc": "思乡之情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2424,7 +1571,8 @@
 "hk": "逸高傲",
 "sc": "逸高傲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2470,7 +1618,8 @@
 "hk": "飛黃戰袍",
 "sc": "飞黄战袍",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2530,7 +1679,8 @@
 "hk": "好的莎拉",
 "sc": "好的莎拉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2576,7 +1726,8 @@
 "hk": "艷美麗",
 "sc": "艳美丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2595,7 +1746,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-schutz",
+"trainer_uid": "t-andreas-schutz",
 "race_uid": "fr-2026-0508-法國一千堅尼",
 "entries": [
 {
@@ -2604,7 +1755,7 @@
 "gear": null,
 "horse_uid": "fr-ymeeelih",
 "jockey_uid": null,
-"trainer_uid": "t-a-schutz",
+"trainer_uid": "t-andreas-schutz",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2650,7 +1801,8 @@
 "hk": "遠見高明",
 "sc": "远见高明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2710,7 +1862,8 @@
 "hk": "常青草",
 "sc": "常青草",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2756,7 +1909,8 @@
 "hk": "趁風揚帆",
 "sc": "趁风扬帆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2802,7 +1956,8 @@
 "hk": "青春火焰",
 "sc": "青春火焰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2876,7 +2031,8 @@
 "hk": "小頑皮",
 "sc": "小顽皮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2950,7 +2106,8 @@
 "hk": "伊桑洛鎮",
 "sc": "伊桑洛镇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -2969,7 +2126,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "race_uid": "fr-2019-1004-航空讓賽",
 "entries": [
 {
@@ -2978,7 +2135,7 @@
 "gear": null,
 "horse_uid": "fr-yssingeaux",
 "jockey_uid": null,
-"trainer_uid": "t-f-chappet",
+"trainer_uid": "t-fabrice-chappet",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -2996,7 +2153,8 @@
 "hk": "一念間",
 "sc": "一念间",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3014,7 +2172,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-dylan-browne-mcmonagle",
+"jockey_uid": "j-dylan-mcmonagle",
 "trainer_uid": "t-joseph-o-brien",
 "race_uid": "gb-2026-0523-四歲以上馬讓賽",
 "entries": [
@@ -3023,7 +2181,7 @@
 "draw": 11,
 "gear": "TT",
 "horse_uid": "fr-yulia",
-"jockey_uid": "j-dylan-browne-mcmonagle",
+"jockey_uid": "j-dylan-mcmonagle",
 "trainer_uid": "t-joseph-o-brien",
 "lb": 127.0,
 "claim": null,
@@ -3042,7 +2200,8 @@
 "hk": "火亮通明",
 "sc": "火亮通明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3084,7 +2243,7 @@
 "gear": null,
 "horse_uid": "fr-zaahir",
 "jockey_uid": null,
-"trainer_uid": "t-l-guilloux",
+"trainer_uid": "t-loic-guilloux",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3116,7 +2275,8 @@
 "hk": "斧頭阿哥",
 "sc": "斧头阿哥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3162,7 +2322,8 @@
 "hk": "閃灰",
 "sc": "闪灰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3222,7 +2383,8 @@
 "hk": "摘金",
 "sc": "摘金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3241,7 +2403,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-r-bouckhuyt",
+"trainer_uid": "t-rosine-bouckhuyt",
 "race_uid": "fr-2021-0806-第三班讓賽",
 "entries": [
 {
@@ -3250,7 +2412,7 @@
 "gear": null,
 "horse_uid": "fr-zain-gold",
 "jockey_uid": null,
-"trainer_uid": "t-r-bouckhuyt",
+"trainer_uid": "t-rosine-bouckhuyt",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3282,7 +2444,8 @@
 "hk": "崇高心",
 "sc": "崇高心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3342,7 +2505,8 @@
 "hk": "流金美駿",
 "sc": "流金美骏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3430,7 +2594,8 @@
 "hk": "炫炫藍彩",
 "sc": "炫炫蓝彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3449,7 +2614,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-ferland",
+"trainer_uid": "t-christophe-ferland",
 "race_uid": "fr-2022-0730-六星完美錦標",
 "entries": [
 {
@@ -3458,7 +2623,7 @@
 "gear": null,
 "horse_uid": "fr-zara-blue",
 "jockey_uid": null,
-"trainer_uid": "t-c-ferland",
+"trainer_uid": "t-christophe-ferland",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3490,7 +2655,8 @@
 "hk": "實穩金",
 "sc": "实稳金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3509,7 +2675,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "race_uid": "fr-2017-0929-凱旋門大賽-歌劇錦標-隆尚教堂-大賽及森林大賽",
 "entries": [
 {
@@ -3518,7 +2684,7 @@
 "gear": null,
 "horse_uid": "fr-zarak",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3536,7 +2702,8 @@
 "hk": "閃亮金",
 "sc": "闪亮金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3610,7 +2777,8 @@
 "hk": "讚譽姬",
 "sc": "赞誉姬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3656,7 +2824,8 @@
 "hk": "女君王",
 "sc": "女君王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3675,7 +2844,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-p-gauvin",
+"trainer_uid": "t-jean-pierre-gauvin",
 "race_uid": "fr-2024-0802-紀爾斯大賽日-暫定",
 "entries": [
 {
@@ -3684,7 +2853,7 @@
 "gear": null,
 "horse_uid": "fr-zarina",
 "jockey_uid": null,
-"trainer_uid": "t-j-p-gauvin",
+"trainer_uid": "t-jean-pierre-gauvin",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3716,7 +2885,8 @@
 "hk": "實夠伶俐",
 "sc": "实够伶俐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3735,7 +2905,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "race_uid": "fr-2019-法國打吡大賽",
 "entries": [
 {
@@ -3744,7 +2914,7 @@
 "gear": null,
 "horse_uid": "fr-zarkallani",
 "jockey_uid": null,
-"trainer_uid": "t-a-de-royer-dupre",
+"trainer_uid": "t-alain-de-royer-dupre",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3762,7 +2932,8 @@
 "hk": "金錢銀錢",
 "sc": "金钱银钱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3808,7 +2979,8 @@
 "hk": "豐富早餐",
 "sc": "丰富早餐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3827,7 +2999,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-v-sartori",
+"trainer_uid": "t-vincent-sartori",
 "race_uid": "fr-2019-1004-航空讓賽",
 "entries": [
 {
@@ -3836,7 +3008,7 @@
 "gear": null,
 "horse_uid": "fr-zavrinka",
 "jockey_uid": null,
-"trainer_uid": "t-v-sartori",
+"trainer_uid": "t-vincent-sartori",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -3868,7 +3040,8 @@
 "hk": "捷威蹄",
 "sc": "捷威蹄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3914,7 +3087,8 @@
 "hk": "倩飛翼",
 "sc": "倩飞翼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -3974,7 +3148,8 @@
 "hk": "至俐落",
 "sc": "至俐落",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4020,7 +3195,8 @@
 "hk": "盛麗",
 "sc": "盛丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4066,7 +3242,8 @@
 "hk": "進猛攻",
 "sc": "进猛攻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4112,7 +3289,8 @@
 "hk": "沖金",
 "sc": "冲金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4158,7 +3336,8 @@
 "hk": "激奮銳",
 "sc": "激奋锐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4204,7 +3383,8 @@
 "hk": "沖天炮",
 "sc": "冲天炮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4223,7 +3403,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "race_uid": "fr-2017-0929-森林大賽",
 "entries": [
 {
@@ -4232,7 +3412,7 @@
 "gear": null,
 "horse_uid": "fr-zelzal",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -4250,7 +3430,8 @@
 "hk": "地動震撼",
 "sc": "地动震撼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4296,7 +3477,8 @@
 "hk": "先領騎士",
 "sc": "先领骑士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4315,7 +3497,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-f-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -4324,7 +3506,7 @@
 "gear": null,
 "horse_uid": "fr-zeolakis",
 "jockey_uid": null,
-"trainer_uid": "t-m-f-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -4338,7 +3520,7 @@
 "gear": "TT",
 "horse_uid": "fr-zeolakis",
 "jockey_uid": "j-stephane-pasquier",
-"trainer_uid": "t-marian-falk-weissmeier",
+"trainer_uid": "t-marian-weissmeier",
 "lb": 119.0,
 "claim": null,
 "rating": 68,
@@ -4356,7 +3538,8 @@
 "hk": "勝景",
 "sc": "胜景",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4398,7 +3581,7 @@
 "gear": "B1",
 "horse_uid": "fr-zeyrek",
 "jockey_uid": "j-sam-clipperton",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 130.0,
 "claim": null,
 "rating": 112,
@@ -4412,7 +3595,7 @@
 "gear": "CP",
 "horse_uid": "fr-zeyrek",
 "jockey_uid": "j-tim-clark",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 130.0,
 "claim": null,
 "rating": 107,
@@ -4426,7 +3609,7 @@
 "gear": "B2",
 "horse_uid": "fr-zeyrek",
 "jockey_uid": "j-joshua-parr",
-"trainer_uid": "t-m-w-j-hawkes",
+"trainer_uid": "t-michael-wayne-john-hawkes",
 "lb": 130.0,
 "claim": null,
 "rating": 112,
@@ -4444,7 +3627,8 @@
 "hk": "張飛",
 "sc": "张飞",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4490,7 +3674,8 @@
 "hk": "安妮姑姑",
 "sc": "安妮姑姑",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4550,7 +3735,8 @@
 "hk": "萬千驕陽",
 "sc": "万千骄阳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4596,7 +3782,8 @@
 "hk": "星羅蘭",
 "sc": "星罗兰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4642,7 +3829,8 @@
 "hk": "宗紮村",
 "sc": "宗扎村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4688,7 +3876,8 @@
 "hk": "絕麗",
 "sc": "绝丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4734,7 +3923,8 @@
 "hk": "秀麗花",
 "sc": "秀丽花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4753,7 +3943,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-m-a-ratsimihah",
+"trainer_uid": "t-m-andriantsoa-ratsimihah",
 "race_uid": "fr-2024-0805-第四班讓賽",
 "entries": [
 {
@@ -4762,7 +3952,7 @@
 "gear": "B",
 "horse_uid": "fr-zoubareva",
 "jockey_uid": "j-alexis-pouchin",
-"trainer_uid": "t-m-a-ratsimihah",
+"trainer_uid": "t-m-andriantsoa-ratsimihah",
 "lb": 127.0,
 "claim": null,
 "rating": 46,
@@ -4790,7 +3980,7 @@
 "gear": "B",
 "horse_uid": "fr-zoubareva",
 "jockey_uid": "j-nicolas-baudet",
-"trainer_uid": "t-m-a-ratsimihah",
+"trainer_uid": "t-m-andriantsoa-ratsimihah",
 "lb": 115.0,
 "claim": -4.0,
 "rating": 36,
@@ -4808,7 +3998,8 @@
 "hk": "狂歡舞池",
 "sc": "狂欢舞池",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4854,7 +4045,8 @@
 "hk": "升揚",
 "sc": "升扬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4900,7 +4092,8 @@
 "hk": "祖魯戰力",
 "sc": "祖鲁战力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -4946,7 +4139,8 @@
 "hk": "倩女郎",
 "sc": "倩女郎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "FRA",
 "country": "法国",
@@ -5006,7 +4200,8 @@
 "hk": "浮誇男星",
 "sc": "浮夸男星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5052,7 +4247,8 @@
 "hk": "女兒孝心",
 "sc": "女儿孝心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5098,7 +4294,8 @@
 "hk": "亞朗親王",
 "sc": "亚朗亲王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5158,7 +4355,8 @@
 "hk": "正統派",
 "sc": "正统派",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5204,7 +4402,8 @@
 "hk": "當然歡迎",
 "sc": "当然欢迎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5250,7 +4449,8 @@
 "hk": "摩洛風沙",
 "sc": "摩洛风沙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5296,7 +4496,8 @@
 "hk": "網走市",
 "sc": "网走市",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5356,7 +4557,8 @@
 "hk": "從容",
 "sc": "从容",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5402,7 +4604,8 @@
 "hk": "危險殺手",
 "sc": "危险杀手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5518,7 +4721,8 @@
 "hk": "超乎預期",
 "sc": "超乎预期",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5592,7 +4796,8 @@
 "hk": "林肯號",
 "sc": "林肯号",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5638,7 +4843,8 @@
 "hk": "守身自愛",
 "sc": "守身自爱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5684,7 +4890,8 @@
 "hk": "充滿",
 "sc": "充满",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5730,7 +4937,8 @@
 "hk": "艷珊瑚",
 "sc": "艳珊瑚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5776,7 +4984,8 @@
 "hk": "臨時代表",
 "sc": "临时代表",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -5976,7 +5185,8 @@
 "hk": "臨時出爭",
 "sc": "临时出争",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6036,7 +5246,8 @@
 "hk": "激賞星",
 "sc": "激赏星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6082,7 +5293,8 @@
 "hk": "權威認可",
 "sc": "权威认可",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6128,7 +5340,8 @@
 "hk": "海濱小村",
 "sc": "海滨小村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6188,7 +5401,8 @@
 "hk": "雅戈王",
 "sc": "雅戈王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6206,8 +5420,8 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-t-kiely-marshall",
-"trainer_uid": "t-m-d-easterby",
+"jockey_uid": "j-tom-marshall",
+"trainer_uid": "t-michael-david-easterby",
 "race_uid": "gb-2025-0607-三歲馬0-95分讓賽",
 "entries": [
 {
@@ -6215,8 +5429,8 @@
 "draw": 4,
 "gear": null,
 "horse_uid": "gb-acrisius",
-"jockey_uid": "j-t-kiely-marshall",
-"trainer_uid": "t-m-d-easterby",
+"jockey_uid": "j-tom-marshall",
+"trainer_uid": "t-michael-david-easterby",
 "lb": 115.0,
 "claim": -5.0,
 "rating": 74,
@@ -6234,7 +5448,8 @@
 "hk": "無極限",
 "sc": "无极限",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6280,7 +5495,8 @@
 "hk": "亞洲非凡",
 "sc": "亚洲非凡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6354,7 +5570,8 @@
 "hk": "優遊德郡",
 "sc": "优游德郡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6414,7 +5631,8 @@
 "hk": "愛迪臣灰",
 "sc": "爱迪臣灰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6474,7 +5692,8 @@
 "hk": "海戰統帥",
 "sc": "海战统帅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6520,7 +5739,8 @@
 "hk": "女山神",
 "sc": "女山神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6608,7 +5828,8 @@
 "hk": "駿毅",
 "sc": "骏毅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6668,7 +5889,8 @@
 "hk": "有進",
 "sc": "有进",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6714,7 +5936,8 @@
 "hk": "登廣告",
 "sc": "登广告",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6802,7 +6025,8 @@
 "hk": "發動進攻",
 "sc": "发动进攻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6862,7 +6086,8 @@
 "hk": "愛琴公子",
 "sc": "爱琴公子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6908,7 +6133,8 @@
 "hk": "風輕吹",
 "sc": "风轻吹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -6954,7 +6180,8 @@
 "hk": "天地交融",
 "sc": "天地交融",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7028,7 +6255,8 @@
 "hk": "愛友善",
 "sc": "爱友善",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7074,7 +6302,8 @@
 "hk": "非洲夢",
 "sc": "非洲梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7120,7 +6349,8 @@
 "hk": "赤道行",
 "sc": "赤道行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7166,7 +6396,8 @@
 "hk": "迎風行",
 "sc": "迎风行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7254,7 +6485,8 @@
 "hk": "古希臘王",
 "sc": "古希腊王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7314,7 +6546,8 @@
 "hk": "龍舌艷彩",
 "sc": "龙舌艳彩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7360,7 +6593,8 @@
 "hk": "揚帆紀元",
 "sc": "扬帆纪元",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7434,7 +6668,8 @@
 "hk": "暢意",
 "sc": "畅意",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7480,7 +6715,8 @@
 "hk": "燃點群情",
 "sc": "燃点群情",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7540,7 +6776,8 @@
 "hk": "隱名驥",
 "sc": "隐名骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7586,7 +6823,8 @@
 "hk": "愛滿分",
 "sc": "爱满分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7605,7 +6843,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-n-caullery",
+"trainer_uid": "t-nicolas-caullery",
 "race_uid": "fr-2021-0806-三歲馬讓賽",
 "entries": [
 {
@@ -7614,7 +6852,7 @@
 "gear": null,
 "horse_uid": "gb-aimef",
 "jockey_uid": null,
-"trainer_uid": "t-n-caullery",
+"trainer_uid": "t-nicolas-caullery",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -7646,7 +6884,8 @@
 "hk": "奧妙力",
 "sc": "奥妙力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7692,7 +6931,8 @@
 "hk": "目標高",
 "sc": "目标高",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7752,7 +6992,8 @@
 "hk": "風箏海灘",
 "sc": "风筝海滩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7826,7 +7067,8 @@
 "hk": "空軍戰機",
 "sc": "空军战机",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7872,7 +7114,8 @@
 "hk": "天空來襲",
 "sc": "天空来袭",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7932,7 +7175,8 @@
 "hk": "空中大戰",
 "sc": "空中大战",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -7992,7 +7236,8 @@
 "hk": "疏爽",
 "sc": "疏爽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8080,7 +7325,8 @@
 "hk": "良心",
 "sc": "良心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8121,7 +7367,7 @@
 "draw": 1,
 "gear": null,
 "horse_uid": "gb-ajwadi",
-"jockey_uid": "j-mohammed-aldaham",
+"jockey_uid": "j-muhammad-aldaham",
 "trainer_uid": "t-thamer-aldaihani",
 "lb": 121.0,
 "claim": null,
@@ -8140,7 +7386,8 @@
 "hk": "田徑摘金",
 "sc": "田径摘金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8186,7 +7433,8 @@
 "hk": "凌厲大兄",
 "sc": "凌厉大兄",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8246,7 +7494,8 @@
 "hk": "上古驚雷",
 "sc": "上古惊雷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8334,7 +7583,8 @@
 "hk": "麗城山景",
 "sc": "丽城山景",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8380,7 +7630,8 @@
 "hk": "水中花",
 "sc": "水中花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8426,7 +7677,8 @@
 "hk": "狂奴故態",
 "sc": "狂奴故态",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8472,7 +7724,8 @@
 "hk": "急風烈",
 "sc": "急风烈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8518,7 +7771,8 @@
 "hk": "盡展鋒芒",
 "sc": "尽展锋芒",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8564,7 +7818,8 @@
 "hk": "追隨者",
 "sc": "追随者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8610,7 +7865,8 @@
 "hk": "神尊全智",
 "sc": "神尊全智",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8666,7 +7922,7 @@
 "gear": null,
 "horse_uid": "gb-al-hakeem",
 "jockey_uid": null,
-"trainer_uid": "t-j-c-rouget",
+"trainer_uid": "t-jean-claude-rouget",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -8698,7 +7954,8 @@
 "hk": "慶來利",
 "sc": "庆来利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8744,7 +8001,8 @@
 "hk": "近港社區",
 "sc": "近港社区",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8804,7 +8062,8 @@
 "hk": "輕騎兵",
 "sc": "轻骑兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8850,7 +8109,8 @@
 "hk": "鞍滿豪",
 "sc": "鞍满豪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -8910,7 +8170,8 @@
 "hk": "亮采",
 "sc": "亮采",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9007,7 +8268,7 @@
 "draw": 9,
 "gear": null,
 "horse_uid": "gb-al-nayyir",
-"jockey_uid": "j-patrick-dobbs",
+"jockey_uid": "j-pat-dobbs",
 "trainer_uid": "t-doug-watson",
 "lb": 127.0,
 "claim": null,
@@ -9082,7 +8343,8 @@
 "hk": "風沙浩漠",
 "sc": "风沙浩漠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9101,7 +8363,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-b-seemar",
+"trainer_uid": "t-bhupat-seemar",
 "race_uid": "me-2022-0322-杜拜世界盃賽馬日-暫定",
 "entries": [
 {
@@ -9110,7 +8372,7 @@
 "gear": null,
 "horse_uid": "gb-al-nefud",
 "jockey_uid": null,
-"trainer_uid": "t-b-seemar",
+"trainer_uid": "t-bhupat-seemar",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9142,7 +8404,8 @@
 "hk": "一線曙光",
 "sc": "一线曙光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9188,7 +8451,8 @@
 "hk": "青春活力",
 "sc": "青春活力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9234,7 +8498,8 @@
 "hk": "愛心滿",
 "sc": "爱心满",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9280,7 +8545,8 @@
 "hk": "愛星河",
 "sc": "爱星河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9424,7 +8690,8 @@
 "hk": "大戰驍將",
 "sc": "大战骁将",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9470,7 +8737,8 @@
 "hk": "好世界",
 "sc": "好世界",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9516,7 +8784,8 @@
 "hk": "愛恨分明",
 "sc": "爱恨分明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9576,7 +8845,8 @@
 "hk": "艾蕾丁",
 "sc": "艾蕾丁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9595,7 +8865,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-head",
+"trainer_uid": "t-freddy-head",
 "race_uid": "fr-2017-0929-森林大賽",
 "entries": [
 {
@@ -9604,7 +8874,7 @@
 "gear": null,
 "horse_uid": "gb-aladdine",
 "jockey_uid": null,
-"trainer_uid": "t-f-head",
+"trainer_uid": "t-freddy-head",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -9622,7 +8892,8 @@
 "hk": "射程範圍",
 "sc": "射程范围",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9738,7 +9009,8 @@
 "hk": "潔白芳花",
 "sc": "洁白芳花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9826,7 +9098,8 @@
 "hk": "愛幻力",
 "sc": "爱幻力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9872,7 +9145,8 @@
 "hk": "安比廣場",
 "sc": "安比广场",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9918,7 +9192,8 @@
 "hk": "愛加真",
 "sc": "爱加真",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -9964,7 +9239,8 @@
 "hk": "安妥贏",
 "sc": "安妥赢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10066,7 +9342,8 @@
 "hk": "高官階",
 "sc": "高官阶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10126,7 +9403,8 @@
 "hk": "骰子",
 "sc": "骰子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10172,7 +9450,8 @@
 "hk": "凱倫大姐",
 "sc": "凯伦大姐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10218,7 +9497,8 @@
 "hk": "巧輝月晶",
 "sc": "巧辉月晶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10264,7 +9544,8 @@
 "hk": "以王之名",
 "sc": "以王之名",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10310,7 +9591,8 @@
 "hk": "純樸鄉村",
 "sc": "纯朴乡村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10356,7 +9638,8 @@
 "hk": "絕美芳姿",
 "sc": "绝美芳姿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10402,7 +9685,8 @@
 "hk": "千夜傳說",
 "sc": "千夜传说",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10504,7 +9788,8 @@
 "hk": "法雕塑家",
 "sc": "法雕塑家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10564,7 +9849,8 @@
 "hk": "自然學家",
 "sc": "自然学家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10652,7 +9938,8 @@
 "hk": "善良管家",
 "sc": "善良管家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10698,7 +9985,8 @@
 "hk": "水月神",
 "sc": "水月神",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10754,7 +10042,7 @@
 "gear": null,
 "horse_uid": "gb-alignak",
 "jockey_uid": null,
-"trainer_uid": "t-j-osborne",
+"trainer_uid": "t-jamie-osborne",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -10786,7 +10074,8 @@
 "hk": "再抖威風",
 "sc": "再抖威风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10832,7 +10121,8 @@
 "hk": "清新俊逸",
 "sc": "清新俊逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10878,7 +10168,8 @@
 "hk": "愛爭先",
 "sc": "爱争先",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -10938,7 +10229,8 @@
 "hk": "卡謬",
 "sc": "卡谬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11012,7 +10304,8 @@
 "hk": "專注",
 "sc": "专注",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11058,7 +10351,8 @@
 "hk": "閃鑽滿身",
 "sc": "闪钻满身",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11104,7 +10398,8 @@
 "hk": "盡耀彩華",
 "sc": "尽耀彩华",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11164,7 +10459,8 @@
 "hk": "天從人願",
 "sc": "天从人愿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11210,7 +10506,8 @@
 "hk": "沿河村市",
 "sc": "沿河村市",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11256,7 +10553,8 @@
 "hk": "喜氣洋洋",
 "sc": "喜气洋洋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11330,7 +10628,8 @@
 "hk": "猛鱷地帶",
 "sc": "猛鳄地带",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11446,7 +10745,8 @@
 "hk": "全人類",
 "sc": "全人类",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11506,7 +10806,8 @@
 "hk": "旋律套曲",
 "sc": "旋律套曲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11650,7 +10951,8 @@
 "hk": "古巴長河",
 "sc": "古巴长河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11669,7 +10971,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-p-d-amato",
+"trainer_uid": "t-philip-d-amato",
 "race_uid": "aus-2024-0830-德爾馬一哩錦標",
 "entries": [
 {
@@ -11678,7 +10980,7 @@
 "gear": null,
 "horse_uid": "gb-almendares",
 "jockey_uid": null,
-"trainer_uid": "t-p-d-amato",
+"trainer_uid": "t-philip-d-amato",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11692,7 +10994,7 @@
 "gear": null,
 "horse_uid": "gb-almendares",
 "jockey_uid": null,
-"trainer_uid": "t-p-damato",
+"trainer_uid": "t-philip-d-amato",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -11710,7 +11012,8 @@
 "hk": "吼萬雷",
 "sc": "吼万雷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11798,7 +11101,8 @@
 "hk": "國王力攻",
 "sc": "国王力攻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11858,7 +11162,8 @@
 "hk": "愛無雙",
 "sc": "爱无双",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11904,7 +11209,8 @@
 "hk": "子夜時分",
 "sc": "子夜时分",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11950,7 +11256,8 @@
 "hk": "連合",
 "sc": "连合",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -11996,7 +11303,8 @@
 "hk": "誡律學者",
 "sc": "诫律学者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12056,7 +11364,8 @@
 "hk": "蘆薈神效",
 "sc": "芦荟神效",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12102,7 +11411,8 @@
 "hk": "飆天車",
 "sc": "飙天车",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12148,7 +11458,8 @@
 "hk": "海豚恆星",
 "sc": "海豚恒星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12167,7 +11478,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-b-smart",
+"trainer_uid": "t-bryan-smart",
 "race_uid": "fr-2018-1005-隆尚教堂大賽",
 "entries": [
 {
@@ -12176,7 +11487,7 @@
 "gear": null,
 "horse_uid": "gb-alpha-delphini",
 "jockey_uid": null,
-"trainer_uid": "t-b-smart",
+"trainer_uid": "t-bryan-smart",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12222,7 +11533,8 @@
 "hk": "字母表",
 "sc": "字母表",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12241,7 +11553,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-p-obrien",
+"trainer_uid": "t-aidan-o-brien",
 "race_uid": "fr-2017-0929-隆尚教堂大賽",
 "entries": [
 {
@@ -12250,7 +11562,7 @@
 "gear": null,
 "horse_uid": "gb-alphabet",
 "jockey_uid": null,
-"trainer_uid": "t-a-p-obrien",
+"trainer_uid": "t-aidan-o-brien",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12282,7 +11594,8 @@
 "hk": "登山英雌",
 "sc": "登山英雌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12342,7 +11655,8 @@
 "hk": "有請",
 "sc": "有请",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12388,7 +11702,8 @@
 "hk": "星燦",
 "sc": "星灿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12476,7 +11791,8 @@
 "hk": "另類事實",
 "sc": "另类事实",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12536,7 +11852,8 @@
 "hk": "傲氣壯",
 "sc": "傲气壮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12582,7 +11899,8 @@
 "hk": "校友舊生",
 "sc": "校友旧生",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12628,7 +11946,8 @@
 "hk": "艾莉莎",
 "sc": "艾莉莎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12688,7 +12007,8 @@
 "hk": "愛馬星夢",
 "sc": "爱马星梦",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12734,7 +12054,8 @@
 "hk": "琥珀玉露",
 "sc": "琥珀玉露",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12780,7 +12101,8 @@
 "hk": "友好氣氛",
 "sc": "友好气氛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12840,7 +12162,8 @@
 "hk": "志向堅",
 "sc": "志向坚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12859,7 +12182,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-x-thomas-demeaulte",
+"trainer_uid": "t-xavier-thomas-demeaulte",
 "race_uid": "aus-2021-0820-尚羅萬尼錦標",
 "entries": [
 {
@@ -12868,7 +12191,7 @@
 "gear": null,
 "horse_uid": "gb-ambition",
 "jockey_uid": null,
-"trainer_uid": "t-x-thomas-demeaulte",
+"trainer_uid": "t-xavier-thomas-demeaulte",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -12914,7 +12237,8 @@
 "hk": "一代公主",
 "sc": "一代公主",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -12960,7 +12284,8 @@
 "hk": "俏皇女",
 "sc": "俏皇女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13006,7 +12331,8 @@
 "hk": "美利事",
 "sc": "美利事",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13122,7 +12448,8 @@
 "hk": "美國小妹",
 "sc": "美国小妹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13168,7 +12495,8 @@
 "hk": "亞美利灣",
 "sc": "亚美利湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13242,7 +12570,8 @@
 "hk": "美索雅",
 "sc": "美索雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13288,7 +12617,8 @@
 "hk": "花旗風",
 "sc": "花旗风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13348,7 +12678,8 @@
 "hk": "威權王后",
 "sc": "威权王后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13408,7 +12739,8 @@
 "hk": "紫水晶",
 "sc": "紫水晶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13454,7 +12786,8 @@
 "hk": "猛雷",
 "sc": "猛雷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13584,7 +12917,8 @@
 "hk": "主教練",
 "sc": "主教练",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13630,7 +12964,8 @@
 "hk": "後衛球星",
 "sc": "后卫球星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13676,7 +13011,8 @@
 "hk": "安蹄逸",
 "sc": "安蹄逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13736,7 +13072,8 @@
 "hk": "小趣味",
 "sc": "小趣味",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13782,7 +13119,8 @@
 "hk": "安娜朵麗",
 "sc": "安娜朵丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13870,7 +13208,8 @@
 "hk": "愛難移",
 "sc": "爱难移",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13889,7 +13228,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-ryan-tate",
-"trainer_uid": "t-sir-mark-prescott",
+"trainer_uid": "t-sir-mark-prescott-bt",
 "race_uid": "gb-2021-0728-三歲以上雌馬76-95分讓賽",
 "entries": [
 {
@@ -13898,7 +13237,7 @@
 "gear": null,
 "horse_uid": "gb-ananya",
 "jockey_uid": "j-ryan-tate",
-"trainer_uid": "t-sir-mark-prescott",
+"trainer_uid": "t-sir-mark-prescott-bt",
 "lb": 147.0,
 "claim": null,
 "rating": 97,
@@ -13912,7 +13251,7 @@
 "gear": null,
 "horse_uid": "gb-ananya",
 "jockey_uid": "j-ryan-tate",
-"trainer_uid": "t-sir-mark-prescott",
+"trainer_uid": "t-sir-mark-prescott-bt",
 "lb": 140.0,
 "claim": null,
 "rating": 95,
@@ -13930,7 +13269,8 @@
 "hk": "營養充足",
 "sc": "营养充足",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -13976,7 +13316,8 @@
 "hk": "故土",
 "sc": "故土",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14022,7 +13363,8 @@
 "hk": "古遠年代",
 "sc": "古远年代",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14096,7 +13438,8 @@
 "hk": "火成岩",
 "sc": "火成岩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14170,7 +13513,8 @@
 "hk": "天使指引",
 "sc": "天使指引",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14216,7 +13560,8 @@
 "hk": "獵仙者",
 "sc": "猎仙者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14262,7 +13607,8 @@
 "hk": "福將神兵",
 "sc": "福将神兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14308,7 +13654,8 @@
 "hk": "英倫天使",
 "sc": "英伦天使",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14354,7 +13701,8 @@
 "hk": "天使之力",
 "sc": "天使之力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14414,7 +13762,8 @@
 "hk": "仙分享",
 "sc": "仙分享",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14460,7 +13809,8 @@
 "hk": "安格魯",
 "sc": "安格鲁",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14506,7 +13856,8 @@
 "hk": "獸之本能",
 "sc": "兽之本能",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14552,7 +13903,8 @@
 "hk": "清雅力嬌",
 "sc": "清雅力娇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14598,7 +13950,8 @@
 "hk": "安娜列林",
 "sc": "安娜列林",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14672,7 +14025,8 @@
 "hk": "月宮雅娜",
 "sc": "月宫雅娜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14718,7 +14072,8 @@
 "hk": "安娜星輝",
 "sc": "安娜星辉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14764,7 +14119,8 @@
 "hk": "週年慶",
 "sc": "周年庆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14810,7 +14166,8 @@
 "hk": "支持者眾",
 "sc": "支持者众",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14856,7 +14213,8 @@
 "hk": "又一霸者",
 "sc": "又一霸者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14930,7 +14288,8 @@
 "hk": "華燈再上",
 "sc": "华灯再上",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -14949,7 +14308,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "race_uid": "fr-2026-0508-法國二千堅尼賽馬日-暫定",
 "entries": [
 {
@@ -14958,7 +14317,7 @@
 "gear": null,
 "horse_uid": "gb-another-light",
 "jockey_uid": null,
-"trainer_uid": "t-f-h-graffard",
+"trainer_uid": "t-francis-henri-graffard",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -14990,7 +14349,8 @@
 "hk": "添才藝",
 "sc": "添才艺",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15036,7 +14396,8 @@
 "hk": "安飛利",
 "sc": "安飞利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15096,7 +14457,8 @@
 "hk": "安東蕾拉",
 "sc": "安东蕾拉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15142,7 +14504,8 @@
 "hk": "奇石郡",
 "sc": "奇石郡",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15202,7 +14565,8 @@
 "hk": "今夜時",
 "sc": "今夜时",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15248,7 +14612,8 @@
 "hk": "開胃小酌",
 "sc": "开胃小酌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15294,7 +14659,8 @@
 "hk": "啟示萼",
 "sc": "启示萼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15340,7 +14706,8 @@
 "hk": "最美噴泉",
 "sc": "最美喷泉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15400,7 +14767,8 @@
 "hk": "航宇任務",
 "sc": "航宇任务",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15419,7 +14787,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-james-doyle",
-"trainer_uid": "t-peter-charalambous-james-clutterbuck",
+"trainer_uid": "t-p-charalambous-et-al",
 "race_uid": "gb-2022-0430-四歲以上馬讓賽",
 "entries": [
 {
@@ -15428,7 +14796,7 @@
 "gear": null,
 "horse_uid": "gb-apollo-one",
 "jockey_uid": "j-james-doyle",
-"trainer_uid": "t-peter-charalambous-james-clutterbuck",
+"trainer_uid": "t-p-charalambous-et-al",
 "lb": 129.0,
 "claim": null,
 "rating": 100,
@@ -15442,7 +14810,7 @@
 "gear": null,
 "horse_uid": "gb-apollo-one",
 "jockey_uid": "j-benoit-de-la-sayette",
-"trainer_uid": "t-p-charalambous-j-clutterbuck",
+"trainer_uid": "t-p-charalambous-et-al",
 "lb": 127.0,
 "claim": -5.0,
 "rating": 98,
@@ -15656,7 +15024,8 @@
 "hk": "親和力",
 "sc": "亲和力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15716,7 +15085,8 @@
 "hk": "特別批准",
 "sc": "特别批准",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15790,7 +15160,8 @@
 "hk": "月似杏",
 "sc": "月似杏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15836,7 +15207,8 @@
 "hk": "水族館",
 "sc": "水族馆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15924,7 +15296,8 @@
 "hk": "黃沙夕映",
 "sc": "黄沙夕映",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -15984,7 +15357,8 @@
 "hk": "輕盈小豹",
 "sc": "轻盈小豹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16058,7 +15432,8 @@
 "hk": "阿族光輝",
 "sc": "阿族光辉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16132,7 +15507,8 @@
 "hk": "阿域颶風",
 "sc": "阿域飓风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16178,7 +15554,8 @@
 "hk": "中東精品",
 "sc": "中东精品",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16224,7 +15601,8 @@
 "hk": "最大半島",
 "sc": "最大半岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16298,7 +15676,8 @@
 "hk": "驛馬車",
 "sc": "驿马车",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16344,7 +15723,8 @@
 "hk": "雅寶威",
 "sc": "雅宝威",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16390,7 +15770,8 @@
 "hk": "壯聲勢",
 "sc": "壮声势",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16436,7 +15817,8 @@
 "hk": "檔案專員",
 "sc": "档案专员",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16510,7 +15892,8 @@
 "hk": "極域晨間",
 "sc": "极域晨间",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16584,7 +15967,8 @@
 "hk": "北風聲",
 "sc": "北风声",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16630,7 +16014,8 @@
 "hk": "冰洋遠航",
 "sc": "冰洋远航",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16676,7 +16061,8 @@
 "hk": "聖潔之都",
 "sc": "圣洁之都",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16778,7 +16164,8 @@
 "hk": "烈焰",
 "sc": "烈焰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16824,7 +16211,8 @@
 "hk": "時日飛遠",
 "sc": "时日飞远",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16870,7 +16258,8 @@
 "hk": "激情探戈",
 "sc": "激情探戈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -16972,7 +16361,8 @@
 "hk": "藹善村",
 "sc": "蔼善村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17130,7 +16520,8 @@
 "hk": "猶太王",
 "sc": "犹太王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17176,7 +16567,8 @@
 "hk": "亞桑熾焰",
 "sc": "亚桑炽焰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17292,7 +16684,8 @@
 "hk": "披甲氣盛",
 "sc": "披甲气盛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17311,7 +16704,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-r-hannon",
+"trainer_uid": "t-richard-hannon",
 "race_uid": "aus-2021-0820-莫尼大賽",
 "entries": [
 {
@@ -17320,7 +16713,7 @@
 "gear": null,
 "horse_uid": "gb-armor",
 "jockey_uid": null,
-"trainer_uid": "t-r-hannon",
+"trainer_uid": "t-richard-hannon",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -17380,7 +16773,8 @@
 "hk": "雄兵信條",
 "sc": "雄兵信条",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17426,7 +16820,8 @@
 "hk": "起步點",
 "sc": "起步点",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17472,7 +16867,8 @@
 "hk": "激揚",
 "sc": "激扬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17518,7 +16914,8 @@
 "hk": "任君選擇",
 "sc": "任君选择",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17564,7 +16961,8 @@
 "hk": "月神星",
 "sc": "月神星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17610,7 +17008,8 @@
 "hk": "板球好手",
 "sc": "板球好手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17670,7 +17069,8 @@
 "hk": "瑟王傳",
 "sc": "瑟王传",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17716,7 +17116,8 @@
 "hk": "飛必沖天",
 "sc": "飞必冲天",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17776,7 +17177,8 @@
 "hk": "包承接",
 "sc": "包承接",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17822,7 +17224,8 @@
 "hk": "愛善德",
 "sc": "爱善德",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17863,7 +17266,7 @@
 "draw": 9,
 "gear": null,
 "horse_uid": "gb-asjad",
-"jockey_uid": "j-p-j-mcdonald",
+"jockey_uid": "j-patrick-mcdonald",
 "trainer_uid": "t-james-horton",
 "lb": 133.0,
 "claim": null,
@@ -17896,7 +17299,8 @@
 "hk": "觀景島",
 "sc": "观景岛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -17970,7 +17374,8 @@
 "hk": "攻擊者",
 "sc": "攻击者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18016,7 +17421,8 @@
 "hk": "喜笑歡",
 "sc": "喜笑欢",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18062,7 +17468,8 @@
 "hk": "星小木",
 "sc": "星小木",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18108,7 +17515,8 @@
 "hk": "星美寶",
 "sc": "星美宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18126,7 +17534,7 @@
 "pedigree": null,
 "curation": "pending",
 "status": "pending",
-"jockey_uid": "j-shane-w-kelly",
+"jockey_uid": "j-shane-kelly",
 "trainer_uid": "t-pam-sly",
 "race_uid": "gb-2023-0603-伊利沙伯公主錦標",
 "entries": [
@@ -18135,7 +17543,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "gb-astral-beau",
-"jockey_uid": "j-shane-w-kelly",
+"jockey_uid": "j-shane-kelly",
 "trainer_uid": "t-pam-sly",
 "lb": 134.0,
 "claim": null,
@@ -18149,7 +17557,7 @@
 "draw": 2,
 "gear": null,
 "horse_uid": "gb-astral-beau",
-"jockey_uid": "j-shane-w-kelly",
+"jockey_uid": "j-shane-kelly",
 "trainer_uid": "t-pam-sly",
 "lb": 134.0,
 "claim": null,
@@ -18168,7 +17576,8 @@
 "hk": "獵神之子",
 "sc": "猎神之子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18214,7 +17623,8 @@
 "hk": "壯壁小灣",
 "sc": "壮壁小湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18302,7 +17712,8 @@
 "hk": "電力十足",
 "sc": "电力十足",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18348,7 +17759,8 @@
 "hk": "雅蹄逸",
 "sc": "雅蹄逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18394,7 +17806,8 @@
 "hk": "深洋陸塊",
 "sc": "深洋陆块",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18440,7 +17853,8 @@
 "hk": "幻海藍",
 "sc": "幻海蓝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18500,7 +17914,8 @@
 "hk": "原子駒",
 "sc": "原子驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18546,7 +17961,8 @@
 "hk": "中堂",
 "sc": "中堂",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18620,7 +18036,8 @@
 "hk": "厲害女郎",
 "sc": "厉害女郎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18680,7 +18097,8 @@
 "hk": "旁觀者清",
 "sc": "旁观者清",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18838,7 +18256,8 @@
 "hk": "奧蕾莉金",
 "sc": "奥蕾莉金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18884,7 +18303,8 @@
 "hk": "奧莉雅",
 "sc": "奥莉雅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18930,7 +18350,8 @@
 "hk": "導演主導",
 "sc": "导演主导",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -18976,7 +18397,8 @@
 "hk": "獨斷專行",
 "sc": "独断专行",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19022,7 +18444,8 @@
 "hk": "雅隆仙后",
 "sc": "雅隆仙后",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19068,7 +18491,8 @@
 "hk": "相伴蘿拉",
 "sc": "相伴萝拉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19087,7 +18511,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-bollack-badel",
+"trainer_uid": "t-myriam-bollack-badel",
 "race_uid": "fr-2021-0806-第三班讓賽",
 "entries": [
 {
@@ -19096,7 +18520,7 @@
 "gear": null,
 "horse_uid": "gb-avec-laura",
 "jockey_uid": null,
-"trainer_uid": "t-m-bollack-badel",
+"trainer_uid": "t-myriam-bollack-badel",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -19128,7 +18552,8 @@
 "hk": "冬遊山城",
 "sc": "冬游山城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19174,7 +18599,8 @@
 "hk": "亞飛利",
 "sc": "亚飞利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19318,7 +18744,8 @@
 "hk": "毅勇",
 "sc": "毅勇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19364,7 +18791,8 @@
 "hk": "敬而遠之",
 "sc": "敬而远之",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19410,7 +18838,8 @@
 "hk": "巨型坦克",
 "sc": "巨型坦克",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19470,7 +18899,8 @@
 "hk": "艾爾海港",
 "sc": "艾尔海港",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19516,7 +18946,8 @@
 "hk": "輝煌帝宮",
 "sc": "辉煌帝宫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19562,7 +18993,8 @@
 "hk": "愛甚濃",
 "sc": "爱甚浓",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19622,7 +19054,8 @@
 "hk": "心所愛",
 "sc": "心所爱",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19682,7 +19115,8 @@
 "hk": "好順利",
 "sc": "好顺利",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19728,7 +19162,8 @@
 "hk": "名劍使者",
 "sc": "名剑使者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19774,7 +19209,8 @@
 "hk": "天青仙女",
 "sc": "天青仙女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -19918,7 +19354,8 @@
 "hk": "勝千里",
 "sc": "胜千里",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20020,7 +19457,8 @@
 "hk": "智者雷扎",
 "sc": "智者雷扎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20066,7 +19504,8 @@
 "hk": "爸比型",
 "sc": "爸比型",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20126,7 +19565,8 @@
 "hk": "摩國快履",
 "sc": "摩国快履",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20172,7 +19612,8 @@
 "hk": "雙寶寶",
 "sc": "双宝宝",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20218,7 +19659,8 @@
 "hk": "詩興情逸",
 "sc": "诗兴情逸",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20237,7 +19679,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-m-guarnieri",
+"trainer_uid": "t-maurizio-guarnieri",
 "race_uid": "fr-2026-0731-羅斯齊爾德大賽日-暫定",
 "entries": [
 {
@@ -20246,7 +19688,7 @@
 "gear": null,
 "horse_uid": "gb-bacchilide",
 "jockey_uid": null,
-"trainer_uid": "t-m-guarnieri",
+"trainer_uid": "t-maurizio-guarnieri",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20278,7 +19720,8 @@
 "hk": "百穀神明",
 "sc": "百谷神明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20366,7 +19809,8 @@
 "hk": "寶仙迪",
 "sc": "宝仙迪",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20468,7 +19912,8 @@
 "hk": "反斗友",
 "sc": "反斗友",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20514,7 +19959,8 @@
 "hk": "霸業",
 "sc": "霸业",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20602,7 +20048,8 @@
 "hk": "穩袋",
 "sc": "稳袋",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20621,7 +20068,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-v-fazio",
+"trainer_uid": "t-vincenzo-fazio",
 "race_uid": "aus-2021-0820-莫尼大賽",
 "entries": [
 {
@@ -20630,7 +20077,7 @@
 "gear": null,
 "horse_uid": "gb-baghed",
 "jockey_uid": null,
-"trainer_uid": "t-v-fazio",
+"trainer_uid": "t-vincenzo-fazio",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -20662,7 +20109,8 @@
 "hk": "勇豪榮銜",
 "sc": "勇豪荣衔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20722,7 +20170,8 @@
 "hk": "巴哈晨光",
 "sc": "巴哈晨光",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20768,7 +20217,8 @@
 "hk": "醉喜慶",
 "sc": "醉喜庆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20814,7 +20264,8 @@
 "hk": "豪奪巧取",
 "sc": "豪夺巧取",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20874,7 +20325,8 @@
 "hk": "寶奇駒",
 "sc": "宝奇驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -20916,7 +20368,7 @@
 "gear": null,
 "horse_uid": "gb-bakeel",
 "jockey_uid": "j-jack-mitchell",
-"trainer_uid": "t-kevin-philippart-de-foy",
+"trainer_uid": "t-k-philippart-de-foy",
 "lb": 135.0,
 "claim": null,
 "rating": 95,
@@ -20948,7 +20400,8 @@
 "hk": "藍帶烘焙",
 "sc": "蓝带烘焙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21022,7 +20475,8 @@
 "hk": "妙舞步",
 "sc": "妙舞步",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21068,7 +20522,8 @@
 "hk": "波利蒙區",
 "sc": "波利蒙区",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21114,7 +20569,8 @@
 "hk": "依山村聚",
 "sc": "依山村聚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21188,7 +20644,8 @@
 "hk": "金氣球",
 "sc": "金气球",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21248,7 +20705,8 @@
 "hk": "波海飛鳥",
 "sc": "波海飞鸟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21294,7 +20752,8 @@
 "hk": "北海旅航",
 "sc": "北海旅航",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21354,7 +20813,8 @@
 "hk": "馬里沙城",
 "sc": "马里沙城",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21414,7 +20874,8 @@
 "hk": "名噪藝壇",
 "sc": "名噪艺坛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21460,7 +20921,8 @@
 "hk": "海邊度假",
 "sc": "海边度假",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21506,7 +20968,8 @@
 "hk": "勁衝",
 "sc": "劲冲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21552,7 +21015,8 @@
 "hk": "合力同心",
 "sc": "合力同心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21598,7 +21062,8 @@
 "hk": "吵鬧不休",
 "sc": "吵闹不休",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21714,7 +21179,8 @@
 "hk": "霸爽",
 "sc": "霸爽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21802,7 +21268,8 @@
 "hk": "步穩才子",
 "sc": "步稳才子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21876,7 +21343,8 @@
 "hk": "電掣男爵",
 "sc": "电掣男爵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21936,7 +21404,8 @@
 "hk": "生猛男爵",
 "sc": "生猛男爵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -21992,7 +21461,7 @@
 "gear": null,
 "horse_uid": "gb-baron-samedi",
 "jockey_uid": null,
-"trainer_uid": "t-j-obrien",
+"trainer_uid": "t-joseph-o-brien",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22024,7 +21493,8 @@
 "hk": "神力騎兵",
 "sc": "神力骑兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22070,7 +21540,8 @@
 "hk": "迪雅詩",
 "sc": "迪雅诗",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22116,7 +21587,8 @@
 "hk": "麥田廠",
 "sc": "麦田厂",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22162,7 +21634,8 @@
 "hk": "博藝舞王",
 "sc": "博艺舞王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22208,7 +21681,8 @@
 "hk": "鋼琴世家",
 "sc": "钢琴世家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22282,7 +21756,8 @@
 "hk": "小步舞蹈",
 "sc": "小步舞蹈",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22342,7 +21817,8 @@
 "hk": "湖靜如鏡",
 "sc": "湖静如镜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22388,7 +21864,8 @@
 "hk": "適善而為",
 "sc": "适善而为",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22434,7 +21911,8 @@
 "hk": "滴水不漏",
 "sc": "滴水不漏",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22453,7 +21931,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-c-ferland",
+"trainer_uid": "t-christophe-ferland",
 "race_uid": "fr-2022-0805-月影雲霞錦標",
 "entries": [
 {
@@ -22462,7 +21940,7 @@
 "gear": null,
 "horse_uid": "gb-batz",
 "jockey_uid": null,
-"trainer_uid": "t-c-ferland",
+"trainer_uid": "t-christophe-ferland",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22494,7 +21972,8 @@
 "hk": "盛紫狂歌",
 "sc": "盛紫狂歌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22513,7 +21992,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-j-v-toux",
+"trainer_uid": "t-jean-vincent-toux",
 "race_uid": "fr-2024-0802-s2-3-第一班讓賽-可能參賽馬匹",
 "entries": [
 {
@@ -22522,7 +22001,7 @@
 "gear": null,
 "horse_uid": "gb-bauhinia-rhapsody",
 "jockey_uid": null,
-"trainer_uid": "t-j-v-toux",
+"trainer_uid": "t-jean-vincent-toux",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22564,7 +22043,7 @@
 "gear": null,
 "horse_uid": "gb-bauhinia-rhapsody",
 "jockey_uid": null,
-"trainer_uid": "t-j-v-toux",
+"trainer_uid": "t-jean-vincent-toux",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -22596,7 +22075,8 @@
 "hk": "送爽海風",
 "sc": "送爽海风",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22642,7 +22122,8 @@
 "hk": "月桂橋",
 "sc": "月桂桥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22744,7 +22225,8 @@
 "hk": "桂樹騰芳",
 "sc": "桂树腾芳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22818,7 +22300,8 @@
 "hk": "星灣",
 "sc": "星湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22864,7 +22347,8 @@
 "hk": "桂尊王",
 "sc": "桂尊王",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22910,7 +22394,8 @@
 "hk": "公佈聲明",
 "sc": "公布声明",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -22956,7 +22441,8 @@
 "hk": "港埠旗幟",
 "sc": "港埠旗帜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23002,7 +22488,8 @@
 "hk": "灣之畔",
 "sc": "湾之畔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23048,7 +22535,8 @@
 "hk": "戰未來",
 "sc": "战未来",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23094,7 +22582,8 @@
 "hk": "萬全準備",
 "sc": "万全准备",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23140,7 +22629,8 @@
 "hk": "沙灘歡聚",
 "sc": "沙滩欢聚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23186,7 +22676,8 @@
 "hk": "熊小河",
 "sc": "熊小河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23232,7 +22723,8 @@
 "hk": "熊軍一號",
 "sc": "熊军一号",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23292,7 +22784,8 @@
 "hk": "小刀鋸木",
 "sc": "小刀锯木",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23380,7 +22873,8 @@
 "hk": "新酒芬芳",
 "sc": "新酒芬芳",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23440,7 +22934,8 @@
 "hk": "黃銅堅駒",
 "sc": "黄铜坚驹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23486,7 +22981,8 @@
 "hk": "雅詩景",
 "sc": "雅诗景",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23532,7 +23028,8 @@
 "hk": "俊百得",
 "sc": "俊百得",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23578,7 +23075,8 @@
 "hk": "堂皇之冠",
 "sc": "堂皇之冠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23624,7 +23122,8 @@
 "hk": "瑩鑽",
 "sc": "莹钻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23726,7 +23225,8 @@
 "hk": "美目",
 "sc": "美目",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23800,7 +23300,8 @@
 "hk": "晴暉灼灼",
 "sc": "晴晖灼灼",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23860,7 +23361,8 @@
 "hk": "美麗奔馳",
 "sc": "美丽奔驰",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23906,7 +23408,8 @@
 "hk": "麗質天生",
 "sc": "丽质天生",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23952,7 +23455,8 @@
 "hk": "貝都因記",
 "sc": "贝都因记",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -23993,7 +23497,7 @@
 "draw": 6,
 "gear": "V",
 "horse_uid": "gb-bedouin-s-story",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-saeed-bin-suroor",
 "lb": 132.0,
 "claim": null,
@@ -24026,7 +23530,8 @@
 "hk": "好著迷",
 "sc": "好著迷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24072,7 +23577,8 @@
 "hk": "齊見證",
 "sc": "齐见证",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24118,7 +23624,8 @@
 "hk": "寶鈴奏鳴",
 "sc": "宝铃奏鸣",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24164,7 +23671,8 @@
 "hk": "飆勁",
 "sc": "飙劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24210,7 +23718,8 @@
 "hk": "信定必勝",
 "sc": "信定必胜",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24256,7 +23765,8 @@
 "hk": "大鐘岩",
 "sc": "大钟岩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24400,7 +23910,8 @@
 "hk": "靚女孩",
 "sc": "靓女孩",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24460,7 +23971,8 @@
 "hk": "貝發灣",
 "sc": "贝发湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24506,7 +24018,8 @@
 "hk": "賓域奇山",
 "sc": "宾域奇山",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24552,7 +24065,8 @@
 "hk": "驛道交匯",
 "sc": "驿道交汇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24598,7 +24112,8 @@
 "hk": "拼百圖",
 "sc": "拼百图",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24681,7 +24196,7 @@
 "draw": 4,
 "gear": "TT",
 "horse_uid": "gb-benbatl",
-"jockey_uid": "j-pat-cosgrave",
+"jockey_uid": "j-patrick-cosgrave",
 "trainer_uid": "t-saeed-bin-suroor",
 "lb": 130.0,
 "claim": null,
@@ -24728,7 +24243,8 @@
 "hk": "增益",
 "sc": "增益",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24774,7 +24290,8 @@
 "hk": "旺角益友",
 "sc": "旺角益友",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24820,7 +24337,8 @@
 "hk": "明義",
 "sc": "明义",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24866,7 +24384,8 @@
 "hk": "重返正道",
 "sc": "重返正道",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24912,7 +24431,8 @@
 "hk": "白天後裔",
 "sc": "白天后裔",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -24958,7 +24478,8 @@
 "hk": "長矛手",
 "sc": "长矛手",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25004,7 +24525,8 @@
 "hk": "巴郡智者",
 "sc": "巴郡智者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25050,7 +24572,8 @@
 "hk": "巴郡影兒",
 "sc": "巴郡影儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25236,7 +24759,8 @@
 "hk": "BERLIN TANGO (GB)",
 "sc": "BERLIN TANGO (GB)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25296,7 +24820,8 @@
 "hk": "俠心蕩寇",
 "sc": "侠心荡寇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25356,7 +24881,8 @@
 "hk": "知難勇進",
 "sc": "知难勇进",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25402,7 +24928,8 @@
 "hk": "至佳表現",
 "sc": "至佳表现",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25476,7 +25003,8 @@
 "hk": "側翼猛攻",
 "sc": "侧翼猛攻",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25522,7 +25050,8 @@
 "hk": "一起更好",
 "sc": "一起更好",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25568,7 +25097,8 @@
 "hk": "寶蹄灣",
 "sc": "宝蹄湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25628,7 +25158,8 @@
 "hk": "娉婷花",
 "sc": "娉婷花",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25772,7 +25303,8 @@
 "hk": "一將守關",
 "sc": "一将守关",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25818,7 +25350,8 @@
 "hk": "避暑行宮",
 "sc": "避暑行宫",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25934,7 +25467,8 @@
 "hk": "無可比擬",
 "sc": "无可比拟",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -25980,7 +25514,8 @@
 "hk": "暢快飲",
 "sc": "畅快饮",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26026,7 +25561,8 @@
 "hk": "小村落",
 "sc": "小村落",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26086,7 +25622,8 @@
 "hk": "青天碧海",
 "sc": "青天碧海",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26132,7 +25669,8 @@
 "hk": "大漂流",
 "sc": "大漂流",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26178,7 +25716,8 @@
 "hk": "大貓兒",
 "sc": "大猫儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26197,7 +25736,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-f-caenepeel",
+"trainer_uid": "t-filip-caenepeel",
 "race_uid": "fr-2022-0730-第三班讓賽-容後公佈-第二班讓賽",
 "entries": [
 {
@@ -26206,7 +25745,7 @@
 "gear": null,
 "horse_uid": "gb-big-kitty",
 "jockey_uid": null,
-"trainer_uid": "t-f-caenepeel",
+"trainer_uid": "t-filip-caenepeel",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -26238,7 +25777,8 @@
 "hk": "大談判家",
 "sc": "大谈判家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26298,7 +25838,8 @@
 "hk": "巨橙",
 "sc": "巨橙",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26344,7 +25885,8 @@
 "hk": "寶甜兒",
 "sc": "宝甜儿",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26404,7 +25946,8 @@
 "hk": "機師奇遇",
 "sc": "机师奇遇",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26464,7 +26007,8 @@
 "hk": "馬博士",
 "sc": "马博士",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26510,7 +26054,8 @@
 "hk": "廣告明星",
 "sc": "广告明星",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26570,7 +26115,8 @@
 "hk": "碧絲小村",
 "sc": "碧丝小村",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26616,7 +26162,8 @@
 "hk": "貝村小河",
 "sc": "贝村小河",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26662,7 +26209,8 @@
 "hk": "編劇導演",
 "sc": "编剧导演",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26708,7 +26256,8 @@
 "hk": "便利祖",
 "sc": "便利祖",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26824,7 +26373,8 @@
 "hk": "勁拍子",
 "sc": "劲拍子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26870,7 +26420,8 @@
 "hk": "消閒銀灣",
 "sc": "消闲银湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -26916,7 +26467,8 @@
 "hk": "豪門女主",
 "sc": "豪门女主",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27018,7 +26570,8 @@
 "hk": "雅意千金",
 "sc": "雅意千金",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27064,7 +26617,8 @@
 "hk": "吉達烈女",
 "sc": "吉达烈女",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27110,7 +26664,8 @@
 "hk": "飆騰麗",
 "sc": "飙腾丽",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27156,7 +26711,8 @@
 "hk": "生物測定",
 "sc": "生物测定",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27258,7 +26814,8 @@
 "hk": "大國盛世",
 "sc": "大国盛世",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27304,7 +26861,8 @@
 "hk": "雪紡如黛",
 "sc": "雪纺如黛",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27350,7 +26908,8 @@
 "hk": "暗荷飄影",
 "sc": "暗荷飘影",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27396,7 +26955,8 @@
 "hk": "曖曖早晨",
 "sc": "暧暧早晨",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27442,7 +27002,8 @@
 "hk": "驪聲",
 "sc": "骊声",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27488,7 +27049,8 @@
 "hk": "鑽之果",
 "sc": "钻之果",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27534,7 +27096,8 @@
 "hk": "黑杖官",
 "sc": "黑杖官",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27608,7 +27171,8 @@
 "hk": "寶來迎",
 "sc": "宝来迎",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27654,7 +27218,8 @@
 "hk": "詩畫家",
 "sc": "诗画家",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27714,7 +27279,8 @@
 "hk": "行無忌",
 "sc": "行无忌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27760,7 +27326,8 @@
 "hk": "摯情解憂",
 "sc": "挚情解忧",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27806,7 +27373,8 @@
 "hk": "隨風成長",
 "sc": "随风成长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27908,7 +27476,8 @@
 "hk": "爆拼勁",
 "sc": "爆拼劲",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -27954,7 +27523,8 @@
 "hk": "勞動小子",
 "sc": "劳动小子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28000,7 +27570,8 @@
 "hk": "藍佳酌",
 "sc": "蓝佳酌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28060,7 +27631,8 @@
 "hk": "藍桂冠",
 "sc": "蓝桂冠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28106,7 +27678,8 @@
 "hk": "核飛彈",
 "sc": "核飞弹",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28152,7 +27725,8 @@
 "hk": "藍霧",
 "sc": "蓝雾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28226,7 +27800,8 @@
 "hk": "活火碧湖",
 "sc": "活火碧湖",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28272,7 +27847,8 @@
 "hk": "藍標誌",
 "sc": "蓝标志",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28318,7 +27894,8 @@
 "hk": "藍風捲",
 "sc": "蓝风卷",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28378,7 +27955,8 @@
 "hk": "才情麗驥",
 "sc": "才情丽骥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28494,7 +28072,8 @@
 "hk": "幼沙灘灣",
 "sc": "幼沙滩湾",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28540,7 +28119,8 @@
 "hk": "議策者",
 "sc": "议策者",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28586,7 +28166,8 @@
 "hk": "水手長",
 "sc": "水手长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28646,7 +28227,8 @@
 "hk": "嬉皮四闖",
 "sc": "嬉皮四闯",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28706,7 +28288,8 @@
 "hk": "寶冊",
 "sc": "宝册",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28780,7 +28363,8 @@
 "hk": "博爾瀚",
 "sc": "博尔瀚",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28826,7 +28410,8 @@
 "hk": "銀木",
 "sc": "银木",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28896,7 +28481,7 @@
 "gear": null,
 "horse_uid": "gb-bois-d-argent",
 "jockey_uid": "j-ryan-maloney",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 112,
@@ -28910,7 +28495,7 @@
 "gear": null,
 "horse_uid": "gb-bois-d-argent",
 "jockey_uid": "j-ryan-maloney",
-"trainer_uid": "t-a-r-archibald",
+"trainer_uid": "t-annabel-rob-archibald",
 "lb": 130.0,
 "claim": null,
 "rating": 108,
@@ -28928,7 +28513,8 @@
 "hk": "寶蓮頌安",
 "sc": "宝莲颂安",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -28988,7 +28574,8 @@
 "hk": "寶蓮瑪嘉",
 "sc": "宝莲玛嘉",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29034,7 +28621,8 @@
 "hk": "加固",
 "sc": "加固",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29136,7 +28724,8 @@
 "hk": "熱鬧市集",
 "sc": "热闹市集",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29182,7 +28771,8 @@
 "hk": "邦德",
 "sc": "邦德",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29228,7 +28818,8 @@
 "hk": "邦會長",
 "sc": "邦会长",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29344,7 +28935,8 @@
 "hk": "健美天姬",
 "sc": "健美天姬",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29404,7 +28996,8 @@
 "hk": "BOOM ALLIANCE (GB)",
 "sc": "BOOM ALLIANCE (GB)",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29450,7 +29043,8 @@
 "hk": "震撼勢力",
 "sc": "震撼势力",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29496,7 +29090,8 @@
 "hk": "軍歌",
 "sc": "军歌",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29515,7 +29110,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": "j-umberto-rispoli",
-"trainer_uid": "t-k-w-lui",
+"trainer_uid": "t-francis-lui",
 "race_uid": "aus-2019-0303-澳港盃-澳門一級賽",
 "entries": [
 {
@@ -29524,7 +29119,7 @@
 "gear": "B-",
 "horse_uid": "gb-born-in-china",
 "jockey_uid": "j-umberto-rispoli",
-"trainer_uid": "t-k-w-lui",
+"trainer_uid": "t-francis-lui",
 "lb": 133.0,
 "claim": null,
 "rating": 124,
@@ -29542,7 +29137,8 @@
 "hk": "天稟統帥",
 "sc": "天禀统帅",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29588,7 +29184,8 @@
 "hk": "天生敏銳",
 "sc": "天生敏锐",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29634,7 +29231,8 @@
 "hk": "波士勁爆",
 "sc": "波士劲爆",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29680,7 +29278,8 @@
 "hk": "豐饒",
 "sc": "丰饶",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29740,7 +29339,8 @@
 "hk": "醇烈調子",
 "sc": "醇烈调子",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29828,7 +29428,8 @@
 "hk": "跑鞋創新",
 "sc": "跑鞋创新",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29874,7 +29475,8 @@
 "hk": "園林假期",
 "sc": "园林假期",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29920,7 +29522,8 @@
 "hk": "正中紅心",
 "sc": "正中红心",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -29980,7 +29583,8 @@
 "hk": "空降神兵",
 "sc": "空降神兵",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -30026,7 +29630,8 @@
 "hk": "暖心男友",
 "sc": "暖心男友",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -30072,7 +29677,8 @@
 "hk": "簡要畢哥",
 "sc": "简要毕哥",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -30132,7 +29738,8 @@
 "hk": "調酒源流",
 "sc": "调酒源流",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -30151,7 +29758,7 @@
 "curation": "pending",
 "status": "pending",
 "jockey_uid": null,
-"trainer_uid": "t-a-m-b-watson",
+"trainer_uid": "t-archie-watson",
 "race_uid": "fr-2024-0802-s2-6-圓環錦標",
 "entries": [
 {
@@ -30160,7 +29767,7 @@
 "gear": null,
 "horse_uid": "gb-bradsell",
 "jockey_uid": null,
-"trainer_uid": "t-a-m-b-watson",
+"trainer_uid": "t-archie-watson",
 "lb": null,
 "claim": null,
 "rating": null,
@@ -30276,7 +29883,8 @@
 "hk": "法術鐵匠",
 "sc": "法术铁匠",
 "own": null,
-"alias": []
+"alias": [],
+"variants": []
 },
 "origin": "GBR",
 "country": "英国",
@@ -30311,6 +29919,1094 @@
 "sex": "G",
 "age": 5,
 "race_uid": "gb-2026-0605-香港賽馬會全球匯合彩池讓賽"
+}
+]
+},
+{
+"uid": "gb-brandenburg",
+"names": {
+"original": "Brandenburg",
+"en": "Brandenburg",
+"hk": "布登堡",
+"sc": "布登堡",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2024,
+"color": null,
+"age": 2,
+"rating": 75,
+"lb": 117.0,
+"no": 22,
+"draw": 21,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-luke-morris",
+"trainer_uid": "t-ann-duffield",
+"race_uid": "gb-2026-0820-兩歲馬讓賽-f616",
+"entries": [
+{
+"no": 22,
+"draw": 21,
+"gear": null,
+"horse_uid": "gb-brandenburg",
+"jockey_uid": "j-luke-morris",
+"trainer_uid": "t-ann-duffield",
+"lb": 117.0,
+"claim": null,
+"rating": 75,
+"sex": "M",
+"age": 2,
+"race_uid": "gb-2026-0820-兩歲馬讓賽-f616"
+}
+]
+},
+{
+"uid": "gb-brando",
+"names": {
+"original": "Brando",
+"en": "Brando",
+"hk": "白蘭度",
+"sc": "白兰度",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2012,
+"color": null,
+"age": null,
+"rating": null,
+"lb": null,
+"no": null,
+"draw": null,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": null,
+"trainer_uid": "t-kevin-ryan",
+"race_uid": "fr-2017-0929-森林大賽",
+"entries": [
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": null,
+"trainer_uid": "t-kevin-ryan",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2017-0929-森林大賽"
+},
+{
+"no": null,
+"draw": null,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": null,
+"trainer_uid": "t-kevin-ryan",
+"lb": null,
+"claim": null,
+"rating": null,
+"sex": null,
+"age": null,
+"race_uid": "fr-2021-0806-紀爾斯大賽"
+},
+{
+"no": 1,
+"draw": 5,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": "j-tom-eaves",
+"trainer_uid": "t-kevin-ryan",
+"lb": 130.0,
+"claim": null,
+"rating": 112,
+"sex": "G",
+"age": 9,
+"race_uid": "fr-2021-0808-紀爾斯大賽"
+},
+{
+"no": 1,
+"draw": 2,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": "j-tom-eaves",
+"trainer_uid": "t-kevin-ryan",
+"lb": 128.0,
+"claim": null,
+"rating": 115,
+"sex": "G",
+"age": 5,
+"race_uid": "gb-2017-1021-英國冠軍短途錦標"
+},
+{
+"no": 2,
+"draw": 14,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": "j-jamie-spencer",
+"trainer_uid": "t-kevin-ryan",
+"lb": 128.0,
+"claim": null,
+"rating": 116,
+"sex": "G",
+"age": 6,
+"race_uid": "gb-2018-1020-英國冠軍短途錦標"
+},
+{
+"no": 1,
+"draw": 12,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": "j-tom-eaves",
+"trainer_uid": "t-kevin-ryan",
+"lb": 128.0,
+"claim": null,
+"rating": 116,
+"sex": "G",
+"age": 7,
+"race_uid": "gb-2019-1019-英國冠軍短途錦標"
+},
+{
+"no": 1,
+"draw": 7,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": "j-tom-eaves",
+"trainer_uid": "t-kevin-ryan",
+"lb": 128.0,
+"claim": null,
+"rating": 107,
+"sex": "G",
+"age": 8,
+"race_uid": "gb-2020-1017-英國冠軍短途錦標"
+},
+{
+"no": 4,
+"draw": 13,
+"gear": null,
+"horse_uid": "gb-brando",
+"jockey_uid": "j-tom-eaves",
+"trainer_uid": "t-kevin-ryan",
+"lb": 128.0,
+"claim": null,
+"rating": 112,
+"sex": "G",
+"age": 9,
+"race_uid": "gb-2021-1016-英國冠軍短途錦標"
+}
+]
+},
+{
+"uid": "gb-bravais",
+"names": {
+"original": "Bravais",
+"en": "Bravais",
+"hk": "物理點陣",
+"sc": "物理点阵",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2020,
+"color": null,
+"age": 3,
+"rating": 100,
+"lb": 126.0,
+"no": 2,
+"draw": 7,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-bauyrzhan-murzabayev",
+"trainer_uid": "t-andre-fabre",
+"race_uid": "fr-2023-0813-雷里耶夫錦標-表列賽",
+"entries": [
+{
+"no": 2,
+"draw": 7,
+"gear": null,
+"horse_uid": "gb-bravais",
+"jockey_uid": "j-bauyrzhan-murzabayev",
+"trainer_uid": "t-andre-fabre",
+"lb": 126.0,
+"claim": null,
+"rating": 100,
+"sex": "M",
+"age": 3,
+"race_uid": "fr-2023-0813-雷里耶夫錦標-表列賽"
+}
+]
+},
+{
+"uid": "gb-brave-hunter",
+"names": {
+"original": "Brave Hunter",
+"en": "Brave Hunter",
+"hk": "獵寶勇膽",
+"sc": "猎宝勇胆",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2023,
+"color": null,
+"age": 2,
+"rating": null,
+"lb": 131.0,
+"no": 1,
+"draw": 2,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-silvestre-de-sousa",
+"trainer_uid": "t-ismail-mohammed",
+"race_uid": "gb-2025-0621-卓斯咸錦標-表列賽",
+"entries": [
+{
+"no": 1,
+"draw": 2,
+"gear": null,
+"horse_uid": "gb-brave-hunter",
+"jockey_uid": "j-silvestre-de-sousa",
+"trainer_uid": "t-ismail-mohammed",
+"lb": 131.0,
+"claim": null,
+"rating": null,
+"sex": "M",
+"age": 2,
+"race_uid": "gb-2025-0621-卓斯咸錦標-表列賽"
+}
+]
+},
+{
+"uid": "gb-brave-mission",
+"names": {
+"original": "Brave Mission",
+"en": "Brave Mission",
+"hk": "果敢使命",
+"sc": "果敢使命",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 3,
+"rating": 92,
+"lb": 127.0,
+"no": 28,
+"draw": 20,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-colin-keane",
+"trainer_uid": "t-ralph-beckett",
+"race_uid": "gb-2025-0620-大不列顛錦標",
+"entries": [
+{
+"no": 28,
+"draw": 20,
+"gear": null,
+"horse_uid": "gb-brave-mission",
+"jockey_uid": "j-colin-keane",
+"trainer_uid": "t-ralph-beckett",
+"lb": 127.0,
+"claim": null,
+"rating": 92,
+"sex": "M",
+"age": 3,
+"race_uid": "gb-2025-0620-大不列顛錦標"
+}
+]
+},
+{
+"uid": "gb-brayden-star",
+"names": {
+"original": "Brayden Star",
+"en": "Brayden Star",
+"hk": "星攀天",
+"sc": "星攀天",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 7,
+"rating": 102,
+"lb": 127.0,
+"no": 6,
+"draw": 3,
+"gear": "XB/TT",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-tim-clark",
+"trainer_uid": "t-t-busuttin-n-young",
+"race_uid": "aus-2025-1108-女皇伊利沙伯錦標",
+"entries": [
+{
+"no": 6,
+"draw": 3,
+"gear": "XB/TT",
+"horse_uid": "gb-brayden-star",
+"jockey_uid": "j-tim-clark",
+"trainer_uid": "t-t-busuttin-n-young",
+"lb": 127.0,
+"claim": null,
+"rating": 102,
+"sex": "G",
+"age": 7,
+"race_uid": "aus-2025-1108-女皇伊利沙伯錦標"
+},
+{
+"no": 1,
+"draw": 7,
+"gear": "B-/XB/TT",
+"horse_uid": "gb-brayden-star",
+"jockey_uid": "j-opie-bosson",
+"trainer_uid": "t-t-busuttin-n-young",
+"lb": 128.0,
+"claim": null,
+"rating": 99,
+"sex": "G",
+"age": 7,
+"race_uid": "aus-2026-0307-奧克蘭盃"
+}
+]
+},
+{
+"uid": "gb-brazen-bolt",
+"names": {
+"original": "Brazen Bolt",
+"en": "Brazen Bolt",
+"hk": "銅霹靂",
+"sc": "铜霹雳",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2017,
+"color": null,
+"age": 8,
+"rating": 83,
+"lb": 120.0,
+"no": 18,
+"draw": 14,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-warren-fentiman",
+"trainer_uid": "t-ruth-carr",
+"race_uid": "gb-2025-0729-三歲以上馬0-105分讓賽",
+"entries": [
+{
+"no": 18,
+"draw": 14,
+"gear": null,
+"horse_uid": "gb-brazen-bolt",
+"jockey_uid": "j-warren-fentiman",
+"trainer_uid": "t-ruth-carr",
+"lb": 120.0,
+"claim": -5.0,
+"rating": 83,
+"sex": "G",
+"age": 8,
+"race_uid": "gb-2025-0729-三歲以上馬0-105分讓賽"
+},
+{
+"no": 12,
+"draw": 3,
+"gear": null,
+"horse_uid": "gb-brazen-bolt",
+"jockey_uid": "j-warren-fentiman",
+"trainer_uid": "t-ruth-carr",
+"lb": 127.0,
+"claim": -5.0,
+"rating": 89,
+"sex": "G",
+"age": 8,
+"race_uid": "gb-2025-0820-香港賽馬會全球匯合彩池讓賽"
+},
+{
+"no": 12,
+"draw": 19,
+"gear": null,
+"horse_uid": "gb-brazen-bolt",
+"jockey_uid": "j-jack-nicholls",
+"trainer_uid": "t-ruth-carr",
+"lb": 125.0,
+"claim": -5.0,
+"rating": 86,
+"sex": "G",
+"age": 9,
+"race_uid": "gb-2026-0606-短途讓賽"
+}
+]
+},
+{
+"uid": "gb-breath-caught",
+"names": {
+"original": "Breath Caught",
+"en": "Breath Caught",
+"hk": "屏息靜氣",
+"sc": "屏息静气",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2015,
+"color": null,
+"age": 3,
+"rating": 89,
+"lb": 120.0,
+"no": 33,
+"draw": 27,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-harry-bentley",
+"trainer_uid": "t-ralph-beckett",
+"race_uid": "gb-2018-0622-大不列顛錦標-讓賽",
+"entries": [
+{
+"no": 33,
+"draw": 27,
+"gear": null,
+"horse_uid": "gb-breath-caught",
+"jockey_uid": "j-harry-bentley",
+"trainer_uid": "t-ralph-beckett",
+"lb": 120.0,
+"claim": null,
+"rating": 89,
+"sex": "M",
+"age": 3,
+"race_uid": "gb-2018-0622-大不列顛錦標-讓賽"
+},
+{
+"no": 7,
+"draw": 8,
+"gear": null,
+"horse_uid": "gb-breath-caught",
+"jockey_uid": "j-jim-crowley",
+"trainer_uid": "t-ian-williams",
+"lb": 123.0,
+"claim": null,
+"rating": 94,
+"sex": "G",
+"age": 4,
+"race_uid": "gb-2019-0602-超凡讓賽"
+},
+{
+"no": 12,
+"draw": 12,
+"gear": null,
+"horse_uid": "gb-breath-caught",
+"jockey_uid": "j-harry-bentley",
+"trainer_uid": "t-ralph-beckett",
+"lb": 119.0,
+"claim": null,
+"rating": 87,
+"sex": "G",
+"age": 5,
+"race_uid": "gb-2020-0704-四歲以上馬讓賽"
+},
+{
+"no": 1,
+"draw": 3,
+"gear": null,
+"horse_uid": "gb-breath-caught",
+"jockey_uid": "j-rob-hornby",
+"trainer_uid": "t-ralph-beckett",
+"lb": 140.0,
+"claim": null,
+"rating": 98,
+"sex": "G",
+"age": 6,
+"race_uid": "gb-2021-0703-三歲以上馬81-100分讓賽"
+},
+{
+"no": 10,
+"draw": 12,
+"gear": null,
+"horse_uid": "gb-breath-caught",
+"jockey_uid": "j-rossa-ryan",
+"trainer_uid": "t-ralph-beckett",
+"lb": 124.0,
+"claim": null,
+"rating": 97,
+"sex": "G",
+"age": 6,
+"race_uid": "gb-2021-0727-四歲以上馬讓賽"
+}
+]
+},
+{
+"uid": "gb-breathtaking-look",
+"names": {
+"original": "Breathtaking Look",
+"en": "Breathtaking Look",
+"hk": "驚艷神采",
+"sc": "惊艳神采",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2015,
+"color": null,
+"age": 5,
+"rating": 106,
+"lb": 126.0,
+"no": 9,
+"draw": 7,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-andrea-atzeni",
+"trainer_uid": "t-stuart-williams",
+"race_uid": "gb-2020-0620-鑽禧錦標",
+"entries": [
+{
+"no": 9,
+"draw": 7,
+"gear": null,
+"horse_uid": "gb-breathtaking-look",
+"jockey_uid": "j-andrea-atzeni",
+"trainer_uid": "t-stuart-williams",
+"lb": 126.0,
+"claim": null,
+"rating": 106,
+"sex": "F",
+"age": 5,
+"race_uid": "gb-2020-0620-鑽禧錦標"
+}
+]
+},
+{
+"uid": "gb-breckenbrough",
+"names": {
+"original": "Breckenbrough",
+"en": "Breckenbrough",
+"hk": "馬上爭功",
+"sc": "马上争功",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 4,
+"rating": 99,
+"lb": 134.0,
+"no": 4,
+"draw": 5,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-oisin-murphy",
+"trainer_uid": "t-mario-baratti",
+"race_uid": "gb-2026-0606-伊利沙伯公主錦標",
+"entries": [
+{
+"no": 4,
+"draw": 5,
+"gear": null,
+"horse_uid": "gb-breckenbrough",
+"jockey_uid": "j-oisin-murphy",
+"trainer_uid": "t-mario-baratti",
+"lb": 134.0,
+"claim": null,
+"rating": 99,
+"sex": "F",
+"age": 4,
+"race_uid": "gb-2026-0606-伊利沙伯公主錦標"
+}
+]
+},
+{
+"uid": "gb-breege",
+"names": {
+"original": "Breege",
+"en": "Breege",
+"hk": "安逸小鎮",
+"sc": "安逸小镇",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2020,
+"color": null,
+"age": 4,
+"rating": 108,
+"lb": 125.0,
+"no": 11,
+"draw": 8,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-sean-quinn",
+"race_uid": "fr-2024-1006-森林大賽",
+"entries": [
+{
+"no": 11,
+"draw": 8,
+"gear": null,
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-sean-quinn",
+"lb": 125.0,
+"claim": null,
+"rating": 108,
+"sex": "F",
+"age": 4,
+"race_uid": "fr-2024-1006-森林大賽"
+},
+{
+"no": 1,
+"draw": 5,
+"gear": null,
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-quinn",
+"lb": 128.0,
+"claim": null,
+"rating": 92,
+"sex": "F",
+"age": 2,
+"race_uid": "gb-2022-0723-瑪嘉烈公主錦標"
+},
+{
+"no": 5,
+"draw": 16,
+"gear": null,
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-quinn",
+"lb": 132.0,
+"claim": null,
+"rating": 100,
+"sex": "F",
+"age": 3,
+"race_uid": "gb-2023-0624-沙特利咸錦標"
+},
+{
+"no": 8,
+"draw": 3,
+"gear": null,
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-quinn",
+"lb": 125.0,
+"claim": null,
+"rating": 105,
+"sex": "F",
+"age": 3,
+"race_uid": "gb-2023-0802-橡樹錦標"
+},
+{
+"no": 2,
+"draw": 7,
+"gear": null,
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-sean-quinn",
+"lb": 134.0,
+"claim": null,
+"rating": 102,
+"sex": "F",
+"age": 4,
+"race_uid": "gb-2024-0601-伊利沙伯公主錦標"
+},
+{
+"no": 2,
+"draw": 13,
+"gear": "CP",
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-sean-quinn",
+"lb": 128.0,
+"claim": null,
+"rating": 102,
+"sex": "F",
+"age": 4,
+"race_uid": "gb-2024-0619-劍橋公爵錦標"
+},
+{
+"no": 1,
+"draw": 9,
+"gear": "B",
+"horse_uid": "gb-breege",
+"jockey_uid": "j-jason-hart",
+"trainer_uid": "t-john-sean-quinn",
+"lb": 135.0,
+"claim": null,
+"rating": 104,
+"sex": "F",
+"age": 4,
+"race_uid": "gb-2024-0731-橡樹錦標"
+}
+]
+},
+{
+"uid": "gb-breeze-easy",
+"names": {
+"original": "Breeze Easy",
+"en": "Breeze Easy",
+"hk": "輕易贏",
+"sc": "轻易赢",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2019,
+"color": null,
+"age": 2,
+"rating": null,
+"lb": 128.0,
+"no": 1,
+"draw": 8,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-shane-kelly",
+"trainer_uid": "t-david-evans",
+"race_uid": "gb-2021-0911-伊佳步錦標-表列賽",
+"entries": [
+{
+"no": 1,
+"draw": 8,
+"gear": null,
+"horse_uid": "gb-breeze-easy",
+"jockey_uid": "j-shane-kelly",
+"trainer_uid": "t-david-evans",
+"lb": 128.0,
+"claim": null,
+"rating": null,
+"sex": "F",
+"age": 2,
+"race_uid": "gb-2021-0911-伊佳步錦標-表列賽"
+}
+]
+},
+{
+"uid": "gb-bretton-wood",
+"names": {
+"original": "Bretton Wood",
+"en": "Bretton Wood",
+"hk": "貨幣秩序",
+"sc": "货币秩序",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "M",
+"sex_cn": "雄",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 2,
+"rating": null,
+"lb": 131.0,
+"no": 4,
+"draw": 24,
+"gear": "B",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-silvestre-de-sousa",
+"trainer_uid": "t-james-owen",
+"race_uid": "gb-2024-0620-溫莎堡錦標-表列賽",
+"entries": [
+{
+"no": 4,
+"draw": 24,
+"gear": "B",
+"horse_uid": "gb-bretton-wood",
+"jockey_uid": "j-silvestre-de-sousa",
+"trainer_uid": "t-james-owen",
+"lb": 131.0,
+"claim": null,
+"rating": null,
+"sex": "M",
+"age": 2,
+"race_uid": "gb-2024-0620-溫莎堡錦標-表列賽"
+}
+]
+},
+{
+"uid": "gb-brielle",
+"names": {
+"original": "Brielle",
+"en": "Brielle",
+"hk": "小神童",
+"sc": "小神童",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2022,
+"color": null,
+"age": 3,
+"rating": 82,
+"lb": 123.0,
+"no": 10,
+"draw": 4,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-david-probert",
+"trainer_uid": "t-david-o-meara",
+"race_uid": "gb-2025-0822-三歲以上雌馬0-105分讓賽",
+"entries": [
+{
+"no": 10,
+"draw": 4,
+"gear": null,
+"horse_uid": "gb-brielle",
+"jockey_uid": "j-david-probert",
+"trainer_uid": "t-david-o-meara",
+"lb": 123.0,
+"claim": null,
+"rating": 82,
+"sex": "F",
+"age": 3,
+"race_uid": "gb-2025-0822-三歲以上雌馬0-105分讓賽"
+}
+]
+},
+{
+"uid": "gb-brilliant-light",
+"names": {
+"original": "Brilliant Light",
+"en": "Brilliant Light",
+"hk": "耀眼星光",
+"sc": "耀眼星光",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "G",
+"sex_cn": "骟",
+"birth_date": null,
+"birth_year": 2017,
+"color": null,
+"age": 4,
+"rating": 101,
+"lb": 133.0,
+"no": 5,
+"draw": 16,
+"gear": "V",
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-oisin-murphy",
+"trainer_uid": "t-saeed-bin-suroor",
+"race_uid": "gb-2021-0616-銅馬錦標-讓賽",
+"entries": [
+{
+"no": 5,
+"draw": 16,
+"gear": "V",
+"horse_uid": "gb-brilliant-light",
+"jockey_uid": "j-oisin-murphy",
+"trainer_uid": "t-saeed-bin-suroor",
+"lb": 133.0,
+"claim": null,
+"rating": 101,
+"sex": "G",
+"age": 4,
+"race_uid": "gb-2021-0616-銅馬錦標-讓賽"
+},
+{
+"no": 11,
+"draw": 4,
+"gear": null,
+"horse_uid": "gb-brilliant-light",
+"jockey_uid": "j-daniel-tudhope",
+"trainer_uid": "t-saeed-bin-suroor",
+"lb": 129.0,
+"claim": null,
+"rating": 96,
+"sex": "G",
+"age": 5,
+"race_uid": "gb-2022-0617-愛丁堡公爵錦標-讓賽"
+},
+{
+"no": 9,
+"draw": 2,
+"gear": null,
+"horse_uid": "gb-brilliant-light",
+"jockey_uid": "j-daniel-tudhope",
+"trainer_uid": "t-saeed-bin-suroor",
+"lb": 128.0,
+"claim": null,
+"rating": 96,
+"sex": "G",
+"age": 5,
+"race_uid": "gb-2022-0726-四歲以上馬讓賽"
+},
+{
+"no": 5,
+"draw": 20,
+"gear": null,
+"horse_uid": "gb-brilliant-light",
+"jockey_uid": "j-gavin-ryan",
+"trainer_uid": "t-john-hanlon",
+"lb": 130.0,
+"claim": null,
+"rating": 90,
+"sex": "G",
+"age": 8,
+"race_uid": "gb-2025-0630-長途馬讓賽"
+},
+{
+"no": 7,
+"draw": 4,
+"gear": "CP",
+"horse_uid": "gb-brilliant-light",
+"jockey_uid": "j-harry-bentley",
+"trainer_uid": "t-saeed-bin-suroor",
+"lb": 123.0,
+"claim": null,
+"rating": 101,
+"sex": "G",
+"age": 4,
+"race_uid": "me-2021-0306-杜拜黃金之都錦標"
+}
+]
+},
+{
+"uid": "gb-brilliant-star",
+"names": {
+"original": "Brilliant Star",
+"en": "Brilliant Star",
+"hk": "奪目紅粉",
+"sc": "夺目红粉",
+"own": null,
+"alias": [],
+"variants": []
+},
+"origin": "GBR",
+"country": "英国",
+"sex": "F",
+"sex_cn": "雌",
+"birth_date": null,
+"birth_year": 2023,
+"color": null,
+"age": 3,
+"rating": 90,
+"lb": 128.0,
+"no": 1,
+"draw": 2,
+"gear": null,
+"pedigree": null,
+"curation": "pending",
+"status": "pending",
+"jockey_uid": "j-robert-havlin",
+"trainer_uid": "t-john-thady-gosden",
+"race_uid": "gb-2026-0618-列普谷錦標",
+"entries": [
+{
+"no": 1,
+"draw": 2,
+"gear": null,
+"horse_uid": "gb-brilliant-star",
+"jockey_uid": "j-robert-havlin",
+"trainer_uid": "t-john-thady-gosden",
+"lb": 128.0,
+"claim": null,
+"rating": 90,
+"sex": "F",
+"age": 3,
+"race_uid": "gb-2026-0618-列普谷錦標"
 }
 ]
 }

@@ -214,6 +214,10 @@ def main(argv: list[str] | None = None) -> int:
             })
 
     # ── 3. 人物名：汉字姓名即港译；非汉字姓名只有拉丁栏 ──────────────────
+    # 归一并过的人物（s3b）会有多条拉丁写法：主名一条、其余作非主名行留着，
+    # 这样「A P O'Brien」仍然搜得到「Aidan O'Brien」那一页，而不是被并没了。
+    id_variants = C.read_csv(C.CACHE / "identity_variants.csv")
+    id_primary = {r["entity_uid"]: r["value"] for r in id_variants if r.get("is_primary") == "1"}
     per_person: dict[str, list[dict]] = defaultdict(list)
     for e in entries:
         if e.get("jockey_uid"):
@@ -222,17 +226,27 @@ def main(argv: list[str] | None = None) -> int:
             per_person[e["trainer_uid"]].append({**e, "_role": "trainer"})
     for uid, es in per_person.items():
         role = es[0]["_role"]
-        en = next((e[f"{role}_en"] for e in es if e.get(f"{role}_en")), "")
-        zh = next((e[f"{role}_zh"] for e in es if e.get(f"{role}_zh")), "")
-        src_race = race_by_uid.get(es[0]["race_uid"], {})
+        # 取出现最多的那个写法，而不是「第一个非空」：同一人在几千条出赛里拼写会飘
+        # （Michael Dee 有 1 条被写成中文名当英文），取首条会把整页标题写成错的。
+        # 港译优先要有汉字的写法——汉字姓名才是港译，拉丁名只是同一栏的填充值。
+        cnt_zh = Counter(e[f"{role}_zh"] for e in es if e.get(f"{role}_zh"))
+        cnt_en = Counter(e[f"{role}_en"] for e in es if e.get(f"{role}_en"))
+        zh_pool = [(v, n) for v, n in cnt_zh.items() if C.has_cjk(v)] or list(cnt_zh.items())
+        zh = max(zh_pool, key=lambda x: x[1])[0] if zh_pool else ""
+        en = id_primary.get(uid) or (max(cnt_en.items(), key=lambda x: x[1])[0] if cnt_en else "")
+        src_race = next((race_by_uid.get(e["race_uid"], {}) for e in es
+                         if zh and e.get(f"{role}_zh") == zh), race_by_uid.get(es[0]["race_uid"], {}))
         src_url, arc = src_race.get("article_url", ""), archive_map.get(src_race.get("article_url", ""))
         decided = src_race.get("announce_date") or C.today()
         add_name(names, etype="person", uid=uid, field="hk", lang="zh-Hant", value=zh,
                  source_url=src_url, archive_url=arc, decided_at=decided)
         add_name(names, etype="person", uid=uid, field="en", lang="en", value=en,
                  source_url=src_url, archive_url=arc, decided_at=decided)
-        add_name(names, etype="person", uid=uid, field="original", lang="ja" if C.has_cjk(zh) else "en",
-                 value=zh if C.has_cjk(zh) else en, source_url=src_url, archive_url=arc, decided_at=decided)
+        # 原文 = 所属语区的原始书写（SCHEMA §2.1）：海外骑练的原文就是拉丁名，港译只是译名。
+        # 以前「汉字姓名即原文」把 4157 条人物的原文写成了中文，等于把 L1 港译冒充原文；
+        # 现在有拉丁名就取拉丁名，只有纯中文名（拿不到拉丁写法）才落原文。
+        add_name(names, etype="person", uid=uid, field="original", lang="en" if en else "zh-Hant",
+                 value=en or zh, source_url=src_url, archive_url=arc, decided_at=decided)
 
         # 国籍：公告不给。人工标注优先，其次「汉字姓名 + 该场公告属日本/香港」按举办地判，
         # 两者都不成立就留空（宁可显示「—」，也不按拼写猜国籍）。
@@ -254,10 +268,30 @@ def main(argv: list[str] | None = None) -> int:
         person_facts[uid] = {"role": role, "country_code": code, "nationality_cn": ISO3_TO_CN.get(code, ""),
                              "display_zh": zh, "display_en": en, "horses": sorted({e["horse_uid"] for e in es})}
 
+    # 归一并进来的拉丁写法：非主名行，各带自己那场的出处；不上主名位、不进分级
+    seen_var: set[tuple[str, str]] = set()
+    for r in id_variants:
+        if r.get("is_primary") == "1":
+            continue
+        vkey = (r["entity_uid"], C.norm_key(r["value"]))
+        if vkey in seen_var:
+            continue
+        seen_var.add(vkey)
+        src = race_by_uid.get(r.get("race_uid", ""), {})
+        url = src.get("article_url", "")
+        add_name(names, etype="person", uid=r["entity_uid"], field="en", lang="en",
+                 value=r["value"], source_url=url, archive_url=archive_map.get(url),
+                 decided_at=src.get("announce_date") or C.today(), primary=0)
+
     # ── 4. 覆盖层：hk / own 覆盖 → 重算 sc（校验长度）→ alias ─────────────
+    # 主名索引：覆盖层按 (实体, 名栏) 替换主名。多写法（同一栏的多条）另存一张表，
+    # 键带上 value——否则归一并进来的「A P O'Brien」会在写盘前被主名顶掉。
     by_key: dict[tuple[str, str, str], dict] = {}
+    all_rows: dict[tuple[str, str, str, str], dict] = {}
     for row in names:
-        by_key[(row["entity_type"], row["entity_uid"], row["field"])] = row
+        all_rows[(row["entity_type"], row["entity_uid"], row["field"], row["value"])] = row
+        if int(row.get("is_primary") or 0):
+            by_key[(row["entity_type"], row["entity_uid"], row["field"])] = row
 
     uid_type = {r["race_uid"]: "race" for r in races}
     uid_type.update({u: "horse" for u in per_horse})
@@ -281,6 +315,9 @@ def main(argv: list[str] | None = None) -> int:
                 "decided_at": C.today(),
             }
             by_key[key] = row
+            if old:
+                all_rows.pop((etype, uid, field, old), None)
+            all_rows[(etype, uid, field, row["value"])] = row
             apply_log.append({
                 "applied_at": C.now_iso(), "overrides_sha": overrides_sha,
                 "entity_type": etype, "entity_uid": uid, "field": field,
@@ -292,11 +329,12 @@ def main(argv: list[str] | None = None) -> int:
                 if old and old != hk_new:
                     problems.append(f"人工改港译 {uid}: {old} → {hk_new}")
 
-    names = list(by_key.values())
+    names = list(all_rows.values())
 
     # ── 5. 简称：只读覆盖层，全量替换；撞车写 review_queue ─────────────────
     aliases: list[dict] = []
-    review: list[dict] = []
+    # 身份归一的待判组（s3b）：原样带进 review_queue，人工判完写回 entity-merges.json
+    review: list[dict] = C.read_csv(C.CACHE / "review_identity.csv")
     for item in name_conflicts:
         review.append({
             "kind": "name", "entity_type": "horse", "entity_uid": item["uid"],

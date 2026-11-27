@@ -176,7 +176,57 @@ def main(argv: list[str] | None = None) -> int:
     else:
         ok("简称撞车", f"{len(collide)} 组撞车，全部已记录（不自动消歧）")
 
-    # ── 7. 血统覆盖（日本马）────────────────────────────────────────────
+    # ── 6b. 人物归一（实体层）────────────────────────────────────────────
+    stray = one("""SELECT COUNT(*) FROM entry e WHERE COALESCE(e.jockey_uid,'') != ''
+                   AND NOT EXISTS (SELECT 1 FROM person p WHERE p.person_uid = e.jockey_uid)""")
+    stray += one("""SELECT COUNT(*) FROM entry e WHERE COALESCE(e.trainer_uid,'') != ''
+                    AND NOT EXISTS (SELECT 1 FROM person p WHERE p.person_uid = e.trainer_uid)""")
+    if stray:
+        fail("人物引用完整", f"{stray} 条名单指向不存在的人物（归一改 uid 时漏改？）")
+    else:
+        ok("人物引用完整", "entry 的骑练 uid 全部有对应 person")
+
+    person_hk = conn.execute(
+        """SELECT p.person_uid, p.role, n.value FROM person p
+           JOIN name n ON n.entity_type = 'person' AND n.entity_uid = p.person_uid AND n.field = 'hk'
+           WHERE n.is_primary = 1""").fetchall()
+    group: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for uid, role, hk in person_hk:
+        group[(role, hk)].append(uid)
+    pending = {r["entity_uid"] for r in conn.execute(
+        "SELECT entity_uid FROM review_queue WHERE kind = 'merge' AND status = 'open'")}
+    splits_doc = C.read_json(C.DATA_SRC / "person-splits.json", {}) or {}
+    split_uids = {u for pair in (splits_doc.get("pairs") or []) for u in pair}
+    unknown = {k: v for k, v in group.items() if len(v) > 1
+               and not (set(v) & pending) and not (set(v) & split_uids)}
+    if unknown:
+        sample = "、".join(f"{k[1]}({len(v)})" for k, v in list(unknown.items())[:5])
+        fail("同港译多实体未处理", f"{len(unknown)} 组既没进复核队列也没被否决：{sample}")
+    else:
+        ok("同港译多实体", f"{len(pending)} 组待判 + 已否决 {len(split_uids)} 条，其余已归一")
+
+    # 名称栏：一个实体一栏只能有一个主名；归一留下的多写法必须是非主名行
+    multi_primary = one("""SELECT COUNT(*) FROM (SELECT entity_type, entity_uid, field,
+                                  SUM(is_primary) s FROM name GROUP BY 1, 2, 3 HAVING s > 1)""")
+    variant_rows = one("SELECT COUNT(*) FROM name WHERE is_primary = 0")
+    if multi_primary:
+        fail("名称主名唯一", f"{multi_primary} 个（实体, 名栏）有多个主名")
+    else:
+        ok("名称主名唯一", f"{variant_rows} 条非主名写法（归一留下的旧写法）")
+
+    # 检索索引必须覆盖全部实体：一个键挂多条，不能因为同名就把实体吞掉
+    all_p, rows_p = C.PUBLIC_DATA / "search" / "all.json", C.PUBLIC_DATA / "search" / "rows.json"
+    if all_p.exists() and rows_p.exists():
+        idx = json.loads(all_p.read_text(encoding="utf-8")).get("items", {})
+        brief = json.loads(rows_p.read_text(encoding="utf-8")).get("items", [])
+        covered = {(e["kind"], e["uid"]) for bucket in idx.values() for e in bucket}
+        miss = [(r["k"], r["uid"]) for r in brief if (r["k"], r["uid"]) not in covered]
+        if miss:
+            fail("检索索引缺实体", f"{len(miss)} 条搜不到，例：{miss[:3]}")
+        else:
+            ok("检索索引覆盖", f"{len(brief)} 条实体全部可检索（{len(idx)} 个键）")
+
+
     jp = one("SELECT COUNT(*) FROM horse WHERE curation = 'curated'")
     with_ped = one("""SELECT COUNT(*) FROM horse h WHERE h.curation = 'curated'
                       AND EXISTS (SELECT 1 FROM xid x WHERE x.entity_type = 'horse'

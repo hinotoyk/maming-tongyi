@@ -1,0 +1,25 @@
+{
+ "_meta": {
+  "schema": "person-splits/v1",
+  "updated": "2026-11-27",
+  "note": "人工否决的人物合并：pairs 里每一对「永不合并」。优先级高于任何自动规则——同一港译的父子（伍活/伍活）、同名不同人都记在这里，重跑管线不会再提出同样的候选。由 /edit/merge/ 复核页生成，脚本只读不写。"
+ },
+ "pairs": [
+  [
+   "t-abdullah-abdulwahed",
+   "t-ahmad-abdulwahed"
+  ],
+  [
+   "t-abdullah-abdulwahed",
+   "t-ahmad-abdulwahid"
+  ],
+  [
+   "t-ahmad-abdulwahed",
+   "t-ahmad-abdulwahid"
+  ],
+  [
+   "j-benny-woodworth",
+   "j-ronald-woodworth"
+  ]
+ ]
+}

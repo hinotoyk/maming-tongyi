@@ -44,7 +44,8 @@ S5 不跑就没有产物，`npm run build` 会因找不到 `manifest.json` 直�
 | S2 | `pipeline/s2_fetch_docs.py` | `hkjc_entries_index.csv` → `cache/docs/{race_uid}/` | ✅ |
 | S2b | `pipeline/s2b_archive.py` | `cache/docs/` → `archive` 表 + `cache/archive.csv` | ✅ |
 | S3 | `pipeline/s3_parse.py` | `cache/docs/` → `cache/races.csv` + `cache/entries.csv` | ✅ |
-| S4 | `pipeline/s4_names.py` | S3 产物 + JBIS + 覆盖层 → `cache/names.csv` | ✅ |
+| S3b | `pipeline/s3b_identity.py` | entries + `data-src/entity-merges.json` / `person-splits.json` → 改写人物 uid + `public/review/merge.json` | ✅ |
+| S4 | `pipeline/s4_names.py` | S3b 产物 + JBIS + 覆盖层 → `cache/names.csv` | ✅ |
 | S4b | `pipeline/s4b_pedigree.py` | JBIS 血統页 + 基本情報页 → `cache/pedigree.csv` + `cache/jbis_profile.csv` | ✅ 分批跑 |
 | S5 | `pipeline/s5_export.py` | 上述全部 + `db/schema.sql` → `public/data/*.json` | ✅ |
 | S6 | 站点切换 | `demo.json` → 分片数据（页面结构不变） | ✅ |
@@ -201,7 +202,8 @@ pipeline/
 ├── s1_classify.py          ✅
 ├── s2_fetch_docs.py        ⬜ 抓正文 + 附件
 ├── s2b_archive.py          ⬜ 提交 IA 存档
-├── s3_parse.py             ⬜ 解析 docx/doc/内联表 → races.csv + entries.csv
+├── s3_parse.py             ✅ 解析 docx/doc/内联表 → races.csv + entries.csv
+├── s3b_identity.py         ✅ 人物实体归一（字符层折叠在 common.fold_name）
 ├── s4_names.py             ⬜ 名称（港译/原文/简体/简称）+ JBIS 血统
 ├── s5_export.py            ⬜ 导分片 + manifest + 搜索索引
 ├── build_db.py             ⬜ 按 db/schema.sql 重建 *.sqlite
@@ -552,6 +554,7 @@ python pipeline/netguard.py status                 # 每 50 条看一眼
 python pipeline/netguard.py report                 # 跑完必做，结论写进下一批间隔
 python pipeline/s2b_archive.py --kind article --limit 20
 python pipeline/s3_parse.py                        # .doc 转换已缓存，重跑约 1 分钟
+python pipeline/s3b_identity.py                    # 人物归一：A 档自动并，B 档进 /edit/merge/ 复核
 python pipeline/s4_names.py --no-jbis              # 只出公告名称（秒级）
 python pipeline/s4_names.py --jbis-limit 200       # 分批抓 JBIS，已有缓存会跳
 python pipeline/build_db.py && python pipeline/s5_export.py
