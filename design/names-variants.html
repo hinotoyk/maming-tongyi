@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>名称档案 · 展示两案 · 马名通译</title>
+<style>
+  :root{
+    --ink:#0a0a0a; --ink2:#171717; --mut:#737373; --faint:#a1a1aa;
+    --line:#e5e5e5; --paper:#fff; --soft:#f5f5f5;
+    --pri:#0aa7a0; --acc:#e6f6f5; --accfg:#0b6b64;
+    --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--sans);font-size:14px;
+       line-height:1.5;letter-spacing:.1px;-webkit-font-smoothing:antialiased}
+  .doc{max-width:900px;margin:0 auto;padding:0 24px 96px}
+  a{color:var(--accfg);text-decoration:none}
+
+  /* 抬头：一条主色竖线，其余留白 */
+  .hd{padding:40px 0 22px;border-bottom:1px solid var(--line);margin-bottom:26px}
+  .hd .eyebrow{font-size:11px;letter-spacing:1.6px;color:var(--mut)}
+  .hd h1{margin:8px 0 10px;font-size:25px;font-weight:700;letter-spacing:-.2px;line-height:1.25}
+  .hd p{margin:0;max-width:640px;font-size:13.5px;line-height:1.95;color:#52525b}
+  .lock{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 0;padding:0;list-style:none}
+  .lock li{display:flex;align-items:center;gap:6px;padding:4px 9px;border:1px solid var(--line);
+           border-radius:100px;font-size:11px;color:#52525b;font-variant-numeric:tabular-nums}
+  .lock i{width:11px;height:11px;border-radius:3px;display:block}
+
+  /* 两案速览 */
+  .quick{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);
+         border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:44px}
+  .quick>div{background:#fff;padding:14px 16px}
+  .quick h3{margin:0 0 3px;font-size:13px;font-weight:600}
+  .quick h3 span{margin-left:6px;font-size:10.5px;font-weight:600;color:var(--accfg);
+                 background:var(--acc);border-radius:100px;padding:1px 7px}
+  .quick p{margin:0;font-size:12px;line-height:1.8;color:var(--mut)}
+
+  section{padding-top:8px}
+  .sb{display:flex;align-items:baseline;gap:10px;margin:34px 0 6px;padding-top:16px;border-top:1px solid var(--line)}
+  .sb h2{margin:0;font-size:16px;font-weight:700;letter-spacing:.2px}
+  .sb h2::before{content:"";display:inline-block;width:4px;height:15px;margin-right:9px;
+                 border-radius:2px;background:var(--pri);vertical-align:-2px}
+  .sb .k{margin-left:auto;font-size:11px;letter-spacing:1px;color:var(--faint)}
+  .say{margin:0 0 18px;max-width:660px;font-size:13px;line-height:1.95;color:#52525b}
+  .say b{font-weight:600;color:var(--ink2)}
+
+  .frame{margin:0 0 26px}
+  .cap{display:flex;align-items:center;gap:8px;margin-bottom:7px;font-size:11px;
+       letter-spacing:.6px;color:var(--faint)}
+  .cap b{font-weight:600;color:#52525b;letter-spacing:0}
+  .stage{border:1px solid var(--line);border-radius:10px;background:#fff;overflow:hidden}
+  .stage.pc{width:812px;max-width:100%}
+  .stage.mb{width:390px}
+  .frame.mb-frame{display:flex;flex-direction:column;align-items:flex-start}
+
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 9px;font-size:11px;color:var(--faint)}
+  .legend i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:1px}
+
+  .note{margin:0 0 34px;padding:12px 15px;border:1px dashed #dcdcdc;border-radius:9px;
+        background:#fcfcfc;font-size:12.5px;line-height:1.85;color:#52525b}
+  .note b{font-weight:600;color:var(--ink2)}
+  .note em{font-style:normal;color:var(--accfg);font-weight:600}
+
+  /* ══ 样张共用基础（只在 .nm 内生效）══════════════════════ */
+  .nm{font-family:var(--sans);color:var(--ink);font-size:13.5px;line-height:1.4;
+      letter-spacing:.1px;font-variant-numeric:tabular-nums;padding:0 0 2px}
+  .nm .tbl{width:100%;border-collapse:collapse;table-layout:fixed}
+  .nm thead th{background:#fafafa;border-bottom:1px solid var(--line);padding:8px 13px;
+               text-align:left;font-size:12.5px;font-weight:600;letter-spacing:.5px;white-space:nowrap;color:var(--ink2)}
+  .nm .th2{display:block;margin-top:1px;font-size:10.5px;font-weight:500;letter-spacing:.6px;color:var(--faint)}
+  .nm tbody td{border-bottom:1px solid var(--line);padding:8px 13px;vertical-align:middle;white-space:nowrap}
+  .nm tbody tr:last-child td{border-bottom:0}
+  .nm tbody tr:hover{background:rgb(10 167 160/.04)}
+  .nm tbody tr{transition:background-color .12s linear}
+  .nm th:first-child,.nm td.c-kind{padding-left:14px;padding-right:6px}
+  .nm .c-kind{font-size:11.5px;color:#8a8a8a}
+  .nm .c-cc{font-size:12px;color:#8a8a8a}
+  .nm .orig{font-size:10px;font-weight:600;letter-spacing:.4px;color:#7a8794;margin-left:5px}
+  .nm .orig-jp{color:#0b6b64}
+  .nm .ncell{display:flex;flex-direction:column;gap:1px;min-width:0;line-height:1.35}
+  .nm .ncell-main{display:block;overflow:hidden;font-size:13.5px;font-weight:600;white-space:nowrap;
+                  text-overflow:ellipsis;color:var(--ink2)}
+  .nm a.ncell-main{color:var(--ink2);text-decoration:none}
+  .nm .ncell-hk .ncell-main{color:var(--accfg)}
+  .nm .ncell-sub{display:block;overflow:hidden;font-size:11px;letter-spacing:.15px;white-space:nowrap;
+                 text-overflow:ellipsis;color:var(--faint)}
+  .nm .ncell-sub.same{color:#c2c2c2}
+  .nm .ncell-sub.ncell-sc{font-size:11.5px;color:#6b6b6b}
+  .nm .kk{font-size:11.5px;font-weight:600;color:var(--accfg)}
+  .nm .lv{display:inline-block;border-radius:100px;padding:1px 7px;font-size:10.5px;font-weight:700;
+          letter-spacing:.3px;line-height:1.6}
+  .nm .lv-l1{background:var(--acc);color:var(--accfg)}
+  .nm .lv-l3{background:#fff;color:var(--mut);border:1px dashed #c9c9c9}
+  .nm .lv-src{background:#fff;color:#52525b;border:1px solid #d4d4d8}
+
+  /* A · 手机：表转卡片 */
+  .nm.mb .tbl,.nm.mb tbody,.nm.mb tr,.nm.mb td{display:block}
+  .nm.mb thead{display:none}
+  .nm.mb .tbl{font-size:13px}
+  .nm.mb tr{display:grid;grid-template-columns:auto 1fr auto;
+            grid-template-areas:"kind cc st" "main main main" "hk hk hk" "own own alias";
+            align-items:baseline;column-gap:10px;row-gap:2px;padding:11px 14px 12px;
+            border-bottom:1px solid var(--line)}
+  .nm.mb td{padding:0;border:0;white-space:normal}
+  .nm.mb td.c-kind{grid-area:kind;font-size:10.5px;font-weight:600;letter-spacing:.6px;color:var(--faint)}
+  .nm.mb td.c-cc{grid-area:cc;font-size:11px;color:var(--faint)}
+  .nm.mb td.c-st{grid-area:st;justify-self:end}
+  .nm.mb td.c-main{grid-area:main;margin-top:3px}
+  .nm.mb td.c-hk{grid-area:hk}
+  .nm.mb td.c-own{grid-area:own;margin-top:3px;font-size:11.5px;color:#6b6b6b}
+  .nm.mb td.c-alias{grid-area:alias;justify-self:start;margin-top:3px;font-size:11.5px;color:#6b6b6b}
+  .nm.mb td.is-empty{display:none}
+  .nm.mb .ncell{flex-direction:row;align-items:baseline;flex-wrap:wrap;gap:0 6px}
+  .nm.mb .ncell-main{font-size:14.5px;white-space:normal}
+  .nm.mb td.c-hk .ncell-main{font-size:15px}
+  .nm.mb .ncell-sub{font-size:11.5px;white-space:normal}
+  .nm.mb .ncell-sub[data-l]::before{content:attr(data-l) " ";font-size:10px;letter-spacing:.4px;color:#c2c2c2}
+  .nm.mb td.c-own::before,.nm.mb td.c-alias::before{font-size:10px;letter-spacing:.4px;color:#c2c2c2}
+  .nm.mb td.c-own::before{content:"自译 "}
+  .nm.mb td.c-alias::before{content:"简称 "}
+
+  /* B · 单行名谱 */
+  .nm .chain{padding:0}
+  .nm .crow{display:flex;align-items:baseline;gap:12px;padding:7px 14px;border-bottom:1px solid var(--line)}
+  .nm .crow:last-child{border-bottom:0}
+  .nm .crow:hover{background:rgb(10 167 160/.04)}
+  .nm .cmeta{flex:none;width:112px;display:flex;align-items:baseline;gap:6px;
+             font-size:11px;line-height:1.5;color:#8f8f8f}
+  .nm .cmeta span{color:#b0b0b0}
+  .nm .cline{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;
+             gap:0 6px;margin:0;font-size:13.5px;line-height:1.5}
+  .nm .nn{white-space:nowrap}
+  .nm .nn-o{font-weight:600;color:var(--ink2)}
+  .nm .nn-e{font-size:12.5px;color:var(--faint)}
+  .nm .nn-h{font-size:14px;font-weight:600;color:var(--accfg)}
+  .nm .nn-s{font-size:12.5px;color:#6b6b6b}
+  .nm .nn-w{font-size:12.5px;color:#6b6b6b}
+  .nm .nn-a{font-size:12px;color:#6b6b6b;background:var(--soft);border-radius:4px;padding:0 5px}
+  .nm .arr{font-style:normal;font-size:11px;color:#bdbdbd}
+  .nm .cstat{flex:none;width:62px;text-align:right}
+  .nm.mb .crow{flex-wrap:wrap;gap:2px 10px;padding:11px 14px 12px}
+  .nm.mb .cmeta{width:auto;flex:1;display:flex;gap:8px;font-size:10.5px;font-weight:600;letter-spacing:.6px}
+  .nm.mb .cmeta span{display:inline;font-weight:400;color:#b8b8b8}
+  .nm.mb .cstat{width:auto}
+  .nm.mb .cline{order:3;flex-basis:100%;font-size:13px;gap:0 5px;line-height:1.6}
+  .nm.mb .nn-o{font-size:14.5px}
+  .nm.mb .nn-h{font-size:15px}
+  .nm.mb .nn-s,.nm.mb .nn-w{font-size:12px}
+  .nm.mb .nn-e,.nm.mb .nn-e + .arr{display:none}
+
+  footer{margin-top:60px;padding-top:14px;border-top:1px solid var(--line);
+         font-size:11px;line-height:1.9;color:#a1a1aa}
+  @media (max-width:700px){
+    .quick{grid-template-columns:1fr}
+    .stage.pc{width:100%}
+  }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <div class="hd">
+    <div class="eyebrow">马名通译 · 设计稿 · 2026.11.27</div>
+    <h1>名称档案：PC 与手机的两种排法</h1>
+    <p>下面四张样张都用站点真实数据渲染，只调版式，不动色板、不动检索与分页逻辑。两案的分歧只有一处：<b>还要不要保留「列」对齐</b>。</p>
+    <ul class="lock">
+      <li><i style="background:#0aa7a0"></i>#0aa7a0</li>
+      <li><i style="background:#e6f6f5"></i>#e6f6f5</li>
+      <li><i style="background:#0b6b64"></i>#0b6b64</li>
+      <li><i style="background:#171717"></i>#171717</li>
+      <li><i style="background:#737373"></i>#737373</li>
+      <li><i style="background:#e5e5e5"></i>#e5e5e5</li>
+    </ul>
+  </div>
+
+  <div class="quick">
+    <div>
+      <h3>方案 A · 双行对照表<span>已落地</span></h3>
+      <p>九列并成七列：原文/英文、港译/简体各占一格两行。列还在，能竖着扫；手机整表转卡片。</p>
+    </div>
+    <div>
+      <h3>方案 B · 单行名谱</h3>
+      <p>取消表头与列宽，每一行是一条「原名 › 英文 › 港译 › 简体」的名谱。一行读完，手机自然折行。</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="sb">
+      <h2>方案 A · 双行对照表</h2>
+      <span class="k">PAIR</span>
+    </div>
+    <p class="say">把「同源」的两栏并进一格：英文是原文的拉丁写法、简体是港译的逐字转写，都不是独立出处。并掉之后从九列降到七列，<b>1080 视口不用横向滚动</b>，而港译依然独占一列，可以竖着往下扫。</p>
+
+    <div class="frame">
+      <div class="cap"><b>桌面</b>· 内容区 812px · 七列 · 行高 48px</div>
+      <div class="stage pc"><div class="nm pc">
+  <table class="tbl">
+    <thead><tr>
+      <th style="width:8%">类型</th>
+      <th style="width:28%">原文<span class="th2">英文</span></th>
+      <th style="width:17%">港译<span class="th2">简体</span></th>
+      <th style="width:12%">自译</th>
+      <th style="width:11%">简称</th>
+      <th style="width:13%">国籍</th>
+      <th style="width:11%">状态</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンフェンサー</a>
+          <span class="ncell-sub" data-l="英文">A Shin Fencer</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進劍豪</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进剑豪</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンルカーノ</a>
+          <span class="ncell-sub" data-l="英文">A SHIN LUCANO</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進甲兵</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进甲兵</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンマホロバ</a>
+          <span class="ncell-sub" data-l="英文">A Shin Mahoroba</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進樂土</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进乐土</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Acento Final</a>
+          <span class="ncell-sub same" data-l="英文">Acento Final</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">壓軸呼聲</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">压轴呼声</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">阿根廷<span class="orig">ARG</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Adorado Rim</a>
+          <span class="ncell-sub same" data-l="英文">Adorado Rim</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">情之所鍾</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">情之所钟</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">阿根廷<span class="orig">ARG</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンマールス</a>
+          <span class="ncell-sub" data-l="英文">A Shin Mars</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進軍神</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进军神</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンレジューム</a>
+          <span class="ncell-sub" data-l="英文">A Shin Resume</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進重啟</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进重启</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンルーキー</a>
+          <span class="ncell-sub" data-l="英文">A Shin Rook</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進棋車</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进棋车</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Al Green</a>
+          <span class="ncell-sub same" data-l="英文">Al Green</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">大地回春</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">大地回春</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">阿根廷<span class="orig">ARG</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Erdenali</a>
+          <span class="ncell-sub same" data-l="英文">Erdenali</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">傲登龍門</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">傲登龙门</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias">M.傲 · S.门</td>
+        <td class="c-cc">法国<span class="orig">FRA</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">赛事</td>
+        <td class="c-main is-empty"><span class="ncell">
+          <a class="ncell-main" href="#">—</a>
+          <span class="ncell-sub same" data-l="英文">—</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">一哩冠軍賽</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">一哩冠军赛</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">日本</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">赛事</td>
+        <td class="c-main is-empty"><span class="ncell">
+          <a class="ncell-main" href="#">—</a>
+          <span class="ncell-sub same" data-l="英文">—</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">三歲以上一捷馬賽</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">三岁以上一捷马赛</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">日本</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">骑手</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Aaron Bullock</a>
+          <span class="ncell-sub same" data-l="英文">Aaron Bullock</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">布路奇</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">布路奇</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">—</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">练马师</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">A Bain &amp; N Taylor</a>
+          <span class="ncell-sub same" data-l="英文">A Bain &amp; N Taylor</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">貝恩年及戴嵐朗</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">贝恩年及戴岚朗</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">—</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr></tbody>
+  </table></div></div>
+    </div>
+
+    <div class="frame mb-frame">
+      <div class="cap"><b>手机</b>· 390px · 一实体一卡</div>
+      <div class="stage mb"><div class="nm mb">
+  <table class="tbl">
+    <thead><tr>
+      <th style="width:8%">类型</th>
+      <th style="width:28%">原文<span class="th2">英文</span></th>
+      <th style="width:17%">港译<span class="th2">简体</span></th>
+      <th style="width:12%">自译</th>
+      <th style="width:11%">简称</th>
+      <th style="width:13%">国籍</th>
+      <th style="width:11%">状态</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンフェンサー</a>
+          <span class="ncell-sub" data-l="英文">A Shin Fencer</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進劍豪</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进剑豪</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンルカーノ</a>
+          <span class="ncell-sub" data-l="英文">A SHIN LUCANO</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進甲兵</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进甲兵</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンマホロバ</a>
+          <span class="ncell-sub" data-l="英文">A Shin Mahoroba</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進樂土</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进乐土</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Acento Final</a>
+          <span class="ncell-sub same" data-l="英文">Acento Final</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">壓軸呼聲</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">压轴呼声</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">阿根廷<span class="orig">ARG</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Adorado Rim</a>
+          <span class="ncell-sub same" data-l="英文">Adorado Rim</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">情之所鍾</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">情之所钟</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">阿根廷<span class="orig">ARG</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンマールス</a>
+          <span class="ncell-sub" data-l="英文">A Shin Mars</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進軍神</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进军神</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンレジューム</a>
+          <span class="ncell-sub" data-l="英文">A Shin Resume</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進重啟</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进重启</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">エイシンルーキー</a>
+          <span class="ncell-sub" data-l="英文">A Shin Rook</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">榮進棋車</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">荣进棋车</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">日本<span class="orig orig-jp">JPN</span></td>
+        <td class="c-st"><span class="kk">已校订</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Al Green</a>
+          <span class="ncell-sub same" data-l="英文">Al Green</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">大地回春</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">大地回春</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc">阿根廷<span class="orig">ARG</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">马匹</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Erdenali</a>
+          <span class="ncell-sub same" data-l="英文">Erdenali</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">傲登龍門</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">傲登龙门</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias">M.傲 · S.门</td>
+        <td class="c-cc">法国<span class="orig">FRA</span></td>
+        <td class="c-st"><span class="lv lv-l3">待维护</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">赛事</td>
+        <td class="c-main is-empty"><span class="ncell">
+          <a class="ncell-main" href="#">—</a>
+          <span class="ncell-sub same" data-l="英文">—</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">一哩冠軍賽</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">一哩冠军赛</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">日本</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">赛事</td>
+        <td class="c-main is-empty"><span class="ncell">
+          <a class="ncell-main" href="#">—</a>
+          <span class="ncell-sub same" data-l="英文">—</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">三歲以上一捷馬賽</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">三岁以上一捷马赛</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">日本</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">骑手</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">Aaron Bullock</a>
+          <span class="ncell-sub same" data-l="英文">Aaron Bullock</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">布路奇</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">布路奇</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">—</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr>
+      <tr>
+        <td class="c-kind">练马师</td>
+        <td class="c-main"><span class="ncell">
+          <a class="ncell-main" href="#">A Bain &amp; N Taylor</a>
+          <span class="ncell-sub same" data-l="英文">A Bain &amp; N Taylor</span>
+        </span></td>
+        <td class="c-hk"><span class="ncell ncell-hk">
+          <span class="ncell-main">貝恩年及戴嵐朗</span>
+          <span class="ncell-sub ncell-sc" data-l="简体">贝恩年及戴岚朗</span>
+        </span></td>
+        <td class="c-own is-empty">—</td>
+        <td class="c-alias is-empty">—</td>
+        <td class="c-cc is-empty">—</td>
+        <td class="c-st"><span class="lv lv-src">公告直取</span></td>
+      </tr></tbody>
+  </table></div></div>
+    </div>
+
+    <div class="note"><b>代价：</b>自译与简称在 P0 语料里几乎全是空栏，仍各占 12%／11% 宽；手机上「原文 / 港译」上下两行要靠颜色分主次，不能像表格那样靠列位。</div>
+  </section>
+
+  <section>
+    <div class="sb">
+      <h2>方案 B · 单行名谱</h2>
+      <span class="k">CHAIN</span>
+    </div>
+    <p class="say">不排表，排<b>名谱</b>：一行就是这匹马全部中文名的来历顺序。没有表头，靠颜色认名栏；没有列宽，名字多长都放得下。<b>桌面一行读完，手机只是折成两行</b>，两端共用一套结构。</p>
+
+    <div class="legend">
+      <span><i style="background:#171717"></i>原文</span>
+      <span><i style="background:#a1a1aa"></i>英文</span>
+      <span><i style="background:#0b6b64"></i>港译</span>
+      <span><i style="background:#6b6b6b"></i>简体 / 自译 / 简称</span>
+    </div>
+
+    <div class="frame">
+      <div class="cap"><b>桌面</b>· 内容区 812px · 一行一实体 · 行高 36px</div>
+      <div class="stage pc"><div class="nm pc"><div class="chain">
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンフェンサー</span><i class="arr">›</i><span class="nn nn-e">A Shin Fencer</span><i class="arr">›</i><span class="nn nn-h">榮進劍豪</span><i class="arr">›</i><span class="nn nn-s">荣进剑豪</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンルカーノ</span><i class="arr">›</i><span class="nn nn-e">A SHIN LUCANO</span><i class="arr">›</i><span class="nn nn-h">榮進甲兵</span><i class="arr">›</i><span class="nn nn-s">荣进甲兵</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンマホロバ</span><i class="arr">›</i><span class="nn nn-e">A Shin Mahoroba</span><i class="arr">›</i><span class="nn nn-h">榮進樂土</span><i class="arr">›</i><span class="nn nn-s">荣进乐土</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>阿根廷 ARG</span></div>
+        <p class="cline"><span class="nn nn-o">Acento Final</span><i class="arr">›</i><span class="nn nn-h">壓軸呼聲</span><i class="arr">›</i><span class="nn nn-s">压轴呼声</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>阿根廷 ARG</span></div>
+        <p class="cline"><span class="nn nn-o">Adorado Rim</span><i class="arr">›</i><span class="nn nn-h">情之所鍾</span><i class="arr">›</i><span class="nn nn-s">情之所钟</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンマールス</span><i class="arr">›</i><span class="nn nn-e">A Shin Mars</span><i class="arr">›</i><span class="nn nn-h">榮進軍神</span><i class="arr">›</i><span class="nn nn-s">荣进军神</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンレジューム</span><i class="arr">›</i><span class="nn nn-e">A Shin Resume</span><i class="arr">›</i><span class="nn nn-h">榮進重啟</span><i class="arr">›</i><span class="nn nn-s">荣进重启</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンルーキー</span><i class="arr">›</i><span class="nn nn-e">A Shin Rook</span><i class="arr">›</i><span class="nn nn-h">榮進棋車</span><i class="arr">›</i><span class="nn nn-s">荣进棋车</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>阿根廷 ARG</span></div>
+        <p class="cline"><span class="nn nn-o">Al Green</span><i class="arr">›</i><span class="nn nn-h">大地回春</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>法国 FRA</span></div>
+        <p class="cline"><span class="nn nn-o">Erdenali</span><i class="arr">›</i><span class="nn nn-h">傲登龍門</span><i class="arr">›</i><span class="nn nn-s">傲登龙门</span><i class="arr">›</i><span class="nn nn-a">M.傲 · S.门</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow is-src">
+        <div class="cmeta">赛事<span>日本</span></div>
+        <p class="cline"><span class="nn nn-h">一哩冠軍賽</span><i class="arr">›</i><span class="nn nn-s">一哩冠军赛</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div>
+      <div class="crow is-src">
+        <div class="cmeta">赛事<span>日本</span></div>
+        <p class="cline"><span class="nn nn-h">三歲以上一捷馬賽</span><i class="arr">›</i><span class="nn nn-s">三岁以上一捷马赛</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">骑手<span></span></div>
+        <p class="cline"><span class="nn nn-o">Aaron Bullock</span><i class="arr">›</i><span class="nn nn-h">布路奇</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">练马师<span></span></div>
+        <p class="cline"><span class="nn nn-o">A Bain &amp; N Taylor</span><i class="arr">›</i><span class="nn nn-h">貝恩年及戴嵐朗</span><i class="arr">›</i><span class="nn nn-s">贝恩年及戴岚朗</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div></div></div></div>
+    </div>
+
+    <div class="frame mb-frame">
+      <div class="cap"><b>手机</b>· 390px · 同一份结构，省掉英文（与原文同为拉丁拼写）</div>
+      <div class="stage mb"><div class="nm mb"><div class="chain">
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンフェンサー</span><i class="arr">›</i><span class="nn nn-e">A Shin Fencer</span><i class="arr">›</i><span class="nn nn-h">榮進劍豪</span><i class="arr">›</i><span class="nn nn-s">荣进剑豪</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンルカーノ</span><i class="arr">›</i><span class="nn nn-e">A SHIN LUCANO</span><i class="arr">›</i><span class="nn nn-h">榮進甲兵</span><i class="arr">›</i><span class="nn nn-s">荣进甲兵</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンマホロバ</span><i class="arr">›</i><span class="nn nn-e">A Shin Mahoroba</span><i class="arr">›</i><span class="nn nn-h">榮進樂土</span><i class="arr">›</i><span class="nn nn-s">荣进乐土</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>阿根廷 ARG</span></div>
+        <p class="cline"><span class="nn nn-o">Acento Final</span><i class="arr">›</i><span class="nn nn-h">壓軸呼聲</span><i class="arr">›</i><span class="nn nn-s">压轴呼声</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>阿根廷 ARG</span></div>
+        <p class="cline"><span class="nn nn-o">Adorado Rim</span><i class="arr">›</i><span class="nn nn-h">情之所鍾</span><i class="arr">›</i><span class="nn nn-s">情之所钟</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンマールス</span><i class="arr">›</i><span class="nn nn-e">A Shin Mars</span><i class="arr">›</i><span class="nn nn-h">榮進軍神</span><i class="arr">›</i><span class="nn nn-s">荣进军神</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンレジューム</span><i class="arr">›</i><span class="nn nn-e">A Shin Resume</span><i class="arr">›</i><span class="nn nn-h">榮進重啟</span><i class="arr">›</i><span class="nn nn-s">荣进重启</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>日本 JPN</span></div>
+        <p class="cline"><span class="nn nn-o">エイシンルーキー</span><i class="arr">›</i><span class="nn nn-e">A Shin Rook</span><i class="arr">›</i><span class="nn nn-h">榮進棋車</span><i class="arr">›</i><span class="nn nn-s">荣进棋车</span></p>
+        <div class="cstat"><span class="kk">已校订</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>阿根廷 ARG</span></div>
+        <p class="cline"><span class="nn nn-o">Al Green</span><i class="arr">›</i><span class="nn nn-h">大地回春</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">马匹<span>法国 FRA</span></div>
+        <p class="cline"><span class="nn nn-o">Erdenali</span><i class="arr">›</i><span class="nn nn-h">傲登龍門</span><i class="arr">›</i><span class="nn nn-s">傲登龙门</span><i class="arr">›</i><span class="nn nn-a">M.傲 · S.门</span></p>
+        <div class="cstat"><span class="lv lv-l3">待维护</span></div>
+      </div>
+      <div class="crow is-src">
+        <div class="cmeta">赛事<span>日本</span></div>
+        <p class="cline"><span class="nn nn-h">一哩冠軍賽</span><i class="arr">›</i><span class="nn nn-s">一哩冠军赛</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div>
+      <div class="crow is-src">
+        <div class="cmeta">赛事<span>日本</span></div>
+        <p class="cline"><span class="nn nn-h">三歲以上一捷馬賽</span><i class="arr">›</i><span class="nn nn-s">三岁以上一捷马赛</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">骑手<span></span></div>
+        <p class="cline"><span class="nn nn-o">Aaron Bullock</span><i class="arr">›</i><span class="nn nn-h">布路奇</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div>
+      <div class="crow">
+        <div class="cmeta">练马师<span></span></div>
+        <p class="cline"><span class="nn nn-o">A Bain &amp; N Taylor</span><i class="arr">›</i><span class="nn nn-h">貝恩年及戴嵐朗</span><i class="arr">›</i><span class="nn nn-s">贝恩年及戴岚朗</span></p>
+        <div class="cstat"><span class="lv lv-src">公告直取</span></div>
+      </div></div></div></div>
+    </div>
+
+    <div class="note"><b>代价：</b>港译不再成一列，<b>没法一眼扫全表的译名</b>；名谱顺序固定为原文在左，与「先认马、再认译名」的检索习惯相反的人会觉得别扭。空栏直接不出现，代价是「这一栏确实没有」的信号变弱——要靠在段落里说明。</div>
+  </section>
+
+  <footer>
+    样张为静态渲染，不含检索与分页 · 色值与字族取自 src/styles/global.css 的 @theme<br />
+    两案的动效一致：入场位移 7px／340ms，行悬停 4% 主色底，全部在 prefers-reduced-motion 下关闭
+  </footer>
+</div>
+</body>
+</html>

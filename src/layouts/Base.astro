@@ -6,9 +6,11 @@ interface Props {
   title: string;
   /** 当前导航项 key，用于 aria-current */
   nav?: string;
+  /** 收成一条 940px 阅读栏（长列表页用，别让三列摊在 1180 上） */
+  narrow?: boolean;
 }
 
-const { title, nav = '' } = Astro.props;
+const { title, nav = '', narrow = false } = Astro.props;
 
 const groups = [
   {
@@ -17,7 +19,10 @@ const groups = [
   },
   {
     label: '编辑',
-    items: [{ key: 'edit', label: '批量改名', path: 'edit/' }],
+    items: [
+      { key: 'edit', label: '批量改名', path: 'edit/' },
+      { key: 'merge', label: '归一复核', path: 'edit/merge/' },
+    ],
   },
   {
     label: '说明',
@@ -36,13 +41,15 @@ const groups = [
       name="description"
       content="马匹、赛事、骑手、练马师的中文名档案：原文、英文、港译、简体、自译逐栏对照，每条名称都带出处。"
     />
+    <link rel="icon" href={href('favicon.svg')} type="image/svg+xml" />
+    <meta name="theme-color" content="#0aa7a0" />
   </head>
 
   <body>
     <div class="shell">
       <aside class="sidebar">
         <a class="brand" href={href()}>
-          <div class="brand-logo">马</div>
+          <span class="brand-logo" aria-hidden="true">译</span>
           <div class="brand-name">
             马名通译<small class="brand-sub">全球赛马中文名典</small>
           </div>
@@ -70,8 +77,8 @@ const groups = [
       </aside>
 
       <main class="content">
-        <header class="page-title">{title}</header>
-        <div class="wrap">
+        <header class:list={['page-title', narrow && 'narrow']}>{title}</header>
+        <div class:list={['wrap', narrow && 'narrow']}>
           <slot />
           <div class="foot">
             非官方站点，与香港赛马会及各赛马机构无隶属关系 · 只陈列名称与事实字段，不转载原文

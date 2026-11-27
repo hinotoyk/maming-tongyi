@@ -1,0 +1,430 @@
+---
+/**
+ * 归一复核页：把 s3b_identity.py 判不准的组摊开，人来做决定。
+ *
+ * 数据来自 public/review/merge.json（s3b 生成，不进 git）。
+ * 判定结果不落盘：页面只生成两段 JSON，由人贴回
+ *   data-src/entity-merges.json（确认合并）
+ *   data-src/person-splits.json（确认永不合并）
+ * 与批量改名页同一套口径：判断归人，管线只读不写。
+ */
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="归一复核" nav="merge">
+  <div class="sec">
+    归一复核 · <span class="en">IDENTITY MERGE</span>
+    <span class="sec-right" id="meta">读取候选…</span>
+  </div>
+
+  <p class="lead">
+    同一港译下有多条拉丁写法时，机器只能给出<b>候选</b>：姓氏＋名字首字母对得上就自动并了，
+    剩下判不准的（父子、昵称、拼写差异、称谓）留在这里等人。每个组默认全选并指向建议主名，
+    改完点「确认这一组」；勾掉的成员会写进否决表，以后重跑不再提出同样的合并。
+  </p>
+
+  <div class="searchrow">
+    <div class="sbox">
+      <input id="q" type="search" autocomplete="off" placeholder="搜港译 / 拉丁写法 / uid" aria-label="搜索分组" />
+    </div>
+    <label class="chk">
+      <input type="checkbox" id="onlyOpen" checked />
+      只看未判
+    </label>
+  </div>
+
+  <div class="seg" id="seg" role="group" aria-label="按判定筛选">
+    <button aria-pressed="false" data-kind="all">全部 <b id="nAll">0</b></button>
+    <button aria-pressed="true" data-kind="review">待判 <b id="nReview">0</b></button>
+    <button aria-pressed="false" data-kind="auto">已自动合并 <b id="nAuto">0</b></button>
+    <button aria-pressed="false" data-kind="done">已判 <b id="nDone">0</b></button>
+  </div>
+
+  <div id="list"></div>
+
+  <div id="empty" class="card" hidden>
+    <p class="srcnote" id="emptyMsg">没有匹配的分组。</p>
+  </div>
+
+  <div class="editbar" id="bar">
+    <span class="eb-cnt">已判 <b id="doneN">0</b> 组</span>
+    <span class="eb-spacer"></span>
+    <button class="btn-ghost" id="undo">清空判定</button>
+    <button class="btn" id="save">生成 JSON</button>
+  </div>
+
+  <div id="panel" hidden>
+    <div class="sec">将写入 <span class="en">MERGES / SPLITS</span></div>
+    <div class="srcnote">
+      两段分别合并进 <code>data-src/entity-merges.json</code> 与 <code>data-src/person-splits.json</code>，
+      然后重跑
+      <code>s3b_identity.py → s4_names.py → build_db.py → s5_export.py → npm run build</code>。
+      合并只改 uid，被并掉的写法会作为非主名行留着，搜索照样命中，页面显示「其他写法」。
+    </div>
+    <div class="outbox">
+      <div class="outbox-h">
+        <span>entity-merges.json</span>
+        <button class="btn-ghost mini" data-copy="merges">复制</button>
+      </div>
+      <pre class="patch" id="outMerges"></pre>
+    </div>
+    <div class="outbox">
+      <div class="outbox-h">
+        <span>person-splits.json</span>
+        <button class="btn-ghost mini" data-copy="splits">复制</button>
+      </div>
+      <pre class="patch" id="outSplits"></pre>
+    </div>
+  </div>
+
+  <div class="note">
+    <span class="ni">◇</span>
+    <div>
+      <b>为什么不自动判到底。</b>
+      港译是 HKJC 人工分配的，同一个中文名基本同一个人，但父子会共用姓氏（伍活 / Woodworth）、
+      昵称与拼写差异（Cliff / Clifford）也判不了。误合的代价比漏合大——两个人并成一条，
+      几万条出赛记录就串了，还得靠人工翻回来；所以宁可留一批在这里，判一次写进文件，之后永久生效。
+    </div>
+  </div>
+</Base>
+
+<style>
+  .grp {
+    border: 1px solid var(--color-line, #e5e5e5);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 12px 0;
+    background: var(--color-card, #fff);
+  }
+  .grp-h {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  .grp-hk {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .grp-r {
+    font-size: 12px;
+    color: #71717a;
+  }
+  .grp-why {
+    font-size: 12px;
+    color: #a16207;
+    background: #fef9c3;
+    border-radius: 6px;
+    padding: 1px 8px;
+  }
+  .grp-ok {
+    font-size: 12px;
+    color: #0f6e56;
+    background: #e1f5ee;
+    border-radius: 6px;
+    padding: 1px 8px;
+  }
+  .grp-done {
+    font-size: 12px;
+    color: #52525b;
+    background: #f4f4f5;
+    border-radius: 6px;
+    padding: 1px 8px;
+  }
+  table.mem {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  table.mem th {
+    text-align: left;
+    font-weight: 500;
+    color: #71717a;
+    padding: 4px 6px;
+    border-bottom: 1px solid #e5e5e5;
+    white-space: nowrap;
+  }
+  table.mem td {
+    padding: 5px 6px;
+    border-bottom: 1px solid #f4f4f5;
+    vertical-align: top;
+  }
+  table.mem tr:last-child td {
+    border-bottom: 0;
+  }
+  .nm {
+    font-family: var(--font-mono, ui-monospace, monospace);
+  }
+  .uid {
+    color: #a1a1aa;
+    font-size: 11px;
+  }
+  .acts {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .mini {
+    font-size: 11px;
+    padding: 1px 8px;
+  }
+  .outbox {
+    margin: 14px 0;
+  }
+  .outbox-h {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #71717a;
+    margin-bottom: 6px;
+  }
+</style>
+
+<script>
+  type Member = {
+    uid: string;
+    name: string;
+    names: string[];
+    hk: string;
+    races: number;
+    first: string;
+    last: string;
+    sample: string[];
+  };
+  type Group = {
+    key: string;
+    hk: string;
+    role: string;
+    verdict: 'auto' | 'review' | 'split';
+    reason: string;
+    canonical: string;
+    members: Member[];
+  };
+  type Judge = { keep: boolean; canonical: string; off: string[] };
+
+  const BASE = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+  const q = document.getElementById('q') as HTMLInputElement;
+  const onlyOpen = document.getElementById('onlyOpen') as HTMLInputElement;
+  const seg = document.getElementById('seg')!;
+  const list = document.getElementById('list')!;
+  const empty = document.getElementById('empty') as HTMLDivElement;
+  const emptyMsg = document.getElementById('emptyMsg')!;
+  const bar = document.getElementById('bar')!;
+  const doneN = document.getElementById('doneN')!;
+  const panel = document.getElementById('panel') as HTMLDivElement;
+  const outMerges = document.getElementById('outMerges')!;
+  const outSplits = document.getElementById('outSplits')!;
+
+  const ROLE: Record<string, string> = { jockey: '骑手', trainer: '练马师' };
+  const STORE = 'maming.merge.v1';
+
+  let groups: Group[] = [];
+  let kind = 'review';
+  /** 人做过的判定：key → keep（合并）/ canonical / off（勾掉、永不合并） */
+  const judged = new Map<string, Judge>();
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const norm = (s: string) => s.toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, '');
+
+  function persist() {
+    const raw: Record<string, Judge> = {};
+    for (const [k, v] of judged) raw[k] = v;
+    localStorage.setItem(STORE, JSON.stringify(raw));
+  }
+
+  function restore() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(STORE) || '{}') as Record<string, Judge>;
+      for (const [k, v] of Object.entries(raw)) judged.set(k, v);
+    } catch {
+      /* 本地缓存坏了就当没有，不影响复核 */
+    }
+  }
+
+  function paintMeta() {
+    const review = groups.filter((g) => g.verdict === 'review').length;
+    const auto = groups.filter((g) => g.verdict === 'auto').length;
+    document.getElementById('nAll')!.textContent = String(groups.length);
+    document.getElementById('nReview')!.textContent = String(review);
+    document.getElementById('nAuto')!.textContent = String(auto);
+    document.getElementById('nDone')!.textContent = String(judged.size);
+    doneN.textContent = String(judged.size);
+    bar.classList.toggle('on', judged.size > 0);
+  }
+
+  function rowHtml(g: Group, m: Member) {
+    const j = judged.get(g.key);
+    const keep = j ? !j.off.includes(m.uid) : true;
+    const canon = j ? j.canonical : g.canonical;
+    const nm = m.names.length ? m.names.map(esc).join('<br>') : esc(m.name || '—');
+    return (
+      `<tr data-uid="${esc(m.uid)}">` +
+      `<td><input type="checkbox" class="cb" ${keep ? 'checked' : ''}></td>` +
+      `<td><input type="radio" name="c-${esc(g.key)}" class="rd" ${m.uid === canon ? 'checked' : ''}></td>` +
+      `<td class="nm">${nm}<div class="uid">${esc(m.uid)}</div></td>` +
+      `<td>${esc(m.hk || '—')}</td>` +
+      `<td>${m.races}</td>` +
+      `<td>${esc(m.first)} → ${esc(m.last)}</td>` +
+      `<td>${m.sample.map(esc).join(' · ') || '—'}</td>` +
+      `</tr>`
+    );
+  }
+
+  function cardHtml(g: Group) {
+    const j = judged.get(g.key);
+    const badge = j
+      ? `<span class="grp-done">${j.off.length ? '已判：部分合并' : '已判：合并'}</span>`
+      : g.verdict === 'auto'
+        ? '<span class="grp-ok">已自动合并</span>'
+        : `<span class="grp-why">${esc(g.reason)}</span>`;
+    return (
+      `<div class="grp" data-key="${esc(g.key)}" data-verdict="${g.verdict}">` +
+      `<div class="grp-h"><span class="grp-hk">${esc(g.hk || '(无港译)')}</span>` +
+      `<span class="grp-r">${ROLE[g.role] || g.role} · ${g.members.length} 条写法</span>${badge}</div>` +
+      `<table class="mem"><thead><tr><th style="width:26px">留</th><th style="width:34px">主</th>` +
+      `<th>拉丁写法</th><th style="width:74px">港译</th><th style="width:44px">场次</th>` +
+      `<th style="width:150px">起止</th><th>示例赛事</th></tr></thead><tbody>` +
+      g.members.map((m) => rowHtml(g, m)).join('') +
+      `</tbody></table>` +
+      `<div class="acts">` +
+      `<button class="btn mini" data-act="confirm">确认这一组</button>` +
+      `<button class="btn-ghost mini" data-act="split">全部不合并</button>` +
+      (g.verdict === 'auto' ? '<button class="btn-ghost mini" data-act="undo">撤销自动合并</button>' : '') +
+      `<button class="btn-ghost mini" data-act="clear">清除这一组的判定</button>` +
+      `</div></div>`
+    );
+  }
+
+  function visible() {
+    const s = norm(q.value.trim());
+    return groups.filter((g) => {
+      if (kind !== 'all' && kind !== 'done' && g.verdict !== kind) return false;
+      if (kind === 'done' && !judged.has(g.key)) return false;
+      if (onlyOpen.checked && kind === 'all' && judged.has(g.key)) return false;
+      if (!s) return true;
+      const hay = norm([g.hk, g.reason, ...g.members.flatMap((m) => [m.uid, ...m.names])].join(' '));
+      return hay.includes(s);
+    });
+  }
+
+  function render() {
+    const rows = visible();
+    list.innerHTML = rows.map(cardHtml).join('');
+    empty.hidden = rows.length > 0;
+    emptyMsg.textContent = groups.length ? '没有匹配的分组。' : '没有候选：先跑 python pipeline/s3b_identity.py。';
+    paintMeta();
+  }
+
+  list.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest('button[data-act]') as HTMLButtonElement | null;
+    if (!btn) return;
+    const card = btn.closest('.grp') as HTMLDivElement;
+    const key = card.dataset.key!;
+    const g = groups.find((x) => x.key === key);
+    if (!g) return;
+    const trs = Array.from(card.querySelectorAll<HTMLTableRowElement>('tbody tr'));
+    const picked = trs.filter((tr) => (tr.querySelector('.cb') as HTMLInputElement).checked).map((tr) => tr.dataset.uid!);
+    const canonEl = trs.find((tr) => (tr.querySelector('.rd') as HTMLInputElement).checked);
+    const canonical = canonEl?.dataset.uid || g.canonical;
+
+    if (btn.dataset.act === 'confirm') {
+      if (!picked.includes(canonical)) picked.push(canonical);
+      judged.set(key, { keep: picked.length > 1, canonical, off: g.members.map((m) => m.uid).filter((u) => !picked.includes(u)) });
+    } else if (btn.dataset.act === 'split') {
+      judged.set(key, { keep: false, canonical, off: g.members.map((m) => m.uid) });
+    } else if (btn.dataset.act === 'undo') {
+      judged.set(key, { keep: false, canonical, off: g.members.map((m) => m.uid) });
+    } else if (btn.dataset.act === 'clear') {
+      judged.delete(key);
+    }
+    persist();
+    render();
+    panel.hidden = true;
+  });
+
+  seg.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest('button');
+    if (!b) return;
+    kind = b.dataset.kind || 'all';
+    seg.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    render();
+  });
+
+  let timer: number | undefined;
+  q.addEventListener('input', () => {
+    window.clearTimeout(timer);
+    timer = window.setTimeout(render, 150);
+  });
+  onlyOpen.addEventListener('change', render);
+
+  document.getElementById('undo')!.addEventListener('click', () => {
+    judged.clear();
+    persist();
+    panel.hidden = true;
+    render();
+  });
+
+  document.getElementById('save')!.addEventListener('click', () => {
+    const today = new Date().toISOString().slice(0, 10);
+    const entries: Record<string, { merge: string[]; note: string; decided_at: string }> = {};
+    const pairs: string[][] = [];
+    for (const [key, j] of judged) {
+      const g = groups.find((x) => x.key === key);
+      if (!g) continue;
+      const off = j.off.filter((u) => u !== j.canonical);
+      const others = g.members.map((m) => m.uid).filter((u) => u !== j.canonical && !off.includes(u));
+      if (j.keep && others.length) {
+        entries[j.canonical] = {
+          merge: others,
+          note: `复核页确认：${g.hk}（${ROLE[g.role] || g.role}）`,
+          decided_at: today,
+        };
+      }
+      for (const u of off) pairs.push([j.canonical, u].sort());
+    }
+    const mergesDoc = {
+      _meta: { schema: 'entity-merges/v1', updated: today, note: '人工确认的人物合并（由 /edit/merge/ 生成）' },
+      entries,
+    };
+    const splitsDoc = {
+      _meta: { schema: 'person-splits/v1', updated: today, note: '人工否决的合并对，优先级高于任何自动规则' },
+      pairs: pairs.sort((a, b) => a[0].localeCompare(b[0])),
+    };
+    outMerges.textContent = JSON.stringify(mergesDoc, null, 2);
+    outSplits.textContent = JSON.stringify(splitsDoc, null, 2);
+    panel.hidden = false;
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  document.querySelectorAll<HTMLButtonElement>('button[data-copy]').forEach((b) => {
+    b.addEventListener('click', async () => {
+      const text = (b.dataset.copy === 'merges' ? outMerges : outSplits).textContent || '';
+      try {
+        await navigator.clipboard.writeText(text);
+        b.textContent = '已复制';
+        window.setTimeout(() => (b.textContent = '复制'), 1200);
+      } catch {
+        b.textContent = '复制失败，手动选';
+      }
+    });
+  });
+
+  restore();
+  fetch(BASE + 'review/merge.json')
+    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+    .then((d) => {
+      groups = d.groups || [];
+      const m = d._meta || {};
+      document.getElementById('meta')!.textContent =
+        `人物 ${m.persons ?? '—'} · 分组 ${m.groups ?? 0} · 自动 ${m.auto ?? 0} / 待判 ${m.review ?? 0} · ${m.updated ?? ''}`;
+      render();
+    })
+    .catch(() => {
+      document.getElementById('meta')!.textContent = '候选文件未生成';
+      empty.hidden = false;
+      emptyMsg.textContent = '读不到 review/merge.json：先跑 python pipeline/s3b_identity.py。';
+    });
+</script>

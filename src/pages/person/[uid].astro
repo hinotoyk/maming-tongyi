@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Names from '../../components/Names.astro';
 import Info from '../../components/Info.astro';
 import Aliases from '../../components/Aliases.astro';
-import { persons, href, fmtDate, primaryName, nameCols, personRaces } from '../../lib/data';
+import { persons, href, fmtDate, primaryName, nameCols, personRaces, personByUid, personTitle } from '../../lib/data';
 
 export function getStaticPaths() {
   return persons.map((p) => ({ params: { uid: p.uid }, props: { p } }));
@@ -14,6 +14,10 @@ const races = personRaces(p);
 const mounts = races.reduce((n, x) => n + x.horses.length, 0);
 
 const cols = nameCols(p.names);
+/** 归一并进来的旧写法：只陈列，不当主名，不进分级 */
+const variants = (p.names.variants ?? []).filter((v) => v.field === 'en' || v.field === 'hk');
+/** 同名跨角色（既骑且练）：两条档案互链，不合并 */
+const others = (p.counterpart ?? []).map((uid) => personByUid(uid)).filter((x) => !!x);
 
 const facts = [
   { k: '身份', v: p.role_cn, r: p.role === 'jockey' ? 'Jockey' : 'Trainer' },
@@ -23,7 +27,7 @@ const facts = [
 ];
 ---
 
-<Base title={primaryName(p.names)} nav="archive">
+<Base title={personTitle(p)} nav="archive">
   <div class="crumb">
     <a href={href()}>名称档案</a><span>/</span><a href={href()}>{p.role_cn}</a><span>/</span>{primaryName(
       p.names,
@@ -32,11 +36,39 @@ const facts = [
 
   <div class="sec">
     名称 · <span class="en">NAMES</span>
-    <span class="sec-right"><span class="lv lv-l2">公告直取</span></span>
+    <span class="sec-right"><span class="lv lv-src">公告直取</span></span>
   </div>
 
   <Names cols={cols} />
   <Aliases names={p.names} />
+
+  {
+    variants.length > 0 && (
+      <div class="aliasline">
+        <span class="aliasline-k">其他写法</span>
+        <div class="chips">
+          {variants.map((v) => <span class="chip">{v.value}</span>)}
+        </div>
+      </div>
+    )
+  }
+
+  {
+    others.length > 0 && (
+      <p class="srcnote">
+        同名跨角色：
+        {others.map((o, i) => (
+          <>
+            {i > 0 && ' · '}
+            <a href={href(`person/${o.uid}/`)}>
+              {primaryName(o.names)}（{o.role_cn}）
+            </a>
+          </>
+        ))}
+        。同一个人在两个角色下各有一份档案，赛事与译名分别维护。
+      </p>
+    )
+  }
 
   <div class="sec">档案 · <span class="en">PROFILE</span></div>
   <Info rows={facts} />

@@ -23,6 +23,11 @@ export type Names = {
   own: string | null;
   /** 简称 / 缩写：多对一，人工维护，不属于「几栏名称」，也不参与分级 */
   alias: Alias[];
+  /**
+   * 同一栏的其他写法：归一并进来的旧写法（A P O'Brien ↔ Aidan O'Brien）。
+   * 只用于展示「其他写法」与检索，不参与主名选择，也不算名称分级。
+   */
+  variants?: { field: string; value: string }[];
 };
 
 /** 血统格：深代只有名字与生年，1-3 代才带毛色与自身 JBIS id（见 s5_export 的取舍） */
@@ -131,6 +136,8 @@ export type Person = {
   nationality_cn: string;
   names: Names;
   horses: string[];
+  /** 同名的另一种角色（既是骑手又是练马师时互链），P0 不合并成一条 */
+  counterpart?: string[];
 };
 
 type Shard<T> = { _meta: { schema: string; updated: string; count: number; kind: string }; items: T[] };
@@ -227,7 +234,7 @@ export function archiveRows(): ArchiveRow[] {
     uid: r.uid,
     names: r.names,
     status: '公告直取',
-    status_cls: 'lv-l2',
+    status_cls: 'lv-src',
     country: r.venue_country ?? '—',
     cc: '',
     path: `race/${r.uid}/`,
@@ -240,7 +247,7 @@ export function archiveRows(): ArchiveRow[] {
     uid: p.uid,
     names: p.names,
     status: '公告直取',
-    status_cls: 'lv-l2',
+    status_cls: 'lv-src',
     country: p.nationality_cn || '—',
     cc: p.nationality || '',
     path: `person/${p.uid}/`,
@@ -334,6 +341,31 @@ export function nameCols(n: Names) {
 /** 主名：优先港译，其次原文，再次英文 */
 export function primaryName(n: Names): string {
   return n.hk || n.original || n.en || '—';
+}
+
+/**
+ * 人物页标题：同名多条档案时补身份（跨角色同人只互链不合并），
+ * 同角色也同名（父子共用港译，如 Benny / Ronald Woodworth）再补拉丁名。
+ * 目录是 `/person/<uid>/`，标题不区分就会出现一批重复 title 的页面。
+ */
+const personNameIndex = (() => {
+  const idx = new Map<string, Person[]>();
+  for (const p of persons) {
+    const k = primaryName(p.names);
+    const arr = idx.get(k);
+    if (arr) arr.push(p);
+    else idx.set(k, [p]);
+  }
+  return idx;
+})();
+
+export function personTitle(p: Person): string {
+  const name = primaryName(p.names);
+  const same = personNameIndex.get(name) ?? [];
+  if (same.length < 2) return name;
+  const sameRole = same.filter((x) => x.role === p.role).length;
+  if (sameRole > 1) return `${name} ${p.names.en || p.uid} · ${p.role_cn}`;
+  return `${name} · ${p.role_cn}`;
 }
 
 /**

@@ -35,20 +35,20 @@ const qkey = (r: (typeof archive)[number]) =>
   `${searchKey(r.names)} ${r.country} ${r.cc}`.toLowerCase();
 ---
 
-<Base title="名称档案" nav="archive">
+<Base title="名称档案" nav="archive" narrow>
   <div class="sec">
     全部名称 · <span class="en">NAMES</span>
     <span class="sec-right">
-      共 {total} 条 · {counts.horse} 匹马 / {counts.race} 场赛事 / {counts.jockey} 位骑手 / {
-        counts.trainer
-      } 位练马师
+      共 {total} 条<span class="sec-more"
+        >· {counts.horse} 匹马 / {counts.race} 场赛事 / {counts.jockey} 位骑手 / {counts.trainer} 位练马师</span
+      >
     </span>
   </div>
 
   <p class="lead">
-    马匹、赛事、骑手、练马师平铺在一起，不做分组。每一行都是同一套名栏：<b>原文 → 英文 → 港译 → 简体 → 自译</b>，
-    缺哪一栏就空着，不猜、不补。其中<b>简体</b>只是港译的逐字转写，不另作校订；<b>简称</b>是稿中简写，
-    一个实体可以挂好几个（多对一），由人工维护。
+    一行一条名档：左边是<b>原文</b>（外文写法），右边是<b>港译</b>——中文主名。
+    英文只在和原文不同时出现（罗马字的还原写法），简体只是港译的繁简转写，也同样只在有差异时跟一行。
+    缺哪一栏就空着，不猜、不补；自译与简称在详情页。
   </p>
 
   <div class="searchrow">
@@ -57,7 +57,7 @@ const qkey = (r: (typeof archive)[number]) =>
         id="q"
         type="search"
         autocomplete="off"
-        placeholder="查原文 / 英文 / 港译 / 简体 / 自译 / 简称，空格分隔多个词（须同时命中）"
+        placeholder="查原文 / 英文 / 港译 / 简体 / 自译 / 简称"
         aria-label="搜索名称"
       />
     </div>
@@ -79,7 +79,7 @@ const qkey = (r: (typeof archive)[number]) =>
       <option value="">全部国籍</option>
       {nats.map((n) => <option value={n.code} data-n={n.count}>{n.cn} {n.code}（{n.count}）</option>)}
     </select>
-    <span class="searchhint">试试 巧繡 · 巧绣 · M.傲 · Embroidery · マイル · JPN · 父名</span>
+    <span class="searchhint">空格分隔多个词（须同时命中）· 试试 巧繡 · 巧绣 · M.傲 · Embroidery · マイル · JPN · 父名</span>
   </div>
 
   <div class="seg" id="seg" role="group" aria-label="按类型筛选">
@@ -90,53 +90,110 @@ const qkey = (r: (typeof archive)[number]) =>
     <button aria-pressed="false" data-kind="trainer">练马师 <b>{counts.trainer}</b></button>
   </div>
 
-  <div class="card scroll">
+  <div class="card names">
+    <div class="tblwrap">
     <table data-total={total}>
       <thead>
         <tr>
-          <th style="width:88px">类型</th>
-          <th>原文</th>
-          <th style="width:168px">英文</th>
-          <th style="width:142px">港译</th>
-          <th style="width:136px">简体</th>
-          <th style="width:132px">自译</th>
-          <th style="width:132px">简称</th>
-          <th style="width:92px">国籍</th>
-          <th style="width:84px">状态</th>
+          <th class="th-k">分类</th>
+          <th class="th-m">原文<span class="th2">英文</span></th>
+          <th class="th-h">港译<span class="th2">简体</span></th>
         </tr>
       </thead>
       <tbody id="rows">
         {
-          firstRows.map((r) => (
-            <tr data-kind={r.filter} data-cc={r.cc} data-uid={r.uid} data-q={qkey(r)}>
-              <td class="kind">{r.kind_cn}</td>
-              <td>
-                <a href={href(r.path)} class="nmain">
-                  {r.names.original || '—'}
-                </a>
-              </td>
-              <td class="en-cell">{r.names.en || '—'}</td>
-              <td>{r.names.hk || '—'}</td>
-              <td class="sc-cell">{r.names.sc || '—'}</td>
-              <td>{r.names.own || '—'}</td>
-              <td class="alias-cell">{aliasText(r.names) || '—'}</td>
-              <td class="kind">
-                {r.country}
-                {r.cc && <span class:list={['orig', r.cc === 'JPN' && 'orig-jp']}>{r.cc}</span>}
-              </td>
-              <td>
-                {r.status === '已校订' ? (
-                  <span class="kk">已校订</span>
-                ) : (
-                  <span class:list={['lv', r.status_cls]}>{r.status}</span>
-                )}
-              </td>
-            </tr>
-          ))
+          firstRows.map((r) => {
+            const alias = aliasText(r.names);
+            const others = [
+              r.names.own && { l: '自译', v: r.names.own },
+              alias && { l: '简称', v: alias },
+            ].filter(Boolean) as { l: string; v: string }[];
+            const enDiff = r.names.en && r.names.en !== r.names.original;
+            const scDiff = r.names.sc && r.names.sc !== r.names.hk;
+            return (
+              <tr data-kind={r.filter} data-cc={r.cc} data-uid={r.uid} data-q={qkey(r)}>
+                <td class:list={['c-kind', `k-${r.filter}`]}>
+                  <span class="ktxt">{r.kind_cn}</span>
+                  {r.cc && <span class="cc">{r.cc}</span>}
+                </td>
+                <td class:list={['c-main', !r.names.original && 'is-empty']}>
+                  <span class="ncell">
+                    <a
+                      href={href(r.path)}
+                      class="ncell-main ncell-go"
+                      title={r.names.original || undefined}
+                    >
+                      {r.names.original || '—'}
+                    </a>
+                    <button
+                      type="button"
+                      class="ncell-sub cp"
+                      data-copy={r.names.en || ''}
+                      data-l="英文"
+                      aria-label={`复制英文 ${r.names.en || ''}`}
+                      title="点击复制英文"
+                      hidden={!enDiff}
+                    >
+                      {r.names.en || ''}
+                    </button>
+                  </span>
+                </td>
+                <td class="c-hk">
+                  <span class="hkrow">
+                    <span class="ncell ncell-hk">
+                      <button
+                        type="button"
+                        class="ncell-main cp"
+                        data-copy={r.names.hk || ''}
+                        aria-label={`复制港译 ${r.names.hk || ''}`}
+                        title="点击复制港译"
+                      >
+                        {r.names.hk || '—'}
+                      </button>
+                      <button
+                        type="button"
+                        class="ncell-sub ncell-sc cp"
+                        data-copy={r.names.sc || ''}
+                        data-l="简体"
+                        aria-label={`复制简体 ${r.names.sc || ''}`}
+                        title="点击复制简体"
+                        hidden={!scDiff}
+                      >
+                        {r.names.sc || ''}
+                      </button>
+                    </span>
+                    {r.status === '已校订' && (
+                      <span class="kk" title="已校订">✓</span>
+                    )}
+                  </span>
+                  {others.length > 0 && (
+                    <span class="ncell-other">
+                      {others.map((o, i) => (
+                        <>
+                          {i > 0 && <i class="odot">·</i>}
+                          <span class="olab">{o.l}</span>
+                          <button
+                            type="button"
+                            class="cp"
+                            data-copy={o.v}
+                            aria-label={`复制${o.l} ${o.v}`}
+                            title={`点击复制${o.l}`}
+                          >
+                            {o.v}
+                          </button>
+                        </>
+                      ))}
+                    </span>
+                  )}
+                </td>
+              </tr>
+            );
+          })
         }
       </tbody>
     </table>
     <div id="nores" class="nores" hidden>没有匹配的名称。换一个关键词，或清空搜索框。</div>
+    </div>
   </div>
 
   <div class="pager">
@@ -190,7 +247,6 @@ const qkey = (r: (typeof archive)[number]) =>
     /** 检索字段：all 全字段 / name 只查名称 / o 原文 / e 英文 / h 港译 / s 简体 / w 自译 / a 简称 / 父 / 母 / 母父 / 父父 */
     let field = 'all';
     let page = 1;
-
     /** 名栏目 → 索引里的位掩码（与 s5_export 的 MASK 一一对应） */
     const FIELD_BIT: Record<string, number> = { o: 1, e: 2, h: 4, s: 8, w: 16, a: 32 };
     const PED_FIELDS = new Set(['父', '母', '母父', '父父']);
@@ -198,7 +254,8 @@ const qkey = (r: (typeof archive)[number]) =>
     /** 全量行（顺序即翻页顺序，来自 rows.json）；首屏不加载，点「下一页」或筛选时才拉 */
     let allRows: Row[] | null = null;
     let rowsP: Promise<void> | null = null;
-    let index: Record<string, { kind: string; uid: string; m: number }> | null = null;
+    /** 名称索引：一个键可以挂多个实体（同名赛事、同名人物），值是列表 */
+    let index: Record<string, { kind: string; uid: string; m: number }[]> | null = null;
     /** 血统索引：{父: {种马名: [马 uid…]}}，键在小写归一化后再存一份，键盘输入时不必反复转 */
     let pedIndex: Record<string, Record<string, string[]>> | null = null;
     let indexP: Promise<void> | null = null;
@@ -209,30 +266,76 @@ const qkey = (r: (typeof archive)[number]) =>
 
     const esc = (s: string | null | undefined) =>
       (s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
-    const norm = (s: string) => s.toLowerCase().replace(/\s+/g, '');
+    /** 检索归一：小写 + 去空白 + 撇号折叠（O’Brien 与 O'Brien 在索引里是同一个键） */
+    const norm = (s: string) =>
+      s.toLowerCase().replace(/[\u2018\u2019\u201a\u201b\u2032\u02bc\u02b9`\u00b4]/g, "'").replace(/\s+/g, '');
+
+    /** 可复制的名字：主名用 strong=true，副行（英文/简体）退一档 */
+    function cp(cls: string, val: string, label: string, show: boolean) {
+      const v = esc(val);
+      return (
+        `<button type="button" class="${cls} cp" data-copy="${v}" data-l="${label}" ` +
+        `aria-label="复制${label} ${v}" title="点击复制${label}"${show && val ? '' : ' hidden'}>${v}</button>`
+      );
+    }
 
     function rowHtml(r: Row) {
       const path = (r.k === 'person' ? 'person/' : r.k === 'race' ? 'race/' : 'horse/') + r.uid + '/';
       const alias = r.a.length
         ? r.a.slice(0, 3).join(' · ') + (r.a.length > 3 ? ` +${r.a.length - 3}` : '')
-        : '—';
+        : '';
+      const others = [r.w && { l: '自译', v: r.w }, alias && { l: '简称', v: alias }].filter(
+        Boolean
+      ) as { l: string; v: string }[];
+      const enDiff = r.e && r.e !== r.o;
+      const scDiff = r.s && r.s !== r.h;
       return (
         `<tr data-kind="${r.f}" data-cc="${esc(r.cc)}" data-uid="${esc(r.uid)}">` +
-        `<td class="kind">${esc(r.cn)}</td>` +
-        `<td><a href="${BASE}${path}" class="nmain">${esc(r.o || '—')}</a></td>` +
-        `<td class="en-cell">${esc(r.e || '—')}</td>` +
-        `<td>${esc(r.h || '—')}</td>` +
-        `<td class="sc-cell">${esc(r.s || '—')}</td>` +
-        `<td>${esc(r.w || '—')}</td>` +
-        `<td class="alias-cell">${esc(alias)}</td>` +
-        `<td class="kind">${esc(r.c)}${r.cc ? `<span class="orig${r.cc === 'JPN' ? ' orig-jp' : ''}">${esc(r.cc)}</span>` : ''}</td>` +
-        `<td>${r.st === '已校订' ? '<span class="kk">已校订</span>' : `<span class="lv ${esc(r.cls)}">${esc(r.st)}</span>`}</td>` +
+        `<td class="c-kind k-${r.f}">` +
+        `<span class="ktxt">${esc(r.cn)}</span>` +
+        (r.cc ? `<span class="cc">${esc(r.cc)}</span>` : '') +
+        `</td>` +
+        `<td class="c-main${r.o ? '' : ' is-empty'}">` +
+        `<span class="ncell">` +
+        `<a href="${BASE}${path}" class="ncell-main ncell-go" title="${esc(r.o || '')}">${esc(r.o || '—')}</a>` +
+        cp('ncell-sub', r.e || '', '英文', !!enDiff) +
+        `</span></td>` +
+        `<td class="c-hk">` +
+        `<span class="hkrow">` +
+        `<span class="ncell ncell-hk">` +
+        cp('ncell-main', r.h || '', '港译', true) +
+        cp('ncell-sub ncell-sc', r.s || '', '简体', !!scDiff) +
+        `</span>` +
+        (r.st === '已校订' ? '<span class="kk" title="已校订">✓</span>' : '') +
+        `</span>` +
+        (others.length
+          ? `<span class="ncell-other">` +
+            others
+              .map(
+                (o, i) =>
+                  (i ? '<i class="odot">·</i>' : '') +
+                  `<span class="olab">${esc(o.l)}</span>` +
+                  `<button type="button" class="cp" data-copy="${esc(o.v)}" aria-label="复制${esc(
+                    o.l
+                  )} ${esc(o.v)}" title="点击复制${esc(o.l)}">${esc(o.v)}</button>`
+              )
+              .join('') +
+            `</span>`
+          : '') +
+        `</td>` +
         `</tr>`
       );
     }
 
     function notice(text: string) {
-      tbody.innerHTML = `<tr><td colspan="9" class="dim">${esc(text)}</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="3" class="dim">${esc(text)}</td></tr>`;
+    }
+
+    /** 换页 / 筛选后的重排提示：给 tbody 挂一次 .swapped 让新行淡入，首屏不参与 */
+    function flashRows() {
+      tbody.classList.remove('swapped');
+      void tbody.offsetWidth;
+      tbody.classList.add('swapped');
     }
 
     function ensureRows(quiet = false): Promise<void> {
@@ -306,9 +409,10 @@ const qkey = (r: (typeof archive)[number]) =>
         if (byName && index) {
           for (const key in index) {
             if (!key.includes(t)) continue;
-            const v = index[key];
-            if (bit && !(v.m & bit)) continue;
-            cur.add(`${v.kind}:${v.uid}`);
+            for (const v of index[key]) {
+              if (bit && !(v.m & bit)) continue;
+              cur.add(`${v.kind}:${v.uid}`);
+            }
           }
         }
         for (const role of roles) {
@@ -375,6 +479,7 @@ const qkey = (r: (typeof archive)[number]) =>
       const start = (page - 1) * PAGE;
       const slice = view.slice(start, start + PAGE);
       tbody.innerHTML = slice.map(rowHtml).join('');
+      flashRows();
 
       fromEl.textContent = String(view.length ? start + 1 : 0);
       toEl.textContent = String(start + slice.length);
@@ -514,5 +619,59 @@ const qkey = (r: (typeof archive)[number]) =>
     const atDefault =
       kind === 'horse' && !nat && field === 'all' && !q.value.trim() && page === 1;
     if (!atDefault) render(false);
+
+    /* ── 点名字复制 ───────────────────────────────────────────
+     * 原文是链接（跳详情），其余名字都是按钮：委托到 document，
+     * 因为翻页会整块重写 tbody，逐个绑定会失效。
+     */
+    const tip = document.createElement('div');
+    tip.className = 'copytip';
+    tip.setAttribute('role', 'status');
+    tip.setAttribute('aria-live', 'polite');
+    document.body.appendChild(tip);
+    let tipT = 0;
+
+    async function writeClipboard(text: string) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch {
+        // 非安全上下文（或旧浏览器）没有 clipboard API，退回到隐藏 textarea
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.cssText = 'position:fixed;top:0;left:-9999px;opacity:0';
+        document.body.appendChild(ta);
+        ta.select();
+        let ok = false;
+        try {
+          ok = document.execCommand('copy');
+        } catch {
+          ok = false;
+        }
+        ta.remove();
+        return ok;
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest<HTMLElement>('.cp');
+      if (!btn) return;
+      const text = (btn.dataset.copy || '').trim();
+      if (!text || text === '—') return;
+      void writeClipboard(text).then((ok) => {
+        if (!ok) {
+          tip.textContent = '复制失败，请手动选取';
+          tip.classList.add('on');
+        } else {
+          tip.textContent = `已复制 · ${text.length > 16 ? text.slice(0, 16) + '…' : text}`;
+          tip.classList.add('on');
+          btn.classList.add('ok');
+          setTimeout(() => btn.classList.remove('ok'), 900);
+        }
+        clearTimeout(tipT);
+        tipT = window.setTimeout(() => tip.classList.remove('on'), 1500);
+      });
+    });
   </script>
 </Base>

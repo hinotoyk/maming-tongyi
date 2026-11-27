@@ -112,8 +112,10 @@ html {
   border-radius: 8px;
   background: var(--color-primary);
   color: var(--color-primary-foreground);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
 }
 
 .brand-name {
@@ -231,7 +233,21 @@ html {
 }
 
 .wrap {
+  max-width: 1180px;
+  margin: 0 auto;
   padding: 0 24px 40px;
+}
+
+/* 长列表页收成一条 940px 阅读栏：标题、导语、搜索、表格、翻页共用同一个
+ * 左边界。三列摊在 1180 上时，港译列右侧永远空一截——那不是留白不够，
+ * 是栏比内容宽。收窄后整页只有一条竖线可依，眼睛不用横跳。 */
+.page-title.narrow,
+.wrap.narrow {
+  max-width: 800px;
+}
+
+.page-title.narrow {
+  margin: 0 auto;
 }
 
 /* ── 名字四格：上小标签 + 下名字，一行 / 分隔 ─────────── */
@@ -397,6 +413,15 @@ tbody td {
 
 tbody tr:last-child td {
   border-bottom: 0;
+}
+
+/* 行悬停：主色 4% 的极浅底，只提示「这一行可以被点」，不改任何文字色 */
+tbody tr {
+  transition: background-color 0.12s linear;
+}
+
+tbody tr:hover {
+  background: rgb(10 167 160 / 0.04);
 }
 
 td.num {
@@ -611,6 +636,9 @@ td.num {
 .lv-l2 { background: var(--color-muted); color: #52525b; }
 .lv-l3 { background: #fff; color: var(--color-muted-foreground); border: 1px dashed #c9c9c9; }
 .lv-or { background: #fff; color: #52525b; border: 1px solid var(--color-border); }
+/* 来源徽章：直接取自公告（赛事 / 骑手 / 练马师）。它不是 L2——L2 是民间通译，
+   用 lv-l2 的灰底等于把 L1 港译标成二级译名，与「三级译名不得混级」冲突。 */
+.lv-src { background: #fff; color: #52525b; border: 1px solid #d4d4d8; }
 
 /* 未校订标记：虚线胶囊，只在例外行出现 */
 .pd {
@@ -1046,12 +1074,14 @@ tbody td a[target="_blank"] {
   color: var(--color-primary);
 }
 
-/* 手机上表格改为横向滚动，不裁切列 */
+/* 手机上表格改为横向滚动，不裁切列。
+ * 名称档案表除外：它在 ≤780px 已经整表转成卡片，若还被这条 min-width
+ * 撑到 620px，卡片会横向溢出、行尾的校订勾直接被推到屏幕外。 */
 @media (max-width: 640px) {
-  .card {
+  .card:not(.names) {
     overflow-x: auto;
   }
-  .card table {
+  .card:not(.names) table {
     min-width: 620px;
   }
 }
@@ -1134,6 +1164,11 @@ tbody td a[target="_blank"] {
 
 .en-cell {
   color: inherit;
+}
+
+/* 原文就是拉丁名（海外骑练）时，英文栏与原文同值——转灰表示「没有新信息」 */
+.en-cell.same {
+  color: #a1a1aa;
 }
 
 /* 简体列：派生自港译，同样用正文色——不靠变浅表达「无独立信息」 */
@@ -1414,4 +1449,799 @@ code {
 tbody td,
 thead th {
   vertical-align: middle;
+}
+
+/* ============================================================
+ * 动效语汇（刻度对齐 yunji-web：位移 3–7px、160–340ms、单一缓动）
+ *
+ * 一条规则：动效只回答「我刚做了什么」。页面进来编排一次，
+ * 之后只有悬停、聚焦、按下、换页这四种响应式反馈，没有循环动画。
+ * 全部动效在 prefers-reduced-motion 下关闭，不做任何补偿。
+ * ============================================================ */
+:root {
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+}
+
+@keyframes rowIn {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+}
+
+/* 页面入场：只编排 .wrap 的直接子元素，最多 7 段、总时长 < 300ms。
+ * 用 both 而不是 forwards，避免有 delay 的元素先闪一下。 */
+.wrap > * {
+  animation: riseIn 0.34s var(--ease-out) both;
+}
+
+/* 页头已经说明了「这是什么页」，紧跟的栏目标题不再重复 36px 留白 */
+.wrap > .sec:first-child {
+  margin-top: 6px;
+}
+
+.wrap > *:nth-child(1) { animation-delay: 0.02s; }
+.wrap > *:nth-child(2) { animation-delay: 0.05s; }
+.wrap > *:nth-child(3) { animation-delay: 0.08s; }
+.wrap > *:nth-child(4) { animation-delay: 0.11s; }
+.wrap > *:nth-child(5) { animation-delay: 0.14s; }
+.wrap > *:nth-child(6) { animation-delay: 0.16s; }
+.wrap > *:nth-child(n + 7) { animation-delay: 0.18s; }
+
+/* 换页 / 筛选后的重排：脚本给 tbody 挂 .swapped 才有动画，
+ * 首屏 SSR 的行不参与，免得和页面入场叠两层。 */
+tbody.swapped tr {
+  animation: rowIn 0.2s var(--ease-out) both;
+}
+
+tbody.swapped tr:nth-child(1) { animation-delay: 0s; }
+tbody.swapped tr:nth-child(2) { animation-delay: 0.012s; }
+tbody.swapped tr:nth-child(3) { animation-delay: 0.024s; }
+tbody.swapped tr:nth-child(4) { animation-delay: 0.036s; }
+tbody.swapped tr:nth-child(5) { animation-delay: 0.048s; }
+tbody.swapped tr:nth-child(6) { animation-delay: 0.06s; }
+tbody.swapped tr:nth-child(n + 7) { animation-delay: 0.072s; }
+
+/* 名称链接：悬停时下划线从左向右长出来，比换色更轻 */
+.nmain {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0 1px;
+  transition: background-size 0.22s var(--ease-out), color 0.15s;
+}
+
+.nmain:hover {
+  background-size: 100% 1px;
+}
+
+/* 控件：分段、翻页、按钮统一 150ms 过渡 + 按下回弹 1px */
+.seg button {
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.seg button:active {
+  transform: translateY(1px);
+}
+
+.pg,
+.btn,
+.btn-ghost,
+.sbtn {
+  transition: border-color 0.15s, color 0.15s, background-color 0.15s, transform 0.1s;
+}
+
+.pg:active:not(:disabled),
+.btn:active,
+.btn-ghost:active,
+.sbtn:active {
+  transform: translateY(1px);
+}
+
+/* 输入框聚焦：细边换成主色 + 一圈 3px 呼吸环，不改变控件尺寸 */
+.sbox input,
+.searchrow select,
+.editin {
+  transition: border-color 0.15s, box-shadow 0.18s;
+}
+
+.sbox input:focus,
+.searchrow select:focus,
+.editin:focus {
+  box-shadow: 0 0 0 3px rgb(10 167 160 / 0.13);
+}
+
+/* 键盘焦点：全站统一，鼠标点击不出现。不设 border-radius，
+ * 让描边跟着元素自己的圆角走（否则会把分段按钮的直角掰圆）。 */
+:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+/* ── 名称档案表：对照式词条 ─────────────────────────────────
+ * 数据实测（28028 行）：英文栏 78% 与原文完全同值、简体栏是港译的
+ * 繁→简转写（24% 连字都一样）、自译与简称 100% 为空、状态栏 89% 是同
+ * 一两个值。九列平铺等于一半宽度在展示「没有新信息」的内容——这是
+ * 页面看着脏、看着挤的真正原因，不是留白不够。
+ *
+ * 收回三列：分类（类型+国籍码）/ 原文 / 港译。
+ * 版式借用双语对照书：原文右对齐、港译从竖线起左对齐，那道竖线就是
+ * 「翻译发生的位置」。中间不再隔一道没有信息的空白，右边也不会拖出
+ * 半屏空地——整表收在 660px 居中，读起来像一页词典。
+ */
+.card.names {
+  overflow: hidden;
+}
+
+/* 宽度交给卡片：三列都要和上面的搜索框、下面的翻页共用同一个左边界，
+ * 单独缩窄表格会让整页出现一次「缩进」，比右侧留一点空更扎眼。
+ * 这层 wrapper 留着，是给窄屏之外还想单独调宽度时用的抓手。 */
+.card.names .tblwrap {
+  max-width: none;
+}
+
+.card.names table {
+  table-layout: fixed;
+}
+
+/* 表头：浅灰带 + 小字距，让第一行名字成为视觉起点 */
+.card.names thead th {
+  padding: 9px 16px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f4f4f4;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  color: #9d9d9d;
+}
+
+/* 分类栏是索引区：单独一档底色 + 右侧一道线收边 */
+.card.names thead th.th-k {
+  width: 92px;
+  padding-left: 20px;
+  background: #f0f0f0;
+  border-right: 1px solid #e6e6e6;
+}
+
+/* 原文栏右对齐，贴住中间的竖线 */
+.card.names thead th.th-m {
+  width: auto;
+  padding-right: 22px;
+  text-align: right;
+}
+
+/* 被并进来的同源栏：跟在主栏名后面，退一档，不换行 */
+/* 港译列定宽：最长的一条（「三歲以上雌馬一捷馬賽」10 字）也放得下，
+ * 剩下的宽度全给原文——原文右对齐，多出来的空会被对齐吃掉，
+ * 行尾就不会拖着一条没有内容的空白。 */
+.card.names thead th.th-h {
+  width: 240px;
+}
+
+.card.names .th2 {
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #c2c2c2;
+}
+
+.card.names .th2::before {
+  content: "/";
+  margin-right: 4px;
+  color: #d8d8d8;
+}
+
+/* 行：td 的 height 在表格里是最小值，副行有与没有都能保持同一节奏 */
+.card.names tbody td {
+  height: 38px;
+  padding: 4px 16px;
+  border-bottom: 1px solid #ededed;
+  vertical-align: middle;
+}
+
+/* 每 10 行把行线加深一档，给长列表一点段落感，不必真去分组 */
+.card.names tbody tr:nth-child(10n) td {
+  border-bottom-color: #dedede;
+}
+
+.card.names tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* ── 分类格：左边缘一道 3px 色条（四种类型用主色深浅分档）+ 类型 + 国籍码。
+ * 类型和国籍都是「这行是什么」，合到一格比左右各占一列好读。 */
+.card.names td.c-kind {
+  position: relative;
+  padding-left: 20px;
+  white-space: nowrap;
+  background: #fcfcfc;
+  border-right: 1px solid #efefef;
+}
+
+/* 悬停时让索引区跟着行底一起变，否则会割成两半 */
+.card.names tbody tr:hover td.c-kind {
+  background: transparent;
+}
+
+.card.names td.c-kind::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 3px;
+  height: 20px;
+  margin-top: -10px;
+  border-radius: 0 2px 2px 0;
+  background: var(--color-primary);
+  opacity: 0.7;
+  transition: opacity 0.12s linear;
+}
+
+.card.names td.c-kind.k-race::before {
+  opacity: 0.34;
+}
+
+.card.names td.c-kind.k-jockey::before {
+  opacity: 0.26;
+}
+
+.card.names td.c-kind.k-trainer::before {
+  opacity: 0.48;
+  height: 13px;
+  margin-top: -6.5px;
+}
+
+.card.names tbody tr:hover td.c-kind::before {
+  opacity: 0.95;
+}
+
+.card.names .ktxt {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: 0.07em;
+  color: #8a8a8a;
+}
+
+/* 国籍码：等宽字母，比「日本 JPN」省一半宽，竖着看是一列整齐的码 */
+.card.names td.c-kind .cc {
+  display: block;
+  margin-top: -2px;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 9.5px;
+  line-height: 1.45;
+  letter-spacing: 0.06em;
+  color: #b6b6b6;
+}
+
+/* ── 名字格：主名一行，派生写法一行小字。gap 只有 1px，两行成一个块。 */
+.ncell {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.ncell-main {
+  display: block;
+  overflow: hidden;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.012em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #565656;
+}
+
+a.ncell-main:hover {
+  color: var(--color-primary);
+}
+
+.ncell-sub {
+  display: block;
+  overflow: hidden;
+  font-size: 10.5px;
+  line-height: 1.4;
+  letter-spacing: 0.015em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #b3b3b3;
+}
+
+/* 与主名同值时不渲染，别用破折号占位 */
+.ncell-sub[hidden] {
+  display: none;
+}
+
+/* ── 名字即按钮：原文跳详情，其余一键复制 ──────────────────
+ * 重置放在 :where() 里（特异性 0），后面的 .ncell-main / .ncell-sub
+ * 字号字重才能照常覆盖。悬停时点线下划线 + 一枚图标，把「可点」
+ * 说清楚；点完图标换成勾，颜色亮一下，1 秒回位。
+ */
+:where(button.cp) {
+  appearance: none;
+  display: block;
+  max-width: 100%;
+  margin: 0 -2px;
+  padding: 0 2px;
+  border-radius: 3px;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cp {
+  transition: background-color 0.13s linear;
+}
+
+/* 悬停 = 这段文字被「选中」的浅色块 + 一枚复制图标。
+ * 不用虚线下划线：11px 的图标已经说明动作，再加一条线就重了。 */
+.cp:hover,
+.cp:focus-visible {
+  background: rgb(10 167 160 / 0.1);
+}
+
+/* 高亮跟着文字走，不铺满整格 */
+.cp {
+  align-self: flex-start;
+}
+
+.card.names td.c-main .cp {
+  align-self: flex-end;
+}
+
+.cp:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 1px;
+}
+
+/* 图标宽度从 0 起：平时不占行内空间，否则 240px 的港译列会被它挤掉
+ * 半个字，名字无故带上省略号。悬停时让位给图标，短名不受影响。 */
+.cp::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 12px;
+  margin-left: 0;
+  overflow: hidden;
+  vertical-align: -2px;
+  transition:
+    width 0.13s linear,
+    margin-left 0.13s linear,
+    opacity 0.13s linear;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23a3a3a3' d='M8.4.6H3.6c-.72 0-1.3.58-1.3 1.3v8.2h1.3V1.9h4.8V.6Zm1.9 2.6H5.5c-.72 0-1.3.58-1.3 1.3v6.2c0 .72.58 1.3 1.3 1.3h4.8c.72 0 1.3-.58 1.3-1.3V4.5c0-.72-.58-1.3-1.3-1.3Zm0 7.5H5.5V4.5h4.8v6.2Z'/%3E%3C/svg%3E")
+    center / 12px no-repeat;
+  opacity: 0;
+}
+
+.cp:hover::after,
+.cp:focus-visible::after,
+.cp.ok::after {
+  width: 12px;
+  margin-left: 5px;
+  opacity: 1;
+}
+
+.cp.ok {
+  color: var(--color-primary);
+}
+
+.cp.ok::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%230aa7a0' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 6.4 4.7 9 10 3.4'/%3E%3C/svg%3E");
+}
+
+/* 原文是链接：悬停时长出一条下划线 + 一枚 ↗，和复制的 ⧉ 分得开。
+ * 让链接收缩到字宽再靠右对齐，下划线才不会拉成整列宽的一条线。 */
+.ncell-go {
+  align-self: flex-end;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 0 1px;
+  transition: background-size 0.2s var(--ease-out);
+}
+
+.ncell-go:hover {
+  background-size: 100% 1px;
+}
+
+.ncell-go::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 9px;
+  margin-left: 0;
+  overflow: hidden;
+  vertical-align: 0;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='none' stroke='%230aa7a0' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2.6 7.4 7.4 2.6M4.2 2.6h3.2v3.2'/%3E%3C/svg%3E")
+    center / 9px no-repeat;
+  opacity: 0;
+  transition: opacity 0.14s linear;
+}
+
+.ncell-go:hover::after,
+.ncell-go:focus-visible::after {
+  width: 9px;
+  margin-left: 5px;
+  opacity: 1;
+}
+
+/* 自译 / 简称：两个带标签的可复制片，去掉原来那句「自译 x · 简称 y」的整串文本 */
+.ncell-other .olab {
+  margin-right: 3px;
+  color: #cdcdcd;
+}
+
+.ncell-other .cp {
+  display: inline;
+  color: #a8a8a8;
+}
+
+.ncell-other .odot {
+  margin: 0 6px;
+  font-style: normal;
+  color: #dcdcdc;
+}
+
+/* 复制完成的浮条：只在动作发生时出现，1.5 秒后自己走 */
+.copytip {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  z-index: 60;
+  padding: 8px 15px;
+  border-radius: 999px;
+  background: rgb(11 107 100 / 0.94);
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, 10px);
+  transition:
+    opacity 0.18s linear,
+    transform 0.22s var(--ease-out);
+}
+
+.copytip.on {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+/* 简体与港译只差字形，颜色比英文深一档，表示「这是同一个字」 */
+.ncell-sub.ncell-sc {
+  color: #9a9a9a;
+}
+
+/* 原文栏：右对齐贴线，与港译形成一次「跨过竖线的翻译」 */
+.card.names td.c-main {
+  padding-right: 22px;
+  text-align: right;
+}
+
+/* 原文缺失（赛事条目）：破折号也调淡 */
+.card.names td.is-empty .ncell-main {
+  color: #d8d8d8;
+}
+
+/* ── 港译格：从竖线起读。主名最大最重，校订勾跟在名字后面（不另起一列）。
+ * 原先「待维护 / 公告直取」做成徽章占了 11% 宽，而那两值覆盖 89% 的行，
+ * 等于用一整列反复说同一句话；现在只留「已校订」才有的一枚勾。 */
+.card.names td.c-hk {
+  position: relative;
+  border-left: 1px solid #e4e4e4;
+  padding-left: 20px;
+  padding-right: 12px;
+}
+
+.hkrow {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  min-width: 0;
+}
+
+/* 港译格要占满剩余宽度：里面的名字是按钮（align-self: flex-start 让高亮
+ * 只包住文字），若这一层也收缩到内容宽，按钮的可算宽度会塌成几个字，
+ * 名字就会无辜带上省略号。 */
+.ncell-hk {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ncell-hk .ncell-main {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  color: var(--color-accent-foreground);
+}
+
+.card.names .kk {
+  flex: none;
+  position: relative;
+  top: -1px;
+  display: inline-grid;
+  place-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(10 167 160 / 0.12);
+  color: var(--color-primary);
+  font-size: 8.5px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* 自译 / 简称：P0 语料下为空，一旦有值才出现在港译下方 */
+.ncell-other {
+  display: block;
+  overflow: hidden;
+  margin-top: 3px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #bebebe;
+}
+
+/* ── 窄屏：转卡片（≤780px）──────────────────────────────
+ * 一张卡就是一条词条：分类在顶、港译居中最大、原文在下。
+ * 派生写法与主名同行并排，省掉一整行高度。
+ */
+@media (max-width: 780px) {
+  .card.names {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    overflow: visible;
+  }
+
+  .card.names .tblwrap {
+    max-width: none;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    overflow: visible;
+  }
+
+  .card.names table,
+  .card.names tbody,
+  .card.names tr,
+  .card.names td {
+    display: block;
+  }
+
+  .card.names table {
+    font-size: 13px;
+  }
+
+  .card.names thead {
+    display: none;
+  }
+
+  .card.names tbody tr {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "kind kind"
+      "hk   hk"
+      "main main";
+    row-gap: 1px;
+    padding: 12px 2px 13px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .card.names tbody td {
+    height: auto;
+    padding: 0;
+    border: 0;
+  }
+
+  .card.names td.c-kind {
+    grid-area: kind;
+    padding-left: 11px;
+    border-right: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    background: transparent;
+  }
+
+  .card.names td.c-kind::before {
+    height: 11px;
+    margin-top: -5.5px;
+    width: 3px;
+  }
+
+  .card.names .ktxt {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+  }
+
+  .card.names td.c-kind .cc {
+    display: inline;
+    margin-top: 0;
+    font-size: 9px;
+  }
+
+  .card.names td.c-hk {
+    grid-area: hk;
+    margin-top: 5px;
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .card.names td.c-main {
+    grid-area: main;
+    margin-top: 2px;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  /* 卡片里派生写法与主名并排，链接不能再靠底对齐，回到基线 */
+  .card.names .ncell,
+  .card.names .ncell-go,
+  .card.names td.c-main .cp {
+    align-self: baseline;
+  }
+
+  /* 卡片里派生写法与主名并排，链接不能再靠底对齐，回到基线 */
+  .card.names .ncell,
+  .card.names .ncell-go,
+  .card.names td.c-main .cp {
+    align-self: baseline;
+  }
+
+  /* 派生写法改成横排，跟在主名后面 */
+  .card.names .ncell {
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0 8px;
+  }
+
+  .card.names .ncell-main {
+    font-size: 13.5px;
+    white-space: normal;
+  }
+
+  /* 卡片的港译行：名字吃剩余宽度（basis 0，不是 max-content），
+   * 勾才收得进这一行——否则名字按内容撑满，勾被推出视口外。 */
+  .card.names .hkrow {
+    width: 100%;
+  }
+
+  .card.names .ncell-hk {
+    flex: 1 1 0;
+  }
+
+  .card.names .hkrow .kk {
+    margin-left: auto;
+  }
+
+  .card.names td.c-hk .ncell-main {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+  }
+
+  .card.names .ncell-sub {
+    font-size: 11px;
+    white-space: normal;
+  }
+
+  /* 简体只差字形，手机上和港译并排时容易看成「重复了一遍」，
+   * 压到 10px、再淡一档，让它退回注文的地位 */
+  .card.names .ncell-sub.ncell-sc {
+    font-size: 10px;
+    color: #b4b4b4;
+  }
+
+  /* 简体只差字形，手机上和港译并排时容易看成「重复了一遍」，
+   * 压到 10px、再淡一档，让它退回注文的地位 */
+  .card.names .ncell-sub.ncell-sc {
+    font-size: 10px;
+    color: #b4b4b4;
+  }
+
+  /* 卡片里没有表头，用极小的字给派生写法补一个来源标签 */
+  .card.names .ncell-sub::before {
+    content: attr(data-l);
+    margin-right: 3px;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    color: #d2d2d2;
+  }
+
+  .card.names .ncell-other {
+    margin-top: 2px;
+    font-size: 10px;
+    white-space: normal;
+  }
+
+  /* 移动端分段控件也横向滚，不换行、不挤成两行；右缘渐隐提示还能滚 */
+  .seg {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    mask-image: linear-gradient(90deg, #000 calc(100% - 20px), transparent);
+  }
+
+  .seg::-webkit-scrollbar {
+    display: none;
+  }
+
+  .seg button {
+    flex: 1 0 auto;
+  }
+
+  /* 统计行独占一行，别和大写标题挤在一起 */
+  .sec {
+    flex-wrap: wrap;
+  }
+
+  /* 各类型的条数筛选条上已经有了，这里只留总数，给首屏省一行 */
+  .sec-more {
+    display: none;
+  }
+
+  .lead {
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+
+  .sec-right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .pager {
+    justify-content: center;
+  }
+}
+
+/* ── 尊重系统的减弱动效设置：一次全部关掉 ───────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .wrap > *,
+  tbody.swapped tr {
+    animation: none;
+  }
+
+  .nmain,
+  tbody tr,
+  .seg button,
+  .pg,
+  .btn,
+  .btn-ghost,
+  .sbtn,
+  .sbox input,
+  .searchrow select,
+  .editin,
+  .cp,
+  .cp::after,
+  .ncell-go,
+  .ncell-go::after,
+  .copytip {
+    transition: none;
+  }
+
+  .nmain:hover {
+    background-size: 0 1px;
+  }
 }
